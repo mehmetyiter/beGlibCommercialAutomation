@@ -102,6 +102,17 @@ Validate the update batch before importing:
 npm run validate:batch -- data/openalex-wave-001-official-source-updates.local.json
 ```
 
+## Apply In The Cockpit
+
+The local web cockpit can also apply completed review outcomes:
+
+1. Run the app with `npm run dev`.
+2. Use `Apply review` in the official review panel.
+3. Select the local JSON review package or outcomes file.
+4. Review the updated counts and vault status.
+
+The cockpit uses the same conservative checks as the CLI importer. It updates the local browser vault only; it does not send outreach and does not write operational data into git.
+
 Synthetic importer smoke test:
 
 ```bash

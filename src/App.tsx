@@ -39,6 +39,7 @@ import {
   resetVaultState,
   validateResearchBatch,
 } from './lib/localVault';
+import { applyOfficialSourceReviewToCandidates } from './lib/officialSourceReview';
 import { getTemplateForCandidate, renderOutreachDraft } from './lib/outreach';
 import { assessStarRating } from './lib/starRating';
 import { buildVerificationTasks, createCandidateTasks } from './lib/verificationQueue';
@@ -48,7 +49,9 @@ import type {
   CandidateCategory,
   CandidateStatus,
   ComplianceAssessment,
+  OfficialSourceApplySummary,
   ReplyExample,
+  ResearchBatch,
   RiskLevel,
   StarAssessment,
   VerificationTask,
@@ -97,6 +100,9 @@ function App() {
     getDefaultSelectedCandidateId(vaultState.candidates),
   );
   const [vaultMessage, setVaultMessage] = useState('Local vault ready.');
+  const [reviewApplyMessage, setReviewApplyMessage] = useState('No review outcomes applied.');
+  const [reviewApplySummary, setReviewApplySummary] = useState<OfficialSourceApplySummary | null>(null);
+  const [reviewApplyProblems, setReviewApplyProblems] = useState({ errors: [] as string[], warnings: [] as string[] });
 
   const assessedCandidates = useMemo<AssessedCandidate[]>(
     () =>
@@ -245,6 +251,60 @@ function App() {
     }
   }
 
+  async function handleApplyOfficialReview(file: File | undefined) {
+    if (!file) {
+      return;
+    }
+
+    try {
+      const parsed = JSON.parse(await file.text()) as unknown;
+      const result = applyOfficialSourceReviewToCandidates(vaultState.candidates, parsed);
+      setReviewApplySummary(result.summary);
+      setReviewApplyProblems({ errors: result.errors, warnings: result.warnings });
+
+      if (!result.ok) {
+        setReviewApplyMessage(`Apply blocked: ${result.errors[0] ?? 'review outcomes need attention.'}`);
+        setVaultState((currentState) =>
+          appendAuditEvent(
+            currentState,
+            createAuditEvent('validation_failed', 'Official-source review apply failed.', {
+              errors: result.errors.length,
+              file: file.name,
+            }),
+          ),
+        );
+        return;
+      }
+
+      const updateBatch: ResearchBatch = {
+        batchId: `official-source-review-ui-${Date.now()}`,
+        createdAt: new Date().toISOString(),
+        sourceLabel: `Official-source UI apply: ${file.name}`,
+        researcher: 'beGlib cockpit',
+        notes:
+          'Generated in the local cockpit from completed official-source review outcomes. This does not approve outreach.',
+        candidates: result.updatedCandidates,
+      };
+      const validation = validateResearchBatch(updateBatch);
+
+      if (!validation.ok || !validation.batch) {
+        setReviewApplyMessage(`Apply blocked: ${validation.errors.join(' ')}`);
+        setReviewApplyProblems({ errors: validation.errors, warnings: validation.warnings });
+        return;
+      }
+
+      const importResult = importResearchBatch(vaultState, validation.batch);
+      setVaultState(importResult.state);
+      setSelectedCandidateId(result.updatedCandidates[0]?.id ?? selectedCandidateId);
+      setVaultMessage(`Applied official-source updates for ${result.summary.updated} candidates.`);
+      setReviewApplyMessage(`Applied ${result.summary.updated} updates from ${file.name}.`);
+      setReviewApplyProblems({ errors: [], warnings: result.warnings });
+    } catch (error) {
+      setReviewApplyMessage(error instanceof Error ? error.message : 'Review apply failed.');
+      setReviewApplyProblems({ errors: [error instanceof Error ? error.message : 'Review apply failed.'], warnings: [] });
+    }
+  }
+
   function handleResetVault() {
     const resetState = resetVaultState(candidates);
     setVaultState(resetState);
@@ -290,8 +350,8 @@ function App() {
       <main className="workspace">
         <section className="topbar" aria-label="Workspace summary">
           <div>
-            <p className="eyebrow">Sprint 3 cockpit</p>
-            <h2>Local candidate vault, approval gates, and AI reply triage</h2>
+            <p className="eyebrow">Research cockpit</p>
+            <h2>Local candidate vault, official review gates, and AI reply triage</h2>
           </div>
           <div className="topbar-actions">
             <button className="icon-button" type="button" aria-label="Review inbox">
@@ -338,6 +398,13 @@ function App() {
           </div>
           <small>Updated {new Date(vaultState.updatedAt).toLocaleString()}</small>
         </section>
+
+        <OfficialReviewApplyPanel
+          message={reviewApplyMessage}
+          onApply={handleApplyOfficialReview}
+          problems={reviewApplyProblems}
+          summary={reviewApplySummary}
+        />
 
         <section className="control-band" aria-label="Candidate filters">
           <div className="search-box">
@@ -455,6 +522,94 @@ function App() {
           </div>
         </section>
       </main>
+    </div>
+  );
+}
+
+function OfficialReviewApplyPanel({
+  message,
+  onApply,
+  problems,
+  summary,
+}: {
+  message: string;
+  onApply: (file: File | undefined) => void | Promise<void>;
+  problems: { errors: string[]; warnings: string[] };
+  summary: OfficialSourceApplySummary | null;
+}) {
+  const values = summary ?? {
+    outcomesRead: 0,
+    updated: 0,
+    routesAdded: 0,
+    profileOnly: 0,
+    suppressed: 0,
+    skipped: 0,
+  };
+  const hasProblems = problems.errors.length > 0 || problems.warnings.length > 0;
+
+  return (
+    <section className="review-apply-panel" aria-label="Official review apply">
+      <div className="review-apply-heading">
+        <span aria-hidden="true">
+          <ClipboardCheck size={20} />
+        </span>
+        <div>
+          <p className="eyebrow">Official review</p>
+          <h3>Outcome apply</h3>
+        </div>
+      </div>
+
+      <div className="review-stat-grid" aria-label="Official review apply summary">
+        <ReviewStat label="Outcomes" value={values.outcomesRead} />
+        <ReviewStat label="Updated" value={values.updated} />
+        <ReviewStat label="Routes" value={values.routesAdded} />
+        <ReviewStat label="Profiles" value={values.profileOnly} />
+        <ReviewStat label="Suppress" value={values.suppressed} />
+        <ReviewStat label="Skipped" value={values.skipped} />
+      </div>
+
+      <div className="review-apply-actions">
+        <label className="secondary-action">
+          <UploadCloud size={18} aria-hidden="true" />
+          Apply review
+          <input
+            accept="application/json"
+            aria-label="Apply official review outcome JSON"
+            onChange={(event) => {
+              void onApply(event.target.files?.[0]);
+              event.target.value = '';
+            }}
+            type="file"
+          />
+        </label>
+        <span className={problems.errors.length > 0 ? 'review-apply-message error' : 'review-apply-message'}>
+          {message}
+        </span>
+      </div>
+
+      {hasProblems && (
+        <div className="review-problem-list" aria-label="Official review apply problems">
+          {problems.errors.slice(0, 3).map((error) => (
+            <span className="error" key={error}>
+              {error}
+            </span>
+          ))}
+          {problems.warnings.slice(0, 3).map((warning) => (
+            <span className="warning" key={warning}>
+              {warning}
+            </span>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function ReviewStat({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="review-stat">
+      <strong>{value}</strong>
+      <span>{label}</span>
     </div>
   );
 }

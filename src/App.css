@@ -252,6 +252,126 @@
   flex: 0 0 auto;
 }
 
+.review-apply-panel {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.8fr) minmax(360px, 1.4fr) minmax(260px, 1fr);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border: 1px solid #d6e2df;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.review-apply-heading {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-apply-heading > span {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  color: #1f5d50;
+  background: #e4f2ed;
+}
+
+.review-apply-heading h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.review-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.review-stat {
+  min-height: 50px;
+  display: grid;
+  align-content: center;
+  gap: 3px;
+  padding: 8px;
+  border-radius: 7px;
+  background: #f7faf9;
+}
+
+.review-stat strong,
+.review-stat span {
+  display: block;
+}
+
+.review-stat strong {
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.review-stat span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.review-apply-actions {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.review-apply-message {
+  min-width: 0;
+  color: var(--muted-strong);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.review-apply-message.error {
+  color: #8e241d;
+}
+
+.review-problem-list {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.review-problem-list span {
+  min-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.review-problem-list .error {
+  color: #8e241d;
+  background: #ffe5e1;
+}
+
+.review-problem-list .warning {
+  color: #704b00;
+  background: #ffe8b8;
+}
+
 .metric-tile {
   min-height: 84px;
   display: flex;
@@ -1127,7 +1247,8 @@
 
 @media (max-width: 1240px) {
   .content-grid,
-  .lower-grid {
+  .lower-grid,
+  .review-apply-panel {
     grid-template-columns: 1fr;
   }
 
@@ -1191,7 +1312,8 @@
   }
 
   .vault-band,
-  .vault-band div {
+  .vault-band div,
+  .review-apply-actions {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -1228,9 +1350,17 @@
   .star-scale {
     grid-template-columns: 1fr;
   }
+
+  .review-stat-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 520px) {
+  .review-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .candidate-side {
     grid-template-columns: 78px 78px;
   }

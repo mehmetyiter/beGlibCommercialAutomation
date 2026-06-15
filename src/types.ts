@@ -173,6 +173,59 @@ export interface ResearchBatch {
   candidates: Candidate[];
 }
 
+export type OfficialSourceOutcomeStatus =
+  | 'pending'
+  | 'verified-route'
+  | 'profile-only'
+  | 'needs-more-review'
+  | 'rejected'
+  | 'do-not-contact';
+
+export type OfficialSourceSuppressionStatus =
+  | 'unknown'
+  | 'clear'
+  | 'do-not-contact'
+  | 'opted-out'
+  | 'not-allowed';
+
+export type OfficialSourceSensitiveReviewStatus =
+  | 'pending'
+  | 'not-required'
+  | 'approved'
+  | 'rejected'
+  | 'legal-review-required';
+
+export interface OfficialSourceReviewOutcome {
+  candidateId: string;
+  outcomeStatus: OfficialSourceOutcomeStatus;
+  officialProfileUrl: string;
+  officialContactRouteType: ContactRoute['type'] | '';
+  officialContactRouteValue: string;
+  contactRouteSourceUrl: string;
+  verifiedAt: string;
+  jurisdiction: string;
+  suppressionStatus: OfficialSourceSuppressionStatus;
+  sensitiveCategoryReviewStatus: OfficialSourceSensitiveReviewStatus;
+  reviewerNotes: string;
+}
+
+export interface OfficialSourceApplySummary {
+  outcomesRead: number;
+  updated: number;
+  routesAdded: number;
+  profileOnly: number;
+  suppressed: number;
+  skipped: number;
+}
+
+export interface OfficialSourceApplyResult {
+  ok: boolean;
+  errors: string[];
+  warnings: string[];
+  summary: OfficialSourceApplySummary;
+  updatedCandidates: Candidate[];
+}
+
 export type AuditEventType =
   | 'vault_initialized'
   | 'batch_imported'
