@@ -9,6 +9,8 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Candidate taxonomy for scientists, artists, YouTubers, podcasters, academics, faith leaders, journalists, educators, technology voices, and thought leaders.
 - Compliance assessment rules that block do-not-contact, unknown consent, missing professional contact routes, and sensitive high-risk outreach.
 - Dashboard for candidate filtering, pipeline metrics, taxonomy coverage, selected-candidate dossiers, FAQ review ownership, and pilot wave staging.
+- Local browser vault for importing candidate research batches without committing lead data.
+- CLI validator for checking a research batch before importing it into the cockpit.
 - Outreach draft previews generated from category-specific templates.
 - AI reply triage examples with routing to AI draft, human review, or legal review.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
@@ -21,6 +23,18 @@ npm run dev
 ```
 
 Open the local Vite URL shown in the terminal, usually `http://localhost:5173`.
+
+Validate a synthetic research batch:
+
+```bash
+npm run validate:batch
+```
+
+Validate a local private batch:
+
+```bash
+npm run validate:batch -- data/your-private-batch.local.json
+```
 
 ## Repository Privacy
 
@@ -43,6 +57,8 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Candidate schema](./docs/candidate-schema.md)
 - [FAQ and reply routing](./docs/faq-reply-routing.md)
 - [Outreach playbook](./docs/outreach-playbook.md)
+- [Research batch workflow](./docs/research-batch-workflow.md)
+- [Sprint 3 notes](./docs/sprint-3-notes.md)
 - [Sprint 2 notes](./docs/sprint-2-notes.md)
 
 ## Compliance Baseline

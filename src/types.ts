@@ -136,3 +136,34 @@ export interface ReplyExample {
   recommendedOwner: 'ai-draft' | 'human-review' | 'legal-review';
   recommendedAction: string;
 }
+
+export interface ResearchBatch {
+  batchId: string;
+  createdAt: string;
+  sourceLabel: string;
+  researcher: string;
+  notes: string;
+  candidates: Candidate[];
+}
+
+export type AuditEventType =
+  | 'vault_initialized'
+  | 'batch_imported'
+  | 'candidate_selected'
+  | 'vault_reset'
+  | 'validation_failed';
+
+export interface AuditEvent {
+  id: string;
+  type: AuditEventType;
+  createdAt: string;
+  actor: 'system' | 'human';
+  summary: string;
+  metadata?: Record<string, string | number | boolean>;
+}
+
+export interface VaultState {
+  candidates: Candidate[];
+  auditEvents: AuditEvent[];
+  updatedAt: string;
+}

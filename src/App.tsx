@@ -13,10 +13,12 @@ import {
   Inbox,
   LockKeyhole,
   Mail,
+  RotateCcw,
   Search,
   ShieldAlert,
   ShieldCheck,
   Sparkles,
+  UploadCloud,
   UserCheck,
   Users,
   XCircle,
@@ -29,8 +31,17 @@ import { faqItems } from './data/faq';
 import { replyExamples } from './data/replies';
 import { taxonomy } from './data/taxonomy';
 import { assessCandidate } from './lib/compliance';
+import {
+  appendAuditEvent,
+  createAuditEvent,
+  importResearchBatch,
+  loadVaultState,
+  resetVaultState,
+  validateResearchBatch,
+} from './lib/localVault';
 import { getTemplateForCandidate, renderOutreachDraft } from './lib/outreach';
 import type {
+  AuditEvent,
   Candidate,
   CandidateCategory,
   CandidateStatus,
@@ -72,17 +83,19 @@ const replyClassLabels: Record<ReplyExample['replyClass'], string> = {
 const tabs = ['Command', 'Discovery', 'Outreach', 'AI replies', 'Governance'];
 
 function App() {
+  const [vaultState, setVaultState] = useState(() => loadVaultState(candidates));
   const [selectedCategory, setSelectedCategory] = useState<CandidateCategory | 'all'>('all');
   const [query, setQuery] = useState('');
   const [selectedCandidateId, setSelectedCandidateId] = useState(candidates[0]?.id ?? '');
+  const [vaultMessage, setVaultMessage] = useState('Local vault ready.');
 
   const assessedCandidates = useMemo<AssessedCandidate[]>(
     () =>
-      candidates.map((candidate) => ({
+      vaultState.candidates.map((candidate) => ({
         ...candidate,
         assessment: assessCandidate(candidate),
       })),
-    [],
+    [vaultState.candidates],
   );
 
   const filteredCandidates = useMemo(() => {
@@ -158,6 +171,59 @@ function App() {
     [assessedCandidates],
   );
 
+  function handleCandidateSelect(candidate: AssessedCandidate) {
+    setSelectedCandidateId(candidate.id);
+    setVaultState((currentState) =>
+      appendAuditEvent(
+        currentState,
+        createAuditEvent('candidate_selected', `Selected ${candidate.name} for review.`, {
+          candidateId: candidate.id,
+        }),
+      ),
+    );
+  }
+
+  async function handleImportBatch(file: File | undefined) {
+    if (!file) {
+      return;
+    }
+
+    try {
+      const parsed = JSON.parse(await file.text()) as unknown;
+      const validation = validateResearchBatch(parsed);
+
+      if (!validation.ok || !validation.batch) {
+        setVaultMessage(`Import blocked: ${validation.errors.join(' ')}`);
+        setVaultState((currentState) =>
+          appendAuditEvent(
+            currentState,
+            createAuditEvent('validation_failed', 'Research batch validation failed.', {
+              errors: validation.errors.length,
+              file: file.name,
+            }),
+          ),
+        );
+        return;
+      }
+
+      const result = importResearchBatch(vaultState, validation.batch);
+      setVaultState(result.state);
+      setSelectedCandidateId(validation.batch.candidates[0]?.id ?? selectedCandidateId);
+      setVaultMessage(
+        `Imported ${result.imported} new and replaced ${result.replaced} candidate records.`,
+      );
+    } catch (error) {
+      setVaultMessage(error instanceof Error ? error.message : 'Import failed.');
+    }
+  }
+
+  function handleResetVault() {
+    const resetState = resetVaultState(candidates);
+    setVaultState(resetState);
+    setSelectedCandidateId(candidates[0]?.id ?? '');
+    setVaultMessage('Local vault reset to synthetic demo candidates.');
+  }
+
   return (
     <div className="app-shell">
       <aside className="sidebar" aria-label="Workspace navigation">
@@ -196,12 +262,29 @@ function App() {
       <main className="workspace">
         <section className="topbar" aria-label="Workspace summary">
           <div>
-            <p className="eyebrow">Sprint 2 cockpit</p>
-            <h2>Lead discovery, approval gates, and AI reply triage</h2>
+            <p className="eyebrow">Sprint 3 cockpit</p>
+            <h2>Local candidate vault, approval gates, and AI reply triage</h2>
           </div>
           <div className="topbar-actions">
             <button className="icon-button" type="button" aria-label="Review inbox">
               <Inbox size={19} aria-hidden="true" />
+            </button>
+            <label className="secondary-action">
+              <UploadCloud size={18} aria-hidden="true" />
+              Import batch
+              <input
+                accept="application/json"
+                aria-label="Import research batch JSON"
+                onChange={(event) => {
+                  void handleImportBatch(event.target.files?.[0]);
+                  event.target.value = '';
+                }}
+                type="file"
+              />
+            </label>
+            <button className="secondary-action" onClick={handleResetVault} type="button">
+              <RotateCcw size={18} aria-hidden="true" />
+              Reset demo
             </button>
             <button className="primary-action" type="button">
               <ClipboardCheck size={18} aria-hidden="true" />
@@ -217,6 +300,15 @@ function App() {
           <Metric icon={<XCircle size={20} />} label="Blocked" value={stats.blocked.toString()} />
           <Metric icon={<Globe2 size={20} />} label="Routes" value={stats.publicRoutes.toString()} />
           <Metric icon={<Bot size={20} />} label="AI queue" value={stats.aiQueue.toString()} />
+        </section>
+
+        <section className="vault-band" aria-label="Local vault status">
+          <div>
+            <Database size={18} aria-hidden="true" />
+            <strong>{vaultState.candidates.length} local records</strong>
+            <span>{vaultMessage}</span>
+          </div>
+          <small>Updated {new Date(vaultState.updatedAt).toLocaleString()}</small>
         </section>
 
         <section className="control-band" aria-label="Candidate filters">
@@ -263,7 +355,7 @@ function App() {
                   candidate={candidate}
                   isSelected={candidate.id === selectedCandidate.id}
                   key={candidate.id}
-                  onSelect={() => setSelectedCandidateId(candidate.id)}
+                  onSelect={() => handleCandidateSelect(candidate)}
                 />
               ))}
             </div>
@@ -271,6 +363,7 @@ function App() {
 
           <aside className="detail-rail" aria-label="Selected candidate dossier">
             <CandidateDossier
+              auditEvents={vaultState.auditEvents}
               candidate={selectedCandidate}
               draft={selectedDraft}
               replies={candidateReplies}
@@ -437,12 +530,14 @@ function CandidateRow({
 }
 
 function CandidateDossier({
+  auditEvents,
   candidate,
   draft,
   replies,
   templateName,
   templateSubject,
 }: {
+  auditEvents: AuditEvent[];
   candidate: AssessedCandidate;
   draft: string;
   replies: ReplyExample[];
@@ -523,6 +618,17 @@ function CandidateDossier({
           {replies.length === 0 && <span>No reply examples connected to this candidate.</span>}
           {replies.map((reply) => (
             <span key={reply.id}>{replyClassLabels[reply.replyClass]}</span>
+          ))}
+        </div>
+      </PanelBlock>
+
+      <PanelBlock icon={<Database size={17} />} title="Audit trail">
+        <div className="audit-list">
+          {auditEvents.slice(0, 5).map((event) => (
+            <article key={event.id}>
+              <strong>{event.summary}</strong>
+              <span>{new Date(event.createdAt).toLocaleString()}</span>
+            </article>
           ))}
         </div>
       </PanelBlock>

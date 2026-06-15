@@ -119,6 +119,8 @@ Phase 1:
 - Category-specific outreach draft previews
 - AI reply triage simulation
 - Selected-candidate dossier and approval gates
+- Local browser vault with JSON batch import
+- CLI batch validator
 
 Phase 2:
 

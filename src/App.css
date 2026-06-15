@@ -69,6 +69,7 @@
 .taxonomy-item,
 .icon-button,
 .primary-action,
+.secondary-action,
 .candidate-select {
   border: 1px solid transparent;
   font: inherit;
@@ -148,7 +149,8 @@
 }
 
 .icon-button,
-.primary-action {
+.primary-action,
+.secondary-action {
   height: 40px;
   display: inline-flex;
   align-items: center;
@@ -172,8 +174,27 @@
   font-weight: 700;
 }
 
+.secondary-action {
+  position: relative;
+  gap: 8px;
+  padding: 0 12px;
+  color: var(--ink);
+  background: #ffffff;
+  border-color: var(--line);
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.secondary-action input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
 .icon-button:hover,
-.primary-action:hover {
+.primary-action:hover,
+.secondary-action:hover {
   transform: translateY(-1px);
 }
 
@@ -182,6 +203,53 @@
   grid-template-columns: repeat(6, minmax(120px, 1fr));
   gap: 10px;
   margin-bottom: 14px;
+}
+
+.vault-band {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border: 1px solid #cfe1da;
+  border-radius: 8px;
+  background: #f1faf6;
+}
+
+.vault-band div {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.vault-band svg {
+  flex: 0 0 auto;
+  color: #1f5d50;
+}
+
+.vault-band strong {
+  flex: 0 0 auto;
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.vault-band span,
+.vault-band small {
+  color: var(--muted-strong);
+  font-size: 12px;
+}
+
+.vault-band span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vault-band small {
+  flex: 0 0 auto;
 }
 
 .metric-tile {
@@ -732,6 +800,30 @@
   text-transform: uppercase;
 }
 
+.audit-list {
+  display: grid;
+  gap: 7px;
+}
+
+.audit-list article {
+  display: grid;
+  gap: 3px;
+  padding: 8px;
+  border-radius: 7px;
+  background: #f7faf9;
+}
+
+.audit-list strong {
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.audit-list span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
 .taxonomy-list,
 .faq-list,
 .reply-grid {
@@ -935,11 +1027,24 @@
   }
 
   .topbar-actions {
+    align-items: stretch;
+    flex-wrap: wrap;
     justify-content: stretch;
   }
 
-  .primary-action {
+  .primary-action,
+  .secondary-action {
     flex: 1;
+  }
+
+  .vault-band,
+  .vault-band div {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .vault-band span {
+    white-space: normal;
   }
 
   .nav-stack,

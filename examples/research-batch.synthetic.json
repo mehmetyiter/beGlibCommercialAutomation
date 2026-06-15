@@ -1,0 +1,48 @@
+{
+  "batchId": "synthetic-ai-education-001",
+  "createdAt": "2026-06-15T00:00:00.000Z",
+  "sourceLabel": "Synthetic AI education pilot",
+  "researcher": "beGlib internal",
+  "notes": "Synthetic example only. Do not put real lead data in this file.",
+  "candidates": [
+    {
+      "id": "cand-synth-101",
+      "name": "Dr. Leyla Arman",
+      "title": "Synthetic AI learning scientist",
+      "country": "United States",
+      "languages": ["English", "Turkish"],
+      "primaryCategory": "science",
+      "subcategories": ["AI and machine learning", "Education research", "Public science"],
+      "fitScore": 92,
+      "reachScore": 74,
+      "status": "needs-review",
+      "consentStatus": "public-business-contact",
+      "riskLevel": "low",
+      "channels": [
+        {
+          "platform": "website",
+          "label": "Synthetic official site",
+          "url": "https://example.edu/leyla-arman",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "Synthetic lab channel",
+          "url": "https://youtube.com/@synthetic-ai-learning",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "public-business-email",
+          "value": "speaking@example.edu",
+          "sourceUrl": "https://example.edu/leyla-arman/contact",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": ["https://example.edu/leyla-arman"],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "Synthetic candidate representing a high-fit AI and education researcher."
+    }
+  ]
+}

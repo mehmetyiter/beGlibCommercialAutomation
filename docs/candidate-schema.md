@@ -89,3 +89,31 @@ Required fields:
 - `confidence`
 - `recommendedOwner`
 - `recommendedAction`
+
+## Research Batch
+
+Research batches live outside git when they contain real lead data. The schema lives in `src/types.ts` as `ResearchBatch`.
+
+Required fields:
+
+- `batchId`
+- `createdAt`
+- `sourceLabel`
+- `researcher`
+- `notes`
+- `candidates`
+
+Use `examples/research-batch.synthetic.json` as a synthetic shape reference.
+
+## Audit Event
+
+The local vault records lightweight audit events with:
+
+- `id`
+- `type`
+- `createdAt`
+- `actor`
+- `summary`
+- `metadata`
+
+Audit events currently live in browser localStorage. Production storage should keep a server-side append-only audit log.
