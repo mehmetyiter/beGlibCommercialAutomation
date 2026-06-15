@@ -68,11 +68,11 @@ npm run research:creator-sources -- --local-env path/to/your.local.env --batch e
 
 Do not commit API keys or operational discovery outputs.
 
-## Confidence Filtering
+## Confidence And Retention
 
-The worker defaults to `--min-confidence medium` so broad runs do not fill review files with weak channel matches.
+The worker defaults to `--min-confidence medium` for the priority review queue, but it still keeps low-confidence suggestions as `deprioritizedSuggestions` in the local JSON output.
 
-Use exploratory mode when you want to inspect every returned suggestion:
+Use exploratory mode when you want low-confidence suggestions promoted into the priority suggestion list:
 
 ```bash
 npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --sources youtube --limit 25 --min-confidence low
@@ -83,6 +83,13 @@ Confidence is based on public evidence only:
 - `high`: exact name evidence plus topical overlap.
 - `medium`: exact name evidence, or first and last name evidence with topical overlap.
 - `low`: weak or partial identity evidence.
+
+Retention rules:
+
+- Low-confidence suggestions are retained, not discarded.
+- Deprioritized suggestions are not verified channels.
+- Deprioritized suggestions are not contact routes.
+- Low-star and no-star candidates remain in the research database.
 
 ## RSS Config
 
@@ -109,6 +116,7 @@ The worker matches feeds by `candidateId` or exact `name`.
 - Suggestions are discovery hints only.
 - A human must confirm that the channel or feed belongs to the same person.
 - Copy only verified suggestions into creator-signal review outcomes or candidate updates.
+- Keep low-confidence suggestions as discovery-only records for later review.
 - Do not infer hidden subscriber, follower, or listener counts.
 - Do not treat creator/media discovery as permission to contact.
 - Keep generated outputs in ignored local files or a private database.

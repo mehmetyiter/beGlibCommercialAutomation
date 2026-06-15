@@ -49,7 +49,7 @@ const maxResults = boundedNumber(args.max, 3, 1, 10);
 const minConfidence = getMinConfidence(args);
 const failures = [];
 const skippedSources = [];
-let filteredSuggestions = 0;
+let deprioritizedSuggestions = 0;
 const items = [];
 
 for (const candidate of selectedCandidates) {
@@ -80,8 +80,9 @@ for (const candidate of selectedCandidates) {
   }
 
   const suggestions = filterSuggestions(rawSuggestions, minConfidence);
-  filteredSuggestions += rawSuggestions.length - suggestions.length;
-  items.push(buildReviewItem(candidate, suggestions, rawSuggestions.length - suggestions.length));
+  const deferredSuggestions = rawSuggestions.filter((suggestion) => !suggestions.includes(suggestion));
+  deprioritizedSuggestions += deferredSuggestions.length;
+  items.push(buildReviewItem(candidate, suggestions, deferredSuggestions));
 }
 
 const reviewPackage = {
@@ -96,18 +97,21 @@ const reviewPackage = {
     selectedCandidates: selectedCandidates.length,
     offset: candidateOffset,
     sources: Array.from(sources),
-    youtubeSuggestions: countSuggestions(items, 'youtube-data-api'),
-    podcastIndexSuggestions: countSuggestions(items, 'podcastindex-api'),
-    rssSuggestions: countSuggestions(items, 'rss-feed'),
+    youtubeSuggestions: countAllSuggestions(items, 'youtube-data-api'),
+    podcastIndexSuggestions: countAllSuggestions(items, 'podcastindex-api'),
+    rssSuggestions: countAllSuggestions(items, 'rss-feed'),
+    prioritySuggestions: countPrioritySuggestions(items),
+    deprioritizedSuggestions,
     skippedSources: skippedSources.length,
-    filteredSuggestions,
+    filteredSuggestions: deprioritizedSuggestions,
     failures: failures.length,
     minConfidence,
   },
   rules: [
     'Suggestions are not verified channels.',
     'A human must confirm identity match before copying suggestions into reviewOutcome.',
-    'Low-confidence suggestions are filtered by default; rerun with --min-confidence low for exploratory review.',
+    'Low-confidence suggestions are retained as deprioritized discovery records, not discarded.',
+    'Stars and confidence scores are prioritization signals only; they never remove a candidate from the database.',
     'Do not infer audience counts from unavailable or hidden source data.',
     'Do not treat creator/media discovery as permission to contact.',
     'Keep generated operational outputs in ignored local files or a private database.',
@@ -130,7 +134,8 @@ console.log(`YouTube suggestions: ${reviewPackage.summary.youtubeSuggestions}`);
 console.log(`PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`);
 console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
 console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
-console.log(`Filtered suggestions: ${reviewPackage.summary.filteredSuggestions}`);
+console.log(`Priority suggestions: ${reviewPackage.summary.prioritySuggestions}`);
+console.log(`Deprioritized suggestions retained: ${reviewPackage.summary.deprioritizedSuggestions}`);
 console.log(`Minimum confidence: ${reviewPackage.summary.minConfidence}`);
 console.log(`Failures: ${reviewPackage.summary.failures}`);
 
@@ -401,17 +406,19 @@ function rssSuggestion(candidate, feed, parsedFeed) {
   };
 }
 
-function buildReviewItem(candidate, suggestions, filteredSuggestionCount) {
+function buildReviewItem(candidate, suggestions, deprioritizedSuggestionsForCandidate) {
   return {
     candidateId: candidate.id,
     name: candidate.name,
     title: candidate.title,
     category: candidate.primaryCategory,
     country: candidate.country,
-    priority: suggestions.length > 0 ? 'medium' : 'high',
+    priority: suggestions.length > 0 ? 'medium' : deprioritizedSuggestionsForCandidate.length > 0 ? 'low' : 'high',
     sourceHints: (candidate.sourceUrls ?? []).slice(0, 8),
     suggestions,
-    filteredSuggestionCount,
+    deprioritizedSuggestions: deprioritizedSuggestionsForCandidate,
+    filteredSuggestionCount: deprioritizedSuggestionsForCandidate.length,
+    discoveredSuggestionsCount: suggestions.length + deprioritizedSuggestionsForCandidate.length,
     reviewChecks: [
       'Confirm the suggested channel/feed belongs to the same person.',
       'Copy only verified suggestions into reviewOutcome.channels.',
@@ -453,7 +460,8 @@ function renderMarkdown(reviewPackage) {
     `- PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`,
     `- RSS suggestions: ${reviewPackage.summary.rssSuggestions}`,
     `- Skipped source attempts: ${reviewPackage.summary.skippedSources}`,
-    `- Filtered suggestions: ${reviewPackage.summary.filteredSuggestions}`,
+    `- Priority suggestions: ${reviewPackage.summary.prioritySuggestions}`,
+    `- Deprioritized suggestions retained: ${reviewPackage.summary.deprioritizedSuggestions}`,
     `- Minimum confidence: ${reviewPackage.summary.minConfidence}`,
     `- Failures: ${reviewPackage.summary.failures}`,
     '',
@@ -468,8 +476,9 @@ function renderMarkdown(reviewPackage) {
     lines.push('');
     lines.push(`- Category: ${item.category}`);
     lines.push(`- Priority: ${item.priority.toUpperCase()}`);
-    lines.push(`- Filtered suggestions: ${item.filteredSuggestionCount}`);
-    lines.push('- Suggestions:');
+    lines.push(`- Total discovered suggestions: ${item.discoveredSuggestionsCount}`);
+    lines.push(`- Deprioritized suggestions retained: ${item.deprioritizedSuggestions.length}`);
+    lines.push('- Priority suggestions:');
 
     if (item.suggestions.length === 0) {
       lines.push('  - None found or source skipped.');
@@ -482,6 +491,16 @@ function renderMarkdown(reviewPackage) {
       lines.push(`    - Confidence: ${suggestion.confidence}`);
       suggestion.evidence.slice(0, 2).forEach((evidence) => lines.push(`    - Evidence: ${evidence}`));
     });
+
+    if (item.deprioritizedSuggestions.length > 0) {
+      lines.push('- Deprioritized suggestions retained:');
+      item.deprioritizedSuggestions.forEach((suggestion) => {
+        lines.push(`  - ${suggestion.platform}: ${suggestion.label}`);
+        lines.push(`    - URL: ${suggestion.url}`);
+        lines.push(`    - Source: ${suggestion.source}`);
+        lines.push(`    - Confidence: ${suggestion.confidence}`);
+      });
+    }
 
     lines.push('- Review checks:');
     item.reviewChecks.forEach((check) => lines.push(`  - [ ] ${check}`));
@@ -545,11 +564,18 @@ function numberOrUndefined(value) {
   return Number.isFinite(number) ? number : undefined;
 }
 
-function countSuggestions(items, source) {
+function countAllSuggestions(items, source) {
   return items.reduce(
-    (count, item) => count + item.suggestions.filter((suggestion) => suggestion.source === source).length,
+    (count, item) =>
+      count +
+      item.suggestions.filter((suggestion) => suggestion.source === source).length +
+      item.deprioritizedSuggestions.filter((suggestion) => suggestion.source === source).length,
     0,
   );
+}
+
+function countPrioritySuggestions(items) {
+  return items.reduce((count, item) => count + item.suggestions.length, 0);
 }
 
 function identityConfidence(candidate, textParts) {

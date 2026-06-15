@@ -8,6 +8,7 @@
 - Ignored `.env.local` credential loading for local research runs.
 - Default medium-confidence filtering for noisy creator source suggestions.
 - Offset-based chunking for large creator source discovery waves.
+- Retention of low-confidence creator suggestions as deprioritized discovery records.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule
@@ -19,6 +20,7 @@ Creator source discovery produces suggestions only. It does not:
 - Change consent status.
 - Approve outreach.
 - Infer hidden audience counts.
+- Delete low-star or no-star candidates.
 
 ## Verification
 

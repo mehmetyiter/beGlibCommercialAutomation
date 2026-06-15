@@ -71,7 +71,7 @@ npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts
 ```
 
 Local API keys can be stored in ignored `.env.local` after copying `.env.example`.
-Creator discovery defaults to medium-confidence suggestions; add `--min-confidence low` for exploratory review.
+Creator discovery defaults to medium-confidence priority suggestions while retaining low-confidence suggestions as discovery-only records.
 
 Apply completed official-source review outcomes into a private candidate update batch:
 

@@ -4,6 +4,8 @@
 
 Stars identify candidates with the strongest host-readiness and distribution signals. This is separate from compliance. A 5-star candidate can still be blocked if consent, source, sensitivity, or suppression checks fail.
 
+Stars are never an inclusion filter. Low-star, 1-star, and no-star candidates remain in the candidate database and can still receive lawful outreach after contact-route verification and compliance review.
+
 ## Rating Scale
 
 5 stars:
@@ -31,6 +33,12 @@ Stars identify candidates with the strongest host-readiness and distribution sig
 1 star:
 
 - Discovery-only candidate. Keep researching before prioritizing.
+
+No star:
+
+- Insufficient creator/media evidence has been verified yet.
+- Keep the candidate and every public source trail discovered so the record can be enriched later.
+- Do not treat missing stars as a reason to delete, suppress, or exclude the candidate from broad campaign planning.
 
 ## Signals
 
@@ -66,6 +74,8 @@ Stars do not override:
 - Jurisdiction review
 
 High-star candidates are priority research targets, not automatically sendable contacts.
+
+Low-star or no-star candidates are lower priority for manual review, not excluded from the database or eventual compliant campaign coverage.
 
 ## Health and Mental-Health Note
 

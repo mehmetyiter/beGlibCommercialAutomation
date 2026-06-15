@@ -66,6 +66,7 @@ Optional fields:
 
 - `candidates`
 - `candidate_channels`
+- `candidate_channel_discovery`
 - `contact_routes`
 - `source_evidence`
 - `taxonomy_nodes`
@@ -177,6 +178,17 @@ Only `verified-signals` and `profile-only` outcomes are applied by the importer.
 - `notableSignals`
 
 Follower and subscriber values are optional. Unknown is better than guessed.
+
+## Discovery Retention
+
+Candidate storage is inclusive by default:
+
+- Keep every discovered candidate, including low-star and no-star records.
+- Keep public communication, creator, social, podcast, video, newsletter, representative, and official-page trails as discovery records.
+- Mark unverified routes as unverified or discovery-only instead of deleting them.
+- Do not convert a discovered creator/social channel into a contact route unless a public professional or representative contact path is verified.
+- Do not store guessed emails, private/login-only data, or technically restricted data.
+- Suppression and opt-out status block outreach, but the audit record should remain so the person is not re-added accidentally.
 
 ## Star Assessment
 
