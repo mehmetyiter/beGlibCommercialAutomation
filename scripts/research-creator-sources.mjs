@@ -47,12 +47,16 @@ const markdownPath = resolve(args.output ?? `exports/${defaultSlug}-creator-sour
 const jsonPath = resolve(args['json-output'] ?? `exports/${defaultSlug}-creator-source-discovery.local.json`);
 const maxResults = boundedNumber(args.max, 3, 1, 10);
 const minConfidence = getMinConfidence(args);
+const candidateDelayMs = boundedNumber(args['delay-ms'], 0, 0, 60000);
+const requestRetries = boundedNumber(args.retries, 2, 0, 5);
+const retryDelayMs = boundedNumber(args['retry-delay-ms'], 2000, 250, 60000);
 const failures = [];
 const skippedSources = [];
 let deprioritizedSuggestions = 0;
 const items = [];
 
-for (const candidate of selectedCandidates) {
+for (let candidateIndex = 0; candidateIndex < selectedCandidates.length; candidateIndex += 1) {
+  const candidate = selectedCandidates[candidateIndex];
   const rawSuggestions = [];
 
   if (sources.has('youtube')) {
@@ -83,6 +87,10 @@ for (const candidate of selectedCandidates) {
   const deferredSuggestions = rawSuggestions.filter((suggestion) => !suggestions.includes(suggestion));
   deprioritizedSuggestions += deferredSuggestions.length;
   items.push(buildReviewItem(candidate, suggestions, deferredSuggestions));
+
+  if (candidateDelayMs > 0 && candidateIndex < selectedCandidates.length - 1) {
+    await sleep(candidateDelayMs);
+  }
 }
 
 const reviewPackage = {
@@ -106,6 +114,9 @@ const reviewPackage = {
     filteredSuggestions: deprioritizedSuggestions,
     failures: failures.length,
     minConfidence,
+    candidateDelayMs,
+    requestRetries,
+    retryDelayMs,
   },
   rules: [
     'Suggestions are not verified channels.',
@@ -137,6 +148,8 @@ console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
 console.log(`Priority suggestions: ${reviewPackage.summary.prioritySuggestions}`);
 console.log(`Deprioritized suggestions retained: ${reviewPackage.summary.deprioritizedSuggestions}`);
 console.log(`Minimum confidence: ${reviewPackage.summary.minConfidence}`);
+console.log(`Candidate delay: ${reviewPackage.summary.candidateDelayMs}ms`);
+console.log(`Request retries: ${reviewPackage.summary.requestRetries}`);
 console.log(`Failures: ${reviewPackage.summary.failures}`);
 
 if (localEnv.loaded) {
@@ -463,6 +476,8 @@ function renderMarkdown(reviewPackage) {
     `- Priority suggestions: ${reviewPackage.summary.prioritySuggestions}`,
     `- Deprioritized suggestions retained: ${reviewPackage.summary.deprioritizedSuggestions}`,
     `- Minimum confidence: ${reviewPackage.summary.minConfidence}`,
+    `- Candidate delay: ${reviewPackage.summary.candidateDelayMs}ms`,
+    `- Request retries: ${reviewPackage.summary.requestRetries}`,
     `- Failures: ${reviewPackage.summary.failures}`,
     '',
     '## Guardrails',
@@ -511,12 +526,53 @@ function renderMarkdown(reviewPackage) {
 }
 
 async function fetchJson(url, init = {}) {
-  const response = await fetch(url, init);
-  if (!response.ok) {
-    throw new Error(`${url.hostname} request failed: ${response.status} ${response.statusText}`);
+  for (let attempt = 0; attempt <= requestRetries; attempt += 1) {
+    const response = await fetch(url, init);
+    if (response.ok) {
+      return response.json();
+    }
+
+    const message = await responseErrorMessage(url, response);
+    const canRetry = isRetryableStatus(response.status) && attempt < requestRetries;
+    if (!canRetry) {
+      throw new Error(message);
+    }
+
+    await sleep(retryDelayMs * (attempt + 1));
   }
 
-  return response.json();
+  throw new Error(`${url.hostname} request failed after retries.`);
+}
+
+async function responseErrorMessage(url, response) {
+  const body = await response.text();
+  const reason = extractErrorReason(body);
+  const suffix = reason ? ` (${reason})` : '';
+
+  return `${url.hostname} request failed: ${response.status} ${response.statusText}${suffix}`;
+}
+
+function extractErrorReason(body) {
+  if (!body) {
+    return '';
+  }
+
+  try {
+    const payload = JSON.parse(body);
+    return payload.error?.errors?.[0]?.reason || payload.error?.message || '';
+  } catch {
+    return body.slice(0, 160);
+  }
+}
+
+function isRetryableStatus(status) {
+  return status === 408 || status === 409 || status === 429 || status >= 500;
+}
+
+function sleep(ms) {
+  return new Promise((resolvePromise) => {
+    setTimeout(resolvePromise, ms);
+  });
 }
 
 async function readTextSource(source) {

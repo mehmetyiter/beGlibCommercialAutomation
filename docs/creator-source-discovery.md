@@ -40,10 +40,18 @@ npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts
 Chunk a large batch with `--offset`:
 
 ```bash
-npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --sources youtube --offset 25 --limit 25 --max 2 --output exports/openalex-wave-001-youtube-025-049.local.md --json-output exports/openalex-wave-001-youtube-025-049.local.json
+npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --sources youtube --offset 25 --limit 25 --max 2 --delay-ms 750 --retries 3 --retry-delay-ms 5000 --output exports/openalex-wave-001-youtube-025-049.local.md --json-output exports/openalex-wave-001-youtube-025-049.local.json
 ```
 
 Files under `exports/` are ignored by git.
+
+For continuous YouTube scanning, prefer small chunks and delay between candidates. If the API returns `429`, pause the wave or rerun later with a higher `--delay-ms` value.
+
+Summarize local creator discovery packages:
+
+```bash
+npm run research:creator-summary -- --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-youtube- --filename-excludes smoke,medium --output exports/openalex-wave-001-broad-experts-creator-source-summary.local.json --markdown-output exports/openalex-wave-001-broad-experts-creator-source-summary.local.md
+```
 
 ## Environment
 

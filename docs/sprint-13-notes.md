@@ -9,6 +9,8 @@
 - Default medium-confidence filtering for noisy creator source suggestions.
 - Offset-based chunking for large creator source discovery waves.
 - Retention of low-confidence creator suggestions as deprioritized discovery records.
+- Candidate delay and retry/backoff controls for API limit pressure.
+- Local creator source discovery summary command for continuous wave tracking.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule
