@@ -57,7 +57,7 @@ cp .env.example .env.local
 The worker loads `.env.local` automatically. You can also point it at a different ignored file:
 
 ```bash
-npm run research:creator-sources -- --env-file path/to/your.local.env --batch examples/research-batch.synthetic.json
+npm run research:creator-sources -- --local-env path/to/your.local.env --batch examples/research-batch.synthetic.json
 ```
 
 Do not commit API keys or operational discovery outputs.

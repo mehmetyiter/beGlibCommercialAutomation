@@ -14,7 +14,7 @@ const parser = new XMLParser({
 });
 
 const args = parseArgs(process.argv.slice(2));
-const localEnv = await loadLocalEnv(args['env-file']);
+const localEnv = await loadLocalEnv(args['local-env'] ?? args['env-path'] ?? args['env-file']);
 const batchPath = resolve(args.batch ?? args._[0] ?? 'examples/research-batch.synthetic.json');
 const sourceConfigPath = args.config ? resolve(args.config) : undefined;
 const batch = JSON.parse(await readFile(batchPath, 'utf8'));
@@ -103,9 +103,10 @@ console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
 console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
 console.log(`Failures: ${reviewPackage.summary.failures}`);
 
-if (localEnv.loaded && localEnv.variables.length > 0) {
-  console.log(`Loaded local env: ${localEnv.variables.join(', ')}`);
+if (localEnv.loaded) {
+  console.log(`Loaded local env file: ${localEnv.path} (${localEnv.variables.length} values applied)`);
 }
+console.log(`Credential status: ${credentialStatus(sources)}`);
 
 function selectCandidates(candidates, options) {
   const categoryFilter = options.categories
@@ -126,6 +127,25 @@ function getSources(value) {
   const sources = new Set(requested.filter((source) => supportedSources.has(source)));
 
   return sources.size > 0 ? sources : new Set(['rss']);
+}
+
+function credentialStatus(sources) {
+  const statuses = [];
+
+  if (sources.has('youtube')) {
+    statuses.push(`YouTube ${process.env.YOUTUBE_API_KEY ? 'ready' : 'missing'}`);
+  }
+
+  if (sources.has('podcastindex')) {
+    const isReady = process.env.PODCASTINDEX_API_KEY && process.env.PODCASTINDEX_API_SECRET;
+    statuses.push(`PodcastIndex ${isReady ? 'ready' : 'missing'}`);
+  }
+
+  if (sources.has('rss')) {
+    statuses.push('RSS no key needed');
+  }
+
+  return statuses.join(', ');
 }
 
 async function discoverYouTube(candidate, max, failuresList) {

@@ -38,7 +38,12 @@ export async function loadLocalEnv(envPath = '.env.local') {
       return;
     }
 
-    process.env[key] = normalizeValue(normalizedLine.slice(equalsIndex + 1));
+    const value = normalizeValue(normalizedLine.slice(equalsIndex + 1));
+    if (!value) {
+      return;
+    }
+
+    process.env[key] = value;
     variables.push(key);
   });
 
