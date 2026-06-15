@@ -27,6 +27,12 @@ Automated research workers may discover candidate profiles and source URLs. They
 
 The current OpenAlex worker intentionally sets `contactRoutes[0].type` to `none`, because OpenAlex is a discovery source rather than an outreach permission source.
 
+## Source Coverage Rule
+
+No single source is enough for this project.
+
+OpenAlex is strong for academic, science, health, education, and public-scholarship discovery. It is weak for YouTubers, podcasters, artists, social-first creators, current audience metrics, and official outreach routes. Those signals must come from separate source layers such as official sites, representative pages, platform APIs, podcast directories, RSS feeds, Wikidata, and manual verification.
+
 ## Human Review Rule
 
 A human must verify:

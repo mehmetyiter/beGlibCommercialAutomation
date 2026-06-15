@@ -44,6 +44,38 @@ The OpenAlex worker:
 
 That means generated candidates are discovery-only until a human verifies official contact routes.
 
+## Run A Multi-Query Research Wave
+
+Use a wave config when we want broad coverage across categories:
+
+```bash
+npm run research:wave -- --config config/research-waves/openalex-wave-001.json --output-dir data/openalex-wave-001-broad-experts.local
+```
+
+Optional filters:
+
+```bash
+npm run research:wave -- --config config/research-waves/openalex-wave-001.json --categories psychology,medicine --limit-per-query 5 --output-dir data/openalex-health-smoke.local
+```
+
+The wave runner:
+
+- Runs every configured query.
+- Writes one category batch per category.
+- Writes `_merged-wave.local.json` for importing the full wave.
+- Writes `_manifest.local.json` with counts and failures.
+- Deduplicates candidates by OpenAlex author ID.
+- Keeps all outputs under ignored `.local` paths.
+
+First broad OpenAlex wave result:
+
+- Output: `data/openalex-wave-001-broad-experts.local/_merged-wave.local.json`
+- Categories: 11
+- Unique candidates: 409
+- Validation: passed with expected missing-contact warnings
+- Verification export: `exports/openalex-wave-001-broad-experts-verification.local.md`
+- Verification tasks: 976
+
 The validator checks:
 
 - Batch metadata

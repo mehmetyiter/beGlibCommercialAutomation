@@ -1,0 +1,104 @@
+{
+  "waveId": "openalex-wave-001-broad-experts",
+  "source": "openalex",
+  "description": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection.",
+  "limitPerQuery": 12,
+  "categories": [
+    {
+      "category": "psychology",
+      "queries": [
+        "clinical psychology public mental health",
+        "trauma psychology public education",
+        "developmental psychology parenting education",
+        "social psychology communication behavior"
+      ]
+    },
+    {
+      "category": "therapy",
+      "queries": [
+        "psychotherapy mental health education",
+        "cognitive behavioral therapy public education",
+        "family therapy relationship education",
+        "addiction counseling mental health"
+      ]
+    },
+    {
+      "category": "medicine",
+      "queries": [
+        "medical education public health doctor",
+        "preventive medicine public education",
+        "psychiatry mental health education",
+        "digital health patient education"
+      ]
+    },
+    {
+      "category": "science",
+      "queries": [
+        "science communication public engagement",
+        "artificial intelligence education",
+        "climate science communication",
+        "neuroscience public education",
+        "space science communication"
+      ]
+    },
+    {
+      "category": "academia",
+      "queries": [
+        "public scholarship humanities",
+        "public policy ethics technology",
+        "social science public engagement",
+        "higher education innovation"
+      ]
+    },
+    {
+      "category": "education",
+      "queries": [
+        "online learning education technology",
+        "STEM education public outreach",
+        "language learning digital education",
+        "creator education online courses"
+      ]
+    },
+    {
+      "category": "technology",
+      "queries": [
+        "open source software education",
+        "cybersecurity public education",
+        "AI builders developer education",
+        "product strategy technology innovation"
+      ]
+    },
+    {
+      "category": "thought-leadership",
+      "queries": [
+        "future of work public policy",
+        "social innovation public leadership",
+        "ethics artificial intelligence society"
+      ]
+    },
+    {
+      "category": "journalism",
+      "queries": [
+        "science journalism public communication",
+        "technology journalism society",
+        "investigative journalism public interest"
+      ]
+    },
+    {
+      "category": "arts",
+      "queries": [
+        "digital arts culture public engagement",
+        "music cognition public education",
+        "film studies public culture"
+      ]
+    },
+    {
+      "category": "religion",
+      "queries": [
+        "interfaith dialogue public education",
+        "religion ethics public life",
+        "theology public scholarship"
+      ]
+    }
+  ]
+}

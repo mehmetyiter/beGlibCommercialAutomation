@@ -43,6 +43,12 @@ Generate a local OpenAlex discovery batch:
 npm run research:openalex -- --query "AI tutoring education" --limit 10 --category academia
 ```
 
+Run a broad multi-query OpenAlex wave:
+
+```bash
+npm run research:wave -- --config config/research-waves/openalex-wave-001.json --output-dir data/openalex-wave-001-broad-experts.local
+```
+
 Export a local verification checklist:
 
 ```bash
@@ -72,9 +78,11 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Outreach playbook](./docs/outreach-playbook.md)
 - [Research batch workflow](./docs/research-batch-workflow.md)
 - [Source policy](./docs/source-policy.md)
+- [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 7 notes](./docs/sprint-7-notes.md)
 - [Sprint 6 notes](./docs/sprint-6-notes.md)
 - [Sprint 5 notes](./docs/sprint-5-notes.md)
 - [Sprint 4 notes](./docs/sprint-4-notes.md)

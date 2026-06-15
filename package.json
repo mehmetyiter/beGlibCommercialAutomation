@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "research:openalex": "node scripts/research-openalex-works.mjs",
+    "research:wave": "node scripts/run-research-wave.mjs",
     "validate:batch": "node scripts/validate-research-batch.mjs"
   },
   "dependencies": {
