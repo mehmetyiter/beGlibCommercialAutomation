@@ -40,6 +40,7 @@ const batch = JSON.parse(await readFile(batchPath, 'utf8'));
 const sourceConfig = sourceConfigPath ? JSON.parse(await readFile(sourceConfigPath, 'utf8')) : {};
 const allCandidates = Array.isArray(batch.candidates) ? batch.candidates : [];
 const selectedCandidates = selectCandidates(allCandidates, args);
+const candidateOffset = getCandidateOffset(args);
 const sources = getSources(args.sources);
 const defaultSlug = slugify(batch.batchId ?? 'research-batch');
 const markdownPath = resolve(args.output ?? `exports/${defaultSlug}-creator-source-discovery.local.md`);
@@ -93,6 +94,7 @@ const reviewPackage = {
   summary: {
     inputCandidates: allCandidates.length,
     selectedCandidates: selectedCandidates.length,
+    offset: candidateOffset,
     sources: Array.from(sources),
     youtubeSuggestions: countSuggestions(items, 'youtube-data-api'),
     podcastIndexSuggestions: countSuggestions(items, 'podcastindex-api'),
@@ -123,6 +125,7 @@ await writeFile(markdownPath, renderMarkdown(reviewPackage), 'utf8');
 console.log(`Creator source discovery JSON written to ${jsonPath}`);
 console.log(`Creator source discovery checklist written to ${markdownPath}`);
 console.log(`Candidates: ${reviewPackage.summary.selectedCandidates}`);
+console.log(`Offset: ${reviewPackage.summary.offset}`);
 console.log(`YouTube suggestions: ${reviewPackage.summary.youtubeSuggestions}`);
 console.log(`PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`);
 console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
@@ -141,10 +144,15 @@ function selectCandidates(candidates, options) {
     ? new Set(String(options.categories).split(',').map((category) => category.trim()).filter(Boolean))
     : null;
   const candidateLimit = boundedNumber(options.limit, candidates.length, 1, candidates.length || 1);
+  const candidateOffset = getCandidateOffset(options);
 
   return candidates
     .filter((candidate) => !categoryFilter || categoryFilter.has(candidate.primaryCategory))
-    .slice(0, candidateLimit);
+    .slice(candidateOffset, candidateOffset + candidateLimit);
+}
+
+function getCandidateOffset(options) {
+  return boundedNumber(options.offset, 0, 0, Number.MAX_SAFE_INTEGER);
 }
 
 function getSources(value) {
@@ -435,6 +443,7 @@ function renderMarkdown(reviewPackage) {
     `Source: ${reviewPackage.sourceLabel ?? 'Unknown'}`,
     `Generated: ${reviewPackage.createdAt}`,
     `Candidates: ${reviewPackage.summary.selectedCandidates}`,
+    `Offset: ${reviewPackage.summary.offset}`,
     '',
     'Suggestions are discovery hints only. Human identity match is required before applying creator signals.',
     '',

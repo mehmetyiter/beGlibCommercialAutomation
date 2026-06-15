@@ -37,6 +37,12 @@ Optional filters:
 npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --categories psychology,medicine --limit 50
 ```
 
+Chunk a large batch with `--offset`:
+
+```bash
+npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --sources youtube --offset 25 --limit 25 --max 2 --output exports/openalex-wave-001-youtube-025-049.local.md --json-output exports/openalex-wave-001-youtube-025-049.local.json
+```
+
 Files under `exports/` are ignored by git.
 
 ## Environment

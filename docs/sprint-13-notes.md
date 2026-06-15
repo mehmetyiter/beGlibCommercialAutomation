@@ -7,6 +7,7 @@
 - Graceful skipped-source reporting when API credentials are not configured.
 - Ignored `.env.local` credential loading for local research runs.
 - Default medium-confidence filtering for noisy creator source suggestions.
+- Offset-based chunking for large creator source discovery waves.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule
