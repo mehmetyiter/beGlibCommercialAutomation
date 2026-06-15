@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Synthetic Learning Interviews</title>
+    <link>https://example.com/podcasts/synthetic-learning-interviews</link>
+    <description>Synthetic example feed for testing creator source discovery. Do not use for real outreach.</description>
+    <language>en-us</language>
+    <item>
+      <title>Dr. Leyla Arman on AI Learning Systems</title>
+      <link>https://example.com/podcasts/synthetic-learning-interviews/leyla-arman-ai-learning</link>
+      <pubDate>Mon, 15 Jun 2026 12:00:00 GMT</pubDate>
+      <description>Synthetic interview item used to exercise RSS discovery parsing.</description>
+    </item>
+    <item>
+      <title>Responsible Tutoring Tools in Synthetic Classrooms</title>
+      <link>https://example.com/podcasts/synthetic-learning-interviews/responsible-tutoring-tools</link>
+      <pubDate>Mon, 08 Jun 2026 12:00:00 GMT</pubDate>
+      <description>Synthetic episode metadata for local smoke tests.</description>
+    </item>
+  </channel>
+</rss>

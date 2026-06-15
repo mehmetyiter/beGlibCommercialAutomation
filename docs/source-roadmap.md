@@ -67,10 +67,10 @@ Build workers in this order:
    Finds official pages and creates verification tasks for public professional contact routes.
 
 2. YouTube and creator-signal review worker:
-   Finds public channels, links them to candidates, and records public channel/video signals.
+   Finds public channels, links them to candidates, and records public channel/video signals. Initial YouTube Data API discovery scaffolding is available through `npm run research:creator-sources`.
 
 3. Podcast and newsletter review worker:
-   Finds podcast pages, RSS feeds, show archives, and newsletter pages, then records host/show signals without auto-approving embedded emails.
+   Finds podcast pages, RSS feeds, show archives, and newsletter pages, then records host/show signals without auto-approving embedded emails. Initial PodcastIndex and RSS/Atom discovery scaffolding is available through `npm run research:creator-sources`.
 
 4. Wikidata disambiguation worker:
    Adds aliases, professions, official website claims, and public identifier links.

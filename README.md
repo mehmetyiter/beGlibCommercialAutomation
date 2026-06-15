@@ -16,6 +16,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - AI reply triage examples with routing to AI draft, human review, or legal review.
 - Official-source review outcomes can be applied from the local cockpit or CLI.
 - Creator-signal review outcomes can be applied from the local cockpit or CLI.
+- Creator source discovery can prepare YouTube, PodcastIndex, and RSS suggestions for human review.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
 
 ## Run Locally
@@ -63,6 +64,12 @@ Prepare a local creator-signal review package:
 npm run review:creator-signals -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --output exports/openalex-wave-001-creator-signal-review.local.md --json-output exports/openalex-wave-001-creator-signal-review.local.json
 ```
 
+Run creator source discovery for YouTube, PodcastIndex, and configured RSS feeds:
+
+```bash
+npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --limit 25 --sources youtube,podcastindex --output exports/openalex-wave-001-creator-source-discovery.local.md --json-output exports/openalex-wave-001-creator-source-discovery.local.json
+```
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash
@@ -105,11 +112,13 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Research batch workflow](./docs/research-batch-workflow.md)
 - [Official source review](./docs/official-source-review.md)
 - [Creator signal review](./docs/creator-signal-review.md)
+- [Creator source discovery](./docs/creator-source-discovery.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 13 notes](./docs/sprint-13-notes.md)
 - [Sprint 12 notes](./docs/sprint-12-notes.md)
 - [Sprint 11 notes](./docs/sprint-11-notes.md)
 - [Sprint 10 notes](./docs/sprint-10-notes.md)

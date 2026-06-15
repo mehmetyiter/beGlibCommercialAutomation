@@ -13,11 +13,13 @@
     "review:apply-official-sources": "node scripts/apply-official-source-review.mjs",
     "review:creator-signals": "node scripts/prepare-creator-signal-review.mjs",
     "review:official-sources": "node scripts/prepare-official-source-review.mjs",
+    "research:creator-sources": "node scripts/research-creator-sources.mjs",
     "research:openalex": "node scripts/research-openalex-works.mjs",
     "research:wave": "node scripts/run-research-wave.mjs",
     "validate:batch": "node scripts/validate-research-batch.mjs"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.9.0",
     "lucide-react": "^1.18.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
