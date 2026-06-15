@@ -73,6 +73,12 @@ npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts
 Local API keys can be stored in ignored `.env.local` after copying `.env.example`.
 Creator discovery defaults to medium-confidence priority suggestions while retaining low-confidence suggestions as discovery-only records.
 
+Run public identity source discovery for official-site and social/profile hints:
+
+```bash
+npm run research:identity-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --offset 0 --limit 25 --output exports/openalex-wave-001-identity-000-024.local.md --json-output exports/openalex-wave-001-identity-000-024.local.json
+```
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash
@@ -116,6 +122,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Official source review](./docs/official-source-review.md)
 - [Creator signal review](./docs/creator-signal-review.md)
 - [Creator source discovery](./docs/creator-source-discovery.md)
+- [Public identity source discovery](./docs/public-identity-source-discovery.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)

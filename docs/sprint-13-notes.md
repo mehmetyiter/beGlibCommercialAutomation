@@ -12,6 +12,7 @@
 - Candidate delay and retry/backoff controls for API limit pressure.
 - Local creator source discovery summary command for continuous wave tracking.
 - PodcastIndex public search fallback when authenticated API secret is unavailable.
+- Public identity source discovery worker for official-site and social/profile hints.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule

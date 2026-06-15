@@ -73,7 +73,7 @@ Build workers in this order:
    Finds podcast pages, RSS feeds, show archives, and newsletter pages, then records host/show signals without auto-approving embedded emails. Initial PodcastIndex and RSS/Atom discovery scaffolding is available through `npm run research:creator-sources`.
 
 4. Wikidata disambiguation worker:
-   Adds aliases, professions, official website claims, and public identifier links.
+   Adds aliases, professions, official website claims, and public identifier links. Initial public identity source discovery is available through `npm run research:identity-sources`.
 
 5. Social signal verifier:
    Records public profile URLs and visible audience/activity signals through allowed APIs or manual review.
