@@ -1,0 +1,66 @@
+# Official Source Review
+
+## Purpose
+
+Official-source review turns discovery candidates into concrete verification work. It does not approve outreach and it does not mark contact routes usable by itself.
+
+Use this step after a discovery batch, especially OpenAlex waves where candidates have authority signals but no verified professional contact route.
+
+## Generate A Review Package
+
+```bash
+npm run review:official-sources -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --output exports/openalex-wave-001-official-source-review.local.md --json-output exports/openalex-wave-001-official-source-review.local.json
+```
+
+The script writes:
+
+- A Markdown checklist for human review.
+- A JSON review package for future UI/database import.
+- Candidate-level search queries.
+- Official source targets.
+- Approved and disallowed contact-route rules.
+- Current blockers and sensitive-category flags.
+
+Files under `exports/` are ignored by git.
+
+## Optional Wikidata Suggestions
+
+Use Wikidata suggestions only as identity-disambiguation hints:
+
+```bash
+npm run review:official-sources -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --limit 25 --wikidata --output exports/openalex-wave-001-wikidata-sample.local.md --json-output exports/openalex-wave-001-wikidata-sample.local.json
+```
+
+Wikidata matches are not verified. A human must confirm identity, official website claims, category fit, and source reliability before any contact route is added.
+
+## Approved Source Types
+
+- Official personal site
+- Institution, employer, lab, studio, publisher, practice, clinic, or organization profile
+- Representative, agent, speaker, booking, press, or media-office page
+- Official contact form
+- Public business profile route where platform terms allow professional inquiry
+
+## Disallowed Collection
+
+- Guessed email patterns
+- Private personal emails not published for professional contact
+- Breached, purchased, scraped, or hidden contact data
+- Login-only data or data behind technical restrictions
+- Social DMs unless the profile explicitly invites professional contact
+
+## Review Outcome
+
+A completed review should produce structured fields:
+
+- `officialProfileUrl`
+- `officialContactRouteType`
+- `officialContactRouteValue`
+- `contactRouteSourceUrl`
+- `verifiedAt`
+- `jurisdiction`
+- `suppressionStatus`
+- `sensitiveCategoryReviewStatus`
+- `reviewerNotes`
+
+Those fields should later flow into the private candidate database or a local import batch, not into the public repository.

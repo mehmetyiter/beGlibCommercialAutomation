@@ -49,6 +49,12 @@ Run a broad multi-query OpenAlex wave:
 npm run research:wave -- --config config/research-waves/openalex-wave-001.json --output-dir data/openalex-wave-001-broad-experts.local
 ```
 
+Prepare a local official-source review package:
+
+```bash
+npm run review:official-sources -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --output exports/openalex-wave-001-official-source-review.local.md --json-output exports/openalex-wave-001-official-source-review.local.json
+```
+
 Export a local verification checklist:
 
 ```bash
@@ -77,11 +83,13 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [FAQ and reply routing](./docs/faq-reply-routing.md)
 - [Outreach playbook](./docs/outreach-playbook.md)
 - [Research batch workflow](./docs/research-batch-workflow.md)
+- [Official source review](./docs/official-source-review.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 8 notes](./docs/sprint-8-notes.md)
 - [Sprint 7 notes](./docs/sprint-7-notes.md)
 - [Sprint 6 notes](./docs/sprint-6-notes.md)
 - [Sprint 5 notes](./docs/sprint-5-notes.md)
