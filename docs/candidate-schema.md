@@ -24,6 +24,10 @@ Required fields:
 - `lastVerifiedAt`
 - `rationale`
 
+Optional fields:
+
+- `influenceSignals`
+
 ## Status Values
 
 - `researching`
@@ -104,6 +108,35 @@ Required fields:
 - `candidates`
 
 Use `examples/research-batch.synthetic.json` as a synthetic shape reference.
+
+## Influence Signals
+
+`influenceSignals` stores creator/media strength signals used by the star rating system:
+
+- `hasPodcast`
+- `hasYoutubeShow`
+- `xFollowers`
+- `instagramFollowers`
+- `linkedinFollowers`
+- `tiktokFollowers`
+- `youtubeSubscribers`
+- `newsletterSubscribers`
+- `activePlatforms`
+- `notableSignals`
+
+Follower and subscriber values are optional. Unknown is better than guessed.
+
+## Star Assessment
+
+The app computes `StarAssessment` from `influenceSignals`, channels, and reach score.
+
+Computed fields:
+
+- `stars`
+- `score`
+- `label`
+- `reasons`
+- `missingSignals`
 
 ## Audit Event
 

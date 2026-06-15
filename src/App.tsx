@@ -2,7 +2,6 @@ import {
   AlertTriangle,
   BarChart3,
   Bot,
-  CalendarCheck2,
   CheckCircle2,
   ClipboardCheck,
   Database,
@@ -18,6 +17,7 @@ import {
   ShieldAlert,
   ShieldCheck,
   Sparkles,
+  Star,
   UploadCloud,
   UserCheck,
   Users,
@@ -40,6 +40,7 @@ import {
   validateResearchBatch,
 } from './lib/localVault';
 import { getTemplateForCandidate, renderOutreachDraft } from './lib/outreach';
+import { assessStarRating } from './lib/starRating';
 import type {
   AuditEvent,
   Candidate,
@@ -48,9 +49,13 @@ import type {
   ComplianceAssessment,
   ReplyExample,
   RiskLevel,
+  StarAssessment,
 } from './types';
 
-type AssessedCandidate = Candidate & { assessment: ComplianceAssessment };
+type AssessedCandidate = Candidate & {
+  assessment: ComplianceAssessment;
+  starAssessment: StarAssessment;
+};
 
 const statusLabels: Record<CandidateStatus, string> = {
   researching: 'Researching',
@@ -86,7 +91,9 @@ function App() {
   const [vaultState, setVaultState] = useState(() => loadVaultState(candidates));
   const [selectedCategory, setSelectedCategory] = useState<CandidateCategory | 'all'>('all');
   const [query, setQuery] = useState('');
-  const [selectedCandidateId, setSelectedCandidateId] = useState(candidates[0]?.id ?? '');
+  const [selectedCandidateId, setSelectedCandidateId] = useState(() =>
+    getDefaultSelectedCandidateId(vaultState.candidates),
+  );
   const [vaultMessage, setVaultMessage] = useState('Local vault ready.');
 
   const assessedCandidates = useMemo<AssessedCandidate[]>(
@@ -94,6 +101,7 @@ function App() {
       vaultState.candidates.map((candidate) => ({
         ...candidate,
         assessment: assessCandidate(candidate),
+        starAssessment: assessStarRating(candidate),
       })),
     [vaultState.candidates],
   );
@@ -101,25 +109,32 @@ function App() {
   const filteredCandidates = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
-    return assessedCandidates.filter((candidate) => {
-      const matchesCategory =
-        selectedCategory === 'all' || candidate.primaryCategory === selectedCategory;
-      const matchesQuery =
-        normalizedQuery.length === 0 ||
-        [
-          candidate.name,
-          candidate.title,
-          candidate.country,
-          candidate.primaryCategory,
-          candidate.subcategories.join(' '),
-          candidate.languages.join(' '),
-        ]
-          .join(' ')
-          .toLowerCase()
-          .includes(normalizedQuery);
+    return assessedCandidates
+      .filter((candidate) => {
+        const matchesCategory =
+          selectedCategory === 'all' || candidate.primaryCategory === selectedCategory;
+        const matchesQuery =
+          normalizedQuery.length === 0 ||
+          [
+            candidate.name,
+            candidate.title,
+            candidate.country,
+            candidate.primaryCategory,
+            candidate.subcategories.join(' '),
+            candidate.languages.join(' '),
+          ]
+            .join(' ')
+            .toLowerCase()
+            .includes(normalizedQuery);
 
-      return matchesCategory && matchesQuery;
-    });
+        return matchesCategory && matchesQuery;
+      })
+      .sort(
+        (left, right) =>
+          right.starAssessment.stars - left.starAssessment.stars ||
+          right.fitScore - left.fitScore ||
+          right.reachScore - left.reachScore,
+      );
   }, [assessedCandidates, query, selectedCategory]);
 
   const selectedCandidate =
@@ -146,6 +161,7 @@ function App() {
         ['public-business-email', 'representative-email'].includes(route.type),
       ),
     );
+    const topTier = assessedCandidates.filter((candidate) => candidate.starAssessment.stars >= 4);
 
     return {
       total: assessedCandidates.length,
@@ -153,6 +169,7 @@ function App() {
       review: review.length,
       blocked: blocked.length,
       publicRoutes: publicRoutes.length,
+      topTier: topTier.length,
       aiQueue: replyExamples.length,
       avgFit: Math.round(
         assessedCandidates.reduce((sum, candidate) => sum + candidate.fitScore, 0) /
@@ -220,7 +237,7 @@ function App() {
   function handleResetVault() {
     const resetState = resetVaultState(candidates);
     setVaultState(resetState);
-    setSelectedCandidateId(candidates[0]?.id ?? '');
+    setSelectedCandidateId(getDefaultSelectedCandidateId(resetState.candidates));
     setVaultMessage('Local vault reset to synthetic demo candidates.');
   }
 
@@ -298,7 +315,7 @@ function App() {
           <Metric icon={<CheckCircle2 size={20} />} label="Ready" value={stats.ready.toString()} />
           <Metric icon={<AlertTriangle size={20} />} label="Review" value={stats.review.toString()} />
           <Metric icon={<XCircle size={20} />} label="Blocked" value={stats.blocked.toString()} />
-          <Metric icon={<Globe2 size={20} />} label="Routes" value={stats.publicRoutes.toString()} />
+          <Metric icon={<Star size={20} />} label="4-5 star" value={stats.topTier.toString()} />
           <Metric icon={<Bot size={20} />} label="AI queue" value={stats.aiQueue.toString()} />
         </section>
 
@@ -347,7 +364,7 @@ function App() {
             <SectionHeader
               eyebrow="Discovery"
               title={`${filteredCandidates.length} candidates in working set`}
-              trailing={`${stats.ready} ready now`}
+              trailing={`${stats.topTier} strong candidates`}
             />
             <div className="candidate-list">
               {filteredCandidates.map((candidate) => (
@@ -482,9 +499,12 @@ function CandidateRow({
               <h4>{candidate.name}</h4>
               <p>{candidate.title}</p>
             </div>
-            <span className={`assessment-badge ${candidate.assessment.severity}`}>
-              {candidate.assessment.label}
-            </span>
+            <div className="candidate-badges">
+              <StarBadge assessment={candidate.starAssessment} />
+              <span className={`assessment-badge ${candidate.assessment.severity}`}>
+                {candidate.assessment.label}
+              </span>
+            </div>
           </div>
 
           <div className="tag-row" aria-label="Candidate tags">
@@ -501,6 +521,7 @@ function CandidateRow({
               {verifiedChannels}/{candidate.channels.length} verified channels
             </span>
             <span>{primaryRoute.type.replaceAll('-', ' ')}</span>
+            <span>{candidate.starAssessment.label}</span>
           </div>
         </div>
 
@@ -566,9 +587,27 @@ function CandidateDossier({
           label="Compliance"
           value={candidate.assessment.sendable ? 'Pass' : 'Hold'}
         />
+        <DecisionTile
+          icon={<Star size={17} />}
+          label="Strength"
+          value={`${candidate.starAssessment.stars} stars`}
+        />
         <DecisionTile icon={<UserCheck size={17} />} label="Status" value={statusLabels[candidate.status]} />
-        <DecisionTile icon={<CalendarCheck2 size={17} />} label="Verified" value={candidate.lastVerifiedAt} />
       </div>
+
+      <PanelBlock icon={<Star size={17} />} title="Star signals">
+        <StarScale assessment={candidate.starAssessment} />
+        <div className="gate-list">
+          {candidate.starAssessment.reasons.map((reason) => (
+            <span key={reason}>{reason}</span>
+          ))}
+          {candidate.starAssessment.missingSignals.map((signal) => (
+            <span className="missing" key={signal}>
+              {signal}
+            </span>
+          ))}
+        </div>
+      </PanelBlock>
 
       <div className={canStage ? 'stage-box ready' : 'stage-box hold'}>
         <strong>{canStage ? 'Ready for human approval' : 'Do not stage yet'}</strong>
@@ -636,6 +675,34 @@ function CandidateDossier({
   );
 }
 
+function StarBadge({ assessment }: { assessment: StarAssessment }) {
+  return (
+    <span className={`star-badge stars-${assessment.stars}`} aria-label={`${assessment.stars} star candidate`}>
+      <Star size={13} aria-hidden="true" />
+      {assessment.stars}
+    </span>
+  );
+}
+
+function StarScale({ assessment }: { assessment: StarAssessment }) {
+  return (
+    <div className="star-scale" aria-label={`${assessment.stars} out of 5 stars`}>
+      <div>
+        {Array.from({ length: 5 }, (_, index) => (
+          <Star
+            aria-hidden="true"
+            className={index < assessment.stars ? 'filled' : undefined}
+            key={index}
+            size={17}
+          />
+        ))}
+      </div>
+      <strong>{assessment.label}</strong>
+      <span>{assessment.score}/100</span>
+    </div>
+  );
+}
+
 function DecisionTile({ icon, label, value }: { icon: ReactNode; label: string; value: string }) {
   return (
     <div className="decision-tile">
@@ -692,6 +759,17 @@ function ScoreRing({ label, value }: { label: string; value: number }) {
       <strong>{value}</strong>
       <span>{label}</span>
     </div>
+  );
+}
+
+function getDefaultSelectedCandidateId(candidateList: Candidate[]) {
+  return (
+    [...candidateList].sort(
+      (left, right) =>
+        assessStarRating(right).stars - assessStarRating(left).stars ||
+        right.fitScore - left.fitScore ||
+        right.reachScore - left.reachScore,
+    )[0]?.id ?? ''
   );
 }
 

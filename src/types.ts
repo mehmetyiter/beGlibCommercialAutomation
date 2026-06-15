@@ -67,6 +67,21 @@ export interface ContactRoute {
   verifiedAt: string;
 }
 
+export type StarRating = 1 | 2 | 3 | 4 | 5;
+
+export interface InfluenceSignals {
+  hasPodcast?: boolean;
+  hasYoutubeShow?: boolean;
+  xFollowers?: number;
+  instagramFollowers?: number;
+  linkedinFollowers?: number;
+  tiktokFollowers?: number;
+  youtubeSubscribers?: number;
+  newsletterSubscribers?: number;
+  activePlatforms?: ChannelPlatform[];
+  notableSignals?: string[];
+}
+
 export interface Candidate {
   id: string;
   name: string;
@@ -85,6 +100,7 @@ export interface Candidate {
   sourceUrls: string[];
   lastVerifiedAt: string;
   rationale: string;
+  influenceSignals?: InfluenceSignals;
 }
 
 export interface ComplianceAssessment {
@@ -93,6 +109,14 @@ export interface ComplianceAssessment {
   severity: RiskLevel;
   blockers: string[];
   requiredActions: string[];
+}
+
+export interface StarAssessment {
+  stars: StarRating;
+  score: number;
+  label: string;
+  reasons: string[];
+  missingSignals: string[];
 }
 
 export interface FaqItem {

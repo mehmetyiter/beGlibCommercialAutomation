@@ -121,6 +121,7 @@ Phase 1:
 - Selected-candidate dossier and approval gates
 - Local browser vault with JSON batch import
 - CLI batch validator
+- OpenAlex public metadata research worker
 
 Phase 2:
 

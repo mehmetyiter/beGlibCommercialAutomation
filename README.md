@@ -9,6 +9,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Candidate taxonomy for scientists, artists, YouTubers, podcasters, academics, faith leaders, journalists, educators, technology voices, and thought leaders.
 - Compliance assessment rules that block do-not-contact, unknown consent, missing professional contact routes, and sensitive high-risk outreach.
 - Dashboard for candidate filtering, pipeline metrics, taxonomy coverage, selected-candidate dossiers, FAQ review ownership, and pilot wave staging.
+- Star rating system for ranking strong host candidates by creator/media distribution signals.
 - Local browser vault for importing candidate research batches without committing lead data.
 - CLI validator for checking a research batch before importing it into the cockpit.
 - Outreach draft previews generated from category-specific templates.
@@ -36,6 +37,12 @@ Validate a local private batch:
 npm run validate:batch -- data/your-private-batch.local.json
 ```
 
+Generate a local OpenAlex discovery batch:
+
+```bash
+npm run research:openalex -- --query "AI tutoring education" --limit 10 --category academia
+```
+
 ## Repository Privacy
 
 The GitHub repository was detected as public during setup. This repo is safe for code only. Do not commit:
@@ -58,6 +65,9 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [FAQ and reply routing](./docs/faq-reply-routing.md)
 - [Outreach playbook](./docs/outreach-playbook.md)
 - [Research batch workflow](./docs/research-batch-workflow.md)
+- [Source policy](./docs/source-policy.md)
+- [Star rating system](./docs/star-rating-system.md)
+- [Sprint 4 notes](./docs/sprint-4-notes.md)
 - [Sprint 3 notes](./docs/sprint-3-notes.md)
 - [Sprint 2 notes](./docs/sprint-2-notes.md)
 

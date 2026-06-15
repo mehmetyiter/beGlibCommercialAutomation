@@ -42,7 +42,15 @@
       ],
       "sourceUrls": ["https://example.edu/leyla-arman"],
       "lastVerifiedAt": "2026-06-15",
-      "rationale": "Synthetic candidate representing a high-fit AI and education researcher."
+      "rationale": "Synthetic candidate representing a high-fit AI and education researcher.",
+      "influenceSignals": {
+        "hasYoutubeShow": true,
+        "youtubeSubscribers": 36000,
+        "xFollowers": 22000,
+        "linkedinFollowers": 18000,
+        "activePlatforms": ["youtube", "x", "linkedin"],
+        "notableSignals": ["Synthetic example of an active public educator with video presence."]
+      }
     }
   ]
 }

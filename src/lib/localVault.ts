@@ -64,7 +64,7 @@ export function loadVaultState(seedCandidates: Candidate[]): VaultState {
     }
 
     return {
-      candidates: parsedState.candidates as Candidate[],
+      candidates: mergeSeedDefaults(parsedState.candidates as Candidate[], seedCandidates),
       auditEvents: Array.isArray(parsedState.auditEvents)
         ? (parsedState.auditEvents as AuditEvent[])
         : [],
@@ -260,10 +260,67 @@ function validateCandidate(
       warnings.push(`${prefix} has no usable contact route and will be blocked by compliance.`);
     }
   });
+
+  validateInfluenceSignals(rawCandidate.influenceSignals, prefix, errors);
+}
+
+function validateInfluenceSignals(
+  rawSignals: unknown,
+  prefix: string,
+  errors: string[],
+) {
+  if (typeof rawSignals === 'undefined') {
+    return;
+  }
+
+  if (!isRecord(rawSignals)) {
+    errors.push(`${prefix}.influenceSignals must be an object when provided.`);
+    return;
+  }
+
+  [
+    'xFollowers',
+    'instagramFollowers',
+    'linkedinFollowers',
+    'tiktokFollowers',
+    'youtubeSubscribers',
+    'newsletterSubscribers',
+  ].forEach((field) => {
+    const value = rawSignals[field];
+    if (typeof value !== 'undefined' && (typeof value !== 'number' || value < 0)) {
+      errors.push(`${prefix}.influenceSignals.${field} must be a non-negative number.`);
+    }
+  });
+
+  if (
+    typeof rawSignals.activePlatforms !== 'undefined' &&
+    (!Array.isArray(rawSignals.activePlatforms) ||
+      rawSignals.activePlatforms.some((platform) => typeof platform !== 'string'))
+  ) {
+    errors.push(`${prefix}.influenceSignals.activePlatforms must be an array of platform names.`);
+  }
 }
 
 function compactAudit(events: AuditEvent[]) {
   return events.slice(0, maxAuditEvents);
+}
+
+function mergeSeedDefaults(storedCandidates: Candidate[], seedCandidates: Candidate[]) {
+  const seedById = new Map(seedCandidates.map((candidate) => [candidate.id, candidate]));
+
+  return storedCandidates.map((candidate) => {
+    const seedCandidate = seedById.get(candidate.id);
+
+    if (!seedCandidate) {
+      return candidate;
+    }
+
+    return {
+      ...seedCandidate,
+      ...candidate,
+      influenceSignals: candidate.influenceSignals ?? seedCandidate.influenceSignals,
+    };
+  });
 }
 
 function canUseLocalStorage() {

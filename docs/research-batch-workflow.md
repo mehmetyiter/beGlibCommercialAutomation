@@ -26,11 +26,30 @@ The `data/` directory is ignored by git, so real lead data stays local.
 npm run validate:batch -- data/ai-education-wave-001.local.json
 ```
 
+## Generate OpenAlex Discovery Batch
+
+```bash
+npm run research:openalex -- --query "AI tutoring education" --limit 10 --category academia
+```
+
+The OpenAlex worker:
+
+- Searches public works metadata.
+- Extracts person-like authorship records.
+- Adds OpenAlex and ORCID source links when available.
+- Does not collect email addresses.
+- Sets contact route to `none`.
+- Leaves consent as `unknown`.
+- Produces a `.local.json` batch under `data/`.
+
+That means generated candidates are discovery-only until a human verifies official contact routes.
+
 The validator checks:
 
 - Batch metadata
 - Required candidate fields
 - Scores between 0 and 100
+- Optional influence and follower signals
 - At least one language, subcategory, source URL, and contact route
 - Guessed email-pattern red flags
 - Contact-route gaps that compliance will block
@@ -57,6 +76,8 @@ Required top-level fields:
 - `candidates`
 
 Each candidate must match the schema in `src/types.ts`.
+
+Optional creator strength signals can be included under `influenceSignals`. Leave unknown follower counts blank instead of guessing.
 
 ## Privacy Rule
 

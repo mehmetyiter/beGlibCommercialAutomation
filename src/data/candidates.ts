@@ -48,6 +48,14 @@ export const candidates: Candidate[] = [
     ],
     lastVerifiedAt: '2026-06-14',
     rationale: 'Strong bilingual fit for AI, education, and host-led knowledge formats.',
+    influenceSignals: {
+      hasYoutubeShow: true,
+      youtubeSubscribers: 42000,
+      xFollowers: 18000,
+      linkedinFollowers: 26000,
+      activePlatforms: ['youtube', 'x', 'linkedin'],
+      notableSignals: ['Regular public science talks and bilingual education audience.'],
+    },
   },
   {
     id: 'cand-002',
@@ -93,6 +101,13 @@ export const candidates: Candidate[] = [
     sourceUrls: ['https://example.com/maya-sol', 'https://podcasts.example.com/signal-room'],
     lastVerifiedAt: '2026-06-14',
     rationale: 'Interview craft, creator credibility, and cross-cultural audience overlap.',
+    influenceSignals: {
+      hasPodcast: true,
+      instagramFollowers: 68000,
+      newsletterSubscribers: 12000,
+      activePlatforms: ['podcast', 'instagram', 'newsletter'],
+      notableSignals: ['Existing long-form interview format.'],
+    },
   },
   {
     id: 'cand-003',
@@ -138,6 +153,12 @@ export const candidates: Candidate[] = [
     sourceUrls: ['https://university.example/reed', 'https://newsletter.example/moral-futures'],
     lastVerifiedAt: '2026-06-14',
     rationale: 'Excellent topical authority but EU/UK marketing basis needs manual review.',
+    influenceSignals: {
+      newsletterSubscribers: 18500,
+      linkedinFollowers: 9200,
+      activePlatforms: ['newsletter', 'linkedin'],
+      notableSignals: ['Strong newsletter authority but limited video signal.'],
+    },
   },
   {
     id: 'cand-004',
@@ -183,6 +204,13 @@ export const candidates: Candidate[] = [
     sourceUrls: ['https://example.de/noor-haddad'],
     lastVerifiedAt: '2026-06-14',
     rationale: 'Promising host fit, but sensitive category and missing professional contact block outreach.',
+    influenceSignals: {
+      hasYoutubeShow: true,
+      youtubeSubscribers: 18000,
+      xFollowers: 42000,
+      activePlatforms: ['youtube', 'x'],
+      notableSignals: ['Sensitive-category community trust requires extra review.'],
+    },
   },
   {
     id: 'cand-005',
@@ -228,6 +256,16 @@ export const candidates: Candidate[] = [
     sourceUrls: ['https://example.dev/kai', 'https://youtube.com/@example-build-notes/about'],
     lastVerifiedAt: '2026-06-13',
     rationale: 'High technical audience overlap and public partnerships route already verified.',
+    influenceSignals: {
+      hasPodcast: true,
+      hasYoutubeShow: true,
+      youtubeSubscribers: 146000,
+      xFollowers: 128000,
+      linkedinFollowers: 54000,
+      newsletterSubscribers: 31000,
+      activePlatforms: ['youtube', 'x', 'linkedin', 'newsletter', 'podcast'],
+      notableSignals: ['Already hosts technical interviews and publishes weekly.'],
+    },
   },
   {
     id: 'cand-006',
@@ -267,5 +305,11 @@ export const candidates: Candidate[] = [
     sourceUrls: ['https://example.mx/elena-marquez'],
     lastVerifiedAt: '2026-06-12',
     rationale: 'Suppression status overrides all fit and reach signals.',
+    influenceSignals: {
+      newsletterSubscribers: 24000,
+      xFollowers: 11000,
+      activePlatforms: ['newsletter', 'x'],
+      notableSignals: ['Suppression status overrides influence strength.'],
+    },
   },
 ];

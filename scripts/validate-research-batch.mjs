@@ -131,6 +131,40 @@ function validateCandidate(candidate, index, errors, warnings) {
       errors.push(`${prefix}.contactRoutes[${routeIndex}] looks like a guessed email pattern.`);
     }
   });
+
+  validateInfluenceSignals(candidate.influenceSignals, prefix, errors);
+}
+
+function validateInfluenceSignals(signals, prefix, errors) {
+  if (typeof signals === 'undefined') {
+    return;
+  }
+
+  if (!isRecord(signals)) {
+    errors.push(`${prefix}.influenceSignals must be an object when provided.`);
+    return;
+  }
+
+  [
+    'xFollowers',
+    'instagramFollowers',
+    'linkedinFollowers',
+    'tiktokFollowers',
+    'youtubeSubscribers',
+    'newsletterSubscribers',
+  ].forEach((field) => {
+    if (typeof signals[field] !== 'undefined' && (typeof signals[field] !== 'number' || signals[field] < 0)) {
+      errors.push(`${prefix}.influenceSignals.${field} must be a non-negative number.`);
+    }
+  });
+
+  if (
+    typeof signals.activePlatforms !== 'undefined' &&
+    (!Array.isArray(signals.activePlatforms) ||
+      signals.activePlatforms.some((platform) => typeof platform !== 'string'))
+  ) {
+    errors.push(`${prefix}.influenceSignals.activePlatforms must be an array of platform names.`);
+  }
 }
 
 function isRecord(value) {
