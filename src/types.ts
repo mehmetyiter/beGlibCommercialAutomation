@@ -1,0 +1,138 @@
+export type CandidateCategory =
+  | 'science'
+  | 'arts'
+  | 'youtube'
+  | 'podcast'
+  | 'thought-leadership'
+  | 'religion'
+  | 'academia'
+  | 'journalism'
+  | 'education'
+  | 'technology';
+
+export type CandidateStatus =
+  | 'researching'
+  | 'needs-review'
+  | 'approved'
+  | 'contacted'
+  | 'responded'
+  | 'do-not-contact';
+
+export type ConsentStatus =
+  | 'unknown'
+  | 'public-business-contact'
+  | 'representative-contact'
+  | 'contact-form-only'
+  | 'opted-out'
+  | 'not-allowed';
+
+export type RiskLevel = 'low' | 'medium' | 'high';
+
+export type ChannelPlatform =
+  | 'website'
+  | 'youtube'
+  | 'x'
+  | 'instagram'
+  | 'tiktok'
+  | 'linkedin'
+  | 'podcast'
+  | 'newsletter'
+  | 'wikipedia'
+  | 'orcid'
+  | 'openalex';
+
+export interface TaxonomyNode {
+  slug: CandidateCategory;
+  label: string;
+  description: string;
+  subcategories: string[];
+}
+
+export interface SocialChannel {
+  platform: ChannelPlatform;
+  label: string;
+  url: string;
+  verified: boolean;
+}
+
+export interface ContactRoute {
+  type:
+    | 'public-business-email'
+    | 'representative-email'
+    | 'contact-form'
+    | 'social-dm'
+    | 'none';
+  value: string;
+  sourceUrl: string;
+  verifiedAt: string;
+}
+
+export interface Candidate {
+  id: string;
+  name: string;
+  title: string;
+  country: string;
+  languages: string[];
+  primaryCategory: CandidateCategory;
+  subcategories: string[];
+  fitScore: number;
+  reachScore: number;
+  status: CandidateStatus;
+  consentStatus: ConsentStatus;
+  riskLevel: RiskLevel;
+  channels: SocialChannel[];
+  contactRoutes: ContactRoute[];
+  sourceUrls: string[];
+  lastVerifiedAt: string;
+  rationale: string;
+}
+
+export interface ComplianceAssessment {
+  sendable: boolean;
+  label: string;
+  severity: RiskLevel;
+  blockers: string[];
+  requiredActions: string[];
+}
+
+export interface FaqItem {
+  id: string;
+  topic: string;
+  likelyQuestion: string;
+  answerDraft: string;
+  owner: 'ai-draft' | 'human-review' | 'legal-review';
+}
+
+export interface OutreachTemplate {
+  id: string;
+  category: CandidateCategory | 'default';
+  name: string;
+  subject: string;
+  previewText: string;
+  body: string;
+  requiredReview: Array<'brand' | 'legal' | 'privacy' | 'commercial' | 'sensitive-category'>;
+}
+
+export type ReplyClass =
+  | 'interested'
+  | 'more-info'
+  | 'compensation'
+  | 'rights'
+  | 'privacy'
+  | 'meeting'
+  | 'representative'
+  | 'not-interested'
+  | 'unsubscribe'
+  | 'complaint';
+
+export interface ReplyExample {
+  id: string;
+  candidateId: string;
+  fromLabel: string;
+  receivedAt: string;
+  excerpt: string;
+  replyClass: ReplyClass;
+  confidence: number;
+  recommendedOwner: 'ai-draft' | 'human-review' | 'legal-review';
+  recommendedAction: string;
+}

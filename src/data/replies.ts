@@ -1,0 +1,48 @@
+import type { ReplyExample } from '../types';
+
+export const replyExamples: ReplyExample[] = [
+  {
+    id: 'reply-001',
+    candidateId: 'cand-002',
+    fromLabel: 'Maya Sol representative',
+    receivedAt: '2026-06-14T15:20:00Z',
+    excerpt: 'Maya may be interested. Could you send the overview and clarify expected time commitment?',
+    replyClass: 'more-info',
+    confidence: 91,
+    recommendedOwner: 'ai-draft',
+    recommendedAction: 'Draft overview reply and include time commitment FAQ.',
+  },
+  {
+    id: 'reply-002',
+    candidateId: 'cand-005',
+    fromLabel: 'Kai Tanaka',
+    receivedAt: '2026-06-14T18:05:00Z',
+    excerpt: 'Is this paid or revenue share? I would need to understand commercial terms first.',
+    replyClass: 'compensation',
+    confidence: 96,
+    recommendedOwner: 'human-review',
+    recommendedAction: 'Route to commercial owner before any answer is sent.',
+  },
+  {
+    id: 'reply-003',
+    candidateId: 'cand-003',
+    fromLabel: 'Prof. Jonah Reed',
+    receivedAt: '2026-06-15T09:40:00Z',
+    excerpt: 'How did you obtain this address and what information are you storing about me?',
+    replyClass: 'privacy',
+    confidence: 98,
+    recommendedOwner: 'legal-review',
+    recommendedAction: 'Pause outreach and prepare privacy/source disclosure response.',
+  },
+  {
+    id: 'reply-004',
+    candidateId: 'cand-006',
+    fromLabel: 'Elena Marquez',
+    receivedAt: '2026-06-12T11:10:00Z',
+    excerpt: 'Please remove me from your list and do not contact me again.',
+    replyClass: 'unsubscribe',
+    confidence: 99,
+    recommendedOwner: 'human-review',
+    recommendedAction: 'Confirm suppression and retain only minimum do-not-contact record.',
+  },
+];

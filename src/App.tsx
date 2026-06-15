@@ -1,0 +1,592 @@
+import {
+  AlertTriangle,
+  BarChart3,
+  Bot,
+  CalendarCheck2,
+  CheckCircle2,
+  ClipboardCheck,
+  Database,
+  ExternalLink,
+  FileText,
+  Filter,
+  Globe2,
+  Inbox,
+  LockKeyhole,
+  Mail,
+  Search,
+  ShieldAlert,
+  ShieldCheck,
+  Sparkles,
+  UserCheck,
+  Users,
+  XCircle,
+} from 'lucide-react';
+import { useMemo, useState } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
+import './App.css';
+import { candidates } from './data/candidates';
+import { faqItems } from './data/faq';
+import { replyExamples } from './data/replies';
+import { taxonomy } from './data/taxonomy';
+import { assessCandidate } from './lib/compliance';
+import { getTemplateForCandidate, renderOutreachDraft } from './lib/outreach';
+import type {
+  Candidate,
+  CandidateCategory,
+  CandidateStatus,
+  ComplianceAssessment,
+  ReplyExample,
+  RiskLevel,
+} from './types';
+
+type AssessedCandidate = Candidate & { assessment: ComplianceAssessment };
+
+const statusLabels: Record<CandidateStatus, string> = {
+  researching: 'Researching',
+  'needs-review': 'Needs review',
+  approved: 'Approved',
+  contacted: 'Contacted',
+  responded: 'Responded',
+  'do-not-contact': 'Do not contact',
+};
+
+const riskLabels: Record<RiskLevel, string> = {
+  low: 'Low',
+  medium: 'Medium',
+  high: 'High',
+};
+
+const replyClassLabels: Record<ReplyExample['replyClass'], string> = {
+  interested: 'Interested',
+  'more-info': 'More info',
+  compensation: 'Compensation',
+  rights: 'Rights',
+  privacy: 'Privacy',
+  meeting: 'Meeting',
+  representative: 'Representative',
+  'not-interested': 'Not interested',
+  unsubscribe: 'Unsubscribe',
+  complaint: 'Complaint',
+};
+
+const tabs = ['Command', 'Discovery', 'Outreach', 'AI replies', 'Governance'];
+
+function App() {
+  const [selectedCategory, setSelectedCategory] = useState<CandidateCategory | 'all'>('all');
+  const [query, setQuery] = useState('');
+  const [selectedCandidateId, setSelectedCandidateId] = useState(candidates[0]?.id ?? '');
+
+  const assessedCandidates = useMemo<AssessedCandidate[]>(
+    () =>
+      candidates.map((candidate) => ({
+        ...candidate,
+        assessment: assessCandidate(candidate),
+      })),
+    [],
+  );
+
+  const filteredCandidates = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase();
+
+    return assessedCandidates.filter((candidate) => {
+      const matchesCategory =
+        selectedCategory === 'all' || candidate.primaryCategory === selectedCategory;
+      const matchesQuery =
+        normalizedQuery.length === 0 ||
+        [
+          candidate.name,
+          candidate.title,
+          candidate.country,
+          candidate.primaryCategory,
+          candidate.subcategories.join(' '),
+          candidate.languages.join(' '),
+        ]
+          .join(' ')
+          .toLowerCase()
+          .includes(normalizedQuery);
+
+      return matchesCategory && matchesQuery;
+    });
+  }, [assessedCandidates, query, selectedCategory]);
+
+  const selectedCandidate =
+    assessedCandidates.find((candidate) => candidate.id === selectedCandidateId) ??
+    filteredCandidates[0] ??
+    assessedCandidates[0];
+
+  const selectedTemplate = getTemplateForCandidate(selectedCandidate);
+  const selectedDraft = renderOutreachDraft(selectedCandidate, selectedTemplate);
+  const candidateReplies = replyExamples.filter(
+    (reply) => reply.candidateId === selectedCandidate.id,
+  );
+
+  const stats = useMemo(() => {
+    const ready = assessedCandidates.filter((candidate) => candidate.assessment.label === 'Ready');
+    const review = assessedCandidates.filter(
+      (candidate) => candidate.assessment.label === 'Review first',
+    );
+    const blocked = assessedCandidates.filter(
+      (candidate) => candidate.assessment.label === 'Blocked',
+    );
+    const publicRoutes = assessedCandidates.filter((candidate) =>
+      candidate.contactRoutes.some((route) =>
+        ['public-business-email', 'representative-email'].includes(route.type),
+      ),
+    );
+
+    return {
+      total: assessedCandidates.length,
+      ready: ready.length,
+      review: review.length,
+      blocked: blocked.length,
+      publicRoutes: publicRoutes.length,
+      aiQueue: replyExamples.length,
+      avgFit: Math.round(
+        assessedCandidates.reduce((sum, candidate) => sum + candidate.fitScore, 0) /
+          assessedCandidates.length,
+      ),
+    };
+  }, [assessedCandidates]);
+
+  const categoryCoverage = useMemo(
+    () =>
+      taxonomy.map((node) => ({
+        ...node,
+        count: assessedCandidates.filter((candidate) => candidate.primaryCategory === node.slug)
+          .length,
+      })),
+    [assessedCandidates],
+  );
+
+  return (
+    <div className="app-shell">
+      <aside className="sidebar" aria-label="Workspace navigation">
+        <div className="brand-lockup">
+          <div className="brand-mark" aria-hidden="true">
+            bG
+          </div>
+          <div>
+            <p className="eyebrow">beGlib</p>
+            <h1>Host Intelligence</h1>
+          </div>
+        </div>
+
+        <nav className="nav-stack" aria-label="Primary">
+          {tabs.map((tab, index) => (
+            <button className={index === 0 ? 'nav-item active' : 'nav-item'} key={tab} type="button">
+              {index === 0 && <BarChart3 size={18} aria-hidden="true" />}
+              {index === 1 && <Database size={18} aria-hidden="true" />}
+              {index === 2 && <Mail size={18} aria-hidden="true" />}
+              {index === 3 && <Bot size={18} aria-hidden="true" />}
+              {index === 4 && <LockKeyhole size={18} aria-hidden="true" />}
+              <span>{tab}</span>
+            </button>
+          ))}
+        </nav>
+
+        <div className="privacy-panel">
+          <ShieldAlert size={18} aria-hidden="true" />
+          <div>
+            <strong>Public repo mode</strong>
+            <span>Code only. Lead data stays local or encrypted.</span>
+          </div>
+        </div>
+      </aside>
+
+      <main className="workspace">
+        <section className="topbar" aria-label="Workspace summary">
+          <div>
+            <p className="eyebrow">Sprint 2 cockpit</p>
+            <h2>Lead discovery, approval gates, and AI reply triage</h2>
+          </div>
+          <div className="topbar-actions">
+            <button className="icon-button" type="button" aria-label="Review inbox">
+              <Inbox size={19} aria-hidden="true" />
+            </button>
+            <button className="primary-action" type="button">
+              <ClipboardCheck size={18} aria-hidden="true" />
+              Stage wave
+            </button>
+          </div>
+        </section>
+
+        <section className="metric-grid" aria-label="Pipeline metrics">
+          <Metric icon={<Users size={20} />} label="Candidates" value={stats.total.toString()} />
+          <Metric icon={<CheckCircle2 size={20} />} label="Ready" value={stats.ready.toString()} />
+          <Metric icon={<AlertTriangle size={20} />} label="Review" value={stats.review.toString()} />
+          <Metric icon={<XCircle size={20} />} label="Blocked" value={stats.blocked.toString()} />
+          <Metric icon={<Globe2 size={20} />} label="Routes" value={stats.publicRoutes.toString()} />
+          <Metric icon={<Bot size={20} />} label="AI queue" value={stats.aiQueue.toString()} />
+        </section>
+
+        <section className="control-band" aria-label="Candidate filters">
+          <div className="search-box">
+            <Search size={18} aria-hidden="true" />
+            <input
+              aria-label="Search candidates"
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search people, topics, countries"
+              type="search"
+              value={query}
+            />
+          </div>
+
+          <label className="select-box">
+            <Filter size={18} aria-hidden="true" />
+            <select
+              aria-label="Filter by category"
+              onChange={(event) =>
+                setSelectedCategory(event.target.value as CandidateCategory | 'all')
+              }
+              value={selectedCategory}
+            >
+              <option value="all">All categories</option>
+              {taxonomy.map((node) => (
+                <option key={node.slug} value={node.slug}>
+                  {node.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        </section>
+
+        <section className="content-grid">
+          <div className="candidate-area">
+            <SectionHeader
+              eyebrow="Discovery"
+              title={`${filteredCandidates.length} candidates in working set`}
+              trailing={`${stats.ready} ready now`}
+            />
+            <div className="candidate-list">
+              {filteredCandidates.map((candidate) => (
+                <CandidateRow
+                  candidate={candidate}
+                  isSelected={candidate.id === selectedCandidate.id}
+                  key={candidate.id}
+                  onSelect={() => setSelectedCandidateId(candidate.id)}
+                />
+              ))}
+            </div>
+          </div>
+
+          <aside className="detail-rail" aria-label="Selected candidate dossier">
+            <CandidateDossier
+              candidate={selectedCandidate}
+              draft={selectedDraft}
+              replies={candidateReplies}
+              templateName={selectedTemplate.name}
+              templateSubject={selectedTemplate.subject}
+            />
+
+            <SectionHeader eyebrow="Taxonomy" title="Coverage map" />
+            <div className="taxonomy-list">
+              {categoryCoverage.map((node) => (
+                <button
+                  className={selectedCategory === node.slug ? 'taxonomy-item active' : 'taxonomy-item'}
+                  key={node.slug}
+                  onClick={() => setSelectedCategory(node.slug)}
+                  type="button"
+                >
+                  <span>
+                    <strong>{node.label}</strong>
+                    <small>{node.subcategories.slice(0, 3).join(', ')}</small>
+                  </span>
+                  <b>{node.count}</b>
+                </button>
+              ))}
+            </div>
+          </aside>
+        </section>
+
+        <section className="lower-grid" aria-label="AI and outreach operations">
+          <div>
+            <SectionHeader eyebrow="AI desk" title="Reply triage queue" />
+            <div className="reply-grid">
+              {replyExamples.map((reply) => (
+                <ReplyCard key={reply.id} reply={reply} />
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <SectionHeader eyebrow="FAQ" title="Approved answer inventory" />
+            <div className="faq-list wide">
+              {faqItems.map((item) => (
+                <article className="faq-item" key={item.id}>
+                  <div>
+                    <strong>{item.topic}</strong>
+                    <span className={`owner-badge ${item.owner}`}>{item.owner.replace('-', ' ')}</span>
+                  </div>
+                  <p>{item.likelyQuestion}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
+
+function Metric({
+  icon,
+  label,
+  value,
+}: {
+  icon: ReactNode;
+  label: string;
+  value: string;
+}) {
+  return (
+    <article className="metric-tile">
+      <span aria-hidden="true">{icon}</span>
+      <div>
+        <strong>{value}</strong>
+        <small>{label}</small>
+      </div>
+    </article>
+  );
+}
+
+function SectionHeader({
+  eyebrow,
+  title,
+  trailing,
+}: {
+  eyebrow: string;
+  title: string;
+  trailing?: string;
+}) {
+  return (
+    <header className="section-header">
+      <div>
+        <p className="eyebrow">{eyebrow}</p>
+        <h3>{title}</h3>
+      </div>
+      {trailing && <span>{trailing}</span>}
+    </header>
+  );
+}
+
+function CandidateRow({
+  candidate,
+  isSelected,
+  onSelect,
+}: {
+  candidate: AssessedCandidate;
+  isSelected: boolean;
+  onSelect: () => void;
+}) {
+  const primaryRoute = candidate.contactRoutes[0];
+  const verifiedChannels = candidate.channels.filter((channel) => channel.verified).length;
+
+  return (
+    <article className={isSelected ? 'candidate-row selected' : 'candidate-row'}>
+      <button className="candidate-select" onClick={onSelect} type="button">
+        <div className="candidate-main">
+          <div className="candidate-title-row">
+            <div>
+              <h4>{candidate.name}</h4>
+              <p>{candidate.title}</p>
+            </div>
+            <span className={`assessment-badge ${candidate.assessment.severity}`}>
+              {candidate.assessment.label}
+            </span>
+          </div>
+
+          <div className="tag-row" aria-label="Candidate tags">
+            <span>{candidate.country}</span>
+            <span>{candidate.languages.join(', ')}</span>
+            <span>{statusLabels[candidate.status]}</span>
+            <span>{riskLabels[candidate.riskLevel]} risk</span>
+          </div>
+
+          <p className="rationale">{candidate.rationale}</p>
+
+          <div className="channel-row" aria-label="Verified channels">
+            <span>
+              {verifiedChannels}/{candidate.channels.length} verified channels
+            </span>
+            <span>{primaryRoute.type.replaceAll('-', ' ')}</span>
+          </div>
+        </div>
+
+        <div className="candidate-side">
+          <ScoreRing label="Fit" value={candidate.fitScore} />
+          <ScoreRing label="Reach" value={candidate.reachScore} />
+          <div className="route-box">
+            <small>Contact route</small>
+            <strong>{primaryRoute.type.replaceAll('-', ' ')}</strong>
+            <span>{primaryRoute.value}</span>
+          </div>
+        </div>
+      </button>
+
+      <div className="compliance-strip">
+        {candidate.assessment.blockers.length > 0 ? (
+          candidate.assessment.blockers.map((blocker) => <span key={blocker}>{blocker}</span>)
+        ) : (
+          <span>No blocking compliance issue detected.</span>
+        )}
+        {candidate.assessment.requiredActions.slice(0, 2).map((action) => (
+          <span key={action}>{action}</span>
+        ))}
+      </div>
+    </article>
+  );
+}
+
+function CandidateDossier({
+  candidate,
+  draft,
+  replies,
+  templateName,
+  templateSubject,
+}: {
+  candidate: AssessedCandidate;
+  draft: string;
+  replies: ReplyExample[];
+  templateName: string;
+  templateSubject: string;
+}) {
+  const canStage = candidate.assessment.sendable && candidate.assessment.severity !== 'high';
+
+  return (
+    <div className="dossier">
+      <SectionHeader eyebrow="Dossier" title={candidate.name} trailing={candidate.country} />
+
+      <div className="dossier-summary">
+        <div>
+          <strong>{candidate.title}</strong>
+          <span>{candidate.subcategories.join(', ')}</span>
+        </div>
+        <span className={`assessment-badge ${candidate.assessment.severity}`}>
+          {candidate.assessment.label}
+        </span>
+      </div>
+
+      <div className="decision-grid">
+        <DecisionTile
+          icon={<ShieldCheck size={17} />}
+          label="Compliance"
+          value={candidate.assessment.sendable ? 'Pass' : 'Hold'}
+        />
+        <DecisionTile icon={<UserCheck size={17} />} label="Status" value={statusLabels[candidate.status]} />
+        <DecisionTile icon={<CalendarCheck2 size={17} />} label="Verified" value={candidate.lastVerifiedAt} />
+      </div>
+
+      <div className={canStage ? 'stage-box ready' : 'stage-box hold'}>
+        <strong>{canStage ? 'Ready for human approval' : 'Do not stage yet'}</strong>
+        <span>
+          {canStage
+            ? 'Draft can enter the approval queue after final review.'
+            : 'Resolve blockers before any outreach action.'}
+        </span>
+      </div>
+
+      <PanelBlock icon={<ShieldAlert size={17} />} title="Compliance gates">
+        <div className="gate-list">
+          {candidate.assessment.blockers.length === 0 && <span>No active blocker.</span>}
+          {candidate.assessment.blockers.map((blocker) => (
+            <span className="blocked" key={blocker}>
+              {blocker}
+            </span>
+          ))}
+          {candidate.assessment.requiredActions.map((action) => (
+            <span key={action}>{action}</span>
+          ))}
+        </div>
+      </PanelBlock>
+
+      <PanelBlock icon={<FileText size={17} />} title="Outreach draft">
+        <div className="draft-meta">
+          <span>{templateName}</span>
+          <strong>{templateSubject}</strong>
+        </div>
+        <pre className="draft-preview">{draft}</pre>
+      </PanelBlock>
+
+      <PanelBlock icon={<Globe2 size={17} />} title="Source evidence">
+        <div className="source-list">
+          {candidate.channels.map((channel) => (
+            <a href={channel.url} key={`${candidate.id}-${channel.platform}`} target="_blank">
+              <span>{channel.label}</span>
+              <small>{channel.verified ? 'verified' : 'needs check'}</small>
+              <ExternalLink size={13} aria-hidden="true" />
+            </a>
+          ))}
+        </div>
+      </PanelBlock>
+
+      <PanelBlock icon={<Sparkles size={17} />} title="Candidate replies">
+        <div className="mini-replies">
+          {replies.length === 0 && <span>No reply examples connected to this candidate.</span>}
+          {replies.map((reply) => (
+            <span key={reply.id}>{replyClassLabels[reply.replyClass]}</span>
+          ))}
+        </div>
+      </PanelBlock>
+    </div>
+  );
+}
+
+function DecisionTile({ icon, label, value }: { icon: ReactNode; label: string; value: string }) {
+  return (
+    <div className="decision-tile">
+      <span aria-hidden="true">{icon}</span>
+      <small>{label}</small>
+      <strong>{value}</strong>
+    </div>
+  );
+}
+
+function PanelBlock({
+  children,
+  icon,
+  title,
+}: {
+  children: ReactNode;
+  icon: ReactNode;
+  title: string;
+}) {
+  return (
+    <section className="panel-block">
+      <header>
+        <span aria-hidden="true">{icon}</span>
+        <strong>{title}</strong>
+      </header>
+      {children}
+    </section>
+  );
+}
+
+function ReplyCard({ reply }: { reply: ReplyExample }) {
+  return (
+    <article className="reply-card">
+      <div className="reply-card-top">
+        <span className={`owner-badge ${reply.recommendedOwner}`}>
+          {reply.recommendedOwner.replace('-', ' ')}
+        </span>
+        <strong>{reply.confidence}%</strong>
+      </div>
+      <h4>{replyClassLabels[reply.replyClass]}</h4>
+      <p>{reply.excerpt}</p>
+      <small>{reply.recommendedAction}</small>
+    </article>
+  );
+}
+
+function ScoreRing({ label, value }: { label: string; value: number }) {
+  return (
+    <div
+      className="score-ring"
+      style={{ '--score': `${value * 3.6}deg` } as CSSProperties}
+      aria-label={`${label} score ${value}`}
+    >
+      <strong>{value}</strong>
+      <span>{label}</span>
+    </div>
+  );
+}
+
+export default App;
