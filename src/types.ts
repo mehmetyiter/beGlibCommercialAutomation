@@ -226,6 +226,39 @@ export interface OfficialSourceApplyResult {
   updatedCandidates: Candidate[];
 }
 
+export type CreatorSignalOutcomeStatus =
+  | 'pending'
+  | 'verified-signals'
+  | 'profile-only'
+  | 'needs-more-review'
+  | 'rejected';
+
+export interface CreatorSignalReviewOutcome {
+  candidateId: string;
+  outcomeStatus: CreatorSignalOutcomeStatus;
+  verifiedAt: string;
+  channels: SocialChannel[];
+  influenceSignals: InfluenceSignals;
+  sourceUrls: string[];
+  reviewerNotes: string;
+}
+
+export interface CreatorSignalApplySummary {
+  outcomesRead: number;
+  updated: number;
+  channelsAdded: number;
+  signalFieldsUpdated: number;
+  skipped: number;
+}
+
+export interface CreatorSignalApplyResult {
+  ok: boolean;
+  errors: string[];
+  warnings: string[];
+  summary: CreatorSignalApplySummary;
+  updatedCandidates: Candidate[];
+}
+
 export type AuditEventType =
   | 'vault_initialized'
   | 'batch_imported'

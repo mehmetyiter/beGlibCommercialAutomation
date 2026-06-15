@@ -15,6 +15,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Outreach draft previews generated from category-specific templates.
 - AI reply triage examples with routing to AI draft, human review, or legal review.
 - Official-source review outcomes can be applied from the local cockpit or CLI.
+- Creator-signal review outcomes can be applied from the local cockpit or CLI.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
 
 ## Run Locally
@@ -109,6 +110,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 12 notes](./docs/sprint-12-notes.md)
 - [Sprint 11 notes](./docs/sprint-11-notes.md)
 - [Sprint 10 notes](./docs/sprint-10-notes.md)
 - [Sprint 9 notes](./docs/sprint-9-notes.md)

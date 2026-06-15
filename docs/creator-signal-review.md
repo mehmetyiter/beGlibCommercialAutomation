@@ -78,6 +78,17 @@ The importer:
 - Does not change consent status.
 - Does not approve outreach.
 
+## Apply In The Cockpit
+
+The local web cockpit can apply completed creator-signal outcomes:
+
+1. Run the app with `npm run dev`.
+2. Use `Apply signals` in the creator signals panel.
+3. Select the local JSON review package or outcomes file.
+4. Review the updated counts and vault status.
+
+The cockpit updates the local browser vault only. It does not add contact routes, change consent status, or approve outreach.
+
 ## Data Rules
 
 - Do not guess follower or subscriber counts.

@@ -31,6 +31,7 @@ import { faqItems } from './data/faq';
 import { replyExamples } from './data/replies';
 import { taxonomy } from './data/taxonomy';
 import { assessCandidate } from './lib/compliance';
+import { applyCreatorSignalReviewToCandidates } from './lib/creatorSignalReview';
 import {
   appendAuditEvent,
   createAuditEvent,
@@ -49,6 +50,7 @@ import type {
   CandidateCategory,
   CandidateStatus,
   ComplianceAssessment,
+  CreatorSignalApplySummary,
   OfficialSourceApplySummary,
   ReplyExample,
   ResearchBatch,
@@ -103,6 +105,9 @@ function App() {
   const [reviewApplyMessage, setReviewApplyMessage] = useState('No review outcomes applied.');
   const [reviewApplySummary, setReviewApplySummary] = useState<OfficialSourceApplySummary | null>(null);
   const [reviewApplyProblems, setReviewApplyProblems] = useState({ errors: [] as string[], warnings: [] as string[] });
+  const [creatorApplyMessage, setCreatorApplyMessage] = useState('No creator signals applied.');
+  const [creatorApplySummary, setCreatorApplySummary] = useState<CreatorSignalApplySummary | null>(null);
+  const [creatorApplyProblems, setCreatorApplyProblems] = useState({ errors: [] as string[], warnings: [] as string[] });
 
   const assessedCandidates = useMemo<AssessedCandidate[]>(
     () =>
@@ -305,6 +310,61 @@ function App() {
     }
   }
 
+  async function handleApplyCreatorSignals(file: File | undefined) {
+    if (!file) {
+      return;
+    }
+
+    try {
+      const parsed = JSON.parse(await file.text()) as unknown;
+      const result = applyCreatorSignalReviewToCandidates(vaultState.candidates, parsed);
+      setCreatorApplySummary(result.summary);
+      setCreatorApplyProblems({ errors: result.errors, warnings: result.warnings });
+
+      if (!result.ok) {
+        setCreatorApplyMessage(`Apply blocked: ${result.errors[0] ?? 'creator outcomes need attention.'}`);
+        setVaultState((currentState) =>
+          appendAuditEvent(
+            currentState,
+            createAuditEvent('validation_failed', 'Creator-signal review apply failed.', {
+              errors: result.errors.length,
+              file: file.name,
+            }),
+          ),
+        );
+        return;
+      }
+
+      const updateBatch: ResearchBatch = {
+        batchId: `creator-signal-review-ui-${Date.now()}`,
+        createdAt: new Date().toISOString(),
+        sourceLabel: `Creator-signal UI apply: ${file.name}`,
+        researcher: 'beGlib cockpit',
+        notes:
+          'Generated in the local cockpit from completed creator-signal review outcomes. This updates prioritization only and does not approve outreach.',
+        candidates: result.updatedCandidates,
+      };
+      const validation = validateResearchBatch(updateBatch);
+
+      if (!validation.ok || !validation.batch) {
+        setCreatorApplyMessage(`Apply blocked: ${validation.errors.join(' ')}`);
+        setCreatorApplyProblems({ errors: validation.errors, warnings: validation.warnings });
+        return;
+      }
+
+      const importResult = importResearchBatch(vaultState, validation.batch);
+      setVaultState(importResult.state);
+      setSelectedCandidateId(result.updatedCandidates[0]?.id ?? selectedCandidateId);
+      setVaultMessage(`Applied creator-signal updates for ${result.summary.updated} candidates.`);
+      setCreatorApplyMessage(`Applied ${result.summary.updated} creator updates from ${file.name}.`);
+      setCreatorApplyProblems({ errors: [], warnings: result.warnings });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Creator signal apply failed.';
+      setCreatorApplyMessage(message);
+      setCreatorApplyProblems({ errors: [message], warnings: [] });
+    }
+  }
+
   function handleResetVault() {
     const resetState = resetVaultState(candidates);
     setVaultState(resetState);
@@ -399,11 +459,43 @@ function App() {
           <small>Updated {new Date(vaultState.updatedAt).toLocaleString()}</small>
         </section>
 
-        <OfficialReviewApplyPanel
+        <ReviewApplyPanel
+          actionLabel="Apply review"
+          ariaLabel="Official review apply"
+          eyebrow="Official review"
+          icon={<ClipboardCheck size={20} />}
+          inputAriaLabel="Apply official review outcome JSON"
           message={reviewApplyMessage}
           onApply={handleApplyOfficialReview}
           problems={reviewApplyProblems}
-          summary={reviewApplySummary}
+          stats={[
+            { label: 'Outcomes', value: reviewApplySummary?.outcomesRead ?? 0 },
+            { label: 'Updated', value: reviewApplySummary?.updated ?? 0 },
+            { label: 'Routes', value: reviewApplySummary?.routesAdded ?? 0 },
+            { label: 'Profiles', value: reviewApplySummary?.profileOnly ?? 0 },
+            { label: 'Suppress', value: reviewApplySummary?.suppressed ?? 0 },
+            { label: 'Skipped', value: reviewApplySummary?.skipped ?? 0 },
+          ]}
+          title="Outcome apply"
+        />
+
+        <ReviewApplyPanel
+          actionLabel="Apply signals"
+          ariaLabel="Creator signal apply"
+          eyebrow="Creator signals"
+          icon={<Star size={20} />}
+          inputAriaLabel="Apply creator signal outcome JSON"
+          message={creatorApplyMessage}
+          onApply={handleApplyCreatorSignals}
+          problems={creatorApplyProblems}
+          stats={[
+            { label: 'Outcomes', value: creatorApplySummary?.outcomesRead ?? 0 },
+            { label: 'Updated', value: creatorApplySummary?.updated ?? 0 },
+            { label: 'Channels', value: creatorApplySummary?.channelsAdded ?? 0 },
+            { label: 'Signals', value: creatorApplySummary?.signalFieldsUpdated ?? 0 },
+            { label: 'Skipped', value: creatorApplySummary?.skipped ?? 0 },
+          ]}
+          title="Media apply"
         />
 
         <section className="control-band" aria-label="Candidate filters">
@@ -526,55 +618,54 @@ function App() {
   );
 }
 
-function OfficialReviewApplyPanel({
+function ReviewApplyPanel({
+  actionLabel,
+  ariaLabel,
+  eyebrow,
+  icon,
+  inputAriaLabel,
   message,
   onApply,
   problems,
-  summary,
+  stats,
+  title,
 }: {
+  actionLabel: string;
+  ariaLabel: string;
+  eyebrow: string;
+  icon: ReactNode;
+  inputAriaLabel: string;
   message: string;
   onApply: (file: File | undefined) => void | Promise<void>;
   problems: { errors: string[]; warnings: string[] };
-  summary: OfficialSourceApplySummary | null;
+  stats: Array<{ label: string; value: number }>;
+  title: string;
 }) {
-  const values = summary ?? {
-    outcomesRead: 0,
-    updated: 0,
-    routesAdded: 0,
-    profileOnly: 0,
-    suppressed: 0,
-    skipped: 0,
-  };
   const hasProblems = problems.errors.length > 0 || problems.warnings.length > 0;
 
   return (
-    <section className="review-apply-panel" aria-label="Official review apply">
+    <section className="review-apply-panel" aria-label={ariaLabel}>
       <div className="review-apply-heading">
-        <span aria-hidden="true">
-          <ClipboardCheck size={20} />
-        </span>
+        <span aria-hidden="true">{icon}</span>
         <div>
-          <p className="eyebrow">Official review</p>
-          <h3>Outcome apply</h3>
+          <p className="eyebrow">{eyebrow}</p>
+          <h3>{title}</h3>
         </div>
       </div>
 
-      <div className="review-stat-grid" aria-label="Official review apply summary">
-        <ReviewStat label="Outcomes" value={values.outcomesRead} />
-        <ReviewStat label="Updated" value={values.updated} />
-        <ReviewStat label="Routes" value={values.routesAdded} />
-        <ReviewStat label="Profiles" value={values.profileOnly} />
-        <ReviewStat label="Suppress" value={values.suppressed} />
-        <ReviewStat label="Skipped" value={values.skipped} />
+      <div className="review-stat-grid" aria-label={`${ariaLabel} summary`}>
+        {stats.map((stat) => (
+          <ReviewStat key={stat.label} label={stat.label} value={stat.value} />
+        ))}
       </div>
 
       <div className="review-apply-actions">
         <label className="secondary-action">
           <UploadCloud size={18} aria-hidden="true" />
-          Apply review
+          {actionLabel}
           <input
             accept="application/json"
-            aria-label="Apply official review outcome JSON"
+            aria-label={inputAriaLabel}
             onChange={(event) => {
               void onApply(event.target.files?.[0]);
               event.target.value = '';
