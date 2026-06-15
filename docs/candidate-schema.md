@@ -150,3 +150,20 @@ The local vault records lightweight audit events with:
 - `metadata`
 
 Audit events currently live in browser localStorage. Production storage should keep a server-side append-only audit log.
+
+## Verification Task
+
+The verification queue uses `VerificationTask` records.
+
+Required fields:
+
+- `id`
+- `candidateId`
+- `candidateName`
+- `priority`
+- `type`
+- `summary`
+- `sourceHints`
+- `blockers`
+
+Verification tasks are generated from candidate state and are not outreach approvals.

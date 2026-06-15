@@ -40,3 +40,7 @@ A human must verify:
 - Sensitive category risk
 
 before any candidate can enter an outbound campaign.
+
+## Verification Queue
+
+Discovery candidates with missing contact route, unknown consent, unverified channels, high-risk categories, or suppression status should be routed to the verification queue before campaign staging.

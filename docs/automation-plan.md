@@ -122,6 +122,7 @@ Phase 1:
 - Local browser vault with JSON batch import
 - CLI batch validator
 - OpenAlex public metadata research worker
+- Official-source verification queue and checklist export
 
 Phase 2:
 

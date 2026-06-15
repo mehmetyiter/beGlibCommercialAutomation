@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "export:verification": "node scripts/export-verification-checklist.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "research:openalex": "node scripts/research-openalex-works.mjs",

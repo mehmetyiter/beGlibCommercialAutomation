@@ -43,6 +43,12 @@ Generate a local OpenAlex discovery batch:
 npm run research:openalex -- --query "AI tutoring education" --limit 10 --category academia
 ```
 
+Export a local verification checklist:
+
+```bash
+npm run export:verification -- data/your-private-batch.local.json
+```
+
 ## Repository Privacy
 
 The GitHub repository was detected as public during setup. This repo is safe for code only. Do not commit:
@@ -67,6 +73,8 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Research batch workflow](./docs/research-batch-workflow.md)
 - [Source policy](./docs/source-policy.md)
 - [Star rating system](./docs/star-rating-system.md)
+- [Verification queue](./docs/verification-queue.md)
+- [Sprint 5 notes](./docs/sprint-5-notes.md)
 - [Sprint 4 notes](./docs/sprint-4-notes.md)
 - [Sprint 3 notes](./docs/sprint-3-notes.md)
 - [Sprint 2 notes](./docs/sprint-2-notes.md)

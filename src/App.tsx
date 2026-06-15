@@ -41,6 +41,7 @@ import {
 } from './lib/localVault';
 import { getTemplateForCandidate, renderOutreachDraft } from './lib/outreach';
 import { assessStarRating } from './lib/starRating';
+import { buildVerificationTasks, createCandidateTasks } from './lib/verificationQueue';
 import type {
   AuditEvent,
   Candidate,
@@ -50,6 +51,7 @@ import type {
   ReplyExample,
   RiskLevel,
   StarAssessment,
+  VerificationTask,
 } from './types';
 
 type AssessedCandidate = Candidate & {
@@ -147,6 +149,14 @@ function App() {
   const candidateReplies = replyExamples.filter(
     (reply) => reply.candidateId === selectedCandidate.id,
   );
+  const verificationTasks = useMemo(
+    () => buildVerificationTasks(vaultState.candidates),
+    [vaultState.candidates],
+  );
+  const selectedVerificationTasks = useMemo(
+    () => createCandidateTasks(selectedCandidate),
+    [selectedCandidate],
+  );
 
   const stats = useMemo(() => {
     const ready = assessedCandidates.filter((candidate) => candidate.assessment.label === 'Ready');
@@ -171,12 +181,13 @@ function App() {
       publicRoutes: publicRoutes.length,
       topTier: topTier.length,
       aiQueue: replyExamples.length,
+      verificationQueue: verificationTasks.length,
       avgFit: Math.round(
         assessedCandidates.reduce((sum, candidate) => sum + candidate.fitScore, 0) /
           assessedCandidates.length,
       ),
     };
-  }, [assessedCandidates]);
+  }, [assessedCandidates, verificationTasks.length]);
 
   const categoryCoverage = useMemo(
     () =>
@@ -316,7 +327,7 @@ function App() {
           <Metric icon={<AlertTriangle size={20} />} label="Review" value={stats.review.toString()} />
           <Metric icon={<XCircle size={20} />} label="Blocked" value={stats.blocked.toString()} />
           <Metric icon={<Star size={20} />} label="4-5 star" value={stats.topTier.toString()} />
-          <Metric icon={<Bot size={20} />} label="AI queue" value={stats.aiQueue.toString()} />
+          <Metric icon={<ShieldCheck size={20} />} label="Verify" value={stats.verificationQueue.toString()} />
         </section>
 
         <section className="vault-band" aria-label="Local vault status">
@@ -386,6 +397,7 @@ function App() {
               replies={candidateReplies}
               templateName={selectedTemplate.name}
               templateSubject={selectedTemplate.subject}
+              verificationTasks={selectedVerificationTasks}
             />
 
             <SectionHeader eyebrow="Taxonomy" title="Coverage map" />
@@ -409,6 +421,15 @@ function App() {
         </section>
 
         <section className="lower-grid" aria-label="AI and outreach operations">
+          <div>
+            <SectionHeader eyebrow="Verification" title="Official source queue" />
+            <div className="verification-list">
+              {verificationTasks.slice(0, 8).map((task) => (
+                <VerificationCard key={task.id} task={task} />
+              ))}
+            </div>
+          </div>
+
           <div>
             <SectionHeader eyebrow="AI desk" title="Reply triage queue" />
             <div className="reply-grid">
@@ -557,6 +578,7 @@ function CandidateDossier({
   replies,
   templateName,
   templateSubject,
+  verificationTasks,
 }: {
   auditEvents: AuditEvent[];
   candidate: AssessedCandidate;
@@ -564,6 +586,7 @@ function CandidateDossier({
   replies: ReplyExample[];
   templateName: string;
   templateSubject: string;
+  verificationTasks: VerificationTask[];
 }) {
   const canStage = candidate.assessment.sendable && candidate.assessment.severity !== 'high';
 
@@ -628,6 +651,17 @@ function CandidateDossier({
           ))}
           {candidate.assessment.requiredActions.map((action) => (
             <span key={action}>{action}</span>
+          ))}
+        </div>
+      </PanelBlock>
+
+      <PanelBlock icon={<ShieldCheck size={17} />} title="Verification tasks">
+        <div className="mini-task-list">
+          {verificationTasks.length === 0 && <span>No verification task open.</span>}
+          {verificationTasks.slice(0, 4).map((task) => (
+            <span className={`priority-${task.priority}`} key={task.id}>
+              {task.summary}
+            </span>
           ))}
         </div>
       </PanelBlock>
@@ -745,6 +779,19 @@ function ReplyCard({ reply }: { reply: ReplyExample }) {
       <h4>{replyClassLabels[reply.replyClass]}</h4>
       <p>{reply.excerpt}</p>
       <small>{reply.recommendedAction}</small>
+    </article>
+  );
+}
+
+function VerificationCard({ task }: { task: VerificationTask }) {
+  return (
+    <article className={`verification-card priority-${task.priority}`}>
+      <div>
+        <strong>{task.candidateName}</strong>
+        <span>{task.priority}</span>
+      </div>
+      <p>{task.summary}</p>
+      <small>{task.type.replaceAll('-', ' ')}</small>
     </article>
   );
 }

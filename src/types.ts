@@ -191,3 +191,24 @@ export interface VaultState {
   auditEvents: AuditEvent[];
   updatedAt: string;
 }
+
+export type VerificationPriority = 'urgent' | 'high' | 'medium' | 'low';
+
+export type VerificationTaskType =
+  | 'official-profile'
+  | 'contact-route'
+  | 'identity-match'
+  | 'jurisdiction'
+  | 'suppression'
+  | 'sensitive-category';
+
+export interface VerificationTask {
+  id: string;
+  candidateId: string;
+  candidateName: string;
+  priority: VerificationPriority;
+  type: VerificationTaskType;
+  summary: string;
+  sourceHints: string[];
+  blockers: string[];
+}
