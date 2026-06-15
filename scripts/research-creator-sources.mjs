@@ -6,6 +6,25 @@ import { loadLocalEnv } from './lib/local-env.mjs';
 
 const supportedSources = new Set(['youtube', 'podcastindex', 'rss']);
 const creatorPlatforms = new Set(['youtube', 'podcast', 'newsletter']);
+const confidenceRank = {
+  low: 1,
+  medium: 2,
+  high: 3,
+};
+const nameStopWords = new Set(['dr', 'prof', 'professor']);
+const topicStopWords = new Set([
+  'and',
+  'with',
+  'from',
+  'that',
+  'this',
+  'public',
+  'synthetic',
+  'candidate',
+  'example',
+  'high',
+  'active',
+]);
 const parser = new XMLParser({
   attributeNamePrefix: '@_',
   ignoreAttributes: false,
@@ -26,18 +45,20 @@ const defaultSlug = slugify(batch.batchId ?? 'research-batch');
 const markdownPath = resolve(args.output ?? `exports/${defaultSlug}-creator-source-discovery.local.md`);
 const jsonPath = resolve(args['json-output'] ?? `exports/${defaultSlug}-creator-source-discovery.local.json`);
 const maxResults = boundedNumber(args.max, 3, 1, 10);
+const minConfidence = getMinConfidence(args);
 const failures = [];
 const skippedSources = [];
+let filteredSuggestions = 0;
 const items = [];
 
 for (const candidate of selectedCandidates) {
-  const suggestions = [];
+  const rawSuggestions = [];
 
   if (sources.has('youtube')) {
     if (!process.env.YOUTUBE_API_KEY) {
       skippedSources.push({ source: 'youtube', candidateId: candidate.id, reason: 'YOUTUBE_API_KEY is not set.' });
     } else {
-      suggestions.push(...(await discoverYouTube(candidate, maxResults, failures)));
+      rawSuggestions.push(...(await discoverYouTube(candidate, maxResults, failures)));
     }
   }
 
@@ -49,15 +70,17 @@ for (const candidate of selectedCandidates) {
         reason: 'PODCASTINDEX_API_KEY or PODCASTINDEX_API_SECRET is not set.',
       });
     } else {
-      suggestions.push(...(await discoverPodcastIndex(candidate, maxResults, failures)));
+      rawSuggestions.push(...(await discoverPodcastIndex(candidate, maxResults, failures)));
     }
   }
 
   if (sources.has('rss')) {
-    suggestions.push(...(await discoverRss(candidate, sourceConfig.feeds ?? [], failures)));
+    rawSuggestions.push(...(await discoverRss(candidate, sourceConfig.feeds ?? [], failures)));
   }
 
-  items.push(buildReviewItem(candidate, suggestions));
+  const suggestions = filterSuggestions(rawSuggestions, minConfidence);
+  filteredSuggestions += rawSuggestions.length - suggestions.length;
+  items.push(buildReviewItem(candidate, suggestions, rawSuggestions.length - suggestions.length));
 }
 
 const reviewPackage = {
@@ -75,11 +98,14 @@ const reviewPackage = {
     podcastIndexSuggestions: countSuggestions(items, 'podcastindex-api'),
     rssSuggestions: countSuggestions(items, 'rss-feed'),
     skippedSources: skippedSources.length,
+    filteredSuggestions,
     failures: failures.length,
+    minConfidence,
   },
   rules: [
     'Suggestions are not verified channels.',
     'A human must confirm identity match before copying suggestions into reviewOutcome.',
+    'Low-confidence suggestions are filtered by default; rerun with --min-confidence low for exploratory review.',
     'Do not infer audience counts from unavailable or hidden source data.',
     'Do not treat creator/media discovery as permission to contact.',
     'Keep generated operational outputs in ignored local files or a private database.',
@@ -101,6 +127,8 @@ console.log(`YouTube suggestions: ${reviewPackage.summary.youtubeSuggestions}`);
 console.log(`PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`);
 console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
 console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
+console.log(`Filtered suggestions: ${reviewPackage.summary.filteredSuggestions}`);
+console.log(`Minimum confidence: ${reviewPackage.summary.minConfidence}`);
 console.log(`Failures: ${reviewPackage.summary.failures}`);
 
 if (localEnv.loaded) {
@@ -127,6 +155,19 @@ function getSources(value) {
   const sources = new Set(requested.filter((source) => supportedSources.has(source)));
 
   return sources.size > 0 ? sources : new Set(['rss']);
+}
+
+function getMinConfidence(options) {
+  if (options['include-low-confidence']) {
+    return 'low';
+  }
+
+  const requested = String(options['min-confidence'] ?? 'medium').toLowerCase();
+  return confidenceRank[requested] ? requested : 'medium';
+}
+
+function filterSuggestions(suggestions, minimumConfidence) {
+  return suggestions.filter((suggestion) => confidenceRank[suggestion.confidence] >= confidenceRank[minimumConfidence]);
 }
 
 function credentialStatus(sources) {
@@ -191,6 +232,7 @@ function youtubeSuggestion(candidate, item) {
   const subscriberCount = hiddenSubscriberCount ? undefined : numberOrUndefined(statistics.subscriberCount);
   const videoCount = numberOrUndefined(statistics.videoCount);
   const label = item.snippet?.title ?? 'YouTube channel';
+  const description = item.snippet?.description;
   const url = `https://www.youtube.com/channel/${channelId}`;
 
   return {
@@ -199,9 +241,9 @@ function youtubeSuggestion(candidate, item) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: labelMatchesCandidate(label, candidate.name) ? 'medium' : 'low',
+    confidence: identityConfidence(candidate, [label, description]),
     evidence: [
-      item.snippet?.description,
+      description,
       typeof videoCount === 'number' ? `${videoCount} public videos reported by API.` : undefined,
       typeof subscriberCount === 'number' ? `${subscriberCount} public subscribers reported by API.` : undefined,
     ].filter(Boolean),
@@ -252,6 +294,7 @@ function podcastIndexHeaders() {
 function podcastIndexSuggestion(candidate, feed) {
   const label = feed.title ?? feed.author ?? 'Podcast feed';
   const url = feed.link || feed.url || feed.originalUrl || `https://podcastindex.org/podcast/${feed.id}`;
+  const evidence = [feed.author, feed.ownerName, feed.description].filter(Boolean).slice(0, 4);
 
   return {
     source: 'podcastindex-api',
@@ -259,10 +302,8 @@ function podcastIndexSuggestion(candidate, feed) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: labelMatchesCandidate(`${label} ${feed.author ?? ''} ${feed.ownerName ?? ''}`, candidate.name)
-      ? 'medium'
-      : 'low',
-    evidence: [feed.author, feed.ownerName, feed.description].filter(Boolean).slice(0, 4),
+    confidence: identityConfidence(candidate, [label, ...evidence]),
+    evidence,
     publicCounts: {},
     sourceUrls: [feed.url, feed.originalUrl, url].filter(Boolean),
     verified: false,
@@ -332,6 +373,10 @@ function rssSuggestion(candidate, feed, parsedFeed) {
   const platform = creatorPlatforms.has(feed.platform) ? feed.platform : 'podcast';
   const label = parsedFeed.title || feed.label || `${candidate.name} feed`;
   const url = parsedFeed.link || feed.url;
+  const evidence = [
+    parsedFeed.description,
+    ...parsedFeed.items.map((item) => [item.title, item.pubDate].filter(Boolean).join(' — ')),
+  ].filter(Boolean).slice(0, 5);
 
   return {
     source: 'rss-feed',
@@ -339,11 +384,8 @@ function rssSuggestion(candidate, feed, parsedFeed) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: labelMatchesCandidate(label, candidate.name) ? 'medium' : 'low',
-    evidence: [
-      parsedFeed.description,
-      ...parsedFeed.items.map((item) => [item.title, item.pubDate].filter(Boolean).join(' — ')),
-    ].filter(Boolean).slice(0, 5),
+    confidence: identityConfidence(candidate, [label, ...evidence]),
+    evidence,
     publicCounts: {},
     sourceUrls: [feed.url, url].filter(Boolean),
     verified: false,
@@ -351,7 +393,7 @@ function rssSuggestion(candidate, feed, parsedFeed) {
   };
 }
 
-function buildReviewItem(candidate, suggestions) {
+function buildReviewItem(candidate, suggestions, filteredSuggestionCount) {
   return {
     candidateId: candidate.id,
     name: candidate.name,
@@ -361,6 +403,7 @@ function buildReviewItem(candidate, suggestions) {
     priority: suggestions.length > 0 ? 'medium' : 'high',
     sourceHints: (candidate.sourceUrls ?? []).slice(0, 8),
     suggestions,
+    filteredSuggestionCount,
     reviewChecks: [
       'Confirm the suggested channel/feed belongs to the same person.',
       'Copy only verified suggestions into reviewOutcome.channels.',
@@ -401,6 +444,8 @@ function renderMarkdown(reviewPackage) {
     `- PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`,
     `- RSS suggestions: ${reviewPackage.summary.rssSuggestions}`,
     `- Skipped source attempts: ${reviewPackage.summary.skippedSources}`,
+    `- Filtered suggestions: ${reviewPackage.summary.filteredSuggestions}`,
+    `- Minimum confidence: ${reviewPackage.summary.minConfidence}`,
     `- Failures: ${reviewPackage.summary.failures}`,
     '',
     '## Guardrails',
@@ -414,6 +459,7 @@ function renderMarkdown(reviewPackage) {
     lines.push('');
     lines.push(`- Category: ${item.category}`);
     lines.push(`- Priority: ${item.priority.toUpperCase()}`);
+    lines.push(`- Filtered suggestions: ${item.filteredSuggestionCount}`);
     lines.push('- Suggestions:');
 
     if (item.suggestions.length === 0) {
@@ -485,13 +531,6 @@ function textValue(value) {
   return '';
 }
 
-function labelMatchesCandidate(label, name) {
-  const normalizedLabel = label.toLowerCase();
-  const nameParts = name.toLowerCase().split(/\s+/).filter((part) => part.length > 2);
-
-  return nameParts.some((part) => normalizedLabel.includes(part));
-}
-
 function numberOrUndefined(value) {
   const number = Number(value);
   return Number.isFinite(number) ? number : undefined;
@@ -502,6 +541,91 @@ function countSuggestions(items, source) {
     (count, item) => count + item.suggestions.filter((suggestion) => suggestion.source === source).length,
     0,
   );
+}
+
+function identityConfidence(candidate, textParts) {
+  const text = normalizeSearchText(textParts.filter(Boolean).join(' '));
+  const name = getNameParts(candidate.name);
+  const topicOverlap = hasTopicOverlap(candidate, text);
+
+  if (!name.first || !name.last) {
+    return 'low';
+  }
+
+  const exactFullName = name.fullVariants.some((variant) => text.includes(variant));
+  const firstAndLast = tokenInText(text, name.first) && tokenInText(text, name.last);
+  const lastNameOnlyWithTopic = tokenInText(text, name.last) && topicOverlap;
+
+  if (exactFullName && topicOverlap) {
+    return 'high';
+  }
+
+  if (exactFullName || (firstAndLast && topicOverlap)) {
+    return 'medium';
+  }
+
+  if (firstAndLast || lastNameOnlyWithTopic) {
+    return 'low';
+  }
+
+  return 'low';
+}
+
+function getNameParts(name) {
+  const tokens = normalizeSearchText(name)
+    .split(' ')
+    .filter((token) => token.length > 1 && !nameStopWords.has(token));
+  const substantialTokens = tokens.filter((token) => token.length > 2);
+  const first = substantialTokens[0] ?? '';
+  const last = substantialTokens[substantialTokens.length - 1] ?? '';
+  const fullVariants = new Set();
+
+  if (first && last) {
+    fullVariants.add(`${first} ${last}`);
+    fullVariants.add(tokens.join(' '));
+  }
+
+  return { first, last, fullVariants: Array.from(fullVariants) };
+}
+
+function hasTopicOverlap(candidate, text) {
+  const topicTokens = topicText(candidate)
+    .split(' ')
+    .filter((token) => token.length > 3 && !topicStopWords.has(token));
+
+  return topicTokens.some((token) => tokenInText(text, token));
+}
+
+function topicText(candidate) {
+  return normalizeSearchText(
+    [
+      candidate.title,
+      candidate.primaryCategory,
+      ...(candidate.subcategories ?? []),
+      candidate.rationale,
+      ...(candidate.influenceSignals?.notableSignals ?? []),
+    ]
+      .filter(Boolean)
+      .join(' '),
+  );
+}
+
+function tokenInText(text, token) {
+  return new RegExp(`(?:^| )${escapeRegExp(token)}(?: |$)`).test(text);
+}
+
+function normalizeSearchText(value) {
+  return String(value)
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function parseArgs(argv) {

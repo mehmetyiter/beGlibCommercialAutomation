@@ -62,6 +62,22 @@ npm run research:creator-sources -- --local-env path/to/your.local.env --batch e
 
 Do not commit API keys or operational discovery outputs.
 
+## Confidence Filtering
+
+The worker defaults to `--min-confidence medium` so broad runs do not fill review files with weak channel matches.
+
+Use exploratory mode when you want to inspect every returned suggestion:
+
+```bash
+npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --sources youtube --limit 25 --min-confidence low
+```
+
+Confidence is based on public evidence only:
+
+- `high`: exact name evidence plus topical overlap.
+- `medium`: exact name evidence, or first and last name evidence with topical overlap.
+- `low`: weak or partial identity evidence.
+
 ## RSS Config
 
 RSS/Atom feeds are explicit because feed ownership and identity matching usually need human context.

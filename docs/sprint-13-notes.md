@@ -6,6 +6,7 @@
 - Synthetic RSS feed and source config for local smoke testing.
 - Graceful skipped-source reporting when API credentials are not configured.
 - Ignored `.env.local` credential loading for local research runs.
+- Default medium-confidence filtering for noisy creator source suggestions.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule
