@@ -70,6 +70,8 @@ Run creator source discovery for YouTube, PodcastIndex, and configured RSS feeds
 npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --limit 25 --sources youtube,podcastindex --output exports/openalex-wave-001-creator-source-discovery.local.md --json-output exports/openalex-wave-001-creator-source-discovery.local.json
 ```
 
+Local API keys can be stored in ignored `.env.local` after copying `.env.example`.
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash

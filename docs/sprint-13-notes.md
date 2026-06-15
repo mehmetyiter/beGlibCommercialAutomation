@@ -5,6 +5,7 @@
 - Creator source discovery worker for YouTube Data API, PodcastIndex, and RSS/Atom feeds.
 - Synthetic RSS feed and source config for local smoke testing.
 - Graceful skipped-source reporting when API credentials are not configured.
+- Ignored `.env.local` credential loading for local research runs.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule

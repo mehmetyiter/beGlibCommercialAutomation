@@ -48,6 +48,18 @@ Use environment variables only in local shells or secret stores:
 - `PODCASTINDEX_API_SECRET`
 - `BEGLIB_RESEARCH_USER_AGENT`
 
+For local use, copy `.env.example` to `.env.local` and fill the values there:
+
+```bash
+cp .env.example .env.local
+```
+
+The worker loads `.env.local` automatically. You can also point it at a different ignored file:
+
+```bash
+npm run research:creator-sources -- --env-file path/to/your.local.env --batch examples/research-batch.synthetic.json
+```
+
 Do not commit API keys or operational discovery outputs.
 
 ## RSS Config

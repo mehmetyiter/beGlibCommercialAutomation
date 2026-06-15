@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
+import { loadLocalEnv } from './lib/local-env.mjs';
 
 const supportedSources = new Set(['youtube', 'podcastindex', 'rss']);
 const creatorPlatforms = new Set(['youtube', 'podcast', 'newsletter']);
@@ -13,6 +14,7 @@ const parser = new XMLParser({
 });
 
 const args = parseArgs(process.argv.slice(2));
+const localEnv = await loadLocalEnv(args['env-file']);
 const batchPath = resolve(args.batch ?? args._[0] ?? 'examples/research-batch.synthetic.json');
 const sourceConfigPath = args.config ? resolve(args.config) : undefined;
 const batch = JSON.parse(await readFile(batchPath, 'utf8'));
@@ -100,6 +102,10 @@ console.log(`PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSugge
 console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
 console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
 console.log(`Failures: ${reviewPackage.summary.failures}`);
+
+if (localEnv.loaded && localEnv.variables.length > 0) {
+  console.log(`Loaded local env: ${localEnv.variables.join(', ')}`);
+}
 
 function selectCandidates(candidates, options) {
   const categoryFilter = options.categories
