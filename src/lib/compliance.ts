@@ -1,6 +1,6 @@
 import type { Candidate, ComplianceAssessment } from '../types';
 
-const sensitiveCategories = new Set(['religion']);
+const sensitiveCategories = new Set(['religion', 'psychology', 'therapy', 'medicine']);
 const consentBlockers = new Set(['opted-out', 'not-allowed']);
 
 export function assessCandidate(candidate: Candidate): ComplianceAssessment {
@@ -25,6 +25,10 @@ export function assessCandidate(candidate: Candidate): ComplianceAssessment {
 
   if (sensitiveCategories.has(candidate.primaryCategory)) {
     requiredActions.push('Human review required for sensitive category outreach.');
+  }
+
+  if (['psychology', 'therapy', 'medicine'].includes(candidate.primaryCategory)) {
+    requiredActions.push('Health or mental-health claims must receive legal/clinical review.');
   }
 
   if (candidate.riskLevel === 'high') {

@@ -31,11 +31,16 @@ Top-level groups:
 - Podcasters
 - Thought leaders
 - Faith leaders
+- Psychologists
+- Therapists
+- Doctors and medical educators
 - Journalists
 - Educators
 - Technology voices
 
 Each candidate can have many subcategories. Scoring should support topic fit, audience fit, geography, language, reach, credibility, brand risk, and contact confidence.
+
+There is no strategic cap on how many candidates can be discovered. Operationally, discovery should run in traceable batches so verification, suppression, and compliance review remain auditable.
 
 ### 3. Contact Verification
 

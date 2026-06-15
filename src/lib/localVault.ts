@@ -307,6 +307,8 @@ function compactAudit(events: AuditEvent[]) {
 
 function mergeSeedDefaults(storedCandidates: Candidate[], seedCandidates: Candidate[]) {
   const seedById = new Map(seedCandidates.map((candidate) => [candidate.id, candidate]));
+  const storedIds = new Set(storedCandidates.map((candidate) => candidate.id));
+  const missingSeedCandidates = seedCandidates.filter((candidate) => !storedIds.has(candidate.id));
 
   return storedCandidates.map((candidate) => {
     const seedCandidate = seedById.get(candidate.id);
@@ -320,7 +322,7 @@ function mergeSeedDefaults(storedCandidates: Candidate[], seedCandidates: Candid
       ...candidate,
       influenceSignals: candidate.influenceSignals ?? seedCandidate.influenceSignals,
     };
-  });
+  }).concat(missingSeedCandidates);
 }
 
 function canUseLocalStorage() {

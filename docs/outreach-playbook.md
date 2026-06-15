@@ -60,3 +60,7 @@ Pause a candidate or campaign when:
 - A complaint arrives.
 - A message involves legal, rights, privacy, compensation, religious, political, or health-sensitive context.
 - Deliverability signals degrade.
+
+## Health and Mental-Health Outreach
+
+Psychologists, therapists, doctors, psychiatrists, and public-health voices are high-care candidates. Any copy involving these groups must avoid medical advice, diagnosis, treatment claims, patient outcomes, or implied endorsement. Use educational framing only, and require human plus legal/clinical review before staging.

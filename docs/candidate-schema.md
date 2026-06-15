@@ -37,6 +37,22 @@ Optional fields:
 - `responded`
 - `do-not-contact`
 
+## Category Values
+
+- `science`
+- `arts`
+- `youtube`
+- `podcast`
+- `thought-leadership`
+- `religion`
+- `psychology`
+- `therapy`
+- `medicine`
+- `academia`
+- `journalism`
+- `education`
+- `technology`
+
 ## Consent Values
 
 - `unknown`

@@ -77,7 +77,10 @@ export function createCandidateTasks(candidate: Candidate): VerificationTask[] {
     });
   }
 
-  if (candidate.primaryCategory === 'religion' || candidate.riskLevel === 'high') {
+  if (
+    ['religion', 'psychology', 'therapy', 'medicine'].includes(candidate.primaryCategory) ||
+    candidate.riskLevel === 'high'
+  ) {
     tasks.push({
       id: `${candidate.id}-sensitive-category`,
       candidateId: candidate.id,

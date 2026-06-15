@@ -87,4 +87,58 @@ Best,
 beGlib team`,
     requiredReview: ['brand', 'privacy', 'sensitive-category', 'legal'],
   },
+  {
+    id: 'tmpl-psychology',
+    category: 'psychology',
+    name: 'Psychology expert inquiry',
+    subject: 'Carefully scoped psychology conversation inquiry',
+    previewText: 'Requires human, privacy, and legal review before use for psychology voices.',
+    body: `Hi {{name}},
+
+We are researching qualified voices who can host careful, evidence-aware conversations around {{topics}}.
+
+Because this area touches mental health and public trust, we would only proceed with clear scope, accurate positioning, and appropriate review. If open, we can send a short overview for consideration.
+
+If this is not relevant, reply and we will not contact you again.
+
+Best,
+beGlib team`,
+    requiredReview: ['brand', 'privacy', 'sensitive-category', 'legal'],
+  },
+  {
+    id: 'tmpl-therapy',
+    category: 'therapy',
+    name: 'Therapy educator inquiry',
+    subject: 'Carefully scoped mental-health education inquiry',
+    previewText: 'Requires extra review for therapists, counselors, and mental-health educators.',
+    body: `Hi {{name}},
+
+We are exploring expert-led conversation formats and found your public work around {{topics}}.
+
+For therapy and mental-health education contexts, we would want the scope to be careful, non-clinical, and reviewed before anything is shared publicly. If appropriate, we can send a concise overview first.
+
+If this is not relevant, reply and we will not contact you again.
+
+Best,
+beGlib team`,
+    requiredReview: ['brand', 'privacy', 'sensitive-category', 'legal'],
+  },
+  {
+    id: 'tmpl-medicine',
+    category: 'medicine',
+    name: 'Medical expert inquiry',
+    subject: 'Carefully scoped medical education conversation inquiry',
+    previewText: 'Requires legal/clinical review before use for doctors and medical educators.',
+    body: `Hi {{name}},
+
+We are researching medical and public-health voices who may be a fit for carefully moderated educational conversations around {{topics}}.
+
+We would treat this as an expert-led education format, not medical advice, and would only proceed after the scope and wording are reviewed. If open, we can send a short overview.
+
+If this is not relevant, reply and we will not contact you again.
+
+Best,
+beGlib team`,
+    requiredReview: ['brand', 'privacy', 'sensitive-category', 'legal'],
+  },
 ];

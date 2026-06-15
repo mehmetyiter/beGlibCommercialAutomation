@@ -6,7 +6,7 @@ Private lead intelligence and outreach control system for finding potential beGl
 
 The current cockpit uses synthetic candidate data only and now includes:
 
-- Candidate taxonomy for scientists, artists, YouTubers, podcasters, academics, faith leaders, journalists, educators, technology voices, and thought leaders.
+- Candidate taxonomy for scientists, artists, YouTubers, podcasters, academics, faith leaders, psychologists, therapists, doctors, journalists, educators, technology voices, and thought leaders.
 - Compliance assessment rules that block do-not-contact, unknown consent, missing professional contact routes, and sensitive high-risk outreach.
 - Dashboard for candidate filtering, pipeline metrics, taxonomy coverage, selected-candidate dossiers, FAQ review ownership, and pilot wave staging.
 - Star rating system for ranking strong host candidates by creator/media distribution signals.
@@ -74,6 +74,8 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Source policy](./docs/source-policy.md)
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
+- [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 6 notes](./docs/sprint-6-notes.md)
 - [Sprint 5 notes](./docs/sprint-5-notes.md)
 - [Sprint 4 notes](./docs/sprint-4-notes.md)
 - [Sprint 3 notes](./docs/sprint-3-notes.md)

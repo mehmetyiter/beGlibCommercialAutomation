@@ -64,3 +64,7 @@ Stars do not override:
 - Jurisdiction review
 
 High-star candidates are priority research targets, not automatically sendable contacts.
+
+## Health and Mental-Health Note
+
+Doctors, psychologists, and therapists can be 5-star candidates when they already publish podcasts, YouTube shows, newsletters, or social education. This only means they are strong research targets. It never bypasses health-sensitive review.

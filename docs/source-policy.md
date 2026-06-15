@@ -38,6 +38,7 @@ A human must verify:
 - Consent or lawful outreach basis
 - Suppression list status
 - Sensitive category risk
+- Health or mental-health claim risk
 
 before any candidate can enter an outbound campaign.
 
