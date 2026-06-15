@@ -73,6 +73,7 @@ function buildSummary(packages, parseFailures) {
     prioritySuggestions: 0,
     deprioritizedSuggestions: 0,
     skippedSources: 0,
+    fallbackSources: 0,
     sourceFailures: 0,
   };
 
@@ -93,6 +94,7 @@ function buildSummary(packages, parseFailures) {
       deprioritizedSuggestions:
         payload.summary?.deprioritizedSuggestions ?? countDeprioritizedSuggestions(items),
       skippedSources: payload.summary?.skippedSources ?? 0,
+      fallbackSources: payload.summary?.fallbackSources ?? 0,
       failures: payload.summary?.failures ?? 0,
       minConfidence: payload.summary?.minConfidence ?? '',
     };
@@ -104,6 +106,7 @@ function buildSummary(packages, parseFailures) {
     totals.prioritySuggestions += fileSummary.prioritySuggestions;
     totals.deprioritizedSuggestions += fileSummary.deprioritizedSuggestions;
     totals.skippedSources += fileSummary.skippedSources;
+    totals.fallbackSources += fileSummary.fallbackSources;
     totals.sourceFailures += fileSummary.failures;
 
     for (const item of items) {
@@ -143,6 +146,7 @@ function buildSummary(packages, parseFailures) {
     prioritySuggestions: totals.prioritySuggestions,
     deprioritizedSuggestions: totals.deprioritizedSuggestions,
     skippedSources: totals.skippedSources,
+    fallbackSources: totals.fallbackSources,
     failures: totals.sourceFailures,
     parseFailures,
     byFile,
@@ -179,6 +183,7 @@ function renderMarkdown(summary) {
     `- Priority suggestions: ${summary.prioritySuggestions}`,
     `- Deprioritized suggestions retained: ${summary.deprioritizedSuggestions}`,
     `- Skipped source attempts: ${summary.skippedSources}`,
+    `- Fallback source attempts: ${summary.fallbackSources}`,
     `- Failures: ${summary.failures}`,
     '',
     '## Packages',
@@ -186,7 +191,7 @@ function renderMarkdown(summary) {
   ];
 
   summary.byFile.forEach((file) => {
-    lines.push(`- Offset ${file.offset}: ${file.selectedCandidates} candidates, ${file.prioritySuggestions} priority, ${file.deprioritizedSuggestions} deprioritized, ${file.failures} failures`);
+    lines.push(`- Offset ${file.offset}: ${file.selectedCandidates} candidates, ${file.prioritySuggestions} priority, ${file.deprioritizedSuggestions} deprioritized, ${file.fallbackSources} fallback, ${file.failures} failures`);
   });
 
   if (summary.parseFailures.length > 0) {

@@ -52,6 +52,7 @@ const requestRetries = boundedNumber(args.retries, 2, 0, 5);
 const retryDelayMs = boundedNumber(args['retry-delay-ms'], 2000, 250, 60000);
 const failures = [];
 const skippedSources = [];
+const fallbackSources = [];
 let deprioritizedSuggestions = 0;
 const items = [];
 
@@ -69,11 +70,15 @@ for (let candidateIndex = 0; candidateIndex < selectedCandidates.length; candida
 
   if (sources.has('podcastindex')) {
     if (!process.env.PODCASTINDEX_API_KEY || !process.env.PODCASTINDEX_API_SECRET) {
-      skippedSources.push({
-        source: 'podcastindex',
-        candidateId: candidate.id,
-        reason: 'PODCASTINDEX_API_KEY or PODCASTINDEX_API_SECRET is not set.',
-      });
+      if (process.env.PODCASTINDEX_API_KEY && !process.env.PODCASTINDEX_API_SECRET) {
+        fallbackSources.push({
+          source: 'podcastindex-authenticated',
+          candidateId: candidate.id,
+          reason: 'PODCASTINDEX_API_SECRET is not set; using public PodcastIndex search fallback.',
+        });
+      }
+
+      rawSuggestions.push(...(await discoverPodcastIndexPublic(candidate, maxResults, failures)));
     } else {
       rawSuggestions.push(...(await discoverPodcastIndex(candidate, maxResults, failures)));
     }
@@ -106,11 +111,12 @@ const reviewPackage = {
     offset: candidateOffset,
     sources: Array.from(sources),
     youtubeSuggestions: countAllSuggestions(items, 'youtube-data-api'),
-    podcastIndexSuggestions: countAllSuggestions(items, 'podcastindex-api'),
+    podcastIndexSuggestions: countAllSuggestionsByPrefix(items, 'podcastindex-'),
     rssSuggestions: countAllSuggestions(items, 'rss-feed'),
     prioritySuggestions: countPrioritySuggestions(items),
     deprioritizedSuggestions,
     skippedSources: skippedSources.length,
+    fallbackSources: fallbackSources.length,
     filteredSuggestions: deprioritizedSuggestions,
     failures: failures.length,
     minConfidence,
@@ -128,6 +134,7 @@ const reviewPackage = {
     'Keep generated operational outputs in ignored local files or a private database.',
   ],
   skippedSources,
+  fallbackSources,
   failures,
   items,
 };
@@ -145,6 +152,7 @@ console.log(`YouTube suggestions: ${reviewPackage.summary.youtubeSuggestions}`);
 console.log(`PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`);
 console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
 console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
+console.log(`Fallback source attempts: ${reviewPackage.summary.fallbackSources}`);
 console.log(`Priority suggestions: ${reviewPackage.summary.prioritySuggestions}`);
 console.log(`Deprioritized suggestions retained: ${reviewPackage.summary.deprioritizedSuggestions}`);
 console.log(`Minimum confidence: ${reviewPackage.summary.minConfidence}`);
@@ -205,7 +213,7 @@ function credentialStatus(sources) {
 
   if (sources.has('podcastindex')) {
     const isReady = process.env.PODCASTINDEX_API_KEY && process.env.PODCASTINDEX_API_SECRET;
-    statuses.push(`PodcastIndex ${isReady ? 'ready' : 'missing'}`);
+    statuses.push(`PodcastIndex ${isReady ? 'authenticated' : 'public fallback'}`);
   }
 
   if (sources.has('rss')) {
@@ -301,6 +309,23 @@ async function discoverPodcastIndex(candidate, max, failuresList) {
   }
 }
 
+async function discoverPodcastIndexPublic(candidate, max, failuresList) {
+  try {
+    const url = new URL('https://api.podcastindex.org/search');
+    url.searchParams.set('term', `${candidate.name} podcast`);
+
+    const payload = await fetchJson(url, { headers: podcastIndexPublicHeaders() });
+    return (payload.results ?? []).slice(0, max).map((feed) => podcastIndexPublicSuggestion(candidate, feed));
+  } catch (error) {
+    failuresList.push({
+      source: 'podcastindex-public',
+      candidateId: candidate.id,
+      message: error instanceof Error ? error.message : String(error),
+    });
+    return [];
+  }
+}
+
 function podcastIndexHeaders() {
   const authDate = Math.floor(Date.now() / 1000).toString();
   const authKey = process.env.PODCASTINDEX_API_KEY;
@@ -308,13 +333,24 @@ function podcastIndexHeaders() {
   const authorization = createHash('sha1').update(`${authKey}${authSecret}${authDate}`).digest('hex');
 
   return {
-    'User-Agent':
-      process.env.BEGLIB_RESEARCH_USER_AGENT ??
-      'beGlibCommercialAutomation/0.1 (creator-source-discovery; local private research)',
+    'User-Agent': researchUserAgent(),
     'X-Auth-Key': authKey,
     'X-Auth-Date': authDate,
     Authorization: authorization,
   };
+}
+
+function podcastIndexPublicHeaders() {
+  return {
+    'User-Agent': researchUserAgent(),
+  };
+}
+
+function researchUserAgent() {
+  return (
+    process.env.BEGLIB_RESEARCH_USER_AGENT ??
+    'beGlibCommercialAutomation/0.1 (creator-source-discovery; local private research)'
+  );
 }
 
 function podcastIndexSuggestion(candidate, feed) {
@@ -334,6 +370,32 @@ function podcastIndexSuggestion(candidate, feed) {
     sourceUrls: [feed.url, feed.originalUrl, url].filter(Boolean),
     verified: false,
     reviewerNote: 'Suggestion only. Human identity match required before applying as verified podcast signal.',
+  };
+}
+
+function podcastIndexPublicSuggestion(candidate, feed) {
+  const label = feed.trackName ?? feed.collectionName ?? 'Podcast feed';
+  const url = feed.feedUrl || feed.collectionViewUrl || feed.trackViewUrl;
+  const evidence = [
+    feed.artistName,
+    Array.isArray(feed.genres) ? feed.genres.join(', ') : undefined,
+    typeof feed.trackCount === 'number' ? `${feed.trackCount} public episodes reported by API.` : undefined,
+  ].filter(Boolean);
+
+  return {
+    source: 'podcastindex-public-search',
+    platform: 'podcast',
+    label,
+    url,
+    candidateId: candidate.id,
+    confidence: identityConfidence(candidate, [label, ...evidence]),
+    evidence,
+    publicCounts: {
+      podcastEpisodes: numberOrUndefined(feed.trackCount),
+    },
+    sourceUrls: [feed.feedUrl, feed.collectionViewUrl, feed.trackViewUrl].filter(Boolean),
+    verified: false,
+    reviewerNote: 'Public search suggestion only. Human identity match required before applying as verified podcast signal.',
   };
 }
 
@@ -473,6 +535,7 @@ function renderMarkdown(reviewPackage) {
     `- PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`,
     `- RSS suggestions: ${reviewPackage.summary.rssSuggestions}`,
     `- Skipped source attempts: ${reviewPackage.summary.skippedSources}`,
+    `- Fallback source attempts: ${reviewPackage.summary.fallbackSources}`,
     `- Priority suggestions: ${reviewPackage.summary.prioritySuggestions}`,
     `- Deprioritized suggestions retained: ${reviewPackage.summary.deprioritizedSuggestions}`,
     `- Minimum confidence: ${reviewPackage.summary.minConfidence}`,
@@ -626,6 +689,16 @@ function countAllSuggestions(items, source) {
       count +
       item.suggestions.filter((suggestion) => suggestion.source === source).length +
       item.deprioritizedSuggestions.filter((suggestion) => suggestion.source === source).length,
+    0,
+  );
+}
+
+function countAllSuggestionsByPrefix(items, prefix) {
+  return items.reduce(
+    (count, item) =>
+      count +
+      item.suggestions.filter((suggestion) => suggestion.source.startsWith(prefix)).length +
+      item.deprioritizedSuggestions.filter((suggestion) => suggestion.source.startsWith(prefix)).length,
     0,
   );
 }

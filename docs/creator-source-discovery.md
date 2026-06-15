@@ -11,7 +11,7 @@ This step does not verify identity, collect contact permission, or approve outre
 - YouTube Data API:
   Searches public channels with `search.list`, then enriches channel metadata with `channels.list` when `YOUTUBE_API_KEY` is set.
 - PodcastIndex API:
-  Searches public podcast records with `search/byterm` when `PODCASTINDEX_API_KEY` and `PODCASTINDEX_API_SECRET` are set.
+  Searches public podcast records with authenticated `search/byterm` when `PODCASTINDEX_API_KEY` and `PODCASTINDEX_API_SECRET` are set. If only partial credentials are available, it falls back to the public Apple-replacement `/search` endpoint.
 - RSS or Atom feeds:
   Parses configured public or local feed URLs and produces candidate-specific feed suggestions.
 
@@ -61,6 +61,8 @@ Use environment variables only in local shells or secret stores:
 - `PODCASTINDEX_API_KEY`
 - `PODCASTINDEX_API_SECRET`
 - `BEGLIB_RESEARCH_USER_AGENT`
+
+PodcastIndex may label the secret as `API Secret`, `Secret Key`, or `apiSecret` in examples. If that value is not visible, the worker can still use PodcastIndex public search fallback, but authenticated search needs both key and secret.
 
 For local use, copy `.env.example` to `.env.local` and fill the values there:
 

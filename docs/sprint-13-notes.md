@@ -11,6 +11,7 @@
 - Retention of low-confidence creator suggestions as deprioritized discovery records.
 - Candidate delay and retry/backoff controls for API limit pressure.
 - Local creator source discovery summary command for continuous wave tracking.
+- PodcastIndex public search fallback when authenticated API secret is unavailable.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule
