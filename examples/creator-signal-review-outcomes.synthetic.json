@@ -1,0 +1,49 @@
+{
+  "reviewId": "synthetic-creator-signal-review-outcomes",
+  "sourceBatchId": "synthetic-ai-education-001",
+  "createdAt": "2026-06-15T00:00:00.000Z",
+  "notes": "Synthetic example only. Do not put real people or real audience data in committed example files.",
+  "outcomes": [
+    {
+      "candidateId": "cand-synth-101",
+      "outcomeStatus": "verified-signals",
+      "verifiedAt": "2026-06-15",
+      "channels": [
+        {
+          "platform": "youtube",
+          "label": "Synthetic AI learning channel",
+          "url": "https://youtube.com/@synthetic-ai-learning",
+          "verified": true
+        },
+        {
+          "platform": "podcast",
+          "label": "Synthetic learning interviews",
+          "url": "https://example.com/podcasts/synthetic-learning-interviews",
+          "verified": true
+        },
+        {
+          "platform": "newsletter",
+          "label": "Synthetic learning newsletter",
+          "url": "https://example.com/newsletter/synthetic-learning",
+          "verified": true
+        }
+      ],
+      "influenceSignals": {
+        "hasPodcast": true,
+        "hasYoutubeShow": true,
+        "youtubeSubscribers": 36000,
+        "xFollowers": 22000,
+        "newsletterSubscribers": 8500,
+        "activePlatforms": ["youtube", "podcast", "x", "linkedin", "newsletter"],
+        "notableSignals": [
+          "Synthetic example of a candidate with verified long-form video, podcast, and newsletter activity."
+        ]
+      },
+      "sourceUrls": [
+        "https://example.com/leyla-arman/media",
+        "https://youtube.com/@synthetic-ai-learning"
+      ],
+      "reviewerNotes": "Synthetic creator/media signals verified for schema testing."
+    }
+  ]
+}

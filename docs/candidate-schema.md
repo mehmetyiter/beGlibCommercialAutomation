@@ -145,6 +145,22 @@ Important fields:
 
 Only `verified-route`, `profile-only`, and `do-not-contact` outcomes are applied by the importer. Pending, rejected, or incomplete outcomes are skipped.
 
+## Creator Signal Review Outcome
+
+Creator-signal review outcomes are local operational records used to update host-readiness signals. See `examples/creator-signal-review-outcomes.synthetic.json` for a committed synthetic example.
+
+Important fields:
+
+- `candidateId`
+- `outcomeStatus`
+- `verifiedAt`
+- `channels`
+- `influenceSignals`
+- `sourceUrls`
+- `reviewerNotes`
+
+Only `verified-signals` and `profile-only` outcomes are applied by the importer. These outcomes update `channels`, `sourceUrls`, and `influenceSignals`; they do not add contact routes or approve outreach.
+
 ## Influence Signals
 
 `influenceSignals` stores creator/media strength signals used by the star rating system:

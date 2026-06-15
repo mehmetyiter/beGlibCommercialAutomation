@@ -66,11 +66,11 @@ Build workers in this order:
 1. Official-site verifier:
    Finds official pages and creates verification tasks for public professional contact routes.
 
-2. YouTube discovery worker:
+2. YouTube and creator-signal review worker:
    Finds public channels, links them to candidates, and records public channel/video signals.
 
-3. Podcast discovery worker:
-   Finds podcast pages and RSS feeds, then records host/show signals without auto-approving embedded emails.
+3. Podcast and newsletter review worker:
+   Finds podcast pages, RSS feeds, show archives, and newsletter pages, then records host/show signals without auto-approving embedded emails.
 
 4. Wikidata disambiguation worker:
    Adds aliases, professions, official website claims, and public identifier links.

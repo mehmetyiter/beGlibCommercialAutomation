@@ -56,10 +56,22 @@ Prepare a local official-source review package:
 npm run review:official-sources -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --output exports/openalex-wave-001-official-source-review.local.md --json-output exports/openalex-wave-001-official-source-review.local.json
 ```
 
+Prepare a local creator-signal review package:
+
+```bash
+npm run review:creator-signals -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --output exports/openalex-wave-001-creator-signal-review.local.md --json-output exports/openalex-wave-001-creator-signal-review.local.json
+```
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash
 npm run review:apply-official-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --review exports/openalex-wave-001-official-source-review.local.json --output data/openalex-wave-001-official-source-updates.local.json
+```
+
+Apply completed creator-signal review outcomes into a private candidate update batch:
+
+```bash
+npm run review:apply-creator-signals -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --review exports/openalex-wave-001-creator-signal-review.local.json --output data/openalex-wave-001-creator-signal-updates.local.json
 ```
 
 Export a local verification checklist:
@@ -91,11 +103,13 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Outreach playbook](./docs/outreach-playbook.md)
 - [Research batch workflow](./docs/research-batch-workflow.md)
 - [Official source review](./docs/official-source-review.md)
+- [Creator signal review](./docs/creator-signal-review.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 11 notes](./docs/sprint-11-notes.md)
 - [Sprint 10 notes](./docs/sprint-10-notes.md)
 - [Sprint 9 notes](./docs/sprint-9-notes.md)
 - [Sprint 8 notes](./docs/sprint-8-notes.md)

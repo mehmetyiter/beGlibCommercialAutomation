@@ -52,6 +52,8 @@ The app computes stars from:
 
 Do not guess follower counts. If a number is unknown, leave it blank. The app will show that signal as missing.
 
+Use creator-signal review outcomes to update `influenceSignals` only after a human verifies public source evidence.
+
 ## Compliance Rule
 
 Stars do not override:
