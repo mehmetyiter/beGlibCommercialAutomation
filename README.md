@@ -55,6 +55,12 @@ Prepare a local official-source review package:
 npm run review:official-sources -- data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --output exports/openalex-wave-001-official-source-review.local.md --json-output exports/openalex-wave-001-official-source-review.local.json
 ```
 
+Apply completed official-source review outcomes into a private candidate update batch:
+
+```bash
+npm run review:apply-official-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --review exports/openalex-wave-001-official-source-review.local.json --output data/openalex-wave-001-official-source-updates.local.json
+```
+
 Export a local verification checklist:
 
 ```bash
@@ -89,6 +95,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 9 notes](./docs/sprint-9-notes.md)
 - [Sprint 8 notes](./docs/sprint-8-notes.md)
 - [Sprint 7 notes](./docs/sprint-7-notes.md)
 - [Sprint 6 notes](./docs/sprint-6-notes.md)

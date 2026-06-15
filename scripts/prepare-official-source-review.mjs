@@ -116,6 +116,7 @@ function buildReviewItem(candidate) {
     ],
     reviewChecks: buildReviewChecks(candidate),
     outcomeFields: [
+      'outcomeStatus',
       'officialProfileUrl',
       'officialContactRouteType',
       'officialContactRouteValue',
@@ -126,6 +127,23 @@ function buildReviewItem(candidate) {
       'sensitiveCategoryReviewStatus',
       'reviewerNotes',
     ],
+    reviewOutcome: buildEmptyReviewOutcome(candidate),
+  };
+}
+
+function buildEmptyReviewOutcome(candidate) {
+  return {
+    candidateId: candidate.id,
+    outcomeStatus: 'pending',
+    officialProfileUrl: '',
+    officialContactRouteType: '',
+    officialContactRouteValue: '',
+    contactRouteSourceUrl: '',
+    verifiedAt: '',
+    jurisdiction: candidate.country === 'Unknown' ? '' : candidate.country,
+    suppressionStatus: 'unknown',
+    sensitiveCategoryReviewStatus: buildSensitivityFlags(candidate).length > 0 ? 'pending' : 'not-required',
+    reviewerNotes: '',
   };
 }
 
@@ -371,6 +389,11 @@ function renderMarkdown(reviewPackage) {
 
     lines.push('- Review checks:');
     item.reviewChecks.forEach((check) => lines.push(`  - [ ] ${check}`));
+
+    lines.push('- Review outcome template:');
+    Object.entries(item.reviewOutcome).forEach(([key, value]) => {
+      lines.push(`  - ${key}: ${value}`);
+    });
     lines.push('');
   });
 

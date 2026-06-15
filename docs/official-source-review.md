@@ -20,6 +20,7 @@ The script writes:
 - Official source targets.
 - Approved and disallowed contact-route rules.
 - Current blockers and sensitive-category flags.
+- A blank `reviewOutcome` object that can be filled after human verification.
 
 Files under `exports/` are ignored by git.
 
@@ -51,8 +52,10 @@ Wikidata matches are not verified. A human must confirm identity, official websi
 
 ## Review Outcome
 
-A completed review should produce structured fields:
+A completed review should produce structured fields under `reviewOutcome` or an `outcomes` array:
 
+- `candidateId`
+- `outcomeStatus`
 - `officialProfileUrl`
 - `officialContactRouteType`
 - `officialContactRouteValue`
@@ -64,3 +67,43 @@ A completed review should produce structured fields:
 - `reviewerNotes`
 
 Those fields should later flow into the private candidate database or a local import batch, not into the public repository.
+
+Allowed `outcomeStatus` values:
+
+- `pending`: not reviewed yet.
+- `verified-route`: official profile and usable professional route were verified.
+- `profile-only`: official profile was verified, but no usable contact route was approved.
+- `needs-more-review`: reviewer could not complete verification.
+- `rejected`: source match was not reliable enough.
+- `do-not-contact`: suppression, opt-out, or not-allowed status was confirmed.
+
+Only `verified-route`, `profile-only`, and `do-not-contact` produce candidate updates.
+
+## Apply Completed Outcomes
+
+Use the importer after a reviewer fills the local JSON review outcomes:
+
+```bash
+npm run review:apply-official-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --review exports/openalex-wave-001-official-source-review.local.json --output data/openalex-wave-001-official-source-updates.local.json
+```
+
+The importer:
+
+- Rejects guessed email patterns.
+- Requires official URLs for applied profile and route updates.
+- Requires `suppressionStatus: clear` before adding profile or route evidence.
+- Maps route types into conservative consent statuses.
+- Keeps health, mental-health, religion, and high-risk candidates in review-first territory.
+- Produces a normal research batch that can be validated and imported into the cockpit.
+
+Validate the update batch before importing:
+
+```bash
+npm run validate:batch -- data/openalex-wave-001-official-source-updates.local.json
+```
+
+Synthetic importer smoke test:
+
+```bash
+npm run review:apply-official-sources -- --batch examples/research-batch.synthetic.json --review examples/official-source-review-outcomes.synthetic.json --output data/synthetic-official-source-updates.local.json
+```

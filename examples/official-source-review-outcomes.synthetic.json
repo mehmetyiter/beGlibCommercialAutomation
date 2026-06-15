@@ -1,0 +1,21 @@
+{
+  "reviewId": "synthetic-official-source-review-outcomes",
+  "sourceBatchId": "synthetic-ai-education-001",
+  "createdAt": "2026-06-15T00:00:00.000Z",
+  "notes": "Synthetic example only. Do not put real lead data in committed example files.",
+  "outcomes": [
+    {
+      "candidateId": "cand-synth-101",
+      "outcomeStatus": "verified-route",
+      "officialProfileUrl": "https://example.edu/leyla-arman",
+      "officialContactRouteType": "public-business-email",
+      "officialContactRouteValue": "speaking@example.edu",
+      "contactRouteSourceUrl": "https://example.edu/leyla-arman/contact",
+      "verifiedAt": "2026-06-15",
+      "jurisdiction": "United States",
+      "suppressionStatus": "clear",
+      "sensitiveCategoryReviewStatus": "not-required",
+      "reviewerNotes": "Synthetic official page and professional contact route verified for schema testing."
+    }
+  ]
+}

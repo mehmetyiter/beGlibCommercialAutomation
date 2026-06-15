@@ -125,6 +125,26 @@ Required fields:
 
 Use `examples/research-batch.synthetic.json` as a synthetic shape reference.
 
+## Official Source Review Outcome
+
+Official-source review outcomes are local operational records used to create candidate update batches. See `examples/official-source-review-outcomes.synthetic.json` for a committed synthetic example.
+
+Important fields:
+
+- `candidateId`
+- `outcomeStatus`
+- `officialProfileUrl`
+- `officialContactRouteType`
+- `officialContactRouteValue`
+- `contactRouteSourceUrl`
+- `verifiedAt`
+- `jurisdiction`
+- `suppressionStatus`
+- `sensitiveCategoryReviewStatus`
+- `reviewerNotes`
+
+Only `verified-route`, `profile-only`, and `do-not-contact` outcomes are applied by the importer. Pending, rejected, or incomplete outcomes are skipped.
+
 ## Influence Signals
 
 `influenceSignals` stores creator/media strength signals used by the star rating system:
