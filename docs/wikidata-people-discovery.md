@@ -32,6 +32,12 @@ Run the fourth specialist wave for digital creators, social video, streaming, bl
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-004-digital-creators-social-video.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-004-digital-creators-social-video.local.json
 ```
 
+Run the fifth specialist wave for media personalities, entertainment figures, speakers, and public voices:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-005-media-entertainment-public-voices.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-005-media-entertainment-public-voices.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -118,6 +124,21 @@ The fourth config uses verified Wikidata occupation IDs for:
 - Vlogger
 - YouTuber
 - Podcaster
+
+The fifth config uses verified Wikidata occupation IDs for:
+
+- Television presenter
+- Radio personality
+- Actor
+- Comedian
+- Film director
+- Screenwriter
+- Film producer
+- Orator
+- Motivational speaker
+- Activist
+- Human rights defender
+- Political activist
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

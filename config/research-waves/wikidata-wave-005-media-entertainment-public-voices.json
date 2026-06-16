@@ -1,0 +1,86 @@
+{
+  "waveId": "wikidata-wave-005-media-entertainment-public-voices",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata media, entertainment, speakers, and public voices occupation discovery",
+  "description": "Broad discovery wave for television and radio personalities, actors, comedians, film creators, public speakers, motivational speakers, and activists. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 3,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "media",
+      "occupations": [
+        {
+          "qid": "Q947873",
+          "label": "television presenter"
+        },
+        {
+          "qid": "Q2722764",
+          "label": "radio personality"
+        }
+      ]
+    },
+    {
+      "category": "entertainment",
+      "occupations": [
+        {
+          "qid": "Q33999",
+          "label": "actor"
+        },
+        {
+          "qid": "Q245068",
+          "label": "comedian"
+        }
+      ]
+    },
+    {
+      "category": "film",
+      "occupations": [
+        {
+          "qid": "Q2526255",
+          "label": "film director"
+        },
+        {
+          "qid": "Q28389",
+          "label": "screenwriter"
+        },
+        {
+          "qid": "Q3282637",
+          "label": "film producer"
+        }
+      ]
+    },
+    {
+      "category": "speaking",
+      "occupations": [
+        {
+          "qid": "Q12859263",
+          "label": "orator"
+        },
+        {
+          "qid": "Q15982858",
+          "label": "motivational speaker"
+        }
+      ]
+    },
+    {
+      "category": "activism",
+      "occupations": [
+        {
+          "qid": "Q15253558",
+          "label": "activist"
+        },
+        {
+          "qid": "Q1476215",
+          "label": "human rights defender"
+        },
+        {
+          "qid": "Q11499147",
+          "label": "political activist"
+        }
+      ]
+    }
+  ]
+}
