@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:dossiers": "node scripts/build-candidate-discovery-dossiers.mjs",
     "export:verification": "node scripts/export-verification-checklist.mjs",
     "lint": "eslint .",
     "preview": "vite preview",

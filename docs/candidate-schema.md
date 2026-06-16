@@ -219,6 +219,24 @@ Audit events currently live in browser localStorage. Production storage should k
 
 The verification queue uses `VerificationTask` records.
 
+## Candidate Discovery Dossier
+
+Candidate discovery dossiers are local operational records produced by `npm run build:dossiers`.
+
+They merge discovery-only source packages into one record per candidate:
+
+- Candidate identity and category fields
+- Provisional discovery stars
+- Discovery channel candidates
+- Public email candidates
+- Contact-page candidates
+- Affiliation hints
+- Search targets
+- Source URLs
+- Review checks and empty review outcome fields
+
+Discovery dossiers are not outreach approval and do not create verified contact routes.
+
 Required fields:
 
 - `id`
