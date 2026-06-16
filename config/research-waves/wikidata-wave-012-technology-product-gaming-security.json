@@ -1,0 +1,133 @@
+{
+  "waveId": "wikidata-wave-012-technology-product-gaming-security",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata technology, product, gaming, cybersecurity, and developer-relations occupation discovery",
+  "description": "Broad discovery wave for software developers, programmers, product leaders, UX designers, data scientists, AI researchers, roboticists, game developers, professional gamers, cybersecurity specialists, open-source developers, technology evangelists, and developer advocates. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 1,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Security-adjacent categories require extra professional-context review before campaign use.",
+  "categories": [
+    {
+      "category": "technology",
+      "occupations": [
+        {
+          "qid": "Q5482740",
+          "label": "programmer"
+        },
+        {
+          "qid": "Q183888",
+          "label": "software developer"
+        },
+        {
+          "qid": "Q1709010",
+          "label": "software engineer"
+        },
+        {
+          "qid": "Q6859454",
+          "label": "web developer"
+        },
+        {
+          "qid": "Q106104705",
+          "label": "mobile app developer"
+        },
+        {
+          "qid": "Q1572123",
+          "label": "systems engineer"
+        },
+        {
+          "qid": "Q29169143",
+          "label": "data scientist"
+        },
+        {
+          "qid": "Q15976092",
+          "label": "artificial intelligence researcher"
+        },
+        {
+          "qid": "Q3437279",
+          "label": "roboticist"
+        },
+        {
+          "qid": "Q82594",
+          "label": "computer scientist"
+        },
+        {
+          "qid": "Q205375",
+          "label": "inventor"
+        },
+        {
+          "qid": "Q12376667",
+          "label": "technologist"
+        },
+        {
+          "qid": "Q105684334",
+          "label": "open-source developer"
+        },
+        {
+          "qid": "Q139648",
+          "label": "technology evangelist"
+        },
+        {
+          "qid": "Q105687895",
+          "label": "developer advocate"
+        }
+      ]
+    },
+    {
+      "category": "product",
+      "occupations": [
+        {
+          "qid": "Q2552738",
+          "label": "product manager"
+        },
+        {
+          "qid": "Q18915967",
+          "label": "product designer"
+        },
+        {
+          "qid": "Q68200826",
+          "label": "user experience designer"
+        }
+      ]
+    },
+    {
+      "category": "gaming",
+      "occupations": [
+        {
+          "qid": "Q58287519",
+          "label": "video game developer"
+        },
+        {
+          "qid": "Q18882335",
+          "label": "video game designer"
+        },
+        {
+          "qid": "Q863368",
+          "label": "game programmer"
+        },
+        {
+          "qid": "Q4379701",
+          "label": "professional gamer"
+        }
+      ]
+    },
+    {
+      "category": "security",
+      "occupations": [
+        {
+          "qid": "Q123577390",
+          "label": "cybersecurity specialist"
+        },
+        {
+          "qid": "Q2798820",
+          "label": "security hacker"
+        },
+        {
+          "qid": "Q28920101",
+          "label": "computer security specialist"
+        }
+      ]
+    }
+  ]
+}

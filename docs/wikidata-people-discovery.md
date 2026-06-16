@@ -74,6 +74,12 @@ Run the eleventh specialist wave for sports, fitness, wellness, lifestyle, and s
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-011-sports-fitness-wellness-lifestyle.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-011-sports-fitness-wellness-lifestyle.local.json
 ```
 
+Run the twelfth specialist wave for technology, product, gaming, cybersecurity, open-source, and developer-relations figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-012-technology-product-gaming-security.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-012-technology-product-gaming-security.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -331,6 +337,34 @@ The eleventh config uses verified Wikidata occupation IDs for:
 - Model
 - Beauty pageant contestant
 - Beauty YouTuber
+
+The twelfth config uses verified Wikidata occupation IDs for:
+
+- Programmer
+- Software developer
+- Software engineer
+- Web developer
+- Mobile app developer
+- Systems engineer
+- Data scientist
+- Artificial intelligence researcher
+- Roboticist
+- Computer scientist
+- Inventor
+- Technologist
+- Open-source developer
+- Technology evangelist
+- Developer advocate
+- Product manager
+- Product designer
+- User experience designer
+- Video game developer
+- Video game designer
+- Game programmer
+- Professional gamer
+- Cybersecurity specialist
+- Security hacker
+- Computer security specialist
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
