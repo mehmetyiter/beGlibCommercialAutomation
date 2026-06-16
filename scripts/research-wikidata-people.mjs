@@ -181,14 +181,15 @@ function mergeRows(rows) {
   rows.forEach((row) => {
     const wikidataUrl = row.person?.value;
     const wikidataId = wikidataUrl?.split('/').pop();
-    if (!wikidataId || !row.personLabel?.value) {
+    const label = row.personLabel?.value ?? '';
+    if (!wikidataId || !label || looksLikeUnresolvedWikidataLabel(label)) {
       return;
     }
 
     const existing = byId.get(wikidataId) ?? {
       wikidataId,
       wikidataUrl,
-      name: row.personLabel.value,
+      name: label,
       description: row.personDescription?.value ?? '',
       occupationLabel: row.occupationLabel?.value ?? '',
       country: row.countryLabel?.value ?? 'Unknown',
@@ -299,6 +300,10 @@ function isRetryableStatus(status) {
 
 function cleanHandle(value) {
   return String(value).replace(/^@/, '').trim();
+}
+
+function looksLikeUnresolvedWikidataLabel(value) {
+  return /^Q\d+$/i.test(String(value).trim());
 }
 
 function unique(values) {
