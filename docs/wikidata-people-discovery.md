@@ -14,6 +14,12 @@ npm run research:wikidata-people -- --config config/research-waves/wikidata-wave
 
 Files under `data/` are ignored by git.
 
+Run the second broad wave for science, academia, education, writers, philosophers, social scientists, technology figures, and added specialist categories:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-002-science-academia-thought-leaders.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-002-science-academia-thought-leaders.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -37,6 +43,33 @@ The first config uses verified Wikidata occupation IDs for:
 - Therapist
 - Religious leader
 - Clergy
+
+The second config uses verified Wikidata occupation IDs for:
+
+- Scientist
+- Researcher
+- Mathematician
+- Physicist
+- Biologist
+- Chemist
+- Academic
+- University teacher
+- Professor
+- Educator
+- Teacher
+- Writer
+- Author
+- Philosopher
+- Economist
+- Historian
+- Sociologist
+- Anthropologist
+- Computer scientist
+- Engineer
+- Entrepreneur
+- Psychiatrist
+- Psychotherapist
+- Theologian
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

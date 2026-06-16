@@ -1,0 +1,149 @@
+{
+  "waveId": "wikidata-wave-002-science-academia-thought-leaders",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata science, academia, and thought leader occupation discovery",
+  "description": "Broad discovery wave for scientists, academics, educators, writers, philosophers, social scientists, technology figures, and additional mental-health/religion specialists. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 3,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "science",
+      "occupations": [
+        {
+          "qid": "Q901",
+          "label": "scientist"
+        },
+        {
+          "qid": "Q1650915",
+          "label": "researcher"
+        },
+        {
+          "qid": "Q170790",
+          "label": "mathematician"
+        },
+        {
+          "qid": "Q169470",
+          "label": "physicist"
+        },
+        {
+          "qid": "Q864503",
+          "label": "biologist"
+        },
+        {
+          "qid": "Q593644",
+          "label": "chemist"
+        }
+      ]
+    },
+    {
+      "category": "academia",
+      "occupations": [
+        {
+          "qid": "Q3400985",
+          "label": "academic"
+        },
+        {
+          "qid": "Q1622272",
+          "label": "university teacher"
+        },
+        {
+          "qid": "Q121594",
+          "label": "professor"
+        }
+      ]
+    },
+    {
+      "category": "education",
+      "occupations": [
+        {
+          "qid": "Q974144",
+          "label": "educator"
+        },
+        {
+          "qid": "Q37226",
+          "label": "teacher"
+        }
+      ]
+    },
+    {
+      "category": "thought-leadership",
+      "occupations": [
+        {
+          "qid": "Q36180",
+          "label": "writer"
+        },
+        {
+          "qid": "Q482980",
+          "label": "author"
+        },
+        {
+          "qid": "Q4964182",
+          "label": "philosopher"
+        },
+        {
+          "qid": "Q188094",
+          "label": "economist"
+        },
+        {
+          "qid": "Q201788",
+          "label": "historian"
+        },
+        {
+          "qid": "Q2306091",
+          "label": "sociologist"
+        },
+        {
+          "qid": "Q4773904",
+          "label": "anthropologist"
+        }
+      ]
+    },
+    {
+      "category": "technology",
+      "occupations": [
+        {
+          "qid": "Q82594",
+          "label": "computer scientist"
+        },
+        {
+          "qid": "Q81096",
+          "label": "engineer"
+        },
+        {
+          "qid": "Q131524",
+          "label": "entrepreneur"
+        }
+      ]
+    },
+    {
+      "category": "medicine",
+      "occupations": [
+        {
+          "qid": "Q211346",
+          "label": "psychiatrist"
+        }
+      ]
+    },
+    {
+      "category": "therapy",
+      "occupations": [
+        {
+          "qid": "Q1900167",
+          "label": "psychotherapist"
+        }
+      ]
+    },
+    {
+      "category": "religion",
+      "occupations": [
+        {
+          "qid": "Q1234713",
+          "label": "theologian"
+        }
+      ]
+    }
+  ]
+}
