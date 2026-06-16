@@ -20,6 +20,12 @@ Run the second broad wave for science, academia, education, writers, philosopher
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-002-science-academia-thought-leaders.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-002-science-academia-thought-leaders.local.json
 ```
 
+Run the third specialist wave for health, medicine, psychology, therapy, public health, and adjacent health practitioners:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-003-health-mental-health-professionals.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-003-health-mental-health-professionals.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -70,6 +76,28 @@ The second config uses verified Wikidata occupation IDs for:
 - Psychiatrist
 - Psychotherapist
 - Theologian
+
+The third config uses verified Wikidata occupation IDs for:
+
+- Psychologist
+- Clinical psychologist
+- Mental health counselor
+- Psychotherapist
+- Therapist
+- Mental health professional
+- Social worker
+- Physician
+- Psychiatrist
+- Surgeon
+- Pediatrician
+- Neurologist
+- Dentist
+- Pharmacist
+- Nurse
+- Epidemiologist
+- Dietitian
+- Nutritionist
+- Neuroscientist
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

@@ -1,0 +1,114 @@
+{
+  "waveId": "wikidata-wave-003-health-mental-health-professionals",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata health, medicine, and mental-health professional occupation discovery",
+  "description": "Broad discovery wave for psychologists, therapists, physicians, medical specialists, public-health professionals, and adjacent health practitioners. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Health and mental-health categories require specialist/legal review before campaign use.",
+  "categories": [
+    {
+      "category": "psychology",
+      "occupations": [
+        {
+          "qid": "Q212980",
+          "label": "psychologist"
+        },
+        {
+          "qid": "Q1113899",
+          "label": "clinical psychologist"
+        },
+        {
+          "qid": "Q6817463",
+          "label": "mental health counselor"
+        }
+      ]
+    },
+    {
+      "category": "therapy",
+      "occupations": [
+        {
+          "qid": "Q1900167",
+          "label": "psychotherapist"
+        },
+        {
+          "qid": "Q2419397",
+          "label": "therapist"
+        },
+        {
+          "qid": "Q6817473",
+          "label": "mental health professional"
+        },
+        {
+          "qid": "Q7019111",
+          "label": "social worker"
+        }
+      ]
+    },
+    {
+      "category": "medicine",
+      "occupations": [
+        {
+          "qid": "Q39631",
+          "label": "physician"
+        },
+        {
+          "qid": "Q211346",
+          "label": "psychiatrist"
+        },
+        {
+          "qid": "Q774306",
+          "label": "surgeon"
+        },
+        {
+          "qid": "Q1919436",
+          "label": "pediatrician"
+        },
+        {
+          "qid": "Q783906",
+          "label": "neurologist"
+        },
+        {
+          "qid": "Q27349",
+          "label": "dentist"
+        },
+        {
+          "qid": "Q105186",
+          "label": "pharmacist"
+        },
+        {
+          "qid": "Q186360",
+          "label": "nurse"
+        }
+      ]
+    },
+    {
+      "category": "public-health",
+      "occupations": [
+        {
+          "qid": "Q12765408",
+          "label": "epidemiologist"
+        },
+        {
+          "qid": "Q842811",
+          "label": "dietitian"
+        },
+        {
+          "qid": "Q2576499",
+          "label": "nutritionist"
+        }
+      ]
+    },
+    {
+      "category": "neuroscience",
+      "occupations": [
+        {
+          "qid": "Q6337803",
+          "label": "neuroscientist"
+        }
+      ]
+    }
+  ]
+}
