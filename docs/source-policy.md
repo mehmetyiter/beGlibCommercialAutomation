@@ -31,6 +31,8 @@ ORCID public email candidates may be retained as discovery records in ignored lo
 
 Public page contact discovery may inspect already-discovered public website URLs for contact links, explicit `mailto:` links, social links, and feed links. It must not store raw HTML, guess emails, decode obfuscated addresses, or fetch private, login-only, hidden, or technically restricted data.
 
+Feed source signal discovery may parse public RSS and Atom feeds for creator/media signals and public feed email candidates. It must not infer private audience counts, guess emails, or treat feed owner or author emails as verified contact routes without human review.
+
 ## Source Coverage Rule
 
 No single source is enough for this project.

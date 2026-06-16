@@ -19,6 +19,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Creator source discovery can prepare YouTube, PodcastIndex, and RSS suggestions for human review.
 - ORCID source discovery can prepare public researcher URLs, affiliations, external identifiers, and public email candidates for human review.
 - Public page contact discovery can inspect discovered websites for contact, press, booking, mailto, social, and feed links.
+- Feed source signal discovery can parse discovered RSS/Atom links for podcast, newsletter, blog, activity, and public feed email candidates.
 - Candidate discovery dossiers can merge local discovery packages into one review record per candidate.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
 
@@ -94,6 +95,12 @@ Run public page contact discovery on ORCID-discovered websites:
 npm run research:page-contact-sources -- --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-orcid- --filename-excludes smoke,summary --offset 0 --limit 50 --output exports/openalex-wave-001-page-contact-000-049.local.md --json-output exports/openalex-wave-001-page-contact-000-049.local.json
 ```
 
+Run feed source signal discovery on page-discovered RSS/Atom links:
+
+```bash
+npm run research:feed-signals -- --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-page-contact- --filename-excludes smoke,summary --offset 0 --limit 50 --output exports/openalex-wave-001-feed-signals-000-049.local.md --json-output exports/openalex-wave-001-feed-signals-000-049.local.json
+```
+
 Build merged candidate discovery dossiers:
 
 ```bash
@@ -146,6 +153,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Public identity source discovery](./docs/public-identity-source-discovery.md)
 - [ORCID source discovery](./docs/orcid-source-discovery.md)
 - [Public page contact discovery](./docs/public-page-contact-discovery.md)
+- [Feed source signal discovery](./docs/feed-source-signal-discovery.md)
 - [Candidate discovery dossiers](./docs/candidate-discovery-dossiers.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)

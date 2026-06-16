@@ -3,6 +3,7 @@ import { basename, dirname, resolve } from 'node:path';
 
 const supportedModes = new Set([
   'creator-source-discovery',
+  'feed-source-signal-discovery',
   'orcid-source-discovery',
   'public-identity-source-discovery',
   'public-page-contact-source-discovery',
@@ -324,6 +325,37 @@ function normalizeDiscoveryItem(mode, item, packageFile) {
     };
   }
 
+  if (mode === 'feed-source-signal-discovery') {
+    return {
+      packageFile,
+      channels:
+        item.feedStatus === 'parsed'
+          ? [
+              {
+                source: 'feed-source-signal',
+                platform: feedPlatform(item.feedType),
+                label: item.title || item.feedLabel || 'Feed',
+                url: item.feedUrl,
+                verified: false,
+                confidence: item.activityStatus === 'active' ? 'active' : 'discovered',
+                evidence: item.recentItems?.slice(0, 3).map((feedItem) => feedItem.title).filter(Boolean) ?? [],
+              },
+            ]
+          : [],
+      contactCandidates: (item.publicEmailCandidates ?? []).map((email) => ({
+        source: email.source ?? 'feed-public-email',
+        type: 'public-email-candidate',
+        value: email.value,
+        sourceUrl: email.sourceUrl,
+        verified: false,
+        reviewerNote: email.reviewerNote ?? '',
+      })),
+      affiliations: [],
+      searchTargets: [],
+      creatorSuggestions: item.feedStatus === 'parsed' && ['podcast', 'newsletter'].includes(item.feedType) ? 1 : 0,
+    };
+  }
+
   return {
     packageFile,
     channels: [],
@@ -332,6 +364,18 @@ function normalizeDiscoveryItem(mode, item, packageFile) {
     searchTargets: [],
     creatorSuggestions: 0,
   };
+}
+
+function feedPlatform(feedType) {
+  if (feedType === 'podcast') {
+    return 'podcast';
+  }
+
+  if (feedType === 'newsletter') {
+    return 'newsletter';
+  }
+
+  return 'website';
 }
 
 function assessDiscoveryStar(candidate, channels, contactCandidates, creatorSuggestions) {

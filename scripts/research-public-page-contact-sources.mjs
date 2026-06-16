@@ -461,7 +461,7 @@ function extractSocialLinks(links) {
 function extractFeedLinks(links) {
   const feeds = links
     .filter((link) => isHttpUrl(link.href))
-    .filter((link) => /rss|atom|feed|podcast/.test([link.href, link.text, link.rel, link.type].join(' ').toLowerCase()))
+    .filter((link) => isFeedLikeLink(link))
     .map((link) => ({
       source: 'public-page-feed-link',
       url: link.href,
@@ -470,6 +470,28 @@ function extractFeedLinks(links) {
     }));
 
   return uniqueByKey(feeds, (link) => normalizeUrl(link.url)).slice(0, 8);
+}
+
+function isFeedLikeLink(link) {
+  const relTokens = new Set(link.rel.split(/\s+/).filter(Boolean));
+  const type = link.type.toLowerCase();
+  const text = normalizeSearchText(link.text);
+  const url = new URL(link.href);
+  const path = url.pathname.toLowerCase();
+
+  if (relTokens.has('alternate') && /rss|atom|xml|jsonfeed/.test(type)) {
+    return true;
+  }
+
+  if (/application\/(rss|atom|feed|json)/.test(type) || /text\/xml/.test(type)) {
+    return true;
+  }
+
+  if (/(^| )rss( |$)|(^| )atom( |$)|(^| )podcast( |$)|(^| )feed( |$)/.test(text)) {
+    return true;
+  }
+
+  return /(^|\/)(feed|rss|atom|podcast)(\/|\.xml|\.rss|\.atom|$)/.test(path);
 }
 
 function contactReason(link) {

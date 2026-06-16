@@ -19,6 +19,7 @@ Files under `exports/` are ignored by git.
 The dossier builder reads local packages with these modes:
 
 - `creator-source-discovery`
+- `feed-source-signal-discovery`
 - `orcid-source-discovery`
 - `public-identity-source-discovery`
 - `public-page-contact-source-discovery`

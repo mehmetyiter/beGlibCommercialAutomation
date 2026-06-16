@@ -78,13 +78,16 @@ Build workers in this order:
 5. Podcast and newsletter review worker:
    Finds podcast pages, RSS feeds, show archives, and newsletter pages, then records host/show signals without auto-approving embedded emails. Initial PodcastIndex and RSS/Atom discovery scaffolding is available through `npm run research:creator-sources`.
 
-6. Wikidata disambiguation worker:
+6. Feed source signal worker:
+   Parses discovered RSS and Atom feeds for podcast, newsletter, blog, activity, recent item, author, and public feed email candidate signals. Initial feed source signal discovery is available through `npm run research:feed-signals`.
+
+7. Wikidata disambiguation worker:
    Adds aliases, professions, official website claims, and public identifier links. Initial public identity source discovery is available through `npm run research:identity-sources`.
 
-7. Social signal verifier:
+8. Social signal verifier:
    Records public profile URLs and visible audience/activity signals through allowed APIs or manual review.
 
-8. Representative route verifier:
+9. Representative route verifier:
    Prioritizes management, agent, speaker, press, clinic, university media, or organization routes over personal contact details.
 
 ## Guardrails

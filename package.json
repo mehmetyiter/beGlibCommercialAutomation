@@ -10,6 +10,8 @@
     "export:verification": "node scripts/export-verification-checklist.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
+    "research:feed-signals": "node scripts/research-feed-source-signals.mjs",
+    "research:feed-summary": "node scripts/summarize-feed-source-signals.mjs",
     "review:apply-creator-signals": "node scripts/apply-creator-signal-review.mjs",
     "review:apply-official-sources": "node scripts/apply-official-source-review.mjs",
     "review:creator-signals": "node scripts/prepare-creator-signal-review.mjs",
