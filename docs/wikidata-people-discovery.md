@@ -14,6 +14,14 @@ npm run research:wikidata-people -- --config config/research-waves/wikidata-wave
 
 Files under `data/` are ignored by git.
 
+## Merge Offset Batches
+
+When you run multiple offsets, merge them before building dossiers:
+
+```bash
+npm run research:merge-batches -- --batch-id wikidata-wave-001-broad-public-figures --output data/wikidata-wave-001-broad-public-figures-combined.local.json data/wikidata-wave-001-broad-public-figures.local.json data/wikidata-wave-001-broad-public-figures-offset-008.local.json
+```
+
 ## Current Occupation Seeds
 
 The first config uses verified Wikidata occupation IDs for:

@@ -15,8 +15,10 @@
 - Public identity source discovery worker for official-site and social/profile hints.
 - ORCID source discovery worker for public researcher URLs, affiliations, external identifiers, and public email candidates.
 - Public page contact discovery worker for contact, press, booking, mailto, social, and feed links from discovered websites.
+- Public page contact discovery can scan page-like channels directly from candidate batches, including Wikidata official website claims.
 - Feed source signal discovery worker for RSS/Atom podcast, newsletter, blog, activity, and public feed email candidate signals.
 - Wikidata people discovery worker for public-figure categories outside OpenAlex.
+- Research batch merge helper for combining offset waves before dossier generation.
 - Candidate discovery dossier builder for merging source packages into one review record per candidate.
 - Creator source discovery documentation with environment and review rules.
 

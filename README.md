@@ -62,6 +62,18 @@ Run a broad Wikidata public-figure wave:
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-001.json --limit 8 --output data/wikidata-wave-001-broad-public-figures.local.json
 ```
 
+Merge offset batches into one local batch:
+
+```bash
+npm run research:merge-batches -- --batch-id wikidata-wave-001-broad-public-figures --output data/wikidata-wave-001-broad-public-figures-combined.local.json data/wikidata-wave-001-broad-public-figures.local.json data/wikidata-wave-001-broad-public-figures-offset-008.local.json
+```
+
+Scan public website channels from a Wikidata wave:
+
+```bash
+npm run research:page-contact-sources -- --source-package data/wikidata-wave-001-broad-public-figures.local.json --source-batch-id wikidata-wave-001-broad-public-figures --limit 50 --output exports/wikidata-wave-001-page-contact-000-049.local.md --json-output exports/wikidata-wave-001-page-contact-000-049.local.json
+```
+
 Prepare a local official-source review package:
 
 ```bash

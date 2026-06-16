@@ -6,6 +6,8 @@ Public page contact discovery scans public website URLs already found by ORCID o
 
 This step does not approve outreach and does not create usable contact routes.
 
+It can also scan public page-like channels from a candidate batch, including Wikidata-generated official website claims.
+
 ## Generate A Discovery Package
 
 Run against ORCID source discovery chunks:
@@ -23,6 +25,12 @@ npm run research:page-contact-sources -- --input-dir exports --source-batch-id o
 Files under `exports/` are ignored by git.
 
 Use `--timeout-ms` to cap slow website requests. The default is 15000 milliseconds.
+
+Run against a Wikidata candidate batch:
+
+```bash
+npm run research:page-contact-sources -- --source-package data/wikidata-wave-001-broad-public-figures.local.json --limit 50 --delay-ms 1000 --source-batch-id wikidata-wave-001-broad-public-figures --output exports/wikidata-wave-001-page-contact-000-049.local.md --json-output exports/wikidata-wave-001-page-contact-000-049.local.json
+```
 
 ## Summarize Chunks
 

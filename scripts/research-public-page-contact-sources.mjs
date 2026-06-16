@@ -2,7 +2,8 @@ import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { basename, dirname, resolve } from 'node:path';
 import { loadLocalEnv } from './lib/local-env.mjs';
 
-const supportedModes = new Set(['orcid-source-discovery', 'public-identity-source-discovery']);
+const supportedModes = new Set(['candidate-batch', 'orcid-source-discovery', 'public-identity-source-discovery']);
+const pageLikePlatforms = new Set(['website', 'blog', 'newsletter', 'podcast', 'profile']);
 const contactKeywords = [
   'contact',
   'about',
@@ -165,15 +166,16 @@ async function loadSourcePackages() {
       }
 
       const payload = JSON.parse(await readFile(file, 'utf8'));
-      if (!supportedModes.has(payload.mode)) {
+      const mode = packageMode(payload);
+      if (!supportedModes.has(mode)) {
         continue;
       }
 
-      if (sourceBatchId && payload.sourceBatchId !== sourceBatchId) {
+      if (sourceBatchId && packageSourceBatchId(payload) !== sourceBatchId) {
         continue;
       }
 
-      packages.push({ file, payload });
+      packages.push({ file, mode, payload });
     } catch (error) {
       parseFailures.push({
         file,
@@ -198,13 +200,17 @@ function collectPageSources(packages) {
 
   for (const entry of packages) {
     for (const item of entry.payload.items ?? []) {
-      if (entry.payload.mode === 'orcid-source-discovery') {
+      if (entry.mode === 'orcid-source-discovery') {
         sources.push(...orcidItemSources(item, entry.file));
       }
 
-      if (entry.payload.mode === 'public-identity-source-discovery') {
+      if (entry.mode === 'public-identity-source-discovery') {
         sources.push(...identityItemSources(item, entry.file));
       }
+    }
+
+    if (entry.mode === 'candidate-batch') {
+      sources.push(...candidateBatchSources(entry.payload, entry.file));
     }
   }
 
@@ -212,6 +218,47 @@ function collectPageSources(packages) {
     sources.filter((source) => source.url && isHttpUrl(source.url)),
     (source) => `${source.candidateId}|${normalizeUrl(source.url)}`,
   );
+}
+
+function candidateBatchSources(batch, file) {
+  return (batch.candidates ?? []).flatMap((candidate) => {
+    const channelSources = (candidate.channels ?? [])
+      .filter((channel) => channel.url && pageLikePlatforms.has(channel.platform ?? classifyPlatform(channel.url)))
+      .filter((channel) => !isPlatformHost(channel.url))
+      .map((channel) => ({
+        candidateId: candidate.id,
+        name: candidate.name,
+        category: candidate.primaryCategory,
+        country: candidate.country,
+        sourcePackageFile: file,
+        sourceType: 'candidate-channel',
+        sourcePlatform: channel.platform ?? classifyPlatform(channel.url),
+        sourceConfidence: channel.verified ? 'verified' : 'unknown',
+        label: channel.label ?? 'Candidate public page',
+        url: channel.url,
+      }));
+
+    const channelUrls = new Set(channelSources.map((source) => normalizeUrl(source.url)));
+    const sourceUrlSources = (candidate.sourceUrls ?? [])
+      .filter((url) => isHttpUrl(url))
+      .filter((url) => pageLikePlatforms.has(classifyPlatform(url)))
+      .filter((url) => !isPlatformHost(url))
+      .filter((url) => !channelUrls.has(normalizeUrl(url)))
+      .map((url) => ({
+        candidateId: candidate.id,
+        name: candidate.name,
+        category: candidate.primaryCategory,
+        country: candidate.country,
+        sourcePackageFile: file,
+        sourceType: 'candidate-source-url',
+        sourcePlatform: classifyPlatform(url),
+        sourceConfidence: 'unknown',
+        label: 'Candidate source URL',
+        url,
+      }));
+
+    return [...channelSources, ...sourceUrlSources];
+  });
 }
 
 function orcidItemSources(item, file) {
@@ -822,8 +869,24 @@ function tokenInText(text, token) {
 }
 
 function inferSourceBatchId(packages) {
-  const ids = unique(packages.map((entry) => entry.payload.sourceBatchId).filter(Boolean));
+  const ids = unique(packages.map((entry) => packageSourceBatchId(entry.payload)).filter(Boolean));
   return ids.length === 1 ? ids[0] : null;
+}
+
+function packageMode(payload) {
+  if (payload.mode) {
+    return payload.mode;
+  }
+
+  if (Array.isArray(payload.candidates)) {
+    return 'candidate-batch';
+  }
+
+  return '';
+}
+
+function packageSourceBatchId(payload) {
+  return payload.sourceBatchId ?? payload.batchId ?? null;
 }
 
 function unique(values) {
