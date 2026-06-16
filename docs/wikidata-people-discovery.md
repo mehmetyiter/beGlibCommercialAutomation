@@ -50,6 +50,12 @@ Run the seventh specialist wave for business leaders, finance professionals, con
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-007-business-finance-leadership.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-007-business-finance-leadership.local.json
 ```
 
+Run the eighth specialist wave for education, publishing, science communication, and community/public voice figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-008-education-publishing-community.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-008-education-publishing-community.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -206,6 +212,28 @@ The seventh config uses verified Wikidata occupation IDs for:
 - Real estate developer
 - Economist
 - Accountant
+
+The eighth config uses verified Wikidata occupation IDs for:
+
+- Pedagogue
+- Educational theorist
+- Lecturer
+- School teacher
+- Academic administrator
+- Science communicator
+- Science journalist
+- Essayist
+- Critic
+- Editor
+- Editor-in-chief
+- Publisher
+- Non-fiction writer
+- Journalist
+- Opinion journalist
+- Community organizer
+- Community leader
+- Orator
+- Conference speaker
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

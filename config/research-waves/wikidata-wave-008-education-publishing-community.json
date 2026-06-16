@@ -1,0 +1,109 @@
+{
+  "waveId": "wikidata-wave-008-education-publishing-community",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata education, publishing, science communication, and community voice occupation discovery",
+  "description": "Broad discovery wave for educators, lecturers, pedagogues, science communicators, science journalists, essayists, critics, editors, publishers, non-fiction writers, community leaders, organizers, and public/conference speakers. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "education",
+      "occupations": [
+        {
+          "qid": "Q1231865",
+          "label": "pedagogue"
+        },
+        {
+          "qid": "Q63676514",
+          "label": "educational theorist"
+        },
+        {
+          "qid": "Q1569495",
+          "label": "lecturer"
+        },
+        {
+          "qid": "Q2251335",
+          "label": "school teacher"
+        },
+        {
+          "qid": "Q21281706",
+          "label": "academic administrator"
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "occupations": [
+        {
+          "qid": "Q15143191",
+          "label": "science communicator"
+        },
+        {
+          "qid": "Q17433421",
+          "label": "science journalist"
+        }
+      ]
+    },
+    {
+      "category": "thought-leadership",
+      "occupations": [
+        {
+          "qid": "Q11774202",
+          "label": "essayist"
+        },
+        {
+          "qid": "Q6430706",
+          "label": "critic"
+        },
+        {
+          "qid": "Q1607826",
+          "label": "editor"
+        },
+        {
+          "qid": "Q589298",
+          "label": "editor-in-chief"
+        },
+        {
+          "qid": "Q2516866",
+          "label": "publisher"
+        },
+        {
+          "qid": "Q15980158",
+          "label": "non-fiction writer"
+        },
+        {
+          "qid": "Q1930187",
+          "label": "journalist"
+        },
+        {
+          "qid": "Q6051619",
+          "label": "opinion journalist"
+        }
+      ]
+    },
+    {
+      "category": "community-leadership",
+      "occupations": [
+        {
+          "qid": "Q28532974",
+          "label": "community organizer"
+        },
+        {
+          "qid": "Q1500610",
+          "label": "community leader"
+        },
+        {
+          "qid": "Q12859263",
+          "label": "orator"
+        },
+        {
+          "qid": "Q100742049",
+          "label": "conference speaker"
+        }
+      ]
+    }
+  ]
+}
