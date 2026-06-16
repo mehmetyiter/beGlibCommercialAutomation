@@ -26,6 +26,12 @@ Run the third specialist wave for health, medicine, psychology, therapy, public 
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-003-health-mental-health-professionals.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-003-health-mental-health-professionals.local.json
 ```
 
+Run the fourth specialist wave for digital creators, social video, streaming, blogging, YouTubers, and podcasters:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-004-digital-creators-social-video.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-004-digital-creators-social-video.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -98,6 +104,20 @@ The third config uses verified Wikidata occupation IDs for:
 - Dietitian
 - Nutritionist
 - Neuroscientist
+
+The fourth config uses verified Wikidata occupation IDs for:
+
+- Influencer
+- Internet celebrity
+- Content creator
+- Digital creator
+- Online streamer
+- Twitch streamer
+- TikToker
+- Blogger
+- Vlogger
+- YouTuber
+- Podcaster
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

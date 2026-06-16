@@ -1,0 +1,82 @@
+{
+  "waveId": "wikidata-wave-004-digital-creators-social-video",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "description": "Broad discovery wave for influencers, internet celebrities, streamers, TikTokers, bloggers, vloggers, content creators, YouTubers, and podcasters. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 1,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "digital-creator",
+      "occupations": [
+        {
+          "qid": "Q2906862",
+          "label": "influencer"
+        },
+        {
+          "qid": "Q2045208",
+          "label": "Internet celebrity"
+        },
+        {
+          "qid": "Q109459317",
+          "label": "content creator"
+        },
+        {
+          "qid": "Q111263847",
+          "label": "digital creator"
+        }
+      ]
+    },
+    {
+      "category": "streaming",
+      "occupations": [
+        {
+          "qid": "Q57414145",
+          "label": "online streamer"
+        },
+        {
+          "qid": "Q50279140",
+          "label": "Twitch streamer"
+        },
+        {
+          "qid": "Q94791573",
+          "label": "TikToker"
+        }
+      ]
+    },
+    {
+      "category": "blogging",
+      "occupations": [
+        {
+          "qid": "Q8246794",
+          "label": "blogger"
+        },
+        {
+          "qid": "Q4110598",
+          "label": "vlogger"
+        }
+      ]
+    },
+    {
+      "category": "youtube",
+      "occupations": [
+        {
+          "qid": "Q17125263",
+          "label": "YouTuber"
+        }
+      ]
+    },
+    {
+      "category": "podcast",
+      "occupations": [
+        {
+          "qid": "Q15077007",
+          "label": "podcaster"
+        }
+      ]
+    }
+  ]
+}
