@@ -38,6 +38,12 @@ Run the fifth specialist wave for media personalities, entertainment figures, sp
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-005-media-entertainment-public-voices.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-005-media-entertainment-public-voices.local.json
 ```
 
+Run the sixth specialist wave for religious leaders, spiritual teachers, religious scholars, community organizers, social entrepreneurs, and philanthropists:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-006-religious-community-leaders.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-006-religious-community-leaders.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -139,6 +145,32 @@ The fifth config uses verified Wikidata occupation IDs for:
 - Activist
 - Human rights defender
 - Political activist
+
+The sixth config uses verified Wikidata occupation IDs for:
+
+- Religious leader
+- Clergy
+- Imam
+- Ulema
+- Rabbi
+- Priest
+- Pastor
+- Preacher
+- Bishop
+- Cardinal
+- Chaplain
+- Missionary
+- Monk
+- Buddhist monk
+- Nun
+- Guru
+- Spiritual teacher
+- Yoga instructor
+- Theologian
+- Religious studies scholar
+- Community organizer
+- Social entrepreneur
+- Philanthropist
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

@@ -1,0 +1,115 @@
+{
+  "waveId": "wikidata-wave-006-religious-community-leaders",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata religious, spiritual, and community leader occupation discovery",
+  "description": "Broad discovery wave for religious leaders, clergy, spiritual teachers, religious scholars, community organizers, social entrepreneurs, and philanthropists. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Religious categories require specialist/legal review before campaign use.",
+  "categories": [
+    {
+      "category": "religion",
+      "occupations": [
+        {
+          "qid": "Q15995642",
+          "label": "religious leader"
+        },
+        {
+          "qid": "Q177826",
+          "label": "clergy"
+        },
+        {
+          "qid": "Q125482",
+          "label": "imam"
+        },
+        {
+          "qid": "Q189459",
+          "label": "ulema"
+        },
+        {
+          "qid": "Q133485",
+          "label": "rabbi"
+        },
+        {
+          "qid": "Q42603",
+          "label": "priest"
+        },
+        {
+          "qid": "Q152002",
+          "label": "pastor"
+        },
+        {
+          "qid": "Q432386",
+          "label": "preacher"
+        },
+        {
+          "qid": "Q29182",
+          "label": "bishop"
+        },
+        {
+          "qid": "Q45722",
+          "label": "cardinal"
+        },
+        {
+          "qid": "Q208762",
+          "label": "chaplain"
+        },
+        {
+          "qid": "Q219477",
+          "label": "missionary"
+        },
+        {
+          "qid": "Q733786",
+          "label": "monk"
+        },
+        {
+          "qid": "Q854997",
+          "label": "Buddhist monk"
+        },
+        {
+          "qid": "Q191808",
+          "label": "nun"
+        },
+        {
+          "qid": "Q484260",
+          "label": "guru"
+        },
+        {
+          "qid": "Q29352392",
+          "label": "spiritual teacher"
+        },
+        {
+          "qid": "Q2600526",
+          "label": "yoga instructor"
+        },
+        {
+          "qid": "Q1234713",
+          "label": "theologian"
+        },
+        {
+          "qid": "Q19829980",
+          "label": "religious studies scholar"
+        }
+      ]
+    },
+    {
+      "category": "community",
+      "occupations": [
+        {
+          "qid": "Q28532974",
+          "label": "community organizer"
+        },
+        {
+          "qid": "Q12336252",
+          "label": "social entrepreneur"
+        },
+        {
+          "qid": "Q12362622",
+          "label": "philanthropist"
+        }
+      ]
+    }
+  ]
+}
