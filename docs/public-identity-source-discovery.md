@@ -37,6 +37,8 @@ The first worker uses Wikidata API suggestions and entity claims for:
 
 Each source remains unverified until a human confirms identity match.
 
+For deeper ORCID public records such as researcher URLs, affiliations, external identifiers, and public email candidates, use `npm run research:orcid-sources`.
+
 ## Search Targets
 
 For every candidate, the worker also writes search targets for:

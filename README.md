@@ -17,6 +17,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Official-source review outcomes can be applied from the local cockpit or CLI.
 - Creator-signal review outcomes can be applied from the local cockpit or CLI.
 - Creator source discovery can prepare YouTube, PodcastIndex, and RSS suggestions for human review.
+- ORCID source discovery can prepare public researcher URLs, affiliations, external identifiers, and public email candidates for human review.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
 
 ## Run Locally
@@ -79,6 +80,12 @@ Run public identity source discovery for official-site and social/profile hints:
 npm run research:identity-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --offset 0 --limit 25 --output exports/openalex-wave-001-identity-000-024.local.md --json-output exports/openalex-wave-001-identity-000-024.local.json
 ```
 
+Run ORCID source discovery for public researcher URLs, affiliations, and public email candidates:
+
+```bash
+npm run research:orcid-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --offset 0 --limit 25 --output exports/openalex-wave-001-orcid-000-024.local.md --json-output exports/openalex-wave-001-orcid-000-024.local.json
+```
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash
@@ -123,6 +130,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Creator signal review](./docs/creator-signal-review.md)
 - [Creator source discovery](./docs/creator-source-discovery.md)
 - [Public identity source discovery](./docs/public-identity-source-discovery.md)
+- [ORCID source discovery](./docs/orcid-source-discovery.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)

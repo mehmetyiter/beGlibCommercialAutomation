@@ -27,6 +27,8 @@ Automated research workers may discover candidate profiles and source URLs. They
 
 The current OpenAlex worker intentionally sets `contactRoutes[0].type` to `none`, because OpenAlex is a discovery source rather than an outreach permission source.
 
+ORCID public email candidates may be retained as discovery records in ignored local exports, but they are not verified contact routes until a human confirms identity match, professional context, current source URL, jurisdiction, suppression status, and sensitive-category review.
+
 ## Source Coverage Rule
 
 No single source is enough for this project.

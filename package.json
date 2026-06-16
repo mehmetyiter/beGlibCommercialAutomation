@@ -17,6 +17,8 @@
     "research:creator-summary": "node scripts/summarize-creator-source-discovery.mjs",
     "research:identity-sources": "node scripts/research-public-identity-sources.mjs",
     "research:openalex": "node scripts/research-openalex-works.mjs",
+    "research:orcid-sources": "node scripts/research-orcid-sources.mjs",
+    "research:orcid-summary": "node scripts/summarize-orcid-source-discovery.mjs",
     "research:wave": "node scripts/run-research-wave.mjs",
     "validate:batch": "node scripts/validate-research-batch.mjs"
   },

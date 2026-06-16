@@ -13,6 +13,7 @@
 - Local creator source discovery summary command for continuous wave tracking.
 - PodcastIndex public search fallback when authenticated API secret is unavailable.
 - Public identity source discovery worker for official-site and social/profile hints.
+- ORCID source discovery worker for public researcher URLs, affiliations, external identifiers, and public email candidates.
 - Creator source discovery documentation with environment and review rules.
 
 ## Rule
@@ -25,6 +26,7 @@ Creator source discovery produces suggestions only. It does not:
 - Approve outreach.
 - Infer hidden audience counts.
 - Delete low-star or no-star candidates.
+- Convert ORCID public email candidates into contact routes without human verification.
 
 ## Verification
 
