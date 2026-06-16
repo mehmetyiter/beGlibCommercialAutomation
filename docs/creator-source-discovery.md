@@ -45,7 +45,11 @@ npm run research:creator-sources -- --batch data/openalex-wave-001-broad-experts
 
 Files under `exports/` are ignored by git.
 
-For continuous YouTube scanning, prefer small chunks and delay between candidates. If the API returns `429`, pause the wave or rerun later with a higher `--delay-ms` value.
+For continuous YouTube scanning, prefer small chunks, delay between candidates, and an explicit request timeout. If the API returns `429`, pause the wave or rerun later with a higher `--delay-ms` value.
+
+```bash
+npm run research:creator-sources -- --batch data/wikidata-wave-001-broad-public-figures-combined.local.json --sources youtube,podcastindex --offset 0 --limit 25 --max 3 --delay-ms 750 --timeout-ms 15000 --output exports/wikidata-wave-001-creator-sources-000-024.local.md --json-output exports/wikidata-wave-001-creator-sources-000-024.local.json
+```
 
 Summarize local creator discovery packages:
 

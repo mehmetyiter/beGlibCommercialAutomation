@@ -50,6 +50,7 @@ const minConfidence = getMinConfidence(args);
 const candidateDelayMs = boundedNumber(args['delay-ms'], 0, 0, 60000);
 const requestRetries = boundedNumber(args.retries, 2, 0, 5);
 const retryDelayMs = boundedNumber(args['retry-delay-ms'], 2000, 250, 60000);
+const timeoutMs = boundedNumber(args['timeout-ms'], 15000, 1000, 120000);
 const failures = [];
 const skippedSources = [];
 const fallbackSources = [];
@@ -123,6 +124,7 @@ const reviewPackage = {
     candidateDelayMs,
     requestRetries,
     retryDelayMs,
+    timeoutMs,
   },
   rules: [
     'Suggestions are not verified channels.',
@@ -158,6 +160,7 @@ console.log(`Deprioritized suggestions retained: ${reviewPackage.summary.deprior
 console.log(`Minimum confidence: ${reviewPackage.summary.minConfidence}`);
 console.log(`Candidate delay: ${reviewPackage.summary.candidateDelayMs}ms`);
 console.log(`Request retries: ${reviewPackage.summary.requestRetries}`);
+console.log(`Request timeout: ${reviewPackage.summary.timeoutMs}ms`);
 console.log(`Failures: ${reviewPackage.summary.failures}`);
 
 if (localEnv.loaded) {
@@ -541,6 +544,7 @@ function renderMarkdown(reviewPackage) {
     `- Minimum confidence: ${reviewPackage.summary.minConfidence}`,
     `- Candidate delay: ${reviewPackage.summary.candidateDelayMs}ms`,
     `- Request retries: ${reviewPackage.summary.requestRetries}`,
+    `- Request timeout: ${reviewPackage.summary.timeoutMs}ms`,
     `- Failures: ${reviewPackage.summary.failures}`,
     '',
     '## Guardrails',
@@ -590,7 +594,7 @@ function renderMarkdown(reviewPackage) {
 
 async function fetchJson(url, init = {}) {
   for (let attempt = 0; attempt <= requestRetries; attempt += 1) {
-    const response = await fetch(url, init);
+    const response = await fetch(url, { ...init, signal: init.signal ?? AbortSignal.timeout(timeoutMs) });
     if (response.ok) {
       return response.json();
     }
@@ -640,7 +644,7 @@ function sleep(ms) {
 
 async function readTextSource(source) {
   if (/^https?:\/\//i.test(source)) {
-    const response = await fetch(source);
+    const response = await fetch(source, { signal: AbortSignal.timeout(timeoutMs) });
     if (!response.ok) {
       throw new Error(`Feed request failed: ${response.status} ${response.statusText}`);
     }
