@@ -1,0 +1,134 @@
+{
+  "waveId": "wikidata-wave-011-sports-fitness-wellness-lifestyle",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata sports, fitness, wellness, lifestyle, and sports-media occupation discovery",
+  "description": "Broad discovery wave for athletes, sports professionals, coaches, fitness trainers, yoga instructors, lifestyle models, beauty creators, sports journalists, and sports commentators. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Fitness and wellness-adjacent categories require professional-context review before campaign use.",
+  "categories": [
+    {
+      "category": "sports",
+      "occupations": [
+        {
+          "qid": "Q2066131",
+          "label": "athlete"
+        },
+        {
+          "qid": "Q11513337",
+          "label": "athletics competitor"
+        },
+        {
+          "qid": "Q937857",
+          "label": "association football player"
+        },
+        {
+          "qid": "Q3665646",
+          "label": "basketball player"
+        },
+        {
+          "qid": "Q10833314",
+          "label": "tennis player"
+        },
+        {
+          "qid": "Q10871364",
+          "label": "baseball player"
+        },
+        {
+          "qid": "Q19204627",
+          "label": "American football player"
+        },
+        {
+          "qid": "Q12299841",
+          "label": "cricketer"
+        },
+        {
+          "qid": "Q11338576",
+          "label": "boxer"
+        },
+        {
+          "qid": "Q11607585",
+          "label": "mixed martial arts fighter"
+        },
+        {
+          "qid": "Q11124885",
+          "label": "martial artist"
+        }
+      ]
+    },
+    {
+      "category": "fitness",
+      "occupations": [
+        {
+          "qid": "Q41583",
+          "label": "coach"
+        },
+        {
+          "qid": "Q628099",
+          "label": "association football coach"
+        },
+        {
+          "qid": "Q5137571",
+          "label": "basketball coach"
+        },
+        {
+          "qid": "Q19827985",
+          "label": "track and field coach"
+        },
+        {
+          "qid": "Q762121",
+          "label": "personal trainer"
+        },
+        {
+          "qid": "Q136661790",
+          "label": "fitness trainer"
+        },
+        {
+          "qid": "Q15982795",
+          "label": "bodybuilder"
+        }
+      ]
+    },
+    {
+      "category": "wellness",
+      "occupations": [
+        {
+          "qid": "Q2600526",
+          "label": "yoga instructor"
+        }
+      ]
+    },
+    {
+      "category": "journalism",
+      "occupations": [
+        {
+          "qid": "Q11313148",
+          "label": "sports journalist"
+        },
+        {
+          "qid": "Q2986228",
+          "label": "sports commentator"
+        }
+      ]
+    },
+    {
+      "category": "lifestyle",
+      "occupations": [
+        {
+          "qid": "Q4610556",
+          "label": "model"
+        },
+        {
+          "qid": "Q18581305",
+          "label": "beauty pageant contestant"
+        },
+        {
+          "qid": "Q23680154",
+          "label": "beauty YouTuber"
+        }
+      ]
+    }
+  ]
+}

@@ -68,6 +68,12 @@ Run the tenth specialist wave for law, policy, government, diplomacy, and public
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-010-law-policy-government.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-010-law-policy-government.local.json
 ```
 
+Run the eleventh specialist wave for sports, fitness, wellness, lifestyle, and sports-media figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-011-sports-fitness-wellness-lifestyle.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-011-sports-fitness-wellness-lifestyle.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -298,6 +304,33 @@ The tenth config uses verified Wikidata occupation IDs for:
 - Legal scholar
 - Law professor
 - Political scientist
+
+The eleventh config uses verified Wikidata occupation IDs for:
+
+- Athlete
+- Athletics competitor
+- Association football player
+- Basketball player
+- Tennis player
+- Baseball player
+- American football player
+- Cricketer
+- Boxer
+- Mixed martial arts fighter
+- Martial artist
+- Coach
+- Association football coach
+- Basketball coach
+- Track and field coach
+- Personal trainer
+- Fitness trainer
+- Bodybuilder
+- Yoga instructor
+- Sports journalist
+- Sports commentator
+- Model
+- Beauty pageant contestant
+- Beauty YouTuber
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
