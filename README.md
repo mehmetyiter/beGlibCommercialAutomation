@@ -18,6 +18,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Creator-signal review outcomes can be applied from the local cockpit or CLI.
 - Creator source discovery can prepare YouTube, PodcastIndex, and RSS suggestions for human review.
 - ORCID source discovery can prepare public researcher URLs, affiliations, external identifiers, and public email candidates for human review.
+- Public page contact discovery can inspect discovered websites for contact, press, booking, mailto, social, and feed links.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
 
 ## Run Locally
@@ -86,6 +87,12 @@ Run ORCID source discovery for public researcher URLs, affiliations, and public 
 npm run research:orcid-sources -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --offset 0 --limit 25 --output exports/openalex-wave-001-orcid-000-024.local.md --json-output exports/openalex-wave-001-orcid-000-024.local.json
 ```
 
+Run public page contact discovery on ORCID-discovered websites:
+
+```bash
+npm run research:page-contact-sources -- --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-orcid- --filename-excludes smoke,summary --offset 0 --limit 50 --output exports/openalex-wave-001-page-contact-000-049.local.md --json-output exports/openalex-wave-001-page-contact-000-049.local.json
+```
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash
@@ -131,6 +138,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Creator source discovery](./docs/creator-source-discovery.md)
 - [Public identity source discovery](./docs/public-identity-source-discovery.md)
 - [ORCID source discovery](./docs/orcid-source-discovery.md)
+- [Public page contact discovery](./docs/public-page-contact-discovery.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
 - [Star rating system](./docs/star-rating-system.md)

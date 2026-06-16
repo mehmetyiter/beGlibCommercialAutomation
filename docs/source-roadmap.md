@@ -69,19 +69,22 @@ Build workers in this order:
 2. ORCID public record worker:
    Expands OpenAlex-linked ORCID IDs into public researcher URLs, affiliations, external identifiers, and public email candidates for human review. Initial ORCID source discovery is available through `npm run research:orcid-sources`.
 
-3. YouTube and creator-signal review worker:
+3. Public page contact discovery worker:
+   Inspects discovered official or researcher websites for public contact, press, booking, mailto, social, and feed links without storing raw HTML. Initial page contact discovery is available through `npm run research:page-contact-sources`.
+
+4. YouTube and creator-signal review worker:
    Finds public channels, links them to candidates, and records public channel/video signals. Initial YouTube Data API discovery scaffolding is available through `npm run research:creator-sources`.
 
-4. Podcast and newsletter review worker:
+5. Podcast and newsletter review worker:
    Finds podcast pages, RSS feeds, show archives, and newsletter pages, then records host/show signals without auto-approving embedded emails. Initial PodcastIndex and RSS/Atom discovery scaffolding is available through `npm run research:creator-sources`.
 
-5. Wikidata disambiguation worker:
+6. Wikidata disambiguation worker:
    Adds aliases, professions, official website claims, and public identifier links. Initial public identity source discovery is available through `npm run research:identity-sources`.
 
-6. Social signal verifier:
+7. Social signal verifier:
    Records public profile URLs and visible audience/activity signals through allowed APIs or manual review.
 
-7. Representative route verifier:
+8. Representative route verifier:
    Prioritizes management, agent, speaker, press, clinic, university media, or organization routes over personal contact details.
 
 ## Guardrails

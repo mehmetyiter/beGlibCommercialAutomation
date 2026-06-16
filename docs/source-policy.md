@@ -29,6 +29,8 @@ The current OpenAlex worker intentionally sets `contactRoutes[0].type` to `none`
 
 ORCID public email candidates may be retained as discovery records in ignored local exports, but they are not verified contact routes until a human confirms identity match, professional context, current source URL, jurisdiction, suppression status, and sensitive-category review.
 
+Public page contact discovery may inspect already-discovered public website URLs for contact links, explicit `mailto:` links, social links, and feed links. It must not store raw HTML, guess emails, decode obfuscated addresses, or fetch private, login-only, hidden, or technically restricted data.
+
 ## Source Coverage Rule
 
 No single source is enough for this project.

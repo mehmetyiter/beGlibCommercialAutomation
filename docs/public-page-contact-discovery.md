@@ -1,0 +1,60 @@
+# Public Page Contact Discovery
+
+## Purpose
+
+Public page contact discovery scans public website URLs already found by ORCID or public identity workers. It extracts visible contact-page links, explicit `mailto:` links, social links, and RSS/feed links for human review.
+
+This step does not approve outreach and does not create usable contact routes.
+
+## Generate A Discovery Package
+
+Run against ORCID source discovery chunks:
+
+```bash
+npm run research:page-contact-sources -- --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-orcid- --filename-excludes smoke,summary --offset 0 --limit 50 --delay-ms 1000 --output exports/openalex-wave-001-page-contact-000-049.local.md --json-output exports/openalex-wave-001-page-contact-000-049.local.json
+```
+
+Continue in chunks with `--offset`:
+
+```bash
+npm run research:page-contact-sources -- --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-orcid- --filename-excludes smoke,summary --offset 50 --limit 50 --delay-ms 1000 --retries 1 --retry-delay-ms 3000 --output exports/openalex-wave-001-page-contact-050-099.local.md --json-output exports/openalex-wave-001-page-contact-050-099.local.json
+```
+
+Files under `exports/` are ignored by git.
+
+Use `--timeout-ms` to cap slow website requests. The default is 15000 milliseconds.
+
+## Summarize Chunks
+
+After running chunked discovery, generate a local rollup:
+
+```bash
+npm run research:page-contact-summary -- --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-includes openalex-wave-001-page-contact- --filename-excludes smoke --output exports/openalex-wave-001-page-contact-summary.local.json --markdown-output exports/openalex-wave-001-page-contact-summary.local.md
+```
+
+The summary reports package count, page source rows, unique candidates, fetched/skipped/failed pages, contact page candidates, mailto email candidates, social links, feed links, and scan failures. It does not print email values.
+
+## What It Collects
+
+- Contact, about, bio, profile, people, media, press, booking, speaker, management, agent, representative, office, and consulting links
+- Explicit `mailto:` links only
+- Public social links found on scanned pages
+- RSS, Atom, podcast, and feed links
+- Page title, canonical URL, final URL, and lightweight metadata
+- Review search targets
+
+The worker does not store raw HTML.
+
+## Default Skips
+
+Known social, DOI, ORCID, OpenAlex, Wikipedia, Wikidata, academic-index, and large platform hosts are skipped by default instead of fetched. Their URLs can still be retained as discovery links from upstream workers.
+
+Use `--include-platform-pages` only for deliberate manual tests.
+
+## Rules
+
+- Keep every candidate and every discovered page source, even when no contact data is found.
+- Treat `mailto:` links as public email candidates, not verified contact routes.
+- Do not guess emails or decode obfuscated address patterns.
+- Do not scrape private, login-only, hidden, breached, or technically restricted data.
+- Human review must confirm identity, professional context, source URL, jurisdiction, suppression status, and sensitive-category status before campaign use.
