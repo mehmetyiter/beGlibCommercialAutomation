@@ -2,7 +2,12 @@ import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { basename, dirname, resolve } from 'node:path';
 import { loadLocalEnv } from './lib/local-env.mjs';
 
-const supportedModes = new Set(['candidate-batch', 'orcid-source-discovery', 'public-identity-source-discovery']);
+const supportedModes = new Set([
+  'candidate-batch',
+  'orcid-source-discovery',
+  'public-identity-source-discovery',
+  'public-page-contact-source-discovery',
+]);
 const pageLikePlatforms = new Set(['website', 'blog', 'newsletter', 'podcast', 'profile']);
 const contactKeywords = [
   'contact',
@@ -207,6 +212,10 @@ function collectPageSources(packages) {
       if (entry.mode === 'public-identity-source-discovery') {
         sources.push(...identityItemSources(item, entry.file));
       }
+
+      if (entry.mode === 'public-page-contact-source-discovery') {
+        sources.push(...contactCandidateSources(item, entry.file));
+      }
     }
 
     if (entry.mode === 'candidate-batch') {
@@ -218,6 +227,21 @@ function collectPageSources(packages) {
     sources.filter((source) => source.url && isHttpUrl(source.url)),
     (source) => `${source.candidateId}|${normalizeUrl(source.url)}`,
   );
+}
+
+function contactCandidateSources(item, file) {
+  return (item.contactPageCandidates ?? []).map((page) => ({
+    candidateId: item.candidateId,
+    name: item.name,
+    category: item.category,
+    country: item.country,
+    sourcePackageFile: file,
+    sourceType: page.source ?? 'public-page-contact-candidate',
+    sourcePlatform: classifyPlatform(page.url),
+    sourceConfidence: page.verified ? 'verified' : item.sourceConfidence ?? 'discovered',
+    label: page.label ?? page.reason ?? 'Contact page candidate',
+    url: page.url,
+  }));
 }
 
 function candidateBatchSources(batch, file) {

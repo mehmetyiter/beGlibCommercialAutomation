@@ -6,7 +6,7 @@ Public page contact discovery scans public website URLs already found by ORCID o
 
 This step does not approve outreach and does not create usable contact routes.
 
-It can also scan public page-like channels from a candidate batch, including Wikidata-generated official website claims.
+It can also scan public page-like channels from a candidate batch, including Wikidata-generated official website claims. A second pass can scan contact, press, booking, representative, or media page candidates found by an earlier public page contact package.
 
 ## Generate A Discovery Package
 
@@ -30,6 +30,12 @@ Run against a Wikidata candidate batch:
 
 ```bash
 npm run research:page-contact-sources -- --source-package data/wikidata-wave-001-broad-public-figures.local.json --limit 50 --delay-ms 1000 --source-batch-id wikidata-wave-001-broad-public-figures --output exports/wikidata-wave-001-page-contact-000-049.local.md --json-output exports/wikidata-wave-001-page-contact-000-049.local.json
+```
+
+Run a second pass against contact-page candidates from previous chunks:
+
+```bash
+npm run research:page-contact-sources -- --input-dir exports --source-batch-id wikidata-wave-001-broad-public-figures --filename-includes wikidata-wave-001-expanded2-page-contact- --filename-excludes smoke,summary --offset 0 --limit 50 --delay-ms 1000 --output exports/wikidata-wave-001-expanded2-route-contact-000-049.local.md --json-output exports/wikidata-wave-001-expanded2-route-contact-000-049.local.json
 ```
 
 ## Summarize Chunks
