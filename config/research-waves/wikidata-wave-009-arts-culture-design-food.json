@@ -1,0 +1,139 @@
+{
+  "waveId": "wikidata-wave-009-arts-culture-design-food",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata arts, culture, design, architecture, photography, and food-media occupation discovery",
+  "description": "Broad discovery wave for architects, designers, photographers, painters, sculptors, illustrators, cartoonists, comics artists, animators, dancers, choreographers, chefs, food writers, curators, art historians, directors, songwriters, composers, actors, and screenwriters. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "arts",
+      "occupations": [
+        {
+          "qid": "Q42973",
+          "label": "architect"
+        },
+        {
+          "qid": "Q5322166",
+          "label": "designer"
+        },
+        {
+          "qid": "Q627325",
+          "label": "graphic designer"
+        },
+        {
+          "qid": "Q3501317",
+          "label": "fashion designer"
+        },
+        {
+          "qid": "Q2133309",
+          "label": "interior designer"
+        },
+        {
+          "qid": "Q18915967",
+          "label": "product designer"
+        },
+        {
+          "qid": "Q33231",
+          "label": "photographer"
+        },
+        {
+          "qid": "Q1028181",
+          "label": "painter"
+        },
+        {
+          "qid": "Q1281618",
+          "label": "sculptor"
+        },
+        {
+          "qid": "Q644687",
+          "label": "illustrator"
+        },
+        {
+          "qid": "Q1114448",
+          "label": "cartoonist"
+        },
+        {
+          "qid": "Q715301",
+          "label": "comics artist"
+        },
+        {
+          "qid": "Q266569",
+          "label": "animator"
+        },
+        {
+          "qid": "Q5716684",
+          "label": "dancer"
+        },
+        {
+          "qid": "Q2490358",
+          "label": "choreographer"
+        },
+        {
+          "qid": "Q935666",
+          "label": "make-up artist"
+        },
+        {
+          "qid": "Q706364",
+          "label": "art director"
+        },
+        {
+          "qid": "Q12369034",
+          "label": "creative director"
+        },
+        {
+          "qid": "Q2526255",
+          "label": "film director"
+        },
+        {
+          "qid": "Q753110",
+          "label": "songwriter"
+        },
+        {
+          "qid": "Q36834",
+          "label": "composer"
+        },
+        {
+          "qid": "Q33999",
+          "label": "actor"
+        },
+        {
+          "qid": "Q28389",
+          "label": "screenwriter"
+        }
+      ]
+    },
+    {
+      "category": "thought-leadership",
+      "occupations": [
+        {
+          "qid": "Q3499072",
+          "label": "chef"
+        },
+        {
+          "qid": "Q27431213",
+          "label": "cookbook writer"
+        },
+        {
+          "qid": "Q11500768",
+          "label": "culinary writer"
+        },
+        {
+          "qid": "Q1495660",
+          "label": "food critic"
+        },
+        {
+          "qid": "Q674426",
+          "label": "curator"
+        },
+        {
+          "qid": "Q1792450",
+          "label": "art historian"
+        }
+      ]
+    }
+  ]
+}

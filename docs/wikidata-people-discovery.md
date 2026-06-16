@@ -56,6 +56,12 @@ Run the eighth specialist wave for education, publishing, science communication,
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-008-education-publishing-community.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-008-education-publishing-community.local.json
 ```
 
+Run the ninth specialist wave for arts, culture, design, architecture, photography, and food-media figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-009-arts-culture-design-food.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-009-arts-culture-design-food.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -234,6 +240,38 @@ The eighth config uses verified Wikidata occupation IDs for:
 - Community leader
 - Orator
 - Conference speaker
+
+The ninth config uses verified Wikidata occupation IDs for:
+
+- Architect
+- Designer
+- Graphic designer
+- Fashion designer
+- Interior designer
+- Product designer
+- Photographer
+- Painter
+- Sculptor
+- Illustrator
+- Cartoonist
+- Comics artist
+- Animator
+- Dancer
+- Choreographer
+- Make-up artist
+- Art director
+- Creative director
+- Film director
+- Songwriter
+- Composer
+- Actor
+- Screenwriter
+- Chef
+- Cookbook writer
+- Culinary writer
+- Food critic
+- Curator
+- Art historian
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
