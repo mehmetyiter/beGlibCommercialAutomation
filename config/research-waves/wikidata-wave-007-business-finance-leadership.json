@@ -1,0 +1,147 @@
+{
+  "waveId": "wikidata-wave-007-business-finance-leadership",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata business, finance, consulting, and leadership occupation discovery",
+  "description": "Broad discovery wave for business leaders, executives, founders, investors, finance professionals, consultants, marketers, real estate developers, economists, accountants, and sales professionals. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "business",
+      "occupations": [
+        {
+          "qid": "Q43845",
+          "label": "businessperson"
+        },
+        {
+          "qid": "Q2961975",
+          "label": "business executive"
+        },
+        {
+          "qid": "Q484876",
+          "label": "chief executive officer"
+        },
+        {
+          "qid": "Q623279",
+          "label": "chief operating officer"
+        },
+        {
+          "qid": "Q140686",
+          "label": "chairperson"
+        },
+        {
+          "qid": "Q88213565",
+          "label": "company founder"
+        },
+        {
+          "qid": "Q131524",
+          "label": "entrepreneur"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "occupations": [
+        {
+          "qid": "Q557880",
+          "label": "investor"
+        },
+        {
+          "qid": "Q16023665",
+          "label": "venture capitalist"
+        },
+        {
+          "qid": "Q778274",
+          "label": "angel investor"
+        },
+        {
+          "qid": "Q1979607",
+          "label": "financier"
+        },
+        {
+          "qid": "Q806798",
+          "label": "banker"
+        },
+        {
+          "qid": "Q1416279",
+          "label": "financial analyst"
+        },
+        {
+          "qid": "Q2883465",
+          "label": "investment banker"
+        },
+        {
+          "qid": "Q1435728",
+          "label": "fund manager"
+        },
+        {
+          "qid": "Q43423468",
+          "label": "hedge fund manager"
+        }
+      ]
+    },
+    {
+      "category": "consulting",
+      "occupations": [
+        {
+          "qid": "Q15978655",
+          "label": "consultant"
+        },
+        {
+          "qid": "Q16849727",
+          "label": "business consultant"
+        },
+        {
+          "qid": "Q27827744",
+          "label": "management consultant"
+        }
+      ]
+    },
+    {
+      "category": "marketing",
+      "occupations": [
+        {
+          "qid": "Q61911662",
+          "label": "marketing consultant"
+        },
+        {
+          "qid": "Q1900657",
+          "label": "marketer"
+        },
+        {
+          "qid": "Q10355417",
+          "label": "advertising person"
+        },
+        {
+          "qid": "Q685433",
+          "label": "salesperson"
+        }
+      ]
+    },
+    {
+      "category": "real-estate",
+      "occupations": [
+        {
+          "qid": "Q17487600",
+          "label": "real estate developer"
+        }
+      ]
+    },
+    {
+      "category": "economics",
+      "occupations": [
+        {
+          "qid": "Q188094",
+          "label": "economist"
+        },
+        {
+          "qid": "Q326653",
+          "label": "accountant"
+        }
+      ]
+    }
+  ]
+}

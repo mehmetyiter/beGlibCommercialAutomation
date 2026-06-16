@@ -44,6 +44,12 @@ Run the sixth specialist wave for religious leaders, spiritual teachers, religio
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-006-religious-community-leaders.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-006-religious-community-leaders.local.json
 ```
 
+Run the seventh specialist wave for business leaders, finance professionals, consultants, marketers, real estate developers, economists, accountants, and sales professionals:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-007-business-finance-leadership.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-007-business-finance-leadership.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -171,6 +177,35 @@ The sixth config uses verified Wikidata occupation IDs for:
 - Community organizer
 - Social entrepreneur
 - Philanthropist
+
+The seventh config uses verified Wikidata occupation IDs for:
+
+- Businessperson
+- Business executive
+- Chief executive officer
+- Chief operating officer
+- Chairperson
+- Company founder
+- Entrepreneur
+- Investor
+- Venture capitalist
+- Angel investor
+- Financier
+- Banker
+- Financial analyst
+- Investment banker
+- Fund manager
+- Hedge fund manager
+- Consultant
+- Business consultant
+- Management consultant
+- Marketing consultant
+- Marketer
+- Advertising person
+- Salesperson
+- Real estate developer
+- Economist
+- Accountant
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
