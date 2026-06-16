@@ -62,6 +62,12 @@ Run the ninth specialist wave for arts, culture, design, architecture, photograp
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-009-arts-culture-design-food.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-009-arts-culture-design-food.local.json
 ```
 
+Run the tenth specialist wave for law, policy, government, diplomacy, and public-affairs figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-010-law-policy-government.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-010-law-policy-government.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -272,6 +278,26 @@ The ninth config uses verified Wikidata occupation IDs for:
 - Food critic
 - Curator
 - Art historian
+
+The tenth config uses verified Wikidata occupation IDs for:
+
+- Lawyer
+- Judge
+- Prosecutor
+- Barrister
+- Solicitor
+- Diplomat
+- Minister
+- Mayor
+- Member of parliament
+- Lobbyist
+- Campaign manager
+- Political pundit
+- Internationalist
+- Jurist
+- Legal scholar
+- Law professor
+- Political scientist
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

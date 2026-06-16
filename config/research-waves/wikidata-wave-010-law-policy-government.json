@@ -1,0 +1,91 @@
+{
+  "waveId": "wikidata-wave-010-law-policy-government",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata law, policy, government, diplomacy, and public-affairs occupation discovery",
+  "description": "Broad discovery wave for legal professionals, legal scholars, political scientists, diplomats, government office holders, political commentators, lobbyists, campaign managers, and international relations specialists. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "thought-leadership",
+      "occupations": [
+        {
+          "qid": "Q40348",
+          "label": "lawyer"
+        },
+        {
+          "qid": "Q16533",
+          "label": "judge"
+        },
+        {
+          "qid": "Q600751",
+          "label": "prosecutor"
+        },
+        {
+          "qid": "Q808967",
+          "label": "barrister"
+        },
+        {
+          "qid": "Q14284",
+          "label": "solicitor"
+        },
+        {
+          "qid": "Q193391",
+          "label": "diplomat"
+        },
+        {
+          "qid": "Q83307",
+          "label": "minister"
+        },
+        {
+          "qid": "Q30185",
+          "label": "mayor"
+        },
+        {
+          "qid": "Q486839",
+          "label": "member of parliament"
+        },
+        {
+          "qid": "Q11986654",
+          "label": "lobbyist"
+        },
+        {
+          "qid": "Q5027838",
+          "label": "campaign manager"
+        },
+        {
+          "qid": "Q11499163",
+          "label": "political pundit"
+        },
+        {
+          "qid": "Q96694579",
+          "label": "internationalist"
+        }
+      ]
+    },
+    {
+      "category": "academia",
+      "occupations": [
+        {
+          "qid": "Q185351",
+          "label": "jurist"
+        },
+        {
+          "qid": "Q16012028",
+          "label": "legal scholar"
+        },
+        {
+          "qid": "Q63677188",
+          "label": "law professor"
+        },
+        {
+          "qid": "Q1238570",
+          "label": "political scientist"
+        }
+      ]
+    }
+  ]
+}
