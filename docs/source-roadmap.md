@@ -84,10 +84,13 @@ Build workers in this order:
 7. Wikidata disambiguation worker:
    Adds aliases, professions, official website claims, and public identifier links. Initial public identity source discovery is available through `npm run research:identity-sources`.
 
-8. Social signal verifier:
+8. Wikidata people discovery worker:
+   Expands beyond OpenAlex with occupation-based public-figure discovery for YouTubers, podcasters, artists, journalists, health professionals, and religious leaders. Initial Wikidata people discovery is available through `npm run research:wikidata-people`.
+
+9. Social signal verifier:
    Records public profile URLs and visible audience/activity signals through allowed APIs or manual review.
 
-9. Representative route verifier:
+10. Representative route verifier:
    Prioritizes management, agent, speaker, press, clinic, university media, or organization routes over personal contact details.
 
 ## Guardrails

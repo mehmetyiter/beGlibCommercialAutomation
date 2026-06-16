@@ -1,0 +1,97 @@
+{
+  "waveId": "wikidata-wave-001-broad-public-figures",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata broad public figure occupation discovery",
+  "description": "Broad public figure discovery wave across YouTubers, podcasters, artists, journalists, health professionals, and religious leaders. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 3,
+  "rankBySitelinks": false,
+  "delayMs": 2000,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "categories": [
+    {
+      "category": "youtube",
+      "occupations": [
+        {
+          "qid": "Q17125263",
+          "label": "YouTuber"
+        }
+      ]
+    },
+    {
+      "category": "podcast",
+      "occupations": [
+        {
+          "qid": "Q15077007",
+          "label": "podcaster"
+        }
+      ]
+    },
+    {
+      "category": "arts",
+      "occupations": [
+        {
+          "qid": "Q483501",
+          "label": "artist"
+        },
+        {
+          "qid": "Q3391743",
+          "label": "visual artist"
+        },
+        {
+          "qid": "Q639669",
+          "label": "musician"
+        }
+      ]
+    },
+    {
+      "category": "journalism",
+      "occupations": [
+        {
+          "qid": "Q1930187",
+          "label": "journalist"
+        }
+      ]
+    },
+    {
+      "category": "psychology",
+      "occupations": [
+        {
+          "qid": "Q212980",
+          "label": "psychologist"
+        }
+      ]
+    },
+    {
+      "category": "medicine",
+      "occupations": [
+        {
+          "qid": "Q39631",
+          "label": "physician"
+        }
+      ]
+    },
+    {
+      "category": "therapy",
+      "occupations": [
+        {
+          "qid": "Q2419397",
+          "label": "therapist"
+        }
+      ]
+    },
+    {
+      "category": "religion",
+      "occupations": [
+        {
+          "qid": "Q15995642",
+          "label": "religious leader"
+        },
+        {
+          "qid": "Q177826",
+          "label": "clergy"
+        }
+      ]
+    }
+  ]
+}

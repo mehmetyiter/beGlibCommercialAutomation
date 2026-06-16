@@ -24,6 +24,7 @@
     "research:orcid-summary": "node scripts/summarize-orcid-source-discovery.mjs",
     "research:page-contact-sources": "node scripts/research-public-page-contact-sources.mjs",
     "research:page-contact-summary": "node scripts/summarize-public-page-contact-sources.mjs",
+    "research:wikidata-people": "node scripts/research-wikidata-people.mjs",
     "research:wave": "node scripts/run-research-wave.mjs",
     "validate:batch": "node scripts/validate-research-batch.mjs"
   },

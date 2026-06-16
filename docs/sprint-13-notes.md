@@ -16,6 +16,7 @@
 - ORCID source discovery worker for public researcher URLs, affiliations, external identifiers, and public email candidates.
 - Public page contact discovery worker for contact, press, booking, mailto, social, and feed links from discovered websites.
 - Feed source signal discovery worker for RSS/Atom podcast, newsletter, blog, activity, and public feed email candidate signals.
+- Wikidata people discovery worker for public-figure categories outside OpenAlex.
 - Candidate discovery dossier builder for merging source packages into one review record per candidate.
 - Creator source discovery documentation with environment and review rules.
 
@@ -32,6 +33,7 @@ Creator source discovery produces suggestions only. It does not:
 - Convert ORCID public email candidates into contact routes without human verification.
 - Store raw HTML or convert page-level mailto links into contact routes without human verification.
 - Infer private listener, subscriber, or audience counts from feed metadata.
+- Treat Wikidata occupation or social claims as verified identity ownership.
 - Treat discovery stars as compliance approval or delete low-star candidates.
 
 ## Verification

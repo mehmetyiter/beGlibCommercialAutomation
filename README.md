@@ -56,6 +56,12 @@ Run a broad multi-query OpenAlex wave:
 npm run research:wave -- --config config/research-waves/openalex-wave-001.json --output-dir data/openalex-wave-001-broad-experts.local
 ```
 
+Run a broad Wikidata public-figure wave:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-001.json --limit 8 --output data/wikidata-wave-001-broad-public-figures.local.json
+```
+
 Prepare a local official-source review package:
 
 ```bash
@@ -154,6 +160,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [ORCID source discovery](./docs/orcid-source-discovery.md)
 - [Public page contact discovery](./docs/public-page-contact-discovery.md)
 - [Feed source signal discovery](./docs/feed-source-signal-discovery.md)
+- [Wikidata people discovery](./docs/wikidata-people-discovery.md)
 - [Candidate discovery dossiers](./docs/candidate-discovery-dossiers.md)
 - [Source policy](./docs/source-policy.md)
 - [Source roadmap](./docs/source-roadmap.md)
