@@ -1,4 +1,10 @@
-import type { AuditEvent, Candidate, ResearchBatch, VaultState } from '../types';
+import type {
+  AuditEvent,
+  Candidate,
+  CandidateDiscoveryDossierPackage,
+  ResearchBatch,
+  VaultState,
+} from '../types';
 
 const vaultKey = 'beglib.host-intelligence.vault.v1';
 const maxAuditEvents = 80;
@@ -10,10 +16,23 @@ export interface BatchValidationResult {
   batch?: ResearchBatch;
 }
 
+export interface DiscoveryDossierValidationResult {
+  ok: boolean;
+  errors: string[];
+  warnings: string[];
+  package?: CandidateDiscoveryDossierPackage;
+}
+
 export interface ImportResult {
   state: VaultState;
   imported: number;
   replaced: number;
+  warnings: string[];
+}
+
+export interface DiscoveryDossierImportResult {
+  state: VaultState;
+  dossiers: number;
   warnings: string[];
 }
 
@@ -65,6 +84,9 @@ export function loadVaultState(seedCandidates: Candidate[]): VaultState {
 
     return {
       candidates: mergeSeedDefaults(parsedState.candidates as Candidate[], seedCandidates),
+      discoveryDossierPackage: isDiscoveryDossierPackage(parsedState.discoveryDossierPackage)
+        ? parsedState.discoveryDossierPackage
+        : undefined,
       auditEvents: Array.isArray(parsedState.auditEvents)
         ? (parsedState.auditEvents as AuditEvent[])
         : [],
@@ -175,6 +197,108 @@ export function importResearchBatch(state: VaultState, batch: ResearchBatch): Im
     state: nextState,
     imported,
     replaced,
+    warnings: [],
+  };
+}
+
+export function validateDiscoveryDossierPackage(raw: unknown): DiscoveryDossierValidationResult {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+
+  if (!isRecord(raw)) {
+    return {
+      ok: false,
+      errors: ['Discovery dossier package must be a JSON object.'],
+      warnings,
+    };
+  }
+
+  if (raw.mode !== 'candidate-discovery-dossiers') {
+    errors.push('mode must be candidate-discovery-dossiers.');
+  }
+
+  if (typeof raw.reviewId !== 'string' || raw.reviewId.trim().length < 3) {
+    errors.push('reviewId is required.');
+  }
+
+  if (typeof raw.createdAt !== 'string' || Number.isNaN(Date.parse(raw.createdAt))) {
+    errors.push('createdAt must be an ISO date string.');
+  }
+
+  if (!isRecord(raw.summary)) {
+    errors.push('summary is required.');
+  }
+
+  const dossiers = Array.isArray(raw.dossiers) ? raw.dossiers : [];
+  if (dossiers.length === 0) {
+    errors.push('dossiers must contain at least one candidate dossier.');
+  }
+
+  dossiers.forEach((dossier, index) => {
+    const prefix = `dossiers[${index}]`;
+    if (!isRecord(dossier)) {
+      errors.push(`${prefix} must be an object.`);
+      return;
+    }
+
+    ['candidateId', 'name', 'title', 'category'].forEach((field) => {
+      if (typeof dossier[field] !== 'string' || dossier[field].trim().length === 0) {
+        errors.push(`${prefix}.${field} is required.`);
+      }
+    });
+
+    if (!isRecord(dossier.discoveryStar)) {
+      errors.push(`${prefix}.discoveryStar is required.`);
+    }
+
+    if (!isRecord(dossier.counts)) {
+      errors.push(`${prefix}.counts is required.`);
+    }
+
+    if (!Array.isArray(dossier.discoveryChannels)) {
+      errors.push(`${prefix}.discoveryChannels must be an array.`);
+    }
+
+    if (!Array.isArray(dossier.contactCandidates)) {
+      errors.push(`${prefix}.contactCandidates must be an array.`);
+    }
+  });
+
+  if (isRecord(raw.summary) && typeof raw.summary.candidates === 'number' && raw.summary.candidates !== dossiers.length) {
+    warnings.push('summary.candidates does not match dossier count.');
+  }
+
+  return {
+    ok: errors.length === 0,
+    errors,
+    warnings,
+    package: errors.length === 0 ? (raw as unknown as CandidateDiscoveryDossierPackage) : undefined,
+  };
+}
+
+export function importDiscoveryDossierPackage(
+  state: VaultState,
+  dossierPackage: CandidateDiscoveryDossierPackage,
+): DiscoveryDossierImportResult {
+  const nextState: VaultState = {
+    ...state,
+    discoveryDossierPackage: dossierPackage,
+    auditEvents: compactAudit([
+      createAuditEvent('discovery_dossier_imported', `Imported discovery dossiers ${dossierPackage.reviewId}.`, {
+        dossiers: dossierPackage.dossiers.length,
+        contactCandidates: dossierPackage.summary.contactCandidates,
+        publicEmailCandidates: dossierPackage.summary.publicEmailCandidates,
+      }),
+      ...state.auditEvents,
+    ]),
+    updatedAt: new Date().toISOString(),
+  };
+
+  saveVaultState(nextState);
+
+  return {
+    state: nextState,
+    dossiers: dossierPackage.dossiers.length,
     warnings: [],
   };
 }
@@ -331,4 +455,8 @@ function canUseLocalStorage() {
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+function isDiscoveryDossierPackage(value: unknown): value is CandidateDiscoveryDossierPackage {
+  return isRecord(value) && value.mode === 'candidate-discovery-dossiers' && Array.isArray(value.dossiers);
 }

@@ -262,6 +262,7 @@ export interface CreatorSignalApplyResult {
 export type AuditEventType =
   | 'vault_initialized'
   | 'batch_imported'
+  | 'discovery_dossier_imported'
   | 'candidate_selected'
   | 'vault_reset'
   | 'validation_failed';
@@ -277,6 +278,7 @@ export interface AuditEvent {
 
 export interface VaultState {
   candidates: Candidate[];
+  discoveryDossierPackage?: CandidateDiscoveryDossierPackage;
   auditEvents: AuditEvent[];
   updatedAt: string;
 }
@@ -300,4 +302,100 @@ export interface VerificationTask {
   summary: string;
   sourceHints: string[];
   blockers: string[];
+}
+
+export interface DiscoveryStarAssessment {
+  stars: StarRating;
+  score: number;
+  label: string;
+  reasons: string[];
+  missingSignals: string[];
+  note: string;
+}
+
+export interface DiscoveryDossierCounts {
+  discoveryChannels: number;
+  contactCandidates: number;
+  publicEmailCandidates: number;
+  contactPageCandidates: number;
+  creatorSuggestions: number;
+  affiliations: number;
+  searchTargets: number;
+  sourcePackages: number;
+}
+
+export interface DiscoveryChannelCandidate {
+  source: string;
+  platform: string;
+  label: string;
+  url: string;
+  verified: boolean;
+  confidence: string;
+}
+
+export interface DiscoveryContactCandidate {
+  source: string;
+  type: 'public-email-candidate' | 'contact-page-candidate' | string;
+  value: string;
+  sourceUrl: string;
+  label?: string;
+  reason?: string;
+  verified: boolean;
+  reviewerNote?: string;
+}
+
+export interface CandidateDiscoveryDossier {
+  candidateId: string;
+  name: string;
+  title: string;
+  category: CandidateCategory;
+  subcategories: string[];
+  country: string;
+  fitScore: number;
+  reachScore: number;
+  status: CandidateStatus;
+  consentStatus: ConsentStatus;
+  riskLevel: RiskLevel;
+  sensitiveFlags: string[];
+  discoveryStar: DiscoveryStarAssessment;
+  counts: DiscoveryDossierCounts;
+  discoveryChannels: DiscoveryChannelCandidate[];
+  contactCandidates: DiscoveryContactCandidate[];
+  affiliations: Array<Record<string, string>>;
+  searchTargets: string[];
+  sourceUrls: string[];
+}
+
+export interface CandidateDiscoveryDossierSummary {
+  candidates: number;
+  discoveryPackages: number;
+  dossiersWithAnyDiscovery: number;
+  channelCandidates: number;
+  contactCandidates: number;
+  publicEmailCandidates: number;
+  contactPageCandidates: number;
+  candidatesWithPublicEmail: number;
+  candidatesWithContactCandidate: number;
+  creatorSuggestions: number;
+  affiliations: number;
+  sensitiveReviewRequired: number;
+  discoveryStars: {
+    one: number;
+    two: number;
+    three: number;
+    four: number;
+    five: number;
+  };
+  parseFailures: number;
+}
+
+export interface CandidateDiscoveryDossierPackage {
+  reviewId: string;
+  createdAt: string;
+  sourceBatchId: string | null;
+  sourceLabel: string | null;
+  sourceFile: string;
+  mode: 'candidate-discovery-dossiers';
+  summary: CandidateDiscoveryDossierSummary;
+  dossiers: CandidateDiscoveryDossier[];
 }

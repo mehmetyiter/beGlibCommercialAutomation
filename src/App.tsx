@@ -35,9 +35,11 @@ import { applyCreatorSignalReviewToCandidates } from './lib/creatorSignalReview'
 import {
   appendAuditEvent,
   createAuditEvent,
+  importDiscoveryDossierPackage,
   importResearchBatch,
   loadVaultState,
   resetVaultState,
+  validateDiscoveryDossierPackage,
   validateResearchBatch,
 } from './lib/localVault';
 import { applyOfficialSourceReviewToCandidates } from './lib/officialSourceReview';
@@ -48,6 +50,7 @@ import type {
   AuditEvent,
   Candidate,
   CandidateCategory,
+  CandidateDiscoveryDossier,
   CandidateStatus,
   ComplianceAssessment,
   CreatorSignalApplySummary,
@@ -108,6 +111,8 @@ function App() {
   const [creatorApplyMessage, setCreatorApplyMessage] = useState('No creator signals applied.');
   const [creatorApplySummary, setCreatorApplySummary] = useState<CreatorSignalApplySummary | null>(null);
   const [creatorApplyProblems, setCreatorApplyProblems] = useState({ errors: [] as string[], warnings: [] as string[] });
+  const [dossierImportMessage, setDossierImportMessage] = useState('No discovery dossier imported.');
+  const [dossierImportProblems, setDossierImportProblems] = useState({ errors: [] as string[], warnings: [] as string[] });
 
   const assessedCandidates = useMemo<AssessedCandidate[]>(
     () =>
@@ -154,6 +159,9 @@ function App() {
     assessedCandidates.find((candidate) => candidate.id === selectedCandidateId) ??
     filteredCandidates[0] ??
     assessedCandidates[0];
+  const selectedDiscoveryDossier = vaultState.discoveryDossierPackage?.dossiers.find(
+    (dossier) => dossier.candidateId === selectedCandidate.id,
+  );
 
   const selectedTemplate = getTemplateForCandidate(selectedCandidate);
   const selectedDraft = renderOutreachDraft(selectedCandidate, selectedTemplate);
@@ -365,6 +373,42 @@ function App() {
     }
   }
 
+  async function handleImportDiscoveryDossiers(file: File | undefined) {
+    if (!file) {
+      return;
+    }
+
+    try {
+      const parsed = JSON.parse(await file.text()) as unknown;
+      const validation = validateDiscoveryDossierPackage(parsed);
+
+      if (!validation.ok || !validation.package) {
+        setDossierImportMessage(`Import blocked: ${validation.errors[0] ?? 'dossier package needs attention.'}`);
+        setDossierImportProblems({ errors: validation.errors, warnings: validation.warnings });
+        setVaultState((currentState) =>
+          appendAuditEvent(
+            currentState,
+            createAuditEvent('validation_failed', 'Discovery dossier import failed.', {
+              errors: validation.errors.length,
+              file: file.name,
+            }),
+          ),
+        );
+        return;
+      }
+
+      const result = importDiscoveryDossierPackage(vaultState, validation.package);
+      setVaultState(result.state);
+      setDossierImportMessage(`Imported ${result.dossiers} discovery dossiers from ${file.name}.`);
+      setDossierImportProblems({ errors: [], warnings: validation.warnings });
+      setVaultMessage(`Discovery dossiers imported for ${result.dossiers} candidates.`);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Discovery dossier import failed.';
+      setDossierImportMessage(message);
+      setDossierImportProblems({ errors: [message], warnings: [] });
+    }
+  }
+
   function handleResetVault() {
     const resetState = resetVaultState(candidates);
     setVaultState(resetState);
@@ -460,6 +504,26 @@ function App() {
         </section>
 
         <ReviewApplyPanel
+          actionLabel="Import dossiers"
+          ariaLabel="Discovery dossier import"
+          eyebrow="Discovery dossiers"
+          icon={<Database size={20} />}
+          inputAriaLabel="Import candidate discovery dossier JSON"
+          message={dossierImportMessage}
+          onApply={handleImportDiscoveryDossiers}
+          problems={dossierImportProblems}
+          stats={[
+            { label: 'Dossiers', value: vaultState.discoveryDossierPackage?.summary.candidates ?? 0 },
+            { label: 'Channels', value: vaultState.discoveryDossierPackage?.summary.channelCandidates ?? 0 },
+            { label: 'Contacts', value: vaultState.discoveryDossierPackage?.summary.contactCandidates ?? 0 },
+            { label: 'Emails', value: vaultState.discoveryDossierPackage?.summary.publicEmailCandidates ?? 0 },
+            { label: 'Pages', value: vaultState.discoveryDossierPackage?.summary.contactPageCandidates ?? 0 },
+            { label: '5-star', value: vaultState.discoveryDossierPackage?.summary.discoveryStars.five ?? 0 },
+          ]}
+          title="Source merge"
+        />
+
+        <ReviewApplyPanel
           actionLabel="Apply review"
           ariaLabel="Official review apply"
           eyebrow="Official review"
@@ -552,6 +616,7 @@ function App() {
             <CandidateDossier
               auditEvents={vaultState.auditEvents}
               candidate={selectedCandidate}
+              discoveryDossier={selectedDiscoveryDossier}
               draft={selectedDraft}
               replies={candidateReplies}
               templateName={selectedTemplate.name}
@@ -820,6 +885,7 @@ function CandidateRow({
 function CandidateDossier({
   auditEvents,
   candidate,
+  discoveryDossier,
   draft,
   replies,
   templateName,
@@ -828,6 +894,7 @@ function CandidateDossier({
 }: {
   auditEvents: AuditEvent[];
   candidate: AssessedCandidate;
+  discoveryDossier?: CandidateDiscoveryDossier;
   draft: string;
   replies: ReplyExample[];
   templateName: string;
@@ -877,6 +944,34 @@ function CandidateDossier({
           ))}
         </div>
       </PanelBlock>
+
+      {discoveryDossier && (
+        <PanelBlock icon={<Database size={17} />} title="Discovery dossier">
+          <div className="discovery-dossier-summary">
+            <div>
+              <strong>{discoveryDossier.discoveryStar.stars} stars</strong>
+              <span>{discoveryDossier.discoveryStar.label}</span>
+            </div>
+            <small>{discoveryDossier.discoveryStar.score}/100</small>
+          </div>
+          <div className="discovery-count-grid">
+            <ReviewStat label="Channels" value={discoveryDossier.counts.discoveryChannels} />
+            <ReviewStat label="Contacts" value={discoveryDossier.counts.contactCandidates} />
+            <ReviewStat label="Emails" value={discoveryDossier.counts.publicEmailCandidates} />
+            <ReviewStat label="Pages" value={discoveryDossier.counts.contactPageCandidates} />
+          </div>
+          <div className="gate-list">
+            {discoveryDossier.discoveryStar.reasons.slice(0, 4).map((reason) => (
+              <span key={reason}>{reason}</span>
+            ))}
+            {discoveryDossier.contactCandidates.slice(0, 4).map((contact) => (
+              <span className="missing" key={`${contact.type}-${contact.value}`}>
+                {contact.type.replaceAll('-', ' ')}: {contact.value}
+              </span>
+            ))}
+          </div>
+        </PanelBlock>
+      )}
 
       <div className={canStage ? 'stage-box ready' : 'stage-box hold'}>
         <strong>{canStage ? 'Ready for human approval' : 'Do not stage yet'}</strong>
