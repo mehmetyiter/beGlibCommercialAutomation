@@ -1,0 +1,145 @@
+{
+  "waveId": "wikidata-wave-025-architecture-urban-planning-built-environment",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata architecture, urban planning, built environment, construction, and real-estate development occupation discovery",
+  "description": "Discovery wave for architects, architectural designers, architecture critics, architectural historians, architectural photographers, urban planners, urban designers, transport planners, landscape architects, garden designers, interior designers, lighting designers, furniture designers, civil engineers, structural engineers, surveyors, construction managers, construction consultants, building contractors, building engineers, building inspectors, and real estate developers. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Architecture, planning, construction, engineering, inspection, and real-estate-development categories are marked high-risk and require professional/licensing, jurisdiction, source-ownership, suppression-status, and business-context review before campaign use.",
+  "categories": [
+    {
+      "category": "architecture",
+      "occupations": [
+        {
+          "qid": "Q42973",
+          "label": "architect"
+        },
+        {
+          "qid": "Q4787044",
+          "label": "architectural designer"
+        },
+        {
+          "qid": "Q17391654",
+          "label": "architecture critic"
+        },
+        {
+          "qid": "Q11486702",
+          "label": "architectural historian"
+        },
+        {
+          "qid": "Q3381574",
+          "label": "architectural photographer"
+        }
+      ]
+    },
+    {
+      "category": "urban-planning",
+      "occupations": [
+        {
+          "qid": "Q131062",
+          "label": "urban planner"
+        },
+        {
+          "qid": "Q84308440",
+          "label": "urban designer"
+        },
+        {
+          "qid": "Q1385972",
+          "label": "transport planner"
+        }
+      ]
+    },
+    {
+      "category": "landscape-architecture",
+      "occupations": [
+        {
+          "qid": "Q2815948",
+          "label": "landscape architect"
+        },
+        {
+          "qid": "Q15432439",
+          "label": "garden designer"
+        }
+      ]
+    },
+    {
+      "category": "interior-design",
+      "occupations": [
+        {
+          "qid": "Q2133309",
+          "label": "interior designer"
+        },
+        {
+          "qid": "Q1823479",
+          "label": "lighting designer"
+        },
+        {
+          "qid": "Q11455387",
+          "label": "furniture designer"
+        }
+      ]
+    },
+    {
+      "category": "civil-engineering",
+      "occupations": [
+        {
+          "qid": "Q13582652",
+          "label": "civil engineer"
+        },
+        {
+          "qid": "Q2305987",
+          "label": "structural engineer"
+        },
+        {
+          "qid": "Q294126",
+          "label": "surveyor"
+        }
+      ]
+    },
+    {
+      "category": "construction",
+      "occupations": [
+        {
+          "qid": "Q811459",
+          "label": "construction manager"
+        },
+        {
+          "qid": "Q11486801",
+          "label": "construction consultant"
+        },
+        {
+          "qid": "Q63755054",
+          "label": "building contractor"
+        },
+        {
+          "qid": "Q21778977",
+          "label": "building engineer"
+        }
+      ]
+    },
+    {
+      "category": "construction-inspection",
+      "occupations": [
+        {
+          "qid": "Q34832152",
+          "label": "building inspector"
+        },
+        {
+          "qid": "Q56447246",
+          "label": "building inspector job title"
+        }
+      ]
+    },
+    {
+      "category": "real-estate-development",
+      "occupations": [
+        {
+          "qid": "Q17487600",
+          "label": "real estate developer"
+        }
+      ]
+    }
+  ]
+}

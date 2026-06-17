@@ -92,6 +92,14 @@ export const allowedCategories = new Set([
   'insurance',
   'mortgage-real-estate',
   'consumer-finance',
+  'architecture',
+  'urban-planning',
+  'landscape-architecture',
+  'interior-design',
+  'civil-engineering',
+  'construction',
+  'construction-inspection',
+  'real-estate-development',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -115,6 +123,14 @@ export const sensitiveCategories = new Set([
   'insurance',
   'mortgage-real-estate',
   'consumer-finance',
+  'architecture',
+  'urban-planning',
+  'landscape-architecture',
+  'interior-design',
+  'civil-engineering',
+  'construction',
+  'construction-inspection',
+  'real-estate-development',
 ]);
 
 export function riskLevelForCategory(category) {

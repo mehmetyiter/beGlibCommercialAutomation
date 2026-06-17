@@ -714,6 +714,31 @@ The twenty-fourth config uses verified Wikidata occupation IDs for:
 - Property manager
 - Consumer advocate
 
+The twenty-fifth config uses verified Wikidata occupation IDs for:
+
+- Architect
+- Architectural designer
+- Architecture critic
+- Architectural historian
+- Architectural photographer
+- Urban planner
+- Urban designer
+- Transport planner
+- Landscape architect
+- Garden designer
+- Interior designer
+- Lighting designer
+- Furniture designer
+- Civil engineer
+- Structural engineer
+- Surveyor
+- Construction manager
+- Construction consultant
+- Building contractor
+- Building engineer
+- Building inspector
+- Real estate developer
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects
