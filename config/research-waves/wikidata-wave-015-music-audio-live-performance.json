@@ -1,0 +1,136 @@
+{
+  "waveId": "wikidata-wave-015-music-audio-live-performance",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata music, audio, and live-performance occupation discovery",
+  "description": "Deepening discovery wave for musicians, singers, rappers, DJs, producers, conductors, instrumentalists, music writers, music teachers, audio professionals, voice actors, theatre performers, entertainers, magicians, dancers, choreographers, and adjacent live-performance public figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Artist, label, management, booking, and fan/community pages require identity and representation review before campaign use.",
+  "categories": [
+    {
+      "category": "music",
+      "occupations": [
+        {
+          "qid": "Q639669",
+          "label": "musician"
+        },
+        {
+          "qid": "Q177220",
+          "label": "singer"
+        },
+        {
+          "qid": "Q488205",
+          "label": "singer-songwriter"
+        },
+        {
+          "qid": "Q2252262",
+          "label": "rapper"
+        },
+        {
+          "qid": "Q130857",
+          "label": "disc jockey"
+        },
+        {
+          "qid": "Q183945",
+          "label": "record producer"
+        },
+        {
+          "qid": "Q3922505",
+          "label": "DJ producer"
+        },
+        {
+          "qid": "Q158852",
+          "label": "conductor"
+        },
+        {
+          "qid": "Q486748",
+          "label": "pianist"
+        },
+        {
+          "qid": "Q855091",
+          "label": "guitarist"
+        },
+        {
+          "qid": "Q386854",
+          "label": "drummer"
+        },
+        {
+          "qid": "Q1259917",
+          "label": "violinist"
+        },
+        {
+          "qid": "Q36834",
+          "label": "composer"
+        },
+        {
+          "qid": "Q753110",
+          "label": "songwriter"
+        },
+        {
+          "qid": "Q20669622",
+          "label": "music journalist"
+        },
+        {
+          "qid": "Q2675537",
+          "label": "music teacher"
+        }
+      ]
+    },
+    {
+      "category": "audio",
+      "occupations": [
+        {
+          "qid": "Q128124",
+          "label": "audio engineer"
+        },
+        {
+          "qid": "Q2442329",
+          "label": "audio technician"
+        },
+        {
+          "qid": "Q3024424",
+          "label": "sound designer"
+        }
+      ]
+    },
+    {
+      "category": "performance",
+      "occupations": [
+        {
+          "qid": "Q138858",
+          "label": "entertainer"
+        },
+        {
+          "qid": "Q2259451",
+          "label": "stage actor"
+        },
+        {
+          "qid": "Q2405480",
+          "label": "voice actor"
+        },
+        {
+          "qid": "Q3387717",
+          "label": "theatre director"
+        },
+        {
+          "qid": "Q15855449",
+          "label": "magician"
+        },
+        {
+          "qid": "Q245068",
+          "label": "comedian"
+        },
+        {
+          "qid": "Q5716684",
+          "label": "dancer"
+        },
+        {
+          "qid": "Q2490358",
+          "label": "choreographer"
+        }
+      ]
+    }
+  ]
+}

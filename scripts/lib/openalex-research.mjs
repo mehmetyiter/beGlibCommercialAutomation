@@ -28,6 +28,9 @@ export const allowedCategories = new Set([
   'social-science',
   'ethics',
   'public-intellectual',
+  'music',
+  'audio',
+  'performance',
 ]);
 
 export async function buildOpenAlexBatch(options) {

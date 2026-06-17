@@ -92,6 +92,12 @@ Run the fourteenth specialist wave for humanities, social science, ethics, and p
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-014-humanities-social-science-public-intellectuals.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-014-humanities-social-science-public-intellectuals.local.json
 ```
 
+Run the fifteenth specialist wave for music, audio production, and live-performance figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-015-music-audio-live-performance.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-015-music-audio-live-performance.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -434,6 +440,36 @@ The fourteenth config uses verified Wikidata occupation IDs for:
 - Pundit
 - Columnist
 - Geopolitical analyst
+
+The fifteenth config uses verified Wikidata occupation IDs for:
+
+- Musician
+- Singer
+- Singer-songwriter
+- Rapper
+- Disc jockey
+- Record producer
+- DJ producer
+- Conductor
+- Pianist
+- Guitarist
+- Drummer
+- Violinist
+- Composer
+- Songwriter
+- Music journalist
+- Music teacher
+- Audio engineer
+- Audio technician
+- Sound designer
+- Entertainer
+- Stage actor
+- Voice actor
+- Theatre director
+- Magician
+- Comedian
+- Dancer
+- Choreographer
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
