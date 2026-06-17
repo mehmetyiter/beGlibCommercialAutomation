@@ -98,6 +98,12 @@ Run the fifteenth specialist wave for music, audio production, and live-performa
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-015-music-audio-live-performance.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-015-music-audio-live-performance.local.json
 ```
 
+Run the sixteenth specialist wave for travel, outdoor, aviation, maritime, and hospitality figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-016-travel-outdoor-hospitality.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-016-travel-outdoor-hospitality.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -470,6 +476,28 @@ The fifteenth config uses verified Wikidata occupation IDs for:
 - Comedian
 - Dancer
 - Choreographer
+
+The sixteenth config uses verified Wikidata occupation IDs for:
+
+- Travel writer
+- Travel journalist
+- Travel blogger
+- Travel influencer
+- Tour guide
+- Travel guide
+- Travel agent
+- Explorer
+- Adventurer
+- Mountaineer
+- Rock climber
+- Climber
+- Aircraft pilot
+- Sailor
+- Sport sailor
+- Hotel manager
+- Hotel owner
+- Restaurateur
+- Restaurant owner
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

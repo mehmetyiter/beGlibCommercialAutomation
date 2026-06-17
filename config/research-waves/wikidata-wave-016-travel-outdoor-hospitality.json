@@ -1,0 +1,114 @@
+{
+  "waveId": "wikidata-wave-016-travel-outdoor-hospitality",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata travel, outdoor, aviation, maritime, and hospitality occupation discovery",
+  "description": "Discovery wave for travel writers, travel journalists, travel bloggers, travel influencers, explorers, adventurers, mountaineers, climbers, sailors, pilots, tour guides, travel agents, hotel managers, hotel owners, restaurateurs, and adjacent travel or hospitality public figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Travel, outdoor, hospitality, booking, agency, sponsor, and representative pages require identity and representation review before campaign use.",
+  "categories": [
+    {
+      "category": "travel",
+      "occupations": [
+        {
+          "qid": "Q3579035",
+          "label": "travel writer"
+        },
+        {
+          "qid": "Q115929318",
+          "label": "travel journalist"
+        },
+        {
+          "qid": "Q100954464",
+          "label": "travel blogger"
+        },
+        {
+          "qid": "Q104868670",
+          "label": "travel influencer"
+        },
+        {
+          "qid": "Q1039099",
+          "label": "tour guide"
+        },
+        {
+          "qid": "Q2073907",
+          "label": "travel guide"
+        },
+        {
+          "qid": "Q2141946",
+          "label": "travel agent"
+        }
+      ]
+    },
+    {
+      "category": "outdoor",
+      "occupations": [
+        {
+          "qid": "Q11900058",
+          "label": "explorer"
+        },
+        {
+          "qid": "Q2873500",
+          "label": "adventurer"
+        },
+        {
+          "qid": "Q9149093",
+          "label": "mountaineer"
+        },
+        {
+          "qid": "Q3951423",
+          "label": "rock climber"
+        },
+        {
+          "qid": "Q86135347",
+          "label": "climber"
+        }
+      ]
+    },
+    {
+      "category": "aviation",
+      "occupations": [
+        {
+          "qid": "Q2095549",
+          "label": "aircraft pilot"
+        }
+      ]
+    },
+    {
+      "category": "maritime",
+      "occupations": [
+        {
+          "qid": "Q45199",
+          "label": "sailor"
+        },
+        {
+          "qid": "Q476246",
+          "label": "sport sailor"
+        }
+      ]
+    },
+    {
+      "category": "hospitality",
+      "occupations": [
+        {
+          "qid": "Q1631120",
+          "label": "hotel manager"
+        },
+        {
+          "qid": "Q105756071",
+          "label": "hotel owner"
+        },
+        {
+          "qid": "Q3427922",
+          "label": "restaurateur"
+        },
+        {
+          "qid": "Q43563252",
+          "label": "restaurant owner"
+        }
+      ]
+    }
+  ]
+}

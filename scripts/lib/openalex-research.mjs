@@ -31,6 +31,11 @@ export const allowedCategories = new Set([
   'music',
   'audio',
   'performance',
+  'travel',
+  'outdoor',
+  'hospitality',
+  'aviation',
+  'maritime',
 ]);
 
 export async function buildOpenAlexBatch(options) {
