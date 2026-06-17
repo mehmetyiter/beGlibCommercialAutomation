@@ -116,6 +116,12 @@ Run the eighteenth specialist wave for fashion, beauty, style, personal-care, an
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-018-fashion-beauty-style-personal-care.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-018-fashion-beauty-style-personal-care.local.json
 ```
 
+Run the nineteenth specialist wave for family, parenting, child-development, birth-care, and relationship figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-019-family-parenting-child-development.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-019-family-parenting-child-development.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -560,6 +566,23 @@ The eighteenth config uses verified Wikidata occupation IDs for:
 - Model
 - Beauty pageant contestant
 - Beauty queen
+
+The nineteenth config uses verified Wikidata occupation IDs for:
+
+- Family therapist
+- Marriage counselor
+- Relationship counselor
+- Sex therapist
+- Sex educator
+- Sexuality educator
+- Developmental psychologist
+- Child psychologist
+- School psychologist
+- Pediatrician
+- Doula
+- Lactation consultant
+- Obstetrician
+- Obstetrician-gynecologist
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

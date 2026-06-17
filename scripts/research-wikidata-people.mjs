@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
-import { allowedCategories, mergeBatches, slugify } from './lib/openalex-research.mjs';
+import { allowedCategories, mergeBatches, riskLevelForCategory, slugify } from './lib/openalex-research.mjs';
 import { loadLocalEnv } from './lib/local-env.mjs';
 
 const socialClaimBuilders = {
@@ -260,7 +260,7 @@ function personToCandidate(person, category, occupation) {
     reachScore,
     status: 'researching',
     consentStatus: 'unknown',
-    riskLevel: ['medicine', 'psychology', 'therapy', 'religion'].includes(category) ? 'high' : 'medium',
+    riskLevel: riskLevelForCategory(category),
     channels: person.channels,
     contactRoutes: [
       {

@@ -1,0 +1,94 @@
+{
+  "waveId": "wikidata-wave-019-family-parenting-child-development",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata family, parenting, child-development, birth-care, and relationship occupation discovery",
+  "description": "Discovery wave for family therapists, marriage counselors, relationship and sexual-health educators, developmental and child psychologists, school psychologists, doulas, lactation consultants, obstetricians, OB-GYNs, and pediatric/child-development adjacent figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Child-development, birth-care, and sexual-health categories are marked high-risk and require specialist/legal review before campaign use.",
+  "categories": [
+    {
+      "category": "family",
+      "occupations": [
+        {
+          "qid": "Q16626706",
+          "label": "family therapist"
+        },
+        {
+          "qid": "Q6001194",
+          "label": "marriage counselor"
+        }
+      ]
+    },
+    {
+      "category": "relationships",
+      "occupations": [
+        {
+          "qid": "Q6001194",
+          "label": "relationship counselor"
+        }
+      ]
+    },
+    {
+      "category": "sexual-health",
+      "occupations": [
+        {
+          "qid": "Q16614000",
+          "label": "sex therapist"
+        },
+        {
+          "qid": "Q21507004",
+          "label": "sex educator"
+        },
+        {
+          "qid": "Q133872238",
+          "label": "sexuality educator"
+        }
+      ]
+    },
+    {
+      "category": "child-development",
+      "occupations": [
+        {
+          "qid": "Q122658333",
+          "label": "developmental psychologist"
+        },
+        {
+          "qid": "Q113097561",
+          "label": "child psychologist"
+        },
+        {
+          "qid": "Q98813131",
+          "label": "school psychologist"
+        },
+        {
+          "qid": "Q1919436",
+          "label": "pediatrician"
+        }
+      ]
+    },
+    {
+      "category": "birth-care",
+      "occupations": [
+        {
+          "qid": "Q749813",
+          "label": "doula"
+        },
+        {
+          "qid": "Q6048774",
+          "label": "lactation consultant"
+        },
+        {
+          "qid": "Q13638192",
+          "label": "obstetrician"
+        },
+        {
+          "qid": "Q21002422",
+          "label": "obstetrician-gynecologist"
+        }
+      ]
+    }
+  ]
+}

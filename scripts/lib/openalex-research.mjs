@@ -8,6 +8,8 @@ export const allowedCategories = new Set([
   'psychology',
   'therapy',
   'medicine',
+  'public-health',
+  'neuroscience',
   'academia',
   'journalism',
   'education',
@@ -49,7 +51,27 @@ export const allowedCategories = new Set([
   'style',
   'personal-care',
   'modeling',
+  'parenting',
+  'family',
+  'relationships',
+  'child-development',
+  'birth-care',
+  'sexual-health',
 ]);
+
+export const sensitiveCategories = new Set([
+  'medicine',
+  'psychology',
+  'therapy',
+  'religion',
+  'child-development',
+  'birth-care',
+  'sexual-health',
+]);
+
+export function riskLevelForCategory(category) {
+  return sensitiveCategories.has(category) ? 'high' : 'medium';
+}
 
 export async function buildOpenAlexBatch(options) {
   const perPage = Math.min(Math.max(Number(options.limit ?? 10), 1), 50);
@@ -200,7 +222,7 @@ function authorToCandidate(author, query, category) {
     reachScore,
     status: 'researching',
     consentStatus: 'unknown',
-    riskLevel: ['medicine', 'psychology', 'therapy', 'religion'].includes(category) ? 'high' : 'medium',
+    riskLevel: riskLevelForCategory(category),
     channels: [
       {
         platform: 'openalex',
