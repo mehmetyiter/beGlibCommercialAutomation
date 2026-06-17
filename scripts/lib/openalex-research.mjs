@@ -44,6 +44,11 @@ export const allowedCategories = new Set([
   'textile',
   'jewelry',
   'home-lifestyle',
+  'fashion',
+  'beauty',
+  'style',
+  'personal-care',
+  'modeling',
 ]);
 
 export async function buildOpenAlexBatch(options) {

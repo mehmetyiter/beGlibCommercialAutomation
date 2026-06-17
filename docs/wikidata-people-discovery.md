@@ -110,6 +110,12 @@ Run the seventeenth specialist wave for craft, maker, studio-art, textile, jewel
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-017-craft-maker-home-lifestyle.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-017-craft-maker-home-lifestyle.local.json
 ```
 
+Run the eighteenth specialist wave for fashion, beauty, style, personal-care, and modeling figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-018-fashion-beauty-style-personal-care.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-018-fashion-beauty-style-personal-care.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -527,6 +533,33 @@ The seventeenth config uses verified Wikidata occupation IDs for:
 - Quilter
 - Seamstress
 - Interior designer
+
+The eighteenth config uses verified Wikidata occupation IDs for:
+
+- Fashion designer
+- Costume designer
+- Jewelry designer
+- Fashion consultant
+- Fashion blogger
+- Fashion journalist
+- Fashion editor
+- Fashion photographer
+- Fashion influencer
+- Wardrobe stylist
+- Personal stylist
+- Image consultant
+- Make-up artist
+- Beauty blogger
+- Beauty YouTuber
+- Cosmetologist
+- Aesthetician
+- Nail technician
+- Hairdresser
+- Barber
+- Fashion model
+- Model
+- Beauty pageant contestant
+- Beauty queen
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

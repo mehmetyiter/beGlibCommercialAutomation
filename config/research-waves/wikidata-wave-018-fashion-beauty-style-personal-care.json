@@ -1,0 +1,134 @@
+{
+  "waveId": "wikidata-wave-018-fashion-beauty-style-personal-care",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata fashion, beauty, style, personal-care, and modeling occupation discovery",
+  "description": "Discovery wave for fashion designers, costume designers, jewelry designers, fashion consultants, stylists, image consultants, fashion bloggers, fashion journalists, fashion editors, fashion photographers, fashion influencers, makeup artists, beauty bloggers, beauty YouTubers, cosmetologists, aestheticians, nail technicians, hairdressers, barbers, models, and beauty pageant figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Agency, management, booking, brand, salon, studio, shop, press, and fan/community pages require identity and representation review before campaign use.",
+  "categories": [
+    {
+      "category": "fashion",
+      "occupations": [
+        {
+          "qid": "Q3501317",
+          "label": "fashion designer"
+        },
+        {
+          "qid": "Q1323191",
+          "label": "costume designer"
+        },
+        {
+          "qid": "Q2519376",
+          "label": "jewelry designer"
+        },
+        {
+          "qid": "Q109366583",
+          "label": "fashion consultant"
+        },
+        {
+          "qid": "Q28008159",
+          "label": "fashion blogger"
+        },
+        {
+          "qid": "Q105375326",
+          "label": "fashion journalist"
+        },
+        {
+          "qid": "Q5436767",
+          "label": "fashion editor"
+        },
+        {
+          "qid": "Q19698265",
+          "label": "fashion photographer"
+        },
+        {
+          "qid": "Q55611490",
+          "label": "fashion influencer"
+        }
+      ]
+    },
+    {
+      "category": "style",
+      "occupations": [
+        {
+          "qid": "Q3237618",
+          "label": "wardrobe stylist"
+        },
+        {
+          "qid": "Q3610436",
+          "label": "personal stylist"
+        },
+        {
+          "qid": "Q3687674",
+          "label": "image consultant"
+        }
+      ]
+    },
+    {
+      "category": "beauty",
+      "occupations": [
+        {
+          "qid": "Q935666",
+          "label": "make-up artist"
+        },
+        {
+          "qid": "Q136769295",
+          "label": "beauty blogger"
+        },
+        {
+          "qid": "Q23680154",
+          "label": "beauty YouTuber"
+        },
+        {
+          "qid": "Q2752318",
+          "label": "cosmetologist"
+        },
+        {
+          "qid": "Q12367504",
+          "label": "aesthetician"
+        },
+        {
+          "qid": "Q11325221",
+          "label": "nail technician"
+        }
+      ]
+    },
+    {
+      "category": "personal-care",
+      "occupations": [
+        {
+          "qid": "Q55187",
+          "label": "hairdresser"
+        },
+        {
+          "qid": "Q107198",
+          "label": "barber"
+        }
+      ]
+    },
+    {
+      "category": "modeling",
+      "occupations": [
+        {
+          "qid": "Q3357567",
+          "label": "fashion model"
+        },
+        {
+          "qid": "Q4610556",
+          "label": "model"
+        },
+        {
+          "qid": "Q18581305",
+          "label": "beauty pageant contestant"
+        },
+        {
+          "qid": "Q60723847",
+          "label": "beauty queen"
+        }
+      ]
+    }
+  ]
+}
