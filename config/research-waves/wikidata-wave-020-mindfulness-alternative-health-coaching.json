@@ -1,0 +1,107 @@
+{
+  "waveId": "wikidata-wave-020-mindfulness-alternative-health-coaching",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata mindfulness, coaching, alternative-health, complementary-medicine, bodywork, and nutrition occupation discovery",
+  "description": "Discovery wave for life coaches, meditation teachers, yoga instructors, spiritual teachers, herbalists, naturopaths, homeopaths, acupuncturists, chiropractors, osteopaths, massage therapists, reflexologists, hypnotherapists, Reiki practitioners, nutritionists, and dietitians. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Alternative-health, complementary-medicine, bodywork, and nutrition categories are marked high-risk and require specialist/legal review before campaign use. Health claims, professional licensing, jurisdiction, and suppression status must be reviewed before outreach.",
+  "categories": [
+    {
+      "category": "coaching",
+      "occupations": [
+        {
+          "qid": "Q26831130",
+          "label": "life coach"
+        }
+      ]
+    },
+    {
+      "category": "mindfulness",
+      "occupations": [
+        {
+          "qid": "Q112580605",
+          "label": "meditation teacher"
+        },
+        {
+          "qid": "Q2600526",
+          "label": "yoga instructor"
+        },
+        {
+          "qid": "Q29352392",
+          "label": "spiritual teacher"
+        }
+      ]
+    },
+    {
+      "category": "alternative-health",
+      "occupations": [
+        {
+          "qid": "Q3133901",
+          "label": "herbalist"
+        },
+        {
+          "qid": "Q42673468",
+          "label": "naturopath"
+        },
+        {
+          "qid": "Q12020057",
+          "label": "homeopath"
+        }
+      ]
+    },
+    {
+      "category": "complementary-medicine",
+      "occupations": [
+        {
+          "qid": "Q11275868",
+          "label": "acupuncturist"
+        },
+        {
+          "qid": "Q2963953",
+          "label": "chiropractor"
+        },
+        {
+          "qid": "Q11885948",
+          "label": "osteopath"
+        },
+        {
+          "qid": "Q16747019",
+          "label": "hypnotherapist"
+        },
+        {
+          "qid": "Q80363597",
+          "label": "Reiki practitioner"
+        }
+      ]
+    },
+    {
+      "category": "bodywork",
+      "occupations": [
+        {
+          "qid": "Q6005272",
+          "label": "massage therapist"
+        },
+        {
+          "qid": "Q105955557",
+          "label": "reflexologist"
+        }
+      ]
+    },
+    {
+      "category": "nutrition",
+      "occupations": [
+        {
+          "qid": "Q2576499",
+          "label": "nutritionist"
+        },
+        {
+          "qid": "Q842811",
+          "label": "dietitian"
+        }
+      ]
+    }
+  ]
+}

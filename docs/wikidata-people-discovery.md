@@ -122,6 +122,12 @@ Run the nineteenth specialist wave for family, parenting, child-development, bir
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-019-family-parenting-child-development.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-019-family-parenting-child-development.local.json
 ```
 
+Run the twentieth specialist wave for mindfulness, coaching, alternative-health, complementary-medicine, bodywork, and nutrition figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-020-mindfulness-alternative-health-coaching.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-020-mindfulness-alternative-health-coaching.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -583,6 +589,25 @@ The nineteenth config uses verified Wikidata occupation IDs for:
 - Lactation consultant
 - Obstetrician
 - Obstetrician-gynecologist
+
+The twentieth config uses verified Wikidata occupation IDs for:
+
+- Life coach
+- Meditation teacher
+- Yoga instructor
+- Spiritual teacher
+- Herbalist
+- Naturopath
+- Homeopath
+- Acupuncturist
+- Chiropractor
+- Osteopath
+- Hypnotherapist
+- Reiki practitioner
+- Massage therapist
+- Reflexologist
+- Nutritionist
+- Dietitian
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

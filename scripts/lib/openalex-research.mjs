@@ -57,6 +57,12 @@ export const allowedCategories = new Set([
   'child-development',
   'birth-care',
   'sexual-health',
+  'coaching',
+  'mindfulness',
+  'alternative-health',
+  'complementary-medicine',
+  'bodywork',
+  'nutrition',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -67,6 +73,10 @@ export const sensitiveCategories = new Set([
   'child-development',
   'birth-care',
   'sexual-health',
+  'alternative-health',
+  'complementary-medicine',
+  'bodywork',
+  'nutrition',
 ]);
 
 export function riskLevelForCategory(category) {
