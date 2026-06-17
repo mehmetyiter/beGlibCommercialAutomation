@@ -1,0 +1,92 @@
+{
+  "waveId": "wikidata-wave-023-career-workplace-hr-productivity",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata career, workplace, HR, recruiting, talent-management, productivity, and organizational-development occupation discovery",
+  "description": "Discovery wave for career counselors, job coaches, business coaches, human resource managers, recruiters, talent managers, organizational psychologists, corporate trainers, professional organizers, business consultants, and management consultants. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Consulting, agency, employer, training, coaching, booking, speaker, and professional-service pages require identity, representation, jurisdiction, suppression, and business-context review before campaign use.",
+  "categories": [
+    {
+      "category": "career",
+      "occupations": [
+        {
+          "qid": "Q22936241",
+          "label": "career counselor"
+        },
+        {
+          "qid": "Q112125625",
+          "label": "job coach"
+        },
+        {
+          "qid": "Q105201291",
+          "label": "business coach"
+        }
+      ]
+    },
+    {
+      "category": "human-resources",
+      "occupations": [
+        {
+          "qid": "Q12314916",
+          "label": "human resource manager"
+        }
+      ]
+    },
+    {
+      "category": "recruiting",
+      "occupations": [
+        {
+          "qid": "Q2072298",
+          "label": "recruiter"
+        }
+      ]
+    },
+    {
+      "category": "talent-management",
+      "occupations": [
+        {
+          "qid": "Q1320883",
+          "label": "talent manager"
+        }
+      ]
+    },
+    {
+      "category": "workplace",
+      "occupations": [
+        {
+          "qid": "Q122759479",
+          "label": "organizational psychologist"
+        },
+        {
+          "qid": "Q5172503",
+          "label": "corporate trainer"
+        }
+      ]
+    },
+    {
+      "category": "productivity",
+      "occupations": [
+        {
+          "qid": "Q28930062",
+          "label": "professional organizer"
+        }
+      ]
+    },
+    {
+      "category": "organizational-development",
+      "occupations": [
+        {
+          "qid": "Q16849727",
+          "label": "business consultant"
+        },
+        {
+          "qid": "Q27827744",
+          "label": "management consultant"
+        }
+      ]
+    }
+  ]
+}

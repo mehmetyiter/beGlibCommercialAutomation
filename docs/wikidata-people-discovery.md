@@ -140,6 +140,12 @@ Run the twenty-second specialist wave for animal care, veterinary, pet services,
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-022-animal-care-veterinary-wildlife-equestrian.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-022-animal-care-veterinary-wildlife-equestrian.local.json
 ```
 
+Run the twenty-third specialist wave for career, workplace, HR, recruiting, talent-management, productivity, and organizational-development figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-023-career-workplace-hr-productivity.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-023-career-workplace-hr-productivity.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -668,6 +674,20 @@ The twenty-second config uses verified Wikidata occupation IDs for:
 - Horse rider
 - Jockey
 - Horse breeder
+
+The twenty-third config uses verified Wikidata occupation IDs for:
+
+- Career counselor
+- Job coach
+- Business coach
+- Human resource manager
+- Recruiter
+- Talent manager
+- Organizational psychologist
+- Corporate trainer
+- Professional organizer
+- Business consultant
+- Management consultant
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

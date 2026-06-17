@@ -76,6 +76,13 @@ export const allowedCategories = new Set([
   'wildlife',
   'equestrian',
   'animal-science',
+  'career',
+  'human-resources',
+  'recruiting',
+  'talent-management',
+  'workplace',
+  'productivity',
+  'organizational-development',
 ]);
 
 export const sensitiveCategories = new Set([
