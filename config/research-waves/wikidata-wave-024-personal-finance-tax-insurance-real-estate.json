@@ -1,0 +1,117 @@
+{
+  "waveId": "wikidata-wave-024-personal-finance-tax-insurance-real-estate",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata personal finance, financial planning, investment, tax, accounting, insurance, mortgage, real-estate, and consumer-finance occupation discovery",
+  "description": "Discovery wave for financial planners, financial advisers, investment advisors, stockbrokers, financial traders, day traders, tax advisors, tax consultants, bookkeepers, accountants, certified public accountants, insurance brokers, mortgage brokers, real estate agents, property managers, and consumer advocates. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Personal finance, investment, tax, accounting, insurance, mortgage, real-estate, and consumer-finance categories are marked high-risk and require specialist/legal review before campaign use. Professional licensing, jurisdiction, financial-advice restrictions, advertising rules, suppression status, and business-context review are required before outreach.",
+  "categories": [
+    {
+      "category": "financial-planning",
+      "occupations": [
+        {
+          "qid": "Q1089801",
+          "label": "financial planner"
+        },
+        {
+          "qid": "Q683476",
+          "label": "financial adviser"
+        }
+      ]
+    },
+    {
+      "category": "investment",
+      "occupations": [
+        {
+          "qid": "Q2917199",
+          "label": "investment advisor"
+        },
+        {
+          "qid": "Q4182927",
+          "label": "stockbroker"
+        }
+      ]
+    },
+    {
+      "category": "trading",
+      "occupations": [
+        {
+          "qid": "Q1424605",
+          "label": "financial trader"
+        },
+        {
+          "qid": "Q856244",
+          "label": "day trader"
+        }
+      ]
+    },
+    {
+      "category": "tax",
+      "occupations": [
+        {
+          "qid": "Q688576",
+          "label": "tax advisor"
+        },
+        {
+          "qid": "Q2346491",
+          "label": "tax consultant"
+        }
+      ]
+    },
+    {
+      "category": "accounting",
+      "occupations": [
+        {
+          "qid": "Q56224063",
+          "label": "bookkeeper"
+        },
+        {
+          "qid": "Q326653",
+          "label": "accountant"
+        },
+        {
+          "qid": "Q1056337",
+          "label": "certified public accountant"
+        }
+      ]
+    },
+    {
+      "category": "insurance",
+      "occupations": [
+        {
+          "qid": "Q285759",
+          "label": "insurance broker"
+        }
+      ]
+    },
+    {
+      "category": "mortgage-real-estate",
+      "occupations": [
+        {
+          "qid": "Q1278442",
+          "label": "mortgage broker"
+        },
+        {
+          "qid": "Q519076",
+          "label": "real estate agent"
+        },
+        {
+          "qid": "Q7250245",
+          "label": "property manager"
+        }
+      ]
+    },
+    {
+      "category": "consumer-finance",
+      "occupations": [
+        {
+          "qid": "Q110729089",
+          "label": "consumer advocate"
+        }
+      ]
+    }
+  ]
+}

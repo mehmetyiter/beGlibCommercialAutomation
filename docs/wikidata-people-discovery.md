@@ -146,6 +146,12 @@ Run the twenty-third specialist wave for career, workplace, HR, recruiting, tale
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-023-career-workplace-hr-productivity.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-023-career-workplace-hr-productivity.local.json
 ```
 
+Run the twenty-fourth specialist wave for personal finance, financial planning, investment, tax, accounting, insurance, mortgage, real-estate, and consumer-finance figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-024-personal-finance-tax-insurance-real-estate.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-024-personal-finance-tax-insurance-real-estate.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -688,6 +694,25 @@ The twenty-third config uses verified Wikidata occupation IDs for:
 - Professional organizer
 - Business consultant
 - Management consultant
+
+The twenty-fourth config uses verified Wikidata occupation IDs for:
+
+- Financial planner
+- Financial adviser
+- Investment advisor
+- Stockbroker
+- Financial trader
+- Day trader
+- Tax advisor
+- Tax consultant
+- Bookkeeper
+- Accountant
+- Certified public accountant
+- Insurance broker
+- Mortgage broker
+- Real estate agent
+- Property manager
+- Consumer advocate
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

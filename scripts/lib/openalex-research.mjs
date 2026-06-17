@@ -83,6 +83,15 @@ export const allowedCategories = new Set([
   'workplace',
   'productivity',
   'organizational-development',
+  'personal-finance',
+  'financial-planning',
+  'investment',
+  'trading',
+  'tax',
+  'accounting',
+  'insurance',
+  'mortgage-real-estate',
+  'consumer-finance',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -97,6 +106,15 @@ export const sensitiveCategories = new Set([
   'complementary-medicine',
   'bodywork',
   'nutrition',
+  'personal-finance',
+  'financial-planning',
+  'investment',
+  'trading',
+  'tax',
+  'accounting',
+  'insurance',
+  'mortgage-real-estate',
+  'consumer-finance',
 ]);
 
 export function riskLevelForCategory(category) {
