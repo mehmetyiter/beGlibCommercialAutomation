@@ -1,0 +1,124 @@
+{
+  "waveId": "wikidata-wave-021-gardening-agriculture-diy-repair",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata gardening, agriculture, landscaping, forestry, DIY, trades, and repair occupation discovery",
+  "description": "Discovery wave for farmers, agronomists, horticulturists, gardeners, garden designers, florists, botanists, landscape gardeners, landscape architects, foresters, arborists, beekeepers, DIYers, handymen, plumbers, electricians, mechanics, auto mechanics, and bicycle mechanics. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Contractor, shop, workshop, booking, service-area, trade-license, and local business pages require identity, representation, jurisdiction, and suppression review before campaign use.",
+  "categories": [
+    {
+      "category": "agriculture",
+      "occupations": [
+        {
+          "qid": "Q131512",
+          "label": "farmer"
+        },
+        {
+          "qid": "Q1781198",
+          "label": "agronomist"
+        },
+        {
+          "qid": "Q3140857",
+          "label": "horticulturist"
+        }
+      ]
+    },
+    {
+      "category": "gardening",
+      "occupations": [
+        {
+          "qid": "Q758780",
+          "label": "gardener"
+        },
+        {
+          "qid": "Q15432439",
+          "label": "garden designer"
+        },
+        {
+          "qid": "Q16735601",
+          "label": "florist"
+        },
+        {
+          "qid": "Q2374149",
+          "label": "botanist"
+        }
+      ]
+    },
+    {
+      "category": "landscaping",
+      "occupations": [
+        {
+          "qid": "Q25424198",
+          "label": "landscape gardener"
+        },
+        {
+          "qid": "Q2815948",
+          "label": "landscape architect"
+        },
+        {
+          "qid": "Q776268",
+          "label": "arborist"
+        }
+      ]
+    },
+    {
+      "category": "forestry",
+      "occupations": [
+        {
+          "qid": "Q1895303",
+          "label": "forester"
+        },
+        {
+          "qid": "Q852389",
+          "label": "beekeeper"
+        }
+      ]
+    },
+    {
+      "category": "diy",
+      "occupations": [
+        {
+          "qid": "Q109247444",
+          "label": "DIYer"
+        },
+        {
+          "qid": "Q1552579",
+          "label": "handyman"
+        }
+      ]
+    },
+    {
+      "category": "trades",
+      "occupations": [
+        {
+          "qid": "Q252924",
+          "label": "plumber"
+        },
+        {
+          "qid": "Q165029",
+          "label": "electrician"
+        }
+      ]
+    },
+    {
+      "category": "repair",
+      "occupations": [
+        {
+          "qid": "Q327029",
+          "label": "mechanic"
+        },
+        {
+          "qid": "Q706835",
+          "label": "auto mechanic"
+        },
+        {
+          "qid": "Q233053",
+          "label": "bicycle mechanic"
+        }
+      ]
+    }
+  ]
+}

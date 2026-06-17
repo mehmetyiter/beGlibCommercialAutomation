@@ -63,6 +63,13 @@ export const allowedCategories = new Set([
   'complementary-medicine',
   'bodywork',
   'nutrition',
+  'agriculture',
+  'gardening',
+  'landscaping',
+  'forestry',
+  'diy',
+  'trades',
+  'repair',
 ]);
 
 export const sensitiveCategories = new Set([

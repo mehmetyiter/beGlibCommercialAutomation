@@ -128,6 +128,12 @@ Run the twentieth specialist wave for mindfulness, coaching, alternative-health,
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-020-mindfulness-alternative-health-coaching.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-020-mindfulness-alternative-health-coaching.local.json
 ```
 
+Run the twenty-first specialist wave for gardening, agriculture, landscaping, forestry, DIY, trades, and repair figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-021-gardening-agriculture-diy-repair.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-021-gardening-agriculture-diy-repair.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -608,6 +614,28 @@ The twentieth config uses verified Wikidata occupation IDs for:
 - Reflexologist
 - Nutritionist
 - Dietitian
+
+The twenty-first config uses verified Wikidata occupation IDs for:
+
+- Farmer
+- Agronomist
+- Horticulturist
+- Gardener
+- Garden designer
+- Florist
+- Botanist
+- Landscape gardener
+- Landscape architect
+- Arborist
+- Forester
+- Beekeeper
+- DIYer
+- Handyman
+- Plumber
+- Electrician
+- Mechanic
+- Auto mechanic
+- Bicycle mechanic
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
