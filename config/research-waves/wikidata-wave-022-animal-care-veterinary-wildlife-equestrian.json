@@ -1,0 +1,135 @@
+{
+  "waveId": "wikidata-wave-022-animal-care-veterinary-wildlife-equestrian",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata animal care, veterinary, pet services, wildlife, animal-science, and equestrian occupation discovery",
+  "description": "Discovery wave for veterinarians, animal behaviorists, animal trainers, dog trainers, horse trainers, pet groomers, zookeepers, wildlife rehabilitators, falconers, zoologists, ethologists, ornithologists, herpetologists, entomologists, ichthyologists, marine biologists, equestrians, horse riders, jockeys, animal breeders, dog breeders, horse breeders, and aquarists. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Veterinary, clinic, breeder, stable, rescue, shelter, zoo, aquarium, booking, and training pages require identity, representation, licensing/professional context, jurisdiction, and suppression review before campaign use.",
+  "categories": [
+    {
+      "category": "veterinary",
+      "occupations": [
+        {
+          "qid": "Q202883",
+          "label": "veterinarian"
+        }
+      ]
+    },
+    {
+      "category": "animal-care",
+      "occupations": [
+        {
+          "qid": "Q116678856",
+          "label": "animal behaviorist"
+        },
+        {
+          "qid": "Q8011071",
+          "label": "animal trainer"
+        },
+        {
+          "qid": "Q1637531",
+          "label": "dog trainer"
+        },
+        {
+          "qid": "Q466640",
+          "label": "horse trainer"
+        },
+        {
+          "qid": "Q322898",
+          "label": "zookeeper"
+        }
+      ]
+    },
+    {
+      "category": "pet-services",
+      "occupations": [
+        {
+          "qid": "Q12606035",
+          "label": "pet groomer"
+        },
+        {
+          "qid": "Q13342461",
+          "label": "dog breeder"
+        },
+        {
+          "qid": "Q1368409",
+          "label": "animal breeder"
+        },
+        {
+          "qid": "Q9143809",
+          "label": "aquarist"
+        }
+      ]
+    },
+    {
+      "category": "wildlife",
+      "occupations": [
+        {
+          "qid": "Q110997998",
+          "label": "wildlife rehabilitator"
+        },
+        {
+          "qid": "Q28001428",
+          "label": "falconer"
+        }
+      ]
+    },
+    {
+      "category": "animal-science",
+      "occupations": [
+        {
+          "qid": "Q350979",
+          "label": "zoologist"
+        },
+        {
+          "qid": "Q16831721",
+          "label": "ethologist"
+        },
+        {
+          "qid": "Q1225716",
+          "label": "ornithologist"
+        },
+        {
+          "qid": "Q16271064",
+          "label": "herpetologist"
+        },
+        {
+          "qid": "Q3055126",
+          "label": "entomologist"
+        },
+        {
+          "qid": "Q4205432",
+          "label": "ichthyologist"
+        },
+        {
+          "qid": "Q3640160",
+          "label": "marine biologist"
+        }
+      ]
+    },
+    {
+      "category": "equestrian",
+      "occupations": [
+        {
+          "qid": "Q2730732",
+          "label": "equestrian"
+        },
+        {
+          "qid": "Q109442873",
+          "label": "horse rider"
+        },
+        {
+          "qid": "Q846750",
+          "label": "jockey"
+        },
+        {
+          "qid": "Q16000367",
+          "label": "horse breeder"
+        }
+      ]
+    }
+  ]
+}

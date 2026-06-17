@@ -70,6 +70,12 @@ export const allowedCategories = new Set([
   'diy',
   'trades',
   'repair',
+  'veterinary',
+  'animal-care',
+  'pet-services',
+  'wildlife',
+  'equestrian',
+  'animal-science',
 ]);
 
 export const sensitiveCategories = new Set([

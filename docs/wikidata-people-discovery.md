@@ -134,6 +134,12 @@ Run the twenty-first specialist wave for gardening, agriculture, landscaping, fo
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-021-gardening-agriculture-diy-repair.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-021-gardening-agriculture-diy-repair.local.json
 ```
 
+Run the twenty-second specialist wave for animal care, veterinary, pet services, wildlife, animal-science, and equestrian figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-022-animal-care-veterinary-wildlife-equestrian.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-022-animal-care-veterinary-wildlife-equestrian.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -636,6 +642,32 @@ The twenty-first config uses verified Wikidata occupation IDs for:
 - Mechanic
 - Auto mechanic
 - Bicycle mechanic
+
+The twenty-second config uses verified Wikidata occupation IDs for:
+
+- Veterinarian
+- Animal behaviorist
+- Animal trainer
+- Dog trainer
+- Horse trainer
+- Zookeeper
+- Pet groomer
+- Dog breeder
+- Animal breeder
+- Aquarist
+- Wildlife rehabilitator
+- Falconer
+- Zoologist
+- Ethologist
+- Ornithologist
+- Herpetologist
+- Entomologist
+- Ichthyologist
+- Marine biologist
+- Equestrian
+- Horse rider
+- Jockey
+- Horse breeder
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
