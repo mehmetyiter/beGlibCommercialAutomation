@@ -80,6 +80,12 @@ Run the twelfth specialist wave for technology, product, gaming, cybersecurity, 
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-012-technology-product-gaming-security.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-012-technology-product-gaming-security.local.json
 ```
 
+Run the thirteenth specialist wave for environment, climate, sustainability, humanitarian, and social-impact figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-013-environment-climate-humanitarian-social-impact.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-013-environment-climate-humanitarian-social-impact.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -365,6 +371,33 @@ The twelfth config uses verified Wikidata occupation IDs for:
 - Cybersecurity specialist
 - Security hacker
 - Computer security specialist
+
+The thirteenth config uses verified Wikidata occupation IDs for:
+
+- Environmentalist
+- Conservationist
+- Ecologist
+- Environmental scientist
+- Environmental engineer
+- Earth scientist
+- Oceanographer
+- Marine biologist
+- Meteorologist
+- Geographer
+- Climate activist
+- Climatologist
+- Sustainability consultant
+- Urban planner
+- Landscape architect
+- Humanitarian
+- Development worker
+- Social entrepreneur
+- Philanthropist
+- Peace activist
+- Human rights defender
+- Community organizer
+- Nonprofit administrator
+- Fundraiser
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

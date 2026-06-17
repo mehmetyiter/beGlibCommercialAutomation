@@ -1,0 +1,134 @@
+{
+  "waveId": "wikidata-wave-013-environment-climate-humanitarian-social-impact",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata environment, climate, sustainability, humanitarian, and social-impact occupation discovery",
+  "description": "Broad discovery wave for environmentalists, climate activists, conservationists, environmental scientists, environmental engineers, earth scientists, oceanographers, geographers, sustainability consultants, urban planners, humanitarians, development workers, nonprofit administrators, fundraisers, and social-impact public voices. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Humanitarian, rights, and social-impact categories require extra professional-context and jurisdiction review before campaign use.",
+  "categories": [
+    {
+      "category": "environment",
+      "occupations": [
+        {
+          "qid": "Q3578589",
+          "label": "environmentalist"
+        },
+        {
+          "qid": "Q16060693",
+          "label": "conservationist"
+        },
+        {
+          "qid": "Q15839134",
+          "label": "ecologist"
+        },
+        {
+          "qid": "Q16529590",
+          "label": "environmental scientist"
+        },
+        {
+          "qid": "Q19377727",
+          "label": "environmental engineer"
+        },
+        {
+          "qid": "Q11424604",
+          "label": "earth scientist"
+        },
+        {
+          "qid": "Q3546255",
+          "label": "oceanographer"
+        },
+        {
+          "qid": "Q3640160",
+          "label": "marine biologist"
+        },
+        {
+          "qid": "Q2310145",
+          "label": "meteorologist"
+        },
+        {
+          "qid": "Q901402",
+          "label": "geographer"
+        }
+      ]
+    },
+    {
+      "category": "climate",
+      "occupations": [
+        {
+          "qid": "Q61048378",
+          "label": "climate activist"
+        },
+        {
+          "qid": "Q1113838",
+          "label": "climatologist"
+        }
+      ]
+    },
+    {
+      "category": "sustainability",
+      "occupations": [
+        {
+          "qid": "Q7649550",
+          "label": "sustainability consultant"
+        },
+        {
+          "qid": "Q131062",
+          "label": "urban planner"
+        },
+        {
+          "qid": "Q2815948",
+          "label": "landscape architect"
+        }
+      ]
+    },
+    {
+      "category": "humanitarian",
+      "occupations": [
+        {
+          "qid": "Q22336956",
+          "label": "humanitarian"
+        },
+        {
+          "qid": "Q1345663",
+          "label": "development worker"
+        }
+      ]
+    },
+    {
+      "category": "social-impact",
+      "occupations": [
+        {
+          "qid": "Q12336252",
+          "label": "social entrepreneur"
+        },
+        {
+          "qid": "Q12362622",
+          "label": "philanthropist"
+        },
+        {
+          "qid": "Q16323111",
+          "label": "peace activist"
+        },
+        {
+          "qid": "Q1476215",
+          "label": "human rights defender"
+        },
+        {
+          "qid": "Q28532974",
+          "label": "community organizer"
+        },
+        {
+          "qid": "Q111535220",
+          "label": "nonprofit administrator"
+        },
+        {
+          "qid": "Q13219244",
+          "label": "fundraiser"
+        }
+      ]
+    }
+  ]
+}

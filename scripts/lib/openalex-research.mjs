@@ -19,6 +19,11 @@ export const allowedCategories = new Set([
   'product',
   'gaming',
   'security',
+  'environment',
+  'climate',
+  'sustainability',
+  'humanitarian',
+  'social-impact',
 ]);
 
 export async function buildOpenAlexBatch(options) {
