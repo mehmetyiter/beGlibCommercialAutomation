@@ -1,0 +1,141 @@
+{
+  "waveId": "wikidata-wave-014-humanities-social-science-public-intellectuals",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata humanities, social science, ethics, and public-intellectual occupation discovery",
+  "description": "Deepening discovery wave for philosophers, historians, archaeologists, linguists, literary and cultural critics, social scientists, economists, political scientists, demographers, statisticians, criminologists, ethicists, bioethicists, futurists, columnists, pundits, and related public-intellectual figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Social-science, ethics, criminal-justice, and public commentary records require professional-context and jurisdiction review before campaign use.",
+  "categories": [
+    {
+      "category": "humanities",
+      "occupations": [
+        {
+          "qid": "Q4964182",
+          "label": "philosopher"
+        },
+        {
+          "qid": "Q201788",
+          "label": "historian"
+        },
+        {
+          "qid": "Q3621491",
+          "label": "archaeologist"
+        },
+        {
+          "qid": "Q2468727",
+          "label": "classical scholar"
+        },
+        {
+          "qid": "Q13418253",
+          "label": "philologist"
+        },
+        {
+          "qid": "Q14467526",
+          "label": "linguist"
+        },
+        {
+          "qid": "Q14972848",
+          "label": "lexicographer"
+        },
+        {
+          "qid": "Q333634",
+          "label": "translator"
+        },
+        {
+          "qid": "Q4263842",
+          "label": "literary critic"
+        },
+        {
+          "qid": "Q20020377",
+          "label": "cultural critic"
+        }
+      ]
+    },
+    {
+      "category": "social-science",
+      "occupations": [
+        {
+          "qid": "Q15319501",
+          "label": "social scientist"
+        },
+        {
+          "qid": "Q2306091",
+          "label": "sociologist"
+        },
+        {
+          "qid": "Q4773904",
+          "label": "anthropologist"
+        },
+        {
+          "qid": "Q188094",
+          "label": "economist"
+        },
+        {
+          "qid": "Q1238570",
+          "label": "political scientist"
+        },
+        {
+          "qid": "Q12360779",
+          "label": "demographer"
+        },
+        {
+          "qid": "Q2732142",
+          "label": "statistician"
+        },
+        {
+          "qid": "Q8142883",
+          "label": "criminologist"
+        }
+      ]
+    },
+    {
+      "category": "ethics",
+      "occupations": [
+        {
+          "qid": "Q5403434",
+          "label": "ethicist"
+        },
+        {
+          "qid": "Q47455777",
+          "label": "bioethicist"
+        },
+        {
+          "qid": "Q14565186",
+          "label": "cognitive scientist"
+        },
+        {
+          "qid": "Q6337803",
+          "label": "neuroscientist"
+        }
+      ]
+    },
+    {
+      "category": "public-intellectual",
+      "occupations": [
+        {
+          "qid": "Q58968",
+          "label": "intellectual"
+        },
+        {
+          "qid": "Q846430",
+          "label": "futurist"
+        },
+        {
+          "qid": "Q1642960",
+          "label": "pundit"
+        },
+        {
+          "qid": "Q1086863",
+          "label": "columnist"
+        },
+        {
+          "qid": "Q16947320",
+          "label": "geopolitical analyst"
+        }
+      ]
+    }
+  ]
+}

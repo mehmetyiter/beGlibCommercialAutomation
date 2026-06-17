@@ -24,6 +24,10 @@ export const allowedCategories = new Set([
   'sustainability',
   'humanitarian',
   'social-impact',
+  'humanities',
+  'social-science',
+  'ethics',
+  'public-intellectual',
 ]);
 
 export async function buildOpenAlexBatch(options) {

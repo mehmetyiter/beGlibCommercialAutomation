@@ -86,6 +86,12 @@ Run the thirteenth specialist wave for environment, climate, sustainability, hum
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-013-environment-climate-humanitarian-social-impact.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-013-environment-climate-humanitarian-social-impact.local.json
 ```
 
+Run the fourteenth specialist wave for humanities, social science, ethics, and public-intellectual figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-014-humanities-social-science-public-intellectuals.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-014-humanities-social-science-public-intellectuals.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -398,6 +404,36 @@ The thirteenth config uses verified Wikidata occupation IDs for:
 - Community organizer
 - Nonprofit administrator
 - Fundraiser
+
+The fourteenth config uses verified Wikidata occupation IDs for:
+
+- Philosopher
+- Historian
+- Archaeologist
+- Classical scholar
+- Philologist
+- Linguist
+- Lexicographer
+- Translator
+- Literary critic
+- Cultural critic
+- Social scientist
+- Sociologist
+- Anthropologist
+- Economist
+- Political scientist
+- Demographer
+- Statistician
+- Criminologist
+- Ethicist
+- Bioethicist
+- Cognitive scientist
+- Neuroscientist
+- Intellectual
+- Futurist
+- Pundit
+- Columnist
+- Geopolitical analyst
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 
