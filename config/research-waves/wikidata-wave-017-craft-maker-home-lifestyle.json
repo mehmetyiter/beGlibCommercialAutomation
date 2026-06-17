@@ -1,0 +1,127 @@
+{
+  "waveId": "wikidata-wave-017-craft-maker-home-lifestyle",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata craft, maker, studio-art, textile, jewelry, and home-lifestyle occupation discovery",
+  "description": "Discovery wave for artisans, craft professionals, woodworkers, carpenters, cabinetmakers, furniture makers, furniture designers, potters, ceramicists, goldsmiths, silversmiths, blacksmiths, metalworkers, textile artists, weavers, knitters, embroiderers, quilters, seamstresses, and adjacent craft, maker, DIY, studio-art, and home-lifestyle public figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Studio, shop, marketplace, gallery, workshop, representation, and booking pages require identity and representation review before campaign use.",
+  "categories": [
+    {
+      "category": "craft",
+      "occupations": [
+        {
+          "qid": "Q1294787",
+          "label": "artisan"
+        },
+        {
+          "qid": "Q2588761",
+          "label": "tradesperson"
+        }
+      ]
+    },
+    {
+      "category": "woodworking",
+      "occupations": [
+        {
+          "qid": "Q15977971",
+          "label": "woodworker"
+        },
+        {
+          "qid": "Q154549",
+          "label": "carpenter"
+        },
+        {
+          "qid": "Q559597",
+          "label": "cabinetmaker"
+        },
+        {
+          "qid": "Q19382184",
+          "label": "furniture maker"
+        },
+        {
+          "qid": "Q11455387",
+          "label": "furniture designer"
+        }
+      ]
+    },
+    {
+      "category": "ceramics",
+      "occupations": [
+        {
+          "qid": "Q3400050",
+          "label": "potter"
+        },
+        {
+          "qid": "Q7541856",
+          "label": "ceramicist"
+        }
+      ]
+    },
+    {
+      "category": "metalwork",
+      "occupations": [
+        {
+          "qid": "Q211423",
+          "label": "goldsmith"
+        },
+        {
+          "qid": "Q2216340",
+          "label": "silversmith"
+        },
+        {
+          "qid": "Q1639825",
+          "label": "blacksmith"
+        },
+        {
+          "qid": "Q15980591",
+          "label": "metalworker"
+        }
+      ]
+    },
+    {
+      "category": "textile",
+      "occupations": [
+        {
+          "qid": "Q10694573",
+          "label": "textile artist"
+        },
+        {
+          "qid": "Q437512",
+          "label": "weaver"
+        },
+        {
+          "qid": "Q58321742",
+          "label": "knitter"
+        },
+        {
+          "qid": "Q1509440",
+          "label": "embroiderer"
+        },
+        {
+          "qid": "Q46984315",
+          "label": "quilter"
+        },
+        {
+          "qid": "Q67205775",
+          "label": "seamstress"
+        }
+      ]
+    },
+    {
+      "category": "home-lifestyle",
+      "occupations": [
+        {
+          "qid": "Q11455387",
+          "label": "furniture designer"
+        },
+        {
+          "qid": "Q2133309",
+          "label": "interior designer"
+        }
+      ]
+    }
+  ]
+}

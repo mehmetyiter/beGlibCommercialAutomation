@@ -104,6 +104,12 @@ Run the sixteenth specialist wave for travel, outdoor, aviation, maritime, and h
 npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-016-travel-outdoor-hospitality.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-016-travel-outdoor-hospitality.local.json
 ```
 
+Run the seventeenth specialist wave for craft, maker, studio-art, textile, jewelry, and home-lifestyle figures:
+
+```bash
+npm run research:wikidata-people -- --config config/research-waves/wikidata-wave-017-craft-maker-home-lifestyle.json --limit 8 --delay-ms 2500 --output data/wikidata-wave-017-craft-maker-home-lifestyle.local.json
+```
+
 ## Merge Offset Batches
 
 When you run multiple offsets, merge them before building dossiers:
@@ -498,6 +504,29 @@ The sixteenth config uses verified Wikidata occupation IDs for:
 - Hotel owner
 - Restaurateur
 - Restaurant owner
+
+The seventeenth config uses verified Wikidata occupation IDs for:
+
+- Artisan
+- Tradesperson
+- Woodworker
+- Carpenter
+- Cabinetmaker
+- Furniture maker
+- Furniture designer
+- Potter
+- Ceramicist
+- Goldsmith
+- Silversmith
+- Blacksmith
+- Metalworker
+- Textile artist
+- Weaver
+- Knitter
+- Embroiderer
+- Quilter
+- Seamstress
+- Interior designer
 
 Each result remains discovery-only until a human confirms identity and source ownership.
 

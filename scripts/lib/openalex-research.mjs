@@ -36,6 +36,14 @@ export const allowedCategories = new Set([
   'hospitality',
   'aviation',
   'maritime',
+  'craft',
+  'maker',
+  'woodworking',
+  'ceramics',
+  'metalwork',
+  'textile',
+  'jewelry',
+  'home-lifestyle',
 ]);
 
 export async function buildOpenAlexBatch(options) {
