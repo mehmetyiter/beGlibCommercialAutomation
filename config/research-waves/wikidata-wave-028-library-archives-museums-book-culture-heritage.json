@@ -1,0 +1,147 @@
+{
+  "waveId": "wikidata-wave-028-library-archives-museums-book-culture-heritage",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata library, archives, museums, book culture, cultural heritage, conservation, and genealogy occupation discovery",
+  "description": "Discovery wave for librarians, academic librarians, information scientists, information professionals, archivists, curators, exhibition curators, museum directors, museum educators, museum professionals, bibliographers, bibliophiles, book collectors, reviewers, literary editors, literary agents, booksellers, bookbinders, conservators, restorers, historians of science, historians of science and technology, genealogists, and local historians. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Library, archives, museums, book culture, conservation, cultural heritage, and genealogy records require source-ownership, institution/representation, public-role, rights/permissions, suppression-status, and professional-context review before campaign use.",
+  "categories": [
+    {
+      "category": "library-science",
+      "occupations": [
+        {
+          "qid": "Q182436",
+          "label": "librarian"
+        },
+        {
+          "qid": "Q12008505",
+          "label": "academic librarian"
+        },
+        {
+          "qid": "Q1265807",
+          "label": "information scientist"
+        },
+        {
+          "qid": "Q1662485",
+          "label": "information professional"
+        }
+      ]
+    },
+    {
+      "category": "archives",
+      "occupations": [
+        {
+          "qid": "Q635734",
+          "label": "archivist"
+        },
+        {
+          "qid": "Q10429346",
+          "label": "bibliographer"
+        }
+      ]
+    },
+    {
+      "category": "museums",
+      "occupations": [
+        {
+          "qid": "Q674426",
+          "label": "curator"
+        },
+        {
+          "qid": "Q780596",
+          "label": "exhibition curator"
+        },
+        {
+          "qid": "Q22132694",
+          "label": "museum director"
+        },
+        {
+          "qid": "Q88114244",
+          "label": "museum educator"
+        },
+        {
+          "qid": "Q47090899",
+          "label": "museum professional"
+        }
+      ]
+    },
+    {
+      "category": "book-culture",
+      "occupations": [
+        {
+          "qid": "Q18120029",
+          "label": "bibliophile"
+        },
+        {
+          "qid": "Q28776412",
+          "label": "book collector"
+        },
+        {
+          "qid": "Q10650082",
+          "label": "reviewer"
+        },
+        {
+          "qid": "Q2516852",
+          "label": "literary editor"
+        },
+        {
+          "qid": "Q124634523",
+          "label": "book editor"
+        },
+        {
+          "qid": "Q278919",
+          "label": "literary agent"
+        },
+        {
+          "qid": "Q998550",
+          "label": "bookseller"
+        },
+        {
+          "qid": "Q1413170",
+          "label": "bookbinder"
+        }
+      ]
+    },
+    {
+      "category": "cultural-heritage",
+      "occupations": [
+        {
+          "qid": "Q446966",
+          "label": "conservator"
+        },
+        {
+          "qid": "Q2145981",
+          "label": "restorer"
+        },
+        {
+          "qid": "Q16063546",
+          "label": "historian of science"
+        },
+        {
+          "qid": "Q104042305",
+          "label": "historian of science and technology"
+        }
+      ]
+    },
+    {
+      "category": "genealogy-history",
+      "occupations": [
+        {
+          "qid": "Q8963721",
+          "label": "genealogist"
+        },
+        {
+          "qid": "Q1595570",
+          "label": "local historian"
+        },
+        {
+          "qid": "Q101438904",
+          "label": "local historian profession"
+        }
+      ]
+    }
+  ]
+}

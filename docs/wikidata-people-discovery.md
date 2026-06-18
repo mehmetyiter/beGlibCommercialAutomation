@@ -802,6 +802,35 @@ The twenty-seventh config uses verified Wikidata occupation IDs for:
 - Intelligence analyst
 - Spy
 
+The twenty-eighth config uses verified Wikidata occupation IDs for:
+
+- Librarian
+- Academic librarian
+- Information scientist
+- Information professional
+- Archivist
+- Bibliographer
+- Curator
+- Exhibition curator
+- Museum director
+- Museum educator
+- Museum professional
+- Bibliophile
+- Book collector
+- Reviewer
+- Literary editor
+- Book editor
+- Literary agent
+- Bookseller
+- Bookbinder
+- Conservator
+- Restorer
+- Historian of science
+- Historian of science and technology
+- Genealogist
+- Local historian
+- Local historian profession
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

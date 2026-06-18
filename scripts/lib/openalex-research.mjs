@@ -117,6 +117,12 @@ export const allowedCategories = new Set([
   'forensics',
   'private-security',
   'intelligence',
+  'library-science',
+  'archives',
+  'museums',
+  'book-culture',
+  'cultural-heritage',
+  'genealogy-history',
 ]);
 
 export const sensitiveCategories = new Set([
