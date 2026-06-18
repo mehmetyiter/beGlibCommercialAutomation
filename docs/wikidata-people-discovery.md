@@ -739,6 +739,40 @@ The twenty-fifth config uses verified Wikidata occupation IDs for:
 - Building inspector
 - Real estate developer
 
+The twenty-sixth config uses verified Wikidata occupation IDs for:
+
+- Car designer
+- Automotive engineer
+- Mechanic
+- Auto mechanic
+- Bicycle mechanic
+- Racing driver
+- Racing automobile driver
+- Rally driver
+- Motorcycle racer
+- Astronaut
+- Cosmonaut
+- Aerospace engineer
+- Aircraft pilot
+- Airline pilot
+- Test pilot
+- Flight instructor
+- Aircraft mechanic
+- Air traffic controller
+- Flight attendant
+- Transportation engineer
+- Transport planner
+- Transport economist
+- Truck driver
+- Bus driver
+- Taxi driver
+- Train driver
+- Railway engineer
+- Logistician
+- Ship captain
+- Marine engineer
+- Marine architect
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

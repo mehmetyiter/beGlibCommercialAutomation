@@ -100,6 +100,14 @@ export const allowedCategories = new Set([
   'construction',
   'construction-inspection',
   'real-estate-development',
+  'automotive',
+  'motorsport',
+  'aerospace',
+  'aviation-operations',
+  'transportation',
+  'rail',
+  'logistics',
+  'maritime-engineering',
 ]);
 
 export const sensitiveCategories = new Set([

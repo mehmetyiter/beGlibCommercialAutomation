@@ -1,0 +1,177 @@
+{
+  "waveId": "wikidata-wave-026-transport-mobility-automotive-aerospace-logistics",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata transport, mobility, automotive, motorsport, aerospace, rail, logistics, and maritime engineering occupation discovery",
+  "description": "Discovery wave for car designers, automotive engineers, mechanics, racing drivers, rally drivers, motorcycle racers, astronauts, aerospace engineers, aircraft pilots, test pilots, flight instructors, aircraft mechanics, air traffic controllers, airline pilots, transportation engineers, transport planners, transport economists, truck drivers, bus drivers, taxi drivers, train drivers, railway engineers, logisticians, ship captains, marine engineers, and marine architects. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Transportation, aviation, rail, maritime, logistics, automotive, and licensing-adjacent categories require identity, source-ownership, professional-context, jurisdiction, sponsorship, safety, and suppression-status review before campaign use.",
+  "categories": [
+    {
+      "category": "automotive",
+      "occupations": [
+        {
+          "qid": "Q11295636",
+          "label": "car designer"
+        },
+        {
+          "qid": "Q48351861",
+          "label": "automotive engineer"
+        },
+        {
+          "qid": "Q327029",
+          "label": "mechanic"
+        },
+        {
+          "qid": "Q706835",
+          "label": "auto mechanic"
+        },
+        {
+          "qid": "Q233053",
+          "label": "bicycle mechanic"
+        }
+      ]
+    },
+    {
+      "category": "motorsport",
+      "occupations": [
+        {
+          "qid": "Q378622",
+          "label": "racing driver"
+        },
+        {
+          "qid": "Q10349745",
+          "label": "racing automobile driver"
+        },
+        {
+          "qid": "Q10842936",
+          "label": "rally driver"
+        },
+        {
+          "qid": "Q3014296",
+          "label": "motorcycle racer"
+        }
+      ]
+    },
+    {
+      "category": "aerospace",
+      "occupations": [
+        {
+          "qid": "Q11631",
+          "label": "astronaut"
+        },
+        {
+          "qid": "Q12634815",
+          "label": "cosmonaut"
+        },
+        {
+          "qid": "Q15895020",
+          "label": "aerospace engineer"
+        }
+      ]
+    },
+    {
+      "category": "aviation-operations",
+      "occupations": [
+        {
+          "qid": "Q2095549",
+          "label": "aircraft pilot"
+        },
+        {
+          "qid": "Q122767683",
+          "label": "airline pilot"
+        },
+        {
+          "qid": "Q730242",
+          "label": "test pilot"
+        },
+        {
+          "qid": "Q379318",
+          "label": "flight instructor"
+        },
+        {
+          "qid": "Q1430683",
+          "label": "aircraft mechanic"
+        },
+        {
+          "qid": "Q862632",
+          "label": "air traffic controller"
+        },
+        {
+          "qid": "Q101539",
+          "label": "flight attendant"
+        }
+      ]
+    },
+    {
+      "category": "transportation",
+      "occupations": [
+        {
+          "qid": "Q11875786",
+          "label": "transportation engineer"
+        },
+        {
+          "qid": "Q1385972",
+          "label": "transport planner"
+        },
+        {
+          "qid": "Q112580640",
+          "label": "transport economist"
+        },
+        {
+          "qid": "Q508846",
+          "label": "truck driver"
+        },
+        {
+          "qid": "Q829020",
+          "label": "bus driver"
+        },
+        {
+          "qid": "Q2961580",
+          "label": "taxi driver"
+        }
+      ]
+    },
+    {
+      "category": "rail",
+      "occupations": [
+        {
+          "qid": "Q2775569",
+          "label": "train driver"
+        },
+        {
+          "qid": "Q66711686",
+          "label": "railway engineer"
+        }
+      ]
+    },
+    {
+      "category": "logistics",
+      "occupations": [
+        {
+          "qid": "Q3258041",
+          "label": "logistician"
+        }
+      ]
+    },
+    {
+      "category": "maritime-engineering",
+      "occupations": [
+        {
+          "qid": "Q849424",
+          "label": "ship captain"
+        },
+        {
+          "qid": "Q1644847",
+          "label": "marine engineer"
+        },
+        {
+          "qid": "Q2860259",
+          "label": "marine architect"
+        }
+      ]
+    }
+  ]
+}
