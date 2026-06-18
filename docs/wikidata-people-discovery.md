@@ -985,6 +985,41 @@ The thirty-second config uses verified Wikidata occupation IDs for:
 - Dancer
 - Choreographer
 
+The thirty-third config uses verified Wikidata occupation IDs for:
+
+- Chef
+- Celebrity chef
+- Cook
+- Recipe developer
+- Cookbook writer
+- Culinary writer
+- Food critic
+- Food blogger
+- Food historian
+- Food photographer
+- Food stylist
+- Baker
+- Pastry chef
+- Confectioner
+- Chocolatier
+- Barista
+- Brewer
+- Tea master
+- Sommelier
+- Bartender
+- Mixologist
+- Winemaker
+- Oenologist
+- Distiller
+- Wine critic
+- Restaurateur
+- Restaurant owner
+- Restaurant manager
+- Caterer
+- Butcher
+- Fishmonger
+- Cheesemonger
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

@@ -155,6 +155,13 @@ export const allowedCategories = new Set([
   'screen-production',
   'broadcast',
   'live-entertainment',
+  'culinary',
+  'food-media',
+  'baking-pastry',
+  'beverage',
+  'wine-spirits',
+  'restaurant-hospitality',
+  'specialty-food',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -212,6 +219,7 @@ export const sensitiveCategories = new Set([
   'public-policy',
   'public-accountability',
   'nonprofit-leadership',
+  'wine-spirits',
 ]);
 
 export function riskLevelForCategory(category) {

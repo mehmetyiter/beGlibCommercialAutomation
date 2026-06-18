@@ -1,0 +1,180 @@
+{
+  "waveId": "wikidata-wave-033-culinary-food-beverage-hospitality",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata culinary, food media, beverage, specialty food, and hospitality occupation discovery",
+  "description": "Broad discovery wave for chefs, bakers, pastry professionals, food writers, food critics, recipe developers, food photographers, restaurateurs, hospitality operators, sommeliers, bartenders, brewers, winemakers, baristas, and specialty food professionals. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Beverage and alcohol-adjacent records require extra professional-context, age-gating, jurisdiction, and compliance review before campaign use.",
+  "categories": [
+    {
+      "category": "culinary",
+      "occupations": [
+        {
+          "qid": "Q3499072",
+          "label": "chef"
+        },
+        {
+          "qid": "Q3310583",
+          "label": "celebrity chef"
+        },
+        {
+          "qid": "Q156839",
+          "label": "cook"
+        },
+        {
+          "qid": "Q119574768",
+          "label": "recipe developer"
+        }
+      ]
+    },
+    {
+      "category": "food-media",
+      "occupations": [
+        {
+          "qid": "Q27431213",
+          "label": "cookbook writer"
+        },
+        {
+          "qid": "Q11500768",
+          "label": "culinary writer"
+        },
+        {
+          "qid": "Q1495660",
+          "label": "food critic"
+        },
+        {
+          "qid": "Q25936100",
+          "label": "food blogger"
+        },
+        {
+          "qid": "Q105871035",
+          "label": "food historian"
+        },
+        {
+          "qid": "Q108001806",
+          "label": "food photographer"
+        },
+        {
+          "qid": "Q47537202",
+          "label": "food stylist"
+        }
+      ]
+    },
+    {
+      "category": "baking-pastry",
+      "occupations": [
+        {
+          "qid": "Q160131",
+          "label": "baker"
+        },
+        {
+          "qid": "Q1191511",
+          "label": "pastry chef"
+        },
+        {
+          "qid": "Q2992505",
+          "label": "confectioner"
+        },
+        {
+          "qid": "Q305012",
+          "label": "chocolatier"
+        }
+      ]
+    },
+    {
+      "category": "beverage",
+      "occupations": [
+        {
+          "qid": "Q178816",
+          "label": "barista"
+        },
+        {
+          "qid": "Q836904",
+          "label": "brewer"
+        },
+        {
+          "qid": "Q9180224",
+          "label": "brewer"
+        },
+        {
+          "qid": "Q16321429",
+          "label": "tea master"
+        }
+      ]
+    },
+    {
+      "category": "wine-spirits",
+      "occupations": [
+        {
+          "qid": "Q191493",
+          "label": "sommelier"
+        },
+        {
+          "qid": "Q808266",
+          "label": "bartender"
+        },
+        {
+          "qid": "Q20165053",
+          "label": "mixologist"
+        },
+        {
+          "qid": "Q21771805",
+          "label": "winemaker"
+        },
+        {
+          "qid": "Q3542795",
+          "label": "oenologist"
+        },
+        {
+          "qid": "Q23924989",
+          "label": "distiller"
+        },
+        {
+          "qid": "Q2556193",
+          "label": "wine critic"
+        }
+      ]
+    },
+    {
+      "category": "restaurant-hospitality",
+      "occupations": [
+        {
+          "qid": "Q3427922",
+          "label": "restaurateur"
+        },
+        {
+          "qid": "Q43563252",
+          "label": "restaurant owner"
+        },
+        {
+          "qid": "Q96093243",
+          "label": "restaurant manager"
+        },
+        {
+          "qid": "Q132315437",
+          "label": "caterer"
+        }
+      ]
+    },
+    {
+      "category": "specialty-food",
+      "occupations": [
+        {
+          "qid": "Q329737",
+          "label": "butcher"
+        },
+        {
+          "qid": "Q550594",
+          "label": "fishmonger"
+        },
+        {
+          "qid": "Q110063306",
+          "label": "cheesemonger"
+        }
+      ]
+    }
+  ]
+}
