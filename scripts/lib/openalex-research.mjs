@@ -147,6 +147,14 @@ export const allowedCategories = new Set([
   'communication',
   'public-speaking',
   'writing-editing',
+  'acting',
+  'screen-arts',
+  'television',
+  'theatre',
+  'comedy',
+  'screen-production',
+  'broadcast',
+  'live-entertainment',
 ]);
 
 export const sensitiveCategories = new Set([

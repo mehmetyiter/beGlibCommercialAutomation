@@ -928,6 +928,63 @@ The thirty-first config uses verified Wikidata occupation IDs for:
 - Proofreader
 - Dialogue writer
 
+The thirty-second config uses verified Wikidata occupation IDs for:
+
+- Actor
+- Film actor
+- Television actor
+- Stage actor
+- Voice actor
+- Acting coach
+- Comedian
+- Stand-up comedian
+- Improviser
+- Comedy writer
+- Clown
+- Ventriloquist
+- Film director
+- Screenwriter
+- Documentary filmmaker
+- Documentarian
+- Film scholar
+- Film historian
+- Film critic
+- Television presenter
+- Television director
+- Television producer
+- Television writer
+- Showrunner
+- Talk show host
+- Game show host
+- Television critic
+- Theatre director
+- Playwright
+- Drama teacher
+- Mime artist
+- Performance artist
+- Puppeteer
+- Film producer
+- Producer
+- Casting director
+- Cinematographer
+- Camera operator
+- Film editor
+- Production designer
+- Set decorator
+- Costume designer
+- Make-up artist
+- Stunt performer
+- Stunt coordinator
+- Radio personality
+- Announcer
+- Broadcaster
+- Television journalist
+- Entertainer
+- Magician
+- Circus performer
+- Dancer
+- Choreographer
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

@@ -1,0 +1,269 @@
+{
+  "waveId": "wikidata-wave-032-screen-stage-comedy-broadcast-production",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata screen, stage, comedy, broadcast, and production occupation discovery",
+  "description": "Broad discovery wave for actors, screen and stage performers, comedians, broadcasters, film/TV/theatre creators, production professionals, critics, hosts, documentarians, and adjacent public entertainment voices. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Screen, stage, comedy, broadcast, and production records remain discovery hints until identity, source ownership, professional context, and representative/management context are reviewed.",
+  "categories": [
+    {
+      "category": "acting",
+      "occupations": [
+        {
+          "qid": "Q33999",
+          "label": "actor"
+        },
+        {
+          "qid": "Q10800557",
+          "label": "film actor"
+        },
+        {
+          "qid": "Q10798782",
+          "label": "television actor"
+        },
+        {
+          "qid": "Q2259451",
+          "label": "stage actor"
+        },
+        {
+          "qid": "Q2405480",
+          "label": "voice actor"
+        },
+        {
+          "qid": "Q28135085",
+          "label": "acting coach"
+        }
+      ]
+    },
+    {
+      "category": "comedy",
+      "occupations": [
+        {
+          "qid": "Q245068",
+          "label": "comedian"
+        },
+        {
+          "qid": "Q18545066",
+          "label": "stand-up comedian"
+        },
+        {
+          "qid": "Q3149505",
+          "label": "improviser"
+        },
+        {
+          "qid": "Q11914886",
+          "label": "comedy writer"
+        },
+        {
+          "qid": "Q7358",
+          "label": "clown"
+        },
+        {
+          "qid": "Q15618890",
+          "label": "ventriloquist"
+        }
+      ]
+    },
+    {
+      "category": "screen-arts",
+      "occupations": [
+        {
+          "qid": "Q2526255",
+          "label": "film director"
+        },
+        {
+          "qid": "Q28389",
+          "label": "screenwriter"
+        },
+        {
+          "qid": "Q1235146",
+          "label": "documentary filmmaker"
+        },
+        {
+          "qid": "Q11814411",
+          "label": "documentarian"
+        },
+        {
+          "qid": "Q4220878",
+          "label": "film scholar"
+        },
+        {
+          "qid": "Q20971250",
+          "label": "film historian"
+        },
+        {
+          "qid": "Q4220892",
+          "label": "film critic"
+        }
+      ]
+    },
+    {
+      "category": "television",
+      "occupations": [
+        {
+          "qid": "Q947873",
+          "label": "television presenter"
+        },
+        {
+          "qid": "Q2059704",
+          "label": "television director"
+        },
+        {
+          "qid": "Q578109",
+          "label": "television producer"
+        },
+        {
+          "qid": "Q73306227",
+          "label": "television writer"
+        },
+        {
+          "qid": "Q1440873",
+          "label": "showrunner"
+        },
+        {
+          "qid": "Q18668527",
+          "label": "talk show host"
+        },
+        {
+          "qid": "Q22662561",
+          "label": "game show host"
+        },
+        {
+          "qid": "Q18810130",
+          "label": "television critic"
+        }
+      ]
+    },
+    {
+      "category": "theatre",
+      "occupations": [
+        {
+          "qid": "Q3387717",
+          "label": "theatre director"
+        },
+        {
+          "qid": "Q214917",
+          "label": "playwright"
+        },
+        {
+          "qid": "Q2449921",
+          "label": "drama teacher"
+        },
+        {
+          "qid": "Q674067",
+          "label": "mime artist"
+        },
+        {
+          "qid": "Q10774753",
+          "label": "performance artist"
+        },
+        {
+          "qid": "Q2629392",
+          "label": "puppeteer"
+        }
+      ]
+    },
+    {
+      "category": "screen-production",
+      "occupations": [
+        {
+          "qid": "Q3282637",
+          "label": "film producer"
+        },
+        {
+          "qid": "Q47541952",
+          "label": "producer"
+        },
+        {
+          "qid": "Q1049296",
+          "label": "casting director"
+        },
+        {
+          "qid": "Q222344",
+          "label": "cinematographer"
+        },
+        {
+          "qid": "Q1208175",
+          "label": "camera operator"
+        },
+        {
+          "qid": "Q7042855",
+          "label": "film editor"
+        },
+        {
+          "qid": "Q2962070",
+          "label": "production designer"
+        },
+        {
+          "qid": "Q6409989",
+          "label": "set decorator"
+        },
+        {
+          "qid": "Q1323191",
+          "label": "costume designer"
+        },
+        {
+          "qid": "Q935666",
+          "label": "make-up artist"
+        },
+        {
+          "qid": "Q465501",
+          "label": "stunt performer"
+        },
+        {
+          "qid": "Q2833480",
+          "label": "stunt coordinator"
+        }
+      ]
+    },
+    {
+      "category": "broadcast",
+      "occupations": [
+        {
+          "qid": "Q2722764",
+          "label": "radio personality"
+        },
+        {
+          "qid": "Q1371925",
+          "label": "announcer"
+        },
+        {
+          "qid": "Q135301631",
+          "label": "broadcaster"
+        },
+        {
+          "qid": "Q22976182",
+          "label": "television journalist"
+        }
+      ]
+    },
+    {
+      "category": "live-entertainment",
+      "occupations": [
+        {
+          "qid": "Q138858",
+          "label": "entertainer"
+        },
+        {
+          "qid": "Q15855449",
+          "label": "magician"
+        },
+        {
+          "qid": "Q17307272",
+          "label": "circus performer"
+        },
+        {
+          "qid": "Q5716684",
+          "label": "dancer"
+        },
+        {
+          "qid": "Q2490358",
+          "label": "choreographer"
+        }
+      ]
+    }
+  ]
+}
