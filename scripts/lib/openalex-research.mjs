@@ -167,6 +167,10 @@ export const allowedCategories = new Set([
   'illustration-comics',
   'design-media',
   'art-world',
+  'spirituality',
+  'esoteric',
+  'personal-development',
+  'wellbeing',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -225,6 +229,10 @@ export const sensitiveCategories = new Set([
   'public-accountability',
   'nonprofit-leadership',
   'wine-spirits',
+  'spirituality',
+  'esoteric',
+  'personal-development',
+  'wellbeing',
 ]);
 
 export function riskLevelForCategory(category) {

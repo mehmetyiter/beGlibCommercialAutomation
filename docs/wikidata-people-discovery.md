@@ -1066,6 +1066,28 @@ The thirty-fourth config uses verified Wikidata occupation IDs for:
 - Gallerist
 - Art educator
 
+The thirty-fifth config uses verified Wikidata occupation IDs for:
+
+- Spiritual teacher
+- Spiritual director
+- Guru
+- Mystic
+- Religious writer
+- Astrologer
+- Tarotologist
+- Psychic
+- Spiritual medium
+- Numerologist
+- Occultist
+- Esotericist
+- Motivational speaker
+- Life coach
+- Personal development consultant
+- Meditation teacher
+- Yoga instructor
+- Hypnotherapist
+- Reiki practitioner
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

@@ -1,0 +1,109 @@
+{
+  "waveId": "wikidata-wave-035-spirituality-self-help-esoteric-wellbeing",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata spirituality, self-help, esoteric, and wellbeing public-voice occupation discovery",
+  "description": "Discovery wave for spiritual teachers, spiritual directors, gurus, mystics, religious writers, astrologers, tarotologists, psychics, spiritual mediums, numerologists, occultists, esotericists, motivational speakers, life coaches, personal development consultants, meditation teachers, yoga instructors, hypnotherapists, and Reiki practitioners. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Spirituality, esoteric, self-help, wellbeing, complementary-practice, coaching, belief, public-claim, health-adjacent, and community contexts require specialist/legal review before campaign use. Copy must avoid medical, therapeutic, financial, supernatural, outcome, endorsement, or belief-targeting claims unless reviewed and approved.",
+  "categories": [
+    {
+      "category": "spirituality",
+      "occupations": [
+        {
+          "qid": "Q29352392",
+          "label": "spiritual teacher"
+        },
+        {
+          "qid": "Q45684",
+          "label": "spiritual director"
+        },
+        {
+          "qid": "Q484260",
+          "label": "guru"
+        },
+        {
+          "qid": "Q12328016",
+          "label": "mystic"
+        },
+        {
+          "qid": "Q24262594",
+          "label": "religious writer"
+        }
+      ]
+    },
+    {
+      "category": "esoteric",
+      "occupations": [
+        {
+          "qid": "Q155647",
+          "label": "astrologer"
+        },
+        {
+          "qid": "Q61713047",
+          "label": "tarotologist"
+        },
+        {
+          "qid": "Q2917466",
+          "label": "psychic"
+        },
+        {
+          "qid": "Q583271",
+          "label": "spiritual medium"
+        },
+        {
+          "qid": "Q79136455",
+          "label": "numerologist"
+        },
+        {
+          "qid": "Q12797895",
+          "label": "occultist"
+        },
+        {
+          "qid": "Q16004492",
+          "label": "esotericist"
+        }
+      ]
+    },
+    {
+      "category": "personal-development",
+      "occupations": [
+        {
+          "qid": "Q15982858",
+          "label": "motivational speaker"
+        },
+        {
+          "qid": "Q26831130",
+          "label": "life coach"
+        },
+        {
+          "qid": "Q6545506",
+          "label": "personal development consultant"
+        }
+      ]
+    },
+    {
+      "category": "wellbeing",
+      "occupations": [
+        {
+          "qid": "Q112580605",
+          "label": "meditation teacher"
+        },
+        {
+          "qid": "Q2600526",
+          "label": "yoga instructor"
+        },
+        {
+          "qid": "Q16747019",
+          "label": "hypnotherapist"
+        },
+        {
+          "qid": "Q80363597",
+          "label": "Reiki practitioner"
+        }
+      ]
+    }
+  ]
+}
