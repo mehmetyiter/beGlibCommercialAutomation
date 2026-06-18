@@ -131,6 +131,15 @@ export const allowedCategories = new Set([
   'disability-advocacy',
   'patient-advocacy',
   'addiction-care',
+  'civic-advocacy',
+  'political-advocacy',
+  'human-rights',
+  'gender-rights',
+  'labor-advocacy',
+  'peace-conflict',
+  'public-policy',
+  'public-accountability',
+  'nonprofit-leadership',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -179,6 +188,15 @@ export const sensitiveCategories = new Set([
   'disability-advocacy',
   'patient-advocacy',
   'addiction-care',
+  'civic-advocacy',
+  'political-advocacy',
+  'human-rights',
+  'gender-rights',
+  'labor-advocacy',
+  'peace-conflict',
+  'public-policy',
+  'public-accountability',
+  'nonprofit-leadership',
 ]);
 
 export function riskLevelForCategory(category) {

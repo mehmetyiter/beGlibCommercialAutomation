@@ -862,6 +862,41 @@ The twenty-ninth config uses verified Wikidata occupation IDs for:
 - Health activist
 - Substance abuse counselor
 
+The thirtieth config uses verified Wikidata occupation IDs for:
+
+- Activist
+- Social activist
+- Civil rights advocate
+- Community organizer
+- Consumer advocate
+- Victim advocate
+- Children's rights activist
+- Animal rights advocate
+- Political activist
+- Campaign manager
+- Political pundit
+- Diplomat
+- Human rights defender
+- LGBTQ rights activist
+- Indigenous rights activist
+- Disability rights activist
+- Women's rights activist
+- Feminist
+- Trade unionist
+- Union organizer
+- Labor leader
+- Peace activist
+- Peacebuilder
+- Mediator
+- Geopolitical analyst
+- Policy analyst
+- Political scientist
+- Ombudsman
+- Nonprofit administrator
+- Fundraiser
+- Philanthropist
+- Humanitarian
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

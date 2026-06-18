@@ -1,0 +1,186 @@
+{
+  "waveId": "wikidata-wave-030-civic-rights-advocacy-policy-peace",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata civic, rights, advocacy, public-policy, nonprofit, and peacebuilding occupation discovery",
+  "description": "Broad discovery wave for civic advocates, political and social activists, rights defenders, labor organizers, public-policy voices, ombuds and mediators, nonprofit leaders, fundraisers, diplomats, and peacebuilding figures. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Civic, rights, labor, policy, political, and peace/conflict categories require extra professional-context, jurisdiction, and compliance review before campaign use.",
+  "categories": [
+    {
+      "category": "civic-advocacy",
+      "occupations": [
+        {
+          "qid": "Q15253558",
+          "label": "activist"
+        },
+        {
+          "qid": "Q8359428",
+          "label": "social activist"
+        },
+        {
+          "qid": "Q1021386",
+          "label": "civil rights advocate"
+        },
+        {
+          "qid": "Q28532974",
+          "label": "community organizer"
+        },
+        {
+          "qid": "Q110729089",
+          "label": "consumer advocate"
+        },
+        {
+          "qid": "Q113990475",
+          "label": "victim advocate"
+        },
+        {
+          "qid": "Q85305832",
+          "label": "children's rights activist"
+        },
+        {
+          "qid": "Q11966252",
+          "label": "animal rights advocate"
+        }
+      ]
+    },
+    {
+      "category": "political-advocacy",
+      "occupations": [
+        {
+          "qid": "Q11499147",
+          "label": "political activist"
+        },
+        {
+          "qid": "Q5027838",
+          "label": "campaign manager"
+        },
+        {
+          "qid": "Q11499163",
+          "label": "political pundit"
+        },
+        {
+          "qid": "Q193391",
+          "label": "diplomat"
+        }
+      ]
+    },
+    {
+      "category": "human-rights",
+      "occupations": [
+        {
+          "qid": "Q1476215",
+          "label": "human rights defender"
+        },
+        {
+          "qid": "Q19509201",
+          "label": "LGBTQ rights activist"
+        },
+        {
+          "qid": "Q110954375",
+          "label": "indigenous rights activist"
+        },
+        {
+          "qid": "Q61857538",
+          "label": "disability rights activist"
+        }
+      ]
+    },
+    {
+      "category": "gender-rights",
+      "occupations": [
+        {
+          "qid": "Q28692502",
+          "label": "women's rights activist"
+        },
+        {
+          "qid": "Q34074720",
+          "label": "feminist"
+        }
+      ]
+    },
+    {
+      "category": "labor-advocacy",
+      "occupations": [
+        {
+          "qid": "Q15627169",
+          "label": "trade unionist"
+        },
+        {
+          "qid": "Q7886765",
+          "label": "union organizer"
+        },
+        {
+          "qid": "Q50768646",
+          "label": "labor leader"
+        }
+      ]
+    },
+    {
+      "category": "peace-conflict",
+      "occupations": [
+        {
+          "qid": "Q16323111",
+          "label": "peace activist"
+        },
+        {
+          "qid": "Q113453260",
+          "label": "peacebuilder"
+        },
+        {
+          "qid": "Q4859473",
+          "label": "mediator"
+        },
+        {
+          "qid": "Q16947320",
+          "label": "geopolitical analyst"
+        }
+      ]
+    },
+    {
+      "category": "public-policy",
+      "occupations": [
+        {
+          "qid": "Q94246114",
+          "label": "policy analyst"
+        },
+        {
+          "qid": "Q1238570",
+          "label": "political scientist"
+        }
+      ]
+    },
+    {
+      "category": "public-accountability",
+      "occupations": [
+        {
+          "qid": "Q169180",
+          "label": "ombudsman"
+        }
+      ]
+    },
+    {
+      "category": "nonprofit-leadership",
+      "occupations": [
+        {
+          "qid": "Q111535220",
+          "label": "nonprofit administrator"
+        },
+        {
+          "qid": "Q13219244",
+          "label": "fundraiser"
+        },
+        {
+          "qid": "Q12362622",
+          "label": "philanthropist"
+        },
+        {
+          "qid": "Q22336956",
+          "label": "humanitarian"
+        }
+      ]
+    }
+  ]
+}
