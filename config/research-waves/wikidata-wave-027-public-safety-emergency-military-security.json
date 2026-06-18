@@ -1,0 +1,162 @@
+{
+  "waveId": "wikidata-wave-027-public-safety-emergency-military-security",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata public safety, emergency services, military, corrections, forensics, private security, and intelligence occupation discovery",
+  "description": "Discovery wave for police officers, detectives, private investigators, firefighters, fire chiefs, paramedics, emergency medical technicians, emergency physicians, emergency managers, rescuers, lifeguards, soldiers, military officers, generals, admirals, veterans, prison officers, probation officers, criminologists, forensic scientists, forensic pathologists, security consultants, bodyguards, intelligence analysts, and spies. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Public safety, emergency medicine, military, veteran, corrections, forensic, private-security, and intelligence categories are marked high-risk and require identity, source-ownership, jurisdiction, public-role, safety, agency/representation, suppression-status, and legal/compliance review before campaign use.",
+  "categories": [
+    {
+      "category": "public-safety",
+      "occupations": [
+        {
+          "qid": "Q384593",
+          "label": "police officer"
+        },
+        {
+          "qid": "Q842782",
+          "label": "detective"
+        },
+        {
+          "qid": "Q1058617",
+          "label": "private investigator"
+        }
+      ]
+    },
+    {
+      "category": "emergency-services",
+      "occupations": [
+        {
+          "qid": "Q107711",
+          "label": "firefighter"
+        },
+        {
+          "qid": "Q5451558",
+          "label": "fire chief"
+        },
+        {
+          "qid": "Q379497",
+          "label": "smokejumper"
+        },
+        {
+          "qid": "Q114567484",
+          "label": "emergency manager"
+        },
+        {
+          "qid": "Q17126809",
+          "label": "rescuer"
+        },
+        {
+          "qid": "Q259327",
+          "label": "lifeguard"
+        }
+      ]
+    },
+    {
+      "category": "emergency-medicine",
+      "occupations": [
+        {
+          "qid": "Q330204",
+          "label": "paramedic"
+        },
+        {
+          "qid": "Q1497094",
+          "label": "emergency medical technician"
+        },
+        {
+          "qid": "Q336641",
+          "label": "emergency physician"
+        }
+      ]
+    },
+    {
+      "category": "military",
+      "occupations": [
+        {
+          "qid": "Q4991371",
+          "label": "soldier"
+        },
+        {
+          "qid": "Q189290",
+          "label": "military officer"
+        },
+        {
+          "qid": "Q83460",
+          "label": "general"
+        },
+        {
+          "qid": "Q132851",
+          "label": "admiral"
+        }
+      ]
+    },
+    {
+      "category": "veterans",
+      "occupations": [
+        {
+          "qid": "Q193891",
+          "label": "veteran"
+        }
+      ]
+    },
+    {
+      "category": "corrections",
+      "occupations": [
+        {
+          "qid": "Q311396",
+          "label": "prison officer"
+        },
+        {
+          "qid": "Q13968",
+          "label": "probation officer"
+        }
+      ]
+    },
+    {
+      "category": "forensics",
+      "occupations": [
+        {
+          "qid": "Q8142883",
+          "label": "criminologist"
+        },
+        {
+          "qid": "Q15941468",
+          "label": "forensic scientist"
+        },
+        {
+          "qid": "Q104034015",
+          "label": "forensic pathologist"
+        }
+      ]
+    },
+    {
+      "category": "private-security",
+      "occupations": [
+        {
+          "qid": "Q28344461",
+          "label": "security consultant"
+        },
+        {
+          "qid": "Q851436",
+          "label": "bodyguard"
+        }
+      ]
+    },
+    {
+      "category": "intelligence",
+      "occupations": [
+        {
+          "qid": "Q48772091",
+          "label": "intelligence analyst"
+        },
+        {
+          "qid": "Q9352089",
+          "label": "spy"
+        }
+      ]
+    }
+  ]
+}

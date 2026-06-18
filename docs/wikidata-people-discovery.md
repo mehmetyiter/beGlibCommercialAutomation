@@ -773,6 +773,35 @@ The twenty-sixth config uses verified Wikidata occupation IDs for:
 - Marine engineer
 - Marine architect
 
+The twenty-seventh config uses verified Wikidata occupation IDs for:
+
+- Police officer
+- Detective
+- Private investigator
+- Firefighter
+- Fire chief
+- Smokejumper
+- Emergency manager
+- Rescuer
+- Lifeguard
+- Paramedic
+- Emergency medical technician
+- Emergency physician
+- Soldier
+- Military officer
+- General
+- Admiral
+- Veteran
+- Prison officer
+- Probation officer
+- Criminologist
+- Forensic scientist
+- Forensic pathologist
+- Security consultant
+- Bodyguard
+- Intelligence analyst
+- Spy
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

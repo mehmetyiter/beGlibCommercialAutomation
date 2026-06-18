@@ -108,6 +108,15 @@ export const allowedCategories = new Set([
   'rail',
   'logistics',
   'maritime-engineering',
+  'public-safety',
+  'emergency-services',
+  'emergency-medicine',
+  'military',
+  'veterans',
+  'corrections',
+  'forensics',
+  'private-security',
+  'intelligence',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -139,6 +148,15 @@ export const sensitiveCategories = new Set([
   'construction',
   'construction-inspection',
   'real-estate-development',
+  'public-safety',
+  'emergency-services',
+  'emergency-medicine',
+  'military',
+  'veterans',
+  'corrections',
+  'forensics',
+  'private-security',
+  'intelligence',
 ]);
 
 export function riskLevelForCategory(category) {
