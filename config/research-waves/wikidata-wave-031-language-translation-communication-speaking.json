@@ -1,0 +1,155 @@
+{
+  "waveId": "wikidata-wave-031-language-translation-communication-speaking",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata language, translation, communication, public-speaking, and writing occupation discovery",
+  "description": "Broad discovery wave for linguists, translators, interpreters, language teachers, communication specialists, speechwriters, public speakers, debaters, editors, proofreaders, copywriters, technical writers, and adjacent public language voices. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Language, translation, communication, and public-speaking records remain discovery hints until identity, source ownership, and professional context are reviewed.",
+  "categories": [
+    {
+      "category": "linguistics",
+      "occupations": [
+        {
+          "qid": "Q14467526",
+          "label": "linguist"
+        },
+        {
+          "qid": "Q13418253",
+          "label": "philologist"
+        },
+        {
+          "qid": "Q14972848",
+          "label": "lexicographer"
+        },
+        {
+          "qid": "Q16312408",
+          "label": "etymologist"
+        },
+        {
+          "qid": "Q15991187",
+          "label": "grammarian"
+        },
+        {
+          "qid": "Q16402907",
+          "label": "semiotician"
+        },
+        {
+          "qid": "Q361809",
+          "label": "rhetorician"
+        }
+      ]
+    },
+    {
+      "category": "translation",
+      "occupations": [
+        {
+          "qid": "Q333634",
+          "label": "translator"
+        },
+        {
+          "qid": "Q9363889",
+          "label": "literary translator"
+        },
+        {
+          "qid": "Q11085831",
+          "label": "interpreter"
+        },
+        {
+          "qid": "Q10691728",
+          "label": "sign language interpreter"
+        },
+        {
+          "qid": "Q2195681",
+          "label": "subtitler"
+        }
+      ]
+    },
+    {
+      "category": "language-education",
+      "occupations": [
+        {
+          "qid": "Q30002353",
+          "label": "language teacher"
+        },
+        {
+          "qid": "Q5270498",
+          "label": "dialect coach"
+        },
+        {
+          "qid": "Q20971450",
+          "label": "voice coach"
+        }
+      ]
+    },
+    {
+      "category": "communication",
+      "occupations": [
+        {
+          "qid": "Q26759595",
+          "label": "communication scholar"
+        },
+        {
+          "qid": "Q62085571",
+          "label": "communications consultant"
+        },
+        {
+          "qid": "Q175301",
+          "label": "speechwriter"
+        },
+        {
+          "qid": "Q14466416",
+          "label": "copywriter"
+        },
+        {
+          "qid": "Q1568338",
+          "label": "technical writer"
+        }
+      ]
+    },
+    {
+      "category": "public-speaking",
+      "occupations": [
+        {
+          "qid": "Q12859263",
+          "label": "orator"
+        },
+        {
+          "qid": "Q15982858",
+          "label": "motivational speaker"
+        },
+        {
+          "qid": "Q42297530",
+          "label": "keynote speaker"
+        },
+        {
+          "qid": "Q100742049",
+          "label": "conference speaker"
+        },
+        {
+          "qid": "Q12307965",
+          "label": "debater"
+        }
+      ]
+    },
+    {
+      "category": "writing-editing",
+      "occupations": [
+        {
+          "qid": "Q1607826",
+          "label": "editor"
+        },
+        {
+          "qid": "Q356139",
+          "label": "proofreader"
+        },
+        {
+          "qid": "Q3026032",
+          "label": "dialogue writer"
+        }
+      ]
+    }
+  ]
+}

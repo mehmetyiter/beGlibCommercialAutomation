@@ -140,6 +140,13 @@ export const allowedCategories = new Set([
   'public-policy',
   'public-accountability',
   'nonprofit-leadership',
+  'language',
+  'linguistics',
+  'translation',
+  'language-education',
+  'communication',
+  'public-speaking',
+  'writing-editing',
 ]);
 
 export const sensitiveCategories = new Set([

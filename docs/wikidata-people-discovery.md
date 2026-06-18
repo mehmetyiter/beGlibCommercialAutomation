@@ -897,6 +897,37 @@ The thirtieth config uses verified Wikidata occupation IDs for:
 - Philanthropist
 - Humanitarian
 
+The thirty-first config uses verified Wikidata occupation IDs for:
+
+- Linguist
+- Philologist
+- Lexicographer
+- Etymologist
+- Grammarian
+- Semiotician
+- Rhetorician
+- Translator
+- Literary translator
+- Interpreter
+- Sign language interpreter
+- Subtitler
+- Language teacher
+- Dialect coach
+- Voice coach
+- Communication scholar
+- Communications consultant
+- Speechwriter
+- Copywriter
+- Technical writer
+- Orator
+- Motivational speaker
+- Keynote speaker
+- Conference speaker
+- Debater
+- Editor
+- Proofreader
+- Dialogue writer
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects
