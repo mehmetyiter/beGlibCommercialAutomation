@@ -1088,6 +1088,32 @@ The thirty-fifth config uses verified Wikidata occupation IDs for:
 - Hypnotherapist
 - Reiki practitioner
 
+The thirty-sixth config uses verified Wikidata occupation IDs for:
+
+- Online streamer
+- Twitch streamer
+- Professional gamer
+- YouTuber
+- Podcaster
+- Game designer
+- Video game designer
+- Video game developer
+- Game programmer
+- Board game designer
+- Role-playing game designer
+- Gamemaster
+- Dungeon Master
+- Cosplayer
+- Comics artist
+- Mangaka
+- Anime director
+- Science fiction writer
+- Fantasy author
+- Video game journalist
+- Video game critic
+- Cultural critic
+- Critic
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

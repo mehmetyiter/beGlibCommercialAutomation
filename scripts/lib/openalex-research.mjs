@@ -171,6 +171,11 @@ export const allowedCategories = new Set([
   'esoteric',
   'personal-development',
   'wellbeing',
+  'game-culture',
+  'esports-streaming',
+  'tabletop-gaming',
+  'fandom-culture',
+  'speculative-fiction',
 ]);
 
 export const sensitiveCategories = new Set([

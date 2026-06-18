@@ -1,0 +1,130 @@
+{
+  "waveId": "wikidata-wave-036-gaming-esports-tabletop-fandom-pop-culture",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata gaming, esports, tabletop, fandom, and pop-culture occupation discovery",
+  "description": "Discovery wave for online streamers, Twitch streamers, YouTubers, podcasters, professional gamers, cosplayers, game designers, video game designers, video game developers, game programmers, board game designers, role-playing game designers, gamemasters, video game journalists, video game critics, critics, cultural critics, comics artists, mangaka, anime directors, science fiction writers, and fantasy authors. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Streaming, channel, agency, publisher, convention, fandom, fan/community, marketplace, and platform pages require identity, representation, source-ownership, jurisdiction, suppression-status, and professional-context review before campaign use.",
+  "categories": [
+    {
+      "category": "esports-streaming",
+      "occupations": [
+        {
+          "qid": "Q57414145",
+          "label": "online streamer"
+        },
+        {
+          "qid": "Q50279140",
+          "label": "Twitch streamer"
+        },
+        {
+          "qid": "Q4379701",
+          "label": "professional gamer"
+        },
+        {
+          "qid": "Q17125263",
+          "label": "YouTuber"
+        },
+        {
+          "qid": "Q15077007",
+          "label": "podcaster"
+        }
+      ]
+    },
+    {
+      "category": "game-culture",
+      "occupations": [
+        {
+          "qid": "Q3630699",
+          "label": "game designer"
+        },
+        {
+          "qid": "Q18882335",
+          "label": "video game designer"
+        },
+        {
+          "qid": "Q58287519",
+          "label": "video game developer"
+        },
+        {
+          "qid": "Q863368",
+          "label": "game programmer"
+        }
+      ]
+    },
+    {
+      "category": "tabletop-gaming",
+      "occupations": [
+        {
+          "qid": "Q1544133",
+          "label": "board game designer"
+        },
+        {
+          "qid": "Q54845077",
+          "label": "role-playing game designer"
+        },
+        {
+          "qid": "Q930701",
+          "label": "gamemaster"
+        },
+        {
+          "qid": "Q1773301",
+          "label": "Dungeon Master"
+        }
+      ]
+    },
+    {
+      "category": "fandom-culture",
+      "occupations": [
+        {
+          "qid": "Q18810049",
+          "label": "cosplayer"
+        },
+        {
+          "qid": "Q715301",
+          "label": "comics artist"
+        },
+        {
+          "qid": "Q191633",
+          "label": "mangaka"
+        },
+        {
+          "qid": "Q11284414",
+          "label": "anime director"
+        }
+      ]
+    },
+    {
+      "category": "speculative-fiction",
+      "occupations": [
+        {
+          "qid": "Q18844224",
+          "label": "science fiction writer"
+        },
+        {
+          "qid": "Q5434338",
+          "label": "fantasy author"
+        },
+        {
+          "qid": "Q48375857",
+          "label": "video game journalist"
+        },
+        {
+          "qid": "Q64404485",
+          "label": "video game critic"
+        },
+        {
+          "qid": "Q20020377",
+          "label": "cultural critic"
+        },
+        {
+          "qid": "Q6430706",
+          "label": "critic"
+        }
+      ]
+    }
+  ]
+}
