@@ -1,0 +1,165 @@
+{
+  "waveId": "wikidata-wave-029-allied-health-rehabilitation-care-advocacy",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata allied health, rehabilitation, dental care, birth support, elder care, disability advocacy, patient advocacy, and addiction-care occupation discovery",
+  "description": "Discovery wave for physiotherapists, occupational therapists, speech and language therapists, audiologists, optometrists, opticians, orthoptists, podiatrists, respiratory therapists, radiographers, medical technologists, laboratory technicians, dental hygienists, dental assistants, midwives, doulas, lactation consultants, home health aides, caregivers, nursing assistants, gerontologists, geriatricians, disability rights activists, patient advocates, health activists, rehabilitation counselors, and substance abuse counselors. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Allied health, rehabilitation, dental care, birth support, elder care, disability advocacy, patient advocacy, and addiction-care categories are marked high-risk and require identity, source-ownership, professional/licensing, jurisdiction, medical-advice, vulnerable-population, suppression-status, and legal/compliance review before campaign use.",
+  "categories": [
+    {
+      "category": "rehabilitation",
+      "occupations": [
+        {
+          "qid": "Q694748",
+          "label": "physiotherapist"
+        },
+        {
+          "qid": "Q631193",
+          "label": "occupational therapist"
+        },
+        {
+          "qid": "Q11762416",
+          "label": "speech and language therapist"
+        },
+        {
+          "qid": "Q2138857",
+          "label": "rehabilitation counselor"
+        }
+      ]
+    },
+    {
+      "category": "allied-health",
+      "occupations": [
+        {
+          "qid": "Q1644347",
+          "label": "audiologist"
+        },
+        {
+          "qid": "Q3354501",
+          "label": "optometrist"
+        },
+        {
+          "qid": "Q1996635",
+          "label": "optician"
+        },
+        {
+          "qid": "Q2031933",
+          "label": "orthoptist"
+        },
+        {
+          "qid": "Q3393065",
+          "label": "podiatrist"
+        },
+        {
+          "qid": "Q754438",
+          "label": "respiratory therapist"
+        },
+        {
+          "qid": "Q2294052",
+          "label": "radiographer"
+        },
+        {
+          "qid": "Q1916639",
+          "label": "medical technologist"
+        },
+        {
+          "qid": "Q1483433",
+          "label": "laboratory technician"
+        }
+      ]
+    },
+    {
+      "category": "dental-care",
+      "occupations": [
+        {
+          "qid": "Q1079856",
+          "label": "dental hygienist"
+        },
+        {
+          "qid": "Q489933",
+          "label": "dental assistant"
+        }
+      ]
+    },
+    {
+      "category": "birth-care-support",
+      "occupations": [
+        {
+          "qid": "Q185196",
+          "label": "midwife"
+        },
+        {
+          "qid": "Q749813",
+          "label": "doula"
+        },
+        {
+          "qid": "Q6048774",
+          "label": "lactation consultant"
+        }
+      ]
+    },
+    {
+      "category": "elder-care",
+      "occupations": [
+        {
+          "qid": "Q69946341",
+          "label": "home health aide"
+        },
+        {
+          "qid": "Q553079",
+          "label": "caregiver"
+        },
+        {
+          "qid": "Q10718797",
+          "label": "nursing assistant"
+        },
+        {
+          "qid": "Q20107384",
+          "label": "gerontologist"
+        },
+        {
+          "qid": "Q2580327",
+          "label": "geriatrician"
+        }
+      ]
+    },
+    {
+      "category": "disability-advocacy",
+      "occupations": [
+        {
+          "qid": "Q61857538",
+          "label": "disability rights activist"
+        }
+      ]
+    },
+    {
+      "category": "patient-advocacy",
+      "occupations": [
+        {
+          "qid": "Q21051469",
+          "label": "patient advocate"
+        },
+        {
+          "qid": "Q112795491",
+          "label": "patient ombudsman"
+        },
+        {
+          "qid": "Q96036530",
+          "label": "health activist"
+        }
+      ]
+    },
+    {
+      "category": "addiction-care",
+      "occupations": [
+        {
+          "qid": "Q66446606",
+          "label": "substance abuse counselor"
+        }
+      ]
+    }
+  ]
+}

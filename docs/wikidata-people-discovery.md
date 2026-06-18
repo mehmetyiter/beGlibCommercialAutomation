@@ -831,6 +831,37 @@ The twenty-eighth config uses verified Wikidata occupation IDs for:
 - Local historian
 - Local historian profession
 
+The twenty-ninth config uses verified Wikidata occupation IDs for:
+
+- Physiotherapist
+- Occupational therapist
+- Speech and language therapist
+- Rehabilitation counselor
+- Audiologist
+- Optometrist
+- Optician
+- Orthoptist
+- Podiatrist
+- Respiratory therapist
+- Radiographer
+- Medical technologist
+- Laboratory technician
+- Dental hygienist
+- Dental assistant
+- Midwife
+- Doula
+- Lactation consultant
+- Home health aide
+- Caregiver
+- Nursing assistant
+- Gerontologist
+- Geriatrician
+- Disability rights activist
+- Patient advocate
+- Patient ombudsman
+- Health activist
+- Substance abuse counselor
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

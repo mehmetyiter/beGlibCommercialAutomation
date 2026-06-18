@@ -123,6 +123,14 @@ export const allowedCategories = new Set([
   'book-culture',
   'cultural-heritage',
   'genealogy-history',
+  'allied-health',
+  'rehabilitation',
+  'dental-care',
+  'birth-care-support',
+  'elder-care',
+  'disability-advocacy',
+  'patient-advocacy',
+  'addiction-care',
 ]);
 
 export const sensitiveCategories = new Set([
@@ -163,6 +171,14 @@ export const sensitiveCategories = new Set([
   'forensics',
   'private-security',
   'intelligence',
+  'allied-health',
+  'rehabilitation',
+  'dental-care',
+  'birth-care-support',
+  'elder-care',
+  'disability-advocacy',
+  'patient-advocacy',
+  'addiction-care',
 ]);
 
 export function riskLevelForCategory(category) {
