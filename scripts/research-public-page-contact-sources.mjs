@@ -63,7 +63,10 @@ const inputDir = resolve(args['input-dir'] ?? 'exports');
 const sourceBatchId = args['source-batch-id'];
 const filenameIncludes = listArg(args['filename-includes']);
 const filenameExcludes = listArg(args['filename-excludes']);
-const sourcePackagePaths = listArg(args['source-package']).map((file) => resolve(file));
+const sourcePackagePaths = unique([
+  ...listArg(args['source-package']),
+  ...listArg(args.batch),
+]).map((file) => resolve(file));
 const includePlatformPages = Boolean(args['include-platform-pages']);
 const sourceLimit = boundedNumber(args.limit, Number.MAX_SAFE_INTEGER, 1, Number.MAX_SAFE_INTEGER);
 const sourceOffset = boundedNumber(args.offset, 0, 0, Number.MAX_SAFE_INTEGER);
