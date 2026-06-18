@@ -1020,6 +1020,52 @@ The thirty-third config uses verified Wikidata occupation IDs for:
 - Fishmonger
 - Cheesemonger
 
+The thirty-fourth config uses verified Wikidata occupation IDs for:
+
+- Artist
+- Visual artist
+- Painter
+- Sculptor
+- Digital artist
+- New media artist
+- Installation artist
+- Performance artist
+- Video artist
+- Street artist
+- Muralist
+- Printmaker
+- Calligrapher
+- Photographer
+- Photojournalist
+- Fashion photographer
+- Portrait photographer
+- Nature photographer
+- War photographer
+- Illustrator
+- Cartoonist
+- Comics artist
+- Mangaka
+- Concept artist
+- Storyboard artist
+- Story artist
+- Animator
+- Designer
+- Graphic designer
+- Product designer
+- User experience designer
+- Website designer
+- Typographer
+- Type designer
+- Art director
+- Creative director
+- Curator
+- Exhibition curator
+- Art historian
+- Art critic
+- Art dealer
+- Gallerist
+- Art educator
+
 Each result remains discovery-only until a human confirms identity and source ownership.
 
 ## What It Collects

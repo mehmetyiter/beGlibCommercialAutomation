@@ -1,0 +1,210 @@
+{
+  "waveId": "wikidata-wave-034-visual-arts-photography-design-art-world",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata visual arts, photography, illustration, design, and art-world occupation discovery",
+  "description": "Deep discovery wave for visual artists, digital and new-media artists, installation artists, performance artists, video artists, street artists, muralists, printmakers, calligraphers, photographers, photojournalists, specialist photographers, illustrators, cartoonists, comics and manga artists, animators, concept and storyboard artists, designers, typographers, art directors, curators, art historians, art critics, art dealers, gallerists, and art educators. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Studio, gallery, agency, representation, archive, portfolio, social-profile, fan/community, and marketplace pages require identity, source-ownership, rights/permissions, professional-context, jurisdiction, and suppression-status review before campaign use.",
+  "categories": [
+    {
+      "category": "visual-arts",
+      "occupations": [
+        {
+          "qid": "Q483501",
+          "label": "artist"
+        },
+        {
+          "qid": "Q3391743",
+          "label": "visual artist"
+        },
+        {
+          "qid": "Q1028181",
+          "label": "painter"
+        },
+        {
+          "qid": "Q1281618",
+          "label": "sculptor"
+        },
+        {
+          "qid": "Q11079476",
+          "label": "digital artist"
+        },
+        {
+          "qid": "Q7016454",
+          "label": "new media artist"
+        },
+        {
+          "qid": "Q18074503",
+          "label": "installation artist"
+        },
+        {
+          "qid": "Q10774753",
+          "label": "performance artist"
+        },
+        {
+          "qid": "Q18216771",
+          "label": "video artist"
+        },
+        {
+          "qid": "Q2914170",
+          "label": "street artist"
+        },
+        {
+          "qid": "Q3374326",
+          "label": "muralist"
+        },
+        {
+          "qid": "Q11569986",
+          "label": "printmaker"
+        },
+        {
+          "qid": "Q3303330",
+          "label": "calligrapher"
+        }
+      ]
+    },
+    {
+      "category": "photography",
+      "occupations": [
+        {
+          "qid": "Q33231",
+          "label": "photographer"
+        },
+        {
+          "qid": "Q957729",
+          "label": "photojournalist"
+        },
+        {
+          "qid": "Q19698265",
+          "label": "fashion photographer"
+        },
+        {
+          "qid": "Q2544530",
+          "label": "portrait photographer"
+        },
+        {
+          "qid": "Q12368980",
+          "label": "nature photographer"
+        },
+        {
+          "qid": "Q11496048",
+          "label": "war photographer"
+        }
+      ]
+    },
+    {
+      "category": "illustration-comics",
+      "occupations": [
+        {
+          "qid": "Q644687",
+          "label": "illustrator"
+        },
+        {
+          "qid": "Q1114448",
+          "label": "cartoonist"
+        },
+        {
+          "qid": "Q715301",
+          "label": "comics artist"
+        },
+        {
+          "qid": "Q191633",
+          "label": "mangaka"
+        },
+        {
+          "qid": "Q28107590",
+          "label": "concept artist"
+        },
+        {
+          "qid": "Q5762300",
+          "label": "storyboard artist"
+        },
+        {
+          "qid": "Q20002503",
+          "label": "story artist"
+        },
+        {
+          "qid": "Q266569",
+          "label": "animator"
+        }
+      ]
+    },
+    {
+      "category": "design-media",
+      "occupations": [
+        {
+          "qid": "Q5322166",
+          "label": "designer"
+        },
+        {
+          "qid": "Q627325",
+          "label": "graphic designer"
+        },
+        {
+          "qid": "Q18915967",
+          "label": "product designer"
+        },
+        {
+          "qid": "Q68200826",
+          "label": "user experience designer"
+        },
+        {
+          "qid": "Q11288554",
+          "label": "website designer"
+        },
+        {
+          "qid": "Q1229025",
+          "label": "typographer"
+        },
+        {
+          "qid": "Q354034",
+          "label": "type designer"
+        },
+        {
+          "qid": "Q706364",
+          "label": "art director"
+        },
+        {
+          "qid": "Q12369034",
+          "label": "creative director"
+        }
+      ]
+    },
+    {
+      "category": "art-world",
+      "occupations": [
+        {
+          "qid": "Q674426",
+          "label": "curator"
+        },
+        {
+          "qid": "Q780596",
+          "label": "exhibition curator"
+        },
+        {
+          "qid": "Q1792450",
+          "label": "art historian"
+        },
+        {
+          "qid": "Q4164507",
+          "label": "art critic"
+        },
+        {
+          "qid": "Q173950",
+          "label": "art dealer"
+        },
+        {
+          "qid": "Q20771242",
+          "label": "gallerist"
+        },
+        {
+          "qid": "Q15977927",
+          "label": "art educator"
+        }
+      ]
+    }
+  ]
+}

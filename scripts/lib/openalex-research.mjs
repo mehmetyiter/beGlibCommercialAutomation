@@ -162,6 +162,11 @@ export const allowedCategories = new Set([
   'wine-spirits',
   'restaurant-hospitality',
   'specialty-food',
+  'visual-arts',
+  'photography',
+  'illustration-comics',
+  'design-media',
+  'art-world',
 ]);
 
 export const sensitiveCategories = new Set([
