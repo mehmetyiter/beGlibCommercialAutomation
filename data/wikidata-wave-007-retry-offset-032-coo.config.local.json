@@ -1,0 +1,22 @@
+{
+  "waveId": "wikidata-wave-007-business-finance-leadership-retry-offset-032-coo",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata business, finance, consulting, and leadership occupation discovery",
+  "description": "Broad discovery wave for business leaders, executives, founders, investors, finance professionals, consultants, marketers, real estate developers, economists, accountants, and sales professionals. Discovery-only: no contact route collection. Retry config for offset 032 chief operating officer only.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 3000,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Retry-only local config for chief operating officer offset 032.",
+  "categories": [
+    {
+      "category": "business",
+      "occupations": [
+        {
+          "qid": "Q623279",
+          "label": "chief operating officer"
+        }
+      ]
+    }
+  ]
+}

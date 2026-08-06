@@ -1,0 +1,203 @@
+{
+  "batchId": "openalex-wave-001-broad-experts",
+  "createdAt": "2026-06-15T03:23:00.284Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection.",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged broad research wave from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5010317706",
+      "name": "Russell E. Glasgow",
+      "title": "Cancer Research Center researcher connected to clinical psychology public mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010317706",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4218-3231",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010317706",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010317706",
+        "https://orcid.org/0000-0003-4218-3231",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5109107195",
+      "name": "Robert S. Sikes",
+      "title": "University of Arkansas at Little Rock researcher connected to trauma psychology public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "Wildlife Ecology and Conservation",
+        "Human-Animal Interaction Studies",
+        "Species Distribution and Climate Change"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5109107195",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5109107195",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5109107195",
+        "https://openalex.org/W2398139753",
+        "https://doi.org/10.1093/jmammal/gyw078"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Wildlife Ecology and Conservation, Human-Animal Interaction Studies, Species Distribution and Climate Change. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5059382575",
+      "name": "Barbara Rogoff",
+      "title": "OpenAlex-indexed researcher connected to developmental psychology parenting education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Educational and Psychological Assessments",
+        "Early Childhood Education and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5059382575",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4153-3992",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5059382575",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5059382575",
+        "https://orcid.org/0000-0002-4153-3992",
+        "https://openalex.org/W4388250340",
+        "https://doi.org/10.1093/oso/9780195059731.001.0001"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Educational and Psychological Assessments, Early Childhood Education and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5021219790",
+      "name": "Robert S. Wyer",
+      "title": "OpenAlex-indexed researcher connected to social psychology communication behavior",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Misinformation and Its Impacts"
+      ],
+      "fitScore": 68,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5021219790",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3776-5678",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5021219790",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5021219790",
+        "https://orcid.org/0000-0002-3776-5678",
+        "https://openalex.org/W1557998370",
+        "https://doi.org/10.4324/9781315807102"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Misinformation and Its Impacts. Manual official-source review is required before any outreach."
+    }
+  ]
+}

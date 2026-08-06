@@ -1,0 +1,2345 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-technology",
+  "createdAt": "2026-06-15T03:18:51.200Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / technology",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-ralf-gommers",
+      "name": "Ralf Gommers",
+      "title": "Quansight (United States) researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0002-0300-3333",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0300-3333",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0002-0300-3333",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0002-0300-3333",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-matt-haberland",
+      "name": "Matt Haberland",
+      "title": "California Polytechnic State University researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0003-4806-3601",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4806-3601",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0003-4806-3601",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0003-4806-3601",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-tyler-reddy",
+      "name": "Tyler Reddy",
+      "title": "Los Alamos National Laboratory researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0003-2364-6157",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2364-6157",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0003-2364-6157",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0003-2364-6157",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-stefan-j-van-der-walt",
+      "name": "Stéfan J. van der Walt",
+      "title": "University of California, Berkeley researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0001-9276-1891",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9276-1891",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0001-9276-1891",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0001-9276-1891",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-k-jarrod-millman",
+      "name": "K. Jarrod Millman",
+      "title": "University of California, Berkeley researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0002-5263-5070",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5263-5070",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0002-5263-5070",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0002-5263-5070",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-andrew-r-j-nelson",
+      "name": "Andrew R. J. Nelson",
+      "title": "Australian Nuclear Science and Technology Organisation researcher connected to open source software education",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0002-4548-3558",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4548-3558",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0002-4548-3558",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0002-4548-3558",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-denis-laxalde",
+      "name": "Denis Laxalde",
+      "title": "OpenAlex-indexed researcher connected to open source software education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0002-5540-4825",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5540-4825",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0002-5540-4825",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0002-5540-4825",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-antonio-h-ribeiro",
+      "name": "Antônio H. Ribeiro",
+      "title": "Universidade Federal de Minas Gerais researcher connected to open source software education",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0003-3632-8529",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3632-8529",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0003-3632-8529",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0003-3632-8529",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-paul-van-mulbregt",
+      "name": "Paul van Mulbregt",
+      "title": "Google (United States) researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://orcid.org/0000-0002-2382-8308",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2382-8308",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://orcid.org/0000-0002-2382-8308",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://orcid.org/0000-0002-2382-8308",
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-pauli-virtanen",
+      "name": "Pauli Virtanen",
+      "title": "University of Jyväskylä researcher connected to open source software education",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/W3003257820",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/W3003257820",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-travis-e-oliphant",
+      "name": "Travis E. Oliphant",
+      "title": "Brigham Young University researcher connected to open source software education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/W3003257820",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/W3003257820",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-david-cournapeau",
+      "name": "David Cournapeau",
+      "title": "OpenAlex-indexed researcher connected to open source software education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "open source software education",
+        "Computational Physics and Python Applications",
+        "Scientific Computing and Data Management",
+        "Genetics, Bioinformatics, and Biomedical Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/W3003257820",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/W3003257820",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/W3003257820",
+        "https://doi.org/10.1038/s41592-019-0686-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Computational Physics and Python Applications, Scientific Computing and Data Management, Genetics, Bioinformatics, and Biomedical Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5080358515",
+      "name": "Morgan Cheatham",
+      "title": "Brown University researcher connected to cybersecurity public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5080358515",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4688-058X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5080358515",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5080358515",
+        "https://orcid.org/0000-0002-4688-058X",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5026590179",
+      "name": "Victor Tseng",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5026590179",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1380-2240",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5026590179",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5026590179",
+        "https://orcid.org/0000-0003-1380-2240",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5055949685",
+      "name": "Tiffany H. Kung",
+      "title": "Massachusetts General Hospital researcher connected to cybersecurity public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5055949685",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5055949685",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5055949685",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5015894459",
+      "name": "Arielle Medenilla",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5015894459",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5015894459",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5015894459",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5087687954",
+      "name": "Czarina Sillos",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5087687954",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5087687954",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5087687954",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5003016349",
+      "name": "Lorie De Leon",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5003016349",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5003016349",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5003016349",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5072923710",
+      "name": "Camille Elepaño",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5072923710",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5072923710",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5072923710",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5069780423",
+      "name": "Maria Madriaga",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5069780423",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5069780423",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5069780423",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5071379154",
+      "name": "Rimel Aggabao",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5071379154",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5071379154",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5071379154",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5079156966",
+      "name": "Giezel Diaz-Candido",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5079156966",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5079156966",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5079156966",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5001189652",
+      "name": "James Maningo",
+      "title": "OpenAlex-indexed researcher connected to cybersecurity public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Healthcare cost, quality, practices",
+        "Machine Learning in Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5001189652",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5001189652",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5001189652",
+        "https://openalex.org/W4319662928",
+        "https://doi.org/10.1371/journal.pdig.0000198"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Healthcare cost, quality, practices, Machine Learning in Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5086563544",
+      "name": "Malik Sallam",
+      "title": "University of Jordan researcher connected to cybersecurity public education",
+      "country": "Jordan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "cybersecurity public education",
+        "Artificial Intelligence in Healthcare and Education",
+        "Ethics in Clinical Research",
+        "COVID-19 diagnosis using AI"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5086563544",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0165-9670",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5086563544",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5086563544",
+        "https://orcid.org/0000-0002-0165-9670",
+        "https://openalex.org/W4327946446",
+        "https://doi.org/10.3390/healthcare11060887"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, Ethics in Clinical Research, COVID-19 diagnosis using AI. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5003640520",
+      "name": "Anubhav Jain",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5003640520",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5893-9967",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5003640520",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5003640520",
+        "https://orcid.org/0000-0001-5893-9967",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5002723657",
+      "name": "Shyue Ping Ong",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5002723657",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5726-2587",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5002723657",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5002723657",
+        "https://orcid.org/0000-0001-5726-2587",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5027208775",
+      "name": "Geoffroy Hautier",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5027208775",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1754-2220",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5027208775",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5027208775",
+        "https://orcid.org/0000-0003-1754-2220",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5100344385",
+      "name": "Wei Chen",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5100344385",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1135-7721",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5100344385",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5100344385",
+        "https://orcid.org/0000-0002-1135-7721",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5060911052",
+      "name": "Shreyas Cholia",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5060911052",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4775-8201",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5060911052",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5060911052",
+        "https://orcid.org/0000-0002-4775-8201",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5027568646",
+      "name": "Dan Gunter",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5027568646",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2779-2744",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5027568646",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5027568646",
+        "https://orcid.org/0000-0002-2779-2744",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5012176604",
+      "name": "David Skinner",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5012176604",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8169-3958",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5012176604",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5012176604",
+        "https://orcid.org/0000-0002-8169-3958",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5014983956",
+      "name": "Gerbrand Ceder",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5014983956",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9275-3605",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5014983956",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5014983956",
+        "https://orcid.org/0000-0001-9275-3605",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5037535334",
+      "name": "Kristin A. Persson",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5037535334",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2495-5509",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5037535334",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5037535334",
+        "https://orcid.org/0000-0003-2495-5509",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5109880306",
+      "name": "William D. Richards",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5109880306",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5109880306",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5109880306",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5070799902",
+      "name": "Stephen Dacek",
+      "title": "Lawrence Berkeley National Laboratory researcher connected to product strategy technology innovation",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Machine Learning in Materials Science",
+        "Inorganic Chemistry and Materials",
+        "X-ray Diffraction in Crystallography"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5070799902",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5070799902",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5070799902",
+        "https://openalex.org/W1992985800",
+        "https://doi.org/10.1063/1.4812323"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Machine Learning in Materials Science, Inorganic Chemistry and Materials, X-ray Diffraction in Crystallography. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5102871257",
+      "name": "Rebecca Henderson",
+      "title": "OpenAlex-indexed researcher connected to product strategy technology innovation",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "product strategy technology innovation",
+        "Innovation and Knowledge Management",
+        "Business Strategy and Innovation",
+        "University-Industry-Government Innovation Models"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5102871257",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5902-1891",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5102871257",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5102871257",
+        "https://orcid.org/0000-0001-5902-1891",
+        "https://openalex.org/W2095561982",
+        "https://doi.org/10.2307/2393549"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Innovation and Knowledge Management, Business Strategy and Innovation, University-Industry-Government Innovation Models. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018294641",
+      "name": "Selin Akgün",
+      "title": "Michigan State University researcher connected to AI builders developer education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Online Learning and Analytics",
+        "Ethics and Social Impacts of AI",
+        "Adversarial Robustness in Machine Learning"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018294641",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6672-498X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018294641",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018294641",
+        "https://orcid.org/0000-0002-6672-498X",
+        "https://openalex.org/W3199189488",
+        "https://doi.org/10.1007/s43681-021-00096-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Ethics and Social Impacts of AI, Adversarial Robustness in Machine Learning. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032984793",
+      "name": "Christine Greenhow",
+      "title": "Michigan State University researcher connected to AI builders developer education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Online Learning and Analytics",
+        "Ethics and Social Impacts of AI",
+        "Adversarial Robustness in Machine Learning"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032984793",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5637-2319",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032984793",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032984793",
+        "https://orcid.org/0000-0002-5637-2319",
+        "https://openalex.org/W3199189488",
+        "https://doi.org/10.1007/s43681-021-00096-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Ethics and Social Impacts of AI, Adversarial Robustness in Machine Learning. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5052623072",
+      "name": "Ben Shneiderman",
+      "title": "University of Maryland, College Park researcher connected to AI builders developer education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Impact of AI and Big Data on Business and Society"
+      ],
+      "fitScore": 68,
+      "reachScore": 85,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5052623072",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8298-1097",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5052623072",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5052623072",
+        "https://orcid.org/0000-0002-8298-1097",
+        "https://openalex.org/W4213145388",
+        "https://doi.org/10.1093/oso/9780192845290.001.0001"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Impact of AI and Big Data on Business and Society. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5019517189",
+      "name": "M. Mazhar Rathore",
+      "title": "Hamad bin Khalifa University researcher connected to AI builders developer education",
+      "country": "Qatar",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Digital Transformation in Industry",
+        "Economic and Technological Systems Analysis",
+        "Economic and Technological Developments in Russia"
+      ],
+      "fitScore": 76,
+      "reachScore": 84,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5019517189",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0701-9850",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5019517189",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5019517189",
+        "https://orcid.org/0000-0002-0701-9850",
+        "https://openalex.org/W3132985895",
+        "https://doi.org/10.1109/access.2021.3060863"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Economic and Technological Systems Analysis, Economic and Technological Developments in Russia. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5023820143",
+      "name": "Syed Attique Shah",
+      "title": "University of Tartu researcher connected to AI builders developer education",
+      "country": "Estonia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Digital Transformation in Industry",
+        "Economic and Technological Systems Analysis",
+        "Economic and Technological Developments in Russia"
+      ],
+      "fitScore": 76,
+      "reachScore": 84,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5023820143",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2949-7391",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5023820143",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5023820143",
+        "https://orcid.org/0000-0003-2949-7391",
+        "https://openalex.org/W3132985895",
+        "https://doi.org/10.1109/access.2021.3060863"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Economic and Technological Systems Analysis, Economic and Technological Developments in Russia. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5055515270",
+      "name": "Dhirendra Shukla",
+      "title": "University of New Brunswick researcher connected to AI builders developer education",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Digital Transformation in Industry",
+        "Economic and Technological Systems Analysis",
+        "Economic and Technological Developments in Russia"
+      ],
+      "fitScore": 76,
+      "reachScore": 84,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5055515270",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0036-714X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5055515270",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5055515270",
+        "https://orcid.org/0000-0002-0036-714X",
+        "https://openalex.org/W3132985895",
+        "https://doi.org/10.1109/access.2021.3060863"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Economic and Technological Systems Analysis, Economic and Technological Developments in Russia. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5060837020",
+      "name": "Elmahdi Bentafat",
+      "title": "Hamad bin Khalifa University researcher connected to AI builders developer education",
+      "country": "Qatar",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Digital Transformation in Industry",
+        "Economic and Technological Systems Analysis",
+        "Economic and Technological Developments in Russia"
+      ],
+      "fitScore": 76,
+      "reachScore": 84,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5060837020",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9801-5582",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5060837020",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5060837020",
+        "https://orcid.org/0000-0001-9801-5582",
+        "https://openalex.org/W3132985895",
+        "https://doi.org/10.1109/access.2021.3060863"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Economic and Technological Systems Analysis, Economic and Technological Developments in Russia. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5058242659",
+      "name": "Spiridon Bakiras",
+      "title": "Hamad bin Khalifa University researcher connected to AI builders developer education",
+      "country": "Qatar",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Digital Transformation in Industry",
+        "Economic and Technological Systems Analysis",
+        "Economic and Technological Developments in Russia"
+      ],
+      "fitScore": 76,
+      "reachScore": 84,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5058242659",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8964-0746",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5058242659",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5058242659",
+        "https://orcid.org/0000-0002-8964-0746",
+        "https://openalex.org/W3132985895",
+        "https://doi.org/10.1109/access.2021.3060863"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Economic and Technological Systems Analysis, Economic and Technological Developments in Russia. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5071062179",
+      "name": "Qinglin Yang",
+      "title": "Sun Yat-sen University researcher connected to AI builders developer education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Blockchain Technology Applications and Security",
+        "IoT and Edge/Fog Computing",
+        "Virtual Reality Applications and Impacts"
+      ],
+      "fitScore": 76,
+      "reachScore": 83,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5071062179",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7263-8914",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5071062179",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5071062179",
+        "https://orcid.org/0000-0002-7263-8914",
+        "https://openalex.org/W4226225860",
+        "https://doi.org/10.1109/ojcs.2022.3188249"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Blockchain Technology Applications and Security, IoT and Edge/Fog Computing, Virtual Reality Applications and Impacts. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5047931252",
+      "name": "Huawei Huang",
+      "title": "Sun Yat-sen University researcher connected to AI builders developer education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Blockchain Technology Applications and Security",
+        "IoT and Edge/Fog Computing",
+        "Virtual Reality Applications and Impacts"
+      ],
+      "fitScore": 76,
+      "reachScore": 83,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5047931252",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7035-6446",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5047931252",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5047931252",
+        "https://orcid.org/0000-0002-7035-6446",
+        "https://openalex.org/W4226225860",
+        "https://doi.org/10.1109/ojcs.2022.3188249"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Blockchain Technology Applications and Security, IoT and Edge/Fog Computing, Virtual Reality Applications and Impacts. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5005327587",
+      "name": "Zehui Xiong",
+      "title": "Singapore University of Technology and Design researcher connected to AI builders developer education",
+      "country": "Singapore",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Blockchain Technology Applications and Security",
+        "IoT and Edge/Fog Computing",
+        "Virtual Reality Applications and Impacts"
+      ],
+      "fitScore": 76,
+      "reachScore": 83,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5005327587",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4440-941X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5005327587",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5005327587",
+        "https://orcid.org/0000-0002-4440-941X",
+        "https://openalex.org/W4226225860",
+        "https://doi.org/10.1109/ojcs.2022.3188249"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Blockchain Technology Applications and Security, IoT and Edge/Fog Computing, Virtual Reality Applications and Impacts. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5062761975",
+      "name": "Jiawen Kang",
+      "title": "Guangdong University of Technology researcher connected to AI builders developer education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "technology",
+      "subcategories": [
+        "AI builders developer education",
+        "Blockchain Technology Applications and Security",
+        "IoT and Edge/Fog Computing",
+        "Virtual Reality Applications and Impacts"
+      ],
+      "fitScore": 76,
+      "reachScore": 83,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5062761975",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8218-3490",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5062761975",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5062761975",
+        "https://orcid.org/0000-0002-8218-3490",
+        "https://openalex.org/W4226225860",
+        "https://doi.org/10.1109/ojcs.2022.3188249"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Blockchain Technology Applications and Security, IoT and Edge/Fog Computing, Virtual Reality Applications and Impacts. Manual official-source review is required before any outreach."
+    }
+  ]
+}

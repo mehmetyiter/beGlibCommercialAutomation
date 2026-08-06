@@ -1,0 +1,1950 @@
+{
+  "batchId": "wikidata-wave-016-travel-outdoor-hospitality",
+  "createdAt": "2026-06-17T03:37:20.646Z",
+  "sourceLabel": "Wikidata travel, outdoor, aviation, maritime, and hospitality occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Travel, outdoor, hospitality, booking, agency, sponsor, and representative pages require identity and representation review before campaign use.",
+  "candidates": [
+    {
+      "id": "wikidata-Q485365",
+      "name": "Bear Grylls",
+      "title": "English adventurer, writer and television presenter (born 1974) connected to adventurer",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "adventurer",
+        "English adventurer, writer and television presenter (born 1974)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q485365",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Bear_Grylls",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.beargrylls.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCAZwxqGMVG5qdFlZnjVX7og",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/BearGrylls",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/beargrylls/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/RealBearGrylls",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q485365",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q485365",
+        "https://en.wikipedia.org/wiki/Bear_Grylls",
+        "http://www.beargrylls.com/",
+        "https://www.youtube.com/channel/UCAZwxqGMVG5qdFlZnjVX7og",
+        "https://x.com/BearGrylls",
+        "https://www.instagram.com/beargrylls/",
+        "https://www.facebook.com/RealBearGrylls"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as adventurer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q63241375",
+      "name": "Drew Binsky",
+      "title": "American travel video maker, blogger and social media influencer connected to travel blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel blogger",
+        "American travel video maker, blogger and social media influencer"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q63241375",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Drew_Binsky",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://drewbinsky.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC0Ize0RLIbGdH5x4wI45G-A",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/drewbinsky/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/drewbinsky",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q63241375",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q63241375",
+        "https://en.wikipedia.org/wiki/Drew_Binsky",
+        "https://drewbinsky.com/",
+        "https://www.youtube.com/channel/UC0Ize0RLIbGdH5x4wI45G-A",
+        "https://www.instagram.com/drewbinsky/",
+        "https://www.facebook.com/drewbinsky"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116464",
+      "name": "James Stavridis",
+      "title": "US Navy admiral connected to sailor",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime",
+      "subcategories": [
+        "sailor",
+        "US Navy admiral"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116464",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/James_G._Stavridis",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://admiralstav.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/stavridisj",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/james.stavridis",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jimstavridis",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116464",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116464",
+        "https://en.wikipedia.org/wiki/James_G._Stavridis",
+        "https://admiralstav.com/",
+        "https://x.com/stavridisj",
+        "https://www.facebook.com/james.stavridis",
+        "https://www.linkedin.com/in/jimstavridis"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as sailor. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q26935201",
+      "name": "Isabella Tree",
+      "title": "British writer and conservationist connected to travel journalist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel journalist",
+        "British writer and conservationist"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q26935201",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Isabella_Tree",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.isabellatree.com/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/isabella.tree/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/isabella.tree.77",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q26935201",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q26935201",
+        "https://en.wikipedia.org/wiki/Isabella_Tree",
+        "https://www.isabellatree.com/",
+        "https://www.instagram.com/isabella.tree/",
+        "https://www.facebook.com/isabella.tree.77"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q28913458",
+      "name": "Luca Pferdmenges",
+      "title": "German juggler and influencer connected to travel influencer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel influencer",
+        "German juggler and influencer"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q28913458",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Luca_Pferdmenges",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://thegermantravelguy.com",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thegermantravelguy/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@thegermantravelguy",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q28913458",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q28913458",
+        "https://en.wikipedia.org/wiki/Luca_Pferdmenges",
+        "https://thegermantravelguy.com",
+        "https://www.instagram.com/thegermantravelguy/",
+        "https://www.tiktok.com/@thegermantravelguy"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q78893",
+      "name": "Wolfgang Puck",
+      "title": "Austrian-American chef and restaurateur connected to restaurateur",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "restaurateur",
+        "Austrian-American chef and restaurateur"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q78893",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://wolfgangpuck.com/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/wolfgangpuck/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@wolfgangpuck",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q78893",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q78893",
+        "https://en.wikipedia.org/wiki/Wolfgang_Puck",
+        "https://wolfgangpuck.com/",
+        "https://www.instagram.com/wolfgangpuck/",
+        "https://www.tiktok.com/@wolfgangpuck"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q156707",
+      "name": "Sean Kelly",
+      "title": "Irish former professional road bicycle racer connected to tour guide",
+      "country": "Ireland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "tour guide",
+        "Irish former professional road bicycle racer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q156707",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Sean_Kelly_(cyclist)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.seankellycycling.com/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/seankelly.cc/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q156707",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q156707",
+        "https://en.wikipedia.org/wiki/Sean_Kelly_(cyclist)",
+        "http://www.seankellycycling.com/",
+        "https://www.instagram.com/seankelly.cc/"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as tour guide. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q67452",
+      "name": "Alexander Huber",
+      "title": "German rock climber connected to mountaineer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "mountaineer",
+        "German rock climber"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q67452",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Huber",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.huberbuam.de",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/alexander_huberbuam/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q67452",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q67452",
+        "https://en.wikipedia.org/wiki/Alexander_Huber",
+        "http://www.huberbuam.de",
+        "https://www.instagram.com/alexander_huberbuam/"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as mountaineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q102347210",
+      "name": "Nicolas Collin",
+      "title": "Belgian sport climber connected to rock climber",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "rock climber",
+        "Belgian sport climber"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q102347210",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nicolas_Collin",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nicolas_collin98/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Nicolas.COLLIN.Belgium",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q102347210",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q102347210",
+        "https://en.wikipedia.org/wiki/Nicolas_Collin",
+        "https://www.instagram.com/nicolas_collin98/",
+        "https://www.facebook.com/Nicolas.COLLIN.Belgium"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as rock climber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q72867",
+      "name": "Craig Ferguson",
+      "title": "British actor connected to aircraft pilot",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation",
+      "subcategories": [
+        "aircraft pilot",
+        "British actor"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q72867",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Craig_Ferguson",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.thecraigfergusonshow.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/CraigyFerg",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q72867",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q72867",
+        "https://en.wikipedia.org/wiki/Craig_Ferguson",
+        "https://www.thecraigfergusonshow.com",
+        "https://x.com/CraigyFerg"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as aircraft pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q82677",
+      "name": "Gal Fridman",
+      "title": "Israeli windsurfer connected to sport sailor",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime",
+      "subcategories": [
+        "sport sailor",
+        "sailor",
+        "Israeli windsurfer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q82677",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gal_Fridman",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fridman_gal/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/isr18",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q82677",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q82677",
+        "https://en.wikipedia.org/wiki/Gal_Fridman",
+        "https://www.instagram.com/fridman_gal/",
+        "https://www.facebook.com/isr18"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as sport sailor. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q366700",
+      "name": "Klaus Voormann",
+      "title": "German musician and artist connected to hotel owner",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "hotel owner",
+        "German musician and artist"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q366700",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Klaus_Voormann",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.voormann.com",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/KlausVoormann",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q366700",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q366700",
+        "https://en.wikipedia.org/wiki/Klaus_Voormann",
+        "http://www.voormann.com",
+        "https://www.facebook.com/KlausVoormann"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as hotel owner. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q180680",
+      "name": "Fiona Pitt-Kethley",
+      "title": "British writer (born 1954) connected to travel writer",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel writer",
+        "British writer (born 1954)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q180680",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Fiona_Pitt-Kethley",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/pittkethley",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q180680",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q180680",
+        "https://en.wikipedia.org/wiki/Fiona_Pitt-Kethley",
+        "https://x.com/pittkethley"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q7518398",
+      "name": "Simon Calder",
+      "title": "Travel journalist connected to travel journalist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel journalist",
+        "Travel journalist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q7518398",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Simon_Calder",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/SimonCalder",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q7518398",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q7518398",
+        "https://en.wikipedia.org/wiki/Simon_Calder",
+        "https://x.com/SimonCalder"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q7331775",
+      "name": "Rick Steves",
+      "title": "American travel writer and television host connected to travel blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel blogger",
+        "American travel writer and television host"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q7331775",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Rick_Steves",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.ricksteves.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q7331775",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q7331775",
+        "https://en.wikipedia.org/wiki/Rick_Steves",
+        "https://www.ricksteves.com/"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q512307",
+      "name": "Camilla Andersen",
+      "title": "Danish handball player connected to travel agent",
+      "country": "Kingdom of Denmark",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel agent",
+        "Danish handball player"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q512307",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Camilla_Andersen",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/camillaandersen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q512307",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q512307",
+        "https://en.wikipedia.org/wiki/Camilla_Andersen",
+        "https://www.linkedin.com/in/camillaandersen"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel agent. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q78264",
+      "name": "Arved Fuchs",
+      "title": "German explorer and author connected to explorer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "explorer",
+        "German explorer and author"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q78264",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Arved_Fuchs",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.arved-fuchs.de",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q78264",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q78264",
+        "https://en.wikipedia.org/wiki/Arved_Fuchs",
+        "http://www.arved-fuchs.de"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as explorer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q70480",
+      "name": "Wyn Hoop",
+      "title": "German singer connected to sport sailor",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime",
+      "subcategories": [
+        "sport sailor",
+        "sailor",
+        "German singer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q70480",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Wyn_Hoop",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://horn-hoop-maritim.de/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q70480",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q70480",
+        "https://en.wikipedia.org/wiki/Wyn_Hoop",
+        "http://horn-hoop-maritim.de/"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as sport sailor. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q703368",
+      "name": "Xavier Chen",
+      "title": "footballer connected to restaurant owner",
+      "country": "Taiwan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "restaurant owner",
+        "footballer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q703368",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Xavier_Chen",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/XavierChen.08",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q703368",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q703368",
+        "https://en.wikipedia.org/wiki/Xavier_Chen",
+        "https://www.facebook.com/XavierChen.08"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as restaurant owner. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q237420",
+      "name": "Donna Leon",
+      "title": "American crime novelist (born 1942) connected to travel guide",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel guide",
+        "American crime novelist (born 1942)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q237420",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Donna_Leon",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q237420",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q237420",
+        "https://en.wikipedia.org/wiki/Donna_Leon"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel guide. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q294893",
+      "name": "Viktor Kassai",
+      "title": "Hungarian football referee connected to travel agent",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel agent",
+        "Hungarian football referee"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q294893",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Viktor_Kassai",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q294893",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q294893",
+        "https://en.wikipedia.org/wiki/Viktor_Kassai"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel agent. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q67144",
+      "name": "Stefan Klein",
+      "title": "German science writer connected to mountaineer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "mountaineer",
+        "German science writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q67144",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Stefan_Klein",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q67144",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q67144",
+        "https://en.wikipedia.org/wiki/Stefan_Klein"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as mountaineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q103907839",
+      "name": "Nazia Parveen",
+      "title": "Federally Administered Tribal Areas' first female rock-climbing athlete connected to rock climber",
+      "country": "Pakistan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "rock climber",
+        "Federally Administered Tribal Areas' first female rock-climbing athlete"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q103907839",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nazia_Parveen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q103907839",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q103907839",
+        "https://en.wikipedia.org/wiki/Nazia_Parveen"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as rock climber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q70853",
+      "name": "Eberhard Köllner",
+      "title": "German astronaut connected to aircraft pilot",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation",
+      "subcategories": [
+        "aircraft pilot",
+        "German astronaut"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q70853",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eberhard_K%C3%B6llner",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q70853",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q70853",
+        "https://en.wikipedia.org/wiki/Eberhard_K%C3%B6llner"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as aircraft pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126052",
+      "name": "John Andrews",
+      "title": "United States Navy Medal of Honor recipient connected to sailor",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime",
+      "subcategories": [
+        "sailor",
+        "United States Navy Medal of Honor recipient"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126052",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/John_Andrews_(Medal_of_Honor)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126052",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126052",
+        "https://en.wikipedia.org/wiki/John_Andrews_(Medal_of_Honor)"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as sailor. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q121033",
+      "name": "Urs Schwarzenbach",
+      "title": "Swiss businessman connected to hotel manager",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "hotel manager",
+        "Swiss businessman"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q121033",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Urs_Schwarzenbach",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q121033",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q121033",
+        "https://en.wikipedia.org/wiki/Urs_Schwarzenbach"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as hotel manager. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q264615",
+      "name": "Marian van de Wal",
+      "title": "Dutch singer connected to hotel owner",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "hotel owner",
+        "Dutch singer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q264615",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Marian_van_de_Wal",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q264615",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q264615",
+        "https://en.wikipedia.org/wiki/Marian_van_de_Wal"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as hotel owner. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q70879",
+      "name": "Thore Schölermann",
+      "title": "German actor connected to restaurateur",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "restaurateur",
+        "German actor"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q70879",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Thore_Sch%C3%B6lermann",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q70879",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q70879",
+        "https://en.wikipedia.org/wiki/Thore_Sch%C3%B6lermann"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1290170",
+      "name": "Ferenc Somorjai",
+      "title": "Hungarian artist, historian, writer connected to tour guide",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "tour guide",
+        "Hungarian artist, historian, writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1290170",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.szeged-idegenvezetes.hu",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1290170",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1290170",
+        "http://www.szeged-idegenvezetes.hu"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as tour guide. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q118271",
+      "name": "Mik Berger",
+      "title": "German writer connected to travel writer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel writer",
+        "German writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q118271",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q118271",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q118271"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q825640",
+      "name": "Bernhard Moestl",
+      "title": "Austrian writer connected to travel guide",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "travel",
+      "subcategories": [
+        "travel guide",
+        "Austrian writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q825640",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q825640",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q825640"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as travel guide. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q100515",
+      "name": "Wolfgang Jöhling",
+      "title": "German translator, opinion journalist and photographer connected to explorer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "explorer",
+        "German translator, opinion journalist and photographer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q100515",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q100515",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q100515"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as explorer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q162293",
+      "name": "Anders Högström",
+      "title": "Swedish neo-Nazi connected to adventurer",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "adventurer",
+        "Swedish neo-Nazi"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q162293",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q162293",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q162293"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as adventurer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q119860293",
+      "name": "Marceau Garnier",
+      "title": "climber connected to climber",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "outdoor",
+      "subcategories": [
+        "climber"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q119860293",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q119860293",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q119860293"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as climber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q109984",
+      "name": "Markus Del Monego",
+      "title": "German hotel manager connected to hotel manager",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "hotel manager",
+        "German hotel manager"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q109984",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q109984",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q109984"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as hotel manager. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1382892",
+      "name": "Ewald Plachutta",
+      "title": "Austrian chef and restaurant owner connected to restaurant owner",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "hospitality",
+      "subcategories": [
+        "restaurant owner",
+        "Austrian chef and restaurant owner"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1382892",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1382892",
+          "verifiedAt": "2026-06-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1382892"
+      ],
+      "lastVerifiedAt": "2026-06-17",
+      "rationale": "Wikidata public metadata lists this person as restaurant owner. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 19,
+    "occupationsSucceeded": 19,
+    "failures": [],
+    "limitPerOccupation": 2,
+    "offset": 0,
+    "minSitelinks": 2,
+    "rankBySitelinks": false
+  }
+}

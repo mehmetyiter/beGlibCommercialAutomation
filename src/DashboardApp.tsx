@@ -45,6 +45,8 @@ interface DossierSummary {
   contactPageCandidates?: number;
   candidatesWithPublicEmail?: number;
   candidatesWithContactCandidate?: number;
+  quarantinedChannelCandidates?: number;
+  quarantinedContactCandidates?: number;
   creatorSuggestions?: number;
   sensitiveReviewRequired?: number;
   discoveryStars?: Record<string, number>;
@@ -69,6 +71,8 @@ interface DossierCounts {
   affiliations?: number;
   searchTargets?: number;
   sourcePackages?: number;
+  quarantinedChannels?: number;
+  quarantinedContactCandidates?: number;
 }
 
 interface DiscoveryChannel {
@@ -79,6 +83,12 @@ interface DiscoveryChannel {
   verified?: boolean;
   confidence?: string;
   evidence?: string[];
+  role?: string;
+  identityAttribution?: string;
+  identityScore?: number;
+  identityConfidence?: string;
+  identityEvidence?: string[];
+  eligibleForReview?: boolean;
 }
 
 interface ContactCandidate {
@@ -86,8 +96,17 @@ interface ContactCandidate {
   type?: string;
   value?: string;
   sourceUrl?: string;
+  sourceApiUrl?: string;
   label?: string;
   reason?: string;
+  role?: string;
+  linkText?: string;
+  contextText?: string;
+  identityAttribution?: string;
+  identityScore?: number;
+  identityConfidence?: string;
+  identityEvidence?: string[];
+  eligibleForReview?: boolean;
   verified?: boolean;
   reviewerNote?: string;
 }
@@ -118,6 +137,8 @@ interface CandidateDossier {
   counts?: DossierCounts;
   discoveryChannels?: DiscoveryChannel[];
   contactCandidates?: ContactCandidate[];
+  quarantinedChannels?: DiscoveryChannel[];
+  quarantinedContactCandidates?: ContactCandidate[];
   sourceUrls?: string[];
   searchTargets?: string[];
   reviewChecks?: string[];
@@ -131,6 +152,7 @@ interface DossierPackage {
   sourceLabel?: string | null;
   sourceFile?: string;
   mode?: string;
+  qualityVersion?: string;
   inputDir?: string;
   discoveryPackageFiles?: string[];
   summary?: DossierSummary;
@@ -247,7 +269,7 @@ function DashboardApp() {
 
         setDashboard(parsed);
         setStatus('ready');
-        setSelectedDatasetId((current) => current || parsed.activeDatasetId);
+        setSelectedDatasetId(parsed.activeDatasetId);
       } catch (error) {
         if (controller.signal.aborted) {
           return;
@@ -310,6 +332,7 @@ function DashboardApp() {
       }
 
       setDashboard(parsed);
+      setSelectedDatasetId(parsed.activeDatasetId);
       setStatus('ready');
       setErrorMessage('');
     } catch (error) {
@@ -485,7 +508,7 @@ function DashboardApp() {
     const lines =
       contacts.length > 0
         ? contacts.map((contact) =>
-            [contact.type ?? 'contact', contact.value ?? '', contact.sourceUrl ?? ''].join('\t'),
+            [contact.role ?? contact.type ?? 'contact', contact.value ?? '', contact.sourceUrl ?? ''].join('\t'),
           )
         : (selectedDossier.sourceUrls ?? []).map((url) => `source\t${url}`);
 
@@ -863,6 +886,10 @@ function CandidateDetail({
   const contacts = getContacts(dossier);
   const emails = contacts.filter((contact) => isEmailContact(contact));
   const contactPages = contacts.filter((contact) => !isEmailContact(contact));
+  const quarantinedChannels =
+    dossier.counts?.quarantinedChannels ?? dossier.quarantinedChannels?.length ?? 0;
+  const quarantinedContacts =
+    dossier.counts?.quarantinedContactCandidates ?? dossier.quarantinedContactCandidates?.length ?? 0;
   const primaryUrl = getPrimaryUrl(dossier);
 
   return (
@@ -955,6 +982,13 @@ function CandidateDetail({
               {flag}
             </span>
           ))}
+          {quarantinedChannels + quarantinedContacts > 0 && (
+            <span>
+              Karantina: {formatNumber(quarantinedChannels)} iliskilendirilmemis kanal,{' '}
+              {formatNumber(quarantinedContacts)} iliskilendirilmemis iletisim kaydi. Ham kanit korunuyor;
+              aday iletisim listesine ve yildiz puanina dahil edilmiyor.
+            </span>
+          )}
         </div>
       </DetailSection>
     </aside>
@@ -969,7 +1003,7 @@ function ContactItem({ contact }: { contact: ContactCandidate }) {
     <article className="contact-item">
       <div>
         <strong>{value || 'Unknown contact value'}</strong>
-        <span>{(contact.type ?? 'contact').replaceAll('-', ' ')}</span>
+        <span>{contactLabel(contact)}</span>
       </div>
       {sourceUrl && (
         <a href={sourceUrl} rel="noreferrer" target="_blank" aria-label="Open contact source">
@@ -1158,7 +1192,9 @@ function matchesQuery(dossier: CandidateDossier, normalizedQuery: string) {
     ...(dossier.subcategories ?? []),
     ...(dossier.sensitiveFlags ?? []),
     ...(dossier.sourceUrls ?? []),
-    ...getContacts(dossier).map((contact) => `${contact.type ?? ''} ${contact.value ?? ''}`),
+    ...getContacts(dossier).map(
+      (contact) => `${contact.role ?? ''} ${contact.label ?? ''} ${contact.type ?? ''} ${contact.value ?? ''}`,
+    ),
     ...(dossier.discoveryChannels ?? []).map(
       (channel) => `${channel.platform ?? ''} ${channel.label ?? ''} ${channel.url ?? ''}`,
     ),
@@ -1288,7 +1324,20 @@ function getCount(dossier: CandidateDossier, key: keyof DossierCounts) {
 }
 
 function getContacts(dossier: CandidateDossier) {
-  return (dossier.contactCandidates ?? []).filter((contact) => (contact.value ?? '').trim().length > 0);
+  const sortedContacts = (dossier.contactCandidates ?? [])
+    .filter((contact) => (contact.value ?? '').trim().length > 0)
+    .sort(compareContacts);
+
+  const seen = new Set<string>();
+  return sortedContacts.filter((contact) => {
+    const key = contactDisplayKey(contact);
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+    return true;
+  });
 }
 
 function getStars(dossier: CandidateDossier) {
@@ -1333,6 +1382,133 @@ function isEmailContact(contact: ContactCandidate) {
   const type = contact.type ?? '';
 
   return type.includes('email') || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function compareContacts(left: ContactCandidate, right: ContactCandidate) {
+  return contactRank(left) - contactRank(right) || (left.value ?? '').localeCompare(right.value ?? '');
+}
+
+function contactDisplayKey(contact: ContactCandidate) {
+  const value = contact.value ?? '';
+
+  if (isEmailContact(contact)) {
+    return `email|${value.toLowerCase()}`;
+  }
+
+  if (isPhoneContact(contact)) {
+    return `phone|${value.replace(/\D/g, '')}`;
+  }
+
+  return `route|${normalizeContactValue(value)}`;
+}
+
+function contactRank(contact: ContactCandidate) {
+  if (isPhoneContact(contact)) {
+    const role = contact.role ?? '';
+    if (role === 'direct-person') {
+      return 4;
+    }
+    if (role === 'support-staff') {
+      return 5;
+    }
+    return 6;
+  }
+
+  if (!isEmailContact(contact)) {
+    return 20;
+  }
+
+  const role = contact.role ?? inferContactRole(contact.value ?? '');
+  if (role === 'direct-person') {
+    return 0;
+  }
+  if (role === 'listed-person') {
+    return 1;
+  }
+  if (role === 'support-staff') {
+    return 2;
+  }
+  if (role === 'generic-office') {
+    return 7;
+  }
+
+  return 3;
+}
+
+function contactLabel(contact: ContactCandidate) {
+  const role = contact.role ?? inferContactRole(contact.value ?? '');
+  const typeLabel = (contact.type ?? 'contact').replaceAll('-', ' ');
+
+  if (role === 'direct-person') {
+    return isPhoneContact(contact) ? 'Direct public phone candidate' : 'Direct public email candidate';
+  }
+  if (role === 'listed-person' && isPhoneContact(contact)) {
+    return contact.label ? `${contact.label} public phone candidate` : 'Listed person public phone candidate';
+  }
+  if (role === 'support-staff' && isPhoneContact(contact)) {
+    return contact.label ? `${contact.label} support staff phone` : 'Support staff public phone candidate';
+  }
+  if (isPhoneContact(contact)) {
+    return 'Public phone candidate';
+  }
+
+  if (role === 'listed-person') {
+    return contact.label ? `${contact.label} public email candidate` : 'Listed person public email candidate';
+  }
+  if (role === 'support-staff') {
+    return contact.label ? `${contact.label} support staff email` : 'Support staff public email candidate';
+  }
+  if (role === 'generic-office') {
+    return 'Generic office public email candidate';
+  }
+
+  return typeLabel;
+}
+
+function inferContactRole(value: string) {
+  const localPart = value.split('@')[0]?.toLowerCase() ?? '';
+  const genericParts = new Set([
+    'admin',
+    'admissions',
+    'contact',
+    'events',
+    'hello',
+    'info',
+    'media',
+    'office',
+    'press',
+    'pr',
+    'secretariat',
+    'service',
+    'speakers',
+    'speakers_bureau',
+    'studies',
+    'support',
+    'webmaster',
+  ]);
+
+  if (genericParts.has(localPart) || /^(contact|info|press|media|office|support|webmaster)[._-]/.test(localPart)) {
+    return 'generic-office';
+  }
+
+  return 'public-email';
+}
+
+function isPhoneContact(contact: ContactCandidate) {
+  return (contact.type ?? '').includes('phone');
+}
+
+function normalizeContactValue(value: string) {
+  try {
+    const url = new URL(value);
+    url.hash = '';
+    if (url.pathname !== '/') {
+      url.pathname = url.pathname.replace(/\/+$/, '');
+    }
+    return url.toString();
+  } catch {
+    return value.trim().toLowerCase();
+  }
 }
 
 function normalizeRisk(dossier: CandidateDossier) {

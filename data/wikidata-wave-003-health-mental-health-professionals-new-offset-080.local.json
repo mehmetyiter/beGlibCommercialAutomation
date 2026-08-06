@@ -1,0 +1,4668 @@
+{
+  "batchId": "wikidata-wave-003-health-mental-health-professionals",
+  "createdAt": "2026-07-17T01:40:46.661Z",
+  "sourceLabel": "Wikidata health and mental-health newly discovered candidates at offset 80",
+  "researcher": "beGlib research wave runner",
+  "notes": "Identity-difference batch containing candidates absent from the previous all-wave dossier. Discovery-only; no outreach approval.",
+  "candidates": [
+    {
+      "id": "wikidata-Q6000623",
+      "name": "Illy",
+      "title": "Australian rapper connected to psychotherapist",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist",
+        "Australian rapper"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6000623",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Illy_(rapper)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.illyal.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCyi_zx-fo4wfc1pcU0PM3pQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/illyal",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/illyal/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/illyal",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6000623",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6000623",
+        "https://en.wikipedia.org/wiki/Illy_(rapper)",
+        "https://www.illyal.com/",
+        "https://www.youtube.com/channel/UCyi_zx-fo4wfc1pcU0PM3pQ",
+        "https://x.com/illyal",
+        "https://www.instagram.com/illyal/",
+        "https://www.facebook.com/illyal"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q7287916",
+      "name": "Ralph Northam",
+      "title": "Governor of Virginia from 2018 to 2022 connected to neurologist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "neurologist",
+        "Governor of Virginia from 2018 to 2022"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q7287916",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Northam",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://ralphnortham.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCSrEcJlzif7cpk3pgBW1T6w",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/GovernorVA",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/governorralphnortham/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ralph.northam",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/RalphNortham",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q7287916",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q7287916",
+        "https://en.wikipedia.org/wiki/Ralph_Northam",
+        "https://ralphnortham.com",
+        "https://www.youtube.com/channel/UCSrEcJlzif7cpk3pgBW1T6w",
+        "https://x.com/GovernorVA",
+        "https://www.instagram.com/governorralphnortham/",
+        "https://www.facebook.com/ralph.northam",
+        "https://x.com/RalphNortham"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neurologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q272205",
+      "name": "Starhawk",
+      "title": "American author, activist and Neopagan connected to psychologist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "American author, activist and Neopagan"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q272205",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Starhawk",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://starhawk.org/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Starhawk17",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/starhawk_spiral/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/StarhawkAuthor",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q272205",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q272205",
+        "https://en.wikipedia.org/wiki/Starhawk",
+        "https://starhawk.org/",
+        "https://x.com/Starhawk17",
+        "https://www.instagram.com/starhawk_spiral/",
+        "https://www.facebook.com/StarhawkAuthor"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q487909",
+      "name": "Anatoly Kashpirovsky",
+      "title": "Ukrainian psychotherapist, hypnotist and a controversial psychic healer connected to physician",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Ukrainian psychotherapist, hypnotist and a controversial psychic healer"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q487909",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Kashpirovsky",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.kashpirovskiy.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Kashpirovskiy",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/anatoly_kashpirovskiy/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/anatoly.kashpirovskiy",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q487909",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q487909",
+        "https://en.wikipedia.org/wiki/Anatoly_Kashpirovsky",
+        "http://www.kashpirovskiy.com/",
+        "https://x.com/Kashpirovskiy",
+        "https://www.instagram.com/anatoly_kashpirovskiy/",
+        "https://www.facebook.com/anatoly.kashpirovskiy"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3332699",
+      "name": "Olivier Véran",
+      "title": "French neurologist and politician connected to neurologist",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "neurologist",
+        "French neurologist and politician"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3332699",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Olivier_V%C3%A9ran",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.olivier-veran.fr/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/olivierveran",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/olivierveran/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@olivierveran",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3332699",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3332699",
+        "https://en.wikipedia.org/wiki/Olivier_V%C3%A9ran",
+        "http://www.olivier-veran.fr/",
+        "https://x.com/olivierveran",
+        "https://www.instagram.com/olivierveran/",
+        "https://www.tiktok.com/@olivierveran"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neurologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q28805348",
+      "name": "Claudia Langenberg",
+      "title": "researcher connected to epidemiologist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "researcher"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q28805348",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Claudia_Langenberg",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.bihealth.org/en/research/research-group/computational-medicine",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/claudia-langenberg-72a9423",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5017-7344",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q28805348",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q28805348",
+        "https://en.wikipedia.org/wiki/Claudia_Langenberg",
+        "https://www.bihealth.org/en/research/research-group/computational-medicine",
+        "https://www.linkedin.com/in/claudia-langenberg-72a9423",
+        "https://orcid.org/0000-0002-5017-7344"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16558301",
+      "name": "Gabriella Vico",
+      "title": "Italian volleyball player connected to nutritionist",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "Italian volleyball player"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16558301",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://snella.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCFVUTdn19SKB6g7XUM6mKCw",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gabriella.vico/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gabry.vico",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@gabriella.vico",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0003-0172-6890",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16558301",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16558301",
+        "https://snella.com",
+        "https://www.youtube.com/channel/UCFVUTdn19SKB6g7XUM6mKCw",
+        "https://www.instagram.com/gabriella.vico/",
+        "https://www.facebook.com/gabry.vico",
+        "https://www.tiktok.com/@gabriella.vico",
+        "https://orcid.org/0009-0003-0172-6890"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q468850",
+      "name": "Nora Berra",
+      "title": "French politician connected to physician",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "French politician"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q468850",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nora_Berra",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.noraberra.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/BerraNora",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q468850",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q468850",
+        "https://en.wikipedia.org/wiki/Nora_Berra",
+        "http://www.noraberra.com",
+        "https://x.com/BerraNora"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3351111",
+      "name": "Olivier Jardé",
+      "title": "French politician connected to surgeon",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "French politician"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3351111",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Olivier_Jard%C3%A9",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.olivierjarde.info",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/olivierjarde",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3351111",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3351111",
+        "https://en.wikipedia.org/wiki/Olivier_Jard%C3%A9",
+        "http://www.olivierjarde.info",
+        "https://x.com/olivierjarde"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3251404",
+      "name": "Viviana Gibelli",
+      "title": "Italian Venezuelan TV show host and beauty queen connected to pediatrician",
+      "country": "Venezuela",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "pediatrician",
+        "Italian Venezuelan TV show host and beauty queen"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3251404",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Viviana_Gibelli",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Gibelli_viviana",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Gibelli_Viviana",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3251404",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3251404",
+        "https://en.wikipedia.org/wiki/Viviana_Gibelli",
+        "https://x.com/Gibelli_viviana",
+        "https://x.com/Gibelli_Viviana"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as pediatrician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3118802",
+      "name": "Robert Sapolsky",
+      "title": "American neuroendocrinology researcher (b. 1957) connected to neurologist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "neurologist",
+        "American neuroendocrinology researcher (b. 1957)"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3118802",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Robert_Sapolsky",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://profiles.stanford.edu/robert-sapolsky",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/robert.sapolsky/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3118802",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3118802",
+        "https://en.wikipedia.org/wiki/Robert_Sapolsky",
+        "https://profiles.stanford.edu/robert-sapolsky",
+        "https://www.instagram.com/robert.sapolsky/"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neurologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q23015903",
+      "name": "Regina Cobb",
+      "title": "American politician and a Republican member of the Arizona House of Representatives connected to dentist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "American politician and a Republican member of the Arizona House of Representatives"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q23015903",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Regina_Cobb",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/recobbforazrep",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/reginacobbforstaterep",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q23015903",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q23015903",
+        "https://en.wikipedia.org/wiki/Regina_Cobb",
+        "https://x.com/recobbforazrep",
+        "https://www.facebook.com/reginacobbforstaterep"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q15994492",
+      "name": "Simon Iain Hay",
+      "title": "Professor of Epidemiology, University of Oxford; 52nd President of the RSTMH connected to epidemiologist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "Professor of Epidemiology, University of Oxford; 52nd President of the RSTMH"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q15994492",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Simon_I._Hay",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/simonihay",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0611-7272",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q15994492",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q15994492",
+        "https://en.wikipedia.org/wiki/Simon_I._Hay",
+        "https://x.com/simonihay",
+        "https://orcid.org/0000-0002-0611-7272"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q15459107",
+      "name": "John La Puma",
+      "title": "American physician connected to nutritionist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "American physician"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q15459107",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/John_La_Puma",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.drjohnlapuma.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/johnlapuma",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q15459107",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q15459107",
+        "https://en.wikipedia.org/wiki/John_La_Puma",
+        "http://www.drjohnlapuma.com/",
+        "https://x.com/johnlapuma"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16913508",
+      "name": "Anna Lewandowska",
+      "title": "Polish karateka connected to nutritionist",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "Polish karateka"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16913508",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anna_Lewandowska",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.hpba.pl/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/annalewandowska/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16913508",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16913508",
+        "https://en.wikipedia.org/wiki/Anna_Lewandowska",
+        "http://www.hpba.pl/",
+        "https://www.instagram.com/annalewandowska/"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q17479598",
+      "name": "Susan Jebb",
+      "title": "British nutritionist connected to nutritionist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "British nutritionist"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q17479598",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Susan_Jebb",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.phc.ox.ac.uk/team/researchers/susan-jebb",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9190-2920",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q17479598",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q17479598",
+        "https://en.wikipedia.org/wiki/Susan_Jebb",
+        "http://www.phc.ox.ac.uk/team/researchers/susan-jebb",
+        "https://orcid.org/0000-0001-9190-2920"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q18387929",
+      "name": "Tanyka Renee",
+      "title": "Playboy model, former pro athlete, health and fitness journalist, holistic nutritionist connected to nutritionist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "Playboy model, former pro athlete, health and fitness journalist, holistic nutritionist"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q18387929",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tanyka_Renee",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://TanykaRenee.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/jockintanyka",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q18387929",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q18387929",
+        "https://en.wikipedia.org/wiki/Tanyka_Renee",
+        "http://TanykaRenee.com",
+        "https://x.com/jockintanyka"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6210749",
+      "name": "Joe Kort",
+      "title": "American writer connected to psychotherapist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist",
+        "American writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6210749",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Joe_Kort",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.JoeKort.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6210749",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6210749",
+        "https://en.wikipedia.org/wiki/Joe_Kort",
+        "http://www.JoeKort.com"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6377280",
+      "name": "Kathy Page",
+      "title": "Canadian writer (born 1958) connected to psychotherapist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist",
+        "Canadian writer (born 1958)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6377280",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kathy_Page",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.kathypage.info",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6377280",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6377280",
+        "https://en.wikipedia.org/wiki/Kathy_Page",
+        "http://www.kathypage.info"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q487760",
+      "name": "Anatoly Kudryavitsky",
+      "title": "Russian/Irish novelist, poet, literary translator and magazine editor connected to physician",
+      "country": "Russia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Russian/Irish novelist, poet, literary translator and magazine editor"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q487760",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Kudryavitsky",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://kudryavitsky.narod.ru/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q487760",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q487760",
+        "https://en.wikipedia.org/wiki/Anatoly_Kudryavitsky",
+        "http://kudryavitsky.narod.ru/"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q466563",
+      "name": "Jorge Cardoso",
+      "title": "Argentine musician connected to physician",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Argentine musician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q466563",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jorge_Cardoso",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.jorgecardoso.net/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q466563",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q466563",
+        "https://en.wikipedia.org/wiki/Jorge_Cardoso",
+        "http://www.jorgecardoso.net/"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q469904",
+      "name": "Robert Gallo",
+      "title": "American biomedical researcher connected to physician",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "American biomedical researcher"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q469904",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Robert_Gallo",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3797-7910",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q469904",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q469904",
+        "https://en.wikipedia.org/wiki/Robert_Gallo",
+        "https://orcid.org/0000-0002-3797-7910"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1080557",
+      "name": "Giulio Tononi",
+      "title": "Italian neuroscientist and psychiatrist (born 1960) connected to psychiatrist",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatrist",
+        "Italian neuroscientist and psychiatrist (born 1960)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1080557",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Giulio_Tononi",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3892-4087",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1080557",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1080557",
+        "https://en.wikipedia.org/wiki/Giulio_Tononi",
+        "https://orcid.org/0000-0002-3892-4087"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychiatrist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1108318",
+      "name": "Colin A. Ross",
+      "title": "psychiatrist connected to psychiatrist",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatrist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1108318",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Colin_A._Ross",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9583-7046",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1108318",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1108318",
+        "https://en.wikipedia.org/wiki/Colin_A._Ross",
+        "https://orcid.org/0000-0001-9583-7046"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychiatrist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3374049",
+      "name": "Pedro García Aspillaga",
+      "title": "Chilean physician connected to surgeon",
+      "country": "Chile",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "Chilean physician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3374049",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Pedro_Garc%C3%ADa_Aspillaga",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/dr_pegarcia",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3374049",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3374049",
+        "https://en.wikipedia.org/wiki/Pedro_Garc%C3%ADa_Aspillaga",
+        "https://x.com/dr_pegarcia"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3348185",
+      "name": "Palash Sen",
+      "title": "Indian singer-songwriter connected to pediatrician",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "pediatrician",
+        "Indian singer-songwriter"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3348185",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Palash_Sen",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.dhoom.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3348185",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3348185",
+        "https://en.wikipedia.org/wiki/Palash_Sen",
+        "http://www.dhoom.com"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as pediatrician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3241917",
+      "name": "Lionel Naccache",
+      "title": "French neurologist & scholar connected to neurologist",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "neurologist",
+        "French neurologist & scholar"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3241917",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Lionel_Naccache",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2874-1009",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3241917",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3241917",
+        "https://en.wikipedia.org/wiki/Lionel_Naccache",
+        "https://orcid.org/0000-0002-2874-1009"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neurologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2417487",
+      "name": "Theodor Dingermann",
+      "title": "German pharmacist connected to pharmacist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "pharmacist",
+        "German pharmacist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2417487",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Theodor_Dingermann",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2788-1085",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2417487",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2417487",
+        "https://en.wikipedia.org/wiki/Theodor_Dingermann",
+        "https://orcid.org/0000-0002-2788-1085"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as pharmacist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q28805339",
+      "name": "Immaculata De Vivo",
+      "title": "Italian biologist (born 1964) connected to epidemiologist",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "Italian biologist (born 1964)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q28805339",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Immaculata_De_Vivo",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7185-7402",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q28805339",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q28805339",
+        "https://en.wikipedia.org/wiki/Immaculata_De_Vivo",
+        "https://orcid.org/0000-0002-7185-7402"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q28840198",
+      "name": "Johan Giesecke",
+      "title": "Swedish epidemiologist connected to epidemiologist",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "Swedish epidemiologist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q28840198",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Johan_Giesecke",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6107-4204",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q28840198",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q28840198",
+        "https://en.wikipedia.org/wiki/Johan_Giesecke",
+        "https://orcid.org/0000-0001-6107-4204"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q28925161",
+      "name": "Margaret May",
+      "title": "British health sciences modeller connected to epidemiologist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "British health sciences modeller"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q28925161",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Margaret_T._May",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9733-1003",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q28925161",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q28925161",
+        "https://en.wikipedia.org/wiki/Margaret_T._May",
+        "https://orcid.org/0000-0002-9733-1003"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q18350199",
+      "name": "Danielle Walker",
+      "title": "American writer connected to nutritionist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "American writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q18350199",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Danielle_Walker_(writer)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.againstallgrain.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q18350199",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q18350199",
+        "https://en.wikipedia.org/wiki/Danielle_Walker_(writer)",
+        "http://www.againstallgrain.com"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4757808",
+      "name": "Andrew Lumsden",
+      "title": "British neuroscientist connected to neuroscientist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "British neuroscientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4757808",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Lumsden_(scientist)",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7123-1055",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4757808",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4757808",
+        "https://en.wikipedia.org/wiki/Andrew_Lumsden_(scientist)",
+        "https://orcid.org/0000-0002-7123-1055"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4758591",
+      "name": "Andrew Singleton",
+      "title": "British neuroscientist connected to neuroscientist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "British neuroscientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4758591",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Singleton",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5606-700X",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4758591",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4758591",
+        "https://en.wikipedia.org/wiki/Andrew_Singleton",
+        "https://orcid.org/0000-0001-5606-700X"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4762579",
+      "name": "Angela Vincent",
+      "title": "British neurosurgeon connected to neuroscientist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "British neurosurgeon"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4762579",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Angela_Vincent",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2395-8695",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4762579",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4762579",
+        "https://en.wikipedia.org/wiki/Angela_Vincent",
+        "https://orcid.org/0000-0003-2395-8695"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4765273",
+      "name": "Anirvan Ghosh",
+      "title": "American neuroscientist connected to neuroscientist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "American neuroscientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4765273",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anirvan_Ghosh",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/anirvan0419",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4765273",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4765273",
+        "https://en.wikipedia.org/wiki/Anirvan_Ghosh",
+        "https://x.com/anirvan0419"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4765748",
+      "name": "Anjan Chatterjee",
+      "title": "American neurologist connected to neuroscientist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "American neurologist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4765748",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anjan_Chatterjee_(neuroscientist)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://ccn.upenn.edu/chatterjee/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4765748",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4765748",
+        "https://en.wikipedia.org/wiki/Anjan_Chatterjee_(neuroscientist)",
+        "http://ccn.upenn.edu/chatterjee/"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4766422",
+      "name": "Ann Graybiel",
+      "title": "American neuroscientist connected to neuroscientist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "American neuroscientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4766422",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ann_Graybiel",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4326-7720",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4766422",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4766422",
+        "https://en.wikipedia.org/wiki/Ann_Graybiel",
+        "https://orcid.org/0000-0002-4326-7720"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4768145",
+      "name": "Anne B. Young",
+      "title": "American neuroscientist connected to neuroscientist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist",
+        "American neuroscientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4768145",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anne_B._Young",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0007-4467-425X",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4768145",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4768145",
+        "https://en.wikipedia.org/wiki/Anne_B._Young",
+        "https://orcid.org/0009-0007-4467-425X"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1220669",
+      "name": "Dezső Németh",
+      "title": "Hungarian psychologist connected to psychologist",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Hungarian psychologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1220669",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Dezs%C5%91_N%C3%A9meth",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1220669",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1220669",
+        "https://en.wikipedia.org/wiki/Dezs%C5%91_N%C3%A9meth"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1229515",
+      "name": "Thijs Berman",
+      "title": "Dutch politician and journalist connected to psychologist",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Dutch politician and journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1229515",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Thijs_Berman",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1229515",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1229515",
+        "https://en.wikipedia.org/wiki/Thijs_Berman"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q130542023",
+      "name": "Eleanor D. Brown",
+      "title": "American academic connected to clinical psychologist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychologist",
+        "American academic"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q130542023",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eleanor_D._Brown",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q130542023",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q130542023",
+        "https://en.wikipedia.org/wiki/Eleanor_D._Brown"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as clinical psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6147577",
+      "name": "Jamie Turndorf",
+      "title": "American psychotherapist connected to psychotherapist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist",
+        "American psychotherapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6147577",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jamie_Turndorf",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6147577",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6147577",
+        "https://en.wikipedia.org/wiki/Jamie_Turndorf"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6170905",
+      "name": "Jean Jenson",
+      "title": "psychotherapist connected to psychotherapist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6170905",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jean_Jenson",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6170905",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6170905",
+        "https://en.wikipedia.org/wiki/Jean_Jenson"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6181480",
+      "name": "Jeremy Holmes",
+      "title": "British psychiatrist connected to psychotherapist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist",
+        "British psychiatrist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6181480",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jeremy_Holmes",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6181480",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6181480",
+        "https://en.wikipedia.org/wiki/Jeremy_Holmes"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4990640",
+      "name": "Else Winther Andersen",
+      "title": "Danish politician connected to social worker",
+      "country": "Kingdom of Denmark",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "social worker",
+        "Danish politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4990640",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Else_Winther_Andersen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4990640",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4990640",
+        "https://en.wikipedia.org/wiki/Else_Winther_Andersen"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as social worker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5006619",
+      "name": "C. K. Janu",
+      "title": "Indian activist connected to social worker",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "social worker",
+        "Indian activist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5006619",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/C._K._Janu",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5006619",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5006619",
+        "https://en.wikipedia.org/wiki/C._K._Janu"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as social worker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5044461",
+      "name": "Carol Martin",
+      "title": "Western Australian politician connected to social worker",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "social worker",
+        "Western Australian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5044461",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Carol_Martin_(politician)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5044461",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5044461",
+        "https://en.wikipedia.org/wiki/Carol_Martin_(politician)"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as social worker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q471380",
+      "name": "Dafydd Williams",
+      "title": "Canadian astronaut and physician connected to physician",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Canadian astronaut and physician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q471380",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Dafydd_Williams",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q471380",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q471380",
+        "https://en.wikipedia.org/wiki/Dafydd_Williams"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q482868",
+      "name": "Ana Jorge",
+      "title": "Portuguese physician, politician connected to physician",
+      "country": "Portugal",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Portuguese physician, politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q482868",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ana_Jorge",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q482868",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q482868",
+        "https://en.wikipedia.org/wiki/Ana_Jorge"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3374883",
+      "name": "Calrice di Durisio",
+      "title": "Italian physician and surgeon connected to surgeon",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "Italian physician and surgeon"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3374883",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Clarice_di_Durisio",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3374883",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3374883",
+        "https://en.wikipedia.org/wiki/Clarice_di_Durisio"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3385016",
+      "name": "Pierre Foldès",
+      "title": "French surgeon who devised FGM mitigation connected to surgeon",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "French surgeon who devised FGM mitigation"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3385016",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Pierre_Fold%C3%A8s",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3385016",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3385016",
+        "https://en.wikipedia.org/wiki/Pierre_Fold%C3%A8s"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3430669",
+      "name": "Richard Cruess",
+      "title": "American surgeon connected to surgeon",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "American surgeon"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3430669",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Richard_Cruess",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3430669",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3430669",
+        "https://en.wikipedia.org/wiki/Richard_Cruess"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3434918",
+      "name": "Are Helseth",
+      "title": "Norwegian politician connected to surgeon",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "Norwegian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3434918",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Are_Helseth",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3434918",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3434918",
+        "https://en.wikipedia.org/wiki/Are_Helseth"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3121621",
+      "name": "Roy Meadow",
+      "title": "British paediatrician connected to pediatrician",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "pediatrician",
+        "British paediatrician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3121621",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Roy_Meadow",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3121621",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3121621",
+        "https://en.wikipedia.org/wiki/Roy_Meadow"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as pediatrician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3371543",
+      "name": "Paul Jolicoeur",
+      "title": "Canadian scientist connected to neurologist",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "neurologist",
+        "Canadian scientist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3371543",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Paul_Jolicoeur",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3371543",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3371543",
+        "https://en.wikipedia.org/wiki/Paul_Jolicoeur"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neurologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5775253",
+      "name": "Per Gudmundson",
+      "title": "Swedish musician connected to dentist",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "Swedish musician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5775253",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Per_Gudmundson",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5775253",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5775253",
+        "https://en.wikipedia.org/wiki/Per_Gudmundson"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q24054039",
+      "name": "Stewart Edward",
+      "title": "New Zealand cricketer and dentist connected to dentist",
+      "country": "New Zealand",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "New Zealand cricketer and dentist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q24054039",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Stewart_Edward",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q24054039",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q24054039",
+        "https://en.wikipedia.org/wiki/Stewart_Edward"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q24560683",
+      "name": "Grace Amponsah-Ababio",
+      "title": "Ghanaian dentist and diplomat connected to dentist",
+      "country": "Ghana",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "Ghanaian dentist and diplomat"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q24560683",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Grace_Amponsah-Ababio",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q24560683",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q24560683",
+        "https://en.wikipedia.org/wiki/Grace_Amponsah-Ababio"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q24643928",
+      "name": "Marlene Farrugia",
+      "title": "Maltese politician connected to dentist",
+      "country": "Malta",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "Maltese politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q24643928",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Marlene_Farrugia",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q24643928",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q24643928",
+        "https://en.wikipedia.org/wiki/Marlene_Farrugia"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2706539",
+      "name": "Dick Dees",
+      "title": "Dutch politician connected to pharmacist",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "pharmacist",
+        "Dutch politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2706539",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Dick_Dees",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2706539",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2706539",
+        "https://en.wikipedia.org/wiki/Dick_Dees"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as pharmacist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5525334",
+      "name": "Gary Jones",
+      "title": "British nurse connected to nurse",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "British nurse"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5525334",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gary_Jones_(nurse)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5525334",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5525334",
+        "https://en.wikipedia.org/wiki/Gary_Jones_(nurse)"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5548170",
+      "name": "Georgie Crozier",
+      "title": "Australian politician connected to nurse",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "Australian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5548170",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Georgie_Crozier",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5548170",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5548170",
+        "https://en.wikipedia.org/wiki/Georgie_Crozier"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5548740",
+      "name": "Ger Lynch",
+      "title": "Gaelic football player connected to nurse",
+      "country": "Ireland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "Gaelic football player"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5548740",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ger_Lynch",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5548740",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5548740",
+        "https://en.wikipedia.org/wiki/Ger_Lynch"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5550451",
+      "name": "Gerd Janne Kristoffersen",
+      "title": "Norwegian politician connected to nurse",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "Norwegian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5550451",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gerd_Janne_Kristoffersen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5550451",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5550451",
+        "https://en.wikipedia.org/wiki/Gerd_Janne_Kristoffersen"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5562269",
+      "name": "Gillian Oliver",
+      "title": "British nursing administrator connected to nurse",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "British nursing administrator"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5562269",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gillian_Oliver",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5562269",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5562269",
+        "https://en.wikipedia.org/wiki/Gillian_Oliver"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5562860",
+      "name": "Gina Ford",
+      "title": "British writer connected to nurse",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "British writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5562860",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gina_Ford",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5562860",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5562860",
+        "https://en.wikipedia.org/wiki/Gina_Ford"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16106363",
+      "name": "Suresh H. Moolgavkar",
+      "title": "Indian epidemiologist and mathematician connected to epidemiologist",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "Indian epidemiologist and mathematician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16106363",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Suresh_H._Moolgavkar",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16106363",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16106363",
+        "https://en.wikipedia.org/wiki/Suresh_H._Moolgavkar"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16107551",
+      "name": "Franklin White",
+      "title": "Canadian public health scholar connected to epidemiologist",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "Canadian public health scholar"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16107551",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Franklin_White",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16107551",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16107551",
+        "https://en.wikipedia.org/wiki/Franklin_White"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16122860",
+      "name": "Renato Talamini",
+      "title": "Italian epidemiologist connected to epidemiologist",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "epidemiologist",
+        "Italian epidemiologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16122860",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Renato_Talamini",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16122860",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16122860",
+        "https://en.wikipedia.org/wiki/Renato_Talamini"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as epidemiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16092541",
+      "name": "Alan Berg",
+      "title": "international nutrition authority connected to nutritionist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "international nutrition authority"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16092541",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alan_Berg_(nutritionist)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16092541",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16092541",
+        "https://en.wikipedia.org/wiki/Alan_Berg_(nutritionist)"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16850240",
+      "name": "Zebun Nisa Jilani",
+      "title": "Social entrepruner connected to nutritionist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "public-health",
+      "subcategories": [
+        "nutritionist",
+        "Social entrepruner"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16850240",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Zebunisa_Jilani",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16850240",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16850240",
+        "https://en.wikipedia.org/wiki/Zebunisa_Jilani"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nutritionist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4730659",
+      "name": "Allan H. Frey",
+      "title": "neuroscientist connected to neuroscientist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "neuroscience",
+      "subcategories": [
+        "neuroscientist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4730659",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Allan_H._Frey",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4730659",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4730659",
+        "https://en.wikipedia.org/wiki/Allan_H._Frey"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neuroscientist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1225760",
+      "name": "Gábor Orosz",
+      "title": "Hungarian psychiatrist connected to psychologist",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Hungarian psychiatrist"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1225760",
+          "verified": true
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/gabor-orosz-8b7363108",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5883-6861",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1225760",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1225760",
+        "https://www.linkedin.com/in/gabor-orosz-8b7363108",
+        "https://orcid.org/0000-0001-5883-6861"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q23783058",
+      "name": "Maro Tranta",
+      "title": "Greek basketball player (born 1992) connected to dentist",
+      "country": "Greece",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "Greek basketball player (born 1992)"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q23783058",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marw_tranta/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marw.tranta",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q23783058",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q23783058",
+        "https://www.instagram.com/marw_tranta/",
+        "https://www.facebook.com/marw.tranta"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5840612",
+      "name": "Assumpció Laïlla i Jou",
+      "title": "Spanish politician connected to nurse",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "nurse",
+        "Spanish politician"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5840612",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/titonlailla",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/titon.laillajou",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5840612",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5840612",
+        "https://x.com/titonlailla",
+        "https://www.facebook.com/titon.laillajou"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as nurse. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1221947",
+      "name": "Dieter Frey",
+      "title": "German professor connected to psychologist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "German professor"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1221947",
+          "verified": true
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/prof-dr-dieter-frey-4a50a520a",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1221947",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1221947",
+        "https://www.linkedin.com/in/prof-dr-dieter-frey-4a50a520a"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3383278",
+      "name": "Pierre-Louis Fagniez",
+      "title": "French politician connected to surgeon",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "French politician"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3383278",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/plfagniez",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3383278",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3383278",
+        "https://x.com/plfagniez"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3288321",
+      "name": "Marc Peschanski",
+      "title": "French biologist and neurophysiologist connected to neurologist",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "neurologist",
+        "French biologist and neurophysiologist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3288321",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9966-3282",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3288321",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3288321",
+        "https://orcid.org/0000-0001-9966-3282"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as neurologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q24043369",
+      "name": "Roland Frankenberger",
+      "title": "dentist connected to dentist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q24043369",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5112-4463",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q24043369",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q24043369",
+        "https://orcid.org/0000-0002-5112-4463"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q271234",
+      "name": "Åsa Träff",
+      "title": "Swedish novelist connected to psychologist",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Swedish novelist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q271234",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q271234",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q271234"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1224420",
+      "name": "Attila Oláh",
+      "title": "Hungarian psychologist, university dean connected to psychologist",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Hungarian psychologist, university dean"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1224420",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1224420",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1224420"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q111948862",
+      "name": "Isa Duque",
+      "title": "clinical psychologist connected to clinical psychologist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q111948862",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q111948862",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q111948862"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as clinical psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6012195",
+      "name": "Ulf Karl Olov Nilsson",
+      "title": "Swedish writer, psychologist, psychotherapist, psychoanalyst and translator connected to psychotherapist",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapist",
+        "Swedish writer, psychologist, psychotherapist, psychoanalyst and translator"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6012195",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6012195",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6012195"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1056526",
+      "name": "György Hunyady",
+      "title": "Hungarian psychiatrist connected to psychiatrist",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatrist",
+        "Hungarian psychiatrist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1056526",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1056526",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1056526"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychiatrist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1106809",
+      "name": "Erzsébet Keményné Gyimes",
+      "title": "psychologist, psychiatrist (1949–) connected to psychiatrist",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatrist",
+        "psychologist, psychiatrist (1949–)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1106809",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1106809",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1106809"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as psychiatrist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3440008",
+      "name": "Roland Copé",
+      "title": "French physician and actor connected to surgeon",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "surgeon",
+        "French physician and actor"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3440008",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3440008",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3440008"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as surgeon. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5875069",
+      "name": "Neli",
+      "title": "Iranian singer and dentist connected to dentist",
+      "country": "Iran",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "dentist",
+        "Iranian singer and dentist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5875069",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5875069",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5875069"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as dentist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2591555",
+      "name": "Wolfgang Süß",
+      "title": "German politician and pharmacist connected to pharmacist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "pharmacist",
+        "German politician and pharmacist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2591555",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2591555",
+          "verifiedAt": "2026-07-17"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2591555"
+      ],
+      "lastVerifiedAt": "2026-07-17",
+      "rationale": "Wikidata public metadata lists this person as pharmacist. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "identity-difference-batch",
+    "occupationsRequested": 19,
+    "occupationsSucceeded": 19,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 80,
+    "minSitelinks": 2,
+    "rankBySitelinks": false,
+    "baselineDossier": "wikidata-all-waves-expanded329-discovery-dossiers.local.json",
+    "newCandidates": 89
+  }
+}

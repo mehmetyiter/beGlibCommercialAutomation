@@ -1,0 +1,2441 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-psychology",
+  "createdAt": "2026-06-15T03:18:29.002Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / psychology",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5057810294",
+      "name": "Ronald C. Kessler",
+      "title": "Kessler Institute for Rehabilitation researcher connected to clinical psychology public mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Mental Health Treatment and Access",
+        "Health disparities and outcomes",
+        "Maternal Mental Health During Pregnancy and Postpartum",
+        "Child and Adolescent Psychosocial and Emotional Development"
+      ],
+      "fitScore": 88,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5057810294",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4831-2305",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5057810294",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5057810294",
+        "https://orcid.org/0000-0003-4831-2305",
+        "https://openalex.org/W2115609473",
+        "https://doi.org/10.1002/mpr.168",
+        "https://openalex.org/W2891230948",
+        "https://doi.org/10.1037/abn0000362",
+        "https://openalex.org/W2503814187",
+        "https://doi.org/10.1017/s0033291716001665"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Mental Health Treatment and Access, Health disparities and outcomes, Maternal Mental Health During Pregnancy and Postpartum. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5078084801",
+      "name": "Dante Cicchetti",
+      "title": "University of Minnesota researcher connected to developmental psychology parenting education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Family and Disability Support Research",
+        "Early Childhood Education and Development",
+        "Child Abuse and Trauma"
+      ],
+      "fitScore": 88,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5078084801",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6347-1278",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5078084801",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5078084801",
+        "https://orcid.org/0000-0002-6347-1278",
+        "https://openalex.org/W1573512945",
+        "https://openalex.org/W4236657350",
+        "https://doi.org/10.1017/s0954579410000222",
+        "https://openalex.org/W2057299305",
+        "https://doi.org/10.1097/00004583-199505000-00008"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Child and Adolescent Psychosocial and Emotional Development, Family and Disability Support Research, Early Childhood Education and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5009347799",
+      "name": "Helen Christensen",
+      "title": "Black Dog Institute researcher connected to clinical psychology public mental health",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access",
+        "Digital Mental Health Interventions"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009347799",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0435-2065",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009347799",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009347799",
+        "https://orcid.org/0000-0003-0435-2065",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1",
+        "https://openalex.org/W2107750653",
+        "https://doi.org/10.1186/1471-244x-10-113"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5061717557",
+      "name": "Roz Shafran",
+      "title": "University College London researcher connected to clinical psychology public mental health",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access",
+        "Stress Responses and Cortisol"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5061717557",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2729-4961",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5061717557",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5061717557",
+        "https://orcid.org/0000-0003-2729-4961",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1",
+        "https://openalex.org/W3032994313",
+        "https://doi.org/10.1016/j.jaac.2020.05.009"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5014245195",
+      "name": "Graham Thornicroft",
+      "title": "King's College London researcher connected to clinical psychology public mental health",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Mental Health Treatment and Access",
+        "Food Security and Health in Diverse Populations",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Healthcare professionals’ stress and burnout"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5014245195",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0662-0879",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5014245195",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5014245195",
+        "https://orcid.org/0000-0003-0662-0879",
+        "https://openalex.org/W2897623369",
+        "https://doi.org/10.1016/s0140-6736(18)31612-x",
+        "https://openalex.org/W2007909468",
+        "https://doi.org/10.1017/s0033291714000129"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Mental Health Treatment and Access, Food Security and Health in Diverse Populations, Child and Adolescent Psychosocial and Emotional Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5073216705",
+      "name": "Dan J. Stein",
+      "title": "South African Medical Research Council researcher connected to clinical psychology public mental health",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Mental Health Treatment and Access",
+        "Food Security and Health in Diverse Populations",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Digital Mental Health Interventions"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5073216705",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7218-7810",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5073216705",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5073216705",
+        "https://orcid.org/0000-0001-7218-7810",
+        "https://openalex.org/W2897623369",
+        "https://doi.org/10.1016/s0140-6736(18)31612-x",
+        "https://openalex.org/W2891230948",
+        "https://doi.org/10.1037/abn0000362"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Mental Health Treatment and Access, Food Security and Health in Diverse Populations, Child and Adolescent Psychosocial and Emotional Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5052564622",
+      "name": "Mark T. Greenberg",
+      "title": "Pennsylvania State University researcher connected to developmental psychology parenting education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Family and Disability Support Research",
+        "Mindfulness and Compassion Interventions",
+        "Child Therapy and Development"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5052564622",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7189-5882",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5052564622",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5052564622",
+        "https://orcid.org/0000-0001-7189-5882",
+        "https://openalex.org/W1573512945",
+        "https://openalex.org/W2110863241",
+        "https://doi.org/10.1007/s10567-009-0046-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Child and Adolescent Psychosocial and Emotional Development, Family and Disability Support Research, Mindfulness and Compassion Interventions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5110670884",
+      "name": "George Miller",
+      "title": "Harvard University Press researcher connected to social psychology communication behavior",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Cognitive Science and Mapping",
+        "Scientific Research and Philosophical Inquiry",
+        "Cognitive Science and Education Research",
+        "Child and Animal Learning Development"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5110670884",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5110670884",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5110670884",
+        "https://openalex.org/W1984314602",
+        "https://doi.org/10.1037/0033-295x.101.2.343",
+        "https://openalex.org/W2579555219",
+        "https://doi.org/10.1037/h0043158"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Cognitive Science and Mapping, Scientific Research and Philosophical Inquiry, Cognitive Science and Education Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5010317706",
+      "name": "Russell E. Glasgow",
+      "title": "Cancer Research Center researcher connected to clinical psychology public mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010317706",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4218-3231",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010317706",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010317706",
+        "https://orcid.org/0000-0003-4218-3231",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5084483753",
+      "name": "Thomas Vogt",
+      "title": "OpenAlex-indexed researcher connected to clinical psychology public mental health",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5084483753",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2824-5005",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5084483753",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5084483753",
+        "https://orcid.org/0000-0002-2824-5005",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5007332969",
+      "name": "Shawn M. Boles",
+      "title": "OpenAlex-indexed researcher connected to clinical psychology public mental health",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5007332969",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5007332969",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5007332969",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5023033718",
+      "name": "Emily A. Holmes",
+      "title": "Uppsala University researcher connected to clinical psychology public mental health",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5023033718",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7319-3112",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5023033718",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5023033718",
+        "https://orcid.org/0000-0001-7319-3112",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5044019815",
+      "name": "V. Hugh Perry",
+      "title": "UK Dementia Research Institute researcher connected to clinical psychology public mental health",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5044019815",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8950-5045",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5044019815",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5044019815",
+        "https://orcid.org/0000-0001-8950-5045",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5035274081",
+      "name": "Irene Tracey",
+      "title": "University of Oxford researcher connected to clinical psychology public mental health",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5035274081",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4134-6115",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5035274081",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5035274081",
+        "https://orcid.org/0000-0003-4134-6115",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5091639078",
+      "name": "Simon Wessely",
+      "title": "King's College London researcher connected to clinical psychology public mental health",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "clinical psychology public mental health",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5091639078",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6743-9929",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5091639078",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5091639078",
+        "https://orcid.org/0000-0002-6743-9929",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5109107195",
+      "name": "Robert S. Sikes",
+      "title": "University of Arkansas at Little Rock researcher connected to trauma psychology public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "Wildlife Ecology and Conservation",
+        "Human-Animal Interaction Studies",
+        "Species Distribution and Climate Change"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5109107195",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5109107195",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5109107195",
+        "https://openalex.org/W2398139753",
+        "https://doi.org/10.1093/jmammal/gyw078"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Wildlife Ecology and Conservation, Human-Animal Interaction Studies, Species Distribution and Climate Change. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5059382575",
+      "name": "Barbara Rogoff",
+      "title": "OpenAlex-indexed researcher connected to developmental psychology parenting education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Educational and Psychological Assessments",
+        "Early Childhood Education and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5059382575",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4153-3992",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5059382575",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5059382575",
+        "https://orcid.org/0000-0002-4153-3992",
+        "https://openalex.org/W4388250340",
+        "https://doi.org/10.1093/oso/9780195059731.001.0001"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Educational and Psychological Assessments, Early Childhood Education and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5054626497",
+      "name": "Daniel K. Lapsley",
+      "title": "University of Notre Dame researcher connected to developmental psychology parenting education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Social and Intergroup Psychology",
+        "Cultural Differences and Values",
+        "Ethics in Business and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5054626497",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6104-6852",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5054626497",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5054626497",
+        "https://orcid.org/0000-0001-6104-6852",
+        "https://openalex.org/W2239486811",
+        "https://doi.org/10.1159/000435926"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Social and Intergroup Psychology, Cultural Differences and Values, Ethics in Business and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5011910615",
+      "name": "Mayada Elsabbagh",
+      "title": "Montreal Children's Hospital researcher connected to developmental psychology parenting education",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Autism Spectrum Disorder Research",
+        "Child Development and Digital Technology",
+        "Virology and Viral Diseases"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5011910615",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7311-9059",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5011910615",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5011910615",
+        "https://orcid.org/0000-0002-7311-9059",
+        "https://openalex.org/W2098251401",
+        "https://doi.org/10.1002/aur.239"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Autism Spectrum Disorder Research, Child Development and Digital Technology, Virology and Viral Diseases. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5087838907",
+      "name": "Gauri Divan",
+      "title": "Sangath researcher connected to developmental psychology parenting education",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Autism Spectrum Disorder Research",
+        "Child Development and Digital Technology",
+        "Virology and Viral Diseases"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5087838907",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6212-8358",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5087838907",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5087838907",
+        "https://orcid.org/0000-0001-6212-8358",
+        "https://openalex.org/W2098251401",
+        "https://doi.org/10.1002/aur.239"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Autism Spectrum Disorder Research, Child Development and Digital Technology, Virology and Viral Diseases. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5100363699",
+      "name": "Young S. Kim",
+      "title": "Yale University researcher connected to developmental psychology parenting education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Autism Spectrum Disorder Research",
+        "Child Development and Digital Technology",
+        "Virology and Viral Diseases"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5100363699",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6766-1722",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5100363699",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5100363699",
+        "https://orcid.org/0000-0002-6766-1722",
+        "https://openalex.org/W2098251401",
+        "https://doi.org/10.1002/aur.239"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Autism Spectrum Disorder Research, Child Development and Digital Technology, Virology and Viral Diseases. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018137109",
+      "name": "Shuaib Kauchali",
+      "title": "Columbia University researcher connected to developmental psychology parenting education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Autism Spectrum Disorder Research",
+        "Child Development and Digital Technology",
+        "Virology and Viral Diseases"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018137109",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6730-6037",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018137109",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018137109",
+        "https://orcid.org/0000-0001-6730-6037",
+        "https://openalex.org/W2098251401",
+        "https://doi.org/10.1002/aur.239"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Autism Spectrum Disorder Research, Child Development and Digital Technology, Virology and Viral Diseases. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5070156674",
+      "name": "Vikram Patel",
+      "title": "London School of Hygiene & Tropical Medicine researcher connected to developmental psychology parenting education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Autism Spectrum Disorder Research",
+        "Child Development and Digital Technology",
+        "Virology and Viral Diseases"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5070156674",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1066-8584",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5070156674",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5070156674",
+        "https://orcid.org/0000-0003-1066-8584",
+        "https://openalex.org/W2098251401",
+        "https://doi.org/10.1002/aur.239"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Autism Spectrum Disorder Research, Child Development and Digital Technology, Virology and Viral Diseases. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5077964569",
+      "name": "Cristiane Silvestre Paula",
+      "title": "Universidade Presbiteriana Mackenzie researcher connected to developmental psychology parenting education",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Autism Spectrum Disorder Research",
+        "Child Development and Digital Technology",
+        "Virology and Viral Diseases"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5077964569",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0438-9407",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5077964569",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5077964569",
+        "https://orcid.org/0000-0003-0438-9407",
+        "https://openalex.org/W2098251401",
+        "https://doi.org/10.1002/aur.239"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Autism Spectrum Disorder Research, Child Development and Digital Technology, Virology and Viral Diseases. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5076671393",
+      "name": "Jeroen S. Kok",
+      "title": "Lentis researcher connected to social psychology communication behavior",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Geriatric Care and Nursing Homes",
+        "Dementia and Cognitive Impairment Research",
+        "Migration, Aging, and Tourism Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5076671393",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3969-572X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5076671393",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5076671393",
+        "https://orcid.org/0000-0003-3969-572X",
+        "https://openalex.org/W2148080316",
+        "https://doi.org/10.1159/000353441"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Geriatric Care and Nursing Homes, Dementia and Cognitive Impairment Research, Migration, Aging, and Tourism Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5062503784",
+      "name": "Erik Scherder",
+      "title": "Vrije Universiteit Amsterdam researcher connected to social psychology communication behavior",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Geriatric Care and Nursing Homes",
+        "Dementia and Cognitive Impairment Research",
+        "Migration, Aging, and Tourism Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5062503784",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1203-3208",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5062503784",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5062503784",
+        "https://orcid.org/0000-0003-1203-3208",
+        "https://openalex.org/W2148080316",
+        "https://doi.org/10.1159/000353441"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Geriatric Care and Nursing Homes, Dementia and Cognitive Impairment Research, Migration, Aging, and Tourism Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5103688270",
+      "name": "Ina J. Berg",
+      "title": "Lentis researcher connected to social psychology communication behavior",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Geriatric Care and Nursing Homes",
+        "Dementia and Cognitive Impairment Research",
+        "Migration, Aging, and Tourism Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5103688270",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5103688270",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5103688270",
+        "https://openalex.org/W2148080316",
+        "https://doi.org/10.1159/000353441"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Geriatric Care and Nursing Homes, Dementia and Cognitive Impairment Research, Migration, Aging, and Tourism Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5047928260",
+      "name": "Andrew P. Hills",
+      "title": "Griffith University researcher connected to social psychology communication behavior",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Physical Activity and Health",
+        "Obesity, Physical Activity, Diet",
+        "Behavioral Health and Interventions"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5047928260",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7787-7201",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5047928260",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5047928260",
+        "https://orcid.org/0000-0002-7787-7201",
+        "https://openalex.org/W2040106495",
+        "https://doi.org/10.1159/000345030"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Physical Activity and Health, Obesity, Physical Activity, Diet, Behavioral Health and Interventions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5011985388",
+      "name": "Nuala M. Byrne",
+      "title": "Queensland University of Technology researcher connected to social psychology communication behavior",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Physical Activity and Health",
+        "Obesity, Physical Activity, Diet",
+        "Behavioral Health and Interventions"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5011985388",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5310-6640",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5011985388",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5011985388",
+        "https://orcid.org/0000-0001-5310-6640",
+        "https://openalex.org/W2040106495",
+        "https://doi.org/10.1159/000345030"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Physical Activity and Health, Obesity, Physical Activity, Diet, Behavioral Health and Interventions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5031318756",
+      "name": "James O. Hill",
+      "title": "University of Colorado Anschutz Medical Campus researcher connected to social psychology communication behavior",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Physical Activity and Health",
+        "Obesity, Physical Activity, Diet",
+        "Behavioral Health and Interventions"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5031318756",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4690-2264",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5031318756",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5031318756",
+        "https://orcid.org/0000-0003-4690-2264",
+        "https://openalex.org/W2040106495",
+        "https://doi.org/10.1159/000345030"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Physical Activity and Health, Obesity, Physical Activity, Diet, Behavioral Health and Interventions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5028545628",
+      "name": "Rachel C. Lindstrom",
+      "title": "University of Colorado Anschutz Medical Campus researcher connected to social psychology communication behavior",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Physical Activity and Health",
+        "Obesity, Physical Activity, Diet",
+        "Behavioral Health and Interventions"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5028545628",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5028545628",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5028545628",
+        "https://openalex.org/W2040106495",
+        "https://doi.org/10.1159/000345030"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Physical Activity and Health, Obesity, Physical Activity, Diet, Behavioral Health and Interventions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5090631705",
+      "name": "Susan Michie",
+      "title": "Department of Health and Social Care researcher connected to social psychology communication behavior",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Behavioral Health and Interventions",
+        "Health Policy Implementation Science",
+        "Physical Activity and Health"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5090631705",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0063-6378",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5090631705",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5090631705",
+        "https://orcid.org/0000-0003-0063-6378",
+        "https://openalex.org/W2169434152",
+        "https://doi.org/10.1007/s12160-013-9486-6"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Health Policy Implementation Science, Physical Activity and Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5075147214",
+      "name": "Michelle Richardson",
+      "title": "University of Exeter researcher connected to social psychology communication behavior",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Behavioral Health and Interventions",
+        "Health Policy Implementation Science",
+        "Physical Activity and Health"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5075147214",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6029-0949",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5075147214",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5075147214",
+        "https://orcid.org/0000-0002-6029-0949",
+        "https://openalex.org/W2169434152",
+        "https://doi.org/10.1007/s12160-013-9486-6"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Health Policy Implementation Science, Physical Activity and Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5005635678",
+      "name": "Marie Johnston",
+      "title": "University of Aberdeen researcher connected to social psychology communication behavior",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Behavioral Health and Interventions",
+        "Health Policy Implementation Science",
+        "Physical Activity and Health"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5005635678",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0124-4827",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5005635678",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5005635678",
+        "https://orcid.org/0000-0003-0124-4827",
+        "https://openalex.org/W2169434152",
+        "https://doi.org/10.1007/s12160-013-9486-6"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Health Policy Implementation Science, Physical Activity and Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5007875474",
+      "name": "Charles Abraham",
+      "title": "University of Aberdeen researcher connected to social psychology communication behavior",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "social psychology communication behavior",
+        "Behavioral Health and Interventions",
+        "Health Policy Implementation Science",
+        "Physical Activity and Health"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5007875474",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0901-1975",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5007875474",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5007875474",
+        "https://orcid.org/0000-0002-0901-1975",
+        "https://openalex.org/W2169434152",
+        "https://doi.org/10.1007/s12160-013-9486-6"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Health Policy Implementation Science, Physical Activity and Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5004154542",
+      "name": "Edward L. Deci",
+      "title": "OpenAlex-indexed researcher connected to developmental psychology parenting education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Motivation and Self-Concept in Sports"
+      ],
+      "fitScore": 68,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5004154542",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8246-8536",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5004154542",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5004154542",
+        "https://orcid.org/0000-0001-8246-8536",
+        "https://openalex.org/W1857170875"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Motivation and Self-Concept in Sports. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5001390698",
+      "name": "Richard M. Ryan",
+      "title": "OpenAlex-indexed researcher connected to developmental psychology parenting education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "developmental psychology parenting education",
+        "Motivation and Self-Concept in Sports"
+      ],
+      "fitScore": 68,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5001390698",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2355-6154",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5001390698",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5001390698",
+        "https://orcid.org/0000-0002-2355-6154",
+        "https://openalex.org/W1857170875"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Motivation and Self-Concept in Sports. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5074230777",
+      "name": "Aras Bozkurt",
+      "title": "Anadolu University researcher connected to trauma psychology public education",
+      "country": "Türkiye",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5074230777",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4520-642X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5074230777",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5074230777",
+        "https://orcid.org/0000-0002-4520-642X",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5062934072",
+      "name": "Insung Jung",
+      "title": "OpenAlex-indexed researcher connected to trauma psychology public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5062934072",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5959-1245",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5062934072",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5062934072",
+        "https://orcid.org/0000-0001-5959-1245",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5034979488",
+      "name": "Junhong Xiao",
+      "title": "Shantou Broadcasting and Television University researcher connected to trauma psychology public education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5034979488",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5316-2957",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5034979488",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5034979488",
+        "https://orcid.org/0000-0002-5316-2957",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5054605030",
+      "name": "Robert Schuwer",
+      "title": "Fontys University of Applied Sciences researcher connected to trauma psychology public education",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5054605030",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5756-5406",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5054605030",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5054605030",
+        "https://orcid.org/0000-0001-5756-5406",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5107967429",
+      "name": "Gennady Egorov",
+      "title": "St.Tikhon's Orthodox University researcher connected to trauma psychology public education",
+      "country": "Russia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5107967429",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5170-7968",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5107967429",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5107967429",
+        "https://orcid.org/0000-0002-5170-7968",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5050966453",
+      "name": "Sarah Lambert",
+      "title": "Deakin University researcher connected to trauma psychology public education",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5050966453",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2722-9684",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5050966453",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5050966453",
+        "https://orcid.org/0000-0003-2722-9684",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5019666106",
+      "name": "Judith Pete",
+      "title": "Eckernforde Tanga University researcher connected to trauma psychology public education",
+      "country": "Tanzania",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5019666106",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0971-5945",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5019666106",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5019666106",
+        "https://orcid.org/0000-0003-0971-5945",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5024338752",
+      "name": "Virgínia Rodés",
+      "title": "Universidad de la República de Uruguay researcher connected to trauma psychology public education",
+      "country": "Uruguay",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5024338752",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7229-4998",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5024338752",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5024338752",
+        "https://orcid.org/0000-0002-7229-4998",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5069258598",
+      "name": "Maha Bali",
+      "title": "American University in Cairo researcher connected to trauma psychology public education",
+      "country": "Egypt",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5069258598",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8142-7262",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5069258598",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5069258598",
+        "https://orcid.org/0000-0002-8142-7262",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5055844698",
+      "name": "Abel V. Alvarez",
+      "title": "OpenAlex-indexed researcher connected to trauma psychology public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5055844698",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2319-6881",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5055844698",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5055844698",
+        "https://orcid.org/0000-0002-2319-6881",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5009014627",
+      "name": "Jennifer Roberts",
+      "title": "University of South Africa researcher connected to trauma psychology public education",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "trauma psychology public education",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 74,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009014627",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7084-4036",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009014627",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009014627",
+        "https://orcid.org/0000-0002-7084-4036",
+        "https://openalex.org/W4287762607",
+        "https://doi.org/10.5281/zenodo.3878572",
+        "https://openalex.org/W3033694598",
+        "https://doi.org/10.5281/zenodo.3878571"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health. Manual official-source review is required before any outreach."
+    }
+  ]
+}

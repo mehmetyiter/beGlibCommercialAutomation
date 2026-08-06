@@ -1,0 +1,981 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-07-10T05:22:31.110Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q55207",
+      "name": "Nikita Mikhalkov",
+      "title": "Russian film director, writer, producer and actor (born 1945) connected to blogger",
+      "country": "Russia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Russian film director, writer, producer and actor (born 1945)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q55207",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nikita_Mikhalkov",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://besogontv.ru/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCiwIy5q59aD-Nph5f-Zvp2A",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nikita__mikhalkov/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/164899860238622",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q55207",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q55207",
+        "https://en.wikipedia.org/wiki/Nikita_Mikhalkov",
+        "https://besogontv.ru/",
+        "https://www.youtube.com/channel/UCiwIy5q59aD-Nph5f-Zvp2A",
+        "https://www.instagram.com/nikita__mikhalkov/",
+        "https://www.facebook.com/164899860238622"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106969803",
+      "name": "Gigguk",
+      "title": "Thai-British YouTuber connected to YouTuber",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Thai-British YouTuber"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106969803",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gigguk",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC7dF9qfBMXrSlaaFFDvV_Yg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/GiggukAZ",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/giggukaz/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/GiggukAZ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106969803",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106969803",
+        "https://en.wikipedia.org/wiki/Gigguk",
+        "https://www.youtube.com/channel/UC7dF9qfBMXrSlaaFFDvV_Yg",
+        "https://x.com/GiggukAZ",
+        "https://www.instagram.com/giggukaz/",
+        "https://www.facebook.com/GiggukAZ"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q62882",
+      "name": "Marc Andreessen",
+      "title": "American entrepreneur, investor, and software engineer connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American entrepreneur, investor, and software engineer"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q62882",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Marc_Andreessen",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/pmarca",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pmarca",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/pmarca",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q62882",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q62882",
+        "https://en.wikipedia.org/wiki/Marc_Andreessen",
+        "https://x.com/pmarca",
+        "https://www.facebook.com/pmarca",
+        "https://www.linkedin.com/in/pmarca"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106986018",
+      "name": "Firoz Chuttipara",
+      "title": "Indian YouTuber connected to YouTuber",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indian YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106986018",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Firoz_Chuttipara",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCuSD-BXA1p8S3HfE8LsEkHA",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/villagefoodchannel_official/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/craftsmedia",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106986018",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106986018",
+        "https://en.wikipedia.org/wiki/Firoz_Chuttipara",
+        "https://www.youtube.com/channel/UCuSD-BXA1p8S3HfE8LsEkHA",
+        "https://www.instagram.com/villagefoodchannel_official/",
+        "https://www.facebook.com/craftsmedia"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q110389785",
+      "name": "Paul-Adrien d'Hardemare",
+      "title": "French catholic cleric, video blogger connected to YouTuber",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "French catholic cleric, video blogger"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q110389785",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://lamourvaincra.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCWsPptxhLaTv8ATmceTOTog",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fr.pauladrien/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/FrerePaulAdrien",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@frere_paul_adrien",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q110389785",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q110389785",
+        "https://lamourvaincra.com/",
+        "https://www.youtube.com/channel/UCWsPptxhLaTv8ATmceTOTog",
+        "https://www.instagram.com/fr.pauladrien/",
+        "https://www.facebook.com/FrerePaulAdrien",
+        "https://www.tiktok.com/@frere_paul_adrien"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q58121",
+      "name": "Erkki Tuomioja",
+      "title": "Finnish politician (born 1946) connected to blogger",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Finnish politician (born 1946)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q58121",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Erkki_Tuomioja",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://tuomioja.org",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q58121",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q58121",
+        "https://en.wikipedia.org/wiki/Erkki_Tuomioja",
+        "https://tuomioja.org"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q59441",
+      "name": "Sylvia Day",
+      "title": "American writer connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q59441",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Sylvia_Day",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.sylviaday.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q59441",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q59441",
+        "https://en.wikipedia.org/wiki/Sylvia_Day",
+        "https://www.sylviaday.com/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96184319",
+      "name": "Mariana Cabral",
+      "title": "blogger, Portuguese comedian connected to blogger",
+      "country": "Portugal",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "blogger, Portuguese comedian"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96184319",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://bumbanafofinha.com",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/bumbanafofinha/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Bumbanafofinha",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96184319",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96184319",
+        "https://bumbanafofinha.com",
+        "https://www.instagram.com/bumbanafofinha/",
+        "https://www.facebook.com/Bumbanafofinha"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q140372686",
+      "name": "Liz Keogh",
+      "title": "blogger, poet and developer based in London connected to blogger",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "blogger, poet and developer based in London"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q140372686",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://lizkeogh.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/lunivore",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/liz-keogh-6240071",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q140372686",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q140372686",
+        "https://lizkeogh.com/",
+        "https://x.com/lunivore",
+        "https://www.linkedin.com/in/liz-keogh-6240071"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106994199",
+      "name": "Zelarl",
+      "title": "Japanese YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106994199",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCSANy7iWxNBvRAE0ScXHV-Q",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Zelarlyt",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/zelarl/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106994199",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106994199",
+        "https://www.youtube.com/channel/UCSANy7iWxNBvRAE0ScXHV-Q",
+        "https://x.com/Zelarlyt",
+        "https://www.instagram.com/zelarl/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106994921",
+      "name": "Marina Takewaki",
+      "title": "Japanese YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106994921",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCw7HTQv0F4CB9zGRhqosYsg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/takemari1219",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/takemari1219/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106994921",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106994921",
+        "https://www.youtube.com/channel/UCw7HTQv0F4CB9zGRhqosYsg",
+        "https://x.com/takemari1219",
+        "https://www.instagram.com/takemari1219/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q55123",
+      "name": "Alan Cox",
+      "title": "British computer programmer connected to blogger",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "British computer programmer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q55123",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alan_Cox_(computer_programmer)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q55123",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q55123",
+        "https://en.wikipedia.org/wiki/Alan_Cox_(computer_programmer)"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96146332",
+      "name": "Cynthia D Ritchie",
+      "title": "American filmmaker, analyst and social media campaigner connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American filmmaker, analyst and social media campaigner"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96146332",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Cynthia_D._Ritchie",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96146332",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96146332",
+        "https://en.wikipedia.org/wiki/Cynthia_D._Ritchie"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q110380366",
+      "name": "Vanessa Merrell",
+      "title": "American YouTuber, actress, and musician connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber, actress, and musician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q110380366",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Vanessa_Merrell",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q110380366",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q110380366",
+        "https://en.wikipedia.org/wiki/Vanessa_Merrell"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106994755",
+      "name": "Moka Hashimoto",
+      "title": "Japanese model, idol and former gravure idol connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese model, idol and former gravure idol"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106994755",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/moca.gram/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@mocachaaaan8",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106994755",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106994755",
+        "https://www.instagram.com/moca.gram/",
+        "https://www.tiktok.com/@mocachaaaan8"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q110403035",
+      "name": "Taiyō Amemiya",
+      "title": "Japanese YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q110403035",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCHog7L3CzsDg2GH9aza1bPg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/inazuma0217tai1",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q110403035",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q110403035",
+        "https://www.youtube.com/channel/UCHog7L3CzsDg2GH9aza1bPg",
+        "https://x.com/inazuma0217tai1"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2824,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

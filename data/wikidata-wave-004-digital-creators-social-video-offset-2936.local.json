@@ -1,0 +1,499 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-07-10T05:36:07.394Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q115596044",
+      "name": "Sneako",
+      "title": "American YouTuber, manosphere activist and online streamer (born 1998) connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber, manosphere activist and online streamer (born 1998)"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115596044",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Sneako",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCYBcZqvVDL-IhZIGzovs6eA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/sneako",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sneako/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115596044",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115596044",
+        "https://en.wikipedia.org/wiki/Sneako",
+        "https://www.youtube.com/channel/UCYBcZqvVDL-IhZIGzovs6eA",
+        "https://x.com/sneako",
+        "https://www.instagram.com/sneako/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115607112",
+      "name": "Boxdel",
+      "title": "Polish influencer connected to YouTuber",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Polish influencer"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115607112",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtGmMo9NJaQG3hl1gsj1Hzw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/boxdel_",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/boxdel/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/boxdel",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/boxdel",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@boxdel",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115607112",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115607112",
+        "https://www.youtube.com/channel/UCtGmMo9NJaQG3hl1gsj1Hzw",
+        "https://x.com/boxdel_",
+        "https://www.instagram.com/boxdel/",
+        "https://www.facebook.com/boxdel",
+        "https://www.linkedin.com/in/boxdel",
+        "https://www.tiktok.com/@boxdel"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115530226",
+      "name": "Kakochin",
+      "title": "Japanese YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115530226",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCpp9XVh5Q7ODRE-pl3FCQmA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ymnkk38",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ymnkk38/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115530226",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115530226",
+        "https://www.youtube.com/channel/UCpp9XVh5Q7ODRE-pl3FCQmA",
+        "https://x.com/ymnkk38",
+        "https://www.instagram.com/ymnkk38/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115530251",
+      "name": "Miku Kasai",
+      "title": "Japanese actress and television personality connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese actress and television personality"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115530251",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/kasaimiku_nukko",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kasaimiku_hirata/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@kasaimiku_hirata",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115530251",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115530251",
+        "https://x.com/kasaimiku_nukko",
+        "https://www.instagram.com/kasaimiku_hirata/",
+        "https://www.tiktok.com/@kasaimiku_hirata"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115529716",
+      "name": "Yūta",
+      "title": "Japanese YouTuber (1999-). Member of Comdot connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber (1999-). Member of Comdot"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115529716",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/com.yuta/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@com.yuta0305",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115529716",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115529716",
+        "https://www.instagram.com/com.yuta/",
+        "https://www.tiktok.com/@com.yuta0305"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115529745",
+      "name": "Totsugeki Narue",
+      "title": "Japanese YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115529745",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCeEBly9gLmK8wCxfyJlZoTg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/TarueTotugeki",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115529745",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115529745",
+        "https://www.youtube.com/channel/UCeEBly9gLmK8wCxfyJlZoTg",
+        "https://x.com/TarueTotugeki"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115529786",
+      "name": "Tetsuya Unami",
+      "title": "Japanese YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese YouTuber"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115529786",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCfe8_5qCM2n2uoB3Nsz_IFQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/EnthuCarGuide",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115529786",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115529786",
+        "https://www.youtube.com/channel/UCfe8_5qCM2n2uoB3Nsz_IFQ",
+        "https://x.com/EnthuCarGuide"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115573043",
+      "name": "Michał Barczak",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115573043",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCiGqbEL_qHPvxqmmOz5rQnQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115573043",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115573043",
+        "https://www.youtube.com/channel/UCiGqbEL_qHPvxqmmOz5rQnQ"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2936,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

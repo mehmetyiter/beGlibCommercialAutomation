@@ -1,0 +1,732 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-06-30T07:57:18.213Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q105477163",
+      "name": "Bjørn Nyland",
+      "title": "Norwegian YouTuber connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Norwegian YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105477163",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Bj%C3%B8rn_Nyland_(YouTuber)",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCD3YwI6vR9BSHufERd4sqwQ",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCG1QcV31eoSaX4rE8avQL4A",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCGwCaBI16SRFASgow9zWuIA",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105477163",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105477163",
+        "https://en.wikipedia.org/wiki/Bj%C3%B8rn_Nyland_(YouTuber)",
+        "https://www.youtube.com/channel/UCD3YwI6vR9BSHufERd4sqwQ",
+        "https://www.youtube.com/channel/UCG1QcV31eoSaX4rE8avQL4A",
+        "https://www.youtube.com/channel/UCGwCaBI16SRFASgow9zWuIA"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124789499",
+      "name": "Michal Pastier",
+      "title": "Slovak creative director, entrepreneur and investor connected to blogger",
+      "country": "Slovakia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Slovak creative director, entrepreneur and investor"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124789499",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://michalpastier.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MichalPastier",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/michalpastier/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/michal.pastier",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/pastier",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124789499",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124789499",
+        "https://michalpastier.com/",
+        "https://x.com/MichalPastier",
+        "https://www.instagram.com/michalpastier/",
+        "https://www.facebook.com/michal.pastier",
+        "https://www.linkedin.com/in/pastier"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105515839",
+      "name": "Fabian Faessler",
+      "title": "security researcher connected to YouTuber",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "security researcher"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105515839",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://liveoverflow.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/liveoverflow",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/liveoverflow/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LiveOverflow",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105515839",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105515839",
+        "https://liveoverflow.com/",
+        "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
+        "https://x.com/liveoverflow",
+        "https://www.instagram.com/liveoverflow/",
+        "https://www.facebook.com/LiveOverflow"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124799073",
+      "name": "Ella Kenan",
+      "title": "Israeli blogger and public diplomacy influencer connected to blogger",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Israeli blogger and public diplomacy influencer"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124799073",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/EllaTravelsLove",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ellatravelsworld/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Ella Travels World",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@ellatravelsworld",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124799073",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124799073",
+        "https://x.com/EllaTravelsLove",
+        "https://www.instagram.com/ellatravelsworld/",
+        "https://www.facebook.com/Ella Travels World",
+        "https://www.tiktok.com/@ellatravelsworld"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105487079",
+      "name": "Jaime French",
+      "title": "American comedian, YouTuber and make-up artist connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American comedian, YouTuber and make-up artist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105487079",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jaime_French",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jaime.french/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105487079",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105487079",
+        "https://en.wikipedia.org/wiki/Jaime_French",
+        "https://www.instagram.com/jaime.french/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105502118",
+      "name": "Christian Stachelhaus",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105502118",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/brosator",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/husarenchris/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Brosator",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105502118",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105502118",
+        "https://x.com/brosator",
+        "https://www.instagram.com/husarenchris/",
+        "https://www.facebook.com/Brosator"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124767964",
+      "name": "Chawadee Nualkhair",
+      "title": "thai-American food writer and journalist connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "thai-American food writer and journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124767964",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Chawadee_Nualkhair",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124767964",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124767964",
+        "https://en.wikipedia.org/wiki/Chawadee_Nualkhair"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124790260",
+      "name": "Jason Perlow",
+      "title": "American technology and food blogger connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American technology and food blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124790260",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jason_Perlow",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124790260",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124790260",
+        "https://en.wikipedia.org/wiki/Jason_Perlow"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105408090",
+      "name": "Yolanda Tati",
+      "title": "writer, engineer, broadcaster and tv presenter connected to YouTuber",
+      "country": "Angola",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "writer, engineer, broadcaster and tv presenter"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105408090",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yolanda.tati/",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/yolanda-tati-27a25280",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105408090",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105408090",
+        "https://www.instagram.com/yolanda.tati/",
+        "https://www.linkedin.com/in/yolanda-tati-27a25280"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105346188",
+      "name": "Ed Gama",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105346188",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/edgama/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105346188",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105346188",
+        "https://www.instagram.com/edgama/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124765089",
+      "name": "Lyubov Moskvina",
+      "title": "blogger connected to blogger",
+      "country": "Russia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124765089",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124765089",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124765089"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124844601",
+      "name": "Lars Poeck",
+      "title": "German photographer connected to blogger",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "German photographer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124844601",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124844601",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124844601"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105416230",
+      "name": "Spartakus Santiago",
+      "title": "Brazilian YouTuber and digital influencer connected to YouTuber",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Brazilian YouTuber and digital influencer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105416230",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105416230",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105416230"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2264,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

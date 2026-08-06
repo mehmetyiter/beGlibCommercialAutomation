@@ -1,0 +1,2429 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-therapy",
+  "createdAt": "2026-06-15T03:18:32.730Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / therapy",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5014245195",
+      "name": "Graham Thornicroft",
+      "title": "King's College London researcher connected to psychotherapy mental health education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "Mental Health Treatment and Access",
+        "Food Security and Health in Diverse Populations",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Healthcare professionals’ stress and burnout",
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Chronic Disease Management Strategies"
+      ],
+      "fitScore": 88,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5014245195",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0662-0879",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5014245195",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5014245195",
+        "https://orcid.org/0000-0003-0662-0879",
+        "https://openalex.org/W2897623369",
+        "https://doi.org/10.1016/s0140-6736(18)31612-x",
+        "https://openalex.org/W2007909468",
+        "https://doi.org/10.1017/s0033291714000129",
+        "https://openalex.org/W2958971346",
+        "https://doi.org/10.1016/s2215-0366(19)30132-4",
+        "https://openalex.org/W3129779558",
+        "https://doi.org/10.1016/s2215-0366(21)00025-0",
+        "https://openalex.org/W4303940215",
+        "https://doi.org/10.1016/s0140-6736(22)01470-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Mental Health Treatment and Access, Food Security and Health in Diverse Populations, Child and Adolescent Psychosocial and Emotional Development. Manual official-source review is required before any outreach. Additional query match: addiction counseling mental health."
+    },
+    {
+      "id": "openalex-A5073216705",
+      "name": "Dan J. Stein",
+      "title": "South African Medical Research Council researcher connected to psychotherapy mental health education",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "Mental Health Treatment and Access",
+        "Food Security and Health in Diverse Populations",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Digital Mental Health Interventions"
+      ],
+      "fitScore": 88,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5073216705",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7218-7810",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5073216705",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5073216705",
+        "https://orcid.org/0000-0001-7218-7810",
+        "https://openalex.org/W2897623369",
+        "https://doi.org/10.1016/s0140-6736(18)31612-x",
+        "https://openalex.org/W2891230948",
+        "https://doi.org/10.1037/abn0000362",
+        "https://openalex.org/W2604674575",
+        "https://doi.org/10.1017/s0033291717000708"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Mental Health Treatment and Access, Food Security and Health in Diverse Populations, Child and Adolescent Psychosocial and Emotional Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5056944189",
+      "name": "Christoph U. Correll",
+      "title": "Albert Einstein College of Medicine researcher connected to addiction counseling mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 88,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5056944189",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7254-5646",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5056944189",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5056944189",
+        "https://orcid.org/0000-0002-7254-5646",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x",
+        "https://openalex.org/W3043299460",
+        "https://doi.org/10.1016/s2215-0366(20)30307-2",
+        "https://openalex.org/W2958971346",
+        "https://doi.org/10.1016/s2215-0366(19)30132-4"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5090631705",
+      "name": "Susan Michie",
+      "title": "University College London researcher connected to cognitive behavioral therapy public education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Behavioral Health and Interventions",
+        "Behavioral and Psychological Studies",
+        "Health Policy Implementation Science",
+        "Digital Mental Health Interventions"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5090631705",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0063-6378",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5090631705",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5090631705",
+        "https://orcid.org/0000-0003-0063-6378",
+        "https://openalex.org/W2057181385",
+        "https://doi.org/10.1037/0278-6133.27.3.379",
+        "https://openalex.org/W2089502871",
+        "https://doi.org/10.2196/jmir.1376"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Behavioral and Psychological Studies, Health Policy Implementation Science. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5027011598",
+      "name": "Min Jeong Kwon",
+      "title": "Catholic University of Korea researcher connected to addiction counseling mental health",
+      "country": "South Korea",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Impact of Technology on Adolescents",
+        "Workaholism, burnout, and well-being",
+        "Psychosocial Factors Impacting Youth"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5027011598",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9616-870X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5027011598",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5027011598",
+        "https://orcid.org/0000-0002-9616-870X",
+        "https://openalex.org/W2030182499",
+        "https://doi.org/10.1371/journal.pone.0083558",
+        "https://openalex.org/W2071802076",
+        "https://doi.org/10.1371/journal.pone.0056936"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Impact of Technology on Adolescents, Workaholism, burnout, and well-being, Psychosocial Factors Impacting Youth. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5056295735",
+      "name": "Corina Benjet",
+      "title": "Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz researcher connected to addiction counseling mental health",
+      "country": "Mexico",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Child and Adolescent Psychosocial and Emotional Development",
+        "Mental Health Treatment and Access",
+        "Digital Mental Health Interventions",
+        "COVID-19 and Mental Health"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5056295735",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4569-6094",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5056295735",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5056295735",
+        "https://orcid.org/0000-0002-4569-6094",
+        "https://openalex.org/W2891230948",
+        "https://doi.org/10.1037/abn0000362",
+        "https://openalex.org/W3129779558",
+        "https://doi.org/10.1016/s2215-0366(21)00025-0"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Child and Adolescent Psychosocial and Emotional Development, Mental Health Treatment and Access, Digital Mental Health Interventions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5001390698",
+      "name": "Richard M. Ryan",
+      "title": "University of Rochester researcher connected to psychotherapy mental health education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "Motivation and Self-Concept in Sports",
+        "Education, Achievement, and Giftedness",
+        "Perfectionism, Procrastination, Anxiety Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5001390698",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2355-6154",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5001390698",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5001390698",
+        "https://orcid.org/0000-0002-2355-6154",
+        "https://openalex.org/W2141846678",
+        "https://doi.org/10.1037//0003-066x.55.1.68"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Motivation and Self-Concept in Sports, Education, Achievement, and Giftedness, Perfectionism, Procrastination, Anxiety Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5004154542",
+      "name": "Edward L. Deci",
+      "title": "OpenAlex-indexed researcher connected to psychotherapy mental health education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "Motivation and Self-Concept in Sports",
+        "Education, Achievement, and Giftedness",
+        "Perfectionism, Procrastination, Anxiety Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5004154542",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8246-8536",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5004154542",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5004154542",
+        "https://orcid.org/0000-0001-8246-8536",
+        "https://openalex.org/W2141846678",
+        "https://doi.org/10.1037//0003-066x.55.1.68"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Motivation and Self-Concept in Sports, Education, Achievement, and Giftedness, Perfectionism, Procrastination, Anxiety Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5023033718",
+      "name": "Emily A. Holmes",
+      "title": "Uppsala University researcher connected to psychotherapy mental health education",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5023033718",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7319-3112",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5023033718",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5023033718",
+        "https://orcid.org/0000-0001-7319-3112",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5044019815",
+      "name": "V. Hugh Perry",
+      "title": "UK Dementia Research Institute researcher connected to psychotherapy mental health education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5044019815",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8950-5045",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5044019815",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5044019815",
+        "https://orcid.org/0000-0001-8950-5045",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5035274081",
+      "name": "Irene Tracey",
+      "title": "University of Oxford researcher connected to psychotherapy mental health education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5035274081",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4134-6115",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5035274081",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5035274081",
+        "https://orcid.org/0000-0003-4134-6115",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5091639078",
+      "name": "Simon Wessely",
+      "title": "King's College London researcher connected to psychotherapy mental health education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5091639078",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6743-9929",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5091639078",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5091639078",
+        "https://orcid.org/0000-0002-6743-9929",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5000891136",
+      "name": "Louise Arseneault",
+      "title": "King's College London researcher connected to psychotherapy mental health education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5000891136",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2938-2191",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5000891136",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5000891136",
+        "https://orcid.org/0000-0002-2938-2191",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032708452",
+      "name": "Clive Ballard",
+      "title": "University of Exeter researcher connected to psychotherapy mental health education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032708452",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0022-5632",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032708452",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032708452",
+        "https://orcid.org/0000-0003-0022-5632",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5009347799",
+      "name": "Helen Christensen",
+      "title": "Black Dog Institute researcher connected to psychotherapy mental health education",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009347799",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0435-2065",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009347799",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009347799",
+        "https://orcid.org/0000-0003-0435-2065",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5026872960",
+      "name": "Roxane Cohen Silver",
+      "title": "University of California, Irvine researcher connected to psychotherapy mental health education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "psychotherapy mental health education",
+        "COVID-19 and Mental Health",
+        "Long-Term Effects of COVID-19",
+        "Mental Health Treatment and Access"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5026872960",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4013-6792",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5026872960",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5026872960",
+        "https://orcid.org/0000-0002-4013-6792",
+        "https://openalex.org/W3015197879",
+        "https://doi.org/10.1016/s2215-0366(20)30168-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Long-Term Effects of COVID-19, Mental Health Treatment and Access. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5010317706",
+      "name": "Russell E. Glasgow",
+      "title": "Cancer Research Center researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010317706",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4218-3231",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010317706",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010317706",
+        "https://orcid.org/0000-0003-4218-3231",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5084483753",
+      "name": "Thomas Vogt",
+      "title": "OpenAlex-indexed researcher connected to cognitive behavioral therapy public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5084483753",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2824-5005",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5084483753",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5084483753",
+        "https://orcid.org/0000-0002-2824-5005",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5007332969",
+      "name": "Shawn M. Boles",
+      "title": "OpenAlex-indexed researcher connected to cognitive behavioral therapy public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5007332969",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5007332969",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5007332969",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5019914929",
+      "name": "Philip B. Gorelick",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5019914929",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1181-614X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5019914929",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5019914929",
+        "https://orcid.org/0000-0002-1181-614X",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5056272495",
+      "name": "Angelo Scuteri",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5056272495",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4784-5441",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5056272495",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5056272495",
+        "https://orcid.org/0000-0003-4784-5441",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5040635626",
+      "name": "Sandra E. Black",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5040635626",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7093-8289",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5040635626",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5040635626",
+        "https://orcid.org/0000-0001-7093-8289",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5063509357",
+      "name": "Steven M. Greenberg",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5063509357",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1792-8887",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5063509357",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5063509357",
+        "https://orcid.org/0000-0003-1792-8887",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5010768101",
+      "name": "Costantino Iadecola",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010768101",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9797-073X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010768101",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010768101",
+        "https://orcid.org/0000-0001-9797-073X",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018722034",
+      "name": "Lenore J. Launer",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018722034",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3238-7612",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018722034",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018722034",
+        "https://orcid.org/0000-0002-3238-7612",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5088444378",
+      "name": "Stéphane Laurent",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5088444378",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4697-405X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5088444378",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5088444378",
+        "https://orcid.org/0000-0002-4697-405X",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5025379068",
+      "name": "David L. Nyenhuis",
+      "title": "American Heart Association researcher connected to cognitive behavioral therapy public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "cognitive behavioral therapy public education",
+        "Dementia and Cognitive Impairment Research",
+        "Neurological Disease Mechanisms and Treatments",
+        "Intracerebral and Subarachnoid Hemorrhage Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5025379068",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7318-2915",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5025379068",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5025379068",
+        "https://orcid.org/0000-0001-7318-2915",
+        "https://openalex.org/W2527609605",
+        "https://doi.org/10.1161/str.0b013e3182299496"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dementia and Cognitive Impairment Research, Neurological Disease Mechanisms and Treatments, Intracerebral and Subarachnoid Hemorrhage Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5024262342",
+      "name": "Myron S. Cohen",
+      "title": "University of North Carolina at Chapel Hill researcher connected to family therapy relationship education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5024262342",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5917-9664",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5024262342",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5024262342",
+        "https://orcid.org/0000-0001-5917-9664",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5082586932",
+      "name": "Ying Qing Chen",
+      "title": "Cape Town HVTN Immunology Laboratory / Hutchinson Centre Research Institute of South Africa researcher connected to family therapy relationship education",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5082586932",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2726-3391",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5082586932",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5082586932",
+        "https://orcid.org/0000-0002-2726-3391",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5063945368",
+      "name": "Theresa Gamble",
+      "title": "OpenAlex-indexed researcher connected to family therapy relationship education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5063945368",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2515-0828",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5063945368",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5063945368",
+        "https://orcid.org/0000-0002-2515-0828",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5009781874",
+      "name": "Mina C. Hosseinipour",
+      "title": "University of North Carolina at Chapel Hill researcher connected to family therapy relationship education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009781874",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2174-313X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009781874",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009781874",
+        "https://orcid.org/0000-0003-2174-313X",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5044248283",
+      "name": "James Hakim",
+      "title": "University of Zimbabwe researcher connected to family therapy relationship education",
+      "country": "Zimbabwe",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5044248283",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5981-9331",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5044248283",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5044248283",
+        "https://orcid.org/0000-0002-5981-9331",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5034999390",
+      "name": "Johnstone Kumwenda",
+      "title": "OpenAlex-indexed researcher connected to family therapy relationship education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5034999390",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2622-4339",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5034999390",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5034999390",
+        "https://orcid.org/0000-0003-2622-4339",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5024931884",
+      "name": "Beatriz Grinsztejn",
+      "title": "Instituto Evandro Chagas researcher connected to family therapy relationship education",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5024931884",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3692-5155",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5024931884",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5024931884",
+        "https://orcid.org/0000-0003-3692-5155",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5070719160",
+      "name": "José Henrique Pilotto",
+      "title": "Hospital Geral de Fortaleza researcher connected to family therapy relationship education",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5070719160",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0521-8597",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5070719160",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5070719160",
+        "https://orcid.org/0000-0003-0521-8597",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5085842781",
+      "name": "Sheela Godbole",
+      "title": "National AIDS Research Institute researcher connected to family therapy relationship education",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5085842781",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6537-9064",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5085842781",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5085842781",
+        "https://orcid.org/0000-0001-6537-9064",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5060433543",
+      "name": "Sanjay Mehendale",
+      "title": "National AIDS Research Institute researcher connected to family therapy relationship education",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5060433543",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2191-4034",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5060433543",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5060433543",
+        "https://orcid.org/0000-0002-2191-4034",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5026652803",
+      "name": "Suwat Chariyalertsak",
+      "title": "Chiang Mai University researcher connected to family therapy relationship education",
+      "country": "Thailand",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5026652803",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4998-7841",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5026652803",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5026652803",
+        "https://orcid.org/0000-0002-4998-7841",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018296766",
+      "name": "Breno Santos",
+      "title": "Hospital Nossa Senhora da Conceição researcher connected to family therapy relationship education",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "family therapy relationship education",
+        "HIV/AIDS Research and Interventions",
+        "HIV Research and Treatment",
+        "HIV/AIDS drug development and treatment"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018296766",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2888-2573",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018296766",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018296766",
+        "https://orcid.org/0000-0002-2888-2573",
+        "https://openalex.org/W2152505869",
+        "https://doi.org/10.1056/nejmoa1105243"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to HIV/AIDS Research and Interventions, HIV Research and Treatment, HIV/AIDS drug development and treatment. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5054306814",
+      "name": "Marc D. Binder",
+      "title": "Catholic University of America researcher connected to addiction counseling mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5054306814",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4255-5920",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5054306814",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5054306814",
+        "https://orcid.org/0000-0003-4255-5920",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5083202579",
+      "name": "Julio Bobes",
+      "title": "Universidad de Oviedo researcher connected to addiction counseling mental health",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5083202579",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2187-4033",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5083202579",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5083202579",
+        "https://orcid.org/0000-0003-2187-4033",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5043143703",
+      "name": "Marcelo Cetkovich",
+      "title": "Favaloro University researcher connected to addiction counseling mental health",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5043143703",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6822-1406",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5043143703",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5043143703",
+        "https://orcid.org/0000-0001-6822-1406",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5029577440",
+      "name": "Dan Cohen",
+      "title": "University of Groningen researcher connected to addiction counseling mental health",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5029577440",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1542-4255",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5029577440",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5029577440",
+        "https://orcid.org/0000-0003-1542-4255",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5080920214",
+      "name": "Johan Detraux",
+      "title": "Catholic University of America researcher connected to addiction counseling mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5080920214",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6363-3767",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5080920214",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5080920214",
+        "https://orcid.org/0000-0002-6363-3767",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032462383",
+      "name": "David M. Ndetei",
+      "title": "Africa Mental Health Foundation researcher connected to addiction counseling mental health",
+      "country": "Kenya",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032462383",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6891-4990",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032462383",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032462383",
+        "https://orcid.org/0000-0001-6891-4990",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5085456146",
+      "name": "John W. Newcomer",
+      "title": "Washington University in St. Louis researcher connected to addiction counseling mental health",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5085456146",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2153-9382",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5085456146",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5085456146",
+        "https://orcid.org/0000-0003-2153-9382",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5012215894",
+      "name": "Richard Uwakwe",
+      "title": "Nnamdi Azikiwe University researcher connected to addiction counseling mental health",
+      "country": "Nigeria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "therapy",
+      "subcategories": [
+        "addiction counseling mental health",
+        "Schizophrenia research and treatment",
+        "Bipolar Disorder and Treatment",
+        "Tryptophan and brain disorders"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5012215894",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2059-3101",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5012215894",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5012215894",
+        "https://orcid.org/0000-0002-2059-3101",
+        "https://openalex.org/W2116251861",
+        "https://doi.org/10.1002/j.2051-5545.2011.tb00014.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Schizophrenia research and treatment, Bipolar Disorder and Treatment, Tryptophan and brain disorders. Manual official-source review is required before any outreach."
+    }
+  ]
+}

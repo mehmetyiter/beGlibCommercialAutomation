@@ -1,0 +1,1885 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-06-25T10:18:33.559Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q56417549",
+      "name": "WillNE",
+      "title": "British Internet personality connected to YouTuber",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "British Internet personality"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56417549",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/WillNE",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://willne.co.uk/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCaFUrR3oSxOl5Y9y6tvLTEg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Will__NE",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/willne/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/WillNEYT",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/willne",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56417549",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56417549",
+        "https://en.wikipedia.org/wiki/WillNE",
+        "https://willne.co.uk/",
+        "https://www.youtube.com/channel/UCaFUrR3oSxOl5Y9y6tvLTEg",
+        "https://x.com/Will__NE",
+        "https://www.instagram.com/willne/",
+        "https://www.facebook.com/WillNEYT",
+        "https://x.com/willne"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30338925",
+      "name": "-Z-",
+      "title": "Tunisian caricaturist and activist connected to blogger",
+      "country": "Tunisia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Tunisian caricaturist and activist"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30338925",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Z_(cartoonist)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.debatunisie.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/___z__",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/debatunisie/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DEBATunisie",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30338925",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30338925",
+        "https://en.wikipedia.org/wiki/Z_(cartoonist)",
+        "http://www.debatunisie.com/",
+        "https://x.com/___z__",
+        "https://www.instagram.com/debatunisie/",
+        "https://www.facebook.com/DEBATunisie"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124636018",
+      "name": "Adela Cojab",
+      "title": "activist, author, podcaster and law student connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "activist, author, podcaster and law student"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124636018",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Adela_Cojab",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/adelacojab",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/adelacojab/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Adela.Cojab.Activism",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/adela-cojab-79a142b7",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124636018",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124636018",
+        "https://en.wikipedia.org/wiki/Adela_Cojab",
+        "https://x.com/adelacojab",
+        "https://www.instagram.com/adelacojab/",
+        "https://www.facebook.com/Adela.Cojab.Activism",
+        "https://www.linkedin.com/in/adela-cojab-79a142b7"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124663636",
+      "name": "Aaron Badgley",
+      "title": "Canadian music journalist, music critic, radio host, and author connected to podcaster",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "Canadian music journalist, music critic, radio host, and author"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124663636",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Aaron_Badgley",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.aaron-badgley.com/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aaronbadgley/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aaron.badgley.7",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/aaron-badgley-33a0871b4",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124663636",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124663636",
+        "https://en.wikipedia.org/wiki/Aaron_Badgley",
+        "https://www.aaron-badgley.com/",
+        "https://www.instagram.com/aaronbadgley/",
+        "https://www.facebook.com/aaron.badgley.7",
+        "https://www.linkedin.com/in/aaron-badgley-33a0871b4"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136483460",
+      "name": "Club Chalamet",
+      "title": "American internet personality connected to influencer",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "American internet personality"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136483460",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Club_Chalamet",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/clubchalamet",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/clubchalamet/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/SGlorrie",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136483460",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136483460",
+        "https://en.wikipedia.org/wiki/Club_Chalamet",
+        "https://x.com/clubchalamet",
+        "https://www.instagram.com/clubchalamet/",
+        "https://x.com/SGlorrie"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56399385",
+      "name": "Atta Halilintar",
+      "title": "Indonesian YouTuber and businessman connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indonesian YouTuber and businessman"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56399385",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Atta_Halilintar",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCaKLg1ELiX0zTJ6Je3c5esA",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/attahalilintar/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@AttaHalilintar",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56399385",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56399385",
+        "https://en.wikipedia.org/wiki/Atta_Halilintar",
+        "https://www.youtube.com/channel/UCaKLg1ELiX0zTJ6Je3c5esA",
+        "https://www.instagram.com/attahalilintar/",
+        "https://www.tiktok.com/@AttaHalilintar"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136402873",
+      "name": "Dex Rock",
+      "title": "Serbian YouTuber and influencer connected to influencer",
+      "country": "Serbia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "Serbian YouTuber and influencer"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136402873",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://dexrock.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9-OsEfAts7_SaTRQOBRgjw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/dexrockftw",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dextherock/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DexTheRock",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@dextherock",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136402873",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136402873",
+        "https://dexrock.com/",
+        "https://www.youtube.com/channel/UC9-OsEfAts7_SaTRQOBRgjw",
+        "https://x.com/dexrockftw",
+        "https://www.instagram.com/dextherock/",
+        "https://www.facebook.com/DexTheRock",
+        "https://www.tiktok.com/@dextherock"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136407712",
+      "name": "David Matei",
+      "title": "influencer from Germany connected to influencer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "influencer from Germany"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136407712",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://davidmatei.de/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCssd1jiTapKwDLpeKmbfQ9A",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/HptmMatei",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sicherheitspolitik1/",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/davidmatei",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@sicherheitspolitik",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136407712",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136407712",
+        "https://davidmatei.de/",
+        "https://www.youtube.com/channel/UCssd1jiTapKwDLpeKmbfQ9A",
+        "https://x.com/HptmMatei",
+        "https://www.instagram.com/sicherheitspolitik1/",
+        "https://www.linkedin.com/in/davidmatei",
+        "https://www.tiktok.com/@sicherheitspolitik"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56547554",
+      "name": "Exploit",
+      "title": "Romanian music producer connected to YouTuber",
+      "country": "Romania",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Romanian music producer"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56547554",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://iamexploit.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCV3XPIDjILUALvO6XMhm9BA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/IAmExploit",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/iamexploit/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/IAmExploit",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCwADvr-f1lzAJ_MIUXylbsw",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56547554",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56547554",
+        "https://iamexploit.com",
+        "https://www.youtube.com/channel/UCV3XPIDjILUALvO6XMhm9BA",
+        "https://x.com/IAmExploit",
+        "https://www.instagram.com/iamexploit/",
+        "https://www.facebook.com/IAmExploit",
+        "https://www.youtube.com/channel/UCwADvr-f1lzAJ_MIUXylbsw"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30364070",
+      "name": "Bea Johnson",
+      "title": "Franco-American environmentalist connected to blogger",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Franco-American environmentalist"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30364070",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Bea_Johnson",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://zerowastehome.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/zerowastehome",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30364070",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30364070",
+        "https://en.wikipedia.org/wiki/Bea_Johnson",
+        "https://zerowastehome.com",
+        "https://x.com/zerowastehome"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124672328",
+      "name": "Helen Berriman",
+      "title": "British naturist and media personality connected to podcaster",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "British naturist and media personality"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124672328",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Helen_Berriman",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/helenberriman17",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/helen.berriman/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124672328",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124672328",
+        "https://en.wikipedia.org/wiki/Helen_Berriman",
+        "https://x.com/helenberriman17",
+        "https://www.instagram.com/helen.berriman/"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56543938",
+      "name": "Anna Brisbin",
+      "title": "American YouTuber connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56543938",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anna_Brisbin",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/brizzyvoices",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56543938",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56543938",
+        "https://en.wikipedia.org/wiki/Anna_Brisbin",
+        "https://x.com/brizzyvoices"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136411174",
+      "name": "Abril Cols",
+      "title": "influencer from Spain connected to influencer",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "influencer from Spain"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136411174",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCg-SVY_AyAutFBqJgJ0N5Kg",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/abrilcols/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@abrilcols",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136411174",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136411174",
+        "https://www.youtube.com/channel/UCg-SVY_AyAutFBqJgJ0N5Kg",
+        "https://www.instagram.com/abrilcols/",
+        "https://www.tiktok.com/@abrilcols"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30333016",
+      "name": "Fiore Manni",
+      "title": "Italian artist connected to blogger",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Italian artist"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30333016",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/FioreManni",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fioremanni/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fioremanniofficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30333016",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30333016",
+        "https://x.com/FioreManni",
+        "https://www.instagram.com/fioremanni/",
+        "https://www.facebook.com/fioremanniofficial"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30528143",
+      "name": "Djamila",
+      "title": "Dutch YouTuber connected to blogger",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Dutch YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30528143",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.djamilaonline.nl/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCANa7EO3GwG7fzEMO-fVRWQ",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/meisjedjamila/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30528143",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30528143",
+        "https://www.djamilaonline.nl/",
+        "https://www.youtube.com/channel/UCANa7EO3GwG7fzEMO-fVRWQ",
+        "https://www.instagram.com/meisjedjamila/"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q133455901",
+      "name": "Nikola Danaylov",
+      "title": "futurist, creator of the Singularity Weblog and host of the Singularity.FM podcast connected to podcaster",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "futurist, creator of the Singularity Weblog and host of the Singularity.FM podcast"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q133455901",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/singularityblog",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SingularitySymposium",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/nikoladanaylov",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q133455901",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q133455901",
+        "https://x.com/singularityblog",
+        "https://www.facebook.com/SingularitySymposium",
+        "https://www.linkedin.com/in/nikoladanaylov"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136437019",
+      "name": "Nimay Ndolo",
+      "title": "American writer and online personality (born 1994) connected to influencer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "American writer and online personality (born 1994)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136437019",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nimay_Ndolo",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136437019",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136437019",
+        "https://en.wikipedia.org/wiki/Nimay_Ndolo"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136467529",
+      "name": "Narin Ammara",
+      "title": "swedish-Syrian YouTuber and social media Influencer connected to influencer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "swedish-Syrian YouTuber and social media Influencer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136467529",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Narin_Ammara",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136467529",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136467529",
+        "https://en.wikipedia.org/wiki/Narin_Ammara"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30244378",
+      "name": "Isabela Figueiredo",
+      "title": "Portuguese writer connected to blogger",
+      "country": "Portugal",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Portuguese writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30244378",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Isabela_Figueiredo",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30244378",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30244378",
+        "https://en.wikipedia.org/wiki/Isabela_Figueiredo"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136408990",
+      "name": "Andrej Pfeiffer-Perkuhn",
+      "title": "German history educator, YouTuber and influencer connected to influencer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "German history educator, YouTuber and influencer"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136408990",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://geschichtsfenster.de",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCaPghPJUFIHrClDy03FpB0A",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136408990",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136408990",
+        "https://geschichtsfenster.de",
+        "https://www.youtube.com/channel/UCaPghPJUFIHrClDy03FpB0A"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30503651",
+      "name": "Dori Ben Israel",
+      "title": "Israeli blogger connected to blogger",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Israeli blogger"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30503651",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/doribenisrael",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/doribenisrael",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30503651",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30503651",
+        "https://x.com/doribenisrael",
+        "https://www.facebook.com/doribenisrael"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56514043",
+      "name": "Kevsho",
+      "title": "Argentinian actor connected to YouTuber",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Argentinian actor"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56514043",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/kevsho9",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kevsho/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56514043",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56514043",
+        "https://x.com/kevsho9",
+        "https://www.instagram.com/kevsho/"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136500163",
+      "name": "Katie Giorgadze",
+      "title": "French model connected to influencer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "French model"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136500163",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/katie.one/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136500163",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136500163",
+        "https://www.instagram.com/katie.one/"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30325676",
+      "name": "Silje Josten Kjosbakken",
+      "title": "Norwegian politician connected to blogger",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Norwegian politician"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30325676",
+          "verified": true
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/131946294104710",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30325676",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30325676",
+        "https://www.facebook.com/131946294104710"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56398879",
+      "name": "Pasi Viheraho",
+      "title": "Finnish YouTuber connected to YouTuber",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Finnish YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56398879",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCPnDBBpGpDnSPVDLAItyV9Q",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56398879",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56398879",
+        "https://www.youtube.com/channel/UCPnDBBpGpDnSPVDLAItyV9Q"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56415217",
+      "name": "Yola Mamani",
+      "title": "Bolivian activist connected to YouTuber",
+      "country": "Bolivia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Bolivian activist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56415217",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCl_N_X-kKqrM7myc56X0AFQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56415217",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56415217",
+        "https://www.youtube.com/channel/UCl_N_X-kKqrM7myc56X0AFQ"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56511022",
+      "name": "Nesim el Ahmadi",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56511022",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCB3FoghFwqbT-9yPfZVcXvQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56511022",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56511022",
+        "https://www.youtube.com/channel/UCB3FoghFwqbT-9yPfZVcXvQ"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q133819024",
+      "name": "Osasenaga Idahor",
+      "title": "American environmental activist and podcaster connected to podcaster",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "American environmental activist and podcaster"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q133819024",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0002-6653-5019",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q133819024",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q133819024",
+        "https://orcid.org/0009-0002-6653-5019"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q133822224",
+      "name": "Laurence McKenna",
+      "title": "British YouTuber connected to podcaster",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "British YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q133822224",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCM08IEZrAxP0GJbcCxyv3rg",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q133822224",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q133822224",
+        "https://www.youtube.com/channel/UCM08IEZrAxP0GJbcCxyv3rg"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30392897",
+      "name": "Susann Klossek",
+      "title": "German writer connected to blogger",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "German writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30392897",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30392897",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30392897"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q133302366",
+      "name": "Joe Dennenwald",
+      "title": "Luxembourgian actor and podcaster connected to podcaster",
+      "country": "Luxembourg",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "Luxembourgian actor and podcaster"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q133302366",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q133302366",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q133302366"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q133311108",
+      "name": "Jeff Bronder",
+      "title": "podcaster connected to podcaster",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q133311108",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q133311108",
+          "verifiedAt": "2026-06-25"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q133311108"
+      ],
+      "lastVerifiedAt": "2026-06-25",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 1000,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

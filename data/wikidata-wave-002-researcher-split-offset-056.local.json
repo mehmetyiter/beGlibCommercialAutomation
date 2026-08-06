@@ -1,0 +1,228 @@
+{
+  "batchId": "wikidata-wave-002-science-academia-thought-leaders-researcher-split-offset-056",
+  "createdAt": "2026-06-16T13:50:19.284Z",
+  "sourceLabel": "Wikidata wave 002 researcher split retry offset 56",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Discovery-only split retry batch.",
+  "candidates": [
+    {
+      "id": "wikidata-Q157235",
+      "name": "Robert Aumann",
+      "title": "Israeli-American mathematician connected to researcher",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "Israeli-American mathematician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q157235",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Robert_Aumann",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7841-3719",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q157235",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q157235",
+        "https://en.wikipedia.org/wiki/Robert_Aumann",
+        "https://orcid.org/0000-0001-7841-3719"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q163169",
+      "name": "Zeresenay Alemseged",
+      "title": "Ethiopian paleoanthropologist connected to researcher",
+      "country": "Ethiopia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "Ethiopian paleoanthropologist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q163169",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Zeresenay_Alemseged",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0460-9791",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q163169",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q163169",
+        "https://en.wikipedia.org/wiki/Zeresenay_Alemseged",
+        "https://orcid.org/0000-0002-0460-9791"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q171034",
+      "name": "Robert Wilson",
+      "title": "American astronomer (born 1936) connected to researcher",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "American astronomer (born 1936)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q171034",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Robert_Woodrow_Wilson",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5694-6725",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q171034",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q171034",
+        "https://en.wikipedia.org/wiki/Robert_Woodrow_Wilson",
+        "https://orcid.org/0000-0001-5694-6725"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q173783",
+      "name": "Hendrik Lenstra",
+      "title": "Dutch mathematician connected to researcher",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "Dutch mathematician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q173783",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Hendrik_Lenstra",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q173783",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q173783",
+        "https://en.wikipedia.org/wiki/Hendrik_Lenstra"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 1,
+    "occupationsSucceeded": 1,
+    "failures": [],
+    "limitPerOccupation": 4,
+    "offset": 56,
+    "minSitelinks": 3,
+    "rankBySitelinks": false
+  }
+}

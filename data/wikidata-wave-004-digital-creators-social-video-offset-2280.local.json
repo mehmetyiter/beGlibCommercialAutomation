@@ -1,0 +1,742 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-06-30T07:58:35.913Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q186",
+      "name": "Ken Jennings",
+      "title": "American game show contestant, host, and writer connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American game show contestant, host, and writer"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q186",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ken_Jennings",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://ken-jennings.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/KenJennings",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kenjenningsofficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q186",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q186",
+        "https://en.wikipedia.org/wiki/Ken_Jennings",
+        "http://ken-jennings.com",
+        "https://x.com/KenJennings",
+        "https://www.facebook.com/kenjenningsofficial"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116623680",
+      "name": "CiccioGamer89",
+      "title": "Italian YouTuber connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Italian YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116623680",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/CiccioGamer89",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC1jTVZboWRPpjGKAN921M5w",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cicciogamer_89/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/CiccioGamer89",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116623680",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116623680",
+        "https://en.wikipedia.org/wiki/CiccioGamer89",
+        "https://www.youtube.com/channel/UC1jTVZboWRPpjGKAN921M5w",
+        "https://www.instagram.com/cicciogamer_89/",
+        "https://www.facebook.com/CiccioGamer89"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116547660",
+      "name": "Ian Crossland",
+      "title": "co-host of Timcast IRL connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "co-host of Timcast IRL"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116547660",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://iancrossland.net",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC_49AMU1sR8umdeSgUv0Hbg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/iancrossland",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/worshipcrossland/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ian.crossland",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ian-crossland-1628265b",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCKg2WKEJ__2s2GHAWRBUrvA",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/iamcrossland/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116547660",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116547660",
+        "https://iancrossland.net",
+        "https://www.youtube.com/channel/UC_49AMU1sR8umdeSgUv0Hbg",
+        "https://x.com/iancrossland",
+        "https://www.instagram.com/worshipcrossland/",
+        "https://www.facebook.com/ian.crossland",
+        "https://www.linkedin.com/in/ian-crossland-1628265b",
+        "https://www.youtube.com/channel/UCKg2WKEJ__2s2GHAWRBUrvA",
+        "https://www.instagram.com/iamcrossland/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116621155",
+      "name": "Mayichi",
+      "title": "Spanish streamer and YouTuber connected to YouTuber",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Spanish streamer and YouTuber"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116621155",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Mayichi",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/mayichii",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mayichiii/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116621155",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116621155",
+        "https://en.wikipedia.org/wiki/Mayichi",
+        "https://x.com/mayichii",
+        "https://www.instagram.com/mayichiii/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q140372686",
+      "name": "Liz Keogh",
+      "title": "blogger, poet and developer based in London connected to blogger",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "blogger, poet and developer based in London"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q140372686",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://lizkeogh.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/lunivore",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/liz-keogh-6240071",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q140372686",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q140372686",
+        "https://lizkeogh.com/",
+        "https://x.com/lunivore",
+        "https://www.linkedin.com/in/liz-keogh-6240071"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q140193878",
+      "name": "Erin Clarke",
+      "title": "American food blogger and cookbook author (born 1986) connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American food blogger and cookbook author (born 1986)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q140193878",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Erin_Clarke",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q140193878",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q140193878",
+        "https://en.wikipedia.org/wiki/Erin_Clarke"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q140078756",
+      "name": "Jennie Sofie",
+      "title": "Norwegian influencer and actress connected to blogger",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Norwegian influencer and actress"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q140078756",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jenniesofie/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@jenniessofie",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q140078756",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q140078756",
+        "https://www.instagram.com/jenniesofie/",
+        "https://www.tiktok.com/@jenniessofie"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116555640",
+      "name": "Cemal Can Canseven",
+      "title": "Turkish singer (born 1995) connected to YouTuber",
+      "country": "Turkey",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Turkish singer (born 1995)"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116555640",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cemalcancanseven/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116555640",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116555640",
+        "https://www.instagram.com/cemalcancanseven/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116600676",
+      "name": "Alexandra Gurgel",
+      "title": "Brazilian activist, writer, journalist and YouTuber, owner of the channel Alexandrismos connected to YouTuber",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Brazilian activist, writer, journalist and YouTuber, owner of the channel Alexandrismos"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116600676",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC2LQ5jMieMZjb5k5Gprp2JQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116600676",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116600676",
+        "https://www.youtube.com/channel/UC2LQ5jMieMZjb5k5Gprp2JQ"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116609326",
+      "name": "Veras Fawaz",
+      "title": "Dutch musician, film director and YouTuber connected to YouTuber",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Dutch musician, film director and YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116609326",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.verasfawaz.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116609326",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116609326",
+        "https://www.verasfawaz.com/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116630771",
+      "name": "BBULKUP",
+      "title": "South Korean rapper and YouTuber connected to YouTuber",
+      "country": "South Korea",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "South Korean rapper and YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116630771",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/bbulkup/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116630771",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116630771",
+        "https://www.instagram.com/bbulkup/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q140056849",
+      "name": "Avoedzma",
+      "title": "Georgian Blogger connected to blogger",
+      "country": "Georgia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Georgian Blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q140056849",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q140056849",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q140056849"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116686592",
+      "name": "Chung Lea",
+      "title": "South Korean-American singer connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "South Korean-American singer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116686592",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116686592",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116686592"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2280,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

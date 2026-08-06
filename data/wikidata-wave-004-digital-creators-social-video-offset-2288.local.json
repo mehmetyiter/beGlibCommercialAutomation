@@ -1,0 +1,924 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-06-30T07:59:14.821Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q104552989",
+      "name": "TBJZL",
+      "title": "English YouTuber connected to YouTuber",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "English YouTuber"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104552989",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/TBJZL",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCfNWN9s_s8kRTCadk04WWJA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Tobjizzle",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tobjizzle/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TBJZL",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVa7nsA_blpxzmfZWTPEsLQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104552989",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104552989",
+        "https://en.wikipedia.org/wiki/TBJZL",
+        "https://www.youtube.com/channel/UCfNWN9s_s8kRTCadk04WWJA",
+        "https://x.com/Tobjizzle",
+        "https://www.instagram.com/tobjizzle/",
+        "https://www.facebook.com/TBJZL",
+        "https://www.youtube.com/channel/UCVa7nsA_blpxzmfZWTPEsLQ"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104555562",
+      "name": "Cellbit",
+      "title": "Brazilian YouTuber, streamer and digital influencer connected to YouTuber",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Brazilian YouTuber, streamer and digital influencer"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104555562",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Cellbit",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://cellbits.com.br/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCnU2EtUW8Z4DxSqXxJ5cMQg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/cellbit",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cellbitos/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cellbit",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104555562",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104555562",
+        "https://en.wikipedia.org/wiki/Cellbit",
+        "http://cellbits.com.br/",
+        "https://www.youtube.com/channel/UCnU2EtUW8Z4DxSqXxJ5cMQg",
+        "https://x.com/cellbit",
+        "https://www.instagram.com/cellbitos/",
+        "https://www.facebook.com/Cellbit"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q186",
+      "name": "Ken Jennings",
+      "title": "American game show contestant, host, and writer connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American game show contestant, host, and writer"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q186",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ken_Jennings",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://ken-jennings.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/KenJennings",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kenjenningsofficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q186",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q186",
+        "https://en.wikipedia.org/wiki/Ken_Jennings",
+        "http://ken-jennings.com",
+        "https://x.com/KenJennings",
+        "https://www.facebook.com/kenjenningsofficial"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q10070",
+      "name": "Jacob Appelbaum",
+      "title": "American computer security researcher (born 1983) connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American computer security researcher (born 1983)"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q10070",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jacob_Appelbaum",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.appelbaum.net/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ioerror",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q10070",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q10070",
+        "https://en.wikipedia.org/wiki/Jacob_Appelbaum",
+        "http://www.appelbaum.net/",
+        "https://x.com/ioerror"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q605",
+      "name": "Ezra Klein",
+      "title": "American journalist connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American journalist"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q605",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ezra_Klein",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ezraklein",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ezraklein",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q605",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q605",
+        "https://en.wikipedia.org/wiki/Ezra_Klein",
+        "https://x.com/ezraklein",
+        "https://www.facebook.com/ezraklein"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q7439",
+      "name": "Richard Stallman",
+      "title": "American software freedom activist, short story writer and computer programmer, founder of the GNU project connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American software freedom activist, short story writer and computer programmer, founder of the GNU project"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q7439",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Richard_Stallman",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://stallman.org/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/rmspostcomments",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q7439",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q7439",
+        "https://en.wikipedia.org/wiki/Richard_Stallman",
+        "https://stallman.org/",
+        "https://x.com/rmspostcomments"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104533980",
+      "name": "RedisPolly",
+      "title": "Hong Kong YouTuber and fashion designer connected to YouTuber",
+      "country": "British Hong Kong",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Hong Kong YouTuber and fashion designer"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104533980",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.pollycpl.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCpCqWazROmkURP9Jy8mVvEg",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/polly.cpl/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/redispolly",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104533980",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104533980",
+        "https://www.pollycpl.com/",
+        "https://www.youtube.com/channel/UCpCqWazROmkURP9Jy8mVvEg",
+        "https://www.instagram.com/polly.cpl/",
+        "https://www.facebook.com/redispolly"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104536776",
+      "name": "Beryl Hu",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104536776",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/beryl_lulu",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/berylovee/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Berylulu.tw",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104536776",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104536776",
+        "https://x.com/beryl_lulu",
+        "https://www.instagram.com/berylovee/",
+        "https://www.facebook.com/Berylulu.tw"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104538874",
+      "name": "Kyo Hirakazu",
+      "title": "Japanese businessperson, composer, and YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese businessperson, composer, and YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104538874",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.nc-kyo.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UChU5pA_rHqH9_MA3iSZ4RFA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/netchannelKYO",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104538874",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104538874",
+        "http://www.nc-kyo.com/",
+        "https://www.youtube.com/channel/UChU5pA_rHqH9_MA3iSZ4RFA",
+        "https://x.com/netchannelKYO"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104586885",
+      "name": "Chris Omdahl",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104586885",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/retrospill/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chris.omdahl",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/christopher-robin-omdahl-836a6312a",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104586885",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104586885",
+        "https://www.instagram.com/retrospill/",
+        "https://www.facebook.com/chris.omdahl",
+        "https://www.linkedin.com/in/christopher-robin-omdahl-836a6312a"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q121763432",
+      "name": "Pax Ahimsa Gethen",
+      "title": "American Wikimedian connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American Wikimedian"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q121763432",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://funcrunch.org/",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/funcrunch",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q121763432",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q121763432",
+        "https://funcrunch.org/",
+        "https://www.linkedin.com/in/funcrunch"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104527816",
+      "name": "Lewis Spears",
+      "title": "Australian stand-up comedian connected to YouTuber",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Australian stand-up comedian"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104527816",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://lewspears.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCL5ZjPWL3o19MC6rxEATk6w",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104527816",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104527816",
+        "https://lewspears.com",
+        "https://www.youtube.com/channel/UCL5ZjPWL3o19MC6rxEATk6w"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104538819",
+      "name": "Shintarō Tabata",
+      "title": "Japanese influencer, entrepreneur, writer, investor, and YouTuber (1975-) connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese influencer, entrepreneur, writer, investor, and YouTuber (1975-)"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104538819",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC7sEB_ylMuHJD4TjF4Ag1nw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/tabbata",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104538819",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104538819",
+        "https://www.youtube.com/channel/UC7sEB_ylMuHJD4TjF4Ag1nw",
+        "https://x.com/tabbata"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q121819209",
+      "name": "Marta Goikoetxea Luquin",
+      "title": "blogger connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q121819209",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q121819209",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q121819209"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q121843251",
+      "name": "Anne-Marie Dworaczek Bendome",
+      "title": "Gabonese journalist connected to blogger",
+      "country": "Gabon",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Gabonese journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q121843251",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q121843251",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q121843251"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2288,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

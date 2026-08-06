@@ -1,0 +1,270 @@
+{
+  "batchId": "wikidata-wave-002-science-academia-thought-leaders-researcher-split-offset-048",
+  "createdAt": "2026-06-16T13:43:43.564Z",
+  "sourceLabel": "Wikidata wave 002 researcher split retry offset 48",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Discovery-only split retry batch.",
+  "candidates": [
+    {
+      "id": "wikidata-Q131112",
+      "name": "Paul Krugman",
+      "title": "American economist (born 1953) connected to researcher",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "American economist (born 1953)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q131112",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Paul_Krugman",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://web.mit.edu/krugman/www/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCjY8KAGllKyZZd2FYF1vbPw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/paulkrugman",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PaulKrugmanNYT",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q131112",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q131112",
+        "https://en.wikipedia.org/wiki/Paul_Krugman",
+        "https://web.mit.edu/krugman/www/",
+        "https://www.youtube.com/channel/UCjY8KAGllKyZZd2FYF1vbPw",
+        "https://x.com/paulkrugman",
+        "https://www.facebook.com/PaulKrugmanNYT"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q128337",
+      "name": "Paula Eerola",
+      "title": "Finnish physicist connected to researcher",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "Finnish physicist"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q128337",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.hep.lu.se/staff/eerola/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/paulaeerola",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/paula-eerola-357b61a",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3244-0591",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q128337",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q128337",
+        "http://www.hep.lu.se/staff/eerola/",
+        "https://x.com/paulaeerola",
+        "https://www.linkedin.com/in/paula-eerola-357b61a",
+        "https://orcid.org/0000-0002-3244-0591"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q143185",
+      "name": "Alexandre François",
+      "title": "French linguist connected to researcher",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "French linguist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q143185",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alexandre_Fran%C3%A7ois",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1947-0806",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q143185",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q143185",
+        "https://en.wikipedia.org/wiki/Alexandre_Fran%C3%A7ois",
+        "https://orcid.org/0000-0003-1947-0806"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q132095",
+      "name": "Alexander Lubotzky",
+      "title": "Israeli mathematician and former politician connected to researcher",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "Israeli mathematician and former politician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q132095",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Lubotzky",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7281-1142",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q132095",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q132095",
+        "https://en.wikipedia.org/wiki/Alexander_Lubotzky",
+        "https://orcid.org/0000-0001-7281-1142"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 1,
+    "occupationsSucceeded": 1,
+    "failures": [],
+    "limitPerOccupation": 4,
+    "offset": 48,
+    "minSitelinks": 3,
+    "rankBySitelinks": false
+  }
+}

@@ -1,0 +1,980 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-07-10T05:21:53.986Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q106776722",
+      "name": "Reina Scully",
+      "title": "Japanese-American YouTuber connected to YouTuber",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Japanese-American YouTuber"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106776722",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Reina_Scully",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCYTspO3jUG-LbwOI1qtC-KQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ReinaScully",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/reinascully/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/reinascullyofficialfanpage",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@reinascully",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106776722",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106776722",
+        "https://en.wikipedia.org/wiki/Reina_Scully",
+        "https://www.youtube.com/channel/UCYTspO3jUG-LbwOI1qtC-KQ",
+        "https://x.com/ReinaScully",
+        "https://www.instagram.com/reinascully/",
+        "https://www.facebook.com/reinascullyofficialfanpage",
+        "https://www.tiktok.com/@reinascully"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104577346",
+      "name": "Dan Tanasă",
+      "title": "Romanian politician (born 1981) connected to blogger",
+      "country": "Romania",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Romanian politician (born 1981)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104577346",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Dan_Tanas%C4%83",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.dantanasa.ro/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/dan_tanasa",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dantanasa.ro/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dantanasa.ro",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104577346",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104577346",
+        "https://en.wikipedia.org/wiki/Dan_Tanas%C4%83",
+        "https://www.dantanasa.ro/",
+        "https://x.com/dan_tanasa",
+        "https://www.instagram.com/dantanasa.ro/",
+        "https://www.facebook.com/dantanasa.ro"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106764172",
+      "name": "Alpharad",
+      "title": "American YouTuber and esports personality connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber and esports personality"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106764172",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alpharad",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBODyKF0JMbUd6D9Bklyzbw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Alpharad",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/alpharad/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/alpharadtv",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106764172",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106764172",
+        "https://en.wikipedia.org/wiki/Alpharad",
+        "https://www.youtube.com/channel/UCBODyKF0JMbUd6D9Bklyzbw",
+        "https://x.com/Alpharad",
+        "https://www.instagram.com/alpharad/",
+        "https://www.facebook.com/alpharadtv"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106771178",
+      "name": "Carolina Iglesias",
+      "title": "Spanish YouTuber connected to YouTuber",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Spanish YouTuber"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106771178",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Carolina_Iglesias",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCH4Uotf_5qcZB1gF0ZpR5kw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/percebesygrelos",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/percebesygrelos/",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/iglesiascarolina",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106771178",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106771178",
+        "https://en.wikipedia.org/wiki/Carolina_Iglesias",
+        "https://www.youtube.com/channel/UCH4Uotf_5qcZB1gF0ZpR5kw",
+        "https://x.com/percebesygrelos",
+        "https://www.instagram.com/percebesygrelos/",
+        "https://www.linkedin.com/in/iglesiascarolina"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106764986",
+      "name": "Sisca Kohl",
+      "title": "Indonesian Internet celebrity connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indonesian Internet celebrity"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106764986",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Sisca_Kohl",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCZ_w2o9UpsqRaxBUaOCRbog",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/siscakohl/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@siscakohl",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106764986",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106764986",
+        "https://en.wikipedia.org/wiki/Sisca_Kohl",
+        "https://www.youtube.com/channel/UCZ_w2o9UpsqRaxBUaOCRbog",
+        "https://www.instagram.com/siscakohl/",
+        "https://www.tiktok.com/@siscakohl"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106765123",
+      "name": "Thelma Assis",
+      "title": "Brazilian anesthesiologist, digital influencer, dancer and YouTuber connected to YouTuber",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Brazilian anesthesiologist, digital influencer, dancer and YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106765123",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Thelma_Assis",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCMU-8QCd6ZTQtVKcAjPYUbQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/thelminha",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thelminha/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106765123",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106765123",
+        "https://en.wikipedia.org/wiki/Thelma_Assis",
+        "https://www.youtube.com/channel/UCMU-8QCd6ZTQtVKcAjPYUbQ",
+        "https://x.com/thelminha",
+        "https://www.instagram.com/thelminha/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106769220",
+      "name": "Steve Terreberry",
+      "title": "Canadian YouTuber and musician connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Canadian YouTuber and musician"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106769220",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Steve_Terreberry",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCl16xaNY2arX3OzZBvTlsPQ",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/steventerreberry/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@steve_terreberry",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106769220",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106769220",
+        "https://en.wikipedia.org/wiki/Steve_Terreberry",
+        "https://www.youtube.com/channel/UCl16xaNY2arX3OzZBvTlsPQ",
+        "https://www.instagram.com/steventerreberry/",
+        "https://www.tiktok.com/@steve_terreberry"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106776466",
+      "name": "James Phyrillas",
+      "title": "American YouTuber connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106776466",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Schaffrillas_Productions",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC5UYMeKfZbFYnLHzoTJB1xA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Schaffrillas",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/james-phyrillas-881781142",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106776466",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106776466",
+        "https://en.wikipedia.org/wiki/Schaffrillas_Productions",
+        "https://www.youtube.com/channel/UC5UYMeKfZbFYnLHzoTJB1xA",
+        "https://x.com/Schaffrillas",
+        "https://www.linkedin.com/in/james-phyrillas-881781142"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104500663",
+      "name": "Anita Šumer",
+      "title": "slovene baker, author and blogger connected to blogger",
+      "country": "Slovenia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "slovene baker, author and blogger"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104500663",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://sourdoughmania.com/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sourdough_mania/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/anita.flis",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sourdoughmania",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104500663",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104500663",
+        "https://sourdoughmania.com/",
+        "https://www.instagram.com/sourdough_mania/",
+        "https://www.facebook.com/anita.flis",
+        "https://www.facebook.com/sourdoughmania"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104532392",
+      "name": "Tereza Poljanič",
+      "title": "slovene blogger, tv personality and cookbook writer connected to blogger",
+      "country": "New Zealand",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "slovene blogger, tv personality and cookbook writer"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104532392",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.terezaschoice.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/TerezasChoice",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/terezas_choice/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/terezaschoice",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104532392",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104532392",
+        "https://www.terezaschoice.com",
+        "https://x.com/TerezasChoice",
+        "https://www.instagram.com/terezas_choice/",
+        "https://www.facebook.com/terezaschoice"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104553085",
+      "name": "Iteb Akaichi",
+      "title": "Tunisian film director connected to blogger",
+      "country": "Tunisia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Tunisian film director"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104553085",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://itebakaichi.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/itebakaichi",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/itebakaichi/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/itebakaichi",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104553085",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104553085",
+        "http://itebakaichi.com/",
+        "https://x.com/itebakaichi",
+        "https://www.instagram.com/itebakaichi/",
+        "https://www.facebook.com/itebakaichi"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104520606",
+      "name": "Angela Davis",
+      "title": "US chef and food blogger connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "US chef and food blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104520606",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Angela_Davis_(chef)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104520606",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104520606",
+        "https://en.wikipedia.org/wiki/Angela_Davis_(chef)"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104520733",
+      "name": "Oksana Samoylova",
+      "title": "blogger connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104520733",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/samoylovaoxana/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104520733",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104520733",
+        "https://www.instagram.com/samoylovaoxana/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106766677",
+      "name": "Eloïse Wagner",
+      "title": "YouTuber connected to YouTuber",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106766677",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC1g4lZctFqTpZDrJEiw9Qug",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106766677",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106766677",
+        "https://www.youtube.com/channel/UC1g4lZctFqTpZDrJEiw9Qug"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104603995",
+      "name": "Miles Schmidt-Scheuber",
+      "title": "blogger connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104603995",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104603995",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104603995"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2816,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

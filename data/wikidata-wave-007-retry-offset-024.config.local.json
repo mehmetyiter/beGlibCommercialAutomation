@@ -1,0 +1,94 @@
+{
+  "waveId": "wikidata-wave-007-business-finance-leadership-retry-offset-024",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata business, finance, consulting, and leadership occupation discovery",
+  "description": "Broad discovery wave for business leaders, executives, founders, investors, finance professionals, consultants, marketers, real estate developers, economists, accountants, and sales professionals. Discovery-only: no contact route collection. Retry config for offset 024 failures only.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 3000,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Retry-only local config for failed offset 024 occupation queries.",
+  "categories": [
+    {
+      "category": "finance",
+      "occupations": [
+        {
+          "qid": "Q1416279",
+          "label": "financial analyst"
+        },
+        {
+          "qid": "Q2883465",
+          "label": "investment banker"
+        },
+        {
+          "qid": "Q1435728",
+          "label": "fund manager"
+        },
+        {
+          "qid": "Q43423468",
+          "label": "hedge fund manager"
+        }
+      ]
+    },
+    {
+      "category": "consulting",
+      "occupations": [
+        {
+          "qid": "Q15978655",
+          "label": "consultant"
+        },
+        {
+          "qid": "Q16849727",
+          "label": "business consultant"
+        },
+        {
+          "qid": "Q27827744",
+          "label": "management consultant"
+        }
+      ]
+    },
+    {
+      "category": "marketing",
+      "occupations": [
+        {
+          "qid": "Q61911662",
+          "label": "marketing consultant"
+        },
+        {
+          "qid": "Q1900657",
+          "label": "marketer"
+        },
+        {
+          "qid": "Q10355417",
+          "label": "advertising person"
+        },
+        {
+          "qid": "Q685433",
+          "label": "salesperson"
+        }
+      ]
+    },
+    {
+      "category": "real-estate",
+      "occupations": [
+        {
+          "qid": "Q17487600",
+          "label": "real estate developer"
+        }
+      ]
+    },
+    {
+      "category": "economics",
+      "occupations": [
+        {
+          "qid": "Q188094",
+          "label": "economist"
+        },
+        {
+          "qid": "Q326653",
+          "label": "accountant"
+        }
+      ]
+    }
+  ]
+}

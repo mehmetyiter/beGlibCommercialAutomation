@@ -1,0 +1,836 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-06-30T07:23:43.618Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q126343905",
+      "name": "ChrisMD",
+      "title": "Jersey YouTuber and Internet personality connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Jersey YouTuber and Internet personality"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126343905",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/ChrisMD",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCQ-YJstgVdAiCT52TiBWDbg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/chrismd10",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chrismd10/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/OfficialChrisMD",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@chrismd.official",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126343905",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126343905",
+        "https://en.wikipedia.org/wiki/ChrisMD",
+        "https://www.youtube.com/channel/UCQ-YJstgVdAiCT52TiBWDbg",
+        "https://x.com/chrismd10",
+        "https://www.instagram.com/chrismd10/",
+        "https://www.facebook.com/OfficialChrisMD",
+        "https://www.tiktok.com/@chrismd.official"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124428835",
+      "name": "Denis Blisch",
+      "title": "ex editor of onliner.by, itv.by, author of glubinka.by connected to blogger",
+      "country": "Belarus",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "ex editor of onliner.by, itv.by, author of glubinka.by"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124428835",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://blisch.by",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCXun84vnLvUnv1hLpaIMhgA",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/blisch/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/blisch.by",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/blisch",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124428835",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124428835",
+        "https://blisch.by",
+        "https://www.youtube.com/channel/UCXun84vnLvUnv1hLpaIMhgA",
+        "https://www.instagram.com/blisch/",
+        "https://www.facebook.com/blisch.by",
+        "https://www.linkedin.com/in/blisch"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124512979",
+      "name": "Kassiane Asasumasu",
+      "title": "autism rights activist credited with coining the term neurodivergent connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "autism rights activist credited with coining the term neurodivergent"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124512979",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kassiane_Asasumasu",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/UVGKassi",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/RadicalNeurodivergenceSpeaking",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124512979",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124512979",
+        "https://en.wikipedia.org/wiki/Kassiane_Asasumasu",
+        "https://x.com/UVGKassi",
+        "https://www.facebook.com/RadicalNeurodivergenceSpeaking"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126371519",
+      "name": "Hen Mizrahi",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126371519",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCc0zfbjbWVBsjeMCp4ZRh6Q",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/heninthekitchen/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/heninthekitchen",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@heninthekitchen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126371519",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126371519",
+        "https://www.youtube.com/channel/UCc0zfbjbWVBsjeMCp4ZRh6Q",
+        "https://www.instagram.com/heninthekitchen/",
+        "https://www.facebook.com/heninthekitchen",
+        "https://www.tiktok.com/@heninthekitchen"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96318811",
+      "name": "Jamie Evans",
+      "title": "American author, entrepreneur, and writer connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American author, entrepreneur, and writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96318811",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jamie_Evans",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.theherbsomm.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96318811",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96318811",
+        "https://en.wikipedia.org/wiki/Jamie_Evans",
+        "https://www.theherbsomm.com/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126768885",
+      "name": "Diamond Tema",
+      "title": "Albanian-Turkish writer and YouTuber connected to YouTuber",
+      "country": "Turkey",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Albanian-Turkish writer and YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126768885",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Diamond_Tema",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCkEp_OUCCx-UU3A9-y62NiA",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126768885",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126768885",
+        "https://en.wikipedia.org/wiki/Diamond_Tema",
+        "https://www.youtube.com/channel/UCkEp_OUCCx-UU3A9-y62NiA"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96280430",
+      "name": "Sahib Singh Sadana",
+      "title": "Travel blogger connected to blogger",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Travel blogger"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96280430",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.travellingindian.in/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/travellingindian/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/travellingindian",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96280430",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96280430",
+        "https://www.travellingindian.in/",
+        "https://www.instagram.com/travellingindian/",
+        "https://www.facebook.com/travellingindian"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124352445",
+      "name": "Andrew Boldar",
+      "title": "model connected to blogger",
+      "country": "Ukraine",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "model"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124352445",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC-99vBqq19JygG0g-CU-r1Q",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/andrewboldar/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/andrewboldar",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124352445",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124352445",
+        "https://www.youtube.com/channel/UC-99vBqq19JygG0g-CU-r1Q",
+        "https://www.instagram.com/andrewboldar/",
+        "https://www.facebook.com/andrewboldar"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126364596",
+      "name": "G Milgram",
+      "title": "Youtubeur connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Youtubeur"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126364596",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.gmilgram.fr",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCAoUBng0Mfu0qn4lPimS6MA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/GGmilgram",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126364596",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126364596",
+        "https://www.gmilgram.fr",
+        "https://www.youtube.com/channel/UCAoUBng0Mfu0qn4lPimS6MA",
+        "https://x.com/GGmilgram"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124500188",
+      "name": "Cathy Hinners",
+      "title": "American blogger connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124500188",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Cathy_Hinners",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124500188",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124500188",
+        "https://en.wikipedia.org/wiki/Cathy_Hinners"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126489436",
+      "name": "Arthur Parkinson",
+      "title": "British gardener connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "British gardener"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126489436",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Arthur_Parkinson",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126489436",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126489436",
+        "https://en.wikipedia.org/wiki/Arthur_Parkinson"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126594896",
+      "name": "Nadia Omara",
+      "title": "Indonesian content creator connected to YouTuber",
+      "country": "Indonesia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indonesian content creator"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126594896",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nadiaomara/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@nadiaomara",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126594896",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126594896",
+        "https://www.instagram.com/nadiaomara/",
+        "https://www.tiktok.com/@nadiaomara"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124407316",
+      "name": "Moha Frikraft",
+      "title": "blogger connected to blogger",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124407316",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/frikraften/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124407316",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124407316",
+        "https://www.instagram.com/frikraften/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124608695",
+      "name": "Lauren Roberts",
+      "title": "American writer connected to blogger",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "American writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124608695",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.laurenrobertslibrary.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124608695",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124608695",
+        "https://www.laurenrobertslibrary.com/"
+      ],
+      "lastVerifiedAt": "2026-06-30",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2168,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

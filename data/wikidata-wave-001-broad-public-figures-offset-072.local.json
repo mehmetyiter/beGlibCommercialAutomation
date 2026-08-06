@@ -1,0 +1,3961 @@
+{
+  "batchId": "wikidata-wave-001-broad-public-figures",
+  "createdAt": "2026-06-16T03:01:11.302Z",
+  "sourceLabel": "Wikidata broad public figure occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q13560267",
+      "name": "Issa Rae",
+      "title": "American actress, writer and producer connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American actress, writer and producer"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13560267",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Issa_Rae",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://issarae.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCrtNuDTtMzVbxdROsT_D4HQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/IssaRae",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/issarae/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/IssaRaePresents",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13560267",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13560267",
+        "https://en.wikipedia.org/wiki/Issa_Rae",
+        "http://issarae.com",
+        "https://www.youtube.com/channel/UCrtNuDTtMzVbxdROsT_D4HQ",
+        "https://x.com/IssaRae",
+        "https://www.instagram.com/issarae/",
+        "https://www.facebook.com/IssaRaePresents"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13560283",
+      "name": "Lia Marie Johnson",
+      "title": "American YouTuber, singer and actress connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber, singer and actress"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13560283",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Lia_Marie_Johnson",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.liamariejohnson.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9Ape6X3wiKxdH4TdSDcrZA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/LiaMarieJohnson",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/lia/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/liamariejohnson",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13560283",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13560283",
+        "https://en.wikipedia.org/wiki/Lia_Marie_Johnson",
+        "http://www.liamariejohnson.com/",
+        "https://www.youtube.com/channel/UC9Ape6X3wiKxdH4TdSDcrZA",
+        "https://x.com/LiaMarieJohnson",
+        "https://www.instagram.com/lia/",
+        "https://www.facebook.com/liamariejohnson"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13882452",
+      "name": "Taylor Davis",
+      "title": "American musician connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American musician"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13882452",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Taylor_Davis_(violinist)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.taylordavisviolin.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCk40qSGYnVdFFBNXRjrvdpQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/violintay",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taylordavisviolin/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TaylorDavisViolin",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ViolinTay",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13882452",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13882452",
+        "https://en.wikipedia.org/wiki/Taylor_Davis_(violinist)",
+        "http://www.taylordavisviolin.com",
+        "https://www.youtube.com/channel/UCk40qSGYnVdFFBNXRjrvdpQ",
+        "https://x.com/violintay",
+        "https://www.instagram.com/taylordavisviolin/",
+        "https://www.facebook.com/TaylorDavisViolin",
+        "https://x.com/ViolinTay"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q14436762",
+      "name": "Michael Stevens",
+      "title": "American YouTuber and Internet personality connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American YouTuber and Internet personality"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q14436762",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Michael_Stevens_(YouTuber)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://vsauce.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/tweetsauce",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/electricpants/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/VsauceGaming",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@corndogwilly",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q14436762",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q14436762",
+        "https://en.wikipedia.org/wiki/Michael_Stevens_(YouTuber)",
+        "http://vsauce.com",
+        "https://x.com/tweetsauce",
+        "https://www.instagram.com/electricpants/",
+        "https://www.facebook.com/VsauceGaming",
+        "https://www.tiktok.com/@corndogwilly"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6397659",
+      "name": "Kevin Trudeau",
+      "title": "Philanthropist, Entrepreneur, and Mass Communications expert connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "Philanthropist, Entrepreneur, and Mass Communications expert"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6397659",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kevin_Trudeau",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.kevintrudeau.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCAg6DZLoA1-h4PtCrMSNyzg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/TheKevinTrudeau",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thekevintrudeau/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/theofficialkevintrudeau",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/the-kevin-trudeau",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@thekevintrudeau",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6397659",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6397659",
+        "https://en.wikipedia.org/wiki/Kevin_Trudeau",
+        "https://www.kevintrudeau.com/",
+        "https://www.youtube.com/channel/UCAg6DZLoA1-h4PtCrMSNyzg",
+        "https://x.com/TheKevinTrudeau",
+        "https://www.instagram.com/thekevintrudeau/",
+        "https://www.facebook.com/theofficialkevintrudeau",
+        "https://www.linkedin.com/in/the-kevin-trudeau",
+        "https://www.tiktok.com/@thekevintrudeau"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116834",
+      "name": "Yvette Estermann",
+      "title": "Slovak-Swiss doctor and politician connected to physician",
+      "country": "Czechoslovakia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Slovak-Swiss doctor and politician"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116834",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Yvette_Estermann",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.yvette-estermann.ch/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCPewvwIaykr9SwYDoJZqZ9Q",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Yvette67Yvette",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yvetteestermann/",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/yvette-estermann-a2065545",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116834",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116834",
+        "https://en.wikipedia.org/wiki/Yvette_Estermann",
+        "https://www.yvette-estermann.ch/",
+        "https://www.youtube.com/channel/UCPewvwIaykr9SwYDoJZqZ9Q",
+        "https://x.com/Yvette67Yvette",
+        "https://www.instagram.com/yvetteestermann/",
+        "https://www.linkedin.com/in/yvette-estermann-a2065545"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q14193637",
+      "name": "Smooth McGroove",
+      "title": "YouTube celebrity connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "YouTube celebrity"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q14193637",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Smooth_McGroove",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCJvBEEqTaLaKclbCPgIjBSQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/SmoothMcGroove",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/smooth.mcgroove/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/smoothmcgroove1",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q14193637",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q14193637",
+        "https://en.wikipedia.org/wiki/Smooth_McGroove",
+        "https://www.youtube.com/channel/UCJvBEEqTaLaKclbCPgIjBSQ",
+        "https://x.com/SmoothMcGroove",
+        "https://www.instagram.com/smooth.mcgroove/",
+        "https://www.facebook.com/smoothmcgroove1"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95727",
+      "name": "Ulrike Haage",
+      "title": "German pianist, sound artist, composer, and radio playwright (born 1957) connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German pianist, sound artist, composer, and radio playwright (born 1957)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95727",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ulrike_Haage",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.ulrikehaage.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC1oXysj0GLcaRi1ndaoaoOA",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/110089483459",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ulrikehaagemusic",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95727",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95727",
+        "https://en.wikipedia.org/wiki/Ulrike_Haage",
+        "https://www.ulrikehaage.com/",
+        "https://www.youtube.com/channel/UC1oXysj0GLcaRi1ndaoaoOA",
+        "https://www.facebook.com/110089483459",
+        "https://www.facebook.com/ulrikehaagemusic"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q117254",
+      "name": "Ignazio Cassis",
+      "title": "99th President of the Swiss Confederation connected to physician",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "99th President of the Swiss Confederation"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q117254",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ignazio_Cassis",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.eda.admin.ch/eda/it/dfae/dfae/ignazio-cassis.html",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ignaziocassis",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ignaziocassis/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ignaziocassis",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q117254",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q117254",
+        "https://en.wikipedia.org/wiki/Ignazio_Cassis",
+        "https://www.eda.admin.ch/eda/it/dfae/dfae/ignazio-cassis.html",
+        "https://x.com/ignaziocassis",
+        "https://www.instagram.com/ignaziocassis/",
+        "https://www.facebook.com/ignaziocassis"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6367550",
+      "name": "Kara Swisher",
+      "title": "American journalist connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "American journalist"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6367550",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kara_Swisher",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/karaswisher",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/karaswisher/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/KaraSwisher",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6367550",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6367550",
+        "https://en.wikipedia.org/wiki/Kara_Swisher",
+        "https://x.com/karaswisher",
+        "https://www.instagram.com/karaswisher/",
+        "https://www.facebook.com/KaraSwisher"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q540764",
+      "name": "Theo Jansen",
+      "title": "Dutch artist (born 1948) connected to visual artist",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "Dutch artist (born 1948)"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q540764",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Theo_Jansen",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.strandbeest.com",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theojansen_official/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/theojansenoffical",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q540764",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q540764",
+        "https://en.wikipedia.org/wiki/Theo_Jansen",
+        "http://www.strandbeest.com",
+        "https://www.instagram.com/theojansen_official/",
+        "https://www.facebook.com/theojansenoffical"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95329",
+      "name": "Pyranja",
+      "title": "German rapper connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German rapper"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95329",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Pyranja",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.pyranja.de/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/pyranja",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pyranjaofficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95329",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95329",
+        "https://en.wikipedia.org/wiki/Pyranja",
+        "http://www.pyranja.de/",
+        "https://x.com/pyranja",
+        "https://www.facebook.com/pyranjaofficial"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6290758",
+      "name": "Josie Long",
+      "title": "British comedian connected to podcaster",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "British comedian"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6290758",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Josie_Long",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.josielong.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/JosieLong",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6290758",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6290758",
+        "https://en.wikipedia.org/wiki/Josie_Long",
+        "https://www.josielong.com/",
+        "https://x.com/JosieLong"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6308314",
+      "name": "Julie Klausner",
+      "title": "American writer connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "American writer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6308314",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Julie_Klausner",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.julieklausner.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/julieklausner",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6308314",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6308314",
+        "https://en.wikipedia.org/wiki/Julie_Klausner",
+        "http://www.julieklausner.com",
+        "https://x.com/julieklausner"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q151301",
+      "name": "Vaira Vīķe-Freiberga",
+      "title": "6th President of Latvia connected to psychologist",
+      "country": "Latvia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "6th President of Latvia"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q151301",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Vaira_V%C4%AB%C4%B7e-Freiberga",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/vairavf",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/vvfreiberga",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q151301",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q151301",
+        "https://en.wikipedia.org/wiki/Vaira_V%C4%AB%C4%B7e-Freiberga",
+        "https://x.com/vairavf",
+        "https://www.facebook.com/vvfreiberga"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q125600",
+      "name": "Irena Brežná",
+      "title": "Swiss German-language writer of Slovak origin connected to psychologist",
+      "country": "Czechoslovakia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Swiss German-language writer of Slovak origin"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q125600",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Irena_Bre%C5%BEn%C3%A1",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.brezna.ch/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/IrenaBrezna",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q125600",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q125600",
+        "https://en.wikipedia.org/wiki/Irena_Bre%C5%BEn%C3%A1",
+        "http://www.brezna.ch/",
+        "https://www.facebook.com/IrenaBrezna"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126225",
+      "name": "Michael Shermer",
+      "title": "American science writer connected to psychologist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "American science writer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126225",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Michael_Shermer",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.michaelshermer.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/michaelshermer",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126225",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126225",
+        "https://en.wikipedia.org/wiki/Michael_Shermer",
+        "http://www.michaelshermer.com",
+        "https://x.com/michaelshermer"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q127180",
+      "name": "Renée Simonsen",
+      "title": "Danish model and screenwriter connected to psychologist",
+      "country": "Kingdom of Denmark",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "Danish model and screenwriter"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q127180",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ren%C3%A9e_Simonsen",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Renee_Simonsen",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/reneetsimonsen/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q127180",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q127180",
+        "https://en.wikipedia.org/wiki/Ren%C3%A9e_Simonsen",
+        "https://x.com/Renee_Simonsen",
+        "https://www.instagram.com/reneetsimonsen/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q119568",
+      "name": "Eckart von Hirschhausen",
+      "title": "German comedian (born 1967) connected to physician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "German comedian (born 1967)"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q119568",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eckart_von_Hirschhausen",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.hirschhausen.com/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hirschhausen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q119568",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q119568",
+        "https://en.wikipedia.org/wiki/Eckart_von_Hirschhausen",
+        "http://www.hirschhausen.com/",
+        "https://www.facebook.com/hirschhausen"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13560777",
+      "name": "Jamie Geller",
+      "title": "Israeli chef and businesswoman connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Israeli chef and businesswoman"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13560777",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jamie_Geller",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://joyofkosher.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13560777",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13560777",
+        "https://en.wikipedia.org/wiki/Jamie_Geller",
+        "http://joyofkosher.com/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6369771",
+      "name": "Karen Kilgariff",
+      "title": "American comedian, writer and podcaster connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "American comedian, writer and podcaster"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6369771",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Karen_Kilgariff",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/KarenKilgariff",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6369771",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6369771",
+        "https://en.wikipedia.org/wiki/Karen_Kilgariff",
+        "https://x.com/KarenKilgariff"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6437288",
+      "name": "Kris Straub",
+      "title": "cartoonist connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "cartoonist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6437288",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kris_Straub",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/krisstraub",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6437288",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6437288",
+        "https://en.wikipedia.org/wiki/Kris_Straub",
+        "https://x.com/krisstraub"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q273205",
+      "name": "Andrea Fraser",
+      "title": "American performance artist (born 1965) connected to artist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "American performance artist (born 1965)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q273205",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andrea_Fraser",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.mariangoodman.com/artists/andrea-fraser/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q273205",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q273205",
+        "https://en.wikipedia.org/wiki/Andrea_Fraser",
+        "https://www.mariangoodman.com/artists/andrea-fraser/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q273896",
+      "name": "Julie Doucet",
+      "title": "Canadian comic artist and writer connected to artist",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "Canadian comic artist and writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q273896",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Julie_Doucet",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://juliedoucet.net/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q273896",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q273896",
+        "https://en.wikipedia.org/wiki/Julie_Doucet",
+        "http://juliedoucet.net/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q274415",
+      "name": "Mieke Bal",
+      "title": "Dutch art historian (born 1946) connected to artist",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "Dutch art historian (born 1946)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q274415",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Mieke_Bal",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.miekebal.org",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q274415",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q274415",
+        "https://en.wikipedia.org/wiki/Mieke_Bal",
+        "http://www.miekebal.org"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q274604",
+      "name": "Susan Meiselas",
+      "title": "American photographer (born 1948) connected to artist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "American photographer (born 1948)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q274604",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Susan_Meiselas",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://susanmeiselas.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q274604",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q274604",
+        "https://en.wikipedia.org/wiki/Susan_Meiselas",
+        "http://susanmeiselas.com"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q542346",
+      "name": "Carsten Höller",
+      "title": "German artist (born 1961) connected to visual artist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "German artist (born 1961)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q542346",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Carsten_H%C3%B6ller",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.tate.org.uk/modern/exhibitions/carstenholler/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q542346",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q542346",
+        "https://en.wikipedia.org/wiki/Carsten_H%C3%B6ller",
+        "http://www.tate.org.uk/modern/exhibitions/carstenholler/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q544976",
+      "name": "Anne-Lise Coste",
+      "title": "French artist and painter (born 1973) connected to visual artist",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "French artist and painter (born 1973)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q544976",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anne-Lise_Coste",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.annelisecoste.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q544976",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q544976",
+        "https://en.wikipedia.org/wiki/Anne-Lise_Coste",
+        "http://www.annelisecoste.com/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q548157",
+      "name": "Braco Dimitrijević",
+      "title": "Yugoslavian artist (1948-) connected to visual artist",
+      "country": "Bosnia and Herzegovina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "Yugoslavian artist (1948-)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q548157",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Braco_Dimitrijevi%C4%87",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://bracodimitrijevic.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q548157",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q548157",
+        "https://en.wikipedia.org/wiki/Braco_Dimitrijevi%C4%87",
+        "https://bracodimitrijevic.com"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98522",
+      "name": "Manuela Kasper-Claridge",
+      "title": "German journalist connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "German journalist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98522",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Manuela_Kasper-Claridge",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ManuelaKC",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98522",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98522",
+        "https://en.wikipedia.org/wiki/Manuela_Kasper-Claridge",
+        "https://x.com/ManuelaKC"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98544",
+      "name": "Bettina Böttinger",
+      "title": "German television presenter connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "German television presenter"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98544",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Bettina_B%C3%B6ttinger",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.bettina-boettinger.de/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98544",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98544",
+        "https://en.wikipedia.org/wiki/Bettina_B%C3%B6ttinger",
+        "http://www.bettina-boettinger.de/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98583",
+      "name": "Markus Kavka",
+      "title": "German television presenter, author and disc jockey connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "German television presenter, author and disc jockey"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98583",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/markuskavka",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/markus.kavka",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/markuskavkaofficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98583",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98583",
+        "https://x.com/markuskavka",
+        "https://www.facebook.com/markus.kavka",
+        "https://www.facebook.com/markuskavkaofficial"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13560261",
+      "name": "Mamrie Hart",
+      "title": "American comedian, actress, writer, and performer connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American comedian, actress, writer, and performer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13560261",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Mamrie_Hart",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13560261",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13560261",
+        "https://en.wikipedia.org/wiki/Mamrie_Hart"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6318060",
+      "name": "Justin Robert Young",
+      "title": "American journalist connected to podcaster",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "American journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6318060",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Justin_Robert_Young",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6318060",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6318060",
+        "https://en.wikipedia.org/wiki/Justin_Robert_Young"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6356357",
+      "name": "Kambiz Hosseini",
+      "title": "TV and radio host connected to podcaster",
+      "country": "Iran",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "podcast",
+      "subcategories": [
+        "podcaster",
+        "TV and radio host"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6356357",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kambiz_Hosseini",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6356357",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6356357",
+        "https://en.wikipedia.org/wiki/Kambiz_Hosseini"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as podcaster. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q272814",
+      "name": "Miwa Yanagi",
+      "title": "Japanese photographer (born 1967) connected to artist",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "Japanese photographer (born 1967)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q272814",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Miwa_Yanagi",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q272814",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q272814",
+        "https://en.wikipedia.org/wiki/Miwa_Yanagi"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q273322",
+      "name": "Eva Eriksson",
+      "title": "Swedish illustrator and writer (born 1949) connected to artist",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "Swedish illustrator and writer (born 1949)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q273322",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eva_Eriksson_(illustrator)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q273322",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q273322",
+        "https://en.wikipedia.org/wiki/Eva_Eriksson_(illustrator)"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q275494",
+      "name": "Nathalie Djurberg",
+      "title": "Swedish artist (born 1978) connected to artist",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "Swedish artist (born 1978)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q275494",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nathalie_Djurberg",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q275494",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q275494",
+        "https://en.wikipedia.org/wiki/Nathalie_Djurberg"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q276030",
+      "name": "Yaacov Agam",
+      "title": "Israeli sculptor and experimental artist (born 1928) connected to artist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "artist",
+        "Israeli sculptor and experimental artist (born 1928)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q276030",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Yaacov_Agam",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q276030",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q276030",
+        "https://en.wikipedia.org/wiki/Yaacov_Agam"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q539270",
+      "name": "Louise Lawler",
+      "title": "American photographer (born 1947) connected to visual artist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "American photographer (born 1947)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q539270",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Louise_Lawler",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q539270",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q539270",
+        "https://en.wikipedia.org/wiki/Louise_Lawler"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q543440",
+      "name": "Ulrich Rückriem",
+      "title": "German sculptor (born 1938) connected to visual artist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "German sculptor (born 1938)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q543440",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ulrich_R%C3%BCckriem",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q543440",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q543440",
+        "https://en.wikipedia.org/wiki/Ulrich_R%C3%BCckriem"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q555010",
+      "name": "Micha Ullman",
+      "title": "Israeli sculptor (born 1939) connected to visual artist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "Israeli sculptor (born 1939)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q555010",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Micha_Ullman",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q555010",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q555010",
+        "https://en.wikipedia.org/wiki/Micha_Ullman"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q556530",
+      "name": "Niele Toroni",
+      "title": "Swiss artist (born 1937) connected to visual artist",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "visual artist",
+        "Swiss artist (born 1937)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q556530",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Niele_Toroni",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q556530",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q556530",
+        "https://en.wikipedia.org/wiki/Niele_Toroni"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as visual artist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95485",
+      "name": "August-Wilhelm Scheer",
+      "title": "German business theorist connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German business theorist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95485",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/August-Wilhelm_Scheer",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95485",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95485",
+        "https://en.wikipedia.org/wiki/August-Wilhelm_Scheer"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95508",
+      "name": "Ekkehard Ehlers",
+      "title": "German musician (born 1974) connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German musician (born 1974)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95508",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ekkehard_Ehlers",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95508",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95508",
+        "https://en.wikipedia.org/wiki/Ekkehard_Ehlers"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95673",
+      "name": "Ulrich Noethen",
+      "title": "German actor connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German actor"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95673",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ulrich_Noethen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95673",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95673",
+        "https://en.wikipedia.org/wiki/Ulrich_Noethen"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98782",
+      "name": "Dietmar Dath",
+      "title": "German novelist connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "German novelist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98782",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Dietmar_Dath",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98782",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98782",
+        "https://en.wikipedia.org/wiki/Dietmar_Dath"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98835",
+      "name": "Prince Eduard, Prince of Anhalt",
+      "title": "Head of the House of Ascania connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "Head of the House of Ascania"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98835",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eduard_Prinz_von_Anhalt",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98835",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98835",
+        "https://en.wikipedia.org/wiki/Eduard_Prinz_von_Anhalt"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98885",
+      "name": "Maike Kohl-Richter",
+      "title": "German economist and author connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "German economist and author"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98885",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Maike_Kohl-Richter",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98885",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98885",
+        "https://en.wikipedia.org/wiki/Maike_Kohl-Richter"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98956",
+      "name": "Ulrich Deppendorf",
+      "title": "German journalist connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "German journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98956",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ulrich_Deppendorf",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98956",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98956",
+        "https://en.wikipedia.org/wiki/Ulrich_Deppendorf"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q98961",
+      "name": "Eberhard von Gemmingen",
+      "title": "Radio executive connected to journalist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "journalism",
+      "subcategories": [
+        "journalist",
+        "Radio executive"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q98961",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eberhard_von_Gemmingen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q98961",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q98961",
+        "https://en.wikipedia.org/wiki/Eberhard_von_Gemmingen"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as journalist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q132475",
+      "name": "Eleanor Rosch",
+      "title": "American psychologist & academic connected to psychologist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "American psychologist & academic"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q132475",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eleanor_Rosch",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q132475",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q132475",
+        "https://en.wikipedia.org/wiki/Eleanor_Rosch"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q143572",
+      "name": "David Lewis",
+      "title": "British neuropsychologist connected to psychologist",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "British neuropsychologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q143572",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/David_Lewis_(psychologist)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q143572",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q143572",
+        "https://en.wikipedia.org/wiki/David_Lewis_(psychologist)"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116128",
+      "name": "Ursula Meier",
+      "title": "French-Swiss film director and actress connected to physician",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "French-Swiss film director and actress"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116128",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ursula_Meier",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116128",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116128",
+        "https://en.wikipedia.org/wiki/Ursula_Meier"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116679",
+      "name": "Dan Vasella",
+      "title": "Swiss businessperson and corporate director connected to physician",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Swiss businessperson and corporate director"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116679",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Daniel_Vasella",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116679",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116679",
+        "https://en.wikipedia.org/wiki/Daniel_Vasella"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q117363",
+      "name": "Marianne Huguenin",
+      "title": "Swiss politician connected to physician",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Swiss politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q117363",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Marianne_Huguenin",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q117363",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q117363",
+        "https://en.wikipedia.org/wiki/Marianne_Huguenin"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q117706",
+      "name": "Sibylle Matter",
+      "title": "Swiss triathlete connected to physician",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Swiss triathlete"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q117706",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Sibylle_Matter",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q117706",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q117706",
+        "https://en.wikipedia.org/wiki/Sibylle_Matter"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5536504",
+      "name": "George Augustus Stallings, Jr.",
+      "title": "African-American Independent Catholic bishop connected to religious leader",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader",
+        "African-American Independent Catholic bishop"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5536504",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/George_Augustus_Stallings_Jr.",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5536504",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5536504",
+        "https://en.wikipedia.org/wiki/George_Augustus_Stallings_Jr."
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5750041",
+      "name": "Hezekiah Walker",
+      "title": "American gospel singer (born 1962) connected to religious leader",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader",
+        "American gospel singer (born 1962)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5750041",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Hezekiah_Walker",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5750041",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5750041",
+        "https://en.wikipedia.org/wiki/Hezekiah_Walker"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12876504",
+      "name": "Pseudo-Dorotheos of Monemvasia",
+      "title": "pseudonymous author of a 17th-century history connected to religious leader",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader",
+        "pseudonymous author of a 17th-century history"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12876504",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Pseudo-Dorotheos_of_Monemvasia",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12876504",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12876504",
+        "https://en.wikipedia.org/wiki/Pseudo-Dorotheos_of_Monemvasia"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13059793",
+      "name": "Shah Amanat",
+      "title": "religious leader connected to religious leader",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13059793",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Shah_Amanat",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13059793",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13059793",
+        "https://en.wikipedia.org/wiki/Shah_Amanat"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13060126",
+      "name": "Syed Nasiruddin",
+      "title": "Sufi saint and military leader associated with the spread of Islam in Bengal in the 14th century connected to religious leader",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader",
+        "Sufi saint and military leader associated with the spread of Islam in Bengal in the 14th century"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13060126",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Syed_Nasiruddin",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13060126",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13060126",
+        "https://en.wikipedia.org/wiki/Syed_Nasiruddin"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107212628",
+      "name": "Antony Theodore",
+      "title": "German bilingual poet, writer and scholar of religions connected to religious leader",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader",
+        "German bilingual poet, writer and scholar of religions"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107212628",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Antony_Theodore",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107212628",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107212628",
+        "https://en.wikipedia.org/wiki/Antony_Theodore"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95416",
+      "name": "Michael Hirte",
+      "title": "German musician connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German musician"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95416",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC-MT_BSsYrPBieATOBhHo8Q",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MichaelHirte",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95416",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95416",
+        "https://www.youtube.com/channel/UC-MT_BSsYrPBieATOBhHo8Q",
+        "https://www.facebook.com/MichaelHirte"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q117099",
+      "name": "Felix Gutzwiller",
+      "title": "Swiss politician connected to physician",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "physician",
+        "Swiss politician"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q117099",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://felix-gutzwiller.ch/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/FelixGutzwiller",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q117099",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q117099",
+        "https://felix-gutzwiller.ch/",
+        "https://x.com/FelixGutzwiller"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as physician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13478507",
+      "name": "Astrid Fontenelle",
+      "title": "Brazilian journalist connected to YouTuber",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Brazilian journalist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13478507",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/astridfontenell",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13478507",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13478507",
+        "https://x.com/astridfontenell"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95481",
+      "name": "Mark Ashley",
+      "title": "German singer connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German singer"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95481",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.markashley.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95481",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95481",
+        "http://www.markashley.com/"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126441",
+      "name": "Borwin Bandelow",
+      "title": "German psychiatrist connected to psychologist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "German psychiatrist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126441",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2511-3768",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126441",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126441",
+        "https://orcid.org/0000-0003-2511-3768"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95368",
+      "name": "Arzu Bazman",
+      "title": "German actress connected to musician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "musician",
+        "German actress"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95368",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95368",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95368"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as musician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124820",
+      "name": "Frido Mann",
+      "title": "American university teacher, psychologist and writer connected to psychologist",
+      "country": "Czech Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "psychology",
+      "subcategories": [
+        "psychologist",
+        "American university teacher, psychologist and writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124820",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124820",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124820"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as psychologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12960065",
+      "name": "Sulejman Bugari",
+      "title": "religious leader connected to religious leader",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12960065",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12960065",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12960065"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q105278311",
+      "name": "Tariel Nakaidze",
+      "title": "Georgian Politician connected to religious leader",
+      "country": "Georgia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religious leader",
+        "Georgian Politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q105278311",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q105278311",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q105278311"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as religious leader. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 72,
+    "minSitelinks": 3,
+    "rankBySitelinks": false
+  }
+}

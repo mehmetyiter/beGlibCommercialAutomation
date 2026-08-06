@@ -1,0 +1,22 @@
+{
+  "waveId": "wikidata-wave-031-language-translation-communication-speaking-translator-retry-offset-040",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata language, translation, communication, public-speaking, and writing occupation discovery",
+  "description": "Broad discovery wave for linguists, translators, interpreters, language teachers, communication specialists, speechwriters, public speakers, debaters, editors, proofreaders, copywriters, technical writers, and adjacent public language voices. Discovery-only: no contact route collection.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 2500,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Language, translation, communication, and public-speaking records remain discovery hints until identity, source ownership, and professional context are reviewed.",
+  "categories": [
+    {
+      "category": "translation",
+      "occupations": [
+        {
+          "qid": "Q333634",
+          "label": "translator"
+        }
+      ]
+    }
+  ]
+}

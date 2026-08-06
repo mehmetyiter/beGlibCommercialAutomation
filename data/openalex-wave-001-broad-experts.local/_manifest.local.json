@@ -1,0 +1,54 @@
+{
+  "waveId": "openalex-wave-001-broad-experts",
+  "source": "openalex",
+  "outputDir": "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/openalex-wave-001-broad-experts.local",
+  "categories": [
+    {
+      "batchId": "openalex-wave-001-broad-experts-psychology",
+      "candidates": 48
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-therapy",
+      "candidates": 47
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-medicine",
+      "candidates": 48
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-science",
+      "candidates": 45
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-academia",
+      "candidates": 48
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-education",
+      "candidates": 48
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-technology",
+      "candidates": 48
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-thought-leadership",
+      "candidates": 36
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-journalism",
+      "candidates": 30
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-arts",
+      "candidates": 35
+    },
+    {
+      "batchId": "openalex-wave-001-broad-experts-religion",
+      "candidates": 35
+    }
+  ],
+  "mergedCandidates": 409,
+  "failures": [],
+  "createdAt": "2026-06-15T03:19:08.681Z"
+}

@@ -1,0 +1,4087 @@
+{
+  "batchId": "wikidata-wave-033-culinary-food-beverage-hospitality",
+  "createdAt": "2026-06-18T06:30:33.215Z",
+  "sourceLabel": "Wikidata culinary, food media, beverage, specialty food, and hospitality occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Beverage and alcohol-adjacent records require extra professional-context, age-gating, jurisdiction, and compliance review before campaign use.",
+  "candidates": [
+    {
+      "id": "wikidata-Q517270",
+      "name": "Ted Allen",
+      "title": "American television personality connected to chef",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "American television personality"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q517270",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ted_Allen",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://tedallen.net/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/thetedallen",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thetedallen/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/thetedallen",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/TheTedAllen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q517270",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q517270",
+        "https://en.wikipedia.org/wiki/Ted_Allen",
+        "https://tedallen.net/",
+        "https://x.com/thetedallen",
+        "https://www.instagram.com/thetedallen/",
+        "https://www.facebook.com/thetedallen",
+        "https://x.com/TheTedAllen"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q522944",
+      "name": "Marcus Samuelsson",
+      "title": "Ethiopian Swedish chef (born 1970) connected to chef",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "Ethiopian Swedish chef (born 1970)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q522944",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Marcus_Samuelsson",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.marcussamuelsson.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/marcuscooks",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcuscooks/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MarcusCooks",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MarcusCooks",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q522944",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q522944",
+        "https://en.wikipedia.org/wiki/Marcus_Samuelsson",
+        "http://www.marcussamuelsson.com/",
+        "https://x.com/marcuscooks",
+        "https://www.instagram.com/marcuscooks/",
+        "https://www.facebook.com/MarcusCooks",
+        "https://x.com/MarcusCooks"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q303918",
+      "name": "Tina Kandelaki",
+      "title": "Russian television personality connected to restaurateur",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "Russian television personality"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q303918",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tina_Kandelaki",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://tinakandelaki.ru",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC20O7fAUu98ZqjrFfMHyLtw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/tina_kandelaki",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tina_kandelaki/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tina.kandelaki",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@tina_kandelaki_",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q303918",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q303918",
+        "https://en.wikipedia.org/wiki/Tina_Kandelaki",
+        "http://tinakandelaki.ru",
+        "https://www.youtube.com/channel/UC20O7fAUu98ZqjrFfMHyLtw",
+        "https://x.com/tina_kandelaki",
+        "https://www.instagram.com/tina_kandelaki/",
+        "https://www.facebook.com/tina.kandelaki",
+        "https://www.tiktok.com/@tina_kandelaki_"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6120624",
+      "name": "Jacques Genin",
+      "title": "French chef connected to cookbook writer",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "French chef"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6120624",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jacques_Genin",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://jacquesgenin.fr/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/jacquesgenin",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jacquesgenin/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chocolaterie.jacques.genin",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6120624",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6120624",
+        "https://en.wikipedia.org/wiki/Jacques_Genin",
+        "https://jacquesgenin.fr/",
+        "https://x.com/jacquesgenin",
+        "https://www.instagram.com/jacquesgenin/",
+        "https://www.facebook.com/chocolaterie.jacques.genin"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6948473",
+      "name": "Myron Mixon",
+      "title": "American celebrity chef connected to cookbook writer",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "American celebrity chef"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6948473",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Myron_Mixon",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/lord_of_q",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/myron.mixon/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LordofQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Lord_of_Q",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6948473",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6948473",
+        "https://en.wikipedia.org/wiki/Myron_Mixon",
+        "https://x.com/lord_of_q",
+        "https://www.instagram.com/myron.mixon/",
+        "https://www.facebook.com/LordofQ",
+        "https://x.com/Lord_of_Q"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q7041199",
+      "name": "Nita Mehta",
+      "title": "Indian chef and food/cookbook writer connected to cookbook writer",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "Indian chef and food/cookbook writer"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q7041199",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nita_Mehta",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.nitamehta.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCzjEyiQO33qmaDtBZbI5dAQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/AskNitaMehta",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/asknitamehta",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q7041199",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q7041199",
+        "https://en.wikipedia.org/wiki/Nita_Mehta",
+        "http://www.nitamehta.com/",
+        "https://www.youtube.com/channel/UCzjEyiQO33qmaDtBZbI5dAQ",
+        "https://x.com/AskNitaMehta",
+        "https://www.facebook.com/asknitamehta"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q118143139",
+      "name": "Bayashi",
+      "title": "Japanese chef connected to culinary writer",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer",
+        "Japanese chef"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q118143139",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Bayashi",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbCJmNKAL85O1VFeD6Wj60g",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/bayashi_tv_2",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/bayashi_tv/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@bayashi.tiktok",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q118143139",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q118143139",
+        "https://en.wikipedia.org/wiki/Bayashi",
+        "https://www.youtube.com/channel/UCbCJmNKAL85O1VFeD6Wj60g",
+        "https://x.com/bayashi_tv_2",
+        "https://www.instagram.com/bayashi_tv/",
+        "https://www.tiktok.com/@bayashi.tiktok"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6167095",
+      "name": "Jay Rayner",
+      "title": "English journalist and food critic (born 1966) connected to food critic",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "English journalist and food critic (born 1966)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6167095",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jay_Rayner",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.jayrayner.co.uk/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/jayrayner1",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jayrayner1/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/thejayrayner",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6167095",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6167095",
+        "https://en.wikipedia.org/wiki/Jay_Rayner",
+        "http://www.jayrayner.co.uk/",
+        "https://x.com/jayrayner1",
+        "https://www.instagram.com/jayrayner1/",
+        "https://www.facebook.com/thejayrayner"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q21642574",
+      "name": "Nadiya Hussain",
+      "title": "British-Bangladeshi baker, columnist and author connected to baker",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker",
+        "British-Bangladeshi baker, columnist and author"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q21642574",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nadiya_Hussain",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.nadiyahussain.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/BegumNadiya",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nadiyajhussain/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/NadiyaHussainOfficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q21642574",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q21642574",
+        "https://en.wikipedia.org/wiki/Nadiya_Hussain",
+        "https://www.nadiyahussain.com/",
+        "https://x.com/BegumNadiya",
+        "https://www.instagram.com/nadiyajhussain/",
+        "https://www.facebook.com/NadiyaHussainOfficial"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q284520",
+      "name": "Seth Gueko",
+      "title": "French rapper connected to restaurateur",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "French rapper"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q284520",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Seth_Gueko",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.sethgueko.net/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCi8NwgKNP8qpp8n4DUTJvpg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/sethgueko",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sethguekofficiel",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q284520",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q284520",
+        "https://en.wikipedia.org/wiki/Seth_Gueko",
+        "http://www.sethgueko.net/",
+        "https://www.youtube.com/channel/UCi8NwgKNP8qpp8n4DUTJvpg",
+        "https://x.com/sethgueko",
+        "https://www.facebook.com/sethguekofficiel"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4495491",
+      "name": "Stalic Khankishiev",
+      "title": "Russian chef connected to cook",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "Russian chef"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4495491",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Stalik_Khankishiev",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://stalic.ru/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCO8YHPk43zHgfUFWv9FUttg",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/stalic1962/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4495491",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4495491",
+        "https://en.wikipedia.org/wiki/Stalik_Khankishiev",
+        "http://stalic.ru/",
+        "https://www.youtube.com/channel/UCO8YHPk43zHgfUFWv9FUttg",
+        "https://www.instagram.com/stalic1962/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q116236862",
+      "name": "Tiffanie Barriere",
+      "title": "American master mixologist and educator connected to bartender",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "bartender",
+        "American master mixologist and educator"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q116236862",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tiffanie_Barriere",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.thedrinkingcoach.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/drinkingcoach",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thedrinkingcoach/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q116236862",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q116236862",
+        "https://en.wikipedia.org/wiki/Tiffanie_Barriere",
+        "https://www.thedrinkingcoach.com",
+        "https://x.com/drinkingcoach",
+        "https://www.instagram.com/thedrinkingcoach/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as bartender. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q339702",
+      "name": "Bill Rancic",
+      "title": "American businessman connected to restaurateur",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "American businessman"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q339702",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Bill_Rancic",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.billrancic.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/BillRancic",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/billrancic/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q339702",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q339702",
+        "https://en.wikipedia.org/wiki/Bill_Rancic",
+        "https://www.billrancic.com/",
+        "https://x.com/BillRancic",
+        "https://www.instagram.com/billrancic/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q294326",
+      "name": "Damien Hirst",
+      "title": "English sculptor and installation artist connected to restaurateur",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "English sculptor and installation artist"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q294326",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Damien_Hirst",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.damienhirst.com/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/hirst_official",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damienhirst/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q294326",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q294326",
+        "https://en.wikipedia.org/wiki/Damien_Hirst",
+        "https://www.damienhirst.com/",
+        "https://x.com/hirst_official",
+        "https://www.instagram.com/damienhirst/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q580118",
+      "name": "Jean-François Piège",
+      "title": "French chef connected to chef",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "French chef"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q580118",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Pi%C3%A8ge",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.jeanfrancoispiege.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/JF_Piege",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q580118",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q580118",
+        "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Pi%C3%A8ge",
+        "http://www.jeanfrancoispiege.com",
+        "https://x.com/JF_Piege"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q581992",
+      "name": "René Redzepi",
+      "title": "Danish chef connected to chef",
+      "country": "Kingdom of Denmark",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "Danish chef"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q581992",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Redzepi",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ReneRedzepiNoma",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/reneredzepinoma/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q581992",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q581992",
+        "https://en.wikipedia.org/wiki/Ren%C3%A9_Redzepi",
+        "https://x.com/ReneRedzepiNoma",
+        "https://www.instagram.com/reneredzepinoma/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4765886",
+      "name": "Anjum Anand",
+      "title": "British Indian food writer and chef connected to cook",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "British Indian food writer and chef"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4765886",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anjum_Anand",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.anjumanand.co.uk/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/OfficialAnjumAnand",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4765886",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4765886",
+        "https://en.wikipedia.org/wiki/Anjum_Anand",
+        "https://www.anjumanand.co.uk/",
+        "https://www.facebook.com/OfficialAnjumAnand"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6205333",
+      "name": "Joan Nathan",
+      "title": "American cookbook writer connected to cookbook writer",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "American cookbook writer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6205333",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Joan_Nathan",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://joannathan.com",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/joan_nathan/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6205333",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6205333",
+        "https://en.wikipedia.org/wiki/Joan_Nathan",
+        "http://joannathan.com",
+        "https://www.instagram.com/joan_nathan/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q19898693",
+      "name": "Lee Won-il",
+      "title": "South Korean chef connected to baker",
+      "country": "South Korea",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker",
+        "South Korean chef"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q19898693",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Lee_Won-il",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/wonillee/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/leedontstop",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q19898693",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q19898693",
+        "https://en.wikipedia.org/wiki/Lee_Won-il",
+        "https://www.instagram.com/wonillee/",
+        "https://www.facebook.com/leedontstop"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2966387",
+      "name": "Christophe Michalak",
+      "title": "French pastry chef connected to pastry chef",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef",
+        "French pastry chef"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2966387",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Christophe_Michalak",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.christophemichalak.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/bymichalak",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2966387",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2966387",
+        "https://en.wikipedia.org/wiki/Christophe_Michalak",
+        "https://www.christophemichalak.com",
+        "https://x.com/bymichalak"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q317724",
+      "name": "Jim Ross",
+      "title": "American professional wrestling commentator, professional wrestling referee, and restaurateur connected to restaurateur",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "American professional wrestling commentator, professional wrestling referee, and restaurateur"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q317724",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jim_Ross",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://jrsbbq.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/JRsBBQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q317724",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q317724",
+        "https://en.wikipedia.org/wiki/Jim_Ross",
+        "https://jrsbbq.com",
+        "https://x.com/JRsBBQ"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q339838",
+      "name": "Emeril Lagasse",
+      "title": "American chef connected to restaurateur",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "American chef"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q339838",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Emeril_Lagasse",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.emerils.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Emeril",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q339838",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q339838",
+        "https://en.wikipedia.org/wiki/Emeril_Lagasse",
+        "http://www.emerils.com",
+        "https://x.com/Emeril"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q518568",
+      "name": "Colombe Jacobsen",
+      "title": "American actress connected to chef",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "American actress"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q518568",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Colombe_Jacobsen-Derstine",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.colombedujour.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q518568",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q518568",
+        "https://en.wikipedia.org/wiki/Colombe_Jacobsen-Derstine",
+        "http://www.colombedujour.com/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q528899",
+      "name": "Harumi Kurihara",
+      "title": "Japanese chef connected to chef",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "Japanese chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q528899",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Harumi_Kurihara",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.yutori.co.jp/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q528899",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q528899",
+        "https://en.wikipedia.org/wiki/Harumi_Kurihara",
+        "http://www.yutori.co.jp/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q534939",
+      "name": "Quique Dacosta",
+      "title": "Spanish chef connected to chef",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "Spanish chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q534939",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Quique_Dacosta",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/QiqeDacosta",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q534939",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q534939",
+        "https://en.wikipedia.org/wiki/Quique_Dacosta",
+        "https://x.com/QiqeDacosta"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q111585117",
+      "name": "Tobias Dorzon",
+      "title": "American celebrity chef, former NFL player connected to celebrity chef",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "celebrity chef",
+        "American celebrity chef, former NFL player"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q111585117",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tobias_Dorzon",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tobiasdorzon/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q111585117",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q111585117",
+        "https://en.wikipedia.org/wiki/Tobias_Dorzon",
+        "https://www.instagram.com/tobiasdorzon/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as celebrity chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q113874158",
+      "name": "Chris Bianco",
+      "title": "American chef, known for Italian cuisine connected to celebrity chef",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "celebrity chef",
+        "American chef, known for Italian cuisine"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q113874158",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Chris_Bianco",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pizzeriabianco/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q113874158",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q113874158",
+        "https://en.wikipedia.org/wiki/Chris_Bianco",
+        "https://www.instagram.com/pizzeriabianco/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as celebrity chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4567447",
+      "name": "Per Morberg",
+      "title": "Swedish actor and chef connected to cook",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "Swedish actor and chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4567447",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Per_Morberg",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://morberg.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4567447",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4567447",
+        "https://en.wikipedia.org/wiki/Per_Morberg",
+        "https://morberg.com"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4724991",
+      "name": "Ali Mandhry",
+      "title": "chef connected to cook",
+      "country": "Kenya",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4724991",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ali_Mandhry",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.chefalilartiste.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4724991",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4724991",
+        "https://en.wikipedia.org/wiki/Ali_Mandhry",
+        "http://www.chefalilartiste.com"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q15276096",
+      "name": "Kanichi Fujiwara",
+      "title": "long-distance motorcycle rider and writer connected to culinary writer",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer",
+        "long-distance motorcycle rider and writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q15276096",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kanichi_Fujiwara",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://kanichi.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q15276096",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q15276096",
+        "https://en.wikipedia.org/wiki/Kanichi_Fujiwara",
+        "http://kanichi.com"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q8010229",
+      "name": "William Grimes",
+      "title": "American journalist connected to food critic",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "American journalist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q8010229",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/William_Grimes_(journalist)",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/GrimesNYT",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q8010229",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q8010229",
+        "https://en.wikipedia.org/wiki/William_Grimes_(journalist)",
+        "https://x.com/GrimesNYT"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q62092394",
+      "name": "Marc Almert",
+      "title": "German Sommelier connected to sommelier",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier",
+        "German Sommelier"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q62092394",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Marc_Almert",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.marcalmert.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q62092394",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q62092394",
+        "https://en.wikipedia.org/wiki/Marc_Almert",
+        "http://www.marcalmert.com/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q91156897",
+      "name": "Ashleigh Shanti",
+      "title": "American chef connected to sommelier",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier",
+        "American chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q91156897",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ashleigh_Shanti",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/foodordeath_/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q91156897",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q91156897",
+        "https://en.wikipedia.org/wiki/Ashleigh_Shanti",
+        "https://www.instagram.com/foodordeath_/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q325406",
+      "name": "Paul Mercurio",
+      "title": "Australian politician, actor and dancer connected to restaurateur",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "Australian politician, actor and dancer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q325406",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Paul_Mercurio",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.paulmercurio.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q325406",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q325406",
+        "https://en.wikipedia.org/wiki/Paul_Mercurio",
+        "http://www.paulmercurio.com"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q315104",
+      "name": "Nate Robinson",
+      "title": "American basketball player connected to restaurateur",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "restaurant-hospitality",
+      "subcategories": [
+        "restaurateur",
+        "American basketball player"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q315104",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nate_Robinson",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/nate_robinson",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q315104",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q315104",
+        "https://en.wikipedia.org/wiki/Nate_Robinson",
+        "https://x.com/nate_robinson"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as restaurateur. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q526580",
+      "name": "Andy Luotto",
+      "title": "actor connected to chef",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "chef",
+        "actor"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q526580",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andy_Luotto",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q526580",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q526580",
+        "https://en.wikipedia.org/wiki/Andy_Luotto"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4581666",
+      "name": "Charles Tjessem",
+      "title": "Norwegian chef connected to cook",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "Norwegian chef"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4581666",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Charles_Tjessem",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4581666",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4581666",
+        "https://en.wikipedia.org/wiki/Charles_Tjessem"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4585897",
+      "name": "Arne Brimi",
+      "title": "Norwegian chef connected to cook",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "Norwegian chef"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4585897",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Arne_Brimi",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4585897",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4585897",
+        "https://en.wikipedia.org/wiki/Arne_Brimi"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4755666",
+      "name": "Andreas Viestad",
+      "title": "Norwegian chef connected to cook",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "Norwegian chef"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4755666",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andreas_Viestad",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4755666",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4755666",
+        "https://en.wikipedia.org/wiki/Andreas_Viestad"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4765465",
+      "name": "Anissa Helou",
+      "title": "Lebanese chef and cookbook author connected to cook",
+      "country": "Lebanon",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "culinary",
+      "subcategories": [
+        "cook",
+        "Lebanese chef and cookbook author"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4765465",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Anissa_Helou",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4765465",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4765465",
+        "https://en.wikipedia.org/wiki/Anissa_Helou"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cook. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5984247",
+      "name": "Ibn Sayyar al-Warraq",
+      "title": "Iraqi cookbook writer connected to cookbook writer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "Iraqi cookbook writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5984247",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ibn_Sayyar_al-Warraq",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5984247",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5984247",
+        "https://en.wikipedia.org/wiki/Ibn_Sayyar_al-Warraq"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6103091",
+      "name": "Nevin Halıcı",
+      "title": "Turkish chef and restaurateur (born 1941) connected to cookbook writer",
+      "country": "Turkey",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "Turkish chef and restaurateur (born 1941)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6103091",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nevin_Hal%C4%B1c%C4%B1",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6103091",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6103091",
+        "https://en.wikipedia.org/wiki/Nevin_Hal%C4%B1c%C4%B1"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6154647",
+      "name": "Janis Owens",
+      "title": "American author of novels and cookbook connected to cookbook writer",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "American author of novels and cookbook"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6154647",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Janis_Owens",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6154647",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6154647",
+        "https://en.wikipedia.org/wiki/Janis_Owens"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6780793",
+      "name": "Mary Sue Milliken",
+      "title": "American chef and restaurateur connected to cookbook writer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "cookbook writer",
+        "American chef and restaurateur"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6780793",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Mary_Sue_Milliken",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6780793",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6780793",
+        "https://en.wikipedia.org/wiki/Mary_Sue_Milliken"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cookbook writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124247216",
+      "name": "Stefano Černetić",
+      "title": "Italian royal impostor connected to culinary writer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer",
+        "Italian royal impostor"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124247216",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Stefano_%C4%8Cerneti%C4%87",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124247216",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124247216",
+        "https://en.wikipedia.org/wiki/Stefano_%C4%8Cerneti%C4%87"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q126855257",
+      "name": "Judy Barbour",
+      "title": "culinary writer connected to culinary writer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q126855257",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Judy_Barbour",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q126855257",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q126855257",
+        "https://en.wikipedia.org/wiki/Judy_Barbour"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5562223",
+      "name": "Gillian Duffy",
+      "title": "English food writer connected to food critic",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "English food writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5562223",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gillian_Duffy",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5562223",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5562223",
+        "https://en.wikipedia.org/wiki/Gillian_Duffy"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6099986",
+      "name": "Ramón Rocha Monroy",
+      "title": "Bolivian writer and journalist connected to food critic",
+      "country": "Bolivia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "Bolivian writer and journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6099986",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ram%C3%B3n_Rocha_Monroy",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6099986",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6099986",
+        "https://en.wikipedia.org/wiki/Ram%C3%B3n_Rocha_Monroy"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6375534",
+      "name": "Kate Heyhoe",
+      "title": "American politician connected to food critic",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "American politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6375534",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kate_Heyhoe",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6375534",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6375534",
+        "https://en.wikipedia.org/wiki/Kate_Heyhoe"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6524212",
+      "name": "Leo Schofield",
+      "title": "Australian art director and critic connected to food critic",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "Australian art director and critic"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6524212",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Leo_Schofield",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6524212",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6524212",
+        "https://en.wikipedia.org/wiki/Leo_Schofield"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6789198",
+      "name": "Matt Preston",
+      "title": "food critic, television presenter connected to food critic",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "food critic, television presenter"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6789198",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Matt_Preston",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6789198",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6789198",
+        "https://en.wikipedia.org/wiki/Matt_Preston"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6964634",
+      "name": "Naomi Duguid",
+      "title": "Canadian food writer connected to food critic",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "food critic",
+        "Canadian food writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6964634",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Naomi_Duguid",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6964634",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6964634",
+        "https://en.wikipedia.org/wiki/Naomi_Duguid"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as food critic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q20853515",
+      "name": "Peter Reinhart",
+      "title": "American baker, educator and author connected to baker",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker",
+        "American baker, educator and author"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q20853515",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Peter_Reinhart",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q20853515",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q20853515",
+        "https://en.wikipedia.org/wiki/Peter_Reinhart"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q24452253",
+      "name": "Errol Hastings",
+      "title": "baker connected to baker",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q24452253",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Errol_Hastings",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q24452253",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q24452253",
+        "https://en.wikipedia.org/wiki/Errol_Hastings"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q27734271",
+      "name": "Candice Brown",
+      "title": "British reality television personality connected to baker",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker",
+        "British reality television personality"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q27734271",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Candice_Brown",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q27734271",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q27734271",
+        "https://en.wikipedia.org/wiki/Candice_Brown"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q122781887",
+      "name": "Karina Milei",
+      "title": "Argentine politician connected to pastry chef",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef",
+        "Argentine politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q122781887",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Karina_Milei",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q122781887",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q122781887",
+        "https://en.wikipedia.org/wiki/Karina_Milei"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q130656776",
+      "name": "Eilidh Fisher",
+      "title": "Scottish actor connected to pastry chef",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef",
+        "Scottish actor"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q130656776",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eilidh_Fisher",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q130656776",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q130656776",
+        "https://en.wikipedia.org/wiki/Eilidh_Fisher"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136202409",
+      "name": "Thananon Niramit",
+      "title": "Spouse of the prime minister of Thailand connected to pastry chef",
+      "country": "Thailand",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef",
+        "Spouse of the prime minister of Thailand"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136202409",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Thananon_Charnvirakul",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136202409",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136202409",
+        "https://en.wikipedia.org/wiki/Thananon_Charnvirakul"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q57078408",
+      "name": "Erin Gleason",
+      "title": "American speed skater connected to sommelier",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier",
+        "American speed skater"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q57078408",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Erin_Gleason",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q57078408",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q57078408",
+        "https://en.wikipedia.org/wiki/Erin_Gleason"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q63184842",
+      "name": "Belinda Chang",
+      "title": "American sommelier, writer, and restaurateur connected to sommelier",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier",
+        "American sommelier, writer, and restaurateur"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q63184842",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Belinda_Chang_(sommelier)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q63184842",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q63184842",
+        "https://en.wikipedia.org/wiki/Belinda_Chang_(sommelier)"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q123966530",
+      "name": "Taopiphop Limjittrakorn",
+      "title": "Thai politician connected to bartender",
+      "country": "Thailand",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "bartender",
+        "Thai politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q123966530",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Taopiphop_Limjittrakorn",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q123966530",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q123966530",
+        "https://en.wikipedia.org/wiki/Taopiphop_Limjittrakorn"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as bartender. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q99903092",
+      "name": "Jessica Harnois",
+      "title": "sommelier connected to sommelier",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q99903092",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://jessicaharnois.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCfmd0_ZwmuV98yF-J0_tP4A",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q99903092",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q99903092",
+        "http://jessicaharnois.com/",
+        "https://www.youtube.com/channel/UCfmd0_ZwmuV98yF-J0_tP4A"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q15306602",
+      "name": "Zsófia Mautner",
+      "title": "(1974–) connected to culinary writer",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer",
+        "(1974–)"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q15306602",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://chiliesvanilia.hu/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q15306602",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q15306602",
+        "https://chiliesvanilia.hu/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q117327871",
+      "name": "Nathalie Brigaud Ngoum",
+      "title": "Cameroonian chef connected to culinary writer",
+      "country": "Cameroon",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer",
+        "Cameroonian chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q117327871",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.envoleesgourmandes.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q117327871",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q117327871",
+        "https://www.envoleesgourmandes.com/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q17194637",
+      "name": "Ida Gran-Jansen",
+      "title": "baker connected to baker",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q17194637",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/idagranjansen/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q17194637",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q17194637",
+        "https://www.instagram.com/idagranjansen/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q19912077",
+      "name": "Sébastien Boudet",
+      "title": "Swedish baker connected to baker",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker",
+        "Swedish baker"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q19912077",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.brodpassion.se",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q19912077",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q19912077",
+        "https://www.brodpassion.se"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3168776",
+      "name": "Jean-Philippe Darcis",
+      "title": "pastry chef connected to pastry chef",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3168776",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://darcis.com",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3168776",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3168776",
+        "https://darcis.com"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q56511671",
+      "name": "Mikel Garaizabal",
+      "title": "sommelier connected to sommelier",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q56511671",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.catarvino.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q56511671",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q56511671",
+        "http://www.catarvino.com/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11512953",
+      "name": "Sachiko Hoshizawa",
+      "title": "Japanese culinary researcher connected to culinary writer",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer",
+        "Japanese culinary researcher"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11512953",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11512953",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11512953"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11979594",
+      "name": "Justin Miller",
+      "title": "culinary writer connected to culinary writer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "food-media",
+      "subcategories": [
+        "culinary writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11979594",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11979594",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11979594"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as culinary writer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q23578892",
+      "name": "Peder Sjo Slettebø",
+      "title": "baker connected to baker",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "baker"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q23578892",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q23578892",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q23578892"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as baker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q123013527",
+      "name": "Emma Brink Rask",
+      "title": "Swedish blogger, baker and confectioner connected to pastry chef",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef",
+        "Swedish blogger, baker and confectioner"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q123013527",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q123013527",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q123013527"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q123195882",
+      "name": "Josef Zauner",
+      "title": "pastry chef connected to pastry chef",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q123195882",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q123195882",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q123195882"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q131465276",
+      "name": "Frida Bäcke",
+      "title": "pastry chef connected to pastry chef",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "baking-pastry",
+      "subcategories": [
+        "pastry chef"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q131465276",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q131465276",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q131465276"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as pastry chef. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q41958314",
+      "name": "Sante Lancerio",
+      "title": "sommelier from Italy connected to sommelier",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "wine-spirits",
+      "subcategories": [
+        "sommelier",
+        "sommelier from Italy"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q41958314",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q41958314",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q41958314"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as sommelier. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 33,
+    "occupationsSucceeded": 33,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 24,
+    "minSitelinks": 2,
+    "rankBySitelinks": false
+  }
+}

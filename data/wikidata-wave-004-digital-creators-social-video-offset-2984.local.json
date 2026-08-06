@@ -1,0 +1,554 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-07-10T06:54:23.052Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q107354778",
+      "name": "Zerkaa",
+      "title": "British Internet personality (born 1992) connected to YouTuber",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "British Internet personality (born 1992)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107354778",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Zerkaa",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UChntGq8THlUokhc1tT-M2wA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ZerkaaHD",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/zerkaa/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Josh.Zerkaa.Zerker",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@Zerkaa",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107354778",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107354778",
+        "https://en.wikipedia.org/wiki/Zerkaa",
+        "https://www.youtube.com/channel/UChntGq8THlUokhc1tT-M2wA",
+        "https://x.com/ZerkaaHD",
+        "https://www.instagram.com/zerkaa/",
+        "https://www.facebook.com/Josh.Zerkaa.Zerker",
+        "https://www.tiktok.com/@Zerkaa"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107364625",
+      "name": "Markilokuras",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107364625",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/MarkiLokuras",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC7benJLVevloHr645tEhEWg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MarkiLokurasY",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/markigang/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@markigang",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107364625",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107364625",
+        "https://en.wikipedia.org/wiki/MarkiLokuras",
+        "https://www.youtube.com/channel/UC7benJLVevloHr645tEhEWg",
+        "https://x.com/MarkiLokurasY",
+        "https://www.instagram.com/markigang/",
+        "https://www.tiktok.com/@markigang"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107413650",
+      "name": "MrSavage",
+      "title": "Norwegian esports player (born 2004) connected to YouTuber",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Norwegian esports player (born 2004)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107413650",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/MrSavage",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCmwRAiAX6NDvlboBfZKr9hQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MrSavage",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mrsavage/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@MrSavage",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107413650",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107413650",
+        "https://en.wikipedia.org/wiki/MrSavage",
+        "https://www.youtube.com/channel/UCmwRAiAX6NDvlboBfZKr9hQ",
+        "https://x.com/MrSavage",
+        "https://www.instagram.com/mrsavage/",
+        "https://www.tiktok.com/@MrSavage"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107369890",
+      "name": "Radek Starý",
+      "title": "Czech writer connected to YouTuber",
+      "country": "Czech Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Czech writer"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107369890",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://sterakdary.cz/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCYsS3SON69FIr-K3E3Czvpw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Sterakdary",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sterakdary/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TenSterakdary",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107369890",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107369890",
+        "https://sterakdary.cz/",
+        "https://www.youtube.com/channel/UCYsS3SON69FIr-K3E3Czvpw",
+        "https://x.com/Sterakdary",
+        "https://www.instagram.com/sterakdary/",
+        "https://www.facebook.com/TenSterakdary"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107358920",
+      "name": "Jessica Blevins",
+      "title": "American streamer and YouTuber connected to YouTuber",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "American streamer and YouTuber"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107358920",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCnumrzlE5lzICXudSnhxYMw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/JessicaBlevins",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jessicablevins/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@jessicablevins",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107358920",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107358920",
+        "https://www.youtube.com/channel/UCnumrzlE5lzICXudSnhxYMw",
+        "https://x.com/JessicaBlevins",
+        "https://www.instagram.com/jessicablevins/",
+        "https://www.tiktok.com/@jessicablevins"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107369410",
+      "name": "Satyajeet Jena",
+      "title": "Indian Young Singer connected to YouTuber",
+      "country": "India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indian Young Singer"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107369410",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCP_b12xavk-H9EXp5JXLOEA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/music_satyajeet",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/satyajeetjena_official/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/isatyajeetjena",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107369410",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107369410",
+        "https://www.youtube.com/channel/UCP_b12xavk-H9EXp5JXLOEA",
+        "https://x.com/music_satyajeet",
+        "https://www.instagram.com/satyajeetjena_official/",
+        "https://www.facebook.com/isatyajeetjena"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107344719",
+      "name": "Sander Bauwens",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107344719",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC2dJa-E7V3vYISma7vBVK8g",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107344719",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107344719",
+        "https://www.youtube.com/channel/UC2dJa-E7V3vYISma7vBVK8g"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107379485",
+      "name": "Łukasz Lamża",
+      "title": "Polish philosopher, journalist connected to YouTuber",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Polish philosopher, journalist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107379485",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCUtA8yDLUf5o4YggNmHEumA",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107379485",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107379485",
+        "https://www.youtube.com/channel/UCUtA8yDLUf5o4YggNmHEumA"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2984,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

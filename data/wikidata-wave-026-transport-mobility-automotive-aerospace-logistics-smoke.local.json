@@ -1,0 +1,3087 @@
+{
+  "batchId": "wikidata-wave-026-transport-mobility-automotive-aerospace-logistics",
+  "createdAt": "2026-06-18T01:08:57.685Z",
+  "sourceLabel": "Wikidata transport, mobility, automotive, motorsport, aerospace, rail, logistics, and maritime engineering occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Transportation, aviation, rail, maritime, logistics, automotive, and licensing-adjacent categories require identity, source-ownership, professional-context, jurisdiction, sponsorship, safety, and suppression-status review before campaign use.",
+  "candidates": [
+    {
+      "id": "wikidata-Q201670",
+      "name": "Paul Watson",
+      "title": "Canadian environmental activist connected to ship captain",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime-engineering",
+      "subcategories": [
+        "ship captain",
+        "Canadian environmental activist"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q201670",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Paul_Watson",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://seashepherd.fr/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/CaptPaulWatson",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/paul.watson.1426",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.neptunespirates.org/",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.paulwatsonfoundation.org/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q201670",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q201670",
+        "https://en.wikipedia.org/wiki/Paul_Watson",
+        "https://seashepherd.fr/",
+        "https://x.com/CaptPaulWatson",
+        "https://www.facebook.com/paul.watson.1426",
+        "https://www.neptunespirates.org/",
+        "https://www.paulwatsonfoundation.org/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as ship captain. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q863496",
+      "name": "Binali Yıldırım",
+      "title": "Prime Minister of Turkey (born 1955) connected to marine engineer",
+      "country": "Turkey",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime-engineering",
+      "subcategories": [
+        "marine engineer",
+        "Prime Minister of Turkey (born 1955)"
+      ],
+      "fitScore": 78,
+      "reachScore": 82,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q863496",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Binali_Y%C4%B1ld%C4%B1r%C4%B1m",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.binaliyildirim.com.tr/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/BY",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/by/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ba_yildirim",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q863496",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q863496",
+        "https://en.wikipedia.org/wiki/Binali_Y%C4%B1ld%C4%B1r%C4%B1m",
+        "http://www.binaliyildirim.com.tr/",
+        "https://x.com/BY",
+        "https://www.instagram.com/by/",
+        "https://x.com/ba_yildirim"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as marine engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q66586",
+      "name": "Michael Krumm",
+      "title": "German racecar driver connected to racing automobile driver",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "racing automobile driver",
+        "German racecar driver"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q66586",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Michael_Krumm",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.michaelkrumm.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MichaelKrumm",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Driving-on-The-Edge-Michael-Krumm-104771166288872",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q66586",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q66586",
+        "https://en.wikipedia.org/wiki/Michael_Krumm",
+        "http://www.michaelkrumm.com",
+        "https://x.com/MichaelKrumm",
+        "https://www.facebook.com/Driving-on-The-Edge-Michael-Krumm-104771166288872"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as racing automobile driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q135277829",
+      "name": "Kim Young-hoon",
+      "title": "South Korean labor activist (born 1968) connected to train driver",
+      "country": "South Korea",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rail",
+      "subcategories": [
+        "train driver",
+        "South Korean labor activist (born 1968)"
+      ],
+      "fitScore": 74,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q135277829",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kim_Young-hoon_(politician)",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCwOx5Kie0FkxY6-azwsNAlQ",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ministerhoon",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/100016532070543",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q135277829",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q135277829",
+        "https://en.wikipedia.org/wiki/Kim_Young-hoon_(politician)",
+        "https://www.youtube.com/channel/UCwOx5Kie0FkxY6-azwsNAlQ",
+        "https://www.facebook.com/ministerhoon",
+        "https://www.facebook.com/100016532070543"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as train driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q173435",
+      "name": "Gordon Murray",
+      "title": "British automobile designer connected to car designer",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "car designer",
+        "British automobile designer",
+        "automotive engineer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q173435",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gordon_Murray",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://gordonmurraydesign.com/",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.gordonmurrayautomotive.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q173435",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q173435",
+        "https://en.wikipedia.org/wiki/Gordon_Murray",
+        "http://gordonmurraydesign.com/",
+        "https://www.gordonmurrayautomotive.com/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as car designer. Social/profile links are discovery-only and require human verification before use. Additional query match: automotive engineer."
+    },
+    {
+      "id": "wikidata-Q69381",
+      "name": "Max Neukirchner",
+      "title": "German motorcycle racer connected to motorcycle racer",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "motorcycle racer",
+        "German motorcycle racer"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q69381",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Max_Neukirchner",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.max-neukirchner.de",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MaxNeukirchner",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q69381",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q69381",
+        "https://en.wikipedia.org/wiki/Max_Neukirchner",
+        "http://www.max-neukirchner.de",
+        "https://x.com/MaxNeukirchner"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as motorcycle racer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q72867",
+      "name": "Craig Ferguson",
+      "title": "British actor connected to aircraft pilot",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "aircraft pilot",
+        "British actor"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q72867",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Craig_Ferguson",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.thecraigfergusonshow.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/CraigyFerg",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q72867",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q72867",
+        "https://en.wikipedia.org/wiki/Craig_Ferguson",
+        "https://www.thecraigfergusonshow.com",
+        "https://x.com/CraigyFerg"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as aircraft pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q381454",
+      "name": "Jason Lamy-Chappuis",
+      "title": "French Nordic combined skier connected to airline pilot",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "airline pilot",
+        "French Nordic combined skier"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q381454",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jason_Lamy-Chappuis",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/lamichapchap/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LamyChappuisJason",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q381454",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q381454",
+        "https://en.wikipedia.org/wiki/Jason_Lamy-Chappuis",
+        "https://www.instagram.com/lamichapchap/",
+        "https://www.facebook.com/LamyChappuisJason"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as airline pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q57772",
+      "name": "Jóhanna Sigurðardóttir",
+      "title": "Icelandic politician connected to flight attendant",
+      "country": "Iceland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "flight attendant",
+        "Icelandic politician"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q57772",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.althingi.is/johanna/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/johannasig",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q57772",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q57772",
+        "https://en.wikipedia.org/wiki/J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir",
+        "http://www.althingi.is/johanna/",
+        "https://www.facebook.com/johannasig"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as flight attendant. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q704294",
+      "name": "Erri De Luca",
+      "title": "Italian novelist, poet and translator connected to truck driver",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "truck driver",
+        "Italian novelist, poet and translator"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q704294",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Erri_De_Luca",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/erridelucafond",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Erriders",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q704294",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q704294",
+        "https://en.wikipedia.org/wiki/Erri_De_Luca",
+        "https://x.com/erridelucafond",
+        "https://x.com/Erriders"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as truck driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q117885",
+      "name": "Kilian Wenger",
+      "title": "Swiss wrestler connected to truck driver",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "truck driver",
+        "Swiss wrestler"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q117885",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.kilianwenger.ch/",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kilianwenger/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kili.wenger",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kilian-wenger-456643254",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q117885",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q117885",
+        "https://www.kilianwenger.ch/",
+        "https://www.instagram.com/kilianwenger/",
+        "https://www.facebook.com/kili.wenger",
+        "https://www.linkedin.com/in/kilian-wenger-456643254"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as truck driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q78588",
+      "name": "Manfred Stohl",
+      "title": "Austrian racing driver connected to mechanic",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "mechanic",
+        "Austrian racing driver"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q78588",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Manfred_Stohl",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.stohl.at/manfred.php",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q78588",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q78588",
+        "https://en.wikipedia.org/wiki/Manfred_Stohl",
+        "http://www.stohl.at/manfred.php"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q968247",
+      "name": "Luciano Bacheta",
+      "title": "British racing driver connected to racing driver",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "racing driver",
+        "British racing driver"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q968247",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Luciano_Bacheta",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.lucianobacheta.co.uk",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q968247",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q968247",
+        "https://en.wikipedia.org/wiki/Luciano_Bacheta",
+        "http://www.lucianobacheta.co.uk"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as racing driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q968790",
+      "name": "Lewis Williamson",
+      "title": "British racing driver connected to racing driver",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "racing driver",
+        "British racing driver"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q968790",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Lewis_Williamson",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/lewis__17",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q968790",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q968790",
+        "https://en.wikipedia.org/wiki/Lewis_Williamson",
+        "https://x.com/lewis__17"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as racing driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5970982",
+      "name": "Norishige Kanai",
+      "title": "Japanese astronaut connected to astronaut",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aerospace",
+      "subcategories": [
+        "astronaut",
+        "Japanese astronaut"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5970982",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Norishige_Kanai",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Astro_Kanai",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5970982",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5970982",
+        "https://en.wikipedia.org/wiki/Norishige_Kanai",
+        "https://x.com/Astro_Kanai"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as astronaut. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5975489",
+      "name": "Kimiya Yui",
+      "title": "Japanese astronaut connected to astronaut",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aerospace",
+      "subcategories": [
+        "astronaut",
+        "Japanese astronaut"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5975489",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kimiya_Yui",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Astro_Kimiya",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5975489",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5975489",
+        "https://en.wikipedia.org/wiki/Kimiya_Yui",
+        "https://x.com/Astro_Kimiya"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as astronaut. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q254985",
+      "name": "Vladimír Remek",
+      "title": "Czech ambassador, astronaut and pilot connected to cosmonaut",
+      "country": "Czech Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aerospace",
+      "subcategories": [
+        "cosmonaut",
+        "Czech ambassador, astronaut and pilot"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q254985",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Remek",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.vladimirremek.cz/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q254985",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q254985",
+        "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Remek",
+        "http://www.vladimirremek.cz/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cosmonaut. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q312901",
+      "name": "Josep Borrell",
+      "title": "Catalan-Spanish diplomat and politician (born 1947) connected to aerospace engineer",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aerospace",
+      "subcategories": [
+        "aerospace engineer",
+        "Catalan-Spanish diplomat and politician (born 1947)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q312901",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Josep_Borrell",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/JosepBorrellF",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q312901",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q312901",
+        "https://en.wikipedia.org/wiki/Josep_Borrell",
+        "https://x.com/JosepBorrellF"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as aerospace engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q112284",
+      "name": "Charles Duke",
+      "title": "American engineer, U.S. Air Force officer, test pilot, and NASA astronaut (born 1935) connected to test pilot",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "test pilot",
+        "American engineer, U.S. Air Force officer, test pilot, and NASA astronaut (born 1935)"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q112284",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Charles_Duke",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.charlieduke.net/index.html",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q112284",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q112284",
+        "https://en.wikipedia.org/wiki/Charles_Duke",
+        "http://www.charlieduke.net/index.html"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as test pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q121332",
+      "name": "Chrigel Maurer",
+      "title": "Swiss sportsperson connected to test pilot",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "test pilot",
+        "Swiss sportsperson"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q121332",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Chrigel_Maurer",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.chrigelmaurer.ch",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q121332",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q121332",
+        "https://en.wikipedia.org/wiki/Chrigel_Maurer",
+        "http://www.chrigelmaurer.ch"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as test pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3195738",
+      "name": "Kevin Lamoureux",
+      "title": "Canadian politician connected to air traffic controller",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "air traffic controller",
+        "Canadian politician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3195738",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Kevin_Lamoureux",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Kevin_Lamoureux",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3195738",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3195738",
+        "https://en.wikipedia.org/wiki/Kevin_Lamoureux",
+        "https://x.com/Kevin_Lamoureux"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as air traffic controller. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q61577",
+      "name": "Andrea Ypsilanti",
+      "title": "German politician connected to flight attendant",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "flight attendant",
+        "German politician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q61577",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andrea_Ypsilanti",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.andrea-ypsilanti.de",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q61577",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q61577",
+        "https://en.wikipedia.org/wiki/Andrea_Ypsilanti",
+        "http://www.andrea-ypsilanti.de"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as flight attendant. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q85835",
+      "name": "Hermann Knoflacher",
+      "title": "Austrian civil engineer connected to transportation engineer",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "transportation engineer",
+        "Austrian civil engineer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q85835",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Hermann_Knoflacher",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.ivv.tuwien.ac.at/mitarbeiterinnen/professoren/hermann-knoflacher.html",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q85835",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q85835",
+        "https://en.wikipedia.org/wiki/Hermann_Knoflacher",
+        "http://www.ivv.tuwien.ac.at/mitarbeiterinnen/professoren/hermann-knoflacher.html"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as transportation engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1965404",
+      "name": "John Lieswyn",
+      "title": "American racing cyclist and New Zealand transport planner connected to transport planner",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "transport planner",
+        "American racing cyclist and New Zealand transport planner"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1965404",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/John_Lieswyn",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1956-6923",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1965404",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1965404",
+        "https://en.wikipedia.org/wiki/John_Lieswyn",
+        "https://orcid.org/0000-0002-1956-6923"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as transport planner. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q53282",
+      "name": "Werner Faymann",
+      "title": "Austrian politician who was Chancellor of Austria and chairman of the Social Democratic Party of Austria connected to taxi driver",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "taxi driver",
+        "Austrian politician who was Chancellor of Austria and chairman of the Social Democratic Party of Austria"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q53282",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Werner_Faymann",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.werner-faymann.at",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q53282",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q53282",
+        "https://en.wikipedia.org/wiki/Werner_Faymann",
+        "http://www.werner-faymann.at"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as taxi driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96418",
+      "name": "Hagen von Ortloff",
+      "title": "German television personality connected to train driver",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rail",
+      "subcategories": [
+        "train driver",
+        "German television personality"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96418",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Hagen_von_Ortloff",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC3BaPfCU0cOMF3sk8LVuKHQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96418",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96418",
+        "https://en.wikipedia.org/wiki/Hagen_von_Ortloff",
+        "https://www.youtube.com/channel/UC3BaPfCU0cOMF3sk8LVuKHQ"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as train driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2603210",
+      "name": "Alexander Misharin",
+      "title": "Soviet politician connected to railway engineer",
+      "country": "Russia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rail",
+      "subcategories": [
+        "railway engineer",
+        "Soviet politician"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2603210",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Misharin",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/A.S.Misharin",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2603210",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2603210",
+        "https://en.wikipedia.org/wiki/Alexander_Misharin",
+        "https://www.facebook.com/A.S.Misharin"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as railway engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q389597",
+      "name": "Russell Coutts",
+      "title": "sailboat designer connected to marine architect",
+      "country": "New Zealand",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime-engineering",
+      "subcategories": [
+        "marine architect",
+        "sailboat designer"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q389597",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Russell_Coutts",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.russellcouttssailingfoundation.org.nz/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q389597",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q389597",
+        "https://en.wikipedia.org/wiki/Russell_Coutts",
+        "https://www.russellcouttssailingfoundation.org.nz/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as marine architect. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q173380",
+      "name": "Adrian Newey",
+      "title": "British Formula One engineer connected to automotive engineer",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "automotive engineer",
+        "British Formula One engineer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q173380",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Adrian_Newey",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q173380",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q173380",
+        "https://en.wikipedia.org/wiki/Adrian_Newey"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as automotive engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q71640",
+      "name": "Reinhard Jirgl",
+      "title": "writer connected to mechanic",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "mechanic",
+        "writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q71640",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Reinhard_Jirgl",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q71640",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q71640",
+        "https://en.wikipedia.org/wiki/Reinhard_Jirgl"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q102962",
+      "name": "Andreas Schulz",
+      "title": "German auto mechanic connected to auto mechanic",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "auto mechanic",
+        "German auto mechanic"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q102962",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Andreas_Schulz_(co-driver)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q102962",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q102962",
+        "https://en.wikipedia.org/wiki/Andreas_Schulz_(co-driver)"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as auto mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q174000",
+      "name": "Oreste Berta",
+      "title": "Argentinian auto mechanic and automotive designer connected to auto mechanic",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "auto mechanic",
+        "Argentinian auto mechanic and automotive designer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q174000",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Oreste_Berta",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q174000",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q174000",
+        "https://en.wikipedia.org/wiki/Oreste_Berta"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as auto mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3055526",
+      "name": "Jean-Philippe Vandenbrande",
+      "title": "Belgian cyclist connected to bicycle mechanic",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "bicycle mechanic",
+        "Belgian cyclist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3055526",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Vandenbrande",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3055526",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3055526",
+        "https://en.wikipedia.org/wiki/Jean-Philippe_Vandenbrande"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as bicycle mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q66067",
+      "name": "Alexandros Margaritis",
+      "title": "German racing driver connected to racing automobile driver",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "racing automobile driver",
+        "German racing driver"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q66067",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alexandros_Margaritis",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q66067",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q66067",
+        "https://en.wikipedia.org/wiki/Alexandros_Margaritis"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as racing automobile driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11898032",
+      "name": "Tomi Tuominen",
+      "title": "Finnish former rally co-driver connected to rally driver",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "rally driver",
+        "Finnish former rally co-driver"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11898032",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tomi_Tuominen",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11898032",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11898032",
+        "https://en.wikipedia.org/wiki/Tomi_Tuominen"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as rally driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q70836",
+      "name": "Helmut Bradl",
+      "title": "German former Grand Prix motorcycle racer connected to motorcycle racer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "motorcycle racer",
+        "German former Grand Prix motorcycle racer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q70836",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Helmut_Bradl",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q70836",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q70836",
+        "https://en.wikipedia.org/wiki/Helmut_Bradl"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as motorcycle racer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q362902",
+      "name": "Arnaldo Tamayo Méndez",
+      "title": "Cuban cosmonaut connected to cosmonaut",
+      "country": "Cuba",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aerospace",
+      "subcategories": [
+        "cosmonaut",
+        "Cuban cosmonaut"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q362902",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Arnaldo_Tamayo_M%C3%A9ndez",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q362902",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q362902",
+        "https://en.wikipedia.org/wiki/Arnaldo_Tamayo_M%C3%A9ndez"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as cosmonaut. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q137443920",
+      "name": "Hank Eng",
+      "title": "Colorado congressional candidate connected to aerospace engineer",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aerospace",
+      "subcategories": [
+        "aerospace engineer",
+        "Colorado congressional candidate"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q137443920",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Hank_Eng",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q137443920",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q137443920",
+        "https://en.wikipedia.org/wiki/Hank_Eng"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as aerospace engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q70853",
+      "name": "Eberhard Köllner",
+      "title": "German astronaut connected to aircraft pilot",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "aircraft pilot",
+        "German astronaut"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q70853",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Eberhard_K%C3%B6llner",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q70853",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q70853",
+        "https://en.wikipedia.org/wiki/Eberhard_K%C3%B6llner"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as aircraft pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1494858",
+      "name": "Mike Bannister",
+      "title": "British airline pilot connected to airline pilot",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "airline pilot",
+        "British airline pilot"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1494858",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Mike_Bannister",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1494858",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1494858",
+        "https://en.wikipedia.org/wiki/Mike_Bannister"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as airline pilot. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12699718",
+      "name": "Patricia Yapp Syau Yin",
+      "title": "Malaysian military pilot connected to flight instructor",
+      "country": "Malaysia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "flight instructor",
+        "Malaysian military pilot"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12699718",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Patricia_Yapp_Syau_Yin",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12699718",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12699718",
+        "https://en.wikipedia.org/wiki/Patricia_Yapp_Syau_Yin"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as flight instructor. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16193609",
+      "name": "Nick Gregory",
+      "title": "American television meteorologist connected to flight instructor",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "flight instructor",
+        "American television meteorologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16193609",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nick_Gregory",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16193609",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16193609",
+        "https://en.wikipedia.org/wiki/Nick_Gregory"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as flight instructor. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5112249",
+      "name": "Christopher Dunn",
+      "title": "British writer connected to aircraft mechanic",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "aircraft mechanic",
+        "British writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5112249",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Dunn_(computer_programmer)",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5112249",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5112249",
+        "https://en.wikipedia.org/wiki/Christopher_Dunn_(computer_programmer)"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as aircraft mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q597675",
+      "name": "Martin Rettl",
+      "title": "skeleton racer connected to air traffic controller",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "air traffic controller",
+        "skeleton racer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q597675",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Martin_Rettl",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q597675",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q597675",
+        "https://en.wikipedia.org/wiki/Martin_Rettl"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as air traffic controller. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16002090",
+      "name": "Rohit Aggarwala",
+      "title": "American environmentalist/transport planner/historian connected to transport planner",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "transport planner",
+        "American environmentalist/transport planner/historian"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16002090",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Rohit_Aggarwala",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16002090",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16002090",
+        "https://en.wikipedia.org/wiki/Rohit_Aggarwala"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as transport planner. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q95207",
+      "name": "Karen Duve",
+      "title": "German writer connected to taxi driver",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "taxi driver",
+        "German writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q95207",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Karen_Duve",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q95207",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q95207",
+        "https://en.wikipedia.org/wiki/Karen_Duve"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as taxi driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1273577",
+      "name": "E. Sreedharan",
+      "title": "Indian civil engineer connected to railway engineer",
+      "country": "Dominion of India",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rail",
+      "subcategories": [
+        "railway engineer",
+        "Indian civil engineer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1273577",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/E._Sreedharan",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1273577",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1273577",
+        "https://en.wikipedia.org/wiki/E._Sreedharan"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as railway engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q28005502",
+      "name": "Carsten Breuer",
+      "title": "German general connected to logistician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "logistics",
+      "subcategories": [
+        "logistician",
+        "German general"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q28005502",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Carsten_Breuer",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q28005502",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q28005502",
+        "https://en.wikipedia.org/wiki/Carsten_Breuer"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as logistician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q321020",
+      "name": "Arne Rinnan",
+      "title": "Norwegian sailor connected to ship captain",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime-engineering",
+      "subcategories": [
+        "ship captain",
+        "Norwegian sailor"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q321020",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Arne_Rinnan",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q321020",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q321020",
+        "https://en.wikipedia.org/wiki/Arne_Rinnan"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as ship captain. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q245317",
+      "name": "Zygmunt Choreń",
+      "title": "Polish naval architect connected to marine engineer",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime-engineering",
+      "subcategories": [
+        "marine engineer",
+        "Polish naval architect"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q245317",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Zygmunt_Chore%C5%84",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q245317",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q245317",
+        "https://en.wikipedia.org/wiki/Zygmunt_Chore%C5%84"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as marine engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q539381",
+      "name": "Germán Frers",
+      "title": "sailboat designer connected to marine architect",
+      "country": "Argentina",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "maritime-engineering",
+      "subcategories": [
+        "marine architect",
+        "sailboat designer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q539381",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Germ%C3%A1n_Frers",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q539381",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q539381",
+        "https://en.wikipedia.org/wiki/Germ%C3%A1n_Frers"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as marine architect. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5929930",
+      "name": "Jesús Cabrero",
+      "title": "Spanish actor connected to aircraft mechanic",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "aviation-operations",
+      "subcategories": [
+        "aircraft mechanic",
+        "Spanish actor"
+      ],
+      "fitScore": 70,
+      "reachScore": 60,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5929930",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cabrero_jesus/",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jesus-cabrero-90888a6a",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5929930",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5929930",
+        "https://www.instagram.com/cabrero_jesus/",
+        "https://www.linkedin.com/in/jesus-cabrero-90888a6a"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as aircraft mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q91275",
+      "name": "Heiner Monheim",
+      "title": "German geographer and scientist connected to transportation engineer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "transportation engineer",
+        "German geographer and scientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q91275",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.uni-trier.de/index.php?id=19463",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q91275",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q91275",
+        "https://www.uni-trier.de/index.php?id=19463"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as transportation engineer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q113744",
+      "name": "Hartmut Warkuß",
+      "title": "German car designer connected to car designer",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "car designer",
+        "German car designer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q113744",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q113744",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q113744"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as car designer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1665829",
+      "name": "Marcus Walz",
+      "title": "German author connected to bicycle mechanic",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "automotive",
+      "subcategories": [
+        "bicycle mechanic",
+        "German author"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1665829",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1665829",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1665829"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as bicycle mechanic. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11970347",
+      "name": "Frode Holte",
+      "title": "Norwegian rally driver connected to rally driver",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "motorsport",
+      "subcategories": [
+        "rally driver",
+        "Norwegian rally driver"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11970347",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11970347",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11970347"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as rally driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2427200",
+      "name": "Thomas Schwarz",
+      "title": "German politician connected to bus driver",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "bus driver",
+        "German politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2427200",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2427200",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2427200"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as bus driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2827542",
+      "name": "Ahmed El Khannouss",
+      "title": "Belgian politician connected to bus driver",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "transportation",
+      "subcategories": [
+        "bus driver",
+        "Belgian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2827542",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2827542",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2827542"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as bus driver. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q5400184",
+      "name": "Olli-Pekka Hilmola",
+      "title": "Finnish economist (born 1975) connected to logistician",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "logistics",
+      "subcategories": [
+        "logistician",
+        "Finnish economist (born 1975)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q5400184",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q5400184",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q5400184"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as logistician. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 31,
+    "occupationsSucceeded": 31,
+    "failures": [],
+    "limitPerOccupation": 2,
+    "offset": 0,
+    "minSitelinks": 2,
+    "rankBySitelinks": false
+  }
+}

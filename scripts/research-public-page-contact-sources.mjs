@@ -1,5 +1,15 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { basename, dirname, resolve } from 'node:path';
+import {
+  assessContactPageAttribution,
+  assessEmailAttribution,
+  assessFeedAttribution,
+  assessPageIdentity,
+  assessSocialAttribution,
+  inferAssociatedPersonLabel,
+  isBlockedRoute,
+} from './lib/candidate-attribution.mjs';
+import { isLikelySyndicationFeed } from './lib/feed-source-quality.mjs';
 import { loadLocalEnv } from './lib/local-env.mjs';
 
 const supportedModes = new Set([
@@ -56,6 +66,25 @@ const platformHosts = [
   'ncbi.nlm.nih.gov',
   'crossref.org',
 ];
+const genericEmailLocalParts = new Set([
+  'admin',
+  'admissions',
+  'contact',
+  'events',
+  'hello',
+  'info',
+  'media',
+  'office',
+  'press',
+  'pr',
+  'secretariat',
+  'service',
+  'speakers',
+  'speakers_bureau',
+  'studies',
+  'support',
+  'webmaster',
+]);
 
 const args = parseArgs(process.argv.slice(2));
 const localEnv = await loadLocalEnv(args['local-env'] ?? args['env-path'] ?? args['env-file']);
@@ -75,6 +104,7 @@ const requestRetries = boundedNumber(args.retries, 1, 0, 5);
 const retryDelayMs = boundedNumber(args['retry-delay-ms'], 3000, 250, 60000);
 const timeoutMs = boundedNumber(args['timeout-ms'], 15000, 1000, 120000);
 const maxBytes = boundedNumber(args['max-bytes'], 600000, 50000, 2500000);
+const maxTraversalDepth = boundedNumber(args['max-depth'], 1, 0, 3);
 const defaultSlug = slugify(sourceBatchId ?? 'public-page-contact-sources');
 const markdownPath = resolve(args.output ?? `exports/${defaultSlug}-page-contact-sources.local.md`);
 const jsonPath = resolve(args['json-output'] ?? `exports/${defaultSlug}-page-contact-sources.local.json`);
@@ -112,8 +142,23 @@ const discoveryPackage = {
     failedPages: items.filter((item) => item.fetchStatus === 'error').length,
     contactPageCandidates: items.reduce((count, item) => count + item.contactPageCandidates.length, 0),
     mailtoEmailCandidates: items.reduce((count, item) => count + item.emailCandidates.length, 0),
+    phoneCandidates: items.reduce((count, item) => count + (item.phoneCandidates?.length ?? 0), 0),
     socialLinks: items.reduce((count, item) => count + item.socialLinks.length, 0),
     feedLinks: items.reduce((count, item) => count + item.feedLinks.length, 0),
+    quarantinedContactPageCandidates: items.reduce(
+      (count, item) => count + (item.quarantinedContactPageCandidates?.length ?? 0),
+      0,
+    ),
+    quarantinedEmailCandidates: items.reduce(
+      (count, item) => count + (item.quarantinedEmailCandidates?.length ?? 0),
+      0,
+    ),
+    quarantinedPhoneCandidates: items.reduce(
+      (count, item) => count + (item.quarantinedPhoneCandidates?.length ?? 0),
+      0,
+    ),
+    quarantinedSocialLinks: items.reduce((count, item) => count + (item.quarantinedSocialLinks?.length ?? 0), 0),
+    quarantinedFeedLinks: items.reduce((count, item) => count + (item.quarantinedFeedLinks?.length ?? 0), 0),
     candidatesWithMailto: new Set(items.filter((item) => item.emailCandidates.length > 0).map((item) => item.candidateId))
       .size,
     candidatesWithContactPages: new Set(
@@ -130,9 +175,12 @@ const discoveryPackage = {
   },
   rules: [
     'Public page contact discovery is not outreach approval.',
-    'The worker only records public page links and explicit mailto links; it does not guess emails.',
+    'The worker records public page links, explicit mailto links, and explicit public component/API contact fields from the same page; it does not guess emails.',
     'The worker does not store raw HTML.',
     'Known social, academic-index, DOI, and knowledge-graph hosts are skipped by default instead of fetched.',
+    'Candidate identity must be supported by the page title, heading, URL, or explicit representative context before a route is attributed.',
+    'Directory, browse, login, search, pagination, site-wide social, and unrelated-person records are quarantined instead of attributed.',
+    `Contact-page traversal is capped at ${maxTraversalDepth} hop(s) by default.`,
     'Human verification is required before converting any page, email, social profile, or form into a contact route.',
     'Suppression, jurisdiction, professional context, and sensitive-category review must be complete before campaign use.',
   ],
@@ -153,9 +201,19 @@ console.log(`Page sources: ${discoveryPackage.summary.selectedPageSources}`);
 console.log(`Fetched pages: ${discoveryPackage.summary.fetchedPages}`);
 console.log(`Skipped pages: ${discoveryPackage.summary.skippedPages}`);
 console.log(`Contact page candidates: ${discoveryPackage.summary.contactPageCandidates}`);
-console.log(`Mailto email candidates: ${discoveryPackage.summary.mailtoEmailCandidates}`);
+console.log(`Public email candidates: ${discoveryPackage.summary.mailtoEmailCandidates}`);
+console.log(`Phone candidates: ${discoveryPackage.summary.phoneCandidates}`);
 console.log(`Social links: ${discoveryPackage.summary.socialLinks}`);
 console.log(`Feed links: ${discoveryPackage.summary.feedLinks}`);
+console.log(
+  `Quarantined discoveries: ${
+    discoveryPackage.summary.quarantinedContactPageCandidates +
+    discoveryPackage.summary.quarantinedEmailCandidates +
+    discoveryPackage.summary.quarantinedPhoneCandidates +
+    discoveryPackage.summary.quarantinedSocialLinks +
+    discoveryPackage.summary.quarantinedFeedLinks
+  }`,
+);
 console.log(`Scan failures: ${discoveryPackage.summary.scanFailures}`);
 
 if (localEnv.loaded) {
@@ -233,18 +291,33 @@ function collectPageSources(packages) {
 }
 
 function contactCandidateSources(item, file) {
-  return (item.contactPageCandidates ?? []).map((page) => ({
-    candidateId: item.candidateId,
-    name: item.name,
-    category: item.category,
-    country: item.country,
-    sourcePackageFile: file,
-    sourceType: page.source ?? 'public-page-contact-candidate',
-    sourcePlatform: classifyPlatform(page.url),
-    sourceConfidence: page.verified ? 'verified' : item.sourceConfidence ?? 'discovered',
-    label: page.label ?? page.reason ?? 'Contact page candidate',
-    url: page.url,
-  }));
+  const currentDepth = Number.isInteger(item.sourceDepth)
+    ? item.sourceDepth
+    : item.sourceType === 'public-page-link'
+      ? 1
+      : 0;
+  const nextDepth = currentDepth + 1;
+
+  if (nextDepth > maxTraversalDepth) {
+    return [];
+  }
+
+  return (item.contactPageCandidates ?? [])
+    .filter((page) => page.eligibleForReview !== false)
+    .filter((page) => !isBlockedRoute(page.url))
+    .map((page) => ({
+      candidateId: item.candidateId,
+      name: item.name,
+      category: item.category,
+      country: item.country,
+      sourcePackageFile: file,
+      sourceType: page.source ?? 'public-page-contact-candidate',
+      sourcePlatform: classifyPlatform(page.url),
+      sourceConfidence: page.identityConfidence ?? (page.verified ? 'verified' : item.sourceConfidence ?? 'discovered'),
+      sourceDepth: nextDepth,
+      label: page.label ?? page.reason ?? 'Contact page candidate',
+      url: page.url,
+    }));
 }
 
 function candidateBatchSources(batch, file) {
@@ -261,6 +334,7 @@ function candidateBatchSources(batch, file) {
         sourceType: 'candidate-channel',
         sourcePlatform: channel.platform ?? classifyPlatform(channel.url),
         sourceConfidence: channel.verified ? 'verified' : 'unknown',
+        sourceDepth: 0,
         label: channel.label ?? 'Candidate public page',
         url: channel.url,
       }));
@@ -280,6 +354,7 @@ function candidateBatchSources(batch, file) {
         sourceType: 'candidate-source-url',
         sourcePlatform: classifyPlatform(url),
         sourceConfidence: 'unknown',
+        sourceDepth: 0,
         label: 'Candidate source URL',
         url,
       }));
@@ -298,6 +373,7 @@ function orcidItemSources(item, file) {
     sourceType: link.source ?? 'orcid-researcher-url',
     sourcePlatform: link.platform ?? classifyPlatform(link.url),
     sourceConfidence: link.confidence ?? 'unknown',
+    sourceDepth: 0,
     label: link.label ?? '',
     url: link.url,
   }));
@@ -315,6 +391,7 @@ function identityItemSources(item, file) {
       sourceType: link.source ?? 'public-identity-link',
       sourcePlatform: link.platform ?? classifyPlatform(link.url),
       sourceConfidence: link.confidence ?? 'unknown',
+      sourceDepth: 0,
       label: link.label ?? '',
       url: link.url,
     }));
@@ -330,6 +407,7 @@ async function scanPageSource(pageSource) {
     sourceType: pageSource.sourceType,
     sourcePlatform: pageSource.sourcePlatform,
     sourceConfidence: pageSource.sourceConfidence,
+    sourceDepth: pageSource.sourceDepth ?? 0,
     sourceLabel: pageSource.label,
     sourceUrl: pageSource.url,
     finalUrl: '',
@@ -337,12 +415,24 @@ async function scanPageSource(pageSource) {
     httpStatus: null,
     contentType: '',
     pageTitle: '',
+    pageHeading: '',
     metaDescription: '',
     canonicalUrl: '',
+    pageIdentity: {
+      level: 'unresolved',
+      score: 0,
+      evidence: [],
+      eligible: false,
+    },
     contactPageCandidates: [],
     emailCandidates: [],
+    phoneCandidates: [],
     socialLinks: [],
     feedLinks: [],
+    quarantinedContactPageCandidates: [],
+    quarantinedEmailCandidates: [],
+    quarantinedSocialLinks: [],
+    quarantinedFeedLinks: [],
     searchTargets: buildSearchTargets(pageSource, []),
     reviewChecks: [
       'Confirm the page belongs to the same person or an official representative, employer, institution, or project.',
@@ -392,13 +482,36 @@ async function scanPageSource(pageSource) {
 
     const html = (await response.text()).slice(0, maxBytes);
     const pageTitle = extractTitle(html);
+    const pageHeading = extractPrimaryHeading(html);
     const metaDescription = extractMetaDescription(html);
     const canonicalUrl = extractCanonicalUrl(html, finalUrl);
     const links = extractLinks(html, finalUrl);
-    const emailCandidates = extractMailtoEmailCandidates(links, finalUrl);
-    const contactPageCandidates = extractContactPageCandidates(links);
-    const socialLinks = extractSocialLinks(links);
-    const feedLinks = extractFeedLinks(links);
+    const pageIdentity = assessPageIdentity({
+      candidateName: pageSource.name,
+      pageTitle,
+      pageHeading,
+      metaDescription,
+      sourceLabel: pageSource.label,
+      sourceUrl: pageSource.url,
+      finalUrl,
+      canonicalUrl,
+    });
+    const structuredContactCandidates = await extractStructuredContactCandidates({ html, pageSource, sourceUrl: finalUrl });
+    const emailDiscovery = extractPublicEmailCandidates({
+      html,
+      links,
+      sourceUrl: finalUrl,
+      pageSource,
+      pageIdentity,
+      structuredEmailCandidates: structuredContactCandidates.emailCandidates,
+    });
+    const phoneDiscovery = classifyStructuredPhoneCandidates(
+      structuredContactCandidates.phoneCandidates,
+      pageIdentity,
+    );
+    const contactPageDiscovery = extractContactPageCandidates(links, pageSource, pageIdentity, finalUrl);
+    const socialDiscovery = extractSocialLinks(links, pageSource, pageIdentity, finalUrl);
+    const feedDiscovery = extractFeedLinks(links, pageSource, pageIdentity, finalUrl);
 
     return {
       ...baseItem,
@@ -407,13 +520,21 @@ async function scanPageSource(pageSource) {
       httpStatus: response.status,
       contentType,
       pageTitle,
+      pageHeading,
       metaDescription,
       canonicalUrl,
-      contactPageCandidates,
-      emailCandidates,
-      socialLinks,
-      feedLinks,
-      searchTargets: buildSearchTargets(pageSource, contactPageCandidates),
+      pageIdentity,
+      contactPageCandidates: contactPageDiscovery.accepted,
+      emailCandidates: emailDiscovery.accepted,
+      phoneCandidates: phoneDiscovery.accepted,
+      socialLinks: socialDiscovery.accepted,
+      feedLinks: feedDiscovery.accepted,
+      quarantinedContactPageCandidates: contactPageDiscovery.quarantined,
+      quarantinedEmailCandidates: emailDiscovery.quarantined,
+      quarantinedPhoneCandidates: phoneDiscovery.quarantined,
+      quarantinedSocialLinks: socialDiscovery.quarantined,
+      quarantinedFeedLinks: feedDiscovery.quarantined,
+      searchTargets: buildSearchTargets(pageSource, contactPageDiscovery.accepted),
     };
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
@@ -431,9 +552,13 @@ async function scanPageSource(pageSource) {
   }
 }
 
-async function fetchWithRetries(url) {
+async function fetchWithRetries(url, options = {}) {
   for (let attempt = 0; attempt <= requestRetries; attempt += 1) {
-    const response = await fetch(url, { headers: requestHeaders(), redirect: 'follow', signal: AbortSignal.timeout(timeoutMs) });
+    const response = await fetch(url, {
+      headers: requestHeaders(options),
+      redirect: 'follow',
+      signal: AbortSignal.timeout(timeoutMs),
+    });
     if (response.ok) {
       return response;
     }
@@ -453,7 +578,10 @@ async function fetchWithRetries(url) {
 function extractLinks(html, baseUrl) {
   const anchors = Array.from(html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)).map((match) => {
     const attrs = parseAttributes(match[1]);
-    return linkFromAttributes(attrs, stripTags(match[2]), baseUrl, 'a');
+    const matchStart = match.index ?? 0;
+    const contextHtml = html.slice(Math.max(0, matchStart - 500), matchStart + match[0].length + 220);
+    const contextText = normalizeWhitespace(decodeHtml(stripTags(contextHtml))).slice(-500);
+    return linkFromAttributes(attrs, stripTags(match[2]), baseUrl, 'a', contextText);
   });
   const links = Array.from(html.matchAll(/<link\b([^>]*)>/gi)).map((match) => {
     const attrs = parseAttributes(match[1]);
@@ -463,7 +591,7 @@ function extractLinks(html, baseUrl) {
   return [...anchors, ...links].filter((link) => link.href);
 }
 
-function linkFromAttributes(attrs, text, baseUrl, tagName) {
+function linkFromAttributes(attrs, text, baseUrl, tagName, contextText = '') {
   const rawHref = attrs.href ?? '';
   const href = resolveHref(rawHref, baseUrl);
 
@@ -472,8 +600,44 @@ function linkFromAttributes(attrs, text, baseUrl, tagName) {
     href,
     rawHref,
     text: normalizeWhitespace(decodeHtml(text)).slice(0, 160),
+    contextText,
     rel: normalizeWhitespace(attrs.rel ?? '').toLowerCase(),
     type: normalizeWhitespace(attrs.type ?? '').toLowerCase(),
+  };
+}
+
+function extractPublicEmailCandidates({ html, links, sourceUrl, pageSource, pageIdentity, structuredEmailCandidates = [] }) {
+  const candidates = [
+    ...structuredEmailCandidates,
+    ...extractMailtoEmailCandidates(links, sourceUrl),
+    ...extractPlainTextEmailCandidates(html, sourceUrl),
+  ]
+    .map((candidate) => {
+      const assessment = assessEmailAttribution({
+        candidateName: pageSource.name,
+        email: candidate.value,
+        role: candidate.role,
+        label: candidate.label,
+        linkText: candidate.linkText,
+        contextText: candidate.contextText,
+        pageIdentity,
+      });
+      const inferredLabel =
+        candidate.label || inferAssociatedPersonLabel(candidate.contextText, candidate.value, assessment.role);
+      return {
+        ...candidate,
+        ...assessment,
+        label: inferredLabel || candidate.label,
+      };
+    });
+  const uniqueCandidates = uniqueByKey(
+    candidates,
+    (candidate) => candidate.value.toLowerCase(),
+  ).sort(compareEmailCandidates);
+
+  return {
+    accepted: uniqueCandidates.filter((candidate) => candidate.eligibleForReview).slice(0, 20),
+    quarantined: uniqueCandidates.filter((candidate) => !candidate.eligibleForReview).slice(0, 50),
   };
 }
 
@@ -488,84 +652,340 @@ function extractMailtoEmailCandidates(links, sourceUrl) {
       value: entry.email,
       sourceUrl,
       linkText: entry.link.text,
+      contextText: entry.link.contextText,
+      role: emailRole(entry.email),
       verified: false,
       reviewerNote:
         'Explicit mailto link found on a public page. Human verification is required before using as a contact route.',
     }));
 
-  return uniqueByKey(candidates, (candidate) => candidate.value.toLowerCase()).slice(0, 10);
+  return uniqueByKey(candidates, (candidate) => candidate.value.toLowerCase()).slice(0, 30);
 }
 
-function extractContactPageCandidates(links) {
+function extractPlainTextEmailCandidates(html, sourceUrl) {
+  const visibleText = normalizeWhitespace(
+    decodeHtml(
+      stripTags(
+        String(html ?? '')
+          .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+          .replace(/<style\b[\s\S]*?<\/style>/gi, ' '),
+      ),
+    ),
+  );
+  const pattern = /[A-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?(?:\.[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?)+/gi;
+  const candidates = [];
+
+  for (const match of visibleText.matchAll(pattern)) {
+    const email = match[0].replace(/[.,;:!?]+$/, '');
+    if (!isEmail(email)) {
+      continue;
+    }
+
+    const start = Math.max(0, (match.index ?? 0) - 180);
+    const end = Math.min(visibleText.length, (match.index ?? 0) + match[0].length + 180);
+    candidates.push({
+      source: 'public-page-text-email',
+      type: 'public-email-candidate',
+      value: email,
+      sourceUrl,
+      contextText: visibleText.slice(start, end),
+      role: emailRole(email),
+      verified: false,
+      reviewerNote:
+        'Explicit email text found on a public page. Human verification is required before using as a contact route.',
+    });
+  }
+
+  return uniqueByKey(candidates, (candidate) => candidate.value.toLowerCase()).slice(0, 30);
+}
+
+function classifyStructuredPhoneCandidates(candidates, pageIdentity) {
+  const enriched = (candidates ?? []).map((candidate) => {
+    const explicitRole = candidate.role ?? '';
+    const eligibleForReview =
+      pageIdentity.level === 'direct' && ['direct-person', 'support-staff', 'representative'].includes(explicitRole);
+    return {
+      ...candidate,
+      identityAttribution:
+        explicitRole === 'direct-person'
+          ? 'direct'
+          : ['support-staff', 'representative'].includes(explicitRole)
+            ? 'representative'
+            : 'unresolved',
+      identityScore: eligibleForReview ? Math.max(80, pageIdentity.score) : Math.min(49, pageIdentity.score),
+      identityConfidence: eligibleForReview ? 'high' : 'low',
+      identityEvidence: unique([
+        ...(pageIdentity.evidence ?? []),
+        eligibleForReview ? 'explicit-structured-contact-role' : 'phone-lacks-candidate-or-representative-identity',
+      ]),
+      eligibleForReview,
+    };
+  });
+
+  return {
+    accepted: enriched.filter((candidate) => candidate.eligibleForReview),
+    quarantined: enriched.filter((candidate) => !candidate.eligibleForReview),
+  };
+}
+
+async function extractStructuredContactCandidates({ html, pageSource, sourceUrl }) {
+  const emailCandidates = [];
+  const phoneCandidates = [];
+
+  for (const personId of extractEconUzhPersonIds(html)) {
+    const apiUrl = `https://bo.econ.uzh.ch/public/v1/human_resources/people/${personId}`;
+    try {
+      const response = await fetchWithRetries(apiUrl, { acceptJson: true });
+      const payload = await response.json();
+      const contacts = extractEconUzhPersonContactCandidates(payload.data ?? payload, sourceUrl, apiUrl, pageSource);
+      emailCandidates.push(...contacts.emailCandidates);
+      phoneCandidates.push(...contacts.phoneCandidates);
+    } catch (error) {
+      parseFailures.push({
+        candidateId: pageSource.candidateId,
+        sourceUrl,
+        parser: 'econ-person-detail',
+        message: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  return {
+    emailCandidates: uniqueByKey(emailCandidates, (candidate) => `${candidate.value.toLowerCase()}|${candidate.role ?? ''}`).slice(0, 12),
+    phoneCandidates: uniqueByKey(phoneCandidates, (candidate) => `${candidate.value}|${candidate.role ?? ''}`).slice(0, 12),
+  };
+}
+
+function extractEconUzhPersonIds(html) {
+  return unique(
+    Array.from(html.matchAll(/<econ-person-detail\b([^>]*)>/gi))
+      .map((match) => parseAttributes(match[1])['person-id'])
+      .filter((value) => /^\d+$/.test(String(value ?? ''))),
+  );
+}
+
+function extractEconUzhPersonContactCandidates(person, sourceUrl, sourceApiUrl, pageSource) {
+  if (!person || typeof person !== 'object') {
+    return { emailCandidates: [], phoneCandidates: [] };
+  }
+
+  const emailCandidates = [];
+  const phoneCandidates = [];
+  const personName = normalizePersonName([person.firstname, person.lastname, person.fullname].filter(Boolean).join(' '));
+  const candidateName = normalizePersonName(pageSource.name);
+  const directRole = namesLikelyMatch(personName, candidateName) ? 'direct-person' : 'listed-person';
+  const personLabel = person.fullname || pageSource.name;
+
+  if (isEmail(person.email)) {
+    emailCandidates.push({
+      source: 'public-component-api',
+      type: 'public-email-candidate',
+      value: person.email,
+      sourceUrl,
+      sourceApiUrl,
+      label: personLabel,
+      role: directRole,
+      verified: false,
+      reviewerNote:
+        'Explicit email field returned by the public UZH person-detail component backing this page. Human verification is required before campaign use.',
+    });
+  }
+
+  const personPhone = normalizePhone(person.phone_work);
+  if (isPublicPhone(personPhone)) {
+    phoneCandidates.push({
+      source: 'public-component-api',
+      type: 'public-phone-candidate',
+      value: personPhone,
+      sourceUrl,
+      sourceApiUrl,
+      label: personLabel,
+      role: directRole,
+      verified: false,
+      reviewerNote:
+        'Explicit phone_work field returned by the public UZH person-detail component backing this page. Human verification is required before campaign use.',
+    });
+  }
+
+  const delegate = person.delegate_person;
+  if (delegate && typeof delegate === 'object' && isEmail(delegate.email)) {
+    emailCandidates.push({
+      source: 'public-component-api',
+      type: 'public-email-candidate',
+      value: delegate.email,
+      sourceUrl,
+      sourceApiUrl,
+      label: delegate.fullname || [delegate.firstname, delegate.lastname].filter(Boolean).join(' '),
+      role: 'support-staff',
+      verified: false,
+      reviewerNote:
+        'Explicit support-staff email field returned by the public UZH person-detail component backing this page. Human verification is required before campaign use.',
+    });
+  }
+
+  const delegatePhone = normalizePhone(delegate?.phone_work);
+  if (delegate && typeof delegate === 'object' && isPublicPhone(delegatePhone)) {
+    phoneCandidates.push({
+      source: 'public-component-api',
+      type: 'public-phone-candidate',
+      value: delegatePhone,
+      sourceUrl,
+      sourceApiUrl,
+      label: delegate.fullname || [delegate.firstname, delegate.lastname].filter(Boolean).join(' '),
+      role: 'support-staff',
+      verified: false,
+      reviewerNote:
+        'Explicit support-staff phone_work field returned by the public UZH person-detail component backing this page. Human verification is required before campaign use.',
+    });
+  }
+
+  return {
+    emailCandidates: emailCandidates.map((candidate) => ({ ...candidate, role: candidate.role ?? emailRole(candidate.value) })),
+    phoneCandidates,
+  };
+}
+
+function compareEmailCandidates(left, right) {
+  return emailCandidateRank(left) - emailCandidateRank(right) || left.value.localeCompare(right.value);
+}
+
+function emailCandidateRank(candidate) {
+  const role = candidate.role ?? emailRole(candidate.value);
+  if (role === 'direct-person') {
+    return 0;
+  }
+  if (role === 'listed-person') {
+    return 1;
+  }
+  if (role === 'support-staff') {
+    return 2;
+  }
+  if (role === 'generic-office') {
+    return 4;
+  }
+  return 3;
+}
+
+function emailRole(email) {
+  const localPart = String(email).split('@')[0]?.toLowerCase() ?? '';
+  if (genericEmailLocalParts.has(localPart) || /^(contact|info|press|media|office|support|webmaster)[._-]/.test(localPart)) {
+    return 'generic-office';
+  }
+  return 'public-email';
+}
+
+function extractContactPageCandidates(links, pageSource, pageIdentity, sourceUrl) {
   const candidates = links
+    .filter((link) => link.tagName === 'a')
     .filter((link) => isHttpUrl(link.href))
     .map((link) => {
       const reason = contactReason(link);
-      return reason
-        ? {
-            source: 'public-page-link',
-            url: link.href,
-            label: link.text || link.rel || link.type || getDomain(link.href),
-            reason,
-            verified: false,
-          }
-        : null;
+      if (!reason) {
+        return null;
+      }
+      const candidate = {
+        source: 'public-page-link',
+        url: link.href,
+        label: link.text || link.rel || link.type || getDomain(link.href),
+        reason,
+        contextText: link.contextText,
+        verified: false,
+      };
+      return {
+        ...candidate,
+        ...assessContactPageAttribution({
+          candidateName: pageSource.name,
+          url: candidate.url,
+          label: candidate.label,
+          reason,
+          contextText: link.contextText,
+          sourceUrl,
+          pageIdentity,
+        }),
+      };
     })
     .filter(Boolean);
+  const uniqueCandidates = uniqueByKey(candidates, (candidate) => normalizeUrl(candidate.url));
 
-  return uniqueByKey(candidates, (candidate) => normalizeUrl(candidate.url)).slice(0, 15);
+  return {
+    accepted: uniqueCandidates.filter((candidate) => candidate.eligibleForReview).slice(0, 12),
+    quarantined: uniqueCandidates.filter((candidate) => !candidate.eligibleForReview).slice(0, 50),
+  };
 }
 
-function extractSocialLinks(links) {
+function extractSocialLinks(links, pageSource, pageIdentity, sourceUrl) {
   const socialPlatforms = new Set(['youtube', 'x', 'instagram', 'linkedin', 'facebook', 'tiktok', 'newsletter']);
   const socialLinks = links
+    .filter((link) => link.tagName === 'a')
     .filter((link) => isHttpUrl(link.href))
-    .map((link) => ({
-      source: 'public-page-link',
-      platform: classifyPlatform(link.href),
-      url: link.href,
-      label: link.text || platformLabel(classifyPlatform(link.href)),
-      verified: false,
-    }))
+    .map((link) => {
+      const candidate = {
+        source: 'public-page-link',
+        platform: classifyPlatform(link.href),
+        url: link.href,
+        label: link.text || platformLabel(classifyPlatform(link.href)),
+        contextText: link.contextText,
+        verified: false,
+      };
+      return {
+        ...candidate,
+        ...assessSocialAttribution({
+          candidateName: pageSource.name,
+          url: candidate.url,
+          label: candidate.label,
+          contextText: link.contextText,
+          sourceUrl,
+          pageIdentity,
+        }),
+      };
+    })
     .filter((link) => socialPlatforms.has(link.platform));
+  const uniqueLinks = uniqueByKey(socialLinks, (link) => `${link.platform}|${normalizeUrl(link.url)}`);
 
-  return uniqueByKey(socialLinks, (link) => `${link.platform}|${normalizeUrl(link.url)}`).slice(0, 15);
+  return {
+    accepted: uniqueLinks.filter((link) => link.eligibleForReview).slice(0, 15),
+    quarantined: uniqueLinks.filter((link) => !link.eligibleForReview).slice(0, 30),
+  };
 }
 
-function extractFeedLinks(links) {
+function extractFeedLinks(links, pageSource, pageIdentity, sourceUrl) {
   const feeds = links
     .filter((link) => isHttpUrl(link.href))
     .filter((link) => isFeedLikeLink(link))
-    .map((link) => ({
-      source: 'public-page-feed-link',
-      url: link.href,
-      label: link.text || link.type || 'Feed',
-      verified: false,
-    }));
+    .map((link) => {
+      const candidate = {
+        source: 'public-page-feed-link',
+        url: link.href,
+        label: link.text || link.type || 'Feed',
+        contextText: link.contextText,
+        verified: false,
+      };
+      return {
+        ...candidate,
+        ...assessFeedAttribution({
+          candidateName: pageSource.name,
+          url: candidate.url,
+          label: candidate.label,
+          sourceUrl,
+          pageIdentity,
+        }),
+      };
+    });
+  const uniqueFeeds = uniqueByKey(feeds, (link) => normalizeUrl(link.url));
 
-  return uniqueByKey(feeds, (link) => normalizeUrl(link.url)).slice(0, 8);
+  return {
+    accepted: uniqueFeeds.filter((link) => link.eligibleForReview).slice(0, 8),
+    quarantined: uniqueFeeds.filter((link) => !link.eligibleForReview).slice(0, 20),
+  };
 }
 
 function isFeedLikeLink(link) {
-  const relTokens = new Set(link.rel.split(/\s+/).filter(Boolean));
-  const type = link.type.toLowerCase();
-  const text = normalizeSearchText(link.text);
-  const url = new URL(link.href);
-  const path = url.pathname.toLowerCase();
-
-  if (relTokens.has('alternate') && /rss|atom|xml|jsonfeed/.test(type)) {
-    return true;
-  }
-
-  if (/application\/(rss|atom|feed|json)/.test(type) || /text\/xml/.test(type)) {
-    return true;
-  }
-
-  if (/(^| )rss( |$)|(^| )atom( |$)|(^| )podcast( |$)|(^| )feed( |$)/.test(text)) {
-    return true;
-  }
-
-  return /(^|\/)(feed|rss|atom|podcast)(\/|\.xml|\.rss|\.atom|$)/.test(path);
+  return isLikelySyndicationFeed({
+    url: link.href,
+    label: link.text,
+    type: link.type,
+    rel: link.rel,
+  });
 }
 
 function contactReason(link) {
@@ -615,10 +1035,16 @@ function renderMarkdown(discoveryPackage) {
     `- Skipped pages: ${discoveryPackage.summary.skippedPages}`,
     `- Failed pages: ${discoveryPackage.summary.failedPages}`,
     `- Contact page candidates: ${discoveryPackage.summary.contactPageCandidates}`,
-    `- Mailto email candidates: ${discoveryPackage.summary.mailtoEmailCandidates}`,
-    `- Candidates with mailto candidates: ${discoveryPackage.summary.candidatesWithMailto}`,
+    `- Public email candidates: ${discoveryPackage.summary.mailtoEmailCandidates}`,
+    `- Phone candidates: ${discoveryPackage.summary.phoneCandidates}`,
+    `- Candidates with public email candidates: ${discoveryPackage.summary.candidatesWithMailto}`,
     `- Social links: ${discoveryPackage.summary.socialLinks}`,
     `- Feed links: ${discoveryPackage.summary.feedLinks}`,
+    `- Quarantined contact pages: ${discoveryPackage.summary.quarantinedContactPageCandidates}`,
+    `- Quarantined emails: ${discoveryPackage.summary.quarantinedEmailCandidates}`,
+    `- Quarantined phones: ${discoveryPackage.summary.quarantinedPhoneCandidates}`,
+    `- Quarantined social links: ${discoveryPackage.summary.quarantinedSocialLinks}`,
+    `- Quarantined feed links: ${discoveryPackage.summary.quarantinedFeedLinks}`,
     `- Scan failures: ${discoveryPackage.summary.scanFailures}`,
     '',
     '## Guardrails',
@@ -639,10 +1065,21 @@ function renderMarkdown(discoveryPackage) {
     if (item.pageTitle) {
       lines.push(`- Page title: ${item.pageTitle}`);
     }
+    lines.push(`- Identity attribution: ${item.pageIdentity?.level ?? 'unresolved'} (${item.pageIdentity?.score ?? 0}/100)`);
     lines.push(`- Contact page candidates: ${item.contactPageCandidates.length}`);
-    lines.push(`- Mailto email candidates: ${item.emailCandidates.length}`);
+    lines.push(`- Public email candidates: ${item.emailCandidates.length}`);
+    lines.push(`- Phone candidates: ${item.phoneCandidates?.length ?? 0}`);
     lines.push(`- Social links: ${item.socialLinks.length}`);
     lines.push(`- Feed links: ${item.feedLinks.length}`);
+    lines.push(
+      `- Quarantined discoveries: ${
+        (item.quarantinedContactPageCandidates?.length ?? 0) +
+        (item.quarantinedEmailCandidates?.length ?? 0) +
+        (item.quarantinedPhoneCandidates?.length ?? 0) +
+        (item.quarantinedSocialLinks?.length ?? 0) +
+        (item.quarantinedFeedLinks?.length ?? 0)
+      }`,
+    );
 
     if (item.contactPageCandidates.length > 0) {
       lines.push('- Contact page candidates:');
@@ -652,8 +1089,15 @@ function renderMarkdown(discoveryPackage) {
     }
 
     if (item.emailCandidates.length > 0) {
-      lines.push('- Mailto email candidates:');
+      lines.push('- Public email candidates:');
       item.emailCandidates.forEach((candidate) => {
+        lines.push(`  - ${candidate.value}`);
+      });
+    }
+
+    if ((item.phoneCandidates?.length ?? 0) > 0) {
+      lines.push('- Phone candidates:');
+      item.phoneCandidates.forEach((candidate) => {
         lines.push(`  - ${candidate.value}`);
       });
     }
@@ -725,6 +1169,11 @@ function extractTitle(html) {
   return match ? normalizeWhitespace(decodeHtml(stripTags(match[1]))).slice(0, 180) : '';
 }
 
+function extractPrimaryHeading(html) {
+  const match = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+  return match ? normalizeWhitespace(decodeHtml(stripTags(match[1]))).slice(0, 180) : '';
+}
+
 function extractMetaDescription(html) {
   const metas = Array.from(html.matchAll(/<meta\b([^>]*)>/gi));
   const description = metas
@@ -770,9 +1219,11 @@ function decodeHtml(value) {
   });
 }
 
-function requestHeaders() {
+function requestHeaders(options = {}) {
   return {
-    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    Accept: options.acceptJson
+      ? 'application/json,text/plain;q=0.9,*/*;q=0.8'
+      : 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'User-Agent':
       process.env.BEGLIB_RESEARCH_USER_AGENT ??
       'beGlibCommercialAutomation/0.1 (public-page-contact-source-discovery; local private research)',
@@ -856,6 +1307,15 @@ function isEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
 
+function isPublicPhone(value) {
+  const digits = String(value).replace(/\D/g, '');
+  return digits.length >= 7;
+}
+
+function normalizePhone(value) {
+  return normalizeWhitespace(String(value ?? '')).replace(/\s+/g, ' ');
+}
+
 function normalizeUrl(value) {
   try {
     const url = new URL(value);
@@ -889,6 +1349,29 @@ function normalizeSearchText(value) {
     .replace(/[^a-z0-9]+/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function normalizePersonName(value) {
+  return normalizeSearchText(value)
+    .split(' ')
+    .filter((token) => token.length > 1)
+    .join(' ');
+}
+
+function namesLikelyMatch(left, right) {
+  if (!left || !right) {
+    return false;
+  }
+
+  if (left === right) {
+    return true;
+  }
+
+  const leftTokens = new Set(left.split(' ').filter(Boolean));
+  const rightTokens = new Set(right.split(' ').filter(Boolean));
+  const overlap = Array.from(leftTokens).filter((token) => rightTokens.has(token)).length;
+
+  return overlap >= Math.min(2, leftTokens.size, rightTokens.size);
 }
 
 function tokenInText(text, token) {

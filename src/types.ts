@@ -322,6 +322,8 @@ export interface DiscoveryDossierCounts {
   affiliations: number;
   searchTargets: number;
   sourcePackages: number;
+  quarantinedChannels: number;
+  quarantinedContactCandidates: number;
 }
 
 export interface DiscoveryChannelCandidate {
@@ -331,6 +333,12 @@ export interface DiscoveryChannelCandidate {
   url: string;
   verified: boolean;
   confidence: string;
+  role?: string;
+  identityAttribution?: string;
+  identityScore?: number;
+  identityConfidence?: string;
+  identityEvidence?: string[];
+  eligibleForReview?: boolean;
 }
 
 export interface DiscoveryContactCandidate {
@@ -338,8 +346,17 @@ export interface DiscoveryContactCandidate {
   type: 'public-email-candidate' | 'contact-page-candidate' | string;
   value: string;
   sourceUrl: string;
+  sourceApiUrl?: string;
   label?: string;
   reason?: string;
+  role?: string;
+  linkText?: string;
+  contextText?: string;
+  identityAttribution?: string;
+  identityScore?: number;
+  identityConfidence?: string;
+  identityEvidence?: string[];
+  eligibleForReview?: boolean;
   verified: boolean;
   reviewerNote?: string;
 }
@@ -361,6 +378,8 @@ export interface CandidateDiscoveryDossier {
   counts: DiscoveryDossierCounts;
   discoveryChannels: DiscoveryChannelCandidate[];
   contactCandidates: DiscoveryContactCandidate[];
+  quarantinedChannels: DiscoveryChannelCandidate[];
+  quarantinedContactCandidates: DiscoveryContactCandidate[];
   affiliations: Array<Record<string, string>>;
   searchTargets: string[];
   sourceUrls: string[];
@@ -376,6 +395,8 @@ export interface CandidateDiscoveryDossierSummary {
   contactPageCandidates: number;
   candidatesWithPublicEmail: number;
   candidatesWithContactCandidate: number;
+  quarantinedChannelCandidates: number;
+  quarantinedContactCandidates: number;
   creatorSuggestions: number;
   affiliations: number;
   sensitiveReviewRequired: number;
@@ -396,6 +417,7 @@ export interface CandidateDiscoveryDossierPackage {
   sourceLabel: string | null;
   sourceFile: string;
   mode: 'candidate-discovery-dossiers';
+  qualityVersion?: string;
   summary: CandidateDiscoveryDossierSummary;
   dossiers: CandidateDiscoveryDossier[];
 }

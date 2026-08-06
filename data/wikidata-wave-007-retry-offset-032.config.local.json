@@ -1,0 +1,63 @@
+{
+  "waveId": "wikidata-wave-007-business-finance-leadership-retry-offset-032",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata business, finance, consulting, and leadership occupation discovery",
+  "description": "Broad discovery wave for business leaders, executives, founders, investors, finance professionals, consultants, marketers, real estate developers, economists, accountants, and sales professionals. Discovery-only: no contact route collection. Retry config for offset 032 failures only.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 2,
+  "rankBySitelinks": false,
+  "delayMs": 3000,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Retry-only local config for failed offset 032 occupation queries.",
+  "categories": [
+    {
+      "category": "business",
+      "occupations": [
+        {
+          "qid": "Q43845",
+          "label": "businessperson"
+        },
+        {
+          "qid": "Q2961975",
+          "label": "business executive"
+        },
+        {
+          "qid": "Q484876",
+          "label": "chief executive officer"
+        },
+        {
+          "qid": "Q623279",
+          "label": "chief operating officer"
+        },
+        {
+          "qid": "Q140686",
+          "label": "chairperson"
+        },
+        {
+          "qid": "Q88213565",
+          "label": "company founder"
+        },
+        {
+          "qid": "Q131524",
+          "label": "entrepreneur"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "occupations": [
+        {
+          "qid": "Q557880",
+          "label": "investor"
+        },
+        {
+          "qid": "Q16023665",
+          "label": "venture capitalist"
+        },
+        {
+          "qid": "Q778274",
+          "label": "angel investor"
+        }
+      ]
+    }
+  ]
+}

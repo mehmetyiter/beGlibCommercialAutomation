@@ -1,0 +1,1795 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-thought-leadership",
+  "createdAt": "2026-06-15T03:18:54.406Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / thought-leadership",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5025468780",
+      "name": "Ronald J. Hogg",
+      "title": "Tufts University researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Dialysis and Renal Disease Management",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Heart Failure Treatment and Management"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5025468780",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4087-9561",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5025468780",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5025468780",
+        "https://orcid.org/0000-0002-4087-9561",
+        "https://openalex.org/W2487377689"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dialysis and Renal Disease Management, Health Systems, Economic Evaluations, Quality of Life, Heart Failure Treatment and Management. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5058176171",
+      "name": "Natalia Díaz-Rodríguez",
+      "title": "École Nationale Supérieure de Techniques Avancées researcher connected to ethics artificial intelligence society",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education",
+        "Ethics and Social Impacts of AI"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5058176171",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3362-9326",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5058176171",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5058176171",
+        "https://orcid.org/0000-0003-3362-9326",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012",
+        "https://openalex.org/W4381848566",
+        "https://doi.org/10.1016/j.inffus.2023.101896"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5017326471",
+      "name": "Javier Del Ser",
+      "title": "Tecnalia researcher connected to ethics artificial intelligence society",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education",
+        "Ethics and Social Impacts of AI"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5017326471",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1260-9775",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5017326471",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5017326471",
+        "https://orcid.org/0000-0002-1260-9775",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012",
+        "https://openalex.org/W4381848566",
+        "https://doi.org/10.1016/j.inffus.2023.101896"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5045016749",
+      "name": "Francisco Herrera",
+      "title": "Universidad de Granada researcher connected to ethics artificial intelligence society",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education",
+        "Ethics and Social Impacts of AI"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5045016749",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7283-312X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5045016749",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5045016749",
+        "https://orcid.org/0000-0002-7283-312X",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012",
+        "https://openalex.org/W4381848566",
+        "https://doi.org/10.1016/j.inffus.2023.101896"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5009198168",
+      "name": "Ahmedin Jemal",
+      "title": "American Cancer Society researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Colorectal Cancer Screening and Detection",
+        "Global Cancer Incidence and Screening",
+        "Cervical Cancer and HPV Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009198168",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0000-4111",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009198168",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009198168",
+        "https://orcid.org/0000-0002-0000-4111",
+        "https://openalex.org/W2106787323",
+        "https://doi.org/10.3322/caac.20107"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Colorectal Cancer Screening and Detection, Global Cancer Incidence and Screening, Cervical Cancer and HPV Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5064215217",
+      "name": "Freddie Bray",
+      "title": "Centre international de recherche sur le cancer researcher connected to future of work public policy",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Colorectal Cancer Screening and Detection",
+        "Global Cancer Incidence and Screening",
+        "Cervical Cancer and HPV Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5064215217",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3248-7787",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5064215217",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5064215217",
+        "https://orcid.org/0000-0002-3248-7787",
+        "https://openalex.org/W2106787323",
+        "https://doi.org/10.3322/caac.20107"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Colorectal Cancer Screening and Detection, Global Cancer Incidence and Screening, Cervical Cancer and HPV Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5051830072",
+      "name": "Jacques Ferlay",
+      "title": "American Cancer Society researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Colorectal Cancer Screening and Detection",
+        "Global Cancer Incidence and Screening",
+        "Cervical Cancer and HPV Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5051830072",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4927-6932",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5051830072",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5051830072",
+        "https://orcid.org/0000-0003-4927-6932",
+        "https://openalex.org/W2106787323",
+        "https://doi.org/10.3322/caac.20107"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Colorectal Cancer Screening and Detection, Global Cancer Incidence and Screening, Cervical Cancer and HPV Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5101396776",
+      "name": "Elizabeth Ward",
+      "title": "American Cancer Society researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Colorectal Cancer Screening and Detection",
+        "Global Cancer Incidence and Screening",
+        "Cervical Cancer and HPV Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5101396776",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3575-6639",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5101396776",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5101396776",
+        "https://orcid.org/0000-0002-3575-6639",
+        "https://openalex.org/W2106787323",
+        "https://doi.org/10.3322/caac.20107"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Colorectal Cancer Screening and Detection, Global Cancer Incidence and Screening, Cervical Cancer and HPV Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5111768129",
+      "name": "David Forman",
+      "title": "American Cancer Society researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Colorectal Cancer Screening and Detection",
+        "Global Cancer Incidence and Screening",
+        "Cervical Cancer and HPV Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5111768129",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5111768129",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5111768129",
+        "https://openalex.org/W2106787323",
+        "https://doi.org/10.3322/caac.20107"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Colorectal Cancer Screening and Detection, Global Cancer Incidence and Screening, Cervical Cancer and HPV Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5077902462",
+      "name": "Jayavardhana Gubbi",
+      "title": "University of Melbourne researcher connected to future of work public policy",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Energy Efficient Wireless Sensor Networks",
+        "IoT and Edge/Fog Computing",
+        "Mobile Crowdsensing and Crowdsourcing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5077902462",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5833-1898",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5077902462",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5077902462",
+        "https://orcid.org/0000-0001-5833-1898",
+        "https://openalex.org/W2111619626",
+        "https://doi.org/10.1016/j.future.2013.01.010"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Energy Efficient Wireless Sensor Networks, IoT and Edge/Fog Computing, Mobile Crowdsensing and Crowdsourcing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5014716105",
+      "name": "Rajkumar Buyya",
+      "title": "University of Melbourne researcher connected to future of work public policy",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Energy Efficient Wireless Sensor Networks",
+        "IoT and Edge/Fog Computing",
+        "Mobile Crowdsensing and Crowdsourcing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5014716105",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9754-6496",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5014716105",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5014716105",
+        "https://orcid.org/0000-0001-9754-6496",
+        "https://openalex.org/W2111619626",
+        "https://doi.org/10.1016/j.future.2013.01.010"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Energy Efficient Wireless Sensor Networks, IoT and Edge/Fog Computing, Mobile Crowdsensing and Crowdsourcing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5080554686",
+      "name": "Marimuthu Palaniswami",
+      "title": "University of Melbourne researcher connected to future of work public policy",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Energy Efficient Wireless Sensor Networks",
+        "IoT and Edge/Fog Computing",
+        "Mobile Crowdsensing and Crowdsourcing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5080554686",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3635-4252",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5080554686",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5080554686",
+        "https://orcid.org/0000-0002-3635-4252",
+        "https://openalex.org/W2111619626",
+        "https://doi.org/10.1016/j.future.2013.01.010"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Energy Efficient Wireless Sensor Networks, IoT and Edge/Fog Computing, Mobile Crowdsensing and Crowdsourcing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5024070602",
+      "name": "Slaven Marusic",
+      "title": "University of Melbourne researcher connected to future of work public policy",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Energy Efficient Wireless Sensor Networks",
+        "IoT and Edge/Fog Computing",
+        "Mobile Crowdsensing and Crowdsourcing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5024070602",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5024070602",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5024070602",
+        "https://openalex.org/W2111619626",
+        "https://doi.org/10.1016/j.future.2013.01.010"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Energy Efficient Wireless Sensor Networks, IoT and Edge/Fog Computing, Mobile Crowdsensing and Crowdsourcing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032690087",
+      "name": "Andrew S. Levey",
+      "title": "Tufts University researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Dialysis and Renal Disease Management",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Heart Failure Treatment and Management"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032690087",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1491-501X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032690087",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032690087",
+        "https://orcid.org/0000-0003-1491-501X",
+        "https://openalex.org/W2487377689"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dialysis and Renal Disease Management, Health Systems, Economic Evaluations, Quality of Life, Heart Failure Treatment and Management. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5047227825",
+      "name": "Josef Coresh",
+      "title": "Tufts University researcher connected to future of work public policy",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "future of work public policy",
+        "Dialysis and Renal Disease Management",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Heart Failure Treatment and Management"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5047227825",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4598-0669",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5047227825",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5047227825",
+        "https://orcid.org/0000-0002-4598-0669",
+        "https://openalex.org/W2487377689"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Dialysis and Renal Disease Management, Health Systems, Economic Evaluations, Quality of Life, Heart Failure Treatment and Management. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5072593603",
+      "name": "James Fullam",
+      "title": "University College Dublin researcher connected to social innovation public leadership",
+      "country": "Ireland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5072593603",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7434-5269",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5072593603",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5072593603",
+        "https://orcid.org/0000-0002-7434-5269",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5004678543",
+      "name": "Gerardine Doyle",
+      "title": "University College Dublin researcher connected to social innovation public leadership",
+      "country": "Ireland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5004678543",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8516-4431",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5004678543",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5004678543",
+        "https://orcid.org/0000-0001-8516-4431",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5080243385",
+      "name": "Helmut Brand",
+      "title": "Maastricht University researcher connected to social innovation public leadership",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5080243385",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2755-0673",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5080243385",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5080243385",
+        "https://orcid.org/0000-0002-2755-0673",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5110194164",
+      "name": "Kristine Sørensen",
+      "title": "Maastricht University researcher connected to social innovation public leadership",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5110194164",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5110194164",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5110194164",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5110860768",
+      "name": "Stephan Van den Broucke",
+      "title": "UCLouvain researcher connected to social innovation public leadership",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5110860768",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5110860768",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5110860768",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5108660908",
+      "name": "Jürgen M. Pelikan",
+      "title": "Ludwig Boltzmann Institut Health Promotion Research researcher connected to social innovation public leadership",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5108660908",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5108660908",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5108660908",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5019583405",
+      "name": "Zofia Słońska",
+      "title": "Institute of Cardiology researcher connected to social innovation public leadership",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Literacy and Information Accessibility",
+        "Health Education and Validation",
+        "Safety Warnings and Signage"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5019583405",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5019583405",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5019583405",
+        "https://openalex.org/W2101761001",
+        "https://doi.org/10.1186/1471-2458-12-80"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Literacy and Information Accessibility, Health Education and Validation, Safety Warnings and Signage. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5033662733",
+      "name": "Deepa Narayan",
+      "title": "OpenAlex-indexed researcher connected to social innovation public leadership",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Social Capital and Networks",
+        "Intergenerational and Educational Inequality Studies",
+        "Urban, Neighborhood, and Segregation Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5033662733",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0002-3059-3356",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5033662733",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5033662733",
+        "https://orcid.org/0009-0002-3059-3356",
+        "https://openalex.org/W2109745229",
+        "https://doi.org/10.1093/wbro/15.2.225"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Social Capital and Networks, Intergenerational and Educational Inequality Studies, Urban, Neighborhood, and Segregation Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5112602882",
+      "name": "Michael Woolcock",
+      "title": "OpenAlex-indexed researcher connected to social innovation public leadership",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Social Capital and Networks",
+        "Intergenerational and Educational Inequality Studies",
+        "Urban, Neighborhood, and Segregation Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5112602882",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5112602882",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5112602882",
+        "https://openalex.org/W2109745229",
+        "https://doi.org/10.1093/wbro/15.2.225"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Social Capital and Networks, Intergenerational and Educational Inequality Studies, Urban, Neighborhood, and Segregation Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5033311669",
+      "name": "Gregory A. Aarons",
+      "title": "University of California San Diego researcher connected to social innovation public leadership",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Interprofessional Education and Collaboration"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5033311669",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8969-5002",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5033311669",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5033311669",
+        "https://orcid.org/0000-0001-8969-5002",
+        "https://openalex.org/W2044858486",
+        "https://doi.org/10.1007/s10488-010-0327-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Interprofessional Education and Collaboration. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5009616211",
+      "name": "Michael S. Hurlburt",
+      "title": "University of Southern California researcher connected to social innovation public leadership",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Interprofessional Education and Collaboration"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009616211",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8009-4649",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009616211",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009616211",
+        "https://orcid.org/0000-0001-8009-4649",
+        "https://openalex.org/W2044858486",
+        "https://doi.org/10.1007/s10488-010-0327-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Interprofessional Education and Collaboration. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5091695011",
+      "name": "Sarah McCue Horwitz",
+      "title": "Rady Children's Hospital-San Diego researcher connected to social innovation public leadership",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "social innovation public leadership",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Interprofessional Education and Collaboration"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5091695011",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5262-1170",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5091695011",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5091695011",
+        "https://orcid.org/0000-0002-5262-1170",
+        "https://openalex.org/W2044858486",
+        "https://doi.org/10.1007/s10488-010-0327-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Interprofessional Education and Collaboration. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5023588408",
+      "name": "Adrien Bennetot",
+      "title": "Sorbonne Université researcher connected to ethics artificial intelligence society",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5023588408",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8232-8728",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5023588408",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5023588408",
+        "https://orcid.org/0000-0001-8232-8728",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5057876711",
+      "name": "Siham Tabik",
+      "title": "OpenAlex-indexed researcher connected to ethics artificial intelligence society",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5057876711",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4093-5356",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5057876711",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5057876711",
+        "https://orcid.org/0000-0003-4093-5356",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5064011907",
+      "name": "Alberto Barbado",
+      "title": "Telefonica Research and Development researcher connected to ethics artificial intelligence society",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5064011907",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5123-5243",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5064011907",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5064011907",
+        "https://orcid.org/0000-0002-5123-5243",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5078909305",
+      "name": "Salvador García",
+      "title": "OpenAlex-indexed researcher connected to ethics artificial intelligence society",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5078909305",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4494-7565",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5078909305",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5078909305",
+        "https://orcid.org/0000-0003-4494-7565",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5019181050",
+      "name": "Sergio Gil-López",
+      "title": "Tecnalia researcher connected to ethics artificial intelligence society",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5019181050",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3867-5439",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5019181050",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5019181050",
+        "https://orcid.org/0000-0002-3867-5439",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5070068995",
+      "name": "Daniel Molina",
+      "title": "OpenAlex-indexed researcher connected to ethics artificial intelligence society",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5070068995",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4175-2204",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5070068995",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5070068995",
+        "https://orcid.org/0000-0002-4175-2204",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5083664336",
+      "name": "Richard Benjamins",
+      "title": "Telefonica Research and Development researcher connected to ethics artificial intelligence society",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5083664336",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9412-7082",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5083664336",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5083664336",
+        "https://orcid.org/0000-0002-9412-7082",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5114376610",
+      "name": "Raja Chatila",
+      "title": "Sorbonne Université researcher connected to ethics artificial intelligence society",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5114376610",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7822-0634",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5114376610",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5114376610",
+        "https://orcid.org/0000-0001-7822-0634",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5050115521",
+      "name": "Alejandro Barredo Arrieta",
+      "title": "Tecnalia researcher connected to ethics artificial intelligence society",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "ethics artificial intelligence society",
+        "Explainable Artificial Intelligence (XAI)",
+        "Adversarial Robustness in Machine Learning",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5050115521",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5050115521",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5050115521",
+        "https://openalex.org/W2981731882",
+        "https://doi.org/10.1016/j.inffus.2019.12.012"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Explainable Artificial Intelligence (XAI), Adversarial Robustness in Machine Learning, Artificial Intelligence in Healthcare and Education. Manual official-source review is required before any outreach."
+    }
+  ]
+}

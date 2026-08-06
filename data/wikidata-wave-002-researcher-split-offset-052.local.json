@@ -1,0 +1,235 @@
+{
+  "batchId": "wikidata-wave-002-science-academia-thought-leaders-researcher-split-offset-052",
+  "createdAt": "2026-06-16T13:47:03.503Z",
+  "sourceLabel": "Wikidata wave 002 researcher split retry offset 52",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Discovery-only split retry batch.",
+  "candidates": [
+    {
+      "id": "wikidata-Q155199",
+      "name": "Susan Blackmore",
+      "title": "British writer and academic connected to researcher",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "British writer and academic"
+      ],
+      "fitScore": 70,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q155199",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Susan_Blackmore",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.susanblackmore.co.uk",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0845-2223",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q155199",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q155199",
+        "https://en.wikipedia.org/wiki/Susan_Blackmore",
+        "http://www.susanblackmore.co.uk",
+        "https://orcid.org/0000-0003-0845-2223"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q153219",
+      "name": "Albert Fert",
+      "title": "French physicist, Nobel laureate in physics connected to researcher",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "French physicist, Nobel laureate in physics"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q153219",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Albert_Fert",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0670-8539",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q153219",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q153219",
+        "https://en.wikipedia.org/wiki/Albert_Fert",
+        "https://orcid.org/0000-0003-0670-8539"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q153540",
+      "name": "Gebisa Ejeta",
+      "title": "Ethiopian American scientist connected to researcher",
+      "country": "Ethiopia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "Ethiopian American scientist"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q153540",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Gebisa_Ejeta",
+          "verified": false
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1109-153X",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q153540",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q153540",
+        "https://en.wikipedia.org/wiki/Gebisa_Ejeta",
+        "https://orcid.org/0000-0002-1109-153X"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q156286",
+      "name": "Russell Alan Hulse",
+      "title": "American astronomer connected to researcher",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "researcher",
+        "American astronomer"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q156286",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Russell_Alan_Hulse",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q156286",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q156286",
+        "https://en.wikipedia.org/wiki/Russell_Alan_Hulse"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as researcher. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 1,
+    "occupationsSucceeded": 1,
+    "failures": [],
+    "limitPerOccupation": 4,
+    "offset": 52,
+    "minSitelinks": 3,
+    "rankBySitelinks": false
+  }
+}

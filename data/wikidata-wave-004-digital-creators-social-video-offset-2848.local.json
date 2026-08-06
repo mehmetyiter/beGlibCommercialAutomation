@@ -1,0 +1,816 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-07-10T05:24:22.021Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [
+    {
+      "id": "wikidata-Q107252704",
+      "name": "Alex Boyér",
+      "title": "Canadian magician and YouTuber connected to YouTuber",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Canadian magician and YouTuber"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107252704",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Alex_Boyer_(magician)",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.alexboyermagic.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCgPr5nHXmJulDOXdTGjn1tg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/AlexBoyerMagic",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/alexboyer/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/alexboyermagician",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107252704",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107252704",
+        "https://en.wikipedia.org/wiki/Alex_Boyer_(magician)",
+        "https://www.alexboyermagic.com/",
+        "https://www.youtube.com/channel/UCgPr5nHXmJulDOXdTGjn1tg",
+        "https://x.com/AlexBoyerMagic",
+        "https://www.instagram.com/alexboyer/",
+        "https://www.facebook.com/alexboyermagician"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115436429",
+      "name": "Alessandro Masala",
+      "title": "Italian YouTuber and podcaster connected to blogger",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Italian YouTuber and podcaster"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115436429",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.shooterhatesyou.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCHjEqgTzZJdy6ptyGTJYcOg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/ShooterHatesYou",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/shooterhatesyou/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/shooterhatesyou",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115436429",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115436429",
+        "http://www.shooterhatesyou.com/",
+        "https://www.youtube.com/channel/UCHjEqgTzZJdy6ptyGTJYcOg",
+        "https://x.com/ShooterHatesYou",
+        "https://www.instagram.com/shooterhatesyou/",
+        "https://www.facebook.com/shooterhatesyou"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107209418",
+      "name": "AnEsonGib",
+      "title": "British YouTuber connected to YouTuber",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "British YouTuber"
+      ],
+      "fitScore": 82,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107209418",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCDgj1qX05eT3WXkyAEjqt6g",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/AnEsonGib",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/anesongib/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@anesongib",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCh15cw-HyTLMFEnQ85o1fKQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107209418",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107209418",
+        "https://www.youtube.com/channel/UCDgj1qX05eT3WXkyAEjqt6g",
+        "https://x.com/AnEsonGib",
+        "https://www.instagram.com/anesongib/",
+        "https://www.tiktok.com/@anesongib",
+        "https://www.youtube.com/channel/UCh15cw-HyTLMFEnQ85o1fKQ"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115406645",
+      "name": "Lucía Galán Bertrand",
+      "title": "blogger connected to blogger",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 78,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115406645",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.luciamipediatra.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC1B94SkuXJFHC9dVYHUPYXw",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/luciamipediatra/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/luciamipediatra",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115406645",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115406645",
+        "https://www.luciamipediatra.com",
+        "https://www.youtube.com/channel/UC1B94SkuXJFHC9dVYHUPYXw",
+        "https://www.instagram.com/luciamipediatra/",
+        "https://www.facebook.com/luciamipediatra"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115680382",
+      "name": "Giorgio Mariani",
+      "title": "global Head of Deloitte M&A connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "global Head of Deloitte M&A"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115680382",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://giorgiomariani.blog",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/giorgiomariani",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www2.deloitte.com/it/it/profiles/giorgio-mariani---deloitte-italy---partner.html",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115680382",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115680382",
+        "https://giorgiomariani.blog",
+        "https://www.linkedin.com/in/giorgiomariani",
+        "https://www2.deloitte.com/it/it/profiles/giorgio-mariani---deloitte-italy---partner.html"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107273975",
+      "name": "Nessie Judge",
+      "title": "Indonesian YouTuber and content creator connected to YouTuber",
+      "country": "Indonesia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indonesian YouTuber and content creator"
+      ],
+      "fitScore": 74,
+      "reachScore": 65,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107273975",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/nessiejudge",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nessiejudge/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@nessiejudge2",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107273975",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107273975",
+        "https://x.com/nessiejudge",
+        "https://www.instagram.com/nessiejudge/",
+        "https://www.tiktok.com/@nessiejudge2"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115573043",
+      "name": "Michał Barczak",
+      "title": "blogger connected to blogger",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115573043",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCiGqbEL_qHPvxqmmOz5rQnQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115573043",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115573043",
+        "https://www.youtube.com/channel/UCiGqbEL_qHPvxqmmOz5rQnQ"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107227736",
+      "name": "Farida Nurhan",
+      "title": "Indonesian YouTuber connected to YouTuber",
+      "country": "Indonesia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indonesian YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107227736",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/farida.nurhan/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107227736",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107227736",
+        "https://www.instagram.com/farida.nurhan/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107271119",
+      "name": "Cherry Lee",
+      "title": "YouTuber connected to YouTuber",
+      "country": "British Hong Kong",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107271119",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cherryluii/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107271119",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107271119",
+        "https://www.instagram.com/cherryluii/"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115409660",
+      "name": "Biplab Anand",
+      "title": "Nepali Wikimedians and Open Source Enthusiast connected to blogger",
+      "country": "Nepal",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Nepali Wikimedians and Open Source Enthusiast"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115409660",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115409660",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115409660"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115514167",
+      "name": "Răzvan Toma",
+      "title": "Romanian blogger connected to blogger",
+      "country": "Romania",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Romanian blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115514167",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115514167",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115514167"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q115694003",
+      "name": "Bianca Zapatka",
+      "title": "blogger connected to blogger",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q115694003",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q115694003",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q115694003"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107189480",
+      "name": "Antonija Mandir",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107189480",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107189480",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107189480"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107195661",
+      "name": "Joey's Jungle",
+      "title": "YouTuber connected to YouTuber",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107195661",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107195661",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107195661"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107223264",
+      "name": "Tanboy Kun",
+      "title": "Indonesian YouTuber connected to YouTuber",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "youtube",
+      "subcategories": [
+        "YouTuber",
+        "Indonesian YouTuber"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107223264",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107223264",
+          "verifiedAt": "2026-07-10"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107223264"
+      ],
+      "lastVerifiedAt": "2026-07-10",
+      "rationale": "Wikidata public metadata lists this person as YouTuber. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 11,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 2848,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

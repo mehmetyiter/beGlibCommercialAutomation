@@ -1,0 +1,394 @@
+{
+  "batchId": "wikidata-wave-029-allied-health-rehabilitation-care-advocacy-retry-offset-056",
+  "createdAt": "2026-06-19T03:32:53.699Z",
+  "sourceLabel": "Wikidata allied health, rehabilitation, dental care, birth support, elder care, disability advocacy, patient advocacy, and addiction-care occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Allied health, rehabilitation, dental care, birth support, elder care, disability advocacy, patient advocacy, and addiction-care categories are marked high-risk and require identity, source-ownership, professional/licensing, jurisdiction, medical-advice, vulnerable-population, suppression-status, and legal/compliance review before campaign use. Retry-only local config for failed offset 056 occupation queries.",
+  "candidates": [
+    {
+      "id": "wikidata-Q18378893",
+      "name": "Jill Duggar",
+      "title": "American reality television participant connected to midwife",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "American reality television participant"
+      ],
+      "fitScore": 66,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q18378893",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Jill_Dillard",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jillmdillard/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q18378893",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q18378893",
+        "https://en.wikipedia.org/wiki/Jill_Dillard",
+        "https://www.instagram.com/jillmdillard/"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16146415",
+      "name": "Annabel Digance",
+      "title": "Australian politician connected to midwife",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "Australian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16146415",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Annabel_Digance",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16146415",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16146415",
+        "https://en.wikipedia.org/wiki/Annabel_Digance"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16841062",
+      "name": "Angela Kerins",
+      "title": "Irish businesswoman connected to midwife",
+      "country": "Ireland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "Irish businesswoman"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16841062",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Angela_Kerins",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16841062",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16841062",
+        "https://en.wikipedia.org/wiki/Angela_Kerins"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q17052081",
+      "name": "Salpe",
+      "title": "ancient Greek midwife connected to midwife",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "ancient Greek midwife"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q17052081",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Salpe",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q17052081",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q17052081",
+        "https://en.wikipedia.org/wiki/Salpe"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q18155703",
+      "name": "Elizabeth Lesser",
+      "title": "author and co-founder/senior adviser of Omega Institute, Rhinebeck, NY, US connected to midwife",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "author and co-founder/senior adviser of Omega Institute, Rhinebeck, NY, US"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q18155703",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Lesser",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q18155703",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q18155703",
+        "https://en.wikipedia.org/wiki/Elizabeth_Lesser"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q18685497",
+      "name": "Katsi Cook",
+      "title": "Mohawk midwife and women's health activist (born 1952) connected to midwife",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "Mohawk midwife and women's health activist (born 1952)"
+      ],
+      "fitScore": 62,
+      "reachScore": 62,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q18685497",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Katsi_Cook",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q18685497",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q18685497",
+        "https://en.wikipedia.org/wiki/Katsi_Cook"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16525471",
+      "name": "Agnès Ledig",
+      "title": "French writer connected to midwife",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "French writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16525471",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.agnesledig.fr/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16525471",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16525471",
+        "http://www.agnesledig.fr/"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q17113728",
+      "name": "Tonje Vråle",
+      "title": "midwife connected to midwife",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q17113728",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q17113728",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q17113728"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 13,
+    "occupationsSucceeded": 13,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 56,
+    "minSitelinks": 2,
+    "rankBySitelinks": false
+  }
+}

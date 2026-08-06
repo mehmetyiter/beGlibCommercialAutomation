@@ -1,6 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { basename, dirname, resolve } from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
+import { isLikelySyndicationFeed } from './lib/feed-source-quality.mjs';
 import { loadLocalEnv } from './lib/local-env.mjs';
 
 const parser = new XMLParser({
@@ -421,18 +422,7 @@ function looksLikeFeed(body, contentType) {
 }
 
 function isFeedLikeUrl(value, label) {
-  try {
-    const url = new URL(value);
-    const path = url.pathname.toLowerCase();
-    const text = normalizeSearchText(label ?? '');
-    return (
-      /(^|\/)(feed|rss|atom|podcast)(\/|\.xml|\.rss|\.atom|$)/.test(path) ||
-      /\.(rss|atom|xml)$/i.test(path) ||
-      /(^| )rss( |$)|(^| )atom( |$)|(^| )podcast( |$)|(^| )feed( |$)/.test(text)
-    );
-  } catch {
-    return false;
-  }
+  return isLikelySyndicationFeed({ url: value, label });
 }
 
 function assessActivity(value) {

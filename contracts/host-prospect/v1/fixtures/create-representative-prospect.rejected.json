@@ -1,0 +1,33 @@
+{
+  "contractVersion": "1.0",
+  "externalCandidateId": "candidate_pilot_0002",
+  "campaignId": "campaign_host_pilot_en_001",
+  "campaignMemberId": "member_host_pilot_0002",
+  "contact": {
+    "endpoint": {
+      "type": "email",
+      "value": "agent@example.org"
+    },
+    "association": {
+      "id": "association_pilot_0002",
+      "associationType": "authorized_representative",
+      "recipientKind": "representative",
+      "evidenceStatus": "human_verified",
+      "sourceEvidenceRef": "evidence:agency_profile:0002",
+      "reviewerRef": "reviewer:operator_001",
+      "verificationMethod": "manual_review",
+      "verifiedAt": "2026-07-12T14:00:00.000Z",
+      "verificationFreshUntil": "2027-01-12T14:00:00.000Z",
+      "suppressionStatus": "clear",
+      "complianceDecision": "approved",
+      "contactPurpose": "host_invitation"
+    }
+  },
+  "candidate": {
+    "displayName": "Pilot Representative Example",
+    "preferredLocale": "en",
+    "topics": ["science"]
+  },
+  "requestedAt": "2026-07-13T15:00:00.000Z",
+  "expiresAt": "2026-08-12T15:00:00.000Z"
+}

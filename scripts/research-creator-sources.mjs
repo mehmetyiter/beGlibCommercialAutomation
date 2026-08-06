@@ -2,7 +2,17 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { XMLParser } from 'fast-xml-parser';
+import {
+  identityConfidence,
+  podcastIdentityConfidence,
+  youtubeIdentityConfidence,
+} from './lib/creator-source-confidence.mjs';
 import { loadLocalEnv } from './lib/local-env.mjs';
+import {
+  candidateKnownYouTubeChannelLocators,
+  candidateQuarantinedYouTubeChannelLocators,
+  chunks,
+} from './lib/youtube-channel-locators.mjs';
 
 const supportedSources = new Set(['youtube', 'podcastindex', 'rss']);
 const creatorPlatforms = new Set(['youtube', 'podcast', 'newsletter']);
@@ -11,20 +21,6 @@ const confidenceRank = {
   medium: 2,
   high: 3,
 };
-const nameStopWords = new Set(['dr', 'prof', 'professor']);
-const topicStopWords = new Set([
-  'and',
-  'with',
-  'from',
-  'that',
-  'this',
-  'public',
-  'synthetic',
-  'candidate',
-  'example',
-  'high',
-  'active',
-]);
 const parser = new XMLParser({
   attributeNamePrefix: '@_',
   ignoreAttributes: false,
@@ -39,7 +35,19 @@ const sourceConfigPath = args.config ? resolve(args.config) : undefined;
 const batch = JSON.parse(await readFile(batchPath, 'utf8'));
 const sourceConfig = sourceConfigPath ? JSON.parse(await readFile(sourceConfigPath, 'utf8')) : {};
 const allCandidates = Array.isArray(batch.candidates) ? batch.candidates : [];
-const selectedCandidates = selectCandidates(allCandidates, args);
+const youtubeMode = getYouTubeMode(args['youtube-mode']);
+const youtubeLocatorDossierPath = args['youtube-locator-dossier']
+  ? resolve(args['youtube-locator-dossier'])
+  : undefined;
+const youtubeLocatorsByCandidate =
+  youtubeMode === 'locator-only'
+    ? await loadQuarantinedYouTubeLocators(youtubeLocatorDossierPath)
+    : new Map();
+const candidatePool =
+  youtubeMode === 'locator-only'
+    ? allCandidates.filter((candidate) => youtubeLocatorsByCandidate.has(candidate.id))
+    : allCandidates;
+const selectedCandidates = selectCandidates(candidatePool, args);
 const candidateOffset = getCandidateOffset(args);
 const sources = getSources(args.sources);
 const defaultSlug = slugify(batch.batchId ?? 'research-batch');
@@ -51,11 +59,25 @@ const candidateDelayMs = boundedNumber(args['delay-ms'], 0, 0, 60000);
 const requestRetries = boundedNumber(args.retries, 2, 0, 5);
 const retryDelayMs = boundedNumber(args['retry-delay-ms'], 2000, 250, 60000);
 const timeoutMs = boundedNumber(args['timeout-ms'], 15000, 1000, 120000);
+const youtubeDirectDelayMs = boundedNumber(args['youtube-direct-delay-ms'], 250, 0, 60000);
+const youtubeSearchLimit = boundedNumber(args['youtube-search-limit'], 100, 0, 100000);
 const failures = [];
 const skippedSources = [];
 const fallbackSources = [];
 let deprioritizedSuggestions = 0;
+let youtubeDirectLookupCalls = 0;
+let youtubeDirectCandidateCount = 0;
+let youtubeSearchCalls = 0;
+let youtubeSearchLimitSkips = 0;
 const items = [];
+const knownYouTubeSuggestions =
+  sources.has('youtube') && process.env.YOUTUBE_API_KEY && youtubeMode !== 'search-only'
+    ? await discoverKnownYouTubeChannels(selectedCandidates, maxResults, failures, {
+        locatorOverrides: youtubeMode === 'locator-only' ? youtubeLocatorsByCandidate : undefined,
+        trustLocatorSources: youtubeMode !== 'locator-only',
+        discoveryPrefix: youtubeMode === 'locator-only' ? 'locator' : 'known',
+      })
+    : new Map();
 
 for (let candidateIndex = 0; candidateIndex < selectedCandidates.length; candidateIndex += 1) {
   const candidate = selectedCandidates[candidateIndex];
@@ -65,7 +87,22 @@ for (let candidateIndex = 0; candidateIndex < selectedCandidates.length; candida
     if (!process.env.YOUTUBE_API_KEY) {
       skippedSources.push({ source: 'youtube', candidateId: candidate.id, reason: 'YOUTUBE_API_KEY is not set.' });
     } else {
-      rawSuggestions.push(...(await discoverYouTube(candidate, maxResults, failures)));
+      const knownSuggestions = knownYouTubeSuggestions.get(candidate.id) ?? [];
+      rawSuggestions.push(...knownSuggestions);
+
+      const shouldSearch =
+        youtubeMode === 'search-only' || (youtubeMode === 'direct-first' && knownSuggestions.length === 0);
+      if (shouldSearch && youtubeSearchCalls < youtubeSearchLimit) {
+        youtubeSearchCalls += 1;
+        rawSuggestions.push(...(await discoverYouTube(candidate, maxResults, failures)));
+      } else if (shouldSearch) {
+        youtubeSearchLimitSkips += 1;
+        skippedSources.push({
+          source: 'youtube-search',
+          candidateId: candidate.id,
+          reason: `YouTube search limit of ${youtubeSearchLimit} calls reached; candidate retained for a later run.`,
+        });
+      }
     }
   }
 
@@ -105,13 +142,23 @@ const reviewPackage = {
   sourceBatchId: batch.batchId ?? null,
   sourceLabel: batch.sourceLabel ?? null,
   sourceFile: batchPath,
+  locatorSourceFile: youtubeLocatorDossierPath ?? null,
   mode: 'creator-source-discovery',
   summary: {
-    inputCandidates: allCandidates.length,
+    inputCandidates: candidatePool.length,
+    batchCandidates: allCandidates.length,
     selectedCandidates: selectedCandidates.length,
     offset: candidateOffset,
     sources: Array.from(sources),
     youtubeSuggestions: countAllSuggestions(items, 'youtube-data-api'),
+    youtubeMode,
+    youtubeLocatorCandidates: youtubeLocatorsByCandidate.size,
+    youtubeDirectCandidateCount,
+    youtubeDirectLookupCalls,
+    youtubeDirectDelayMs,
+    youtubeSearchCalls,
+    youtubeSearchLimit,
+    youtubeSearchLimitSkips,
     podcastIndexSuggestions: countAllSuggestionsByPrefix(items, 'podcastindex-'),
     rssSuggestions: countAllSuggestions(items, 'rss-feed'),
     prioritySuggestions: countPrioritySuggestions(items),
@@ -151,6 +198,13 @@ console.log(`Creator source discovery checklist written to ${markdownPath}`);
 console.log(`Candidates: ${reviewPackage.summary.selectedCandidates}`);
 console.log(`Offset: ${reviewPackage.summary.offset}`);
 console.log(`YouTube suggestions: ${reviewPackage.summary.youtubeSuggestions}`);
+console.log(`YouTube mode: ${reviewPackage.summary.youtubeMode}`);
+console.log(`YouTube locator candidates: ${reviewPackage.summary.youtubeLocatorCandidates}`);
+console.log(`YouTube known-channel candidates: ${reviewPackage.summary.youtubeDirectCandidateCount}`);
+console.log(`YouTube channels.list calls: ${reviewPackage.summary.youtubeDirectLookupCalls}`);
+console.log(`YouTube channels.list delay: ${reviewPackage.summary.youtubeDirectDelayMs}ms`);
+console.log(`YouTube search.list calls: ${reviewPackage.summary.youtubeSearchCalls}`);
+console.log(`YouTube search limit skips: ${reviewPackage.summary.youtubeSearchLimitSkips}`);
 console.log(`PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`);
 console.log(`RSS suggestions: ${reviewPackage.summary.rssSuggestions}`);
 console.log(`Skipped source attempts: ${reviewPackage.summary.skippedSources}`);
@@ -178,6 +232,27 @@ function selectCandidates(candidates, options) {
   return candidates
     .filter((candidate) => !categoryFilter || categoryFilter.has(candidate.primaryCategory))
     .slice(candidateOffset, candidateOffset + candidateLimit);
+}
+
+async function loadQuarantinedYouTubeLocators(dossierPath) {
+  if (!dossierPath) {
+    throw new Error('--youtube-locator-dossier is required when --youtube-mode locator-only is used.');
+  }
+
+  const payload = JSON.parse(await readFile(dossierPath, 'utf8'));
+  if (!Array.isArray(payload.dossiers)) {
+    throw new Error(`${dossierPath} is not a candidate discovery dossier package.`);
+  }
+
+  const locatorsByCandidate = new Map();
+  for (const dossier of payload.dossiers) {
+    const locators = candidateQuarantinedYouTubeChannelLocators(dossier);
+    if (locators.length > 0) {
+      locatorsByCandidate.set(dossier.candidateId, locators);
+    }
+  }
+
+  return locatorsByCandidate;
 }
 
 function getCandidateOffset(options) {
@@ -262,7 +337,130 @@ async function discoverYouTube(candidate, max, failuresList) {
   }
 }
 
-function youtubeSuggestion(candidate, item) {
+async function discoverKnownYouTubeChannels(
+  candidates,
+  max,
+  failuresList,
+  { locatorOverrides, trustLocatorSources = true, discoveryPrefix = 'known' } = {},
+) {
+  const candidatesByChannelId = new Map();
+  const candidatesByLocator = new Map();
+  const suggestionsByCandidateId = new Map();
+
+  for (const candidate of candidates) {
+    const locators = (locatorOverrides?.get(candidate.id) ?? candidateKnownYouTubeChannelLocators(candidate)).slice(
+      0,
+      max,
+    );
+    if (locators.length === 0) {
+      continue;
+    }
+
+    youtubeDirectCandidateCount += 1;
+    for (const locator of locators) {
+      if (locator.filter === 'id') {
+        const entries = candidatesByChannelId.get(locator.value) ?? [];
+        entries.push(candidate);
+        candidatesByChannelId.set(locator.value, entries);
+        continue;
+      }
+
+      const key = `${locator.filter}|${locator.value.toLowerCase()}`;
+      const entry = candidatesByLocator.get(key) ?? { locator, candidates: [] };
+      entry.candidates.push(candidate);
+      candidatesByLocator.set(key, entry);
+    }
+  }
+
+  for (const channelIds of chunks(Array.from(candidatesByChannelId.keys()), 50)) {
+    const channelUrl = new URL('https://www.googleapis.com/youtube/v3/channels');
+    channelUrl.searchParams.set('part', 'snippet,statistics');
+    channelUrl.searchParams.set('id', channelIds.join(','));
+    channelUrl.searchParams.set('maxResults', '50');
+    channelUrl.searchParams.set('key', process.env.YOUTUBE_API_KEY);
+    youtubeDirectLookupCalls += 1;
+
+    try {
+      const channelPayload = await fetchJson(channelUrl);
+      for (const item of channelPayload.items ?? []) {
+        for (const candidate of candidatesByChannelId.get(item.id) ?? []) {
+          addKnownYouTubeSuggestion(suggestionsByCandidateId, candidate, item, 'known-channel-id');
+        }
+      }
+    } catch (error) {
+      failuresList.push({
+        source: 'youtube-known-channel-batch',
+        channelIds,
+        message: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  for (const { locator, candidates: locatorCandidates } of candidatesByLocator.values()) {
+    try {
+      let channelPayload = await fetchKnownYouTubeLocator(locator.filter, locator.value);
+      let discoveryMethod = `${discoveryPrefix}-${locator.filter}`;
+      if ((channelPayload.items ?? []).length === 0 && locator.fallbackFilter) {
+        channelPayload = await fetchKnownYouTubeLocator(locator.fallbackFilter, locator.value);
+        discoveryMethod = `${discoveryPrefix}-${locator.fallbackFilter}`;
+      }
+
+      for (const item of channelPayload.items ?? []) {
+        for (const candidate of locatorCandidates) {
+          addKnownYouTubeSuggestion(
+            suggestionsByCandidateId,
+            candidate,
+            item,
+            discoveryMethod,
+            {
+              provenanceSourceUrl: locator.sourceUrl,
+              trustedKnownSourceUrl: trustLocatorSources ? locator.sourceUrl : undefined,
+            },
+          );
+        }
+      }
+    } catch (error) {
+      failuresList.push({
+        source: `${discoveryPrefix}-youtube-channel-locator`,
+        locator,
+        candidateIds: locatorCandidates.map((candidate) => candidate.id),
+        message: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  return suggestionsByCandidateId;
+}
+
+async function fetchKnownYouTubeLocator(filter, value) {
+  const channelUrl = new URL('https://www.googleapis.com/youtube/v3/channels');
+  channelUrl.searchParams.set('part', 'snippet,statistics');
+  channelUrl.searchParams.set(filter, value);
+  channelUrl.searchParams.set('key', process.env.YOUTUBE_API_KEY);
+  youtubeDirectLookupCalls += 1;
+  const payload = await fetchJson(channelUrl);
+  if (youtubeDirectDelayMs > 0) {
+    await sleep(youtubeDirectDelayMs);
+  }
+  return payload;
+}
+
+function addKnownYouTubeSuggestion(
+  suggestionsByCandidateId,
+  candidate,
+  item,
+  discoveryMethod,
+  sourceContext,
+) {
+  const suggestions = suggestionsByCandidateId.get(candidate.id) ?? [];
+  const suggestion = youtubeSuggestion(candidate, item, discoveryMethod, sourceContext);
+  if (!suggestions.some((existing) => existing.url === suggestion.url)) {
+    suggestions.push(suggestion);
+  }
+  suggestionsByCandidateId.set(candidate.id, suggestions);
+}
+
+function youtubeSuggestion(candidate, item, discoveryMethod = 'search', sourceContext = {}) {
   const channelId = item.id;
   const statistics = item.statistics ?? {};
   const hiddenSubscriberCount = Boolean(statistics.hiddenSubscriberCount);
@@ -271,6 +469,8 @@ function youtubeSuggestion(candidate, item) {
   const label = item.snippet?.title ?? 'YouTube channel';
   const description = item.snippet?.description;
   const url = `https://www.youtube.com/channel/${channelId}`;
+  const provenanceSourceUrl = sourceContext.provenanceSourceUrl;
+  const trustedKnownSourceUrl = sourceContext.trustedKnownSourceUrl;
 
   return {
     source: 'youtube-data-api',
@@ -278,17 +478,29 @@ function youtubeSuggestion(candidate, item) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: identityConfidence(candidate, [label, description]),
+    confidence: youtubeIdentityConfidence({
+      candidate,
+      label,
+      description,
+      suggestionUrl: trustedKnownSourceUrl ?? url,
+      subscriberCount,
+      videoCount,
+    }),
     evidence: [
       description,
+      provenanceSourceUrl
+        ? `Resolved from candidate-page YouTube locator: ${provenanceSourceUrl}`
+        : undefined,
       typeof videoCount === 'number' ? `${videoCount} public videos reported by API.` : undefined,
       typeof subscriberCount === 'number' ? `${subscriberCount} public subscribers reported by API.` : undefined,
     ].filter(Boolean),
     publicCounts: {
       youtubeSubscribers: subscriberCount,
+      youtubeVideos: videoCount,
     },
-    sourceUrls: [url],
+    sourceUrls: Array.from(new Set([provenanceSourceUrl, url].filter(Boolean))),
     verified: false,
+    discoveryMethod,
     reviewerNote: 'Suggestion only. Human identity match required before applying as verified channel.',
   };
 }
@@ -359,7 +571,8 @@ function researchUserAgent() {
 function podcastIndexSuggestion(candidate, feed) {
   const label = feed.title ?? feed.author ?? 'Podcast feed';
   const url = feed.link || feed.url || feed.originalUrl || `https://podcastindex.org/podcast/${feed.id}`;
-  const evidence = [feed.author, feed.ownerName, feed.description].filter(Boolean).slice(0, 4);
+  const ownerEvidence = [feed.author, feed.ownerName].filter(Boolean);
+  const evidence = [...ownerEvidence, feed.description].filter(Boolean).slice(0, 4);
 
   return {
     source: 'podcastindex-api',
@@ -367,7 +580,7 @@ function podcastIndexSuggestion(candidate, feed) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: identityConfidence(candidate, [label, ...evidence]),
+    confidence: podcastIdentityConfidence(candidate, label, ownerEvidence, evidence, url),
     evidence,
     publicCounts: {},
     sourceUrls: [feed.url, feed.originalUrl, url].filter(Boolean),
@@ -379,8 +592,9 @@ function podcastIndexSuggestion(candidate, feed) {
 function podcastIndexPublicSuggestion(candidate, feed) {
   const label = feed.trackName ?? feed.collectionName ?? 'Podcast feed';
   const url = feed.feedUrl || feed.collectionViewUrl || feed.trackViewUrl;
+  const ownerEvidence = [feed.artistName].filter(Boolean);
   const evidence = [
-    feed.artistName,
+    ...ownerEvidence,
     Array.isArray(feed.genres) ? feed.genres.join(', ') : undefined,
     typeof feed.trackCount === 'number' ? `${feed.trackCount} public episodes reported by API.` : undefined,
   ].filter(Boolean);
@@ -391,7 +605,7 @@ function podcastIndexPublicSuggestion(candidate, feed) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: identityConfidence(candidate, [label, ...evidence]),
+    confidence: podcastIdentityConfidence(candidate, label, ownerEvidence, evidence, url),
     evidence,
     publicCounts: {
       podcastEpisodes: numberOrUndefined(feed.trackCount),
@@ -475,7 +689,7 @@ function rssSuggestion(candidate, feed, parsedFeed) {
     label,
     url,
     candidateId: candidate.id,
-    confidence: identityConfidence(candidate, [label, ...evidence]),
+    confidence: identityConfidence(candidate, [label, ...evidence], url),
     evidence,
     publicCounts: {},
     sourceUrls: [feed.url, url].filter(Boolean),
@@ -535,6 +749,11 @@ function renderMarkdown(reviewPackage) {
     '## Summary',
     '',
     `- YouTube suggestions: ${reviewPackage.summary.youtubeSuggestions}`,
+    `- YouTube mode: ${reviewPackage.summary.youtubeMode}`,
+    `- Known-channel candidates: ${reviewPackage.summary.youtubeDirectCandidateCount}`,
+    `- channels.list calls: ${reviewPackage.summary.youtubeDirectLookupCalls}`,
+    `- search.list calls: ${reviewPackage.summary.youtubeSearchCalls}`,
+    `- Search-limit skips: ${reviewPackage.summary.youtubeSearchLimitSkips}`,
     `- PodcastIndex suggestions: ${reviewPackage.summary.podcastIndexSuggestions}`,
     `- RSS suggestions: ${reviewPackage.summary.rssSuggestions}`,
     `- Skipped source attempts: ${reviewPackage.summary.skippedSources}`,
@@ -711,91 +930,6 @@ function countPrioritySuggestions(items) {
   return items.reduce((count, item) => count + item.suggestions.length, 0);
 }
 
-function identityConfidence(candidate, textParts) {
-  const text = normalizeSearchText(textParts.filter(Boolean).join(' '));
-  const name = getNameParts(candidate.name);
-  const topicOverlap = hasTopicOverlap(candidate, text);
-
-  if (!name.first || !name.last) {
-    return 'low';
-  }
-
-  const exactFullName = name.fullVariants.some((variant) => text.includes(variant));
-  const firstAndLast = tokenInText(text, name.first) && tokenInText(text, name.last);
-  const lastNameOnlyWithTopic = tokenInText(text, name.last) && topicOverlap;
-
-  if (exactFullName && topicOverlap) {
-    return 'high';
-  }
-
-  if (exactFullName || (firstAndLast && topicOverlap)) {
-    return 'medium';
-  }
-
-  if (firstAndLast || lastNameOnlyWithTopic) {
-    return 'low';
-  }
-
-  return 'low';
-}
-
-function getNameParts(name) {
-  const tokens = normalizeSearchText(name)
-    .split(' ')
-    .filter((token) => token.length > 1 && !nameStopWords.has(token));
-  const substantialTokens = tokens.filter((token) => token.length > 2);
-  const first = substantialTokens[0] ?? '';
-  const last = substantialTokens[substantialTokens.length - 1] ?? '';
-  const fullVariants = new Set();
-
-  if (first && last) {
-    fullVariants.add(`${first} ${last}`);
-    fullVariants.add(tokens.join(' '));
-  }
-
-  return { first, last, fullVariants: Array.from(fullVariants) };
-}
-
-function hasTopicOverlap(candidate, text) {
-  const topicTokens = topicText(candidate)
-    .split(' ')
-    .filter((token) => token.length > 3 && !topicStopWords.has(token));
-
-  return topicTokens.some((token) => tokenInText(text, token));
-}
-
-function topicText(candidate) {
-  return normalizeSearchText(
-    [
-      candidate.title,
-      candidate.primaryCategory,
-      ...(candidate.subcategories ?? []),
-      candidate.rationale,
-      ...(candidate.influenceSignals?.notableSignals ?? []),
-    ]
-      .filter(Boolean)
-      .join(' '),
-  );
-}
-
-function tokenInText(text, token) {
-  return new RegExp(`(?:^| )${escapeRegExp(token)}(?: |$)`).test(text);
-}
-
-function normalizeSearchText(value) {
-  return String(value)
-    .toLowerCase()
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
 function parseArgs(argv) {
   const parsed = { _: [] };
 
@@ -826,6 +960,15 @@ function boundedNumber(value, fallback, min, max) {
   }
 
   return Math.max(min, Math.min(max, number));
+}
+
+function getYouTubeMode(value) {
+  const mode = String(value ?? 'direct-first').trim().toLowerCase();
+  if (!['direct-first', 'known-only', 'locator-only', 'search-only'].includes(mode)) {
+    throw new Error('--youtube-mode must be direct-first, known-only, locator-only, or search-only.');
+  }
+
+  return mode;
 }
 
 function slugify(value) {

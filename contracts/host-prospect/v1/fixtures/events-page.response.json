@@ -1,0 +1,45 @@
+{
+  "contractVersion": "1.0",
+  "events": [
+    {
+      "eventId": "event_01JZZZZZZZZZZZZZZZZZZZZZ01",
+      "schemaVersion": "1.0",
+      "type": "host_prospect.landing_observed",
+      "authoritative": false,
+      "prospectId": "8d7636a6-c4f3-4aa9-85eb-ff59a8cf12f4",
+      "externalCandidateId": "candidate_pilot_0001",
+      "campaignId": "campaign_host_pilot_en_001",
+      "campaignMemberId": "member_host_pilot_0001",
+      "prospectStatus": "issued",
+      "occurredAt": "2026-07-14T09:00:00.000Z"
+    },
+    {
+      "eventId": "event_01JZZZZZZZZZZZZZZZZZZZZZ02",
+      "schemaVersion": "1.0",
+      "type": "host_prospect.interest_confirmed",
+      "authoritative": true,
+      "prospectId": "8d7636a6-c4f3-4aa9-85eb-ff59a8cf12f4",
+      "externalCandidateId": "candidate_pilot_0001",
+      "campaignId": "campaign_host_pilot_en_001",
+      "campaignMemberId": "member_host_pilot_0001",
+      "prospectStatus": "interest_confirmed",
+      "enrollmentStatus": "claim_started",
+      "occurredAt": "2026-07-14T09:03:00.000Z"
+    },
+    {
+      "eventId": "event_01JZZZZZZZZZZZZZZZZZZZZZ03",
+      "schemaVersion": "1.0",
+      "type": "host_enrollment.email_verified",
+      "authoritative": true,
+      "prospectId": "8d7636a6-c4f3-4aa9-85eb-ff59a8cf12f4",
+      "externalCandidateId": "candidate_pilot_0001",
+      "campaignId": "campaign_host_pilot_en_001",
+      "campaignMemberId": "member_host_pilot_0001",
+      "prospectStatus": "enrollment_started",
+      "enrollmentStatus": "email_verified",
+      "occurredAt": "2026-07-14T09:08:00.000Z"
+    }
+  ],
+  "nextCursor": "cursor_01JZZZZZZZZZZZZZZZZZZZZZ03",
+  "hasMore": false
+}

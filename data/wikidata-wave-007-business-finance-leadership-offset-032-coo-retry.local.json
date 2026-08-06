@@ -1,0 +1,18 @@
+{
+  "batchId": "wikidata-wave-007-business-finance-leadership-retry-offset-032-coo",
+  "createdAt": "2026-06-19T04:33:44.011Z",
+  "sourceLabel": "Wikidata business, finance, consulting, and leadership occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Retry-only local config for chief operating officer offset 032.",
+  "candidates": [],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 1,
+    "occupationsSucceeded": 1,
+    "failures": [],
+    "limitPerOccupation": 8,
+    "offset": 32,
+    "minSitelinks": 2,
+    "rankBySitelinks": false
+  }
+}

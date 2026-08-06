@@ -1,0 +1,73 @@
+{
+  "batchId": "wikidata-wave-004-digital-creators-social-video",
+  "createdAt": "2026-06-30T04:49:50.426Z",
+  "sourceLabel": "Wikidata digital creators, social video, and online media occupation discovery",
+  "researcher": "beGlib research wave runner",
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources.",
+  "candidates": [],
+  "diagnostics": {
+    "source": "wikidata-people-discovery",
+    "occupationsRequested": 11,
+    "occupationsSucceeded": 2,
+    "failures": [
+      {
+        "category": "thought-leadership",
+        "occupation": "content creator",
+        "qid": "Q109459317",
+        "message": "The operation was aborted due to timeout"
+      },
+      {
+        "category": "thought-leadership",
+        "occupation": "digital creator",
+        "qid": "Q111263847",
+        "message": "fetch failed"
+      },
+      {
+        "category": "thought-leadership",
+        "occupation": "online streamer",
+        "qid": "Q57414145",
+        "message": "fetch failed"
+      },
+      {
+        "category": "thought-leadership",
+        "occupation": "Twitch streamer",
+        "qid": "Q50279140",
+        "message": "fetch failed"
+      },
+      {
+        "category": "thought-leadership",
+        "occupation": "TikToker",
+        "qid": "Q94791573",
+        "message": "fetch failed"
+      },
+      {
+        "category": "thought-leadership",
+        "occupation": "blogger",
+        "qid": "Q8246794",
+        "message": "fetch failed"
+      },
+      {
+        "category": "thought-leadership",
+        "occupation": "vlogger",
+        "qid": "Q4110598",
+        "message": "fetch failed"
+      },
+      {
+        "category": "youtube",
+        "occupation": "YouTuber",
+        "qid": "Q17125263",
+        "message": "fetch failed"
+      },
+      {
+        "category": "podcast",
+        "occupation": "podcaster",
+        "qid": "Q15077007",
+        "message": "fetch failed"
+      }
+    ],
+    "limitPerOccupation": 8,
+    "offset": 1672,
+    "minSitelinks": 1,
+    "rankBySitelinks": false
+  }
+}

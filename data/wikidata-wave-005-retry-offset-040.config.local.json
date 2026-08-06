@@ -1,0 +1,26 @@
+{
+  "waveId": "wikidata-wave-005-media-entertainment-public-voices-retry-offset-040",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata media, entertainment, speakers, and public voices occupation discovery",
+  "description": "Broad discovery wave for television and radio personalities, actors, comedians, film creators, public speakers, motivational speakers, and activists. Discovery-only: no contact route collection. Retry config for offset 040 failures only.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 3,
+  "rankBySitelinks": false,
+  "delayMs": 3000,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Retry-only local config for failed offset 040 occupation queries.",
+  "categories": [
+    {
+      "category": "media",
+      "occupations": [
+        {
+          "qid": "Q947873",
+          "label": "television presenter"
+        },
+        {
+          "qid": "Q2722764",
+          "label": "radio personality"
+        }
+      ]
+    }
+  ]
+}

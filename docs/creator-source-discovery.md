@@ -9,7 +9,7 @@ This step does not verify identity, collect contact permission, or approve outre
 ## Sources
 
 - YouTube Data API:
-  Searches public channels with `search.list`, then enriches channel metadata with `channels.list` when `YOUTUBE_API_KEY` is set.
+  Resolves canonical channel IDs already present in candidate records with batched `channels.list` calls. In `direct-first` mode it uses `search.list` only for candidates without a resolved known channel.
 - PodcastIndex API:
   Searches public podcast records with authenticated `search/byterm` when `PODCASTINDEX_API_KEY` and `PODCASTINDEX_API_SECRET` are set. If only partial credentials are available, it falls back to the public Apple-replacement `/search` endpoint.
 - RSS or Atom feeds:
@@ -50,6 +50,28 @@ For continuous YouTube scanning, prefer small chunks, delay between candidates, 
 ```bash
 npm run research:creator-sources -- --batch data/wikidata-wave-001-broad-public-figures-combined.local.json --sources youtube,podcastindex --offset 0 --limit 25 --max 3 --delay-ms 750 --timeout-ms 15000 --output exports/wikidata-wave-001-creator-sources-000-024.local.md --json-output exports/wikidata-wave-001-creator-sources-000-024.local.json
 ```
+
+### YouTube quota modes
+
+The worker defaults to `--youtube-mode direct-first`. Known canonical channel IDs use `channels.list` in batches of up to 50 IDs. Only unresolved candidates consume the separate `search.list` quota bucket.
+
+Resolve known channels without using `search.list`:
+
+```bash
+npm run research:creator-sources -- --batch data/wikidata-all-waves-known-youtube-channels.local.json --sources youtube --youtube-mode known-only --max 10 --output exports/wikidata-all-waves-youtube-known.local.md --json-output exports/wikidata-all-waves-youtube-known.local.json
+```
+
+Run a bounded search-only wave after the daily quota resets:
+
+```bash
+npm run research:creator-sources -- --batch data/wikidata-all-waves-public-figures-combined.local.json --sources youtube --youtube-mode search-only --youtube-search-limit 100 --offset 0 --limit 100 --output exports/wikidata-all-waves-youtube-search-000-099.local.md --json-output exports/wikidata-all-waves-youtube-search-000-099.local.json
+```
+
+- `direct-first`: resolve known channel IDs, then search unresolved candidates.
+- `known-only`: never call `search.list`.
+- `search-only`: use only `search.list`, capped by `--youtube-search-limit`.
+
+The default `search.list` allocation is limited per day and resets at midnight Pacific Time. Request a larger allocation through YouTube's compliance audit and quota extension form; do not rotate API projects or keys to evade quota controls.
 
 Summarize local creator discovery packages:
 
@@ -139,5 +161,6 @@ The worker matches feeds by `candidateId` or exact `name`.
 
 - YouTube Data API `search.list`: https://developers.google.com/youtube/v3/docs/search/list
 - YouTube Data API `channels.list`: https://developers.google.com/youtube/v3/docs/channels/list
+- YouTube quota and compliance audits: https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits
 - PodcastIndex OpenAPI: https://podcastindex-org.github.io/docs-api/pi_api.json
 - RSS 2.0 specification: https://www.rssboard.org/rss-specification

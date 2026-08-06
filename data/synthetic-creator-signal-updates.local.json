@@ -1,0 +1,93 @@
+{
+  "batchId": "synthetic-ai-education-001-creator-signal-updates-2026-06-15",
+  "createdAt": "2026-06-15T04:13:03.036Z",
+  "sourceLabel": "Creator-signal review updates for Synthetic AI education pilot",
+  "researcher": "beGlib creator-signal review importer",
+  "notes": "Generated from human-reviewed creator/media outcomes. Importing this batch updates prioritization signals only and does not approve outreach.",
+  "candidates": [
+    {
+      "id": "cand-synth-101",
+      "name": "Dr. Leyla Arman",
+      "title": "Synthetic AI learning scientist",
+      "country": "United States",
+      "languages": [
+        "English",
+        "Turkish"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "AI and machine learning",
+        "Education research",
+        "Public science"
+      ],
+      "fitScore": 92,
+      "reachScore": 74,
+      "status": "needs-review",
+      "consentStatus": "public-business-contact",
+      "riskLevel": "low",
+      "channels": [
+        {
+          "platform": "website",
+          "label": "Synthetic official site",
+          "url": "https://example.edu/leyla-arman",
+          "verified": true
+        },
+        {
+          "platform": "youtube",
+          "label": "Synthetic AI learning channel",
+          "url": "https://youtube.com/@synthetic-ai-learning",
+          "verified": true
+        },
+        {
+          "platform": "podcast",
+          "label": "Synthetic learning interviews",
+          "url": "https://example.com/podcasts/synthetic-learning-interviews",
+          "verified": true
+        },
+        {
+          "platform": "newsletter",
+          "label": "Synthetic learning newsletter",
+          "url": "https://example.com/newsletter/synthetic-learning",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "public-business-email",
+          "value": "speaking@example.edu",
+          "sourceUrl": "https://example.edu/leyla-arman/contact",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://example.edu/leyla-arman",
+        "https://example.com/leyla-arman/media",
+        "https://youtube.com/@synthetic-ai-learning",
+        "https://example.com/podcasts/synthetic-learning-interviews",
+        "https://example.com/newsletter/synthetic-learning"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "Synthetic candidate representing a high-fit AI and education researcher. Creator-signal review on 2026-06-15 added 2 channels and 7 signal fields. Reviewer note: Synthetic creator/media signals verified for schema testing.",
+      "influenceSignals": {
+        "hasYoutubeShow": true,
+        "youtubeSubscribers": 36000,
+        "xFollowers": 22000,
+        "linkedinFollowers": 18000,
+        "activePlatforms": [
+          "youtube",
+          "x",
+          "linkedin",
+          "podcast",
+          "newsletter"
+        ],
+        "notableSignals": [
+          "Synthetic example of an active public educator with video presence.",
+          "Synthetic example of a candidate with verified long-form video, podcast, and newsletter activity.",
+          "Synthetic creator/media signals verified for schema testing."
+        ],
+        "hasPodcast": true,
+        "newsletterSubscribers": 8500
+      }
+    }
+  ]
+}

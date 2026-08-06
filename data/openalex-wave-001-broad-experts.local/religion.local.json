@@ -1,0 +1,1752 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-religion",
+  "createdAt": "2026-06-15T03:19:08.666Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / religion",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5025473979",
+      "name": "Martha C. Nussbaum",
+      "title": "University of Chicago researcher connected to religion ethics public life",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Income, Poverty, and Inequality"
+      ],
+      "fitScore": 68,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5025473979",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5025473979",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5025473979",
+        "https://openalex.org/W4248110397",
+        "https://doi.org/10.1017/cbo9780511841286"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Income, Poverty, and Inequality. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018343444",
+      "name": "Christy E. Manyi-Loh",
+      "title": "University of Fort Hare researcher connected to religion ethics public life",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Pharmaceutical and Antibiotic Environmental Impacts",
+        "Antibiotic Resistance in Bacteria",
+        "Antimicrobial agents and applications"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018343444",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3165-6902",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018343444",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018343444",
+        "https://orcid.org/0000-0003-3165-6902",
+        "https://openalex.org/W2794891594",
+        "https://doi.org/10.3390/molecules23040795"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Pharmaceutical and Antibiotic Environmental Impacts, Antibiotic Resistance in Bacteria, Antimicrobial agents and applications. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5049555511",
+      "name": "Sampson Mamphweli",
+      "title": "University of Fort Hare researcher connected to religion ethics public life",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Pharmaceutical and Antibiotic Environmental Impacts",
+        "Antibiotic Resistance in Bacteria",
+        "Antimicrobial agents and applications"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5049555511",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1845-0347",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5049555511",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5049555511",
+        "https://orcid.org/0000-0002-1845-0347",
+        "https://openalex.org/W2794891594",
+        "https://doi.org/10.3390/molecules23040795"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Pharmaceutical and Antibiotic Environmental Impacts, Antibiotic Resistance in Bacteria, Antimicrobial agents and applications. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5004502807",
+      "name": "Edson L. Meyer",
+      "title": "University of Fort Hare researcher connected to religion ethics public life",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Pharmaceutical and Antibiotic Environmental Impacts",
+        "Antibiotic Resistance in Bacteria",
+        "Antimicrobial agents and applications"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5004502807",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9912-311X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5004502807",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5004502807",
+        "https://orcid.org/0000-0002-9912-311X",
+        "https://openalex.org/W2794891594",
+        "https://doi.org/10.3390/molecules23040795"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Pharmaceutical and Antibiotic Environmental Impacts, Antibiotic Resistance in Bacteria, Antimicrobial agents and applications. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5075494825",
+      "name": "Anthony I. Okoh",
+      "title": "University of Fort Hare researcher connected to religion ethics public life",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Pharmaceutical and Antibiotic Environmental Impacts",
+        "Antibiotic Resistance in Bacteria",
+        "Antimicrobial agents and applications"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5075494825",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9770-085X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5075494825",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5075494825",
+        "https://orcid.org/0000-0002-9770-085X",
+        "https://openalex.org/W2794891594",
+        "https://doi.org/10.3390/molecules23040795"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Pharmaceutical and Antibiotic Environmental Impacts, Antibiotic Resistance in Bacteria, Antimicrobial agents and applications. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5088908924",
+      "name": "Elaine Moran",
+      "title": "Adelphi University researcher connected to religion ethics public life",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Biotechnology and Related Fields",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Legal and Constitutional Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5088908924",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6624-5738",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5088908924",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5088908924",
+        "https://orcid.org/0000-0001-6624-5738",
+        "https://openalex.org/W4235328403",
+        "https://doi.org/10.1007/978-1-349-94186-5_84"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Biotechnology and Related Fields, Health Systems, Economic Evaluations, Quality of Life, Legal and Constitutional Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5094440291",
+      "name": "A-T Children'",
+      "title": "Adelphi University researcher connected to religion ethics public life",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Biotechnology and Related Fields",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Legal and Constitutional Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5094440291",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5094440291",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5094440291",
+        "https://openalex.org/W4235328403",
+        "https://doi.org/10.1007/978-1-349-94186-5_84"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Biotechnology and Related Fields, Health Systems, Economic Evaluations, Quality of Life, Legal and Constitutional Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5103206776",
+      "name": "Nancy Devlin",
+      "title": "Office Of Health Economics researcher connected to religion ethics public life",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Global Health Care Issues",
+        "Delphi Technique in Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 89,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5103206776",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1561-5361",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5103206776",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5103206776",
+        "https://orcid.org/0000-0002-1561-5361",
+        "https://openalex.org/W2343426002",
+        "https://doi.org/10.1002/hec.3564"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Systems, Economic Evaluations, Quality of Life, Global Health Care Issues, Delphi Technique in Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5083575745",
+      "name": "Koonal Shah",
+      "title": "Office Of Health Economics researcher connected to religion ethics public life",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Global Health Care Issues",
+        "Delphi Technique in Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 89,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5083575745",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4927-7858",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5083575745",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5083575745",
+        "https://orcid.org/0000-0002-4927-7858",
+        "https://openalex.org/W2343426002",
+        "https://doi.org/10.1002/hec.3564"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Systems, Economic Evaluations, Quality of Life, Global Health Care Issues, Delphi Technique in Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5027316988",
+      "name": "Yan Feng",
+      "title": "Office Of Health Economics researcher connected to religion ethics public life",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Global Health Care Issues",
+        "Delphi Technique in Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 89,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5027316988",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4436-1126",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5027316988",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5027316988",
+        "https://orcid.org/0000-0003-4436-1126",
+        "https://openalex.org/W2343426002",
+        "https://doi.org/10.1002/hec.3564"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Systems, Economic Evaluations, Quality of Life, Global Health Care Issues, Delphi Technique in Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5090013218",
+      "name": "Brendan Mulhern",
+      "title": "University of Technology Sydney researcher connected to religion ethics public life",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Global Health Care Issues",
+        "Delphi Technique in Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 89,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5090013218",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3656-8063",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5090013218",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5090013218",
+        "https://orcid.org/0000-0003-3656-8063",
+        "https://openalex.org/W2343426002",
+        "https://doi.org/10.1002/hec.3564"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Systems, Economic Evaluations, Quality of Life, Global Health Care Issues, Delphi Technique in Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032690231",
+      "name": "Ben van Hout",
+      "title": "University of Sheffield researcher connected to religion ethics public life",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "religion ethics public life",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Global Health Care Issues",
+        "Delphi Technique in Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 89,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032690231",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9698-6094",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032690231",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032690231",
+        "https://orcid.org/0000-0001-9698-6094",
+        "https://openalex.org/W2343426002",
+        "https://doi.org/10.1002/hec.3564"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Systems, Economic Evaluations, Quality of Life, Global Health Care Issues, Delphi Technique in Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5036330526",
+      "name": "David C. Lindberg",
+      "title": "OpenAlex-indexed researcher connected to theology public scholarship",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Religious Studies and Spiritual Practices"
+      ],
+      "fitScore": 68,
+      "reachScore": 79,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5036330526",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5036330526",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5036330526",
+        "https://openalex.org/W609573246"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religious Studies and Spiritual Practices. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5050726566",
+      "name": "Ronald L. Numbers",
+      "title": "OpenAlex-indexed researcher connected to theology public scholarship",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Religious Studies and Spiritual Practices"
+      ],
+      "fitScore": 68,
+      "reachScore": 79,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5050726566",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5050726566",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5050726566",
+        "https://openalex.org/W609573246"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religious Studies and Spiritual Practices. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5086930918",
+      "name": "Itumeleng J. Mosala",
+      "title": "OpenAlex-indexed researcher connected to theology public scholarship",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Christian Theology and Mission",
+        "Biblical Studies and Interpretation",
+        "Pentecostalism and Christianity Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 78,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5086930918",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7085-4114",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5086930918",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5086930918",
+        "https://orcid.org/0000-0001-7085-4114",
+        "https://openalex.org/W1581288177"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Christian Theology and Mission, Biblical Studies and Interpretation, Pentecostalism and Christianity Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5109810519",
+      "name": "Richard Lim",
+      "title": "OpenAlex-indexed researcher connected to theology public scholarship",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Classical Antiquity Studies",
+        "Byzantine Studies and History",
+        "Medieval Literature and History"
+      ],
+      "fitScore": 76,
+      "reachScore": 78,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5109810519",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5109810519",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5109810519",
+        "https://openalex.org/W4400471100",
+        "https://doi.org/10.1525/9780520378384"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Classical Antiquity Studies, Byzantine Studies and History, Medieval Literature and History. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5076062205",
+      "name": "John W. Budd",
+      "title": "OpenAlex-indexed researcher connected to theology public scholarship",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Labor Movements and Unions"
+      ],
+      "fitScore": 68,
+      "reachScore": 77,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5076062205",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3971-7327",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5076062205",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5076062205",
+        "https://orcid.org/0000-0003-3971-7327",
+        "https://openalex.org/W2147851609",
+        "https://doi.org/10.7591/9781501722387"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Labor Movements and Unions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5035943203",
+      "name": "R.R. Ganzevoort",
+      "title": "Vrije Universiteit Amsterdam researcher connected to interfaith dialogue public education",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religion, Spirituality, and Psychology",
+        "Religion, Society, and Development",
+        "Religion and Society Interactions",
+        "theology public scholarship",
+        "Theological Perspectives and Practices"
+      ],
+      "fitScore": 76,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5035943203",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3395-1497",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5035943203",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5035943203",
+        "https://orcid.org/0000-0003-3395-1497",
+        "https://openalex.org/W2587863253",
+        "https://doi.org/10.1007/s10943-017-0369-1",
+        "https://openalex.org/W1977537266",
+        "https://doi.org/10.1515/ijpt-2014-0007"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religion, Spirituality, and Psychology, Religion, Society, and Development, Religion and Society Interactions. Manual official-source review is required before any outreach. Additional query match: theology public scholarship."
+    },
+    {
+      "id": "openalex-A5073621805",
+      "name": "Johan Roeland",
+      "title": "Vrije Universiteit Amsterdam researcher connected to theology public scholarship",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Religion, Society, and Development",
+        "Theological Perspectives and Practices",
+        "Religion and Society Interactions"
+      ],
+      "fitScore": 76,
+      "reachScore": 75,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5073621805",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7248-4353",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5073621805",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5073621805",
+        "https://orcid.org/0000-0002-7248-4353",
+        "https://openalex.org/W1977537266",
+        "https://doi.org/10.1515/ijpt-2014-0007"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religion, Society, and Development, Theological Perspectives and Practices, Religion and Society Interactions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5084528887",
+      "name": "Magda Pieczka",
+      "title": "Queen Margaret University researcher connected to theology public scholarship",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Public Relations and Crisis Communication",
+        "Media Studies and Communication",
+        "Rhetoric and Communication Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 74,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5084528887",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5979-1121",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5084528887",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5084528887",
+        "https://orcid.org/0000-0002-5979-1121",
+        "https://openalex.org/W2065679536",
+        "https://doi.org/10.1108/13632541111126346"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Public Relations and Crisis Communication, Media Studies and Communication, Rhetoric and Communication Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5041393359",
+      "name": "Cheryl J. Craig",
+      "title": "University of Houston researcher connected to theology public scholarship",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Educator Training and Historical Pedagogy",
+        "Religious Education and Schools",
+        "Education and Critical Thinking Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 74,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5041393359",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3190-9116",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5041393359",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5041393359",
+        "https://orcid.org/0000-0002-3190-9116",
+        "https://openalex.org/W2023214216",
+        "https://doi.org/10.1111/j.1467-873x.2005.00323.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Educator Training and Historical Pedagogy, Religious Education and Schools, Education and Critical Thinking Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5010621754",
+      "name": "Abdeljalil Akkari",
+      "title": "University of Geneva researcher connected to interfaith dialogue public education",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Global Education and Multiculturalism",
+        "Religious Education and Schools"
+      ],
+      "fitScore": 76,
+      "reachScore": 73,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010621754",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4396-2635",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010621754",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010621754",
+        "https://orcid.org/0000-0002-4396-2635",
+        "https://openalex.org/W2889687994",
+        "https://doi.org/10.1007/978-3-030-44617-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Global Education and Multiculturalism, Religious Education and Schools. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5034599857",
+      "name": "Kathrine Maleq",
+      "title": "University of Geneva researcher connected to interfaith dialogue public education",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Global Education and Multiculturalism",
+        "Religious Education and Schools"
+      ],
+      "fitScore": 76,
+      "reachScore": 73,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5034599857",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8272-9000",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5034599857",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5034599857",
+        "https://orcid.org/0000-0002-8272-9000",
+        "https://openalex.org/W2889687994",
+        "https://doi.org/10.1007/978-3-030-44617-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Global Education and Multiculturalism, Religious Education and Schools. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5038692433",
+      "name": "Yasmin Moll",
+      "title": "University of Michigan researcher connected to theology public scholarship",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Islamic Studies and History",
+        "Media, Religion, Digital Communication",
+        "Jewish and Middle Eastern Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 73,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5038692433",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5179-8540",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5038692433",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5038692433",
+        "https://orcid.org/0000-0001-5179-8540",
+        "https://openalex.org/W2806417563",
+        "https://doi.org/10.14506/ca33.2.07"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Islamic Studies and History, Media, Religion, Digital Communication, Jewish and Middle Eastern Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018619773",
+      "name": "Malcolm Tight",
+      "title": "Lancaster University researcher connected to theology public scholarship",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Evaluation of Teaching Practices",
+        "Reflective Practices in Education",
+        "Higher Education Practises and Engagement"
+      ],
+      "fitScore": 76,
+      "reachScore": 72,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018619773",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3379-8613",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018619773",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018619773",
+        "https://orcid.org/0000-0003-3379-8613",
+        "https://openalex.org/W2767462943",
+        "https://doi.org/10.1080/23322969.2017.1390690"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Evaluation of Teaching Practices, Reflective Practices in Education, Higher Education Practises and Engagement. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5077520489",
+      "name": "Mohammad Fadel",
+      "title": "OpenAlex-indexed researcher connected to theology public scholarship",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "theology public scholarship",
+        "Islamic Studies and History",
+        "Islamic Finance and Banking Studies",
+        "American Constitutional Law and Politics"
+      ],
+      "fitScore": 76,
+      "reachScore": 71,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5077520489",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6922-6807",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5077520489",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5077520489",
+        "https://orcid.org/0000-0001-6922-6807",
+        "https://openalex.org/W3123490345",
+        "https://doi.org/10.1017/s084182090000432x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Islamic Studies and History, Islamic Finance and Banking Studies, American Constitutional Law and Politics. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5083410571",
+      "name": "Anke I. Liefbroer",
+      "title": "Vrije Universiteit Amsterdam researcher connected to interfaith dialogue public education",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religion, Spirituality, and Psychology",
+        "Religion, Society, and Development",
+        "Religion and Society Interactions"
+      ],
+      "fitScore": 76,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5083410571",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4356-3981",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5083410571",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5083410571",
+        "https://orcid.org/0000-0003-4356-3981",
+        "https://openalex.org/W2587863253",
+        "https://doi.org/10.1007/s10943-017-0369-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religion, Spirituality, and Psychology, Religion, Society, and Development, Religion and Society Interactions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5014583532",
+      "name": "Erik Olsman",
+      "title": "Leiden University Medical Center researcher connected to interfaith dialogue public education",
+      "country": "Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religion, Spirituality, and Psychology",
+        "Religion, Society, and Development",
+        "Religion and Society Interactions"
+      ],
+      "fitScore": 76,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5014583532",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1951-2247",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5014583532",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5014583532",
+        "https://orcid.org/0000-0002-1951-2247",
+        "https://openalex.org/W2587863253",
+        "https://doi.org/10.1007/s10943-017-0369-1"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religion, Spirituality, and Psychology, Religion, Society, and Development, Religion and Society Interactions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5052001731",
+      "name": "Lauren Bialystok",
+      "title": "University of Toronto researcher connected to interfaith dialogue public education",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Gender, Feminism, and Media",
+        "Sex work and related issues",
+        "Crime, Deviance, and Social Control"
+      ],
+      "fitScore": 76,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5052001731",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2658-5644",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5052001731",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5052001731",
+        "https://orcid.org/0000-0003-2658-5644",
+        "https://openalex.org/W2618147744",
+        "https://doi.org/10.1080/01596306.2017.1333085"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Gender, Feminism, and Media, Sex work and related issues, Crime, Deviance, and Social Control. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5053445041",
+      "name": "Jessica Wright",
+      "title": "University of Toronto researcher connected to interfaith dialogue public education",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Gender, Feminism, and Media",
+        "Sex work and related issues",
+        "Crime, Deviance, and Social Control"
+      ],
+      "fitScore": 76,
+      "reachScore": 70,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5053445041",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2731-7804",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5053445041",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5053445041",
+        "https://orcid.org/0000-0002-2731-7804",
+        "https://openalex.org/W2618147744",
+        "https://doi.org/10.1080/01596306.2017.1333085"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Gender, Feminism, and Media, Sex work and related issues, Crime, Deviance, and Social Control. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5080380958",
+      "name": "Tuuli Lähdesmäki",
+      "title": "University of Jyväskylä researcher connected to interfaith dialogue public education",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religious Education and Schools",
+        "Taxation and Legal Issues",
+        "Educational Practices and Policies"
+      ],
+      "fitScore": 76,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5080380958",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5166-489X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5080380958",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5080380958",
+        "https://orcid.org/0000-0002-5166-489X",
+        "https://openalex.org/W4230535039",
+        "https://doi.org/10.1007/978-3-030-41517-4"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religious Education and Schools, Taxation and Legal Issues, Educational Practices and Policies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5062907390",
+      "name": "Aino-Kaisa Koistinen",
+      "title": "University of Jyväskylä researcher connected to interfaith dialogue public education",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religious Education and Schools",
+        "Taxation and Legal Issues",
+        "Educational Practices and Policies"
+      ],
+      "fitScore": 76,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5062907390",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8970-4714",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5062907390",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5062907390",
+        "https://orcid.org/0000-0001-8970-4714",
+        "https://openalex.org/W4230535039",
+        "https://doi.org/10.1007/978-3-030-41517-4"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religious Education and Schools, Taxation and Legal Issues, Educational Practices and Policies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5070640161",
+      "name": "Susanne C. Ylönen",
+      "title": "University of Jyväskylä researcher connected to interfaith dialogue public education",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religious Education and Schools",
+        "Taxation and Legal Issues",
+        "Educational Practices and Policies"
+      ],
+      "fitScore": 76,
+      "reachScore": 67,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5070640161",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8475-2298",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5070640161",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5070640161",
+        "https://orcid.org/0000-0002-8475-2298",
+        "https://openalex.org/W4230535039",
+        "https://doi.org/10.1007/978-3-030-41517-4"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religious Education and Schools, Taxation and Legal Issues, Educational Practices and Policies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5058141937",
+      "name": "Ingrid Mattson",
+      "title": "OpenAlex-indexed researcher connected to interfaith dialogue public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Education and Islamic Studies",
+        "Islamic Studies and History",
+        "Religion, Society, and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 64,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5058141937",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0164-0902",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5058141937",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5058141937",
+        "https://orcid.org/0000-0002-0164-0902",
+        "https://openalex.org/W3128287114"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Education and Islamic Studies, Islamic Studies and History, Religion, Society, and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5060480816",
+      "name": "Genti Kruja",
+      "title": "Bedër University researcher connected to interfaith dialogue public education",
+      "country": "Albania",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "interfaith dialogue public education",
+        "Religious Education and Schools",
+        "Religion and Society Interactions",
+        "Religion, Society, and Development",
+        "Ukrainian Cultural and Linguistic Studies"
+      ],
+      "fitScore": 82,
+      "reachScore": 63,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5060480816",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0321-814X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5060480816",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5060480816",
+        "https://orcid.org/0000-0002-0321-814X",
+        "https://openalex.org/W4200209012",
+        "https://doi.org/10.1080/15507394.2021.2009305",
+        "https://openalex.org/W3082458306",
+        "https://doi.org/10.29333/ejecs/377"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Religious Education and Schools, Religion and Society Interactions, Religion, Society, and Development. Manual official-source review is required before any outreach."
+    }
+  ]
+}

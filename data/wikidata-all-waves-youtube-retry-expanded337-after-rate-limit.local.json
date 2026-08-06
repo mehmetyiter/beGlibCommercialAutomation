@@ -1,0 +1,98 @@
+{
+  "batchId": "wikidata-all-waves-youtube-retry-expanded337-after-rate-limit",
+  "createdAt": "2026-07-17T07:30:00.000Z",
+  "sourceLabel": "YouTube quota retry checkpoint after expanded337",
+  "researcher": "beGlib research wave runner",
+  "notes": "Retry only the candidate whose YouTube search failed with rateLimitExceeded. Discovery results require strict identity attribution before acceptance.",
+  "candidates": [
+    {
+      "id": "wikidata-Q732418",
+      "name": "Matthieu Ricard",
+      "title": "French writer and Buddhist monk connected to Buddhist monk",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "religion",
+      "subcategories": [
+        "Buddhist monk",
+        "French writer and Buddhist monk"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q732418",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Matthieu_Ricard",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.matthieuricard.org/",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/matthieu_ricard",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/matthieu_ricard/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/matthieu.ricard.english",
+          "verified": false
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/matthieu-ricard-42174758",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube link published on official website",
+          "url": "https://www.youtube.com/matthieuricardofficial",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q732418",
+          "verifiedAt": "2026-06-16"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q732418",
+        "https://en.wikipedia.org/wiki/Matthieu_Ricard",
+        "http://www.matthieuricard.org/",
+        "https://x.com/matthieu_ricard",
+        "https://www.instagram.com/matthieu_ricard/",
+        "https://www.facebook.com/matthieu.ricard.english",
+        "https://www.linkedin.com/in/matthieu-ricard-42174758",
+        "https://www.youtube.com/matthieuricardofficial"
+      ],
+      "lastVerifiedAt": "2026-06-16",
+      "rationale": "Wikidata public metadata lists this person as Buddhist monk. Social/profile links are discovery-only and require human verification before use."
+    }
+  ]
+}

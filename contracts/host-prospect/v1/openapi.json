@@ -1,0 +1,581 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "beGlib Host Prospect Internal API",
+    "version": "1.0",
+    "description": "Minimal, signed integration boundary between Commercial Automation and Conversio. Version 1.0 is restricted to human-verified candidate-owned email contacts."
+  },
+  "servers": [
+    {
+      "url": "https://api.beglib.com",
+      "description": "Environment-specific Conversio API origin"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Host prospects"
+    }
+  ],
+  "paths": {
+    "/internal/v1/host-prospects": {
+      "post": {
+        "tags": ["Host prospects"],
+        "operationId": "createHostProspect",
+        "summary": "Create or replay a pilot Host prospect",
+        "description": "Accepts only a human-verified candidate-owned email association. A successful response does not approve or verify the future Host.",
+        "security": [
+          {
+            "HostProspectHmac": []
+          }
+        ],
+        "parameters": [
+          { "$ref": "#/components/parameters/KeyId" },
+          { "$ref": "#/components/parameters/Timestamp" },
+          { "$ref": "#/components/parameters/Nonce" },
+          { "$ref": "#/components/parameters/Signature" },
+          { "$ref": "#/components/parameters/IdempotencyKey" }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostProspectCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Prospect created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HostProspectCreateResponse"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Original response replayed for the same idempotency key and body",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HostProspectCreateResponse"
+                }
+              }
+            }
+          },
+          "400": { "$ref": "#/components/responses/BadRequest" },
+          "401": { "$ref": "#/components/responses/Unauthorized" },
+          "409": { "$ref": "#/components/responses/Conflict" },
+          "413": { "$ref": "#/components/responses/PayloadTooLarge" },
+          "500": { "$ref": "#/components/responses/InternalError" },
+          "503": { "$ref": "#/components/responses/ServiceUnavailable" }
+        }
+      }
+    },
+    "/internal/v1/host-prospects/{prospectId}/revoke": {
+      "post": {
+        "tags": ["Host prospects"],
+        "operationId": "revokeHostProspect",
+        "summary": "Revoke an unused Host prospect",
+        "security": [
+          {
+            "HostProspectHmac": []
+          }
+        ],
+        "parameters": [
+          { "$ref": "#/components/parameters/ProspectId" },
+          { "$ref": "#/components/parameters/KeyId" },
+          { "$ref": "#/components/parameters/Timestamp" },
+          { "$ref": "#/components/parameters/Nonce" },
+          { "$ref": "#/components/parameters/Signature" },
+          { "$ref": "#/components/parameters/IdempotencyKey" }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostProspectRevokeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Prospect is revoked or was already revoked",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HostProspectRevokeResponse"
+                }
+              }
+            }
+          },
+          "400": { "$ref": "#/components/responses/BadRequest" },
+          "401": { "$ref": "#/components/responses/Unauthorized" },
+          "404": { "$ref": "#/components/responses/NotFound" },
+          "409": { "$ref": "#/components/responses/Conflict" },
+          "413": { "$ref": "#/components/responses/PayloadTooLarge" },
+          "500": { "$ref": "#/components/responses/InternalError" },
+          "503": { "$ref": "#/components/responses/ServiceUnavailable" }
+        }
+      }
+    },
+    "/internal/v1/host-prospect-events": {
+      "get": {
+        "tags": ["Host prospects"],
+        "operationId": "listHostProspectEvents",
+        "summary": "Read the stable append-ordered Host prospect event feed",
+        "description": "Intended for a trusted CLI or server process, never a browser bundle. Delivery order is server-assigned and independent from the event business timestamp.",
+        "security": [
+          {
+            "HostProspectHmac": []
+          }
+        ],
+        "parameters": [
+          { "$ref": "#/components/parameters/KeyId" },
+          { "$ref": "#/components/parameters/Timestamp" },
+          { "$ref": "#/components/parameters/Nonce" },
+          { "$ref": "#/components/parameters/Signature" },
+          {
+            "name": "after",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "maxLength": 512
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ordered event page",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HostProspectEventPage"
+                }
+              }
+            }
+          },
+          "400": { "$ref": "#/components/responses/BadRequest" },
+          "401": { "$ref": "#/components/responses/Unauthorized" },
+          "409": { "$ref": "#/components/responses/Conflict" },
+          "413": { "$ref": "#/components/responses/PayloadTooLarge" },
+          "500": { "$ref": "#/components/responses/InternalError" },
+          "503": { "$ref": "#/components/responses/ServiceUnavailable" }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "HostProspectHmac": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-BeGlib-Signature",
+        "description": "HMAC-SHA256 signature. The timestamp, nonce, key ID, and canonical request are also mandatory."
+      }
+    },
+    "parameters": {
+      "KeyId": {
+        "name": "X-BeGlib-Key-Id",
+        "in": "header",
+        "required": true,
+        "schema": { "type": "string", "minLength": 1, "maxLength": 64 }
+      },
+      "Timestamp": {
+        "name": "X-BeGlib-Timestamp",
+        "in": "header",
+        "required": true,
+        "schema": { "type": "string", "pattern": "^[0-9]{10,11}$" }
+      },
+      "Nonce": {
+        "name": "X-BeGlib-Nonce",
+        "in": "header",
+        "required": true,
+        "schema": {
+          "type": "string",
+          "minLength": 22,
+          "maxLength": 128,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        }
+      },
+      "Signature": {
+        "name": "X-BeGlib-Signature",
+        "in": "header",
+        "required": true,
+        "schema": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "IdempotencyKey": {
+        "name": "Idempotency-Key",
+        "in": "header",
+        "required": true,
+        "schema": {
+          "type": "string",
+          "minLength": 22,
+          "maxLength": 128,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        }
+      },
+      "ProspectId": {
+        "name": "prospectId",
+        "in": "path",
+        "required": true,
+        "schema": { "$ref": "#/components/schemas/ProspectIdentifier" }
+      }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "Malformed or policy-ineligible request",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      },
+      "Unauthorized": {
+        "description": "Invalid signature, timestamp, nonce, or key ID",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      },
+      "Conflict": {
+        "description": "Idempotency, contact, account, or state conflict",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "The key-scoped prospect or cursor was not found",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      },
+      "PayloadTooLarge": {
+        "description": "The raw request body exceeds the internal API limit",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      },
+      "InternalError": {
+        "description": "Unexpected internal failure",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      },
+      "ServiceUnavailable": {
+        "description": "The feature is disabled or a required security dependency is unavailable",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ErrorResponse" }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "ContractVersion": {
+        "type": "string",
+        "const": "1.0"
+      },
+      "Identifier": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+      },
+      "ProspectIdentifier": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "CandidateOwnedEmailContact": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["endpoint", "association"],
+        "properties": {
+          "endpoint": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "value"],
+            "properties": {
+              "type": { "type": "string", "const": "email" },
+              "value": { "type": "string", "format": "email", "maxLength": 320 }
+            }
+          },
+          "association": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "associationType",
+              "recipientKind",
+              "evidenceStatus",
+              "sourceEvidenceRef",
+              "reviewerRef",
+              "verificationMethod",
+              "verifiedAt",
+              "verificationFreshUntil",
+              "suppressionStatus",
+              "complianceDecision",
+              "contactPurpose"
+            ],
+            "properties": {
+              "id": { "$ref": "#/components/schemas/Identifier" },
+              "associationType": { "type": "string", "const": "candidate_owned" },
+              "recipientKind": { "type": "string", "const": "candidate" },
+              "evidenceStatus": { "type": "string", "const": "human_verified" },
+              "sourceEvidenceRef": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256,
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "description": "Opaque Automation reference only; raw URLs and source content are forbidden."
+              },
+              "reviewerRef": { "$ref": "#/components/schemas/Identifier" },
+              "verificationMethod": {
+                "type": "string",
+                "enum": ["public_first_party_page", "direct_confirmation", "manual_review"]
+              },
+              "verifiedAt": { "type": "string", "format": "date-time" },
+              "verificationFreshUntil": { "type": "string", "format": "date-time" },
+              "suppressionStatus": { "type": "string", "const": "clear" },
+              "complianceDecision": { "type": "string", "const": "approved" },
+              "contactPurpose": { "type": "string", "const": "host_invitation" }
+            }
+          }
+        }
+      },
+      "HostProspectCandidate": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["displayName", "preferredLocale", "topics"],
+        "properties": {
+          "displayName": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "preferredLocale": { "type": "string", "minLength": 2, "maxLength": 35 },
+          "countryCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "topics": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": { "type": "string", "minLength": 1, "maxLength": 80 }
+          }
+        }
+      },
+      "HostProspectCreateRequest": {
+        "type": "object",
+        "description": "Shape validation is necessary but not sufficient: ingestion must reject verificationFreshUntil at or before the server's current time, and expiresAt must not exceed verificationFreshUntil.",
+        "additionalProperties": false,
+        "required": [
+          "contractVersion",
+          "externalCandidateId",
+          "campaignId",
+          "campaignMemberId",
+          "contact",
+          "candidate",
+          "requestedAt",
+          "expiresAt"
+        ],
+        "properties": {
+          "contractVersion": { "$ref": "#/components/schemas/ContractVersion" },
+          "externalCandidateId": { "$ref": "#/components/schemas/Identifier" },
+          "campaignId": { "$ref": "#/components/schemas/Identifier" },
+          "campaignMemberId": { "$ref": "#/components/schemas/Identifier" },
+          "contact": { "$ref": "#/components/schemas/CandidateOwnedEmailContact" },
+          "candidate": { "$ref": "#/components/schemas/HostProspectCandidate" },
+          "requestedAt": { "type": "string", "format": "date-time" },
+          "expiresAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "HostProspectCreateResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["contractVersion", "prospectId", "status", "ctaUrl", "contactPolicy", "expiresAt"],
+        "properties": {
+          "contractVersion": { "$ref": "#/components/schemas/ContractVersion" },
+          "prospectId": { "$ref": "#/components/schemas/ProspectIdentifier" },
+          "status": { "type": "string", "const": "issued" },
+          "ctaUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://(?=[^/]{1,253}/host/invite#t=)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z](?:[a-z0-9-]{0,61}[a-z0-9])?/host/invite#t=[A-Za-z0-9_-]{43}$",
+            "maxLength": 2048,
+            "description": "Canonical private invitation URL on a lowercase public DNS hostname, without an explicit port, userinfo, or query parameters. The opaque CTA bearer is carried only in the URL fragment as #t=... so it is not transmitted in HTTP requests or referrers."
+          },
+          "contactPolicy": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["otpEligibility", "evaluatedAt"],
+            "properties": {
+              "otpEligibility": { "type": "string", "const": "eligible" },
+              "evaluatedAt": { "type": "string", "format": "date-time" }
+            }
+          },
+          "expiresAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "HostProspectRevokeRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["contractVersion", "reasonCode"],
+        "properties": {
+          "contractVersion": { "$ref": "#/components/schemas/ContractVersion" },
+          "reasonCode": {
+            "type": "string",
+            "enum": ["campaign_cancelled", "contact_withdrawn", "compliance_hold", "operator_revoked"]
+          }
+        }
+      },
+      "HostProspectRevokeResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["contractVersion", "prospectId", "status", "revokedAt"],
+        "properties": {
+          "contractVersion": { "$ref": "#/components/schemas/ContractVersion" },
+          "prospectId": { "$ref": "#/components/schemas/ProspectIdentifier" },
+          "status": { "type": "string", "const": "revoked" },
+          "revokedAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "HostProspectStatus": {
+        "type": "string",
+        "enum": ["issued", "interest_confirmed", "enrollment_started", "converted", "rejected", "expired", "revoked"]
+      },
+      "HostEnrollmentStatus": {
+        "type": "string",
+        "enum": [
+          "claim_started",
+          "email_verification_pending",
+          "email_verified",
+          "sso_pending",
+          "sso_verified",
+          "manual_review",
+          "onboarding",
+          "accepted",
+          "active",
+          "already_active",
+          "rejected",
+          "expired",
+          "revoked"
+        ]
+      },
+      "HostProspectEventType": {
+        "type": "string",
+        "enum": [
+          "host_prospect.landing_observed",
+          "host_prospect.interest_confirmed",
+          "host_prospect.revoked",
+          "host_prospect.expired",
+          "host_enrollment.email_challenge_sent",
+          "host_enrollment.email_verified",
+          "host_enrollment.sso_verified",
+          "host_enrollment.manual_review_required",
+          "host_enrollment.accepted",
+          "host_enrollment.rejected",
+          "host_onboarding.started",
+          "host_onboarding.completed",
+          "host_enrollment.active",
+          "host_enrollment.already_active",
+          "host_enrollment.revoked"
+        ]
+      },
+      "HostProspectEvent": {
+        "type": "object",
+        "description": "Event type, authority, prospect status, and enrollment status must match the table in README.md.",
+        "additionalProperties": false,
+        "required": [
+          "eventId",
+          "schemaVersion",
+          "type",
+          "authoritative",
+          "prospectId",
+          "externalCandidateId",
+          "campaignId",
+          "campaignMemberId",
+          "prospectStatus",
+          "occurredAt"
+        ],
+        "properties": {
+          "eventId": { "$ref": "#/components/schemas/Identifier" },
+          "schemaVersion": { "$ref": "#/components/schemas/ContractVersion" },
+          "type": { "$ref": "#/components/schemas/HostProspectEventType" },
+          "authoritative": { "type": "boolean" },
+          "prospectId": { "$ref": "#/components/schemas/ProspectIdentifier" },
+          "externalCandidateId": { "$ref": "#/components/schemas/Identifier" },
+          "campaignId": { "$ref": "#/components/schemas/Identifier" },
+          "campaignMemberId": { "$ref": "#/components/schemas/Identifier" },
+          "prospectStatus": { "$ref": "#/components/schemas/HostProspectStatus" },
+          "enrollmentStatus": { "$ref": "#/components/schemas/HostEnrollmentStatus" },
+          "occurredAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "HostProspectEventPage": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["contractVersion", "events", "hasMore"],
+        "properties": {
+          "contractVersion": { "$ref": "#/components/schemas/ContractVersion" },
+          "events": {
+            "type": "array",
+            "maxItems": 200,
+            "items": { "$ref": "#/components/schemas/HostProspectEvent" }
+          },
+          "nextCursor": { "type": "string", "maxLength": 512 },
+          "hasMore": { "type": "boolean" }
+        }
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["error", "message", "requestId"],
+        "properties": {
+          "error": {
+            "type": "string",
+            "enum": [
+              "invalid_contract",
+              "contact_not_otp_eligible",
+              "authentication_failed",
+              "replay_detected",
+              "idempotency_conflict",
+              "idempotency_in_progress",
+              "prospect_conflict",
+              "state_conflict",
+              "not_found",
+              "invalid_cursor",
+              "feature_disabled",
+              "service_unavailable",
+              "payload_too_large",
+              "internal_error",
+              "host_invite_required"
+            ]
+          },
+          "message": { "type": "string", "minLength": 1, "maxLength": 300 },
+          "requestId": { "type": "string", "minLength": 1, "maxLength": 128 }
+        }
+      }
+    }
+  }
+}

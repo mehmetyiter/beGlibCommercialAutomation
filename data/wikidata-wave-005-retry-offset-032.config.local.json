@@ -1,0 +1,39 @@
+{
+  "waveId": "wikidata-wave-005-media-entertainment-public-voices-retry-offset-032",
+  "source": "wikidata",
+  "sourceLabel": "Wikidata media, entertainment, speakers, and public voices occupation discovery",
+  "description": "Broad discovery wave for television and radio personalities, actors, comedians, film creators, public speakers, motivational speakers, and activists. Discovery-only: no contact route collection. Retry config for offset 032 failures only.",
+  "limitPerOccupation": 8,
+  "minSitelinks": 3,
+  "rankBySitelinks": false,
+  "delayMs": 3000,
+  "notes": "Generated from Wikidata public occupation metadata. Contact routes are intentionally blocked until manually verified from official or representative sources. Retry-only local config for failed offset 032 occupation queries.",
+  "categories": [
+    {
+      "category": "speaking",
+      "occupations": [
+        {
+          "qid": "Q15982858",
+          "label": "motivational speaker"
+        }
+      ]
+    },
+    {
+      "category": "activism",
+      "occupations": [
+        {
+          "qid": "Q15253558",
+          "label": "activist"
+        },
+        {
+          "qid": "Q1476215",
+          "label": "human rights defender"
+        },
+        {
+          "qid": "Q11499147",
+          "label": "political activist"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2298 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-science",
+  "createdAt": "2026-06-15T03:18:41.137Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / science",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5020533147",
+      "name": "Gordon Pennycook",
+      "title": "University of Regina researcher connected to science communication public engagement",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "COVID-19 and Mental Health",
+        "Behavioral Health and Interventions",
+        "Cultural Differences and Values",
+        "Misinformation and Its Impacts"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5020533147",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1344-6143",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5020533147",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5020533147",
+        "https://orcid.org/0000-0003-1344-6143",
+        "https://openalex.org/W3016902371",
+        "https://doi.org/10.1038/s41562-020-0884-z",
+        "https://openalex.org/W2791544114",
+        "https://doi.org/10.1126/science.aao2998"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Behavioral Health and Interventions, Cultural Differences and Values. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5052372722",
+      "name": "Cass R. Sunstein",
+      "title": "Harvard University Press researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "COVID-19 and Mental Health",
+        "Behavioral Health and Interventions",
+        "Cultural Differences and Values",
+        "Misinformation and Its Impacts"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5052372722",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4194-3008",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5052372722",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5052372722",
+        "https://orcid.org/0000-0003-4194-3008",
+        "https://openalex.org/W3016902371",
+        "https://doi.org/10.1038/s41562-020-0884-z",
+        "https://openalex.org/W2791544114",
+        "https://doi.org/10.1126/science.aao2998"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Behavioral Health and Interventions, Cultural Differences and Values. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5013151488",
+      "name": "Haoran Xie",
+      "title": "OpenAlex-indexed researcher connected to artificial intelligence education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "Explainable Artificial Intelligence (XAI)"
+      ],
+      "fitScore": 82,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5013151488",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0965-3617",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5013151488",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5013151488",
+        "https://orcid.org/0000-0003-0965-3617",
+        "https://openalex.org/W3084021717",
+        "https://doi.org/10.1016/j.caeai.2020.100001",
+        "https://openalex.org/W3084223432",
+        "https://doi.org/10.1016/j.caeai.2020.100002"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Intelligent Tutoring Systems and Adaptive Learning, Explainable Artificial Intelligence (XAI). Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5006302465",
+      "name": "Laura J. Damschroder",
+      "title": "VA Ann Arbor Healthcare System researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Participatory Visual Research Methods",
+        "climate science communication",
+        "space science communication"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5006302465",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3657-8459",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5006302465",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5006302465",
+        "https://orcid.org/0000-0002-3657-8459",
+        "https://openalex.org/W2020155291",
+        "https://doi.org/10.1186/1748-5908-4-50"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Participatory Visual Research Methods. Manual official-source review is required before any outreach. Additional query match: climate science communication. Additional query match: space science communication."
+    },
+    {
+      "id": "openalex-A5046757708",
+      "name": "David C. Aron",
+      "title": "Louis Stokes Cleveland VA Medical Center researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Participatory Visual Research Methods",
+        "climate science communication",
+        "space science communication"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5046757708",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2837-0797",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5046757708",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5046757708",
+        "https://orcid.org/0000-0002-2837-0797",
+        "https://openalex.org/W2020155291",
+        "https://doi.org/10.1186/1748-5908-4-50"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Participatory Visual Research Methods. Manual official-source review is required before any outreach. Additional query match: climate science communication. Additional query match: space science communication."
+    },
+    {
+      "id": "openalex-A5087503562",
+      "name": "Rosalind E. Keith",
+      "title": "VA Ann Arbor Healthcare System researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Participatory Visual Research Methods",
+        "climate science communication",
+        "space science communication"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5087503562",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9910-5766",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5087503562",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5087503562",
+        "https://orcid.org/0000-0001-9910-5766",
+        "https://openalex.org/W2020155291",
+        "https://doi.org/10.1186/1748-5908-4-50"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Participatory Visual Research Methods. Manual official-source review is required before any outreach. Additional query match: climate science communication. Additional query match: space science communication."
+    },
+    {
+      "id": "openalex-A5048939434",
+      "name": "Julie C. Lowery",
+      "title": "VA Ann Arbor Healthcare System researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Participatory Visual Research Methods",
+        "climate science communication",
+        "space science communication"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5048939434",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3973-7459",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5048939434",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5048939434",
+        "https://orcid.org/0000-0003-3973-7459",
+        "https://openalex.org/W2020155291",
+        "https://doi.org/10.1186/1748-5908-4-50"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Participatory Visual Research Methods. Manual official-source review is required before any outreach. Additional query match: climate science communication. Additional query match: space science communication."
+    },
+    {
+      "id": "openalex-A5008815234",
+      "name": "Susan Kirsh",
+      "title": "Louis Stokes Cleveland VA Medical Center researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Participatory Visual Research Methods",
+        "climate science communication",
+        "space science communication"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5008815234",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5008815234",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5008815234",
+        "https://openalex.org/W2020155291",
+        "https://doi.org/10.1186/1748-5908-4-50"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Participatory Visual Research Methods. Manual official-source review is required before any outreach. Additional query match: climate science communication. Additional query match: space science communication."
+    },
+    {
+      "id": "openalex-A5110900851",
+      "name": "J Alexander",
+      "title": "University of Michigan researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "Health Policy Implementation Science",
+        "Mental Health and Patient Involvement",
+        "Participatory Visual Research Methods",
+        "climate science communication",
+        "space science communication"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5110900851",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5110900851",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5110900851",
+        "https://openalex.org/W2020155291",
+        "https://doi.org/10.1186/1748-5908-4-50"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Mental Health and Patient Involvement, Participatory Visual Research Methods. Manual official-source review is required before any outreach. Additional query match: climate science communication. Additional query match: space science communication."
+    },
+    {
+      "id": "openalex-A5049156533",
+      "name": "Jonathan R. Wolpaw",
+      "title": "Albany State University researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "EEG and Brain-Computer Interfaces",
+        "Neuroscience and Neural Engineering",
+        "Advanced Memory and Neural Computing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5049156533",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0805-1315",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5049156533",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5049156533",
+        "https://orcid.org/0000-0003-0805-1315",
+        "https://openalex.org/W2106006415",
+        "https://doi.org/10.1016/s1388-2457(02)00057-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to EEG and Brain-Computer Interfaces, Neuroscience and Neural Engineering, Advanced Memory and Neural Computing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5051967056",
+      "name": "Niels Birbaumer",
+      "title": "University of Padua researcher connected to science communication public engagement",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "EEG and Brain-Computer Interfaces",
+        "Neuroscience and Neural Engineering",
+        "Advanced Memory and Neural Computing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5051967056",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6786-5127",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5051967056",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5051967056",
+        "https://orcid.org/0000-0002-6786-5127",
+        "https://openalex.org/W2106006415",
+        "https://doi.org/10.1016/s1388-2457(02)00057-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to EEG and Brain-Computer Interfaces, Neuroscience and Neural Engineering, Advanced Memory and Neural Computing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5071068117",
+      "name": "Dennis J. McFarland",
+      "title": "New York State Department of Health researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "EEG and Brain-Computer Interfaces",
+        "Neuroscience and Neural Engineering",
+        "Advanced Memory and Neural Computing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5071068117",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8116-1268",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5071068117",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5071068117",
+        "https://orcid.org/0000-0001-8116-1268",
+        "https://openalex.org/W2106006415",
+        "https://doi.org/10.1016/s1388-2457(02)00057-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to EEG and Brain-Computer Interfaces, Neuroscience and Neural Engineering, Advanced Memory and Neural Computing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5027440225",
+      "name": "Theresa M. Vaughan",
+      "title": "New York State Department of Health researcher connected to science communication public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "science communication public engagement",
+        "EEG and Brain-Computer Interfaces",
+        "Neuroscience and Neural Engineering",
+        "Advanced Memory and Neural Computing"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5027440225",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9548-0371",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5027440225",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5027440225",
+        "https://orcid.org/0000-0002-9548-0371",
+        "https://openalex.org/W2106006415",
+        "https://doi.org/10.1016/s1388-2457(02)00057-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to EEG and Brain-Computer Interfaces, Neuroscience and Neural Engineering, Advanced Memory and Neural Computing. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5081077793",
+      "name": "Victoria I. Marín",
+      "title": "Carl von Ossietzky Universität Oldenburg researcher connected to artificial intelligence education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics",
+        "Artificial Intelligence in Healthcare and Education",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "neuroscience public education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5081077793",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4673-6190",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5081077793",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5081077793",
+        "https://orcid.org/0000-0002-4673-6190",
+        "https://openalex.org/W2981863007",
+        "https://doi.org/10.1186/s41239-019-0171-0"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Artificial Intelligence in Healthcare and Education, Intelligent Tutoring Systems and Adaptive Learning. Manual official-source review is required before any outreach. Additional query match: neuroscience public education."
+    },
+    {
+      "id": "openalex-A5086439158",
+      "name": "Melissa Bond",
+      "title": "Carl von Ossietzky Universität Oldenburg researcher connected to artificial intelligence education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics",
+        "Artificial Intelligence in Healthcare and Education",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "neuroscience public education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5086439158",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8267-031X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5086439158",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5086439158",
+        "https://orcid.org/0000-0002-8267-031X",
+        "https://openalex.org/W2981863007",
+        "https://doi.org/10.1186/s41239-019-0171-0"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Artificial Intelligence in Healthcare and Education, Intelligent Tutoring Systems and Adaptive Learning. Manual official-source review is required before any outreach. Additional query match: neuroscience public education."
+    },
+    {
+      "id": "openalex-A5058780933",
+      "name": "Franziska Gouverneur",
+      "title": "Carl von Ossietzky Universität Oldenburg researcher connected to artificial intelligence education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics",
+        "Artificial Intelligence in Healthcare and Education",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "neuroscience public education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5058780933",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5058780933",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5058780933",
+        "https://openalex.org/W2981863007",
+        "https://doi.org/10.1186/s41239-019-0171-0"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Artificial Intelligence in Healthcare and Education, Intelligent Tutoring Systems and Adaptive Learning. Manual official-source review is required before any outreach. Additional query match: neuroscience public education."
+    },
+    {
+      "id": "openalex-A5101465106",
+      "name": "Lijia Chen",
+      "title": "Yango University researcher connected to artificial intelligence education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "AI in Service Interactions",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "Online Learning and Analytics"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5101465106",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9172-1599",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5101465106",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5101465106",
+        "https://orcid.org/0000-0001-9172-1599",
+        "https://openalex.org/W3017131514",
+        "https://doi.org/10.1109/access.2020.2988510"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to AI in Service Interactions, Intelligent Tutoring Systems and Adaptive Learning, Online Learning and Analytics. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5100748906",
+      "name": "Pingping Chen",
+      "title": "Fuzhou University researcher connected to artificial intelligence education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "AI in Service Interactions",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "Online Learning and Analytics"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5100748906",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2876-653X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5100748906",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5100748906",
+        "https://orcid.org/0000-0002-2876-653X",
+        "https://openalex.org/W3017131514",
+        "https://doi.org/10.1109/access.2020.2988510"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to AI in Service Interactions, Intelligent Tutoring Systems and Adaptive Learning, Online Learning and Analytics. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5033268753",
+      "name": "Zhijian Lin",
+      "title": "Fuzhou University researcher connected to artificial intelligence education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "AI in Service Interactions",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "Online Learning and Analytics"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5033268753",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7609-1143",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5033268753",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5033268753",
+        "https://orcid.org/0000-0002-7609-1143",
+        "https://openalex.org/W3017131514",
+        "https://doi.org/10.1109/access.2020.2988510"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to AI in Service Interactions, Intelligent Tutoring Systems and Adaptive Learning, Online Learning and Analytics. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5078013390",
+      "name": "Edward A. G. Schuur",
+      "title": "Northern Arizona University researcher connected to climate science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "climate science communication",
+        "Climate change and permafrost",
+        "Cryospheric studies and observations",
+        "Methane Hydrates and Related Phenomena"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5078013390",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1096-2436",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5078013390",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5078013390",
+        "https://orcid.org/0000-0002-1096-2436",
+        "https://openalex.org/W2009225674",
+        "https://doi.org/10.1038/nature14338"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Climate change and permafrost, Cryospheric studies and observations, Methane Hydrates and Related Phenomena. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5078716623",
+      "name": "A. David McGuire",
+      "title": "United States Geological Survey researcher connected to climate science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "climate science communication",
+        "Climate change and permafrost",
+        "Cryospheric studies and observations",
+        "Methane Hydrates and Related Phenomena"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5078716623",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4646-0750",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5078716623",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5078716623",
+        "https://orcid.org/0000-0003-4646-0750",
+        "https://openalex.org/W2009225674",
+        "https://doi.org/10.1038/nature14338"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Climate change and permafrost, Cryospheric studies and observations, Methane Hydrates and Related Phenomena. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5065376817",
+      "name": "Christina Schädel",
+      "title": "Northern Arizona University researcher connected to climate science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "climate science communication",
+        "Climate change and permafrost",
+        "Cryospheric studies and observations",
+        "Methane Hydrates and Related Phenomena"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5065376817",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2145-6210",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5065376817",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5065376817",
+        "https://orcid.org/0000-0003-2145-6210",
+        "https://openalex.org/W2009225674",
+        "https://doi.org/10.1038/nature14338"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Climate change and permafrost, Cryospheric studies and observations, Methane Hydrates and Related Phenomena. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5046520181",
+      "name": "Guido Grosse",
+      "title": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung researcher connected to climate science communication",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "climate science communication",
+        "Climate change and permafrost",
+        "Cryospheric studies and observations",
+        "Methane Hydrates and Related Phenomena"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5046520181",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5895-2141",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5046520181",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5046520181",
+        "https://orcid.org/0000-0001-5895-2141",
+        "https://openalex.org/W2009225674",
+        "https://doi.org/10.1038/nature14338"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Climate change and permafrost, Cryospheric studies and observations, Methane Hydrates and Related Phenomena. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5068725253",
+      "name": "J. W. Harden",
+      "title": "United States Geological Survey researcher connected to climate science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "climate science communication",
+        "Climate change and permafrost",
+        "Cryospheric studies and observations",
+        "Methane Hydrates and Related Phenomena"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5068725253",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6570-8259",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5068725253",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5068725253",
+        "https://orcid.org/0000-0002-6570-8259",
+        "https://openalex.org/W2009225674",
+        "https://doi.org/10.1038/nature14338"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Climate change and permafrost, Cryospheric studies and observations, Methane Hydrates and Related Phenomena. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5034383882",
+      "name": "Daniel J. Hayes",
+      "title": "Oak Ridge National Laboratory researcher connected to climate science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "climate science communication",
+        "Climate change and permafrost",
+        "Cryospheric studies and observations",
+        "Methane Hydrates and Related Phenomena"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5034383882",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-3011-7934",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5034383882",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5034383882",
+        "https://orcid.org/0000-0002-3011-7934",
+        "https://openalex.org/W2009225674",
+        "https://doi.org/10.1038/nature14338"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Climate change and permafrost, Cryospheric studies and observations, Methane Hydrates and Related Phenomena. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5108520736",
+      "name": "Claude E. Shannon",
+      "title": "OpenAlex-indexed researcher connected to space science communication",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "space science communication",
+        "stochastic dynamics and bifurcation",
+        "Opinion Dynamics and Social Influence",
+        "Gene Regulatory Network Analysis"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5108520736",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5108520736",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5108520736",
+        "https://openalex.org/W2041404167",
+        "https://doi.org/10.1002/j.1538-7305.1948.tb00917.x"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to stochastic dynamics and bifurcation, Opinion Dynamics and Social Influence, Gene Regulatory Network Analysis. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5077667471",
+      "name": "R. C. Edgar",
+      "title": "University of California, Berkeley researcher connected to space science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "space science communication",
+        "Genomics and Phylogenetic Studies",
+        "Protein Structure and Dynamics",
+        "Bacteriophages and microbial interactions"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5077667471",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7355-2541",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5077667471",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5077667471",
+        "https://orcid.org/0000-0001-7355-2541",
+        "https://openalex.org/W1519266993",
+        "https://doi.org/10.1186/1471-2105-5-113"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Genomics and Phylogenetic Studies, Protein Structure and Dynamics, Bacteriophages and microbial interactions. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5042426564",
+      "name": "Suoqin Jin",
+      "title": "University of California, Irvine researcher connected to space science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "space science communication",
+        "Advanced MIMO Systems Optimization",
+        "Cooperative Communication and Network Coding",
+        "Wireless Body Area Networks"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5042426564",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5131-0215",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5042426564",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5042426564",
+        "https://orcid.org/0000-0002-5131-0215",
+        "https://openalex.org/W3132661792",
+        "https://doi.org/10.1038/s41467-021-21246-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Advanced MIMO Systems Optimization, Cooperative Communication and Network Coding, Wireless Body Area Networks. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5100414892",
+      "name": "Lihua Zhang",
+      "title": "University of California, Irvine researcher connected to space science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "space science communication",
+        "Advanced MIMO Systems Optimization",
+        "Cooperative Communication and Network Coding",
+        "Wireless Body Area Networks"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5100414892",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7841-5562",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5100414892",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5100414892",
+        "https://orcid.org/0000-0001-7841-5562",
+        "https://openalex.org/W3132661792",
+        "https://doi.org/10.1038/s41467-021-21246-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Advanced MIMO Systems Optimization, Cooperative Communication and Network Coding, Wireless Body Area Networks. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5006874402",
+      "name": "Raúl Ramos",
+      "title": "University of California, Irvine researcher connected to space science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "space science communication",
+        "Advanced MIMO Systems Optimization",
+        "Cooperative Communication and Network Coding",
+        "Wireless Body Area Networks"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5006874402",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0853-1028",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5006874402",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5006874402",
+        "https://orcid.org/0000-0003-0853-1028",
+        "https://openalex.org/W3132661792",
+        "https://doi.org/10.1038/s41467-021-21246-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Advanced MIMO Systems Optimization, Cooperative Communication and Network Coding, Wireless Body Area Networks. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5066898189",
+      "name": "Peggy Myung",
+      "title": "Yale University researcher connected to space science communication",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "space science communication",
+        "Advanced MIMO Systems Optimization",
+        "Cooperative Communication and Network Coding",
+        "Wireless Body Area Networks"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5066898189",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2970-4170",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5066898189",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5066898189",
+        "https://orcid.org/0000-0002-2970-4170",
+        "https://openalex.org/W3132661792",
+        "https://doi.org/10.1038/s41467-021-21246-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Advanced MIMO Systems Optimization, Cooperative Communication and Network Coding, Wireless Body Area Networks. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5036855560",
+      "name": "Dragan Gašević",
+      "title": "Monash University researcher connected to artificial intelligence education",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics",
+        "Intelligent Tutoring Systems and Adaptive Learning",
+        "Explainable Artificial Intelligence (XAI)",
+        "Artificial Intelligence in Healthcare and Education"
+      ],
+      "fitScore": 82,
+      "reachScore": 91,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5036855560",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9265-1908",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5036855560",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5036855560",
+        "https://orcid.org/0000-0001-9265-1908",
+        "https://openalex.org/W3084021717",
+        "https://doi.org/10.1016/j.caeai.2020.100001",
+        "https://openalex.org/W4280651558",
+        "https://doi.org/10.1016/j.caeai.2022.100074"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Intelligent Tutoring Systems and Adaptive Learning, Explainable Artificial Intelligence (XAI). Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5073802250",
+      "name": "Mel Slater",
+      "title": "Institució Catalana de Recerca i Estudis Avançats researcher connected to neuroscience public education",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Virtual Reality Applications and Impacts",
+        "Augmented Reality Applications",
+        "Human-Automation Interaction and Safety"
+      ],
+      "fitScore": 76,
+      "reachScore": 91,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5073802250",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6223-0050",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5073802250",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5073802250",
+        "https://orcid.org/0000-0002-6223-0050",
+        "https://openalex.org/W2562199918",
+        "https://doi.org/10.3389/frobt.2016.00074"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Virtual Reality Applications and Impacts, Augmented Reality Applications, Human-Automation Interaction and Safety. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5019304045",
+      "name": "María V. Sánchez-Vives",
+      "title": "Institució Catalana de Recerca i Estudis Avançats researcher connected to neuroscience public education",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Virtual Reality Applications and Impacts",
+        "Augmented Reality Applications",
+        "Human-Automation Interaction and Safety"
+      ],
+      "fitScore": 76,
+      "reachScore": 91,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5019304045",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8437-9083",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5019304045",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5019304045",
+        "https://orcid.org/0000-0002-8437-9083",
+        "https://openalex.org/W2562199918",
+        "https://doi.org/10.3389/frobt.2016.00074"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Virtual Reality Applications and Impacts, Augmented Reality Applications, Human-Automation Interaction and Safety. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5035167001",
+      "name": "Ching Sing Chai",
+      "title": "Chinese University of Hong Kong researcher connected to artificial intelligence education",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Motivation and Self-Concept in Sports",
+        "Online Learning and Analytics"
+      ],
+      "fitScore": 82,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5035167001",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6298-4813",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5035167001",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5035167001",
+        "https://orcid.org/0000-0002-6298-4813",
+        "https://openalex.org/W3041706899",
+        "https://doi.org/10.3390/su12145568",
+        "https://openalex.org/W3156614709",
+        "https://doi.org/10.1155/2021/8812542"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Motivation and Self-Concept in Sports, Online Learning and Analytics. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5071196836",
+      "name": "David Baidoo-Anu",
+      "title": "Queen's University researcher connected to artificial intelligence education",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Artificial Intelligence in Healthcare and Education",
+        "COVID-19 diagnosis using AI"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5071196836",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4628-3459",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5071196836",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5071196836",
+        "https://orcid.org/0000-0003-4628-3459",
+        "https://openalex.org/W4389437528",
+        "https://doi.org/10.61969/jai.1337500"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Artificial Intelligence in Healthcare and Education, COVID-19 diagnosis using AI. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5055311173",
+      "name": "Leonhard Schilbach",
+      "title": "University Hospital Cologne researcher connected to neuroscience public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Action Observation and Synchronization",
+        "Psychology of Moral and Emotional Judgment",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5055311173",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5547-8309",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5055311173",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5055311173",
+        "https://orcid.org/0000-0001-5547-8309",
+        "https://openalex.org/W2096578021",
+        "https://doi.org/10.1017/s0140525x12000660"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Action Observation and Synchronization, Psychology of Moral and Emotional Judgment, Neural and Behavioral Psychology Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5102739152",
+      "name": "Bert Timmermans",
+      "title": "University of Aberdeen researcher connected to neuroscience public education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Action Observation and Synchronization",
+        "Psychology of Moral and Emotional Judgment",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5102739152",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0404-8912",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5102739152",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5102739152",
+        "https://orcid.org/0000-0002-0404-8912",
+        "https://openalex.org/W2096578021",
+        "https://doi.org/10.1017/s0140525x12000660"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Action Observation and Synchronization, Psychology of Moral and Emotional Judgment, Neural and Behavioral Psychology Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5044968679",
+      "name": "Vasudevi Reddy",
+      "title": "University of Portsmouth researcher connected to neuroscience public education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Action Observation and Synchronization",
+        "Psychology of Moral and Emotional Judgment",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5044968679",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-1499-2058",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5044968679",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5044968679",
+        "https://orcid.org/0000-0003-1499-2058",
+        "https://openalex.org/W2096578021",
+        "https://doi.org/10.1017/s0140525x12000660"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Action Observation and Synchronization, Psychology of Moral and Emotional Judgment, Neural and Behavioral Psychology Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5008876126",
+      "name": "Gary Bente",
+      "title": "University of Cologne researcher connected to neuroscience public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Action Observation and Synchronization",
+        "Psychology of Moral and Emotional Judgment",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5008876126",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0005-0819-8132",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5008876126",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5008876126",
+        "https://orcid.org/0009-0005-0819-8132",
+        "https://openalex.org/W2096578021",
+        "https://doi.org/10.1017/s0140525x12000660"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Action Observation and Synchronization, Psychology of Moral and Emotional Judgment, Neural and Behavioral Psychology Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032044708",
+      "name": "Tobias Schlicht",
+      "title": "Ruhr University Bochum researcher connected to neuroscience public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Action Observation and Synchronization",
+        "Psychology of Moral and Emotional Judgment",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032044708",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1829-9253",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032044708",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032044708",
+        "https://orcid.org/0000-0002-1829-9253",
+        "https://openalex.org/W2096578021",
+        "https://doi.org/10.1017/s0140525x12000660"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Action Observation and Synchronization, Psychology of Moral and Emotional Judgment, Neural and Behavioral Psychology Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5040807850",
+      "name": "Kai Vogeley",
+      "title": "Forschungszentrum Jülich researcher connected to neuroscience public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Action Observation and Synchronization",
+        "Psychology of Moral and Emotional Judgment",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5040807850",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5891-5831",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5040807850",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5040807850",
+        "https://orcid.org/0000-0002-5891-5831",
+        "https://openalex.org/W2096578021",
+        "https://doi.org/10.1017/s0140525x12000660"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Action Observation and Synchronization, Psychology of Moral and Emotional Judgment, Neural and Behavioral Psychology Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5088908924",
+      "name": "Elaine Moran",
+      "title": "Adelphi University researcher connected to neuroscience public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "neuroscience public education",
+        "Biotechnology and Related Fields",
+        "Health Systems, Economic Evaluations, Quality of Life",
+        "Legal and Constitutional Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5088908924",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6624-5738",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5088908924",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5088908924",
+        "https://orcid.org/0000-0001-6624-5738",
+        "https://openalex.org/W4235328403",
+        "https://doi.org/10.1007/978-1-349-94186-5_84"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Biotechnology and Related Fields, Health Systems, Economic Evaluations, Quality of Life, Legal and Constitutional Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5091447736",
+      "name": "Ştefan Popenici",
+      "title": "Charles Darwin University researcher connected to artificial intelligence education",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics"
+      ],
+      "fitScore": 68,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5091447736",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0323-2945",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5091447736",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5091447736",
+        "https://orcid.org/0000-0002-0323-2945",
+        "https://openalex.org/W2770717476",
+        "https://doi.org/10.1186/s41039-017-0062-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5063991201",
+      "name": "Sharon Kerr",
+      "title": "NSW Department of Education researcher connected to artificial intelligence education",
+      "country": "Australia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "science",
+      "subcategories": [
+        "artificial intelligence education",
+        "Online Learning and Analytics"
+      ],
+      "fitScore": 68,
+      "reachScore": 90,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5063991201",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1111-0542",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5063991201",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5063991201",
+        "https://orcid.org/0000-0002-1111-0542",
+        "https://openalex.org/W2770717476",
+        "https://doi.org/10.1186/s41039-017-0062-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics. Manual official-source review is required before any outreach."
+    }
+  ]
+}

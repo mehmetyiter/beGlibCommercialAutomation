@@ -1,0 +1,39 @@
+{
+  "approvalStatus": "approved",
+  "campaignId": "campaign_host_pilot_en_001",
+  "campaignMemberId": "member_host_pilot_0001",
+  "preferredLocale": "en",
+  "countryCode": "GB",
+  "requestedAt": "2026-07-13T15:00:00.000Z",
+  "expiresAt": "2026-08-12T15:00:00.000Z",
+  "candidate": {
+    "id": "candidate_pilot_0001",
+    "name": "Ada Lovelace",
+    "status": "approved",
+    "consentStatus": "public-business-contact",
+    "riskLevel": "low",
+    "primaryCategory": "science",
+    "subcategories": ["computing", "mathematics"],
+    "sourceUrls": ["https://example.org/ada/contact"]
+  },
+  "contactRoute": {
+    "type": "public-business-email",
+    "value": "ada.lovelace@example.org",
+    "sourceUrl": "https://example.org/ada/contact",
+    "verifiedAt": "2026-07-12"
+  },
+  "association": {
+    "id": "association_pilot_0001",
+    "associationType": "candidate_owned",
+    "recipientKind": "candidate",
+    "evidenceStatus": "human_verified",
+    "sourceEvidenceRef": "evidence:first_party_profile:0001",
+    "reviewerRef": "reviewer:operator_001",
+    "verificationMethod": "public_first_party_page",
+    "verifiedAt": "2026-07-12T14:00:00.000Z",
+    "verificationFreshUntil": "2027-01-12T14:00:00.000Z",
+    "suppressionStatus": "clear",
+    "complianceDecision": "approved",
+    "contactPurpose": "host_invitation"
+  }
+}

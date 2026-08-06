@@ -1,0 +1,600 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-medicine",
+  "createdAt": "2026-06-15T03:18:18.285Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / medicine",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5000971888",
+      "name": "Nancy K. Janz",
+      "title": "Michigan Department of Health and Human Services researcher connected to medical education public health doctor",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "medical education public health doctor",
+        "Behavioral Health and Interventions",
+        "Healthcare Policy and Management",
+        "Health and Wellbeing Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5000971888",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5000971888",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5000971888",
+        "https://openalex.org/W2134740567",
+        "https://doi.org/10.1177/109019818401100101"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Healthcare Policy and Management, Health and Wellbeing Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5111060972",
+      "name": "Marshall H. Becker",
+      "title": "Michigan Department of Health and Human Services researcher connected to medical education public health doctor",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "medical education public health doctor",
+        "Behavioral Health and Interventions",
+        "Healthcare Policy and Management",
+        "Health and Wellbeing Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5111060972",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5111060972",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5111060972",
+        "https://openalex.org/W2134740567",
+        "https://doi.org/10.1177/109019818401100101"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Behavioral Health and Interventions, Healthcare Policy and Management, Health and Wellbeing Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5052862539",
+      "name": "Karen Barnett",
+      "title": "University of Dundee researcher connected to medical education public health doctor",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "medical education public health doctor",
+        "Chronic Disease Management Strategies",
+        "Primary Care and Health Outcomes",
+        "Diabetes Management and Education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5052862539",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8012-7348",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5052862539",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5052862539",
+        "https://orcid.org/0000-0002-8012-7348",
+        "https://openalex.org/W2127960841",
+        "https://doi.org/10.1016/s0140-6736(12)60240-2"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Chronic Disease Management Strategies, Primary Care and Health Outcomes, Diabetes Management and Education. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5010317706",
+      "name": "Russell E. Glasgow",
+      "title": "Cancer Research Center researcher connected to preventive medicine public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "preventive medicine public education",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010317706",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4218-3231",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010317706",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010317706",
+        "https://orcid.org/0000-0003-4218-3231",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5084483753",
+      "name": "Thomas Vogt",
+      "title": "OpenAlex-indexed researcher connected to preventive medicine public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "preventive medicine public education",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5084483753",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2824-5005",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5084483753",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5084483753",
+        "https://orcid.org/0000-0002-2824-5005",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5007332969",
+      "name": "Shawn M. Boles",
+      "title": "OpenAlex-indexed researcher connected to preventive medicine public education",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "preventive medicine public education",
+        "Health Policy Implementation Science",
+        "Public Health Policies and Education",
+        "Community Health and Development"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5007332969",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5007332969",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5007332969",
+        "https://openalex.org/W2120079020",
+        "https://doi.org/10.2105/ajph.89.9.1322"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Health Policy Implementation Science, Public Health Policies and Education, Community Health and Development. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5042246049",
+      "name": "Jianbo Lai",
+      "title": "First Affiliated Hospital Zhejiang University researcher connected to psychiatry mental health education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatry mental health education",
+        "COVID-19 and Mental Health",
+        "Healthcare professionals’ stress and burnout",
+        "Long-Term Effects of COVID-19"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5042246049",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8137-7701",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5042246049",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5042246049",
+        "https://orcid.org/0000-0002-8137-7701",
+        "https://openalex.org/W3012832369",
+        "https://doi.org/10.1001/jamanetworkopen.2020.3976"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Healthcare professionals’ stress and burnout, Long-Term Effects of COVID-19. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5089739336",
+      "name": "Simeng Ma",
+      "title": "Renmin Hospital of Wuhan University researcher connected to psychiatry mental health education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatry mental health education",
+        "COVID-19 and Mental Health",
+        "Healthcare professionals’ stress and burnout",
+        "Long-Term Effects of COVID-19"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5089739336",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1775-5202",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5089739336",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5089739336",
+        "https://orcid.org/0000-0002-1775-5202",
+        "https://openalex.org/W3012832369",
+        "https://doi.org/10.1001/jamanetworkopen.2020.3976"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Healthcare professionals’ stress and burnout, Long-Term Effects of COVID-19. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5100619277",
+      "name": "Ying Wang",
+      "title": "Wuhan University researcher connected to psychiatry mental health education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "psychiatry mental health education",
+        "COVID-19 and Mental Health",
+        "Healthcare professionals’ stress and burnout",
+        "Long-Term Effects of COVID-19"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5100619277",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6058-9131",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5100619277",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5100619277",
+        "https://orcid.org/0000-0002-6058-9131",
+        "https://openalex.org/W3012832369",
+        "https://doi.org/10.1001/jamanetworkopen.2020.3976"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to COVID-19 and Mental Health, Healthcare professionals’ stress and burnout, Long-Term Effects of COVID-19. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5112999757",
+      "name": "Na Zhu",
+      "title": "Chinese Academy of Medical Sciences & Peking Union Medical College researcher connected to digital health patient education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "digital health patient education",
+        "SARS-CoV-2 and COVID-19 Research",
+        "Viral gastroenteritis research and epidemiology",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5112999757",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0001-5499-8756",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5112999757",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5112999757",
+        "https://orcid.org/0009-0001-5499-8756",
+        "https://openalex.org/W3001897055",
+        "https://doi.org/10.1056/nejmoa2001017"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, Viral gastroenteritis research and epidemiology, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5043631759",
+      "name": "Dingyu Zhang",
+      "title": "Chinese Academy of Medical Sciences & Peking Union Medical College researcher connected to digital health patient education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "digital health patient education",
+        "SARS-CoV-2 and COVID-19 Research",
+        "Viral gastroenteritis research and epidemiology",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5043631759",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9277-5705",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5043631759",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5043631759",
+        "https://orcid.org/0000-0002-9277-5705",
+        "https://openalex.org/W3001897055",
+        "https://doi.org/10.1056/nejmoa2001017"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, Viral gastroenteritis research and epidemiology, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5101925685",
+      "name": "Xingwang Li",
+      "title": "Chinese Academy of Medical Sciences & Peking Union Medical College researcher connected to digital health patient education",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "medicine",
+      "subcategories": [
+        "digital health patient education",
+        "SARS-CoV-2 and COVID-19 Research",
+        "Viral gastroenteritis research and epidemiology",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5101925685",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0001-5424-6722",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5101925685",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5101925685",
+        "https://orcid.org/0009-0001-5424-6722",
+        "https://openalex.org/W3001897055",
+        "https://doi.org/10.1056/nejmoa2001017"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, Viral gastroenteritis research and epidemiology, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    }
+  ]
+}

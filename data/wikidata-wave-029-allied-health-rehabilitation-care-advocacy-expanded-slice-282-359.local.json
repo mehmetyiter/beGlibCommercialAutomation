@@ -1,0 +1,3237 @@
+{
+  "batchId": "wikidata-wave-029-allied-health-rehabilitation-care-advocacy-expanded-slice-282-359",
+  "createdAt": "2026-06-19T03:33:12.608Z",
+  "sourceLabel": "Wikidata allied health, rehabilitation, dental care, birth support, elder care, disability advocacy, patient advocacy, and addiction-care occupation discovery expanded slice 282-359",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged expanded allied-health, rehabilitation, birth-care, elder-care, disability-advocacy, patient-advocacy, and addiction-care wave from public Wikidata metadata. Discovery-only; every candidate is retained regardless of star rating, and health/vulnerable-population records require human/legal review before campaign use. Slice contains newly merged candidates from offsets 032-056 plus retry for contact-route discovery.",
+  "candidates": [
+    {
+      "id": "wikidata-Q3287316",
+      "name": "Mar Arranz",
+      "title": "Spanish volleyball player connected to dental hygienist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "dental-care",
+      "subcategories": [
+        "dental hygienist",
+        "Spanish volleyball player"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3287316",
+          "verified": true
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/maría-del-mar-arranz-boyero-a58605172",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3287316",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3287316",
+        "https://www.linkedin.com/in/maría-del-mar-arranz-boyero-a58605172"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as dental hygienist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q17277114",
+      "name": "Veronika Fey Křen",
+      "title": "doula connected to doula",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "doula",
+        "lactation consultant"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q17277114",
+          "verified": true
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/veronika-fey-křen-3534b988",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q17277114",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q17277114",
+        "https://www.linkedin.com/in/veronika-fey-křen-3534b988"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as doula. Social/profile links are discovery-only and require human verification before use. Additional query match: lactation consultant."
+    },
+    {
+      "id": "wikidata-Q124691309",
+      "name": "Inmaculada Sánchez Ramos",
+      "title": "Spanish telecommunications engineer connected to optometrist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optometrist",
+        "Spanish telecommunications engineer",
+        "optician"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124691309",
+          "verified": true
+        },
+        {
+          "platform": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/inmaculada-sanchez-ramos-ph-d",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124691309",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124691309",
+        "https://www.linkedin.com/in/inmaculada-sanchez-ramos-ph-d"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optometrist. Social/profile links are discovery-only and require human verification before use. Additional query match: optician."
+    },
+    {
+      "id": "wikidata-Q60652192",
+      "name": "Barbara Bień",
+      "title": "Polish physician, internist, geriatrician connected to geriatrician",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "geriatrician",
+        "Polish physician, internist, geriatrician"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q60652192",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2953-989X",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q60652192",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q60652192",
+        "https://orcid.org/0000-0002-2953-989X"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as geriatrician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96082103",
+      "name": "Benjamin Bocio Richardson",
+      "title": "Humanitarian connected to health activist",
+      "country": "Dominican Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "patient-advocacy",
+      "subcategories": [
+        "health activist",
+        "Humanitarian"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96082103",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/drbociorichardson/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96082103",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96082103",
+        "https://www.instagram.com/drbociorichardson/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as health activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12713554",
+      "name": "Astrid Bergland",
+      "title": "Norwegian physiotherapist connected to physiotherapist",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Norwegian physiotherapist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12713554",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4349-8200",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12713554",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12713554",
+        "https://orcid.org/0000-0003-4349-8200"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q83373076",
+      "name": "Michaela Kiersch",
+      "title": "American rock climber connected to occupational therapist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "occupational therapist",
+        "American rock climber"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q83373076",
+          "verified": true
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/michaelakiersch/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q83373076",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q83373076",
+        "https://www.instagram.com/michaelakiersch/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as occupational therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q22085398",
+      "name": "Liat Kishon-Rabin",
+      "title": "researcher connected to speech and language therapist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "researcher"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q22085398",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0516-6603",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q22085398",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q22085398",
+        "https://orcid.org/0000-0002-0516-6603"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16773154",
+      "name": "Iva Holmerová",
+      "title": "Czech doctor connected to gerontologist",
+      "country": "Czech Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist",
+        "Czech doctor"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16773154",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2375-4174",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16773154",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16773154",
+        "https://orcid.org/0000-0003-2375-4174"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q22928255",
+      "name": "Yury Gushcho",
+      "title": "Soviet scientist, professor and gerontology connected to gerontologist",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist",
+        "Soviet scientist, professor and gerontology"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q22928255",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.yuryguscho.com/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q22928255",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q22928255",
+        "http://www.yuryguscho.com/"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q85868796",
+      "name": "Andréa Werner",
+      "title": "Brazilian journalist, politician and activist connected to disability rights activist",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist",
+        "Brazilian journalist, politician and activist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q85868796",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/andreawerner_",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q85868796",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q85868796",
+        "https://x.com/andreawerner_"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q97704660",
+      "name": "Vahid Rajabloo",
+      "title": "Iranian entrepreneur connected to disability rights activist",
+      "country": "Iran",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist",
+        "Iranian entrepreneur"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q97704660",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/vrajabloo",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q97704660",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q97704660",
+        "https://x.com/vrajabloo"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11624592",
+      "name": "Kokoro Fujinami",
+      "title": "Japanese physiotherapist connected to physiotherapist",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Japanese physiotherapist"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11624592",
+          "verified": true
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/fujinamicocoro",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11624592",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11624592",
+        "https://x.com/fujinamicocoro"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q16525471",
+      "name": "Agnès Ledig",
+      "title": "French writer connected to midwife",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "French writer"
+      ],
+      "fitScore": 66,
+      "reachScore": 55,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q16525471",
+          "verified": true
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.agnesledig.fr/",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q16525471",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q16525471",
+        "http://www.agnesledig.fr/"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107847",
+      "name": "Dieter Lösgen",
+      "title": "German judoka connected to physiotherapist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "German judoka"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107847",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107847",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107847"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q518722",
+      "name": "André Gatzke",
+      "title": "German television presenter connected to occupational therapist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "occupational therapist",
+        "German television presenter"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q518722",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q518722",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q518722"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as occupational therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3157795",
+      "name": "Jacqueline Rousseaux",
+      "title": "Belgian politician and lawyer connected to occupational therapist",
+      "country": "Belgium",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "occupational therapist",
+        "Belgian politician and lawyer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3157795",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3157795",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3157795"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as occupational therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q90173",
+      "name": "Lisa Mayer",
+      "title": "poet connected to speech and language therapist",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "poet"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q90173",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q90173",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q90173"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q40067027",
+      "name": "Pablo Routin",
+      "title": "Uruguayan singer and composer connected to audiologist",
+      "country": "Uruguay",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "audiologist",
+        "Uruguayan singer and composer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q40067027",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q40067027",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q40067027"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as audiologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q65465109",
+      "name": "Jaime Casas Pla",
+      "title": "audiologist connected to audiologist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "audiologist",
+        "optician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q65465109",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q65465109",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q65465109"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as audiologist. Social/profile links are discovery-only and require human verification before use. Additional query match: optician."
+    },
+    {
+      "id": "wikidata-Q686502",
+      "name": "Alain Afflelou",
+      "title": "French businessperson connected to optician",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optician",
+        "French businessperson"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q686502",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q686502",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q686502"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2209798",
+      "name": "Sabine Landgraf",
+      "title": "German politician connected to laboratory technician",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "laboratory technician",
+        "German politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2209798",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2209798",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2209798"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as laboratory technician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q15838221",
+      "name": "Nura Farah",
+      "title": "Finnish writer and lab technician connected to laboratory technician",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "laboratory technician",
+        "Finnish writer and lab technician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q15838221",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q15838221",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q15838221"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as laboratory technician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q1132775",
+      "name": "Corina Bomann",
+      "title": "German writer connected to dental assistant",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "dental-care",
+      "subcategories": [
+        "dental assistant",
+        "German writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q1132775",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q1132775",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q1132775"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as dental assistant. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q14085903",
+      "name": "Isabel Cabezas Regaño",
+      "title": "Spanish politician connected to dental assistant",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "dental-care",
+      "subcategories": [
+        "dental assistant",
+        "Spanish politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q14085903",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q14085903",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q14085903"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as dental assistant. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q131381236",
+      "name": "Béatrice Marie Simporé",
+      "title": "Burkinabe writer connected to midwife",
+      "country": "Burkina Faso",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "Burkinabe writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q131381236",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q131381236",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q131381236"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q82959530",
+      "name": "Petra Sovová",
+      "title": "Czech activist (*1972) connected to doula",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "doula",
+        "Czech activist (*1972)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q82959530",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q82959530",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q82959530"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as doula. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q104212645",
+      "name": "Alba Padró",
+      "title": "lactation consultant connected to lactation consultant",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "lactation consultant"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q104212645",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q104212645",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q104212645"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as lactation consultant. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3418808",
+      "name": "Randall Smith",
+      "title": "Canadian composer connected to gerontologist",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist",
+        "Canadian composer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3418808",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3418808",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3418808"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use. Additional query match: gerontologist."
+    },
+    {
+      "id": "wikidata-Q4987339",
+      "name": "Barbro Beck-Friis",
+      "title": "Swedish physician connected to geriatrician",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "geriatrician",
+        "Swedish physician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4987339",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4987339",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4987339"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as geriatrician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q21066188",
+      "name": "Amy Sequenzia",
+      "title": "facilitated communication user connected to disability rights activist",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist",
+        "facilitated communication user"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q21066188",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q21066188",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q21066188"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4178472",
+      "name": "Vladimir Zhdanov",
+      "title": "health activist connected to health activist",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "patient-advocacy",
+      "subcategories": [
+        "health activist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4178472",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4178472",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4178472"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as health activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q19859253",
+      "name": "Naomi Hadas Lidor",
+      "title": "occupational therapist connected to occupational therapist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "occupational therapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q19859253",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q19859253",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q19859253"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as occupational therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q46996773",
+      "name": "Anette Mortensen",
+      "title": "Danish politician connected to occupational therapist",
+      "country": "Kingdom of Denmark",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "occupational therapist",
+        "Danish politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q46996773",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q46996773",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q46996773"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as occupational therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4025923",
+      "name": "Gabriela Pulgar",
+      "title": "Chilean model connected to speech and language therapist",
+      "country": "Chile",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Chilean model"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4025923",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4025923",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4025923"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4284825",
+      "name": "Aina Matīsa",
+      "title": "Latvian theater director and speech therapist connected to speech and language therapist",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Latvian theater director and speech therapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4284825",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4284825",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4284825"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12338763",
+      "name": "Tamra Rosanes",
+      "title": "Danish-American singer, songwriter connected to speech and language therapist",
+      "country": "Kingdom of Denmark",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Danish-American singer, songwriter"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12338763",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12338763",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12338763"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12370180",
+      "name": "Merit Hallap",
+      "title": "Estonian special pedagogue and speech therapist (born 1969) connected to speech and language therapist",
+      "country": "Estonia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Estonian special pedagogue and speech therapist (born 1969)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12370180",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12370180",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12370180"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q136231251",
+      "name": "Hadar Miller",
+      "title": "Israeli journalist connected to optometrist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optometrist",
+        "Israeli journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136231251",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136231251",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136231251"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optometrist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q15943727",
+      "name": "Susanne Klemm",
+      "title": "optician connected to optician",
+      "country": "Kingdom of the Netherlands",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q15943727",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q15943727",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q15943727"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30276586",
+      "name": "Monika Hirschle",
+      "title": "German actress connected to optician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optician",
+        "German actress"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30276586",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30276586",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30276586"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q21402681",
+      "name": "Renate Preuß",
+      "title": "librarian and writer connected to laboratory technician",
+      "country": "German Democratic Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "laboratory technician",
+        "librarian and writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q21402681",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q21402681",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q21402681"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as laboratory technician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q52083641",
+      "name": "Mechthild Groß",
+      "title": "midwife connected to midwife",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q52083641",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q52083641",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q52083641"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q51882478",
+      "name": "Berenice Piana",
+      "title": "disability rights activist connected to disability rights activist",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q51882478",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q51882478",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q51882478"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q138732563",
+      "name": "Mallah Enow Tabot",
+      "title": "Cameroonian journalist connected to health activist",
+      "country": "Cameroon",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "patient-advocacy",
+      "subcategories": [
+        "health activist",
+        "Cameroonian journalist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q138732563",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q138732563",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q138732563"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as health activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11967714",
+      "name": "Erik Hanstad",
+      "title": "Norwegian politician connected to physiotherapist",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Norwegian politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11967714",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11967714",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11967714"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11996175",
+      "name": "Preben Jørgensen",
+      "title": "Norwegian footballer connected to physiotherapist",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Norwegian footballer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11996175",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11996175",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11996175"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12044125",
+      "name": "Pavel Kolář",
+      "title": "Czech physiotherapist connected to physiotherapist",
+      "country": "Czech Republic",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Czech physiotherapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12044125",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12044125",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12044125"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q114342423",
+      "name": "Francesca Barro",
+      "title": "occupational therapist connected to occupational therapist",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "occupational therapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q114342423",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q114342423",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q114342423"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as occupational therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q12404146",
+      "name": "Esther Dromi",
+      "title": "speech and language therapist connected to speech and language therapist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q12404146",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q12404146",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q12404146"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q13188486",
+      "name": "Jan Graf",
+      "title": "German writer and musician connected to speech and language therapist",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "German writer and musician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q13188486",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q13188486",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q13188486"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q14098890",
+      "name": "María Consolación Pablos Labajo",
+      "title": "Spanish politician connected to speech and language therapist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Spanish politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q14098890",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q14098890",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q14098890"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q48694645",
+      "name": "Veit Scherzer",
+      "title": "German phalerist, editor and publisher (born 1959) connected to optician",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optician",
+        "German phalerist, editor and publisher (born 1959)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q48694645",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q48694645",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q48694645"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q20437973",
+      "name": "Péter Tariska",
+      "title": "Hungarian physician, psychiatrist and gerontologist (born: 1946) connected to gerontologist",
+      "country": "Hungary",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist",
+        "Hungarian physician, psychiatrist and gerontologist (born: 1946)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q20437973",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q20437973",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q20437973"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q2440911",
+      "name": "Tommi Pärmäkoski",
+      "title": "Finnish sports coach connected to physiotherapist",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Finnish sports coach"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q2440911",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q2440911",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q2440911"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3620544",
+      "name": "Aoife Hannon",
+      "title": "Irish model connected to physiotherapist",
+      "country": "Ireland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Irish model"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3620544",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3620544",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3620544"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q30152058",
+      "name": "Lluís Ferri Silvestre",
+      "title": "Poet, speech therapist, psychopedagogue, teacher and Musician connected to speech and language therapist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Poet, speech therapist, psychopedagogue, teacher and Musician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q30152058",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q30152058",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q30152058"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q51882547",
+      "name": "Cinthia Ribeiro",
+      "title": "speech therapist and Brazilian politician, mayor of Palmas connected to speech and language therapist",
+      "country": "Brazil",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "speech therapist and Brazilian politician, mayor of Palmas"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q51882547",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q51882547",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q51882547"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q97848892",
+      "name": "Sarah Nedergård",
+      "title": "Finnish actress connected to speech and language therapist",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "Finnish actress"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q97848892",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q97848892",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q97848892"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use. Additional query match: speech and language therapist."
+    },
+    {
+      "id": "wikidata-Q101125711",
+      "name": "Julia Siegmüller",
+      "title": "speech and language therapist connected to speech and language therapist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q101125711",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q101125711",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q101125711"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use. Additional query match: speech and language therapist."
+    },
+    {
+      "id": "wikidata-Q136443950",
+      "name": "Malika Chitour Daoudi",
+      "title": "Algerian writer connected to optician",
+      "country": "Algeria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "allied-health",
+      "subcategories": [
+        "optician",
+        "Algerian writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q136443950",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q136443950",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q136443950"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as optician. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q81625974",
+      "name": "Mónica Ramos Toro",
+      "title": "gerontologist connected to gerontologist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q81625974",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q81625974",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q81625974"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106618948",
+      "name": "Raphi Eppler-Hattab",
+      "title": "gerontologist connected to gerontologist",
+      "country": "Israel",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106618948",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106618948",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106618948"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q108734305",
+      "name": "Rosemarie Kurz",
+      "title": "Austrian gerontologist connected to gerontologist",
+      "country": "Austria",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist",
+        "Austrian gerontologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q108734305",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q108734305",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q108734305"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q113501577",
+      "name": "Tiina Tambaum",
+      "title": "Estonian gerontologist (born 1968) connected to gerontologist",
+      "country": "Estonia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "elder-care",
+      "subcategories": [
+        "gerontologist",
+        "Estonian gerontologist (born 1968)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q113501577",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q113501577",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q113501577"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as gerontologist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106951460",
+      "name": "Diana Santos",
+      "title": "Portuguese politician connected to disability rights activist",
+      "country": "Portugal",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist",
+        "Portuguese politician"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106951460",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106951460",
+          "verifiedAt": "2026-06-18"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106951460"
+      ],
+      "lastVerifiedAt": "2026-06-18",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3945996",
+      "name": "Salvatore Carmando",
+      "title": "Italian physiotherapist connected to physiotherapist",
+      "country": "Italy",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Italian physiotherapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3945996",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3945996",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3945996"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q3948156",
+      "name": "Sandra Gallego",
+      "title": "Spanish basketball player connected to physiotherapist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Spanish basketball player"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q3948156",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q3948156",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q3948156"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q4531107",
+      "name": "Tsutomu Fujihara",
+      "title": "Japanese association football player connected to physiotherapist",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Japanese association football player"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q4531107",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q4531107",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q4531107"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q61743397",
+      "name": "Ève Ricard",
+      "title": "French speech therapist and writer connected to speech and language therapist",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "speech and language therapist",
+        "French speech therapist and writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q61743397",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q61743397",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q61743397"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as speech and language therapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q124255857",
+      "name": "Anahí Guedes de Mello",
+      "title": "scholar connected to disability rights activist",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist",
+        "scholar"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q124255857",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q124255857",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q124255857"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q131461122",
+      "name": "Külli Urb",
+      "title": "Estonian educator and local politician (born 1950) connected to disability rights activist",
+      "country": "Estonia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "disability-advocacy",
+      "subcategories": [
+        "disability rights activist",
+        "Estonian educator and local politician (born 1950)"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q131461122",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q131461122",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q131461122"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as disability rights activist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q6173351",
+      "name": "Ángel Mur",
+      "title": "Spanish association football player connected to physiotherapist",
+      "country": "Spain",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Spanish association football player"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q6173351",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q6173351",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q6173351"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q23019268",
+      "name": "Araksya Avetisyan",
+      "title": "Armenia Soviet obstetrician-gynecologist connected to midwife",
+      "country": "Soviet Union",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife",
+        "Armenia Soviet obstetrician-gynecologist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q23019268",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q23019268",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q23019268"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q9160702",
+      "name": "Artur Małek",
+      "title": "Polish physiotherapist, rock climber connected to physiotherapist",
+      "country": "Poland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Polish physiotherapist, rock climber"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q9160702",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q9160702",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q9160702"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11300391",
+      "name": "Eli Sol Vallersnes",
+      "title": "Norwegian writer connected to physiotherapist",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist",
+        "Norwegian writer"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11300391",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11300391",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11300391"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11461987",
+      "name": "Maki Koyanagi",
+      "title": "physiotherapist connected to physiotherapist",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "rehabilitation",
+      "subcategories": [
+        "physiotherapist"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11461987",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11461987",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11461987"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as physiotherapist. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q17113728",
+      "name": "Tonje Vråle",
+      "title": "midwife connected to midwife",
+      "country": "Norway",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "birth-care-support",
+      "subcategories": [
+        "midwife"
+      ],
+      "fitScore": 62,
+      "reachScore": 50,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "high",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q17113728",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q17113728",
+          "verifiedAt": "2026-06-19"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q17113728"
+      ],
+      "lastVerifiedAt": "2026-06-19",
+      "rationale": "Wikidata public metadata lists this person as midwife. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "source": "merge-research-batches",
+    "inputFiles": [
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-000.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-008.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-016.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-024.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-032.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-040.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-048.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-056.local.json",
+      "/Users/mehmetyiter/Documents/beGlibCommercialAutomation/data/wikidata-wave-029-allied-health-rehabilitation-care-advocacy-offset-056-retry.local.json"
+    ],
+    "inputBatches": 9,
+    "candidateRows": 390,
+    "mergedCandidates": 360,
+    "duplicateRowsMerged": 30,
+    "sliceStart": 282,
+    "sliceEnd": 359,
+    "parentBatchId": "wikidata-wave-029-allied-health-rehabilitation-care-advocacy",
+    "parentCandidates": 360
+  }
+}

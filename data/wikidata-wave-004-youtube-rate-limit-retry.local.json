@@ -1,0 +1,1108 @@
+{
+  "batchId": "wikidata-wave-004-youtube-rate-limit-retry",
+  "createdAt": "2026-06-24T21:31:35.035Z",
+  "sourceLabel": "YouTube retry batch for prior rate-limit failures in wave-004 digital creators",
+  "notes": "Generated locally from creator-source-discovery packages with youtube failures. Discovery-only; not outreach approval.",
+  "candidates": [
+    {
+      "id": "wikidata-Q106011730",
+      "name": "Nickmercs",
+      "title": "American streamer and content creator (born 1990) connected to Twitch streamer",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "Twitch streamer",
+        "American streamer and content creator (born 1990)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106011730",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Nickmercs",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCDvm7YoLE5r3ZZ6MWyD2vGQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/NICKMERCS",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nickmercs/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/NickMercs",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@nickmercs",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106011730",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106011730",
+        "https://en.wikipedia.org/wiki/Nickmercs",
+        "https://www.youtube.com/channel/UCDvm7YoLE5r3ZZ6MWyD2vGQ",
+        "https://x.com/NICKMERCS",
+        "https://www.instagram.com/nickmercs/",
+        "https://www.facebook.com/NickMercs",
+        "https://www.tiktok.com/@nickmercs"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as Twitch streamer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106175960",
+      "name": "xChocoBars",
+      "title": "Canadian Twitch streamer (born 1994) connected to Twitch streamer",
+      "country": "Canada",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "Twitch streamer",
+        "Canadian Twitch streamer (born 1994)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106175960",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/XChocoBars",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCdH7fwkQ5RGVAMIAN2ufm4Q",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/xChocoBars",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/janetrosee/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/xochocobars",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@xchocobars1",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106175960",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106175960",
+        "https://en.wikipedia.org/wiki/XChocoBars",
+        "https://www.youtube.com/channel/UCdH7fwkQ5RGVAMIAN2ufm4Q",
+        "https://x.com/xChocoBars",
+        "https://www.instagram.com/janetrosee/",
+        "https://www.facebook.com/xochocobars",
+        "https://www.tiktok.com/@xchocobars1"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as Twitch streamer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q106345462",
+      "name": "Steven Spohn",
+      "title": "writer, streamer, COO of AbleGamers connected to Twitch streamer",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "Twitch streamer",
+        "writer, streamer, COO of AbleGamers"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q106345462",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Steven_Spohn",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://stevespohn.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtc11emTevPFsjMDx_vZtaA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/stevenspohn",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/stevenspohnofficial/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/stevenspohn",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q106345462",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q106345462",
+        "https://en.wikipedia.org/wiki/Steven_Spohn",
+        "http://stevespohn.com/",
+        "https://www.youtube.com/channel/UCtc11emTevPFsjMDx_vZtaA",
+        "https://x.com/stevenspohn",
+        "https://www.instagram.com/stevenspohnofficial/",
+        "https://www.facebook.com/stevenspohn"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as Twitch streamer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q107124843",
+      "name": "Rene Villa",
+      "title": "Costa Rican-Irish singer connected to TikToker",
+      "country": "Costa Rica",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "TikToker",
+        "Costa Rican-Irish singer"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q107124843",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Villa",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.renevilla.co.uk",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC11wjNaDzDVQ-qAxLQQCeVA",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/renexvilla",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/renevilla/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ReneVillaMusic",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@renexvilla",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q107124843",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q107124843",
+        "https://en.wikipedia.org/wiki/Ren%C3%A9_Villa",
+        "https://www.renevilla.co.uk",
+        "https://www.youtube.com/channel/UC11wjNaDzDVQ-qAxLQQCeVA",
+        "https://x.com/renexvilla",
+        "https://www.instagram.com/renevilla/",
+        "https://www.facebook.com/ReneVillaMusic",
+        "https://www.tiktok.com/@renexvilla"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as TikToker. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q355030",
+      "name": "Yoshitaka Amano",
+      "title": "Japanese painter, character designer, illustrator, book designer connected to blogger",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "blogger",
+        "Japanese painter, character designer, illustrator, book designer"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q355030",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Yoshitaka_Amano",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.yoshitakaamano.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/Amano_VRproject",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoshitaka_amano/",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://yoshitaka-amano.com",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/official_amano",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q355030",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q355030",
+        "https://en.wikipedia.org/wiki/Yoshitaka_Amano",
+        "https://www.yoshitakaamano.com",
+        "https://x.com/Amano_VRproject",
+        "https://www.instagram.com/yoshitaka_amano/",
+        "https://yoshitaka-amano.com",
+        "https://x.com/official_amano"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as blogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q23304510",
+      "name": "Simone Giertz",
+      "title": "Swedish inventor and maker connected to vlogger",
+      "country": "Sweden",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "vlogger",
+        "Swedish inventor and maker"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q23304510",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Simone_Giertz",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://simonegiertz.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/SimoneGiertz",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/simonegiertz/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/simonegiertz",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q23304510",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q23304510",
+        "https://en.wikipedia.org/wiki/Simone_Giertz",
+        "http://simonegiertz.com",
+        "https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ",
+        "https://x.com/SimoneGiertz",
+        "https://www.instagram.com/simonegiertz/",
+        "https://www.facebook.com/simonegiertz"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as vlogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q23816443",
+      "name": "Mister V",
+      "title": "French YouTuber and rapper connected to vlogger",
+      "country": "France",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "vlogger",
+        "French YouTuber and rapper"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q23816443",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Mister_V_(rapper)",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC8Q0SLrZLiTj5s4qc9aad-w",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/MisterVonline",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yvick/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MisterVonline",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCGbkLk615v-fh5Qgc6b-TVQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q23816443",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q23816443",
+        "https://en.wikipedia.org/wiki/Mister_V_(rapper)",
+        "https://www.youtube.com/channel/UC8Q0SLrZLiTj5s4qc9aad-w",
+        "https://x.com/MisterVonline",
+        "https://www.instagram.com/yvick/",
+        "https://www.facebook.com/MisterVonline",
+        "https://www.youtube.com/channel/UCGbkLk615v-fh5Qgc6b-TVQ"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as vlogger. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96250295",
+      "name": "ViruSs",
+      "title": "Vietnamese streamer, YouTuber and musician connected to online streamer",
+      "country": "Vietnam",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "online streamer",
+        "Vietnamese streamer, YouTuber and musician"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96250295",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/ViruSs",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://vrstudio.vn/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC0rBe-KRTerlOz2v_Sye5iQ",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ssuriv/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/viruss88vn",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@virussvn",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96250295",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96250295",
+        "https://en.wikipedia.org/wiki/ViruSs",
+        "https://vrstudio.vn/",
+        "https://www.youtube.com/channel/UC0rBe-KRTerlOz2v_Sye5iQ",
+        "https://www.instagram.com/ssuriv/",
+        "https://www.facebook.com/viruss88vn",
+        "https://www.tiktok.com/@virussvn"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as online streamer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96755528",
+      "name": "Slava Marlow",
+      "title": "Russian music producer, rapper and YouTuber connected to online streamer",
+      "country": "Russia",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "online streamer",
+        "Russian music producer, rapper and YouTuber"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96755528",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Slava_Marlow",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://slavamarlow.com",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCwAlUoQBC1Tqn0PlrNDDz_A",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/SlavaMarlow",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/slavamarlow/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@slavamarlow",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96755528",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96755528",
+        "https://en.wikipedia.org/wiki/Slava_Marlow",
+        "https://slavamarlow.com",
+        "https://www.youtube.com/channel/UCwAlUoQBC1Tqn0PlrNDDz_A",
+        "https://x.com/SlavaMarlow",
+        "https://www.instagram.com/slavamarlow/",
+        "https://www.tiktok.com/@slavamarlow"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as online streamer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q96759858",
+      "name": "LilyPichu",
+      "title": "American online streamer (born 1991) connected to online streamer",
+      "country": "South Korea",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "online streamer",
+        "American online streamer (born 1991)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q96759858",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/LilyPichu",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://lilypichu.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC0FAPPxkgxmSkd-70Pnnc8w",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/LilyPichu",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/lilypichu/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/lilypichu",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCde_xnXu2lPBmRgAp_nq29A",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCf1JAjcoBlCRi4pHG2k_W7w",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCo8qHBl7kMdMfAOGDUdhfZg",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCvWU1K29wCZ8j1NsXsRrKnA",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q96759858",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q96759858",
+        "https://en.wikipedia.org/wiki/LilyPichu",
+        "https://lilypichu.com/",
+        "https://www.youtube.com/channel/UC0FAPPxkgxmSkd-70Pnnc8w",
+        "https://x.com/LilyPichu",
+        "https://www.instagram.com/lilypichu/",
+        "https://www.facebook.com/lilypichu",
+        "https://www.youtube.com/channel/UCde_xnXu2lPBmRgAp_nq29A",
+        "https://www.youtube.com/channel/UCf1JAjcoBlCRi4pHG2k_W7w",
+        "https://www.youtube.com/channel/UCo8qHBl7kMdMfAOGDUdhfZg",
+        "https://www.youtube.com/channel/UCvWU1K29wCZ8j1NsXsRrKnA"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as online streamer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q11581294",
+      "name": "Tsubasa Masuwaka",
+      "title": "Japanese model (born 1985) connected to influencer",
+      "country": "Japan",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "influencer",
+        "Japanese model (born 1985)"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q11581294",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tsubasa_Masuwaka",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "http://www.masuwakatsubasa.com/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCPpDtwDJqhc7tDwgBNaA8gw",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/tsubasamasuwaka",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tsubasamasuwaka1013/",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@tsubasamasuwaka1013",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCuyXuxpyWlPl7-WLzckgAvQ",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q11581294",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q11581294",
+        "https://en.wikipedia.org/wiki/Tsubasa_Masuwaka",
+        "http://www.masuwakatsubasa.com/",
+        "https://www.youtube.com/channel/UCPpDtwDJqhc7tDwgBNaA8gw",
+        "https://x.com/tsubasamasuwaka",
+        "https://www.instagram.com/tsubasamasuwaka1013/",
+        "https://www.tiktok.com/@tsubasamasuwaka1013",
+        "https://www.youtube.com/channel/UCuyXuxpyWlPl7-WLzckgAvQ"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as influencer. Social/profile links are discovery-only and require human verification before use."
+    },
+    {
+      "id": "wikidata-Q132731409",
+      "name": "Tobias Ebenberger",
+      "title": "German politician connected to content creator",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "thought-leadership",
+      "subcategories": [
+        "content creator",
+        "German politician"
+      ],
+      "fitScore": 82,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "wikidata",
+          "label": "Wikidata profile",
+          "url": "http://www.wikidata.org/entity/Q132731409",
+          "verified": true
+        },
+        {
+          "platform": "wikipedia",
+          "label": "Wikipedia profile",
+          "url": "https://en.wikipedia.org/wiki/Tobias_Ebenberger",
+          "verified": false
+        },
+        {
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://tebenberger.de/",
+          "verified": false
+        },
+        {
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCho0N1U3PF9eVCXHGRGQqfg",
+          "verified": false
+        },
+        {
+          "platform": "x",
+          "label": "X/Twitter",
+          "url": "https://x.com/TobiBergerNRW",
+          "verified": false
+        },
+        {
+          "platform": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ebenberg.afd/",
+          "verified": false
+        },
+        {
+          "platform": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61561538822704",
+          "verified": false
+        },
+        {
+          "platform": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@tebenberger",
+          "verified": false
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "http://www.wikidata.org/entity/Q132731409",
+          "verifiedAt": "2026-06-24"
+        }
+      ],
+      "sourceUrls": [
+        "http://www.wikidata.org/entity/Q132731409",
+        "https://en.wikipedia.org/wiki/Tobias_Ebenberger",
+        "https://tebenberger.de/",
+        "https://www.youtube.com/channel/UCho0N1U3PF9eVCXHGRGQqfg",
+        "https://x.com/TobiBergerNRW",
+        "https://www.instagram.com/ebenberg.afd/",
+        "https://www.facebook.com/61561538822704",
+        "https://www.tiktok.com/@tebenberger"
+      ],
+      "lastVerifiedAt": "2026-06-24",
+      "rationale": "Wikidata public metadata lists this person as content creator. Social/profile links are discovery-only and require human verification before use."
+    }
+  ],
+  "diagnostics": {
+    "sourceFailureFiles": 11,
+    "youtubeFailures": 12,
+    "uniqueCandidates": 12,
+    "failures": [
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q106011730",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q106175960",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q106345462",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q107124843",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q355030",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q23304510",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-120-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q23816443",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-128-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q96250295",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-128-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q96755528",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-128-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q96759858",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-136-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q11581294",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      },
+      {
+        "file": "exports/wikidata-wave-004-offset-144-creator-source-discovery.local.json",
+        "candidateId": "wikidata-Q132731409",
+        "message": "www.googleapis.com request failed: 429 Too Many Requests (rateLimitExceeded)"
+      }
+    ]
+  }
+}

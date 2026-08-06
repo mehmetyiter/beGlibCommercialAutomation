@@ -1,0 +1,1756 @@
+{
+  "batchId": "openalex-wave-001-broad-experts-arts",
+  "createdAt": "2026-06-15T03:19:06.250Z",
+  "sourceLabel": "Broad expert discovery wave across academic, science, health, education, technology, culture, religion, and public thought categories. Discovery-only: no contact route collection. / arts",
+  "researcher": "beGlib research wave runner",
+  "notes": "Merged category batch from public OpenAlex metadata. Discovery-only; no usable contact routes are produced by this wave.",
+  "candidates": [
+    {
+      "id": "openalex-A5009274666",
+      "name": "Henry Jenkins",
+      "title": "OpenAlex-indexed researcher connected to digital arts culture public engagement",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Literacy, Media, and Education",
+        "Digital Games and Media",
+        "Social Media and Politics",
+        "music cognition public education"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5009274666",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2221-9583",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5009274666",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5009274666",
+        "https://orcid.org/0000-0003-2221-9583",
+        "https://openalex.org/W2112957339"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Literacy, Media, and Education, Digital Games and Media, Social Media and Politics. Manual official-source review is required before any outreach. Additional query match: music cognition public education."
+    },
+    {
+      "id": "openalex-A5028624613",
+      "name": "Shuofeng Yuan",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5028624613",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-7996-1119",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5028624613",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5028624613",
+        "https://orcid.org/0000-0001-7996-1119",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5043656890",
+      "name": "Hin Chu",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5043656890",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2855-9837",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5043656890",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5043656890",
+        "https://orcid.org/0000-0003-2855-9837",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5061606852",
+      "name": "Yang Jin",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5061606852",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2409-7073",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5061606852",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5061606852",
+        "https://orcid.org/0000-0003-2409-7073",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5007416766",
+      "name": "Fanfan Xing",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5007416766",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8233-5127",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5007416766",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5007416766",
+        "https://orcid.org/0000-0001-8233-5127",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5003693832",
+      "name": "Jieling Liu",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5003693832",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7930-9099",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5003693832",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5003693832",
+        "https://orcid.org/0000-0002-7930-9099",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5059698138",
+      "name": "Jonathan Daniel Ip",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5059698138",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9549-7384",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5059698138",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5059698138",
+        "https://orcid.org/0000-0002-9549-7384",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5100667083",
+      "name": "Honglin Chen",
+      "title": "University of Hong Kong - Shenzhen Hospital researcher connected to film studies public culture",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5100667083",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5108-8338",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5100667083",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5100667083",
+        "https://orcid.org/0000-0001-5108-8338",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5103041962",
+      "name": "Kwok-Yung Yuen",
+      "title": "University of Hong Kong - Shenzhen Hospital researcher connected to film studies public culture",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5103041962",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-8700-4570",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5103041962",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5103041962",
+        "https://orcid.org/0000-0001-8700-4570",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5113624777",
+      "name": "Hoi-Wah Tsoi",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5113624777",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5113624777",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5113624777",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5059626534",
+      "name": "Simon Kam-Fai Lo",
+      "title": "University of Hong Kong - Shenzhen Hospital researcher connected to film studies public culture",
+      "country": "China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5059626534",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5059626534",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5059626534",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5102351942",
+      "name": "Wan-Mui Chan",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5102351942",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5102351942",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5102351942",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5103887589",
+      "name": "Christopher Kim-Ming Hui",
+      "title": "University of Hong Kong researcher connected to film studies public culture",
+      "country": "Hong Kong SAR China",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "film studies public culture",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 epidemiological studies",
+        "COVID-19 Clinical Research Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 92,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5103887589",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5103887589",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5103887589",
+        "https://openalex.org/W3002539152",
+        "https://doi.org/10.1016/s0140-6736(20)30154-9"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 epidemiological studies, COVID-19 Clinical Research Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5062242247",
+      "name": "David Buckingham",
+      "title": "OpenAlex-indexed researcher connected to digital arts culture public engagement",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Child Development and Digital Technology",
+        "Social Media and Politics",
+        "Impact of Technology on Adolescents"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5062242247",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5098-7056",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5062242247",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5062242247",
+        "https://orcid.org/0000-0002-5098-7056",
+        "https://openalex.org/W1792840760"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Child Development and Digital Technology, Social Media and Politics, Impact of Technology on Adolescents. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5108130169",
+      "name": "Nahoko Shindo",
+      "title": "World Health Organization researcher connected to digital arts culture public engagement",
+      "country": "Switzerland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 Clinical Research Studies",
+        "COVID-19 epidemiological studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5108130169",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2439-8936",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5108130169",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5108130169",
+        "https://orcid.org/0000-0002-2439-8936",
+        "https://openalex.org/W3005995896",
+        "https://doi.org/10.1016/s0140-6736(20)30374-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 Clinical Research Studies, COVID-19 epidemiological studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-david-l-heymann",
+      "name": "David L Heymann",
+      "title": "University of London researcher connected to digital arts culture public engagement",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "SARS-CoV-2 and COVID-19 Research",
+        "COVID-19 Clinical Research Studies",
+        "COVID-19 epidemiological studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/W3005995896",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/W3005995896",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/W3005995896",
+        "https://doi.org/10.1016/s0140-6736(20)30374-3"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to SARS-CoV-2 and COVID-19 Research, COVID-19 Clinical Research Studies, COVID-19 epidemiological studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018294641",
+      "name": "Selin Akgün",
+      "title": "Michigan State University researcher connected to music cognition public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Online Learning and Analytics",
+        "Ethics and Social Impacts of AI",
+        "Adversarial Robustness in Machine Learning"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018294641",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-6672-498X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018294641",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018294641",
+        "https://orcid.org/0000-0002-6672-498X",
+        "https://openalex.org/W3199189488",
+        "https://doi.org/10.1007/s43681-021-00096-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Ethics and Social Impacts of AI, Adversarial Robustness in Machine Learning. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032984793",
+      "name": "Christine Greenhow",
+      "title": "Michigan State University researcher connected to music cognition public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Online Learning and Analytics",
+        "Ethics and Social Impacts of AI",
+        "Adversarial Robustness in Machine Learning"
+      ],
+      "fitScore": 76,
+      "reachScore": 88,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032984793",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5637-2319",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032984793",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032984793",
+        "https://orcid.org/0000-0002-5637-2319",
+        "https://openalex.org/W3199189488",
+        "https://doi.org/10.1007/s43681-021-00096-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online Learning and Analytics, Ethics and Social Impacts of AI, Adversarial Robustness in Machine Learning. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5102970193",
+      "name": "Reinhard Prügl",
+      "title": "Zeppelin Universität gemeinnützige GmbH researcher connected to digital arts culture public engagement",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Digital Transformation in Industry",
+        "Service and Product Innovation",
+        "Innovation and Knowledge Management"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5102970193",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8759-482X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5102970193",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5102970193",
+        "https://orcid.org/0000-0002-8759-482X",
+        "https://openalex.org/W3017377412",
+        "https://doi.org/10.1007/s11301-020-00185-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Service and Product Innovation, Innovation and Knowledge Management. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5084214905",
+      "name": "Lene E. Søvold",
+      "title": "OpenAlex-indexed researcher connected to digital arts culture public engagement",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Healthcare professionals’ stress and burnout",
+        "COVID-19 and Mental Health",
+        "Posttraumatic Stress Disorder Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5084214905",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-3381-5110",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5084214905",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5084214905",
+        "https://orcid.org/0000-0003-3381-5110",
+        "https://openalex.org/W3157680454",
+        "https://doi.org/10.3389/fpubh.2021.679397"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Healthcare professionals’ stress and burnout, COVID-19 and Mental Health, Posttraumatic Stress Disorder Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5010148429",
+      "name": "John A. Naslund",
+      "title": "Harvard University researcher connected to digital arts culture public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Healthcare professionals’ stress and burnout",
+        "COVID-19 and Mental Health",
+        "Posttraumatic Stress Disorder Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5010148429",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6777-0104",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5010148429",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5010148429",
+        "https://orcid.org/0000-0001-6777-0104",
+        "https://openalex.org/W3157680454",
+        "https://doi.org/10.3389/fpubh.2021.679397"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Healthcare professionals’ stress and burnout, COVID-19 and Mental Health, Posttraumatic Stress Disorder Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5039850531",
+      "name": "Antonis A. Kousoulis",
+      "title": "Mental Health Foundation researcher connected to digital arts culture public engagement",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Healthcare professionals’ stress and burnout",
+        "COVID-19 and Mental Health",
+        "Posttraumatic Stress Disorder Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5039850531",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8763-3358",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5039850531",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5039850531",
+        "https://orcid.org/0000-0002-8763-3358",
+        "https://openalex.org/W3157680454",
+        "https://doi.org/10.3389/fpubh.2021.679397"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Healthcare professionals’ stress and burnout, COVID-19 and Mental Health, Posttraumatic Stress Disorder Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5025675403",
+      "name": "Shekhar Saxena",
+      "title": "Harvard University researcher connected to digital arts culture public engagement",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Healthcare professionals’ stress and burnout",
+        "COVID-19 and Mental Health",
+        "Posttraumatic Stress Disorder Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5025675403",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-9385-0212",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5025675403",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5025675403",
+        "https://orcid.org/0000-0001-9385-0212",
+        "https://openalex.org/W3157680454",
+        "https://doi.org/10.3389/fpubh.2021.679397"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Healthcare professionals’ stress and burnout, COVID-19 and Mental Health, Posttraumatic Stress Disorder Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5101889264",
+      "name": "M. Walid Qoronfleh",
+      "title": "OpenAlex-indexed researcher connected to digital arts culture public engagement",
+      "country": "Unknown",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Healthcare professionals’ stress and burnout",
+        "COVID-19 and Mental Health",
+        "Posttraumatic Stress Disorder Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5101889264",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6757-1922",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5101889264",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5101889264",
+        "https://orcid.org/0000-0001-6757-1922",
+        "https://openalex.org/W3157680454",
+        "https://doi.org/10.3389/fpubh.2021.679397"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Healthcare professionals’ stress and burnout, COVID-19 and Mental Health, Posttraumatic Stress Disorder Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5050164472",
+      "name": "Christoffel Grobler",
+      "title": "University of Pretoria researcher connected to digital arts culture public engagement",
+      "country": "South Africa",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Healthcare professionals’ stress and burnout",
+        "COVID-19 and Mental Health",
+        "Posttraumatic Stress Disorder Research"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5050164472",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-6571-0079",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5050164472",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5050164472",
+        "https://orcid.org/0000-0001-6571-0079",
+        "https://openalex.org/W3157680454",
+        "https://doi.org/10.3389/fpubh.2021.679397"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Healthcare professionals’ stress and burnout, COVID-19 and Mental Health, Posttraumatic Stress Disorder Research. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5034406211",
+      "name": "Swen Nadkarni",
+      "title": "Zeppelin Universität gemeinnützige GmbH researcher connected to digital arts culture public engagement",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "digital arts culture public engagement",
+        "Digital Transformation in Industry",
+        "Service and Product Innovation",
+        "Innovation and Knowledge Management"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5034406211",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5034406211",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5034406211",
+        "https://openalex.org/W3017377412",
+        "https://doi.org/10.1007/s11301-020-00185-7"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Digital Transformation in Industry, Service and Product Innovation, Innovation and Knowledge Management. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5086439158",
+      "name": "Melissa Bond",
+      "title": "Carl von Ossietzky Universität Oldenburg researcher connected to music cognition public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Innovative Teaching Methods",
+        "Online and Blended Learning",
+        "Communication in Education and Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5086439158",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8267-031X",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5086439158",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5086439158",
+        "https://orcid.org/0000-0002-8267-031X",
+        "https://openalex.org/W3014646985",
+        "https://doi.org/10.1186/s41239-019-0176-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Innovative Teaching Methods, Online and Blended Learning, Communication in Education and Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5018971503",
+      "name": "Katja Buntins",
+      "title": "University of Duisburg-Essen researcher connected to music cognition public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Innovative Teaching Methods",
+        "Online and Blended Learning",
+        "Communication in Education and Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5018971503",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5571-6952",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5018971503",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5018971503",
+        "https://orcid.org/0000-0001-5571-6952",
+        "https://openalex.org/W3014646985",
+        "https://doi.org/10.1186/s41239-019-0176-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Innovative Teaching Methods, Online and Blended Learning, Communication in Education and Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5055207367",
+      "name": "Svenja Bedenlier",
+      "title": "Carl von Ossietzky Universität Oldenburg researcher connected to music cognition public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Innovative Teaching Methods",
+        "Online and Blended Learning",
+        "Communication in Education and Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5055207367",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7940-5232",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5055207367",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5055207367",
+        "https://orcid.org/0000-0002-7940-5232",
+        "https://openalex.org/W3014646985",
+        "https://doi.org/10.1186/s41239-019-0176-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Innovative Teaching Methods, Online and Blended Learning, Communication in Education and Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5076340605",
+      "name": "Michael Kerres",
+      "title": "University of Duisburg-Essen researcher connected to music cognition public education",
+      "country": "Germany",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Innovative Teaching Methods",
+        "Online and Blended Learning",
+        "Communication in Education and Healthcare"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5076340605",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-7419-3023",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5076340605",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5076340605",
+        "https://orcid.org/0000-0002-7419-3023",
+        "https://openalex.org/W3014646985",
+        "https://doi.org/10.1186/s41239-019-0176-8"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Innovative Teaching Methods, Online and Blended Learning, Communication in Education and Healthcare. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5025883748",
+      "name": "Peter Serdyukov",
+      "title": "National University researcher connected to music cognition public education",
+      "country": "United States",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Online and Blended Learning",
+        "Education and Technology Integration",
+        "Teacher Education and Leadership Studies"
+      ],
+      "fitScore": 76,
+      "reachScore": 87,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5025883748",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-4921-8225",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5025883748",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5025883748",
+        "https://orcid.org/0000-0002-4921-8225",
+        "https://openalex.org/W2607453587",
+        "https://doi.org/10.1108/jrit-10-2016-0007"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Online and Blended Learning, Education and Technology Integration, Teacher Education and Leadership Studies. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5071606947",
+      "name": "Adrian C. North",
+      "title": "University of Leicester researcher connected to music cognition public education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Neuroscience and Music Perception",
+        "Diverse Music Education Insights",
+        "Music History and Culture",
+        "Music Therapy and Health"
+      ],
+      "fitScore": 82,
+      "reachScore": 86,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5071606947",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-0046-1299",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5071606947",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5071606947",
+        "https://orcid.org/0000-0003-0046-1299",
+        "https://openalex.org/W2003255646",
+        "https://doi.org/10.1525/mp.2004.22.1.41",
+        "https://openalex.org/W2153946419",
+        "https://doi.org/10.1017/s0265051703005357"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Neuroscience and Music Perception, Diverse Music Education Insights, Music History and Culture. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5032654374",
+      "name": "David J. Hargreaves",
+      "title": "University of Leicester researcher connected to music cognition public education",
+      "country": "United Kingdom",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Neuroscience and Music Perception",
+        "Diverse Music Education Insights",
+        "Music History and Culture",
+        "Music Therapy and Health"
+      ],
+      "fitScore": 82,
+      "reachScore": 86,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5032654374",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-2726-7229",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5032654374",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5032654374",
+        "https://orcid.org/0000-0002-2726-7229",
+        "https://openalex.org/W2003255646",
+        "https://doi.org/10.1525/mp.2004.22.1.41",
+        "https://openalex.org/W2153946419",
+        "https://doi.org/10.1017/s0265051703005357"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Neuroscience and Music Perception, Diverse Music Education Insights, Music History and Culture. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5026916200",
+      "name": "Teppo Särkämö",
+      "title": "Åbo Akademi University researcher connected to music cognition public education",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Music Therapy and Health",
+        "Neurobiology of Language and Bilingualism",
+        "Neuroscience and Music Perception"
+      ],
+      "fitScore": 76,
+      "reachScore": 86,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5026916200",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-1470-4530",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5026916200",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5026916200",
+        "https://orcid.org/0000-0002-1470-4530",
+        "https://openalex.org/W2134957872",
+        "https://doi.org/10.1093/brain/awn013"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Music Therapy and Health, Neurobiology of Language and Bilingualism, Neuroscience and Music Perception. Manual official-source review is required before any outreach."
+    },
+    {
+      "id": "openalex-A5007853268",
+      "name": "Mari Tervaniemi",
+      "title": "Åbo Akademi University researcher connected to music cognition public education",
+      "country": "Finland",
+      "languages": [
+        "Unknown"
+      ],
+      "primaryCategory": "arts",
+      "subcategories": [
+        "music cognition public education",
+        "Music Therapy and Health",
+        "Neurobiology of Language and Bilingualism",
+        "Neuroscience and Music Perception"
+      ],
+      "fitScore": 76,
+      "reachScore": 86,
+      "status": "researching",
+      "consentStatus": "unknown",
+      "riskLevel": "medium",
+      "channels": [
+        {
+          "platform": "openalex",
+          "label": "OpenAlex profile",
+          "url": "https://openalex.org/A5007853268",
+          "verified": true
+        },
+        {
+          "platform": "orcid",
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-9651-2929",
+          "verified": true
+        }
+      ],
+      "contactRoutes": [
+        {
+          "type": "none",
+          "value": "No public professional contact route verified by worker",
+          "sourceUrl": "https://openalex.org/A5007853268",
+          "verifiedAt": "2026-06-15"
+        }
+      ],
+      "sourceUrls": [
+        "https://openalex.org/A5007853268",
+        "https://orcid.org/0000-0002-9651-2929",
+        "https://openalex.org/W2134957872",
+        "https://doi.org/10.1093/brain/awn013"
+      ],
+      "lastVerifiedAt": "2026-06-15",
+      "rationale": "OpenAlex public metadata links this person to Music Therapy and Health, Neurobiology of Language and Bilingualism, Neuroscience and Music Perception. Manual official-source review is required before any outreach."
+    }
+  ]
+}
