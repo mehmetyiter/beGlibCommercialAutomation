@@ -1322,3 +1322,19 @@
   color: #64727d;
   font-size: 12px;
 }
+
+.source-item.quarantined {
+  border-style: dashed;
+  border-color: #e0cfa8;
+  background: #fffcf5;
+}
+
+.source-item.quarantined span {
+  white-space: normal;
+}
+
+.quarantine-note {
+  margin: 0 0 8px;
+  color: #72500b;
+  font-size: 12px;
+}

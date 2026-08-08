@@ -182,6 +182,59 @@ Cheap versus expensive, measured: resolving 266 already-declared YouTube channel
 units in total, because `channels.list` batches 50 ids per call. The 100 searches for people
 with no declared channel cost 10,000. Always run `known-only` first.
 
+## Third collection block, 2026-08-08
+
+Ten rounds aimed at Canada, PodcastIndex, and YouTube. Seeded every remaining wave config
+against Canada (006-018), resolved declared YouTube channels for all of them, ran PodcastIndex
+across 13 waves, and pushed contact discovery plus two depth-2 passes.
+
+| | Round 20 | Round 30 |
+| --- | --- | --- |
+| Candidates | 31,887 | **35,528** |
+| Canadians | 4,254 | **7,926** |
+| Canadians with a YouTube channel | 376 | **473** |
+| Canadians with a newsletter/feed | 107 | **141** |
+| Canadians with a website | 1,005 | **1,691** |
+| Contact candidates | 369 | **483** |
+| Public email candidates | 158 | **205** |
+| Canadians with an email | 100 | **128** |
+| Five-star dossiers | 31 | **40** |
+| Pilot list (Canada, 4-5 star, has an email) | 49 | **62** |
+
+### The podcast finding
+
+Canadian podcast *channels* barely moved: 18 to 21, against roughly 1,000 PodcastIndex
+suggestions collected. The reason is not the search — it is attribution. For Canadians,
+**759 podcast discoveries are quarantined against 20 accepted**, with these reasons:
+
+- 423 `creator-discovery-low-confidence-requires-review` — mostly genuine name collisions.
+  "Jam Crack - The Niall Grimes Climbing Podcast" is not the musician Grimes. Correctly held.
+- 329 `creator-discovery-medium-confidence-requires-review` — this is where the real shows are.
+  `identityConfidence` only reaches 'high' when the name *and* a topic keyword both appear, and
+  a podcast title is normally just the show name plus the host. "Freedomain with Stefan
+  Molyneux" carries no topic word, so it scores medium and is quarantined.
+
+Promoting those automatically was tried and reverted: `creator-source-confidence.test.mjs`
+contains a deliberate test that "OMG Hi! with George Lopez Podcast", published by a network
+rather than by the person, must stay at medium and go to a human. That is a compliance
+decision, not an oversight, and overturning it silently would be wrong.
+
+What was missing instead was the human path: quarantined channels were counted in the
+dashboard but never listed, so the review the quarantine assumes could not happen. The dossier
+detail now shows them with their quarantine reason and the same verify control as any other
+channel; confirming one promotes it into the discovery channels with the operator's evidence
+note attached. **2,694 quarantined Canadian channels are now reviewable.**
+
+If that review shows the medium tier is reliably right, the rule is worth revisiting with the
+test rewritten deliberately rather than worked around.
+
+### YouTube quota, measured
+
+The daily 10,000-unit budget is real: after 140 searches the API returned
+`429 rateLimitExceeded` and 20 of the last 40 candidates came back empty. They are recorded as
+attempted, so the selector will skip them — re-run tomorrow to pick them up. Resolving
+declared channels never hit the limit: 227 more channels across eleven waves cost 11 units.
+
 ## Still open
 
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run

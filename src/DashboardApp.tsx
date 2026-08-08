@@ -1539,6 +1539,45 @@ function CandidateDetail({
         </div>
       </DetailSection>
 
+      {(dossier.quarantinedChannels ?? []).length > 0 && (
+        <DetailSection
+          icon={<ShieldAlert size={16} />}
+          title={`Karantina: kimligi dogrulanmamis kanallar (${formatNumber(
+            (dossier.quarantinedChannels ?? []).length,
+          )})`}
+        >
+          {/*
+            Quarantine means "a human has to decide", not "discarded". Discovery finds far more
+            channels than it can attribute — a podcast titled "<show> with <name>" published by
+            a network scores medium, and stays here. Without this list the operator could not
+            see them at all, so the review the quarantine assumes could never happen.
+          */}
+          <p className="quarantine-note">
+            Bu kayitlar aday listesine ve yildiz puanina dahil edilmiyor. Acip kontrol edin;
+            dogrularsaniz kanal sinyallerine tasinir.
+          </p>
+          <div className="source-list">
+            {(dossier.quarantinedChannels ?? []).slice(0, 25).map((channel, index) => (
+              <SourceItem
+                canEdit={canEdit}
+                candidateId={dossier.candidateId}
+                channel={channel}
+                datasetId={datasetId}
+                key={`q-${channel.url}-${index}`}
+                onChanged={onChannelChanged}
+                operator={operator}
+                quarantined
+              />
+            ))}
+          </div>
+          {(dossier.quarantinedChannels ?? []).length > 25 && (
+            <EmptyLine
+              text={`+${formatNumber((dossier.quarantinedChannels ?? []).length - 25)} kayit daha (ilk 25 gosteriliyor)`}
+            />
+          )}
+        </DetailSection>
+      )}
+
       <DetailSection icon={<Star size={16} />} title="Yildiz gerekcesi">
         <div className="reason-list">
           {(dossier.discoveryStar?.reasons ?? []).map((reason) => (
@@ -2062,6 +2101,7 @@ function SourceItem({
   datasetId,
   onChanged,
   operator,
+  quarantined = false,
 }: {
   canEdit: boolean;
   candidateId: string;
@@ -2069,6 +2109,7 @@ function SourceItem({
   datasetId: string;
   onChanged: () => void;
   operator: string;
+  quarantined?: boolean;
 }) {
   const url = channel.url ?? '';
   const [open, setOpen] = useState(false);
@@ -2096,12 +2137,17 @@ function SourceItem({
   }
 
   return (
-    <article className={channel.verified ? 'source-item verified' : 'source-item'}>
+    <article
+      className={
+        channel.verified ? 'source-item verified' : quarantined ? 'source-item quarantined' : 'source-item'
+      }
+    >
       <div className="source-item-main">
         <div>
           <strong>{channel.label ?? channel.platform ?? 'Source'}</strong>
           <span>
             {channel.platform ?? 'unknown'} · {channel.confidence ?? 'unknown'}
+            {quarantined && channel.identityEvidence?.[0] ? ` · ${channel.identityEvidence[0]}` : ''}
           </span>
         </div>
         {url && (

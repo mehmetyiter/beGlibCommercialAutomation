@@ -306,3 +306,24 @@ test('keeps an established inferred YouTube channel with strong identity context
     'high',
   );
 });
+
+test('a surname collision stays low no matter what the title says', () => {
+  const musicianWithCommonName = {
+    name: 'Claire Grimes',
+    title: 'Canadian musician',
+    primaryCategory: 'music',
+    subcategories: ['musician'],
+    sourceUrls: [],
+    channels: [],
+  };
+
+  assert.equal(
+    podcastIdentityConfidence(
+      musicianWithCommonName,
+      'Jam Crack - The Niall Grimes Climbing Podcast',
+      ['Niall Grimes'],
+      ['Niall Grimes', 'Sports, Podcasts'],
+    ),
+    'low',
+  );
+});
