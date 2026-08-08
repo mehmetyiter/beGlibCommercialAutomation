@@ -137,13 +137,19 @@ Phase 2:
 - Source evidence table
 - Suppression list table
 
-Phase 3:
+Phase 3 (email sending is implemented; see [Email sending](./email-sending.md)):
 
-- Email provider integration
+- AWS SES integration on a sending identity separate from Conversio transactional mail
+- Local outreach server, outbox, dedupe, and daily send limit
+- Human contact-route verification and per-message approval bound to the rendered body
+- Suppression list, enforced at staging and re-checked at delivery
+- Bounce/complaint ingestion through SNS to SQS, polled locally
+- Append-only audit log
+
+Phase 3 remainder:
+
 - Inbox webhook
 - AI classifier
-- Human approval queue
-- Audit log
 
 Phase 4:
 

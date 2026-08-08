@@ -226,12 +226,30 @@ function selectCandidates(candidates, options) {
   const categoryFilter = options.categories
     ? new Set(String(options.categories).split(',').map((category) => category.trim()).filter(Boolean))
     : null;
-  const candidateLimit = boundedNumber(options.limit, candidates.length, 1, candidates.length || 1);
+  // YouTube search costs 100 quota units a call, so which candidates this stage runs against
+  // is a budget decision. Country belongs in it: a launch market should be enriched first.
+  const countryFilter = options.countries
+    ? new Set(
+        String(options.countries)
+          .split(',')
+          .map((country) => country.trim().toLowerCase())
+          .filter(Boolean),
+      )
+    : null;
+  const matching = candidates
+    .filter((candidate) => !categoryFilter || categoryFilter.has(candidate.primaryCategory))
+    .filter((candidate) => !countryFilter || matchesCountry(candidate, countryFilter));
+  const candidateLimit = boundedNumber(options.limit, matching.length, 1, matching.length || 1);
   const candidateOffset = getCandidateOffset(options);
 
-  return candidates
-    .filter((candidate) => !categoryFilter || categoryFilter.has(candidate.primaryCategory))
-    .slice(candidateOffset, candidateOffset + candidateLimit);
+  return matching.slice(candidateOffset, candidateOffset + candidateLimit);
+}
+
+/** Matches the filed country or any recorded citizenship, so dual citizens are not missed. */
+function matchesCountry(candidate, countryFilter) {
+  const values = [candidate.country, ...(candidate.citizenships ?? [])];
+
+  return values.some((value) => countryFilter.has(String(value ?? '').trim().toLowerCase()));
 }
 
 async function loadQuarantinedYouTubeLocators(dossierPath) {

@@ -33,25 +33,38 @@ const socialPlatforms = new Set(['youtube', 'x', 'instagram', 'linkedin', 'faceb
 const socialAccountPlatforms = new Set(['youtube', 'x', 'instagram', 'linkedin', 'facebook', 'tiktok']);
 
 const args = parseArgs(process.argv.slice(2));
-const batchPath = resolve(args.batch ?? args._[0] ?? 'data/openalex-wave-001-broad-experts.local/_merged-wave.local.json');
+const batchPaths = (multiArg(args.batch).length > 0 ? multiArg(args.batch) : args._.length > 0 ? args._ : [
+  'data/openalex-wave-001-broad-experts.local/_merged-wave.local.json',
+]).map((value) => resolve(value));
 const inputDir = resolve(args['input-dir'] ?? 'exports');
 const sourceBatchId = args['source-batch-id'];
 const filenameIncludes = listArg(args['filename-includes']);
 const filenameExcludes = listArg(args['filename-excludes']);
 const outputPath = resolve(args.output ?? 'exports/candidate-discovery-dossiers.local.json');
 const markdownPath = resolve(args['markdown-output'] ?? 'exports/candidate-discovery-dossiers.local.md');
-const batch = JSON.parse(await readFile(batchPath, 'utf8'));
-const candidates = Array.isArray(batch.candidates) ? batch.candidates : [];
+const batches = await loadBatches(batchPaths);
+const merge = mergeBatchCandidates(batches);
+const candidates = merge.candidates;
+const primaryBatch = batches[0].batch;
 const parseFailures = [];
 const packages = await loadDiscoveryPackages();
 const dossiers = candidates.map((candidate) => buildDossier(candidate, packages));
 const summary = buildSummary(dossiers);
 const dossierPackage = {
-  reviewId: `${slugify(batch.batchId ?? 'research-batch')}-candidate-discovery-dossiers`,
+  reviewId: `${slugify(args['review-id'] ?? primaryBatch.batchId ?? 'research-batch')}-candidate-discovery-dossiers`,
   createdAt: new Date().toISOString(),
-  sourceBatchId: batch.batchId ?? null,
-  sourceLabel: batch.sourceLabel ?? null,
-  sourceFile: batchPath,
+  // The first batch stays in the singular fields so every existing reader keeps working;
+  // `sources` is the complete list once more than one pool is merged in.
+  sourceBatchId: primaryBatch.batchId ?? null,
+  sourceLabel: primaryBatch.sourceLabel ?? null,
+  sourceFile: batches[0].file,
+  sources: batches.map((entry) => ({
+    batchId: entry.batch.batchId ?? null,
+    sourceLabel: entry.batch.sourceLabel ?? null,
+    file: entry.file,
+    createdAt: entry.batch.createdAt ?? null,
+    candidates: entry.candidates.length,
+  })),
   mode: 'candidate-discovery-dossiers',
   qualityVersion: 'candidate-attribution-v2',
   inputDir,
@@ -77,6 +90,16 @@ await writeFile(markdownPath, renderMarkdown(dossierPackage), 'utf8');
 
 console.log(`Candidate discovery dossier JSON written to ${outputPath}`);
 console.log(`Candidate discovery dossier markdown written to ${markdownPath}`);
+console.log(`Source batches: ${batches.length}`);
+
+for (const source of dossierPackage.sources) {
+  console.log(`  - ${source.batchId ?? 'unnamed batch'}: ${source.candidates} candidates (${source.file})`);
+}
+
+if (merge.duplicates > 0) {
+  console.log(`Duplicate candidate ids merged across batches: ${merge.duplicates}`);
+}
+
 console.log(`Candidates: ${summary.candidates}`);
 console.log(`Discovery packages: ${summary.discoveryPackages}`);
 console.log(`Channel candidates: ${summary.channelCandidates}`);
@@ -87,6 +110,72 @@ console.log(`Quarantined channel candidates: ${summary.quarantinedChannelCandida
 console.log(`Quarantined contact candidates: ${summary.quarantinedContactCandidates}`);
 console.log(`Creator suggestions: ${summary.creatorSuggestions}`);
 console.log(`Five-star discovery dossiers: ${summary.discoveryStars.five}`);
+
+async function loadBatches(paths) {
+  const loaded = [];
+
+  for (const file of paths) {
+    const batch = JSON.parse(await readFile(file, 'utf8'));
+
+    loaded.push({
+      file,
+      batch,
+      candidates: Array.isArray(batch.candidates) ? batch.candidates : [],
+    });
+  }
+
+  return loaded;
+}
+
+/**
+ * Merges every `--batch` into one candidate pool keyed by candidate id. Before this the
+ * builder read a single file, so a candidate that existed only in the batch that was not
+ * being built simply disappeared from the dashboard — the failure that produced
+ * docs/dashboard-completion-plan.md.
+ *
+ * On a collision the record from the batch with the newer `createdAt` wins; batches with
+ * no `createdAt` fall back to the order they were passed on the command line.
+ */
+function mergeBatchCandidates(loadedBatches) {
+  const byId = new Map();
+  let duplicates = 0;
+
+  loadedBatches.forEach((entry, index) => {
+    const parsed = Date.parse(entry.batch.createdAt ?? '');
+    const origin = { index, createdAt: Number.isFinite(parsed) ? parsed : null };
+
+    for (const candidate of entry.candidates) {
+      const id = candidate?.id;
+
+      if (!id) {
+        continue;
+      }
+
+      const existing = byId.get(id);
+
+      if (!existing) {
+        byId.set(id, { candidate, origin });
+        continue;
+      }
+
+      duplicates += 1;
+
+      if (isNewerOrigin(origin, existing.origin)) {
+        byId.set(id, { candidate, origin });
+      }
+    }
+  });
+
+  return { candidates: Array.from(byId.values(), (entry) => entry.candidate), duplicates };
+}
+
+function isNewerOrigin(origin, existing) {
+  if (origin.createdAt !== null && existing.createdAt !== null) {
+    return origin.createdAt >= existing.createdAt;
+  }
+
+  return origin.index > existing.index;
+}
 
 async function loadDiscoveryPackages() {
   const files = await findJsonFiles(inputDir);
@@ -915,6 +1004,8 @@ function buildSummary(dossiers) {
 
   return {
     candidates: dossiers.length,
+    sourceBatches: batches.length,
+    duplicateCandidateIds: merge.duplicates,
     discoveryPackages: packages.length,
     dossiersWithAnyDiscovery: dossiers.filter(
       (dossier) => dossier.counts.discoveryChannels > 0 || dossier.counts.contactCandidates > 0,
@@ -1161,11 +1252,18 @@ function parseArgs(argv) {
 
     if (value.startsWith('--')) {
       const key = value.slice(2);
-      if (!next || next.startsWith('--')) {
-        parsed[key] = true;
-      } else {
-        parsed[key] = next;
+      const flagValue = !next || next.startsWith('--') ? true : next;
+
+      if (flagValue !== true) {
         index += 1;
+      }
+
+      // Repeating a flag collects instead of overwriting, which is what makes
+      // `--batch a.json --batch b.json` merge two candidate pools into one export.
+      if (key in parsed) {
+        parsed[key] = [...(Array.isArray(parsed[key]) ? parsed[key] : [parsed[key]]), flagValue];
+      } else {
+        parsed[key] = flagValue;
       }
     } else {
       parsed._.push(value);
@@ -1181,6 +1279,17 @@ function matchesFilenameFilters(fileName) {
   const excluded = filenameExcludes.some((fragment) => fileName.includes(fragment));
 
   return included && !excluded;
+}
+
+function multiArg(value) {
+  if (value === undefined || value === true) {
+    return [];
+  }
+
+  return (Array.isArray(value) ? value : [value])
+    .filter((entry) => typeof entry === 'string')
+    .map((entry) => entry.trim())
+    .filter(Boolean);
 }
 
 function listArg(value) {

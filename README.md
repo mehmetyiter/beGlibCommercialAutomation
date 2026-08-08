@@ -21,6 +21,7 @@ The current cockpit uses synthetic candidate data only and now includes:
 - Public page contact discovery can inspect discovered websites for contact, press, booking, mailto, social, and feed links.
 - Feed source signal discovery can parse discovered RSS/Atom links for podcast, newsletter, blog, activity, and public feed email candidates.
 - Candidate discovery dossiers can merge local discovery packages into one review record per candidate.
+- Outreach sending through AWS SES from the dashboard, behind human contact-route verification, per-message approval, suppression, dedupe, and a daily limit.
 - Repository guardrails so real lead data, exports, logs, and secrets stay out of git.
 
 ## Run Locally
@@ -31,6 +32,41 @@ npm run dev
 ```
 
 Open the local Vite URL shown in the terminal, usually `http://localhost:5173`.
+
+To use the Outreach tab, start the local send API in a second terminal:
+
+```bash
+npm run outreach:server
+```
+
+The dashboard reaches it only through the Vite dev proxy, which injects the server token
+server-side; the browser never holds a credential. Sending stays disabled until
+`OUTREACH_EMAIL_MODE` and the sender identity are configured — see
+[Email sending](./docs/email-sending.md).
+
+The same server also handles the operator write path: hand-entered candidates, review
+outcomes (approve / reject / defer, with consent, risk, and star edits), channel identity
+verification, and hand-typed email addresses. Those writes land in
+`data/candidate-overlay.local.json`, never in the generated dossier export, and are merged
+back over it at read time — so rebuilding the candidate pool cannot destroy them. A
+hand-typed address is not a bypass: it goes through the same verification and approval gates
+as a discovered one.
+
+The workspace header switches between two views. **Adaylar** is the candidate pool, filters,
+dossier detail, and the per-candidate outreach chain. **Operasyon** is campaign-wide: the
+daily quota against the send limit, the full outbox by status, retry, queue draining, and the
+suppression list with add and revoke.
+
+The review loop in the candidate view is keyboard-driven: `j`/`k` move, `n` jumps to the first
+candidate with no decision, `a`/`r`/`d` approve/reject/defer, `o` opens the source page, `x`
+adds to the bulk selection, and `?` lists the shortcuts. Progress is derived from the overlay
+rather than a stored cursor, so "continue where I left off" survives a restart.
+
+Check the effective outreach configuration and any blocking issues:
+
+```bash
+npm run outreach:config
+```
 
 Validate a synthetic research batch:
 
@@ -125,6 +161,14 @@ Build merged candidate discovery dossiers:
 npm run build:dossiers -- --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --input-dir exports --source-batch-id openalex-wave-001-broad-experts --filename-excludes smoke,summary --output exports/openalex-wave-001-discovery-dossiers.local.json --markdown-output exports/openalex-wave-001-discovery-dossiers.local.md
 ```
 
+`--batch` is repeatable and merges every pool by candidate id, newest wins. Pass every pool
+the dashboard should show, or candidates that exist only in an omitted batch look like they
+are not in the data at all:
+
+```bash
+npm run build:dossiers -- --batch data/wikidata-all-waves-public-figures-combined.local.json --batch data/openalex-wave-001-broad-experts.local/_merged-wave.local.json --review-id all-pools --input-dir exports --filename-excludes discovery-dossiers,smoke,summary --output exports/all-waves-discovery-dossiers.local.json --markdown-output exports/all-waves-discovery-dossiers.local.md
+```
+
 Apply completed official-source review outcomes into a private candidate update batch:
 
 ```bash
@@ -160,6 +204,9 @@ Before production outreach, change the GitHub repository to private or keep the 
 ## Core Documents
 
 - [Automation plan](./docs/automation-plan.md)
+- [Email sending](./docs/email-sending.md)
+- [Host prospect integration](./docs/host-prospect-integration.md)
+- [Conversio enablement requirements](./docs/conversio-enablement-requirements.md)
 - [Data governance](./docs/data-governance.md)
 - [Candidate schema](./docs/candidate-schema.md)
 - [FAQ and reply routing](./docs/faq-reply-routing.md)
@@ -179,6 +226,7 @@ Before production outreach, change the GitHub repository to private or keep the 
 - [Star rating system](./docs/star-rating-system.md)
 - [Verification queue](./docs/verification-queue.md)
 - [Broad research taxonomy](./docs/broad-research-taxonomy.md)
+- [Sprint 14 notes](./docs/sprint-14-notes.md)
 - [Sprint 13 notes](./docs/sprint-13-notes.md)
 - [Sprint 12 notes](./docs/sprint-12-notes.md)
 - [Sprint 11 notes](./docs/sprint-11-notes.md)

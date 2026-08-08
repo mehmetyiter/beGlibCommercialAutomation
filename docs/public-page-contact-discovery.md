@@ -72,3 +72,20 @@ Use `--include-platform-pages` only for deliberate manual tests.
 - Do not guess emails or decode obfuscated address patterns.
 - Do not scrape private, login-only, hidden, breached, or technically restricted data.
 - Human review must confirm identity, professional context, source URL, jurisdiction, suppression status, and sensitive-category status before campaign use.
+
+## Country scoping
+
+`--countries <name>[,<name>]` restricts the scan to page sources whose candidate is filed
+under one of those countries. This stage fetches one real website at a time behind a delay, so
+it is the slowest thing in the pipeline; scoping it to the launch market is the difference
+between contact routes for the people about to be emailed and a thin spread across the whole
+pool.
+
+```bash
+node scripts/research-public-page-contact-sources.mjs \
+  --batch data/canada-wave-004-digital-creators-social-video.local.json \
+  --countries Canada --limit 150 --delay-ms 700
+```
+
+`--source-batch-id` is a **filter** on the input packages, not a label for the output. Passing
+a new name matches nothing and the run reports zero page sources without failing.

@@ -1,5 +1,12 @@
 # Star Rating System
 
+> **Implementation note, 2026-08-08.** These rules have one implementation:
+> `assessDiscoveryStar` in `scripts/build-candidate-discovery-dossiers.mjs`. The second copy
+> (`src/lib/starRating.ts`) was deleted — two copies of the same rules is how they drift. An
+> operator can override the star for a single candidate through the review outcome; the
+> override is stored in the overlay and the computed discovery score is kept beside it as
+> `discoveredStars`.
+
 ## Purpose
 
 Stars identify candidates with the strongest host-readiness and distribution signals. This is separate from compliance. A 5-star candidate can still be blocked if consent, source, sensitivity, or suppression checks fail.

@@ -75,3 +75,31 @@ test("executes a signed request through an injected fetch implementation", async
   assert.equal(response.status, 200);
   assert.deepEqual(response.json, { ok: true });
 });
+
+test("rejects a key id copied with documentation placeholder brackets", () => {
+  assert.throws(
+    () =>
+      buildSignedHostProspectRequest({
+        baseUrl: "https://api.beglib.com",
+        keyId: "<commercial-automation-prod-2026-08>",
+        secret: "s".repeat(32),
+        method: "POST",
+        pathWithQuery: "/internal/v1/host-prospects",
+        body: { contractVersion: "1.0" }
+      }),
+    /not a valid key id/
+  );
+});
+
+test("accepts the documented key id shape", () => {
+  const signed = buildSignedHostProspectRequest({
+    baseUrl: "https://api.beglib.com",
+    keyId: "commercial-automation-prod-2026-08",
+    secret: "s".repeat(32),
+    method: "POST",
+    pathWithQuery: "/internal/v1/host-prospects",
+    body: { contractVersion: "1.0" }
+  });
+
+  assert.equal(signed.headers["X-BeGlib-Key-Id"], "commercial-automation-prod-2026-08");
+});

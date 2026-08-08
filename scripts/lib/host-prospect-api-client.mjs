@@ -10,6 +10,11 @@ import {
 
 const MUTATION_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
 
+// Mirrors Conversio's keyIdSchema. A malformed key id is otherwise indistinguishable from
+// a wrong secret: both surface as an opaque auth rejection, which is painful to debug from
+// this side. The commonest cause is copying a documentation placeholder with its brackets.
+const KEY_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._:-]{0,63}$/;
+
 export function randomOpaqueToken(bytes = 18) {
   return randomBytes(bytes).toString("base64url");
 }
@@ -44,6 +49,11 @@ export function buildSignedHostProspectRequest({
   nonce = randomOpaqueToken()
 }) {
   if (!keyId) throw new Error("HOST_PROSPECT_HMAC_KEY_ID is required");
+  if (!KEY_ID_PATTERN.test(keyId)) {
+    throw new Error(
+      `HOST_PROSPECT_HMAC_KEY_ID "${keyId}" is not a valid key id (1-64 chars, [A-Za-z0-9][A-Za-z0-9._:-]*). Check for placeholder brackets or stray whitespace.`
+    );
+  }
   if (!secret) throw new Error("HOST_PROSPECT_HMAC_SECRET is required");
   const normalizedMethod = String(method).toUpperCase();
   const rawBody = body === undefined || body === null ? "" : typeof body === "string" ? body : JSON.stringify(body);

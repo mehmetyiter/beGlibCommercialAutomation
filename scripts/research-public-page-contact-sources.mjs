@@ -111,7 +111,15 @@ const jsonPath = resolve(args['json-output'] ?? `exports/${defaultSlug}-page-con
 const parseFailures = [];
 const sourcePackages = await loadSourcePackages();
 const allPageSources = collectPageSources(sourcePackages);
-const selectedPageSources = allPageSources.slice(sourceOffset, sourceOffset + sourceLimit);
+// This stage fetches real websites one at a time behind a delay, so it is the slowest thing
+// in the pipeline. Restricting it to a launch market is the difference between contacts for
+// the people we are about to email and contacts spread thin across the whole pool.
+const countryFilter = listArg(args.countries ?? args.country).map((country) => country.toLowerCase());
+const countryPageSources =
+  countryFilter.length === 0
+    ? allPageSources
+    : allPageSources.filter((source) => countryFilter.includes(String(source.country ?? '').toLowerCase()));
+const selectedPageSources = countryPageSources.slice(sourceOffset, sourceOffset + sourceLimit);
 const scanFailures = [];
 const items = [];
 
@@ -135,6 +143,8 @@ const discoveryPackage = {
   summary: {
     sourcePackages: sourcePackages.length,
     discoveredPageSources: allPageSources.length,
+    countryFilter,
+    countryPageSources: countryPageSources.length,
     selectedPageSources: selectedPageSources.length,
     offset: sourceOffset,
     fetchedPages: items.filter((item) => item.fetchStatus === 'fetched').length,

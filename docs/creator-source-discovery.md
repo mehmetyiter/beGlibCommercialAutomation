@@ -164,3 +164,20 @@ The worker matches feeds by `candidateId` or exact `name`.
 - YouTube quota and compliance audits: https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits
 - PodcastIndex OpenAPI: https://podcastindex-org.github.io/docs-api/pi_api.json
 - RSS 2.0 specification: https://www.rssboard.org/rss-specification
+
+## Country scoping and YouTube quota
+
+`--countries <name>[,<name>]` restricts the run to candidates filed under one of those
+countries, matching the filed country or any recorded citizenship. YouTube search costs 100
+quota units per call against a 10,000/day default, so which candidates this stage runs against
+is a spending decision — the launch market goes first.
+
+Two halves, cheapest first:
+
+- `--youtube-mode known-only --youtube-search-limit 0` resolves the channels candidates already
+  declare on Wikidata. `channels.list` batches 50 ids per call at 1 unit, so 167 channels cost
+  4 units.
+- `--youtube-mode search-only` searches for candidates with no declared channel. Feed it the
+  ranked list from `scripts/select-youtube-search-candidates.mjs`, which also takes
+  `--countries`, skips anyone already resolved or already attempted, and orders by discovery
+  stars.

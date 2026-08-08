@@ -192,32 +192,25 @@ Candidate storage is inclusive by default:
 
 ## Star Assessment
 
-The app computes `StarAssessment` from `influenceSignals`, channels, and reach score.
-
-Computed fields:
-
-- `stars`
-- `score`
-- `label`
-- `reasons`
-- `missingSignals`
+Superseded 2026-08-08. `StarAssessment` and the browser-side rating module were deleted; the
+only star rules now are the discovery stars computed by
+`scripts/build-candidate-discovery-dossiers.mjs` (`DiscoveryStarAssessment`), which an
+operator can override per candidate through the review outcome in the overlay.
 
 ## Audit Event
 
-The local vault records lightweight audit events with:
-
-- `id`
-- `type`
-- `createdAt`
-- `actor`
-- `summary`
-- `metadata`
-
-Audit events currently live in browser localStorage. Production storage should keep a server-side append-only audit log.
+Superseded 2026-08-08. The browser localStorage vault and its `AuditEvent` records were
+deleted. Every mutation — verification, approval, enqueue, send, suppression, manual candidate,
+review outcome, channel verification — is appended server-side to
+`data/outreach-audit.local.jsonl` (`OUTREACH_AUDIT_PATH`), which is the append-only log this
+section used to ask for.
 
 ## Verification Task
 
-The verification queue uses `VerificationTask` records.
+Superseded 2026-08-08. `VerificationTask` and the queue that synthesised those records were
+deleted. The dashboard derives the review queue from real overlay state instead: a candidate
+is outstanding until it has a recorded review outcome. See
+[Dashboard completion plan](./dashboard-completion-plan.md).
 
 ## Candidate Discovery Dossier
 

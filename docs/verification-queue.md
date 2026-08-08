@@ -1,5 +1,17 @@
 # Verification Queue
 
+> **Superseded 2026-08-08.** The module that generated these tasks (`src/lib/verificationQueue.ts`)
+> was deleted along with the rest of the dead browser-side library. It synthesised a task list
+> from candidate records; the dashboard now derives the review queue from real operator state —
+> a candidate is outstanding until it has a review outcome in the overlay — and the individual
+> checks below have become gates that actually block: contact-route verification and
+> suppression in `scripts/lib/outreach-policy.mjs`, identity match through per-channel
+> verification in the dossier detail, jurisdiction as a preflight warning, and
+> sensitive-category as a required named approver.
+>
+> The task taxonomy below is kept because it is still the right description of what a human
+> has to check before outreach.
+
 ## Purpose
 
 The verification queue turns discovery candidates into concrete human review tasks before any outreach is considered.

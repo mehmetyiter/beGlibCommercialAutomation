@@ -17,6 +17,20 @@ Never commit:
 
 The repo ignores `data/`, `exports/`, and `logs/` by default while keeping empty `.gitkeep` files.
 
+## Outreach State Retention
+
+Outreach state lives under `data/` and never leaves the local machine: the suppression
+list, contact-route verifications, message approvals, the outbox, provider-event
+counters, the append-only audit log, and the local server token.
+
+Message bodies are the most sensitive part of that state. `npm run outreach:redact` drops
+the body text from terminal outbox records older than 90 days while keeping the audit
+trail — actor, timestamp, body hash, and provider message id — so a send stays
+reconstructible for compliance without retaining the copy indefinitely.
+
+Suppression entries are never deleted. Revoking one records a revocation stamp, a named
+actor, and a reason; the original entry stays for audit.
+
 ## Minimum Candidate Evidence
 
 Before any outreach, each candidate must have:

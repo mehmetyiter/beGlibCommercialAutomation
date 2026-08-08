@@ -8,6 +8,10 @@ const inputDir = resolve(args['input-dir'] ?? 'exports');
 const outputPath = resolve(args.output ?? 'data/youtube-search-candidates.local.json');
 const limit = boundedNumber(args.limit, 20, 1, 100);
 const minStars = boundedNumber(args['min-stars'], 1, 0, 5);
+const countryFilter = String(args.countries ?? args.country ?? '')
+  .split(',')
+  .map((country) => country.trim().toLowerCase())
+  .filter(Boolean);
 
 const [batch, dossierPackage, attemptedCandidateIds] = await Promise.all([
   readJson(batchPath),
@@ -28,6 +32,9 @@ const eligibleDossiers = dossierPackage.dossiers
   .filter((dossier) => !attemptedCandidateIds.has(dossier.candidateId))
   .filter((dossier) => !hasYoutubeChannel(dossier))
   .filter((dossier) => Number(dossier.discoveryStar?.stars ?? 0) >= minStars)
+  // A YouTube search costs 100 quota units against a 10,000/day budget, so this list is a
+  // spending decision: the launch market goes first.
+  .filter((dossier) => matchesCountry(dossier, candidatesById.get(dossier.candidateId)))
   .sort(compareDossiers);
 const selectedDossiers = eligibleDossiers.slice(0, limit);
 const selectedCandidates = selectedDossiers.map((dossier) => candidatesById.get(dossier.candidateId));
@@ -52,6 +59,7 @@ const output = {
     selectedCandidates: selectedCandidates.length,
     limit,
     minStars,
+    countryFilter,
     ranking: ['discovery-stars-desc', 'reach-score-desc', 'fit-score-desc', 'discovery-channel-count-desc'],
   },
 };
@@ -68,6 +76,17 @@ selectedDossiers.forEach((dossier, index) => {
     `${index + 1}. ${dossier.name} (${dossier.discoveryStar?.stars ?? 0} stars, reach ${dossier.reachScore ?? 0}, fit ${dossier.fitScore ?? 0})`,
   );
 });
+
+/** Matches the filed country or any recorded citizenship, so dual citizens are not missed. */
+function matchesCountry(dossier, candidate) {
+  if (countryFilter.length === 0) {
+    return true;
+  }
+
+  return [dossier.country, candidate?.country, ...(candidate?.citizenships ?? [])].some((value) =>
+    countryFilter.includes(String(value ?? '').trim().toLowerCase()),
+  );
+}
 
 async function collectAttemptedCandidateIds(directory) {
   const attempted = new Set();

@@ -1,0 +1,579 @@
+.outreach-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+}
+
+.outreach-empty {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 14px;
+  padding: 14px;
+  border: 1px solid #e7d7a8;
+  border-radius: 8px;
+  color: #6b5410;
+  background: #fdf8e8;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Mode banner ------------------------------------------------------------- */
+
+.outreach-mode {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid #dce2e5;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 12px;
+}
+
+.outreach-mode strong {
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.outreach-mode.off strong {
+  color: #4a5560;
+  background: #e8ecef;
+}
+
+.outreach-mode.dry_run strong {
+  color: #6b5410;
+  background: #fbeec4;
+}
+
+.outreach-mode.live {
+  border-color: #f0b8af;
+  background: #fff6f4;
+}
+
+.outreach-mode.live strong {
+  color: #ffffff;
+  background: #b02a1c;
+}
+
+.outreach-mode > span {
+  color: #5b6770;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.outreach-issues {
+  grid-column: 1 / -1;
+  margin: 4px 0 0;
+  padding-left: 18px;
+  color: #8f221a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Steps -------------------------------------------------------------------- */
+
+.outreach-step {
+  border: 1px solid #dce2e5;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.outreach-step > header {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e9eef0;
+}
+
+.outreach-step > header h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.outreach-step-index {
+  width: 21px;
+  height: 21px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  color: #ffffff;
+  background: #17423c;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.outreach-step-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+}
+
+/* Alerts and callouts ------------------------------------------------------ */
+
+.outreach-alert,
+.outreach-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 9px 11px;
+  border: 1px solid #dce2e5;
+  border-radius: 7px;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.outreach-alert p {
+  margin: 0 0 4px;
+}
+
+.outreach-alert p:last-child {
+  margin-bottom: 0;
+}
+
+.outreach-alert.error,
+.outreach-callout.block {
+  color: #8f221a;
+  border-color: #f0b8af;
+  background: #fff0ed;
+}
+
+.outreach-alert.success,
+.outreach-callout.ok {
+  color: #234b43;
+  border-color: #c9ddd8;
+  background: #eef8f5;
+}
+
+.outreach-callout div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.outreach-callout span {
+  color: #52616a;
+  font-weight: 600;
+}
+
+/* Forms -------------------------------------------------------------------- */
+
+.outreach-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  align-items: end;
+}
+
+.outreach-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.outreach-field.wide {
+  grid-column: 1 / -1;
+}
+
+.outreach-field > span {
+  color: #5b6770;
+}
+
+.outreach-field input,
+.outreach-field select,
+.outreach-field textarea,
+.outreach-suppress select {
+  min-height: 34px;
+  padding: 6px 9px;
+  border: 1px solid #d7e0e4;
+  border-radius: 7px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.outreach-field textarea {
+  resize: vertical;
+}
+
+.outreach-hint {
+  margin: 0;
+  color: #64727d;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.outreach-hint.warn {
+  color: #8a5a08;
+}
+
+/* Contact route picker ------------------------------------------------------ */
+
+.outreach-radio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.outreach-radio {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 10px;
+  border: 1px solid #e2e8ea;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.outreach-radio:hover {
+  border-color: #90b9b2;
+  background: #f7fbfa;
+}
+
+.outreach-radio > span {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.outreach-radio strong {
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.outreach-radio small {
+  color: #6e7c86;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.outreach-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-style: normal;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.outreach-tag.ok {
+  color: #1d6152;
+  background: #dff1eb;
+}
+
+/* Preview ------------------------------------------------------------------- */
+
+.outreach-preview dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 12px;
+  margin: 0 0 10px;
+}
+
+.outreach-preview dl > div {
+  display: flex;
+  gap: 6px;
+  min-width: 0;
+  font-size: 12px;
+}
+
+.outreach-preview dt {
+  color: #6e7c86;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.outreach-preview dd {
+  margin: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.outreach-preview dd.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.outreach-preview pre {
+  max-height: 320px;
+  margin: 0;
+  padding: 11px;
+  border: 1px solid #e2e8ea;
+  border-radius: 7px;
+  background: #fafbfc;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+/* Preflight ----------------------------------------------------------------- */
+
+.outreach-preflight {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.outreach-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.outreach-check code {
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: #eef1f3;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.outreach-check.block {
+  color: #8f221a;
+}
+
+.outreach-check.warn {
+  color: #8a5a08;
+}
+
+/* Actions -------------------------------------------------------------------- */
+
+.outreach-actions,
+.outreach-suppress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.outreach-button {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+  border: 1px solid #d7e0e4;
+  border-radius: 7px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.outreach-button:hover:not(:disabled) {
+  border-color: #90b9b2;
+  background: #eff8f5;
+}
+
+.outreach-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.outreach-button.primary {
+  color: #ffffff;
+  border-color: #17423c;
+  background: #17423c;
+}
+
+.outreach-button.primary:hover:not(:disabled) {
+  background: #1d564d;
+}
+
+.outreach-button.danger {
+  color: #ffffff;
+  border-color: #b02a1c;
+  background: #b02a1c;
+}
+
+.outreach-button.danger:hover:not(:disabled) {
+  background: #c53222;
+}
+
+.outreach-button.ghost {
+  min-height: 30px;
+  padding: 0 9px;
+  font-size: 12px;
+}
+
+.outreach-confirm {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #8f221a;
+  font-size: 12.5px;
+  font-weight: 750;
+}
+
+.outreach-suppress {
+  padding-top: 8px;
+  border-top: 1px solid #eef1f3;
+}
+
+/* History table --------------------------------------------------------------- */
+
+.outreach-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.outreach-table th {
+  padding: 5px 7px;
+  border-bottom: 1px solid #e2e8ea;
+  color: #6e7c86;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.outreach-table td {
+  padding: 6px 7px;
+  border-bottom: 1px solid #f0f3f4;
+  overflow-wrap: anywhere;
+}
+
+.outreach-status {
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 800;
+}
+
+.outreach-status.sent {
+  color: #1d6152;
+  background: #dff1eb;
+}
+
+.outreach-status.pending {
+  color: #6b5410;
+  background: #fbeec4;
+}
+
+.outreach-status.failed {
+  color: #8f221a;
+  background: #ffe3dd;
+}
+
+.outreach-status.suppressed {
+  color: #4a5560;
+  background: #e8ecef;
+}
+
+.outreach-footnote {
+  margin: 0;
+  color: #8b979f;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.spin {
+  animation: outreach-spin 1s linear infinite;
+}
+
+@keyframes outreach-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1100px) {
+  .outreach-form-grid,
+  .outreach-preview dl {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .outreach-mode {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+}
+
+/* Campaign-wide operations view. */
+
+.ops-quota {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.ops-quota-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: #e4eaed;
+  overflow: hidden;
+}
+
+.ops-quota-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #17423c;
+}
+
+.ops-quota strong {
+  font-size: 15px;
+}
+
+.ops-quota small {
+  color: #64727d;
+  font-size: 12px;
+}
+
+.ops-counters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.ops-counter {
+  display: grid;
+  gap: 2px;
+  padding: 9px 11px;
+  border: 1px solid #d7e0e4;
+  border-radius: 8px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ops-counter strong {
+  font-size: 17px;
+}
+
+.ops-counter span {
+  color: #64727d;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.ops-counter.active {
+  border-color: #17423c;
+  background: #eff8f5;
+}

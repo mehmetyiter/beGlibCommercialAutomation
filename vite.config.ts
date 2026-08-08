@@ -1,8 +1,11 @@
 import react from '@vitejs/plugin-react';
+import { readFileSync } from 'node:fs';
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { basename, resolve } from 'node:path';
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import type { Plugin } from 'vite';
+
+import { applyOverlay, loadOverlayState, resolveOverlayPath } from './scripts/lib/candidate-overlay.mjs';
 
 interface DatasetOption {
   id: string;
@@ -25,7 +28,7 @@ interface DiscoveryPackagePreview {
   dossiers?: unknown[];
 }
 
-function localDashboardDataPlugin(): Plugin {
+function localDashboardDataPlugin(overlayPath: string): Plugin {
   return {
     name: 'beglib-local-dashboard-data',
     configureServer(server) {
@@ -59,7 +62,14 @@ function localDashboardDataPlugin(): Plugin {
           const selectedDataset =
             datasets.find((dataset) => dataset.id === requestedDataset) ?? datasets[0];
           const packagePath = resolve(server.config.root, selectedDataset.file);
-          const dossierPackage = JSON.parse(await readFile(packagePath, 'utf8')) as DiscoveryPackagePreview;
+          // Operator-entered candidates and review outcomes are merged in on read; the file
+          // on disk stays purely generated so a rebuild never destroys hand-entered work.
+          const overlayState = await loadOverlayState(overlayPath);
+          const dossierPackage = applyOverlay(
+            JSON.parse(await readFile(packagePath, 'utf8')),
+            overlayState,
+            selectedDataset.id,
+          ) as DiscoveryPackagePreview;
 
           response.end(
             JSON.stringify({
@@ -177,6 +187,52 @@ function getCandidateCount(preview: DiscoveryPackagePreview) {
   return preview.summary?.candidates ?? preview.dossiers?.length ?? 0;
 }
 
-export default defineConfig({
-  plugins: [react(), localDashboardDataPlugin()],
+/**
+ * The outreach server token lives only in this Node process and in the proxy headers.
+ * Injecting it here rather than shipping it to the browser means a page in another tab
+ * cannot reach the send API even though it listens on loopback.
+ */
+function readOutreachServerToken(env: Record<string, string>) {
+  const fromEnv = env.OUTREACH_SERVER_TOKEN?.trim();
+
+  if (fromEnv) {
+    return fromEnv;
+  }
+
+  try {
+    return readFileSync(resolve(process.cwd(), 'data/.outreach-server-token.local'), 'utf8').trim();
+  } catch {
+    return '';
+  }
+}
+
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '');
+  const outreachPort = Number.parseInt(env.OUTREACH_SERVER_PORT ?? '', 10) || 5174;
+  const outreachToken = readOutreachServerToken(env);
+
+  return {
+    plugins: [react(), localDashboardDataPlugin(resolveOverlayPath({ ...process.env, ...env }))],
+    server: {
+      proxy: {
+        '/api/outreach': {
+          target: `http://127.0.0.1:${outreachPort}`,
+          changeOrigin: false,
+          configure(proxy) {
+            proxy.on('proxyReq', (proxyRequest) => {
+              if (outreachToken) {
+                proxyRequest.setHeader('x-outreach-token', outreachToken);
+              }
+            });
+
+            proxy.on('error', (error) => {
+              console.warn(
+                `[outreach] proxy to 127.0.0.1:${outreachPort} failed: ${error.message}. Start it with "npm run outreach:server".`,
+              );
+            });
+          },
+        },
+      },
+    },
+  };
 });

@@ -26,11 +26,26 @@ const retryDelayMs = boundedNumber(args['retry-delay-ms'], 5000, 250, 60000);
 const timeoutMs = boundedNumber(args['timeout-ms'], 20000, 1000, 120000);
 const minSitelinks = boundedNumber(args['min-sitelinks'], config.minSitelinks ?? 3, 0, 1000);
 const rankBySitelinks = Boolean(args['rank-by-sitelinks'] ?? config.rankBySitelinks);
+// Without this the wave is whoever has the most sitelinks worldwide, which is why a
+// Canada-first launch found only 2.8% Canadians in a 28k pool.
+const countryQids = listArg(args.country ?? config.countryQids);
+const includeResidence = Boolean(args['include-residence'] ?? config.includeResidence);
+const preferredCountryLabels = new Set(
+  listArg(args['country-label'] ?? config.countryLabels).map((label) => label.toLowerCase()),
+);
 const batches = [];
 const failures = [];
 
+const unknownCategories = new Set();
+
 for (const group of config.categories ?? []) {
   const category = allowedCategories.has(group.category) ? group.category : 'thought-leadership';
+
+  // Silently collapsing an unknown slug is how a whole wave ends up filed as
+  // thought-leadership without anyone noticing.
+  if (category !== group.category) {
+    unknownCategories.add(group.category);
+  }
 
   for (const occupation of group.occupations ?? []) {
     try {
@@ -80,6 +95,8 @@ mergedBatch.diagnostics = {
   offset,
   minSitelinks,
   rankBySitelinks,
+  countryQids,
+  includeResidence,
 };
 
 await mkdir(dirname(outputPath), { recursive: true });
@@ -92,7 +109,14 @@ console.log(`Limit per occupation: ${limitPerOccupation}`);
 console.log(`Offset: ${offset}`);
 console.log(`Minimum sitelinks: ${minSitelinks}`);
 console.log(`Rank by sitelinks: ${rankBySitelinks ? 'yes' : 'no'}`);
+console.log(`Country filter: ${countryQids.length > 0 ? countryQids.join(', ') : 'none'}${includeResidence ? ' (+residence/work location)' : ''}`);
 console.log(`Failures: ${failures.length}`);
+
+if (unknownCategories.size > 0) {
+  console.log(
+    `Warning: unknown category slugs collapsed to thought-leadership: ${[...unknownCategories].join(', ')}. Add them to allowedCategories in scripts/lib/openalex-research.mjs.`,
+  );
+}
 failures.slice(0, 5).forEach((failure) => {
   console.log(`Failure: ${failure.category}/${failure.occupation} ${failure.qid}: ${failure.message}`);
 });
@@ -117,17 +141,39 @@ async function buildOccupationBatch({ category, occupation, limit, offset: query
   };
 }
 
+/**
+ * Restricts the wave to people tied to one of `countryQids`. Citizenship (P27) is the default
+ * link; `--include-residence` also accepts residence (P551) and work location (P937) resolved
+ * to their country (P17), which picks up people who live and work somewhere without holding
+ * that citizenship. Both are applied inside the inner SELECT so the LIMIT counts matches
+ * rather than filtering after the fact.
+ */
+function countryClause() {
+  if (countryQids.length === 0) {
+    return '';
+  }
+
+  const values = countryQids.map((qid) => `wd:${qid}`).join(' ');
+  const link = includeResidence
+    ? `{ ?person wdt:P27 ?targetCountry. } UNION { ?person wdt:P551/wdt:P17 ?targetCountry. } UNION { ?person wdt:P937/wdt:P17 ?targetCountry. }`
+    : `?person wdt:P27 ?targetCountry.`;
+
+  return `
+      VALUES ?targetCountry { ${values} }
+      ${link}`;
+}
+
 async function fetchOccupationRows(occupationQid, limit, queryOffset, minLinks, rankByLinks) {
   const orderClause = rankByLinks ? 'ORDER BY DESC(?sitelinks)' : '';
   const sparql = `
 SELECT ?person ?personLabel ?personDescription ?occupationLabel ?countryLabel ?enwiki ?officialWebsite ?youtube ?x ?instagram ?facebook ?linkedin ?tiktok ?orcid WHERE {
   {
-    SELECT ?person WHERE {
+    SELECT DISTINCT ?person ?sitelinks WHERE {
       ?person wdt:P31 wd:Q5;
               wdt:P106 wd:${occupationQid}.
       ?person wikibase:sitelinks ?sitelinks.
       FILTER(?sitelinks >= ${minLinks})
-      FILTER NOT EXISTS { ?person wdt:P570 ?dateOfDeath. }
+      FILTER NOT EXISTS { ?person wdt:P570 ?dateOfDeath. }${countryClause()}
     }
     ${orderClause}
     LIMIT ${limit}
@@ -192,10 +238,18 @@ function mergeRows(rows) {
       name: label,
       description: row.personDescription?.value ?? '',
       occupationLabel: row.occupationLabel?.value ?? '',
-      country: row.countryLabel?.value ?? 'Unknown',
+      countries: [],
       channels: [],
       sourceUrls: [wikidataUrl],
     };
+
+    // One person produces one row per citizenship, so taking the first row's country filed
+    // dual citizens under whichever came back first — a Canadian-American landed under the
+    // United States and disappeared from a Canada-targeted list. Collect them all instead.
+    const rowCountry = row.countryLabel?.value;
+    if (rowCountry && !existing.countries.includes(rowCountry)) {
+      existing.countries.push(rowCountry);
+    }
 
     addChannel(existing, 'wikidata', 'Wikidata profile', wikidataUrl, true);
     addOptionalChannel(existing, 'wikipedia', 'Wikipedia profile', row.enwiki?.value, false);
@@ -243,6 +297,21 @@ function addChannel(person, platform, label, url, verified) {
   person.sourceUrls = unique([...person.sourceUrls, url]).slice(0, 20);
 }
 
+/**
+ * Which citizenship becomes the candidate's country. A wave targeting a country should file
+ * its people under that country, otherwise a Canada filter returns people the dashboard then
+ * shows as American.
+ */
+function resolveCountry(countries) {
+  if (countries.length === 0) {
+    return 'Unknown';
+  }
+
+  const preferred = countries.find((country) => preferredCountryLabels.has(country.toLowerCase()));
+
+  return preferred ?? countries[0];
+}
+
 function personToCandidate(person, category, occupation) {
   const publicSignalCount = person.channels.filter((channel) => !['wikidata', 'wikipedia'].includes(channel.platform)).length;
   const fitScore = clamp(62 + Math.min(publicSignalCount * 4, 20), 0, 92);
@@ -252,7 +321,8 @@ function personToCandidate(person, category, occupation) {
     id: `wikidata-${person.wikidataId}`,
     name: person.name,
     title: `${person.description || occupation.label} connected to ${occupation.label}`,
-    country: person.country,
+    country: resolveCountry(person.countries),
+    citizenships: person.countries,
     languages: ['Unknown'],
     primaryCategory: category,
     subcategories: unique([occupation.label, person.occupationLabel, person.description].filter(Boolean)).slice(0, 6),
@@ -308,6 +378,17 @@ function looksLikeUnresolvedWikidataLabel(value) {
 
 function unique(values) {
   return Array.from(new Set(values.filter(Boolean)));
+}
+
+function listArg(value) {
+  if (value === undefined || value === true) {
+    return [];
+  }
+
+  return (Array.isArray(value) ? value : [value])
+    .flatMap((entry) => String(entry).split(','))
+    .map((entry) => entry.trim())
+    .filter(Boolean);
 }
 
 function clamp(value, min, max) {

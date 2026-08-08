@@ -1,25 +1,43 @@
 import {
+  Activity,
   AlertTriangle,
   CheckCircle2,
   Clipboard,
+  ClipboardCheck,
   Database,
   Download,
   ExternalLink,
   FileText,
   Filter,
   Globe2,
+  ListChecks,
   Mail,
   RefreshCw,
   Search,
   ShieldAlert,
+  ShieldCheck,
   Star,
+  UserPlus,
   Users,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import type { ChangeEvent, ReactNode } from 'react';
 import './DashboardApp.css';
+import {
+  OutreachApiError,
+  createManualCandidate,
+  recordBulkReviewOutcome,
+  recordReviewOutcome,
+  revokeChannelVerification,
+  verifyChannel,
+} from './outreach/api';
+import OperationsPanel from './outreach/OperationsPanel';
+import OutreachPanel from './outreach/OutreachPanel';
+import type { ReviewOutcomeStatus } from './outreach/types';
 
 type DashboardStatus = 'idle' | 'loading' | 'ready' | 'error';
+type WorkspaceView = 'candidates' | 'operations';
+type DetailTab = 'dossier' | 'outreach';
 type ContactFilter = 'all' | 'with-contact' | 'email' | 'contact-page' | 'no-contact';
 type StarFilter = 'all' | '5' | '4+' | '3+' | '0-2';
 type RiskFilter = 'all' | 'low' | 'medium' | 'high' | 'sensitive';
@@ -89,6 +107,15 @@ interface DiscoveryChannel {
   identityConfidence?: string;
   identityEvidence?: string[];
   eligibleForReview?: boolean;
+  /** Present when an operator confirmed this channel really belongs to the candidate. */
+  operatorVerification?: {
+    url?: string;
+    platform?: string;
+    label?: string;
+    evidenceNote?: string;
+    verifiedBy?: string;
+    verifiedAt?: string;
+  };
 }
 
 interface ContactCandidate {
@@ -118,6 +145,25 @@ interface ReviewOutcome {
   verifiedContactRoutes?: unknown[];
   verifiedSourceUrls?: unknown[];
   reviewerNotes?: string;
+  reviewedBy?: string;
+  reviewedAt?: string;
+  source?: string;
+}
+
+/** Written by the operator overlay when a hand-entered record is merged in at read time. */
+interface OverlayMarker {
+  recordId?: string;
+  manual?: boolean;
+  updatedAt?: string;
+  review?: {
+    outcomeStatus?: string;
+    note?: string;
+    consentStatus?: string | null;
+    riskLevel?: string | null;
+    star?: number | null;
+    reviewedBy?: string;
+    reviewedAt?: string;
+  } | null;
 }
 
 interface CandidateDossier {
@@ -143,6 +189,8 @@ interface CandidateDossier {
   searchTargets?: string[];
   reviewChecks?: string[];
   reviewOutcome?: ReviewOutcome;
+  origin?: string;
+  overlay?: OverlayMarker;
 }
 
 interface DossierPackage {
@@ -195,6 +243,130 @@ const initialVisibleRows = 250;
 const visibleRowsStep = 250;
 const numberFormatter = new Intl.NumberFormat('en-US');
 
+// The same key the outreach panel uses: one operator reference per browser, written onto
+// every record either surface creates.
+const OPERATOR_STORAGE_KEY = 'beglib.outreach.operator';
+
+const reviewOutcomeLabels: Record<ReviewOutcomeStatus, string> = {
+  pending: 'Beklemede',
+  approved: 'Onaylandi',
+  rejected: 'Reddedildi (gonderim engellenir)',
+  deferred: 'Ertelendi',
+};
+
+const consentStatusOptions = [
+  { value: '', label: 'Degistirme' },
+  { value: 'unknown', label: 'Bilinmiyor' },
+  { value: 'public-business-contact', label: 'Public business contact' },
+  { value: 'representative-contact', label: 'Temsilci uzerinden' },
+  { value: 'contact-form-only', label: 'Sadece iletisim formu' },
+  { value: 'opted-out', label: 'Opt-out' },
+  { value: 'not-allowed', label: 'Izin yok' },
+];
+
+const riskLevelOptions = [
+  { value: '', label: 'Degistirme' },
+  { value: 'low', label: 'Dusuk' },
+  { value: 'medium', label: 'Orta' },
+  { value: 'high', label: 'Yuksek' },
+];
+
+const starOptions = [
+  { value: '', label: 'Kesif puani kalsin' },
+  { value: '1', label: '1 yildiz' },
+  { value: '2', label: '2 yildiz' },
+  { value: '3', label: '3 yildiz' },
+  { value: '4', label: '4 yildiz' },
+  { value: '5', label: '5 yildiz' },
+];
+
+const manualCategoryOptions = [
+  'science',
+  'arts',
+  'youtube',
+  'podcast',
+  'thought-leadership',
+  'religion',
+  'psychology',
+  'therapy',
+  'medicine',
+  'academia',
+  'journalism',
+  'education',
+  'technology',
+];
+
+function toApiErrors(error: unknown) {
+  return error instanceof OutreachApiError ? error.errors : [(error as Error).message];
+}
+
+interface ReviewInput {
+  outcomeStatus: ReviewOutcomeStatus;
+  note?: string;
+  consentStatus?: string;
+  riskLevel?: string;
+  star?: number | '';
+}
+
+// Mirrors the overlay's own mapping in scripts/lib/candidate-overlay.mjs. A rejected review
+// has to stop the send path, and the preflight already blocks on this status.
+const statusByOutcome: Partial<Record<ReviewOutcomeStatus, string>> = {
+  approved: 'approved',
+  rejected: 'do-not-contact',
+  deferred: 'needs-review',
+};
+
+function hasReview(dossier: CandidateDossier) {
+  return Boolean(dossier.overlay?.review?.outcomeStatus);
+}
+
+/**
+ * Optimistic local patch after a successful write, applied instead of re-fetching the whole
+ * dossier package — at 28k candidates a refetch per decision would make the review loop
+ * unusable. The server stays authoritative: the next load re-derives all of this from the
+ * overlay, so this only has to agree with `applyReview` well enough to display.
+ */
+function mergeReviewIntoDossier(dossier: CandidateDossier, input: ReviewInput, operator: string): CandidateDossier {
+  const star = input.star === '' || input.star === undefined ? null : Number(input.star);
+  const riskLevel = input.riskLevel || dossier.riskLevel;
+  const review = {
+    outcomeStatus: input.outcomeStatus,
+    note: input.note ?? '',
+    consentStatus: input.consentStatus || null,
+    riskLevel: input.riskLevel || null,
+    star,
+    reviewedBy: operator,
+    reviewedAt: new Date().toISOString(),
+  };
+
+  return {
+    ...dossier,
+    status: statusByOutcome[input.outcomeStatus] ?? dossier.status,
+    consentStatus: input.consentStatus || dossier.consentStatus,
+    riskLevel,
+    sensitiveFlags: Array.from(
+      new Set([
+        ...(dossier.sensitiveFlags ?? []).filter((flag) => flag !== 'high-risk'),
+        ...(riskLevel === 'high' ? ['high-risk'] : []),
+      ]),
+    ),
+    discoveryStar:
+      star === null
+        ? dossier.discoveryStar
+        : { ...(dossier.discoveryStar ?? {}), stars: star, label: `Operator ${star} yildiz verdi` },
+    reviewOutcome: {
+      ...(dossier.reviewOutcome ?? {}),
+      candidateId: dossier.candidateId,
+      outcomeStatus: input.outcomeStatus,
+      reviewerNotes: review.note,
+      reviewedBy: operator,
+      reviewedAt: review.reviewedAt,
+      source: 'operator-overlay',
+    },
+    overlay: { ...(dossier.overlay ?? {}), review },
+  };
+}
+
 const contactFilterLabels: Record<ContactFilter, string> = {
   all: 'Tum iletisim',
   'with-contact': 'Iletisim adayi var',
@@ -238,12 +410,20 @@ function DashboardApp() {
   const [query, setQuery] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [platformFilter, setPlatformFilter] = useState('all');
+  const [countryFilter, setCountryFilter] = useState('all');
   const [contactFilter, setContactFilter] = useState<ContactFilter>('all');
   const [starFilter, setStarFilter] = useState<StarFilter>('all');
   const [riskFilter, setRiskFilter] = useState<RiskFilter>('all');
   const [sortMode, setSortMode] = useState<SortMode>('priority');
   const [visibleRows, setVisibleRows] = useState(initialVisibleRows);
   const [copyMessage, setCopyMessage] = useState('');
+  const [detailTab, setDetailTab] = useState<DetailTab>('dossier');
+  const [operator, setOperator] = useState(() => localStorage.getItem(OPERATOR_STORAGE_KEY) ?? '');
+  const [showManualForm, setShowManualForm] = useState(false);
+  const [view, setView] = useState<WorkspaceView>('candidates');
+  const [selectedIds, setSelectedIds] = useState<ReadonlySet<string>>(() => new Set());
+  const [loopNotice, setLoopNotice] = useState('');
+  const [showShortcuts, setShowShortcuts] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -289,6 +469,7 @@ function DashboardApp() {
   const stats = useMemo(() => buildStats(dossiers, dashboard?.package.summary), [dossiers, dashboard]);
   const categories = useMemo(() => buildCategoryOptions(dossiers), [dossiers]);
   const platforms = useMemo(() => buildPlatformOptions(dossiers), [dossiers]);
+  const countries = useMemo(() => buildCountryOptions(dossiers), [dossiers]);
 
   const filteredDossiers = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -297,6 +478,7 @@ function DashboardApp() {
       .filter((dossier) => matchesQuery(dossier, normalizedQuery))
       .filter((dossier) => categoryFilter === 'all' || (dossier.category ?? 'unknown') === categoryFilter)
       .filter((dossier) => platformFilter === 'all' || hasPlatform(dossier, platformFilter))
+      .filter((dossier) => countryFilter === 'all' || normalizeCountry(dossier) === countryFilter)
       .filter((dossier) => matchesContactFilter(dossier, contactFilter))
       .filter((dossier) => matchesStarFilter(dossier, starFilter))
       .filter((dossier) => matchesRiskFilter(dossier, riskFilter))
@@ -304,6 +486,7 @@ function DashboardApp() {
   }, [
     categoryFilter,
     contactFilter,
+    countryFilter,
     dossiers,
     platformFilter,
     query,
@@ -312,12 +495,195 @@ function DashboardApp() {
     starFilter,
   ]);
 
+  const activeDatasetId = dashboard?.activeDatasetId ?? '';
+  // Overlay writes go through the local outreach server, which only knows the dossier
+  // datasets under exports/; a browser-side import has no server-side identity.
+  const canEditDataset = Boolean(activeDatasetId) && activeDatasetId !== 'manual-import';
   const visibleDossiers = filteredDossiers.slice(0, visibleRows);
   const selectedDossier =
     filteredDossiers.find((dossier) => dossier.candidateId === selectedCandidateId) ??
     visibleDossiers[0] ??
     dossiers[0] ??
     null;
+
+  const reviewQueue = useMemo(() => {
+    const pending = filteredDossiers.filter((dossier) => !hasReview(dossier));
+
+    return { total: filteredDossiers.length, pending: pending.length, next: pending[0] ?? null };
+  }, [filteredDossiers]);
+
+  /**
+   * The single write path for review outcomes, shared by the detail form, the bulk bar, and
+   * the keyboard loop. One candidate goes through the single-record route; a selection goes
+   * through the bulk route so N decisions are one locked write rather than N requests.
+   */
+  async function saveReview(candidateIds: string[], input: ReviewInput) {
+    if (candidateIds.length === 0) {
+      return;
+    }
+
+    if (candidateIds.length === 1) {
+      await recordReviewOutcome({
+        dataset: activeDatasetId,
+        candidateId: candidateIds[0],
+        outcomeStatus: input.outcomeStatus,
+        note: input.note,
+        consentStatus: input.consentStatus,
+        riskLevel: input.riskLevel,
+        star: input.star,
+        actor: operator,
+      });
+    } else {
+      await recordBulkReviewOutcome({
+        dataset: activeDatasetId,
+        candidateIds,
+        outcomeStatus: input.outcomeStatus,
+        note: input.note,
+        consentStatus: input.consentStatus,
+        riskLevel: input.riskLevel,
+        star: input.star,
+        actor: operator,
+      });
+    }
+
+    const touched = new Set(candidateIds);
+
+    setDashboard((current) =>
+      current
+        ? {
+            ...current,
+            package: {
+              ...current.package,
+              dossiers: (current.package.dossiers ?? []).map((dossier) =>
+                touched.has(dossier.candidateId) ? mergeReviewIntoDossier(dossier, input, operator) : dossier,
+              ),
+            },
+          }
+        : current,
+    );
+  }
+
+  function toggleSelection(candidateId: string) {
+    setSelectedIds((current) => {
+      const next = new Set(current);
+
+      if (next.has(candidateId)) {
+        next.delete(candidateId);
+      } else {
+        next.add(candidateId);
+      }
+
+      return next;
+    });
+  }
+
+  function goToCandidate(candidateId: string | undefined) {
+    if (!candidateId) {
+      setLoopNotice('Bu filtrede inceleme bekleyen aday kalmadi.');
+      return;
+    }
+
+    setSelectedCandidateId(candidateId);
+    setDetailTab('dossier');
+  }
+
+  function stepCandidate(offset: number) {
+    if (filteredDossiers.length === 0) {
+      return;
+    }
+
+    const current = filteredDossiers.findIndex((dossier) => dossier.candidateId === selectedDossier?.candidateId);
+    const next = Math.min(filteredDossiers.length - 1, Math.max(0, current + offset));
+
+    goToCandidate(filteredDossiers[next]?.candidateId);
+  }
+
+  // Advance before the patch lands: once the decision is recorded the candidate stops being
+  // "pending", so the next target has to be chosen from the list as it is now.
+  function reviewCurrent(outcomeStatus: ReviewOutcomeStatus) {
+    const target = selectedDossier;
+
+    if (!target || !canEditDataset || operator.trim().length === 0) {
+      setLoopNotice('Karar icin operator referansi ve exports/ dataset gerekli.');
+      return;
+    }
+
+    const following = filteredDossiers.find(
+      (dossier) => dossier.candidateId !== target.candidateId && !hasReview(dossier),
+    );
+
+    void (async () => {
+      try {
+        await saveReview([target.candidateId], { outcomeStatus });
+        setLoopNotice(`${target.name}: ${reviewOutcomeLabels[outcomeStatus]}`);
+
+        if (following) {
+          setSelectedCandidateId(following.candidateId);
+        }
+      } catch (error) {
+        setLoopNotice(toApiErrors(error)[0]);
+      }
+    })();
+  }
+
+  // Keyboard review loop. Everything here is deliberately single-key and unconfirmed: at this
+  // scale the operator is one person going through a list, and every outcome is revocable and
+  // audited. Typing in a field must never trigger it.
+  useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      if (view !== 'candidates' || event.ctrlKey || event.metaKey || event.altKey) {
+        return;
+      }
+
+      const target = event.target as HTMLElement | null;
+
+      if (target?.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target?.tagName ?? '')) {
+        return;
+      }
+
+      const handlers: Record<string, () => void> = {
+        j: () => stepCandidate(1),
+        ArrowDown: () => stepCandidate(1),
+        k: () => stepCandidate(-1),
+        ArrowUp: () => stepCandidate(-1),
+        a: () => reviewCurrent('approved'),
+        r: () => reviewCurrent('rejected'),
+        d: () => reviewCurrent('deferred'),
+        n: () => goToCandidate(reviewQueue.next?.candidateId),
+        x: () => selectedDossier && toggleSelection(selectedDossier.candidateId),
+        o: () => {
+          const url = selectedDossier ? getPrimaryUrl(selectedDossier) : null;
+
+          if (url) {
+            window.open(url, '_blank', 'noopener,noreferrer');
+          }
+        },
+        '?': () => setShowShortcuts((current) => !current),
+      };
+
+      const handler = handlers[event.key];
+
+      if (handler) {
+        event.preventDefault();
+        handler();
+      }
+    }
+
+    window.addEventListener('keydown', onKeyDown);
+
+    return () => window.removeEventListener('keydown', onKeyDown);
+  });
+
+  // Keyboard navigation is useless if the row it lands on is off screen.
+  useEffect(() => {
+    if (!selectedDossier) {
+      return;
+    }
+
+    document
+      .querySelector(`[data-candidate-id="${CSS.escape(selectedDossier.candidateId)}"]`)
+      ?.scrollIntoView({ block: 'nearest' });
+  }, [selectedDossier]);
 
   async function refreshDashboard() {
     setStatus('loading');
@@ -341,6 +707,11 @@ function DashboardApp() {
     }
   }
 
+  function updateOperator(value: string) {
+    setOperator(value);
+    localStorage.setItem(OPERATOR_STORAGE_KEY, value);
+  }
+
   function updateDataset(value: string) {
     setSelectedDatasetId(value);
     setVisibleRows(initialVisibleRows);
@@ -358,6 +729,11 @@ function DashboardApp() {
 
   function updatePlatform(value: string) {
     setPlatformFilter(value);
+    setVisibleRows(initialVisibleRows);
+  }
+
+  function updateCountry(value: string) {
+    setCountryFilter(value);
     setVisibleRows(initialVisibleRows);
   }
 
@@ -427,6 +803,7 @@ function DashboardApp() {
     setQuery('');
     setCategoryFilter('all');
     setPlatformFilter('all');
+    setCountryFilter('all');
     setContactFilter('all');
     setStarFilter('all');
     setRiskFilter('all');
@@ -449,6 +826,7 @@ function DashboardApp() {
       filters: currentFilters({
         categoryFilter,
         contactFilter,
+        countryFilter,
         platformFilter,
         query,
         riskFilter,
@@ -568,6 +946,34 @@ function DashboardApp() {
           </div>
         </section>
 
+        <section className="side-panel" aria-label="Operator">
+          <PanelTitle icon={<ClipboardCheck size={16} />} title="Operator" />
+          <label className="field-label" htmlFor="operator-ref">
+            Referansiniz (her kayda islenir)
+          </label>
+          <input
+            className="full-input"
+            id="operator-ref"
+            onChange={(event) => updateOperator(event.target.value)}
+            placeholder="reviewer:mehmet"
+            value={operator}
+          />
+          <button
+            className="icon-action"
+            disabled={!canEditDataset}
+            onClick={() => setShowManualForm((current) => !current)}
+            type="button"
+          >
+            <UserPlus size={16} aria-hidden="true" />
+            {showManualForm ? 'Formu kapat' : 'Elle aday ekle'}
+          </button>
+          {!canEditDataset && (
+            <p className="side-note">
+              Elle giris sadece <code>exports/</code> altindaki bir dataset icin calisir.
+            </p>
+          )}
+        </section>
+
         <section className="side-panel" aria-label="Top categories">
           <PanelTitle icon={<Filter size={16} />} title="Kategoriler" />
           <button
@@ -607,11 +1013,33 @@ function DashboardApp() {
             <h2>Aday havuzu ve iletisim kanallari</h2>
           </div>
           <div className="header-actions">
-            <button className="secondary-button" onClick={exportCsv} type="button">
+            <div className="view-switch" role="tablist">
+              <button
+                aria-selected={view === 'candidates'}
+                className={view === 'candidates' ? 'view-tab active' : 'view-tab'}
+                onClick={() => setView('candidates')}
+                role="tab"
+                type="button"
+              >
+                <Users size={16} aria-hidden="true" />
+                Adaylar
+              </button>
+              <button
+                aria-selected={view === 'operations'}
+                className={view === 'operations' ? 'view-tab active' : 'view-tab'}
+                onClick={() => setView('operations')}
+                role="tab"
+                type="button"
+              >
+                <Activity size={16} aria-hidden="true" />
+                Operasyon
+              </button>
+            </div>
+            <button className="secondary-button" disabled={view === 'operations'} onClick={exportCsv} type="button">
               <Download size={17} aria-hidden="true" />
               CSV
             </button>
-            <button className="secondary-button" onClick={exportJson} type="button">
+            <button className="secondary-button" disabled={view === 'operations'} onClick={exportJson} type="button">
               <Download size={17} aria-hidden="true" />
               JSON
             </button>
@@ -624,6 +1052,23 @@ function DashboardApp() {
           status={status}
           total={dossiers.length}
         />
+
+        {view === 'operations' ? (
+          <OperationsPanel operator={operator} />
+        ) : (
+          <>
+        {showManualForm && canEditDataset && (
+          <ManualCandidateForm
+            datasetId={activeDatasetId}
+            onClose={() => setShowManualForm(false)}
+            onSaved={(candidateId) => {
+              setShowManualForm(false);
+              setSelectedCandidateId(candidateId);
+              void refreshDashboard();
+            }}
+            operator={operator}
+          />
+        )}
 
         <section className="metric-grid" aria-label="Research metrics">
           <MetricTile icon={<Users size={18} />} label="Adaylar" value={stats.candidates} />
@@ -657,6 +1102,12 @@ function DashboardApp() {
             onChange={updatePlatform}
             options={[{ label: 'Tum platformlar', value: 'all' }, ...platforms]}
             value={platformFilter}
+          />
+          <FilterSelect
+            label="Ulke"
+            onChange={updateCountry}
+            options={[{ label: 'Tum ulkeler', value: 'all' }, ...countries]}
+            value={countryFilter}
           />
           <FilterSelect<ContactFilter>
             label="Iletisim"
@@ -701,19 +1152,85 @@ function DashboardApp() {
               </span>
             </div>
 
+            <div className="queue-bar">
+              <div className="queue-progress" role="progressbar" aria-valuemax={reviewQueue.total} aria-valuenow={reviewQueue.total - reviewQueue.pending} aria-valuemin={0}>
+                <span
+                  style={{
+                    width: `${reviewQueue.total === 0 ? 0 : Math.round(((reviewQueue.total - reviewQueue.pending) / reviewQueue.total) * 100)}%`,
+                  }}
+                />
+              </div>
+              <span className="queue-count">
+                {formatNumber(reviewQueue.total - reviewQueue.pending)} / {formatNumber(reviewQueue.total)} incelendi
+              </span>
+              <button
+                className="secondary-button"
+                disabled={!reviewQueue.next}
+                onClick={() => goToCandidate(reviewQueue.next?.candidateId)}
+                type="button"
+              >
+                <ListChecks size={15} aria-hidden="true" />
+                Kaldigim yerden devam
+              </button>
+              <button className="link-button" onClick={() => setShowShortcuts((current) => !current)} type="button">
+                Kisayollar
+              </button>
+            </div>
+
+            {showShortcuts && <ShortcutHelp />}
+            {loopNotice && <p className="queue-notice">{loopNotice}</p>}
+
+            {selectedIds.size > 0 && canEditDataset && (
+              <BulkReviewBar
+                count={selectedIds.size}
+                onClear={() => setSelectedIds(new Set())}
+                onSubmit={async (input) => {
+                  const ids = [...selectedIds];
+
+                  await saveReview(ids, input);
+                  setSelectedIds(new Set());
+                  setLoopNotice(`${ids.length} aday icin karar kaydedildi.`);
+                }}
+                operator={operator}
+              />
+            )}
+
             {visibleDossiers.length === 0 ? (
               <EmptyState message="Bu filtrelerde aday bulunamadi." />
             ) : (
-              <div className="candidate-list">
-                {visibleDossiers.map((dossier) => (
-                  <CandidateRow
-                    dossier={dossier}
-                    isSelected={dossier.candidateId === selectedDossier?.candidateId}
-                    key={dossier.candidateId}
-                    onSelect={() => setSelectedCandidateId(dossier.candidateId)}
-                  />
-                ))}
-              </div>
+              <>
+                {canEditDataset && (
+                  <div className="selection-actions">
+                    <button
+                      className="link-button"
+                      onClick={() =>
+                        setSelectedIds(new Set(visibleDossiers.slice(0, MAX_BULK_SELECTION).map((dossier) => dossier.candidateId)))
+                      }
+                      type="button"
+                    >
+                      Gorunenleri sec ({formatNumber(Math.min(visibleDossiers.length, MAX_BULK_SELECTION))})
+                    </button>
+                    {selectedIds.size > 0 && (
+                      <button className="link-button" onClick={() => setSelectedIds(new Set())} type="button">
+                        Secimi temizle
+                      </button>
+                    )}
+                  </div>
+                )}
+
+                <div className="candidate-list">
+                  {visibleDossiers.map((dossier) => (
+                    <CandidateRow
+                      dossier={dossier}
+                      isChecked={selectedIds.has(dossier.candidateId)}
+                      isSelected={dossier.candidateId === selectedDossier?.candidateId}
+                      key={dossier.candidateId}
+                      onSelect={() => setSelectedCandidateId(dossier.candidateId)}
+                      onToggleCheck={canEditDataset ? () => toggleSelection(dossier.candidateId) : undefined}
+                    />
+                  ))}
+                </div>
+              </>
             )}
 
             {visibleRows < filteredDossiers.length && (
@@ -728,11 +1245,20 @@ function DashboardApp() {
           </section>
 
           <CandidateDetail
+            activeTab={detailTab}
+            canEdit={canEditDataset}
             copyMessage={copyMessage}
+            datasetId={activeDatasetId}
             dossier={selectedDossier}
             onCopyContacts={copySelectedContacts}
+            onChannelChanged={() => void refreshDashboard()}
+            onReviewSubmit={(input) => saveReview([selectedDossier?.candidateId ?? ''], input)}
+            onTabChange={setDetailTab}
+            operator={operator}
           />
         </section>
+          </>
+        )}
       </main>
     </div>
   );
@@ -819,19 +1345,36 @@ function FilterSelect<TValue extends string = string>({
 
 function CandidateRow({
   dossier,
+  isChecked,
   isSelected,
   onSelect,
+  onToggleCheck,
 }: {
   dossier: CandidateDossier;
+  isChecked: boolean;
   isSelected: boolean;
   onSelect: () => void;
+  onToggleCheck?: () => void;
 }) {
   const contacts = getContacts(dossier);
   const emailCount = contacts.filter((contact) => isEmailContact(contact)).length;
   const platforms = getPlatforms(dossier).slice(0, 5);
 
   return (
-    <article className={isSelected ? 'candidate-row selected' : 'candidate-row'}>
+    <article
+      className={isSelected ? 'candidate-row selected' : 'candidate-row'}
+      data-candidate-id={dossier.candidateId}
+    >
+      {onToggleCheck && (
+        <label className="candidate-check">
+          <input
+            aria-label={`${dossier.name} secimi`}
+            checked={isChecked}
+            onChange={onToggleCheck}
+            type="checkbox"
+          />
+        </label>
+      )}
       <button onClick={onSelect} type="button">
         <div className="candidate-main">
           <div className="candidate-title">
@@ -844,6 +1387,12 @@ function CandidateRow({
             <span>{dossier.country ?? 'unknown country'}</span>
             <span>{normalizeRisk(dossier)}</span>
             {hasSensitiveFlag(dossier) && <span className="warning-tag">hassas</span>}
+            {dossier.origin === 'manual-entry' && <span className="manual-tag">elle eklendi</span>}
+            {dossier.overlay?.review?.outcomeStatus && (
+              <span className={`outcome-tag ${dossier.overlay.review.outcomeStatus}`}>
+                {dossier.overlay.review.outcomeStatus}
+              </span>
+            )}
           </div>
           <div className="platform-line">
             {platforms.map((platform) => (
@@ -867,18 +1416,47 @@ function CandidateRow({
 }
 
 function CandidateDetail({
+  activeTab,
+  canEdit,
   copyMessage,
+  datasetId,
   dossier,
   onCopyContacts,
+  onChannelChanged,
+  onReviewSubmit,
+  onTabChange,
+  operator,
 }: {
+  activeTab: DetailTab;
+  canEdit: boolean;
   copyMessage: string;
+  datasetId: string;
   dossier: CandidateDossier | null;
   onCopyContacts: () => void;
+  onChannelChanged: () => void;
+  onReviewSubmit: (input: ReviewInput) => Promise<void>;
+  onTabChange: (tab: DetailTab) => void;
+  operator: string;
 }) {
   if (!dossier) {
     return (
       <aside className="detail-panel" aria-label="Candidate details">
         <EmptyState message="Aday secilmedi." />
+      </aside>
+    );
+  }
+
+  if (activeTab === 'outreach') {
+    return (
+      <aside className="detail-panel" aria-label="Candidate outreach">
+        <DetailTabs activeTab={activeTab} onTabChange={onTabChange} />
+        {/* Remounting per candidate resets the route pick, forms, and preview together. */}
+        <OutreachPanel
+          candidateId={dossier.candidateId}
+          candidateName={dossier.name}
+          datasetId={datasetId}
+          key={`${datasetId}:${dossier.candidateId}`}
+        />
       </aside>
     );
   }
@@ -894,6 +1472,7 @@ function CandidateDetail({
 
   return (
     <aside className="detail-panel" aria-label="Candidate details">
+      <DetailTabs activeTab={activeTab} onTabChange={onTabChange} />
       <div className="detail-header">
         <div>
           <p className="eyebrow">Aday dosyasi</p>
@@ -946,7 +1525,15 @@ function CandidateDetail({
       <DetailSection icon={<Globe2 size={16} />} title="Kanal sinyalleri">
         <div className="source-list">
           {(dossier.discoveryChannels ?? []).map((channel, index) => (
-            <SourceItem channel={channel} key={`${channel.url}-${channel.platform}-${index}`} />
+            <SourceItem
+              canEdit={canEdit}
+              candidateId={dossier.candidateId}
+              channel={channel}
+              datasetId={datasetId}
+              key={`${channel.url}-${channel.platform}-${index}`}
+              onChanged={onChannelChanged}
+              operator={operator}
+            />
           ))}
           {(dossier.discoveryChannels ?? []).length === 0 && <EmptyLine text="Kanal sinyali yok." />}
         </div>
@@ -967,6 +1554,19 @@ function CandidateDetail({
               <EmptyLine text="Yildiz gerekcesi kaydi yok." />
             )}
         </div>
+      </DetailSection>
+
+      <DetailSection icon={<ClipboardCheck size={16} />} title="Inceleme karari">
+        {canEdit ? (
+          <ReviewOutcomeForm
+            dossier={dossier}
+            key={`${datasetId}:${dossier.candidateId}`}
+            onSubmit={onReviewSubmit}
+            operator={operator}
+          />
+        ) : (
+          <EmptyLine text="Karar kaydi sadece exports/ altindaki bir dataset icin yazilabilir." />
+        )}
       </DetailSection>
 
       <DetailSection icon={<ShieldAlert size={16} />} title="Inceleme">
@@ -995,6 +1595,442 @@ function CandidateDetail({
   );
 }
 
+const MAX_BULK_SELECTION = 500;
+
+const SHORTCUTS = [
+  { keys: 'j / ↓', description: 'Sonraki aday' },
+  { keys: 'k / ↑', description: 'Onceki aday' },
+  { keys: 'n', description: 'Incelenmemis ilk adaya atla' },
+  { keys: 'a', description: 'Onayla' },
+  { keys: 'r', description: 'Reddet (do-not-contact)' },
+  { keys: 'd', description: 'Ertele' },
+  { keys: 'o', description: 'Kaynak sayfayi yeni sekmede ac' },
+  { keys: 'x', description: 'Toplu secime ekle / cikar' },
+  { keys: '?', description: 'Bu listeyi ac / kapat' },
+];
+
+function ShortcutHelp() {
+  return (
+    <dl className="shortcut-help">
+      {SHORTCUTS.map((shortcut) => (
+        <div key={shortcut.keys}>
+          <dt>{shortcut.keys}</dt>
+          <dd>{shortcut.description}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+/**
+ * One decision across a selection. Consent status and risk level are deliberately left out:
+ * they carry legal weight per person and should not be set 500 at a time.
+ */
+function BulkReviewBar({
+  count,
+  onClear,
+  onSubmit,
+  operator,
+}: {
+  count: number;
+  onClear: () => void;
+  onSubmit: (input: ReviewInput) => Promise<void>;
+  operator: string;
+}) {
+  const [outcomeStatus, setOutcomeStatus] = useState<ReviewOutcomeStatus>('deferred');
+  const [star, setStar] = useState('');
+  const [note, setNote] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [errors, setErrors] = useState<string[]>([]);
+
+  const operatorMissing = operator.trim().length === 0;
+  const overLimit = count > MAX_BULK_SELECTION;
+
+  async function submit() {
+    setBusy(true);
+    setErrors([]);
+
+    try {
+      await onSubmit({ outcomeStatus, note, star: star === '' ? '' : Number(star) });
+      setNote('');
+    } catch (error) {
+      setErrors(toApiErrors(error));
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <section className="bulk-bar" aria-label="Bulk review">
+      <strong>{formatNumber(count)} aday secili</strong>
+
+      <select onChange={(event) => setOutcomeStatus(event.target.value as ReviewOutcomeStatus)} value={outcomeStatus}>
+        {Object.entries(reviewOutcomeLabels).map(([value, label]) => (
+          <option key={value} value={value}>
+            {label}
+          </option>
+        ))}
+      </select>
+
+      <select onChange={(event) => setStar(event.target.value)} value={star}>
+        {starOptions.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+
+      <input onChange={(event) => setNote(event.target.value)} placeholder="Ortak not" value={note} />
+
+      <button
+        className="primary-button"
+        disabled={busy || operatorMissing || overLimit}
+        onClick={() => void submit()}
+        type="button"
+      >
+        <ClipboardCheck size={15} aria-hidden="true" />
+        {busy ? 'Kaydediliyor…' : 'Secilenlere uygula'}
+      </button>
+      <button className="link-button" onClick={onClear} type="button">
+        Temizle
+      </button>
+
+      {overLimit && (
+        <span className="review-form-warn">Tek seferde en fazla {MAX_BULK_SELECTION} aday islenebilir.</span>
+      )}
+      {operatorMissing && <span className="review-form-warn">Operator referansi zorunlu.</span>}
+      {errors.map((message) => (
+        <span className="review-form-error" key={message}>
+          {message}
+        </span>
+      ))}
+    </section>
+  );
+}
+
+/**
+ * Records what a human decided about a candidate. The write lands in the operator overlay,
+ * never in the generated export, so the next dossier rebuild cannot erase it.
+ */
+function ReviewOutcomeForm({
+  dossier,
+  onSubmit,
+  operator,
+}: {
+  dossier: CandidateDossier;
+  onSubmit: (input: ReviewInput) => Promise<void>;
+  operator: string;
+}) {
+  const existing = dossier.overlay?.review ?? null;
+  const [form, setForm] = useState({
+    outcomeStatus: (existing?.outcomeStatus as ReviewOutcomeStatus) ?? 'pending',
+    note: existing?.note ?? '',
+    consentStatus: existing?.consentStatus ?? '',
+    riskLevel: existing?.riskLevel ?? '',
+    star: existing?.star ? String(existing.star) : '',
+  });
+  const [busy, setBusy] = useState(false);
+  const [errors, setErrors] = useState<string[]>([]);
+  const [notice, setNotice] = useState('');
+
+  const operatorMissing = operator.trim().length === 0;
+
+  async function save() {
+    setBusy(true);
+    setErrors([]);
+    setNotice('');
+
+    try {
+      await onSubmit({
+        outcomeStatus: form.outcomeStatus,
+        note: form.note,
+        consentStatus: form.consentStatus,
+        riskLevel: form.riskLevel,
+        star: form.star === '' ? '' : Number(form.star),
+      });
+
+      setNotice('Karar kaydedildi.');
+    } catch (error) {
+      setErrors(toApiErrors(error));
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <div className="review-form">
+      {existing && (
+        <p className="review-form-meta">
+          Son karar: {reviewOutcomeLabels[existing.outcomeStatus as ReviewOutcomeStatus] ?? existing.outcomeStatus} ·{' '}
+          {existing.reviewedBy} · {formatDate(existing.reviewedAt)}
+        </p>
+      )}
+
+      <div className="review-form-grid">
+        <label className="review-field">
+          <span>Karar</span>
+          <select
+            onChange={(event) =>
+              setForm((current) => ({ ...current, outcomeStatus: event.target.value as ReviewOutcomeStatus }))
+            }
+            value={form.outcomeStatus}
+          >
+            {Object.entries(reviewOutcomeLabels).map(([value, label]) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="review-field">
+          <span>Yildiz</span>
+          <select
+            onChange={(event) => setForm((current) => ({ ...current, star: event.target.value }))}
+            value={form.star}
+          >
+            {starOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="review-field">
+          <span>Risk</span>
+          <select
+            onChange={(event) => setForm((current) => ({ ...current, riskLevel: event.target.value }))}
+            value={form.riskLevel}
+          >
+            {riskLevelOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="review-field">
+          <span>Consent</span>
+          <select
+            onChange={(event) => setForm((current) => ({ ...current, consentStatus: event.target.value }))}
+            value={form.consentStatus}
+          >
+            {consentStatusOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="review-field wide">
+          <span>Not (ne gordunuz, neden bu karar?)</span>
+          <textarea
+            onChange={(event) => setForm((current) => ({ ...current, note: event.target.value }))}
+            rows={2}
+            value={form.note}
+          />
+        </label>
+      </div>
+
+      {form.outcomeStatus === 'rejected' && (
+        <p className="review-form-warn">
+          Reddedilen aday <strong>do-not-contact</strong> olarak isaretlenir ve gonderim kapisi bu adayi engeller.
+        </p>
+      )}
+
+      <div className="review-form-actions">
+        <button className="primary-button" disabled={busy || operatorMissing} onClick={() => void save()} type="button">
+          <ClipboardCheck size={15} aria-hidden="true" />
+          {busy ? 'Kaydediliyor…' : 'Karari kaydet'}
+        </button>
+        {operatorMissing && <span className="review-form-warn">Once soldaki operator referansini doldurun.</span>}
+        {notice && <span className="review-form-ok">{notice}</span>}
+      </div>
+
+      {errors.map((message) => (
+        <p className="review-form-error" key={message}>
+          {message}
+        </p>
+      ))}
+    </div>
+  );
+}
+
+/**
+ * Adds a person the discovery pass never found. The record carries no evidence beyond the
+ * source URL the operator typed, and no contact route: sending still requires the same
+ * verification and approval gates as any generated candidate.
+ */
+function ManualCandidateForm({
+  datasetId,
+  onClose,
+  onSaved,
+  operator,
+}: {
+  datasetId: string;
+  onClose: () => void;
+  onSaved: (candidateId: string) => void;
+  operator: string;
+}) {
+  const [form, setForm] = useState({
+    name: '',
+    title: '',
+    category: manualCategoryOptions[0],
+    country: '',
+    sourceUrl: '',
+    note: '',
+  });
+  const [busy, setBusy] = useState(false);
+  const [errors, setErrors] = useState<string[]>([]);
+
+  const operatorMissing = operator.trim().length === 0;
+
+  async function save() {
+    setBusy(true);
+    setErrors([]);
+
+    try {
+      const result = await createManualCandidate({
+        dataset: datasetId,
+        name: form.name,
+        title: form.title,
+        category: form.category,
+        country: form.country,
+        sourceUrl: form.sourceUrl,
+        note: form.note,
+        actor: operator,
+      });
+
+      onSaved(result.record.candidateId);
+    } catch (error) {
+      setErrors(toApiErrors(error));
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <section className="manual-form" aria-label="Manual candidate entry">
+      <header>
+        <div>
+          <p className="eyebrow">Elle giris</p>
+          <h3>Havuzda olmayan bir aday ekleyin</h3>
+        </div>
+        <button className="secondary-button" onClick={onClose} type="button">
+          Kapat
+        </button>
+      </header>
+
+      <div className="manual-form-grid">
+        <label className="review-field">
+          <span>Isim *</span>
+          <input
+            onChange={(event) => setForm((current) => ({ ...current, name: event.target.value }))}
+            value={form.name}
+          />
+        </label>
+        <label className="review-field">
+          <span>Unvan</span>
+          <input
+            onChange={(event) => setForm((current) => ({ ...current, title: event.target.value }))}
+            value={form.title}
+          />
+        </label>
+        <label className="review-field">
+          <span>Kategori *</span>
+          <select
+            onChange={(event) => setForm((current) => ({ ...current, category: event.target.value }))}
+            value={form.category}
+          >
+            {manualCategoryOptions.map((category) => (
+              <option key={category} value={category}>
+                {humanize(category)}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="review-field">
+          <span>Ulke *</span>
+          <input
+            onChange={(event) => setForm((current) => ({ ...current, country: event.target.value }))}
+            placeholder="Canada"
+            value={form.country}
+          />
+        </label>
+        <label className="review-field wide">
+          <span>Kaynak URL * (bu kisiyi buldugunuz public sayfa)</span>
+          <input
+            onChange={(event) => setForm((current) => ({ ...current, sourceUrl: event.target.value }))}
+            placeholder="https://..."
+            value={form.sourceUrl}
+          />
+        </label>
+        <label className="review-field wide">
+          <span>Not</span>
+          <textarea
+            onChange={(event) => setForm((current) => ({ ...current, note: event.target.value }))}
+            rows={2}
+            value={form.note}
+          />
+        </label>
+      </div>
+
+      <div className="review-form-actions">
+        <button className="primary-button" disabled={busy || operatorMissing} onClick={() => void save()} type="button">
+          <UserPlus size={15} aria-hidden="true" />
+          {busy ? 'Kaydediliyor…' : 'Adayi ekle'}
+        </button>
+        {operatorMissing && <span className="review-form-warn">Once soldaki operator referansini doldurun.</span>}
+        <span className="review-form-meta">
+          Kayit <code>data/candidate-overlay.local.json</code> dosyasina yazilir; dossier yeniden uretilince silinmez.
+        </span>
+      </div>
+
+      {errors.map((message) => (
+        <p className="review-form-error" key={message}>
+          {message}
+        </p>
+      ))}
+    </section>
+  );
+}
+
+function DetailTabs({
+  activeTab,
+  onTabChange,
+}: {
+  activeTab: DetailTab;
+  onTabChange: (tab: DetailTab) => void;
+}) {
+  return (
+    <div className="detail-tabs" role="tablist">
+      <button
+        aria-selected={activeTab === 'dossier'}
+        className={activeTab === 'dossier' ? 'detail-tab active' : 'detail-tab'}
+        onClick={() => onTabChange('dossier')}
+        role="tab"
+        type="button"
+      >
+        <FileText size={15} aria-hidden="true" />
+        Aday dosyasi
+      </button>
+      <button
+        aria-selected={activeTab === 'outreach'}
+        className={activeTab === 'outreach' ? 'detail-tab active' : 'detail-tab'}
+        onClick={() => onTabChange('outreach')}
+        role="tab"
+        type="button"
+      >
+        <Mail size={15} aria-hidden="true" />
+        Outreach
+      </button>
+    </div>
+  );
+}
+
 function ContactItem({ contact }: { contact: ContactCandidate }) {
   const value = contact.value ?? '';
   const sourceUrl = contact.sourceUrl ?? '';
@@ -1014,30 +2050,138 @@ function ContactItem({ contact }: { contact: ContactCandidate }) {
   );
 }
 
-function SourceItem({ channel }: { channel: DiscoveryChannel }) {
+/**
+ * A discovery channel plus the identity check that used to require the
+ * `review:official-sources` CLI round-trip. Verifying records that a human opened the URL and
+ * confirmed it belongs to this person; it is attribution only and grants no permission to send.
+ */
+function SourceItem({
+  canEdit,
+  candidateId,
+  channel,
+  datasetId,
+  onChanged,
+  operator,
+}: {
+  canEdit: boolean;
+  candidateId: string;
+  channel: DiscoveryChannel;
+  datasetId: string;
+  onChanged: () => void;
+  operator: string;
+}) {
   const url = channel.url ?? '';
+  const [open, setOpen] = useState(false);
+  const [note, setNote] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [errors, setErrors] = useState<string[]>([]);
 
-  if (!url) {
-    return (
-      <article className="source-item">
-        <div>
-          <strong>{channel.label ?? channel.platform ?? 'Source'}</strong>
-          <span>{channel.platform ?? 'unknown'}</span>
-        </div>
-      </article>
-    );
+  const verification = channel.operatorVerification;
+  const operatorMissing = operator.trim().length === 0;
+
+  async function submit(action: () => Promise<unknown>) {
+    setBusy(true);
+    setErrors([]);
+
+    try {
+      await action();
+      setOpen(false);
+      setNote('');
+      onChanged();
+    } catch (error) {
+      setErrors(toApiErrors(error));
+    } finally {
+      setBusy(false);
+    }
   }
 
   return (
-    <a className="source-item link" href={url} rel="noreferrer" target="_blank">
-      <div>
-        <strong>{channel.label ?? channel.platform ?? 'Source'}</strong>
-        <span>
-          {channel.platform ?? 'unknown'} · {channel.confidence ?? 'unknown'}
-        </span>
+    <article className={channel.verified ? 'source-item verified' : 'source-item'}>
+      <div className="source-item-main">
+        <div>
+          <strong>{channel.label ?? channel.platform ?? 'Source'}</strong>
+          <span>
+            {channel.platform ?? 'unknown'} · {channel.confidence ?? 'unknown'}
+          </span>
+        </div>
+        {url && (
+          <a aria-label="Kanali ac" href={url} rel="noreferrer" target="_blank">
+            <ExternalLink size={14} aria-hidden="true" />
+          </a>
+        )}
       </div>
-      <ExternalLink size={14} aria-hidden="true" />
-    </a>
+
+      {verification ? (
+        <p className="source-verified">
+          <ShieldCheck size={13} aria-hidden="true" />
+          <span>
+            {verification.verifiedBy} dogruladi · {formatDate(verification.verifiedAt)}
+            {verification.evidenceNote ? ` · ${verification.evidenceNote}` : ''}
+          </span>
+          {canEdit && (
+            <button
+              className="link-button"
+              disabled={busy || operatorMissing}
+              onClick={() =>
+                void submit(() =>
+                  revokeChannelVerification({ dataset: datasetId, candidateId, url, actor: operator }),
+                )
+              }
+              type="button"
+            >
+              Geri al
+            </button>
+          )}
+        </p>
+      ) : (
+        canEdit &&
+        url &&
+        (open ? (
+          <div className="source-verify-form">
+            <input
+              onChange={(event) => setNote(event.target.value)}
+              placeholder="Bu kanali bu kisiye baglayan kanit nedir?"
+              value={note}
+            />
+            <button
+              className="primary-button"
+              disabled={busy || operatorMissing || !note.trim()}
+              onClick={() =>
+                void submit(() =>
+                  verifyChannel({
+                    dataset: datasetId,
+                    candidateId,
+                    url,
+                    platform: channel.platform,
+                    label: channel.label,
+                    evidenceNote: note,
+                    actor: operator,
+                  }),
+                )
+              }
+              type="button"
+            >
+              <ShieldCheck size={14} aria-hidden="true" />
+              Kaydet
+            </button>
+            <button className="link-button" onClick={() => setOpen(false)} type="button">
+              Vazgec
+            </button>
+          </div>
+        ) : (
+          <button className="link-button" onClick={() => setOpen(true)} type="button">
+            <ShieldCheck size={13} aria-hidden="true" />
+            Kimligi dogrula
+          </button>
+        ))
+      )}
+
+      {errors.map((message) => (
+        <p className="review-form-error" key={message}>
+          {message}
+        </p>
+      ))}
+    </article>
   );
 }
 
@@ -1176,6 +2320,29 @@ function buildPlatformOptions(dossiers: CandidateDossier[]) {
 
   return Array.from(counts.entries())
     .map(([value, count]) => ({ count, label: humanize(value), value }))
+    .sort((left, right) => right.count - left.count || left.label.localeCompare(right.label));
+}
+
+function normalizeCountry(dossier: CandidateDossier) {
+  const country = (dossier.country ?? '').trim();
+
+  return country.length > 0 ? country : 'Unknown';
+}
+
+/**
+ * Countries sort by candidate count, not alphabetically: the point of this filter is to
+ * find where a wave has enough reachable people to be worth running.
+ */
+function buildCountryOptions(dossiers: CandidateDossier[]) {
+  const counts = new Map<string, number>();
+
+  dossiers.forEach((dossier) => {
+    const country = normalizeCountry(dossier);
+    counts.set(country, (counts.get(country) ?? 0) + 1);
+  });
+
+  return Array.from(counts.entries())
+    .map(([value, count]) => ({ count, label: value, value }))
     .sort((left, right) => right.count - left.count || left.label.localeCompare(right.label));
 }
 
@@ -1535,6 +2702,7 @@ function objectOptions<TValue extends string>(record: Record<TValue, string>) {
 function currentFilters(filters: {
   categoryFilter: string;
   contactFilter: ContactFilter;
+  countryFilter: string;
   platformFilter: string;
   query: string;
   riskFilter: RiskFilter;
@@ -1545,6 +2713,7 @@ function currentFilters(filters: {
     query: filters.query,
     category: filters.categoryFilter,
     platform: filters.platformFilter,
+    country: filters.countryFilter,
     contact: filters.contactFilter,
     stars: filters.starFilter,
     risk: filters.riskFilter,

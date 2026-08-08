@@ -854,3 +854,471 @@
     text-align: left;
   }
 }
+
+.detail-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e4eaed;
+}
+
+.detail-tab {
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 11px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  color: #4a5a65;
+  background: transparent;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.detail-tab:hover {
+  border-color: #90b9b2;
+  background: #eff8f5;
+}
+
+.detail-tab.active {
+  color: #ffffff;
+  border-color: #17423c;
+  background: #17423c;
+}
+
+/* Operator write surfaces: manual candidate entry and review outcome recording. */
+
+.full-input {
+  width: 100%;
+  min-width: 0;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #d7e0e4;
+  border-radius: 7px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+}
+
+.side-note {
+  margin: 0;
+  color: #64727d;
+  font-size: 12px;
+}
+
+.manual-form {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid #d7e0e4;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.manual-form > header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.manual-form h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.manual-form-grid,
+.review-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px;
+}
+
+.review-form {
+  display: grid;
+  gap: 10px;
+}
+
+.review-field {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  color: #64727d;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.review-field.wide {
+  grid-column: 1 / -1;
+}
+
+.review-field input,
+.review-field select,
+.review-field textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 1px solid #d7e0e4;
+  border-radius: 7px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.review-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.primary-button {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  border: 1px solid #17423c;
+  border-radius: 7px;
+  color: #ffffff;
+  background: #17423c;
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.primary-button:disabled {
+  border-color: #b9c6cc;
+  background: #b9c6cc;
+  cursor: not-allowed;
+}
+
+.review-form-meta,
+.review-form-ok,
+.review-form-warn,
+.review-form-error {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.review-form-meta {
+  color: #64727d;
+}
+
+.review-form-ok {
+  color: #167468;
+}
+
+.review-form-warn {
+  color: #8a5a06;
+}
+
+.review-form-error {
+  color: #8f221a;
+}
+
+.tag-line .manual-tag {
+  color: #1c4f8f;
+  background: #eaf2fd;
+}
+
+.tag-line .outcome-tag.approved {
+  color: #167468;
+  background: #e6f5f0;
+}
+
+.tag-line .outcome-tag.rejected {
+  color: #8f221a;
+  background: #fff0ed;
+}
+
+.tag-line .outcome-tag.deferred,
+.tag-line .outcome-tag.pending {
+  color: #8a5a06;
+  background: #fdf3e2;
+}
+
+/* Workspace view switch: candidates vs campaign operations. */
+
+.view-switch {
+  display: inline-flex;
+  gap: 4px;
+  padding: 3px;
+  border: 1px solid #d7e0e4;
+  border-radius: 9px;
+  background: #f4f7f8;
+}
+
+.view-tab {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 11px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  color: #4a5a65;
+  background: transparent;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.view-tab.active {
+  color: #ffffff;
+  border-color: #17423c;
+  background: #17423c;
+}
+
+/* Channel identity verification inside the dossier detail. */
+
+.source-item {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.source-item.verified {
+  border-color: #b8d5cf;
+  background: #f6fbf9;
+}
+
+.source-item-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.source-item-main a {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  color: #167468;
+  background: #e7f4ef;
+}
+
+.source-verified {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 0;
+  color: #167468;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.source-verified span {
+  white-space: normal;
+}
+
+.source-verify-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.source-verify-form input {
+  flex: 1 1 180px;
+  min-width: 0;
+  padding: 7px 9px;
+  border: 1px solid #d7e0e4;
+  border-radius: 7px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+  font-size: 12px;
+}
+
+.source-verify-form .primary-button {
+  min-height: 32px;
+  padding: 0 11px;
+  font-size: 12px;
+}
+
+.link-button {
+  min-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+  padding: 0;
+  border: none;
+  color: #167468;
+  background: none;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.source-verify-form .link-button,
+.source-verified .link-button {
+  margin-top: 0;
+}
+
+.link-button:disabled {
+  color: #8a97a0;
+  cursor: not-allowed;
+}
+
+/* Review loop: work queue, selection, bulk actions, keyboard help. */
+
+.candidate-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.candidate-row button {
+  flex: 1;
+  min-width: 0;
+}
+
+.candidate-check {
+  display: flex;
+  align-items: center;
+  padding: 0 2px 0 12px;
+}
+
+.candidate-check input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.queue-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #eef2f4;
+}
+
+.queue-progress {
+  flex: 1 1 120px;
+  height: 8px;
+  min-width: 80px;
+  border-radius: 999px;
+  background: #e4eaed;
+  overflow: hidden;
+}
+
+.queue-progress span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #167468;
+}
+
+.queue-count {
+  color: #4a5a65;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.queue-bar .secondary-button {
+  min-height: 32px;
+  padding: 0 11px;
+  font-size: 13px;
+}
+
+.queue-bar .link-button,
+.selection-actions .link-button {
+  margin-top: 0;
+}
+
+.queue-notice {
+  margin: 0;
+  padding: 8px 14px;
+  color: #167468;
+  background: #eff8f5;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.selection-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 8px 14px 0;
+}
+
+.bulk-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #eef2f4;
+  background: #f4f7f8;
+}
+
+.bulk-bar strong {
+  font-size: 13px;
+}
+
+.bulk-bar select,
+.bulk-bar input {
+  min-height: 34px;
+  min-width: 0;
+  padding: 0 9px;
+  border: 1px solid #d7e0e4;
+  border-radius: 7px;
+  color: #17212b;
+  background: #ffffff;
+  font: inherit;
+  font-size: 13px;
+}
+
+.bulk-bar input {
+  flex: 1 1 160px;
+}
+
+.bulk-bar .primary-button {
+  min-height: 34px;
+  font-size: 13px;
+}
+
+.shortcut-help {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 4px 14px;
+  margin: 0;
+  padding: 10px 14px;
+  border-bottom: 1px solid #eef2f4;
+  background: #fbfcfc;
+}
+
+.shortcut-help > div {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.shortcut-help dt {
+  min-width: 52px;
+  color: #17212b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.shortcut-help dd {
+  margin: 0;
+  color: #64727d;
+  font-size: 12px;
+}

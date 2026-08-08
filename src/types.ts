@@ -106,21 +106,10 @@ export interface Candidate {
   influenceSignals?: InfluenceSignals;
 }
 
-export interface ComplianceAssessment {
-  sendable: boolean;
-  label: string;
-  severity: RiskLevel;
-  blockers: string[];
-  requiredActions: string[];
-}
-
-export interface StarAssessment {
-  stars: StarRating;
-  score: number;
-  label: string;
-  reasons: string[];
-  missingSignals: string[];
-}
+// ComplianceAssessment and StarAssessment lived here for `src/lib/compliance.ts` and
+// `src/lib/starRating.ts`, deleted 2026-08-08. Both rule sets now have exactly one
+// implementation each, server-side: the send gates in scripts/lib/outreach-policy.mjs and the
+// discovery stars in scripts/build-candidate-discovery-dossiers.mjs.
 
 export interface FaqItem {
   id: string;
@@ -130,15 +119,9 @@ export interface FaqItem {
   owner: 'ai-draft' | 'human-review' | 'legal-review';
 }
 
-export interface OutreachTemplate {
-  id: string;
-  category: CandidateCategory | 'default';
-  name: string;
-  subject: string;
-  previewText: string;
-  body: string;
-  requiredReview: Array<'brand' | 'legal' | 'privacy' | 'commercial' | 'sensitive-category'>;
-}
+// Outreach templates live in scripts/lib/outreach-mail.mjs, which is the single source the
+// local outreach server renders from. Keeping a second copy here risked the two drifting
+// apart and a stale template reaching a real candidate.
 
 export type ReplyClass =
   | 'interested'
@@ -259,50 +242,13 @@ export interface CreatorSignalApplyResult {
   updatedCandidates: Candidate[];
 }
 
-export type AuditEventType =
-  | 'vault_initialized'
-  | 'batch_imported'
-  | 'discovery_dossier_imported'
-  | 'candidate_selected'
-  | 'vault_reset'
-  | 'validation_failed';
-
-export interface AuditEvent {
-  id: string;
-  type: AuditEventType;
-  createdAt: string;
-  actor: 'system' | 'human';
-  summary: string;
-  metadata?: Record<string, string | number | boolean>;
-}
-
-export interface VaultState {
-  candidates: Candidate[];
-  discoveryDossierPackage?: CandidateDiscoveryDossierPackage;
-  auditEvents: AuditEvent[];
-  updatedAt: string;
-}
-
-export type VerificationPriority = 'urgent' | 'high' | 'medium' | 'low';
-
-export type VerificationTaskType =
-  | 'official-profile'
-  | 'contact-route'
-  | 'identity-match'
-  | 'jurisdiction'
-  | 'suppression'
-  | 'sensitive-category';
-
-export interface VerificationTask {
-  id: string;
-  candidateId: string;
-  candidateName: string;
-  priority: VerificationPriority;
-  type: VerificationTaskType;
-  summary: string;
-  sourceHints: string[];
-  blockers: string[];
-}
+// The browser-side vault (`src/lib/localVault.ts`) and its audit events were deleted
+// 2026-08-08. Operator records now live in data/candidate-overlay.local.json and every
+// mutation is appended to the audit log at data/outreach-audit.local.jsonl, server-side.
+//
+// VerificationTask and friends belonged to `src/lib/verificationQueue.ts`, also deleted: the
+// work queue is now derived from real overlay state in the dashboard rather than synthesised
+// from candidate records.
 
 export interface DiscoveryStarAssessment {
   stars: StarRating;

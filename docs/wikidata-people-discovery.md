@@ -1131,3 +1131,29 @@ Each result remains discovery-only until a human confirms identity and source ow
 - Do not use Wikidata occupation metadata as outreach permission.
 - Do not guess emails or derive contact routes from names or domains.
 - Human review must confirm identity, official source URL, professional context, jurisdiction, suppression status, and sensitive-category status before campaign use.
+
+## Country targeting
+
+`--country <QID>` restricts a wave to people linked to that country. It is repeatable and
+accepts a comma-separated list. The filter is applied inside the inner SELECT, so the
+per-occupation `--limit` counts matching people instead of trimming a global list afterwards.
+
+```bash
+node scripts/research-wikidata-people.mjs --config config/research-waves/wikidata-wave-004-digital-creators-social-video.json \
+  --country Q16 --country-label Canada --limit 50 --min-sitelinks 0
+```
+
+- `--country-label <name>` decides which citizenship becomes the candidate's `country`. A
+  targeted wave should set it, otherwise a dual citizen can be filed under the other country
+  and disappear from the market you targeted. Every citizenship is kept in `citizenships`.
+- `--include-residence` widens the match to residence (P551) and work location (P937) resolved
+  through P17, for people based in a country without holding its citizenship. It is a heavier
+  query; use it when citizenship alone returns too few people.
+
+Country QIDs: Canada `Q16`, United States `Q30`, United Kingdom `Q145`, Germany `Q183`,
+Türkiye `Q43`.
+
+Category slugs in a wave config must exist in `allowedCategories`
+(`scripts/lib/openalex-research.mjs`). An unknown slug is relabelled `thought-leadership` and
+the run prints a warning; before 2026-08-08 it did so silently, which is how whole creator
+waves ended up filed as generic thought leadership.

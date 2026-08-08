@@ -132,6 +132,70 @@ production campaign wave.
 See `docs/host-prospect-cli-runbook.md` for the local command sequence,
 environment variables, dry-run behavior, live-mode switch, and retention check.
 
+## Production Configuration
+
+Production Conversio is `https://api.beglib.com`. Paths and the v1 contract are unchanged
+from beta; the base URL is the only endpoint difference.
+
+The CTA is minted by Conversio on its own `PUBLIC_WEB_BASE_URL`, which in production is
+`https://app.beglib.com`. `HOST_PROSPECT_ALLOWED_CTA_ORIGINS` is an **exact origin match**,
+so it must read `https://app.beglib.com`. Listing the bare apex, as the pre-production
+example did, rejects every production CTA with `response.ctaUrl origin is not allowlisted`.
+
+Never construct the CTA. Conversio mints the token; a self-built URL cannot validate.
+
+## Sending the Invitation
+
+Conversio has no invitation email template. The only host-related template it owns is the
+verification code used later inside the claim flow, so **if this system does not send the
+invitation, nobody does.**
+
+`tmpl-host-invite` in `scripts/lib/outreach-mail.mjs` carries the claim link. The send path
+resolves the CTA from the private Host prospect state written by
+`host-prospect:record-response`, and only for that template — no other template may carry a
+claim link, and the invitation template refuses to render without one.
+
+The claim token lives in the URL **fragment**, which is what keeps it out of server logs.
+Everything that could reshape it is blocked:
+
+- The rendered link is checked against the v1 CTA pattern (`/host/invite#t=` plus exactly
+  43 characters) before it can enter a message, and again immediately before delivery.
+- Both the text and HTML bodies must contain the link verbatim; a rewritten or truncated
+  link fails validation rather than reaching the recipient.
+- The SES configuration set has open and click tracking disabled. A tracker that rewrites
+  links would strip the fragment and produce an invitation that looks correct and cannot
+  be claimed.
+
+A prospect that is terminal, expired, or whose CTA has been redacted under the retention
+policy is not invitable, and the renderer refuses an expired prospect outright.
+
+The claim token is a bearer credential. It never reaches the browser: the dashboard is
+served a masked twin of the message whose body hash is the real one, so approving what is
+displayed still authorises exactly the bytes that will be sent.
+
+## Production Readiness on the Conversio Side
+
+As of the 2026-08-07 handover the flow is **disabled in production**:
+`GET /host/invite/session` answers `host_invite_unavailable`, and the production platform
+Terraform carries no `HOST_PROSPECT_*` variables, so every flag sits at its default.
+
+Before this system can issue a single prospect, Conversio needs
+`HOST_PROSPECT_INGRESS_ENABLED` and `HOST_PROSPECT_PUBLIC_FLOW_ENABLED` set to `true`, an
+integration id, at least one HMAC key, and a CTA token secret of 32 characters or more.
+The last two are secrets; the CTA token secret is not part of the existing fifteen-secret
+production contract, so it needs provisioning, an IAM grant, and a Terraform change.
+Enabling ingress without the HMAC key or the CTA secret makes the Conversio API refuse to
+boot, so the flags and secrets must land in the same change.
+
+Verify in this order once it is enabled:
+
+1. `GET https://api.beglib.com/host/invite/session` stops answering `host_invite_unavailable`.
+2. Issue one prospect to an address you control; the response carries a `ctaUrl` on
+   `app.beglib.com` with a 43-character fragment token.
+3. Open the CTA in a signed-out browser and complete the claim.
+4. Read the event feed and confirm `host_enrollment.accepted` appears.
+5. Confirm the invitation email preserved the fragment.
+
 ## Outreach Boundary
 
 Marketing consent is not created by Host enrollment. Campaign suppression and
