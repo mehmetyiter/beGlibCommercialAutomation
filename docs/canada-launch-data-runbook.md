@@ -106,24 +106,62 @@ node scripts/build-candidate-discovery-dossiers.mjs \
 | Candidates | 28,522 | 29,069 |
 | Canadians | 810 | **1,399** |
 | Canadians with a YouTube channel | 98 | **230** |
-| Contact candidates (whole pool) | **0** | 83 |
-| Public email candidates | 0 | 20 |
+| Canadians with a podcast channel | 0 | 7 |
+| Canadians with a newsletter/feed | 0 | 37 |
+| Contact candidates (whole pool) | **0** | 84 |
+| Public email candidates | 0 | 21 |
 | Contact page candidates | 0 | 63 |
-| Canadians with any contact candidate | 0 | 65 |
-| Five-star dossiers | 0 | 5 |
+| Canadians with any contact candidate | 0 | 66 |
+| Five-star dossiers | 0 | 10 |
 
-Canadian stars: 5★ 5, 4★ 40, 3★ 177, 2★ 100, 1★ 1,077. Canadian categories now separate
+Canadian stars: 5★ 10, 4★ 39, 3★ 175, 2★ 99, 1★ 1,076. Canadian categories now separate
 properly: film 112, entertainment 96, media 94, activism 94, digital-creator 79, speaking 71,
 blogging 66, youtube 56, streaming 52, podcast 43.
 
+### Podcast and feed pass
+
+With the PodcastIndex credentials in place, `--sources podcastindex` over both Canada waves
+returned 191 suggestions (91 above the confidence floor), and parsing the feeds discovered by
+the page scan added 60 parsed feeds and 4 more public email candidates:
+
+```bash
+node scripts/research-creator-sources.mjs --batch data/canada-wave-004-digital-creators-social-video.local.json \
+  --countries Canada --sources podcastindex --max 3 --delay-ms 350 \
+  --output exports/canada-creators-004-podcast.local.md --json-output exports/canada-creators-004-podcast.local.json
+
+node scripts/research-feed-source-signals.mjs --input-dir exports \
+  --filename-includes canada- --filename-excludes discovery-dossiers,summary \
+  --limit 150 --delay-ms 600 --timeout-ms 12000 \
+  --output exports/canada-feed-source-signals.local.md --json-output exports/canada-feed-source-signals.local.json
+```
+
+### Pilot short list
+
+49 Canadians now sit at four or five stars, and 66 have at least one contact candidate. The
+addresses discovered are real published business routes — `partnerships@azzyland.com`,
+`ItsFunneh.Business@outlook.com`, `hello@corrieblock.com` — mostly from YouTube channel
+metadata and official site contact pages.
+
+Two things for whoever works this list:
+
+- Several are consumer-domain addresses (gmail, hotmail, outlook) published as the business
+  contact. That is still a published professional route, but the source page has to be opened
+  and the evidence note has to say so; the verification gate will not accept it otherwise.
+- Agency addresses such as `teampokimane@wmeagency.com` are representative routes. The
+  verification gate only accepts `public-business-email` with a `public-business-contact`
+  basis, so a representative route cannot be verified or emailed through this system as it
+  stands. Treat those as manual, human-initiated contact.
+
 ## Still open
 
-- **Podcast discovery has never run.** `PODCASTINDEX_API_KEY` and `PODCASTINDEX_API_SECRET`
-  are empty in `.env.local`, so podcast channels across the entire pool are still zero. This
-  is the one remaining gap against the launch priority, and PodcastIndex has no per-call quota
-  cost worth managing — it is only waiting on credentials.
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run
-  with `--offset 150` to continue; the worker records what it attempted.
+  with `--offset 150` to continue; the worker records what it attempted. This is the highest
+  value remaining run: it is where email addresses come from.
+- **The YouTube search pass covered 50 of 142 eligible Canadians.** Re-run the selector; it
+  excludes anyone already attempted, so it picks up where it left off. Budget 100 quota units
+  per candidate.
+- Podcast discovery has only run against the two Canada waves. The other 27,600 candidates
+  have never been searched.
 - One SPARQL query (`political activist`) timed out on the public endpoint. Re-run that
   occupation alone with a smaller `--limit`.
 - The remaining pool outside Canada has no contact data at all. That is correct for now:
