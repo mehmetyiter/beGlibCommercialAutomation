@@ -235,6 +235,49 @@ The daily 10,000-unit budget is real: after 140 searches the API returned
 attempted, so the selector will skip them — re-run tomorrow to pick them up. Resolving
 declared channels never hit the limit: 227 more channels across eleven waves cost 11 units.
 
+## Fourth collection block, 2026-08-08
+
+Every wave config had already been seeded against Canada, so this block went deeper rather
+than wider, and it found two new seams.
+
+**Offset paging.** The waves ran with `--limit 50` per occupation, which is the first 50
+Canadians Wikidata returns for that occupation, not all of them. Re-running the creator, media,
+and music waves with `--offset 50` produced 1,068 more Canadians from the same queries.
+
+**Residence, not just citizenship.** `--include-residence` widens the match to residence and
+work location resolved through P17. For the creator and media waves that added 663 Canadians
+who live and work in Canada without holding citizenship — for a launch aimed at a market
+rather than a passport, exactly the right people, and previously invisible.
+
+| | Round 30 | Round 40 |
+| --- | --- | --- |
+| Candidates | 35,528 | **36,198** |
+| Canadians | 7,926 | **8,576** |
+| Canadians with a YouTube channel | 473 | **552** |
+| Canadians with a newsletter/feed | 141 | **216** |
+| Canadians with a website | 1,691 | **1,887** |
+| Contact candidates | 483 | **707** |
+| Public email candidates | 205 | **321** |
+| Canadians with a contact candidate | 239 | **344** |
+| Canadians with an email | 128 | **190** |
+| Five-star dossiers | 40 | **63** |
+| Pilot list (Canada, 4-5 star, has an email) | 62 | **98** |
+
+### Depth is where the addresses are, again
+
+Two more traversal passes produced 282 of the 116 new public email candidates in this block
+(146 at depth 2, 136 at depth 3). A first fetch of a personal site finds the contact page; the
+second finds the address; the third finds the addresses on the pages that contact page links
+to. Depth 3 fetched 199 pages for 136 addresses — the best ratio of any run so far. The worker
+caps traversal at `--max-depth 3`.
+
+### YouTube search is out of quota until the daily reset
+
+All 30 retry searches returned `429 rateLimitExceeded`; 170 searches have been spent against a
+10,000-unit daily budget. The attempts are recorded, so the selector skips them and the next
+run continues. Resolving declared channels stayed free of the limit — 306 more channels this
+block for roughly 15 units. There are 225 eligible Canadians still queued for search.
+
 ## Still open
 
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run
