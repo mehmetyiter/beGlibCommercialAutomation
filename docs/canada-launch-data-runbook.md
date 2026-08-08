@@ -332,6 +332,61 @@ quota error silently retired those candidates from the queue forever instead of 
 them. The selector now ignores an item whose candidate has a recorded YouTube failure. That
 change alone returned 51 Canadians to the queue (attempted count 170 to 119).
 
+## Sixth collection block, 2026-08-08
+
+The cheapest run in the pipeline turned out to be the most productive one.
+
+### Resolving declared YouTube channels is where the addresses were hiding
+
+Most candidates arrive from Wikidata already carrying a YouTube URL, and until now only the
+Canadian ones had ever been sent to the API. Resolving the rest with `--youtube-mode
+known-only` does not find *new* channels — it finds the same channels' **descriptions**, and a
+creator's business address lives in the description. `channels.list` batches 50 ids per call,
+so five slices across the whole pool cost **77 quota units** and produced 272 new public email
+candidates. Slice 1 alone surfaced 314 addresses in resolved descriptions.
+
+This is the single best cost-to-yield run available and it should be re-run after every seed
+wave, before anything expensive:
+
+```bash
+node scripts/research-creator-sources.mjs --batch <batch> \
+  --categories youtube,media,streaming,digital-creator,blogging,entertainment,podcast \
+  --sources youtube --youtube-mode known-only --youtube-search-limit 0 --max 3 --limit 4000 \
+  --output exports/pool-yt-known-slice1.local.md --json-output exports/pool-yt-known-slice1.local.json
+```
+
+| | Round 50 | Round 60 |
+| --- | --- | --- |
+| Contact candidates | 789 | **1,121** |
+| Public email candidates | 368 | **640** |
+| Candidates with an email, whole pool | — | **468** |
+| Canadians with an email | 216 | **244** |
+| Five-star dossiers | 97 | **112** |
+| Pilot list (Canada, 4-5 star, has an email) | 104 | **113** |
+| Podcast signals | 90/2,737 | **95/2,901** |
+| Creator suggestions | 555 | **3,847** |
+
+Accepted YouTube channels barely moved (4,863 to 4,874) because these are the channels the
+candidates already declared — the resolution added evidence, not entries. That evidence is the
+whole point.
+
+Addresses now exist outside the launch market too: Canada 244, United States 41, Germany 24,
+Taiwan 24, Japan 21, France 12, South Korea 11. Nothing about the Canada-first priority
+required throwing those away.
+
+### Podcast coverage widened again
+
+A sixth slice covered the categories the earlier passes had skipped — environment, humanities,
+travel, craft, fashion, family, religion, law and policy — adding 186 suggestions. Podcast
+signals across the pool now sit at 95 accepted against 2,901 awaiting human identity review,
+spread over 1,711 candidates.
+
+### YouTube search is still rate-limited
+
+240 searches spent today; every retry returned `429`. With the selector fix from the previous
+block those candidates stay in the queue instead of being retired, so the next run after the
+daily reset continues where this one stopped.
+
 ## Still open
 
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run
