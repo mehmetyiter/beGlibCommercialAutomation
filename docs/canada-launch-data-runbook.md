@@ -101,22 +101,25 @@ node scripts/build-candidate-discovery-dossiers.mjs \
 
 ## Where the pool stands
 
-| | Before | After |
-| --- | --- | --- |
-| Candidates | 28,522 | 29,069 |
-| Canadians | 810 | **1,399** |
-| Canadians with a YouTube channel | 98 | **230** |
-| Canadians with a podcast channel | 0 | 7 |
-| Canadians with a newsletter/feed | 0 | 37 |
-| Contact candidates (whole pool) | **0** | 84 |
-| Public email candidates | 0 | 21 |
-| Contact page candidates | 0 | 63 |
-| Canadians with any contact candidate | 0 | 66 |
-| Five-star dossiers | 0 | 10 |
+| | Start | After the first pass | Now |
+| --- | --- | --- | --- |
+| Candidates | 28,522 | 29,069 | **31,887** |
+| Canadians | 810 | 1,399 | **4,254** |
+| Canadians with a YouTube channel | 98 | 230 | **376** |
+| Canadians with a podcast channel | 0 | 7 | **18** |
+| Canadians with a newsletter/feed | 0 | 37 | **107** |
+| Contact candidates (whole pool) | **0** | 84 | **369** |
+| Public email candidates | 0 | 21 | **158** |
+| Contact page candidates | 0 | 63 | **211** |
+| Canadians with any contact candidate | 0 | 66 | **183** |
+| Canadians with an email | 0 | 21 | **100** |
+| Five-star dossiers | 0 | 10 | **31** |
 
-Canadian stars: 5★ 10, 4★ 39, 3★ 175, 2★ 99, 1★ 1,076. Canadian categories now separate
-properly: film 112, entertainment 96, media 94, activism 94, digital-creator 79, speaking 71,
-blogging 66, youtube 56, streaming 52, podcast 43.
+Canadian stars: 5★ 31, 4★ 60, 3★ 313, 2★ 220, 1★ 3,630. Canadian categories now separate
+properly: music 591, sports 450, medicine 323, thought-leadership 308, performance 287,
+science 233, fitness 164, academia 133, technology 127, education 104, audio 98, therapy 90.
+
+**49 Canadians are at four or five stars with a discovered email address** — the pilot list.
 
 ### Podcast and feed pass
 
@@ -151,6 +154,33 @@ Two things for whoever works this list:
   verification gate only accepts `public-business-email` with a `public-business-contact`
   basis, so a representative route cannot be verified or emailed through this system as it
   stands. Treat those as manual, human-initiated contact.
+
+## Second collection block, 2026-08-08
+
+Ten more rounds, in the order that mattered: finish contact discovery on the candidates we
+already had, then widen the Canadian seed, then enrich the new people.
+
+| Round | Run | Result |
+| --- | --- | --- |
+| 1 | Page contact, creators, `--offset 150` | 78 pages, 39 contact pages, 8 emails |
+| 2 | Page contact, Canadians in the original pool | 117 pages, 57 contact pages, 20 emails |
+| 3 | **Depth-2 over the discovered contact pages** | 132 pages, **90 emails** |
+| 4 | YouTube search, next 50 | 50 searches, 73 priority suggestions |
+| 5 | YouTube known channels, original pool | 98 channels for **3 quota units** |
+| 6 | PodcastIndex, original pool (803) | 179 suggestions, 96 priority |
+| 7 | Seed waves 002, 003 | 1,545 Canadians |
+| 8 | Seed waves 011, 015, 019 | 1,758 Canadians |
+| 9 | YouTube + PodcastIndex on the new waves | 168 channels, 561 podcast suggestions |
+| 10 | Page contact + depth 2 + feeds on the new waves | 238 pages, **76 emails**, 189 feeds parsed |
+
+**The depth-2 pass is where email addresses come from.** A first pass over a personal site
+finds the *contact page*; only fetching that page finds the address on it. Rounds 3 and 10
+produced 145 of the 158 public email candidates in the pool. Any future collection should
+treat it as a required second step, not an optional extra.
+
+Cheap versus expensive, measured: resolving 266 already-declared YouTube channels cost 7 quota
+units in total, because `channels.list` batches 50 ids per call. The 100 searches for people
+with no declared channel cost 10,000. Always run `known-only` first.
 
 ## Still open
 
