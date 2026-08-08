@@ -278,6 +278,60 @@ All 30 retry searches returned `429 rateLimitExceeded`; 170 searches have been s
 run continues. Resolving declared channels stayed free of the limit — 306 more channels this
 block for roughly 15 units. There are 225 eligible Canadians still queued for search.
 
+## Fifth collection block, 2026-08-08
+
+Canada stays the priority, but the podcast scan was extended past it. Every podcast signal in
+the pool was Canadian, not because other markets have none, but because PodcastIndex had only
+ever been pointed at Canadians. Five category-sliced passes over the whole pool fixed that.
+
+### Nothing found is thrown away — but it was invisible
+
+`npm run research:creator-coverage` reads a built dossier export and reports creator signals
+by country and by category, counting accepted and awaiting-review separately:
+
+```bash
+npm run research:creator-coverage
+npm run research:creator-coverage -- --countries Canada
+```
+
+The distinction matters because a quarantined signal is not a miss. It is a real discovery
+that failed automatic identity attribution and is waiting for a human; it stays in the export
+in full. Without this report a thousand podcast discoveries looked like nothing had been
+found, and a country that had never been scanned looked identical to one that had been scanned
+and come back empty.
+
+| Country | Candidates | Podcast ok/review | YouTube ok/review |
+| --- | --- | --- | --- |
+| Canada | 8,576 | 26/1,489 | 684/778 |
+| United States | 6,065 | 35/619 | 1,125/0 |
+| United Kingdom | 1,825 | 15/200 | 300/0 |
+| Germany | 3,975 | 3/108 | 322/0 |
+
+### Where the block landed
+
+| | Round 40 | Round 50 |
+| --- | --- | --- |
+| Podcast signals, whole pool | 26 accepted / 1,488 review | **90 accepted / 2,737 review** |
+| Candidates with a podcast signal | 835 | **1,609** |
+| Contact candidates | 707 | **789** |
+| Public email candidates | 321 | **368** |
+| Canadians with an email | 190 | **216** |
+| Five-star dossiers | 63 | **97** |
+| Pilot list (Canada, 4-5 star, has an email) | 98 | **104** |
+
+Outside Canada the podcast scan now covers 7,000 candidates across the categories most likely
+to host: creators and media, public intellectuals and journalism, science and academia, health
+and wellness, arts and business.
+
+### A rate-limit error was deleting people from the work queue
+
+`select-youtube-search-candidates.mjs` treated any candidate appearing in a search-only
+package as already attempted. When the daily YouTube quota runs out the worker still writes an
+item for every candidate in the batch, alongside a `429 rateLimitExceeded` failure — so a
+quota error silently retired those candidates from the queue forever instead of deferring
+them. The selector now ignores an item whose candidate has a recorded YouTube failure. That
+change alone returned 51 Canadians to the queue (attempted count 170 to 119).
+
 ## Still open
 
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run

@@ -181,3 +181,16 @@ Two halves, cheapest first:
   ranked list from `scripts/select-youtube-search-candidates.mjs`, which also takes
   `--countries`, skips anyone already resolved or already attempted, and orders by discovery
   stars.
+
+## Coverage report
+
+`npm run research:creator-coverage` reads a built dossier export and reports podcast, YouTube,
+and newsletter signals by country and by category, counting accepted and awaiting-review
+separately. Use it to tell a real gap from a real miss: a country with zeroes in both columns
+has never been scanned, while one with a large review column has been scanned and is waiting
+on human identity decisions.
+
+```bash
+npm run research:creator-coverage
+npm run research:creator-coverage -- --countries Canada --top-categories 10
+```

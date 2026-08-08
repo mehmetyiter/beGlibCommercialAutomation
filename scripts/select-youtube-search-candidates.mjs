@@ -103,8 +103,21 @@ async function collectAttemptedCandidateIds(directory) {
         continue;
       }
 
+      /**
+       * A candidate whose search never actually ran must not count as attempted. Exhausting
+       * the daily YouTube quota writes an item for every candidate in the batch alongside a
+       * `429 rateLimitExceeded` failure, and marking those as done would drop them from the
+       * work queue permanently — the run would silently delete people from the pipeline
+       * rather than defer them.
+       */
+      const unsearched = new Set(
+        (payload.failures ?? [])
+          .filter((failure) => failure.source === 'youtube' && failure.candidateId)
+          .map((failure) => failure.candidateId),
+      );
+
       for (const item of payload.items ?? []) {
-        if (item.candidateId) {
+        if (item.candidateId && !unsearched.has(item.candidateId)) {
           attempted.add(item.candidateId);
         }
       }
