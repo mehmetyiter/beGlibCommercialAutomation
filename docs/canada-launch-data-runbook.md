@@ -387,6 +387,47 @@ spread over 1,711 candidates.
 block those candidates stay in the queue instead of being retired, so the next run after the
 daily reset continues where this one stopped.
 
+## Seventh collection block, 2026-08-08
+
+Two seams from earlier blocks were widened, and the depth pass held its record.
+
+**Residence, applied to four more waves.** `--include-residence` on music, sports/wellness,
+science/academia, and health added 2,873 more Canada-based people. Across six waves it has now
+contributed the largest single share of the Canadian pool. For a launch aimed at a market, a
+person who lives and works in Canada counts the same as one who holds the passport, and
+citizenship-only filtering was hiding them.
+
+**Offset 100.** A third page of the creator, media, and music waves added 1,197 more.
+Wikidata is not exhausted at offset 50; it is not exhausted at 100 either.
+
+| | Round 60 | Round 70 |
+| --- | --- | --- |
+| Candidates | 36,198 | **37,346** |
+| Canadians | 8,576 | **9,638** |
+| Contact candidates | 1,121 | **1,214** |
+| Public email candidates | 640 | **692** |
+| Canadians with an email | 244 | **268** |
+| Five-star dossiers | 112 | **116** |
+| Pilot list (Canada, 4-5 star, has an email) | 113 | **132** |
+| Podcast signals | 95/2,901 | **99/3,059** |
+
+### The depth pass keeps beating everything else
+
+Two traversal runs this block: 89 pages fetched for **111 addresses**, and 78 pages for **81
+addresses**. Better than one address per page fetched, against roughly one per five on a first
+pass over a personal site. Six blocks in, every attempt to find a cheaper source of addresses
+has come back to the same answer: fetch the contact page the first pass discovered.
+
+The order that has held up across seven blocks, cheapest first:
+
+1. `--youtube-mode known-only` — descriptions of already-declared channels, ~1 quota unit per
+   50 candidates, hundreds of business addresses.
+2. Page contact over candidate websites — one page per second, finds contact pages.
+3. Depth-2 and depth-3 traversal of those contact pages — where the addresses actually are.
+4. PodcastIndex by name — no quota cost, but most results need human identity review.
+5. YouTube search — 100 quota units each, 100 per day. Last resort, and the selector ranks by
+   discovery stars so the budget goes to the best candidates first.
+
 ## Still open
 
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run
