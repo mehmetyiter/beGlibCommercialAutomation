@@ -428,6 +428,44 @@ The order that has held up across seven blocks, cheapest first:
 5. YouTube search — 100 quota units each, 100 per day. Last resort, and the selector ranks by
    discovery stars so the budget goes to the best candidates first.
 
+## Eighth collection block, 2026-08-11
+
+Twenty rounds. The YouTube quota had reset, so the search seam reopened; the rest was depth,
+residence, and the first contact discovery outside the launch market.
+
+| | Round 70 | Round 90 |
+| --- | --- | --- |
+| Candidates | 37,346 | **38,283** |
+| Canadians | 9,638 | **10,488** |
+| Contact candidates | 1,214 | **1,453** |
+| Public email candidates | 692 | **790** |
+| Candidates with an email, pool | 492 | **547** |
+| Canadians with an email | 268 | **286** |
+| Five-star dossiers | 116 | **147** |
+| Pilot list (Canada, 4-5 star, has an email) | 132 | **141** |
+| Podcast signals | 99/3,059 | **105/3,236** |
+| YouTube signals | 4,967/861 | **5,114/1,320** |
+
+### YouTube search, after the reset
+
+100 searches, no failures, 109 priority suggestions. The selector fix from block five paid off
+here: the candidates that had been rate-limited the day before were still in the queue rather
+than retired, so the run resumed exactly where the quota had cut it off.
+
+### The United States now has contact data
+
+Contact discovery had only ever run in Canada, so every address in the pool was Canadian by
+construction rather than by finding. One page pass and one depth pass over US candidates
+produced 90 addresses; the US now holds 78 candidates with an address against Canada's 286.
+Canada stays the priority and stays far ahead, but a scan that was never run is not the same
+as a market with nothing in it, and the coverage report now shows the difference.
+
+### Depth, block eight
+
+Four traversal passes: 84 pages for 53 addresses, 70 for 34, 65 for 41, and 97 for 61. Still
+the best yield per fetch in the pipeline, and still the reason to run a first pass at all —
+the first pass exists to find the pages the second one reads.
+
 ## Still open
 
 - **Contact discovery covered 150 pages of a possible 427 Canadian website channels.** Re-run
